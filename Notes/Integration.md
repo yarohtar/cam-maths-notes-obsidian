@@ -1,1 +1,1 @@
-[[Tribes]]
+[[Sigma algebra]]
