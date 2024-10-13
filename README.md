@@ -8,6 +8,7 @@ this is a second change made in the main repository
 ## How to view
 Firstly download the Obsidian app from the official website https://obsidian.md/
 
+### The easy way (sadly with no updates)
 On github, click Code > Download ZIP and save it.
 
 Extract the file anywhere you want (make sure it is all contained in one directory - this should be true by default)
