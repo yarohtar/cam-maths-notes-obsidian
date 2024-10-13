@@ -3,11 +3,17 @@ None of this is official and it is not an accurate representation of what was le
 
 ## How to view
 Firstly download the Obsidian app from the official website https://obsidian.md/
+
 On github, click Code > Download ZIP and save it.
+
 Extract the file anywhere you want (make sure it is all contained in one directory - this should be true by default)
+
 Now open Obsidian, select Open folder as vault and navigate to the folder you extracted. 
+
 You should be good to go.
+
 
 ## How to navigate
 In the top right corner, you can switch between reading and editing modes.
+
 Pressing CTRL+O (CMD+O on Mac) you can type in the name of the course you're interested in. If the course is in the database, you'll find its initial file, usually an index of topics. Now you can click on links (CTRL/CMD + Click to open in new tab) and read.
