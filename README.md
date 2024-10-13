@@ -2,6 +2,8 @@ This is an Obsidian Vault that I used to organize my notes on various Part IB an
 
 None of this is official and it is not an accurate representation of what was lectured. I tend to give more attention to the things that I found difficult, while I might omit things that I already knew. 
 
+this is a change made
+
 ## How to view
 Firstly download the Obsidian app from the official website https://obsidian.md/
 
