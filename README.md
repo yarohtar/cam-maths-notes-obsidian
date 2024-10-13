@@ -21,3 +21,5 @@ If you're prompted to install plugins, they aren't essential, but a few files wi
 In the top right corner, you can switch between reading and editing modes.
 
 Pressing CTRL+O (CMD+O on Mac) you can type in the name of the course you're interested in. If the course is in the database, you'll find its initial file, usually an index of topics. Now you can click on links (CTRL/CMD + Click to open in new tab) and read.
+
+This is a change made in the cloned repository
