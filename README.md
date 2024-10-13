@@ -13,6 +13,7 @@ Now open Obsidian, select Open folder as vault and navigate to the folder you ex
 
 You should be good to go.
 
+If you're prompted to install plugins, they aren't essential, but a few files will not display correctly without them
 
 ## How to navigate
 In the top right corner, you can switch between reading and editing modes.
