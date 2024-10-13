@@ -1,0 +1,8 @@
+[[Schrodinger Equation]]
+[[Wave function]]
+[[Particle in Potential Well]]
+[[Scattering]]
+[[Harmonic Oscillator in QM]]
+[[Hermetian operator]]
+[[Measurements in QM]]
+[[Commutator]]
