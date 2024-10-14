@@ -7,6 +7,8 @@ The set of path components is $\pi_{0}(X)$. If $\pi_{0}(X)=\{ * \}$ then $X$ is 
 Given a map $f:X\to Y$, get a well define function:
 $$
 \begin{align}
-\pi_{0}:\pi_{0}(X)\to\pi_{0}(Y)
+\pi_{0}:\pi_{0}(X)&\to\pi_{0}(Y) \\
+[x]&\to[f(x)]
 \end{align}
 $$
+which satisfies 
