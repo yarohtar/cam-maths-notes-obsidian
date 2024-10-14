@@ -15,13 +15,14 @@ The following hold:
 (1) Let $t$ interpolate between paths and $s$ be the path variable.
 Consider the following image:
 ```
-^--0--|
+^---0---|-1-|-2-|
 |
 t
 |
-|-0-|-1-|--2--|
+|-0-|-1-|---2---|
 -------s-------->
 ```
+
 
 ### Theorem
 Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
