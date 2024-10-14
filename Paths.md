@@ -7,5 +7,8 @@ $\gamma:x_{0}\leadsto x_{1}$
 ### Definition (concatenation)
 Let $\gamma:x_{0}\leadsto x_{1}$ and $\gamma':x_{1}\leadsto x_{2}$. Then we define a new path 
 $$
+(\gamma \cdot \gamma')(t)=\begin{cases}
+\gamma(2t) & t\leq \frac{1}{2}
 
+\end{cases}
 $$
