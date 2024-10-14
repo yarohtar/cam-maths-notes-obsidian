@@ -26,8 +26,8 @@ t
 If we linearly scaled the bottom intervals to the top ones, the interval lengths would be (as a function of $t$): $t+1\over 4$, $\frac{1}{4}$, $2-t\over 4$.
 This motivates the homotopy:
 $$
-H=\begin{cases}
-
+H(s,t)=\begin{cases}
+\gamma_{0}\left( \frac{4s}{t+1} \right) & s\leq
 \end{cases}
 $$
 ### Theorem
