@@ -23,4 +23,6 @@ You will be prompted 3 times:
 You should be got to go now. 
 
 # How to update from remote
-If I make changes/updates to the Vault, you will be able to pull them by hitting CTRL+$P$
+If I make changes/updates to the Vault, you will be able to pull them by hitting CTRL+P and searching for "Git: Pull". This should do everything it needs to. 
+
+If you made changes to the
