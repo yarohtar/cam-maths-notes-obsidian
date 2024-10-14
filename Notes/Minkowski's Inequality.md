@@ -8,4 +8,4 @@ $$ WLOG $x\leq y$. It is certainly true for $x=y$ (then inequality holds). Now t
 ### Minkowski's Inequality
 Let $1\leq p<\infty$ and $x,y\in L_{p}$. Then $x+y\in L_{p}$ and $||x+y||_{p}\leq ||x||_{p}+||y||_{p}$.
 #### Proof
-First show for $||x||_{p}, ||y||_{p}\leq 1$
+First show if $||x||_{p}, ||y||_{p}\leq 1$ then $||\lambda x+(1-\lambda)y||_{p}\leq_{1}$
