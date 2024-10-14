@@ -23,7 +23,7 @@ t
 |-0-|-1-|---2---|
 *------s-------->
 ```
-This motivates stuff of form 
+This motivates stuff of form $$
 ### Theorem
 Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
 $$
