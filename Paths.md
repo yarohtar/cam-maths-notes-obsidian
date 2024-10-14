@@ -13,4 +13,5 @@ $$
 \end{cases}
 $$
 ### Definition (inverse)
-$\gamma:x_{1}\leadsto x_{0}$ with $\gamma(t)=\gamma(1-t)$
+$\gamma ^{-1}:x_{1}\leadsto x_{0}$ with $\gamma(t)=\gamma(1-t)$
+### Definition (constant path)
