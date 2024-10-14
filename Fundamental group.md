@@ -7,4 +7,6 @@ $$
 \gamma_{2}:x_{2}\leadsto x_{3}
 \end{align}
 $$
-The following holds
+The following hold:
+1. $(\gamma_{0}\cdot \gamma_{1})\cdot \gamma_{2}\simeq \gamma_{0}\cdot(\gamma_{1}\cdot \gamma_{2})$
+2. $\gamma_{0}\cdot c_{}$
