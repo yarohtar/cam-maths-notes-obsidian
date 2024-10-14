@@ -18,3 +18,4 @@ In $\mathbb{R}^3$ we'll use the shorthand notation
 $$
 \ket{\psi} =\int \psi(\underline{x})\ket{\underline{x}} d^3x
 $$
+where $\psi(\underline{x})=\psi(x,y,z)$ and $\ket{\underline{x}}=\ket{x}\times \ket{y}\times \ket{z}$
