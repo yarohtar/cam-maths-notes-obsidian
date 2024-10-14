@@ -35,4 +35,4 @@ Done.
 The relation of homotopy equivalence between spaces is an equivalence relation.
 
 [[Retraction map]]
-[[Deforrmation retraction map]]
+[[Deformation retraction map]]
