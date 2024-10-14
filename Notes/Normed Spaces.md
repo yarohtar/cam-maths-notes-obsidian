@@ -17,3 +17,5 @@ Can check that $B$ is closed, bounded, convex, symmetric and a neighbourhood of 
 Let $S$ be the set of all scalar sequences (made into a vector space by coordinatewise addition)
 
 $L_{p}$ stuff is defined on subsets of $S$ where they converge ... 
+
+[[Banach ]]
