@@ -12,7 +12,8 @@ NOTE: a normed space gives rise to a [[Metric spaces|metric space]] with $d(x,y)
 ### Unit ball
 $B=\{x\in X : ||x||\leq 1\}$
 
-Can check that $B$ is closed, bounded, convex, symmetric and a neighbourhood of 0, then $B$ does define a norm by $||x||=\inf\{t>0 : x\in tB\}$.
+Can check that $B$ is closed, bounded, convex, symmetric and a neighbourhood of 0.
+Suppose $B'$ does satisfy this, 
 
 [[Banach Space]]
 [[Hölder inequality]]
