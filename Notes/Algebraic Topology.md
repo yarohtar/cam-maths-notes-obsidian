@@ -10,5 +10,5 @@ A cts function will be called a map.
 
 
 [[Homotopy]]
-[[Paths]]
+![[Paths]]
 [[Fundamental group]]

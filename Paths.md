@@ -21,5 +21,5 @@ $c_{x_{0}}:x_{0}\leadsto x_{0}$
 ### Definition (homotopic paths)
 Paths $\gamma:x_{0}\leadsto x_{1}$ and $\gamma':x_{0}\leadsto x_{1}$ are homotopic as paths from $x_{0}$ to $x_{1}$ if they are homotopic as [[Homotopy#Definition (homotopy)|maps]] relative to $\{ 0,1 \}$
 
-[[Path Components]]
+![[Path Components]]
 
