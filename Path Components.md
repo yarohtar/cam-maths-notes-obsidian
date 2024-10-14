@@ -40,4 +40,4 @@ Similarly for other way.
 ### Example
 $D^1=[-1,1]$, $S^0=\{ -1,1 \}$. Suppose there is a retraction $r:D^1\to S^0$ with $r\circ i=id_{S^0}$
 Now $\pi_{0}(S^0)=\{ -1,1 \}$, $\pi_{0}(D^1)=\{ * \}$.
-Also $\pi_{0}(ri)=\pi_{0}(r)\pi_{0}(i)$, but the first one is a bijection while the second one cannot be because $\pi_{0}(r):\{ * \}\to \{ -1,1 \}$.
+Also $\pi_{0}(ri)=\pi_{0}(r)\pi_{0}(i)$, but the first one is a bijection while the second one cannot be because $\pi_{0}(r):\{ * \}\to \{ -1,1 \}$. Easy 
