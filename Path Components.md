@@ -7,8 +7,10 @@ The set of path components is $\pi_{0}(X)$. If $\pi_{0}(X)=\{ * \}$ then $X$ is 
 Given a map $f:X\to Y$, get a well define function:
 $$
 \begin{align}
-\pi_{0}:\pi_{0}(X)&\to\pi_{0}(Y) \\
+\pi_{0}(f):\pi_{0}(X)&\to\pi_{0}(Y) \\
 [x]&\to[f(x)]
 \end{align}
 $$
-which satisfies 
+and it satisfies:
+1. $f\simeq g\implies \pi_{0}(f)=\pi_{0}(g)$
+2. 
