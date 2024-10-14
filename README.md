@@ -30,4 +30,6 @@ Alternatively, by going to Settings (CTRL+,) and clicking on Git on bottom left,
 If you made changes to some files the Pull might fail with some error messages about an impossible merge. You will either have to handle this by resolving the impossible merges (where I strongly recommend using command line git) or you'll have to reinstall the whole Vault, losing your changes.
 
 # How to navigate
-By hitting CTRL+O, you'll be able to search through files. Search for the course that interests you and you'll usually find and 
+Firstly, you can switch between editing and reading mode in the top right corner.
+
+By hitting CTRL+O, you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open  (CTRL+Click to open in new tap)
