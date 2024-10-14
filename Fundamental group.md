@@ -47,7 +47,8 @@ $$
 (3) Now this one is a bit different, but also easier. We will just make paths that go up to $\gamma_{0}(1-t)$ and back.
 $$
 H(s,t)=\begin{cases}
-\gamma_{0}()
+\gamma_{0}(2s) & s\leq{1-t\over 2} \\
+\gamma_{0}(1-t)  & {1-t\over 2} \leq s\leq {1+t\over 2}
 \end{cases}
 $$
 
