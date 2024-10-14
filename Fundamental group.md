@@ -28,8 +28,8 @@ This motivates the homotopy:
 $$
 H(s,t)=\begin{cases}
 \gamma_{0}\left( \frac{4s}{t+1} \right) & s\leq \frac{t+1}{4} \\
-\gamma_{1}\left( \frac{t+1}{4} +4s - t-1\right) & {t+1\over 4}\leq s\leq {t+2\over 4} \\
-\gamma_{2}()
+\gamma_{1}\left(4s - t-1\right) & {t+1\over 4}\leq s\leq {t+2\over 4} \\
+\gamma_{2}({4s\over 2-t} - {t+2\over 4}) & 
 \end{cases}
 $$
 ### Theorem
