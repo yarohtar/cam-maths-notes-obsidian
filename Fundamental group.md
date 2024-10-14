@@ -27,7 +27,8 @@ Now find:
 $$
 \begin{align}
 H(s,0)=\begin{cases}
-\gamma_{0}(4s)
+\gamma_{0}(4s) & 0\leq s\leq \frac{1}{4} \\
+\gamma_{1}\left( 4s+\frac{1}{4} \right)
 \end{cases}
 \end{align}
 $$
