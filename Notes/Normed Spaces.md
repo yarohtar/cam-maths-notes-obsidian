@@ -14,11 +14,6 @@ $B=\{x\in X : ||x||\leq 1\}$
 
 Can check that $B$ is closed, bounded, convex, symmetric and a neighbourhood of 0, then $B$ does define a norm by $||x||=\inf\{t>0 : x\in tB\}$.
 
-### Sequences
-Let $S$ be the set of all scalar sequences (made into a vector space by coordinatewise addition)
-
-$L_{p}$ stuff is defined on subsets of $S$ where they converge ... 
-
 [[Banach Space]]
 [[Hölder inequality]]
 [[Minkowski's Inequality]]
