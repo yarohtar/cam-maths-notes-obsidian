@@ -18,4 +18,5 @@ and it satisfies:
 #### Proof
 Firstly, well defined:
 $[x]=[x']\in \pi_{0}(X)$
-Find $\gamma:$
+Find $\gamma:x\leadsto x'$
+Then $f\circ\gamma:f(x)\leadsto f(x')$
