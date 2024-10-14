@@ -24,4 +24,4 @@ Then $f\circ\gamma:f(x)\leadsto f(x')$ so $[f(x)]=[f(x')]$
 The (2) and (3) are apparently directly from definitions.
 
 ### Corollary
-If $f:X\to Y$
+If $f:X\to Y$ is a [[Homotopy#Definition (homotopy-equivalence)]]
