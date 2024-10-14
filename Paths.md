@@ -19,7 +19,7 @@ $\gamma ^{-1}:x_{1}\leadsto x_{0}$ with $\gamma(t)=\gamma(1-t)$
 $c_{x_{0}}:x_{0}\leadsto x_{0}$
 
 ### Definition (homotopic paths)
-Paths $\gamma:x_{0}\leadsto x_{1}$ and $\gamma':x_{0}\leadsto x_{1}$ are homotopic as paths from $x_{0}$ to $x_{1}$ if 
+Paths $\gamma:x_{0}\leadsto x_{1}$ and $\gamma':x_{0}\leadsto x_{1}$ are homotopic as paths from $x_{0}$ to $x_{1}$ if they are homotopic as [[Homotopy#Definition (homotopy)]] relative to $\{ 0,1 \}$
 
 [[Path Components]]
 
