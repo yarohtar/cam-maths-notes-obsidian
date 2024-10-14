@@ -35,3 +35,4 @@ $$
 &=id_{\pi_{0}(X)}
 \end{align}
 $$
+Similarly for other way.
