@@ -32,6 +32,12 @@ H(s,t)=\begin{cases}
 \gamma_{2}({4s\over 2-t} - {t+2\over 2-t}) & {t+2\over 4}\leq s
 \end{cases}
 $$
+(2) Same strategy, with the following image
+```
+---0---
+-0
+```
+
 ### Theorem
 Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
 $$
