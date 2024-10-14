@@ -21,3 +21,6 @@ You will be prompted 3 times:
 3. Leave the third prompt empty and hit enter
 
 You should be got to go now. 
+
+# How to update from remote
+If I make changes/updates to the Vault, you will be able to pull them by hitting CTRL+$P$
