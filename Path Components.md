@@ -22,3 +22,6 @@ Find $\gamma:x\leadsto x'$
 Then $f\circ\gamma:f(x)\leadsto f(x')$ so $[f(x)]=[f(x')]$
 (1) Say $f\simeq_{H}g$. Then for any $x\in X$ we have $H(x,\cdot):I\to Y$ a path $f(x)\leadsto g(x)$, so $[f(x)]=[g(x)]\in \pi_{0}(Y)$.
 The (2) and (3) are apparently directly from definitions.
+
+### Corollary
+If $f:X\to Y$
