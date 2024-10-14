@@ -49,7 +49,7 @@ $$
 H(s,t)=\begin{cases}
 \gamma_{0}(2s) & s\leq{1-t\over 2} \\
 \gamma_{0}(1-t)  & {1-t\over 2} \leq s\leq {1+t\over 2} \\
-\gamma_{0}(2s-2t) & {1+t\over 2} \leq s
+\gamma_{0}(2-2s) & {1+t\over 2} \leq s
 \end{cases}
 $$
 
