@@ -49,7 +49,12 @@ $$
 -----c-----
 --0--|-inv-
 ```
-
+Now the braindead way would be:
+$$
+H(x,t)=\begin{cases}
+\gamma_{0}(2s)
+\end{cases}
+$$
 
 ### Theorem
 Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
