@@ -8,4 +8,4 @@ So need to show that $x^{\frac{1}{p}}y^{\frac{1}{q}}\leq \frac{x}{p}+\frac{y}{q}
 ### Hölder's inequality
 Let $p$, $q$ be conjugate and $x\in l_{p},y\in l_{q}$. Then $(x_{n}y_{n})\in l_{1}$ with $||(x_{n}y_{n})||\leq ||x||_{p}||y||_{q}$.
 #### Proof
-WLOG have $||x||_{p}=1, ||y||_{q}=1$. Now for every $n$ have $|x_{n}y_{n}|\leq \frac{|x_{n}|^p}{p}+\frac{|y_{n}^q}{q}$
+WLOG have $||x||_{p}=1, ||y||_{q}=1$. Now for every $n$ have $|x_{n}y_{n}|\leq \frac{|x_{n}|^p}{p}+\frac{|y_{n}^q|}{q}$. Now sum 
