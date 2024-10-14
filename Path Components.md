@@ -30,6 +30,8 @@ If $f:X\to Y$ is a [[Homotopy#Definition (homotopy-equivalence)|homotopy equival
 Let $g$ be a homotopy inverse of $f$.
 $$
 \begin{align}
-\pi_{0}(f)\pi
+\pi_{0}(f)\pi_{0}(g)&=\pi_{0}(f\circ g) \\
+&=\pi_{0}(id_{X}) \\
+&=id_{\pi_{0}(X)}
 \end{align}
 $$
