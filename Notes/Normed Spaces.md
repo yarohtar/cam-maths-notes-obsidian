@@ -7,6 +7,7 @@ A normed space is a pair $(X,||\cdot||)$
 NOTE: a normed space gives rise to a [[Metric spaces|metric space]] with $d(x,y)=||x-y||$. So we can talk about open sets, closed sets, convergent sequences etc.
 
 Norms $L_p^n$ for any $1\leq p<\infty$ defined by $||X||_{p}=\left( \sum_{i=1}^{n}|X_{i}|^p \right)^{1/p}$ (by [[Minkowski's Inequality]])
+We only take $X\in L_{p}$ if the sum actually converges.
 
 ### Unit ball
 $B=\{x\in X : ||x||\leq 1\}$
