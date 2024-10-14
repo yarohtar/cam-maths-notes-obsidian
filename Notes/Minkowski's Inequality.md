@@ -1,9 +1,11 @@
 ### Lemma
 $f(x)=x^p$ is convex for $1\leq p<\infty$
 #### Proof
-Need to show $$
+Need to show 
+$$
 (\lambda x+(1-\lambda)y)^p\geq \lambda x^p +(1-\lambda)y^p
-$$ WLOG $x\leq y$. It is certainly true for $x=y$ (then inequality holds). Now take derivative and show LHS>RHS.
+$$ 
+WLOG $x\leq y$. It is certainly true for $x=y$ (then inequality holds). Now take derivative and show LHS>RHS.
 
 ### Minkowski's Inequality
 Let $1\leq p<\infty$ and $x,y\in l_{p}$. Then $x+y\in l_{p}$ and $||x+y||_{p}\leq ||x||_{p}+||y||_{p}$.
