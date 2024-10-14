@@ -17,3 +17,6 @@ $\gamma ^{-1}:x_{1}\leadsto x_{0}$ with $\gamma(t)=\gamma(1-t)$
 ### Definition (constant path)
 $c_{x_{0}}:x_{0}\leadsto x_{0}$
 
+### Definition (path components)
+Having a path between two points is an equivalence relation and the equivalence classes are called the path components of $X$.
+The set of
