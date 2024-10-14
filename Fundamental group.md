@@ -23,28 +23,7 @@ t
 |-0-|-1-|---2---|
 *------s-------->
 ```
-Now find:
-$$
-\begin{align}
-H(s,0)&=\begin{cases}
-\gamma_{0}(4s) & 0\leq s\leq \frac{1}{4} \\
-\gamma_{1}\left( 4s+\frac{1}{4} \right) & \frac{1}{4}\leq s\leq \frac{1}{2} \\
-\gamma_{2}\left( 2s+\frac{1}{2} \right)  & \frac{1}{2}\leq s\leq 1
-\end{cases} \\
-H(s,1)&=\begin{cases}
-\gamma_{0}(2s) & 0\leq s\leq \frac{1}{2} \\
-\gamma_{1}\left( 4s+\frac{1}{2} \right) & \frac{1}{2}\leq s\leq \frac{3}{4} \\
-\gamma_{2}\left( 4s+\frac{3}{4} \right) & \frac{3}{4}\leq s\leq 1
-\end{cases}
-\end{align}
-$$
-From here, now calculate:
-$$
-H(s,t)=\begin{cases}
-\gamma_{0}
-\end{cases}
-$$
-
+This motivates stuff of form 
 ### Theorem
 Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
 $$
