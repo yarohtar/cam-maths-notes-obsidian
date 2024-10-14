@@ -14,4 +14,7 @@ $$
 (\bra{e_{a}} \times \bra{f_{\alpha}} )(\ket{e_{b}} \times \ket{f_{\beta}} )=\braket{ e_{a} | e_{b} } \braket{ f_{\alpha} | f_{\beta} } \in \mathbb{C}
 $$
 
-In $\mathbb{R}^3$ we'll use the shorthand n
+In $\mathbb{R}^3$ we'll use the shorthand notation 
+$$
+\ket{\psi} =\int \psi(\underline{x})\ket{\underline{x}} d^3x
+$$
