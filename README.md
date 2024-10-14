@@ -27,5 +27,7 @@ what about this?
 
 Pressing CTRL+O (CMD+O on Mac) you can type in the name of the course you're interested in. If the course is in the database, you'll find its initial file, usually an index of topics. Now you can click on links (CTRL/CMD + Click to open in new tab) and read.
 
+and also change stuff here 
+
 This is a change made in the cloned repository
 would this update ?
