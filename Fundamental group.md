@@ -12,6 +12,7 @@ The following hold:
 2. $\gamma_{0}\cdot c_{x_{0}}\simeq \gamma_{0}$ relative to $\{ 0,1 \}$
 3. $\gamma_{0}\cdot \gamma_{0}^{-1}\simeq c_{x_{0}}$ relative to $\{ 0,1 \}$
 #### Proof
+Let $t$ interpolate between paths and $s$ be the path variable.
 
 
 ### Theorem
