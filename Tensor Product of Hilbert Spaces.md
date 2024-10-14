@@ -7,5 +7,9 @@ $$
 $$
 is the tensor product that contains all elements of form
 $$
-\ket{\psi} =\sum_{a,\alpha}
+\ket{\psi} =\sum_{a,\alpha}c_{a,\alpha}\ket{e_{a}} \times \ket{f_{\alpha}}
+$$
+The inner product is defined on basis elements
+$$
+(\bra{e_{a}} )
 $$
