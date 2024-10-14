@@ -12,3 +12,5 @@ $$
 \gamma(2t-1) & t\geq \frac{1}{2}
 \end{cases}
 $$
+### Definition (inverse)
+$\gamma:x_{1}\leadsto x_{0}$ with $\gamma(t)=\gamma(1-t)$
