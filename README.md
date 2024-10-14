@@ -7,4 +7,5 @@ You're welcome to fork this and add your own changes / notes, but if you only wa
 WARNING: If you clone this and add your own changes, and then pull changes from this repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case.
 
 # How to view
-Firstly, you need to download Obsidian from the off
+Firstly, you need to download Obsidian from the official website https://obsidian.md/
+
