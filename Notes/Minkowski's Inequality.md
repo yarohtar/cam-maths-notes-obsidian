@@ -6,4 +6,4 @@ Need to show $$
 $$ WLOG $x\leq y$. It is certainly true for $x=y$ (then inequality holds). Now take derivative and show LHS>RHS.
 
 ### Minkowski's Inequality
-Let $1\leq p<\infty$ and $x,y\in L_{p}$. 
+Let $1\leq p<\infty$ and $x,y\in L_{p}$. Then $x+y\in L_{p}$
