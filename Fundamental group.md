@@ -13,4 +13,10 @@ The following hold:
 3. $\gamma_{0}\cdot \gamma_{0}^{-1}\simeq c_{x_{0}}$ relative to $\{ 0,1 \}$
 #### Proof
 ### Theorem
-Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using 
+Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
+$$
+[\gamma]\cdot[\gamma']=[\gamma \cdot \gamma']
+$$
+gives a group structure
+#### Proof
+Directly from previous proposition.
