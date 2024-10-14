@@ -37,7 +37,12 @@ $$
 ---0---
 -0-|-c-
 ```
-Interval lengths: $\frac{1}{2}+\frac{t}{2}$
+Interval lengths: $t+1\over 2$ and $1-t\over 2$
+$$
+H(x,t)=\begin{cases}
+\gamma_{0}
+\end{cases}
+$$
 
 ### Theorem
 Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
