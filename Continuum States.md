@@ -11,5 +11,5 @@ $$
 $$
 We extract the wavefunction by projecting on $\ket{x}$
 $$
-\braket{ x | \psi } =\int \psi(x')\braket{ x | x' } dx'=\int \psi(x')\delta
+\braket{ x | \psi } =\int \psi(x')\braket{ x | x' } dx'=\int \psi(x')\delta(x-x')dx'=\psi(x)
 $$
