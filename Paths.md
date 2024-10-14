@@ -12,6 +12,7 @@ $$
 \gamma(2t-1) & t\geq \frac{1}{2}
 \end{cases}
 $$
+Note this is OPPOSITE to function composition.
 ### Definition (inverse)
 $\gamma ^{-1}:x_{1}\leadsto x_{0}$ with $\gamma(t)=\gamma(1-t)$
 ### Definition (constant path)
