@@ -34,9 +34,15 @@ H(s,0)&=\begin{cases}
 H(s,1)&=\begin{cases}
 \gamma_{0}(2s) & 0\leq s\leq \frac{1}{2} \\
 \gamma_{1}\left( 4s+\frac{1}{2} \right) & \frac{1}{2}\leq s\leq \frac{3}{4} \\
-\gamma_{2}\left( 4s+\frac{3}{4} \right) & \frac{3}{4}\leq s
+\gamma_{2}\left( 4s+\frac{3}{4} \right) & \frac{3}{4}\leq s\leq 1
 \end{cases}
 \end{align}
+$$
+From here, now calculate:
+$$
+H(s,t)=\begin{cases}
+
+\end{cases}
 $$
 
 ### Theorem
