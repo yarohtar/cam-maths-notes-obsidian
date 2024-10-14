@@ -40,7 +40,8 @@ $$
 Interval lengths: $t+1\over 2$ and $1-t\over 2$
 $$
 H(x,t)=\begin{cases}
-\gamma_{0}
+\gamma_{0}\left( \frac{2s}{t+1} \right) & s\leq {t+1\over 2} \\
+
 \end{cases}
 $$
 
