@@ -25,6 +25,6 @@ You should be got to go now.
 # How to update from remote
 If I make changes/updates to the Vault, you will be able to pull them by hitting CTRL+P and searching for "Git: Pull". This should do everything it needs to.
 
-Alternatively, by going to Settings (CTRL+,) you can 
+Alternatively, by going to Settings (CTRL+,) and clicking on Git on bottom left, you can adjust the Autopull interval or turn on pull on startup.
 
 If you made changes to some files the Pull might fail with some error messages about an impossible merge. You will either have to handle this by resolving the impossible merges (where I strongly recommend using command line git) or you'll have to reinstall the whole Vault, losing your changes.
