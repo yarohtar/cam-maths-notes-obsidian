@@ -16,3 +16,6 @@ and it satisfies:
 2. If $h:X\to Y$ and $k:Y\to Z$ are maps then $\pi_{0}(kh)=\pi_{0}(k)\pi_{0}(h)$
 3. $\pi_{0}(id_{X})=id_{\pi_{0}(X)}$
 #### Proof
+Firstly, well defined:
+$[x]=[x']\in \pi_{0}(X)$
+Find $\gamma:$
