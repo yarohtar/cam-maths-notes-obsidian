@@ -34,4 +34,4 @@ Firstly, you can switch between editing and reading mode in the top right corner
 
 By hitting CTRL+O, you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top left to navigate back. 
 
-In the top left there is an Open graph view button which show
+In the top left there is an Open graph view button which shows all the files / topics interconnected in a nice graph view. Can be useful to more easily figure out what's in the Vault.
