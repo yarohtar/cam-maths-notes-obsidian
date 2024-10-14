@@ -44,7 +44,12 @@ H(x,t)=\begin{cases}
 x_{1} & s\geq {t+1\over 2}
 \end{cases}
 $$
-(3) 
+(3) Again
+```
+-----c-----
+--0--|-inv-
+```
+
 
 ### Theorem
 Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
