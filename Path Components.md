@@ -14,4 +14,5 @@ $$
 and it satisfies:
 1. $f\simeq g\implies \pi_{0}(f)=\pi_{0}(g)$
 2. If $h:X\to Y$ and $k:Y\to Z$ are maps then $\pi_{0}(kh)=\pi_{0}(k)\pi_{0}(h)$
-3. $\pi_{0}()$
+3. $\pi_{0}(id_{X})=id_{\pi_{0}(X)}$
+#### Proof
