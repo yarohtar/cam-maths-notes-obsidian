@@ -13,4 +13,8 @@ Next open the app and create a new Vault. You can delete the default file.
 
 Go to settings (alternatively, hit CTRL+,). Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and enable it. 
 
-Close the Settings window(s). Hit CTRL+P to open the command palette. Search for "Git: Clone"
+Close the Settings window(s). Hit CTRL+P to open the command palette. Search for "Git: Clone an existing remote repo" and hit enter.
+
+You will be prompted 3 times:
+1. First enter the link to this repo, https://github.com/yarohtar/cam-maths-notes-obsidian
+2. Then enter 
