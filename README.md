@@ -17,4 +17,7 @@ Close the Settings window(s). Hit CTRL+P to open the command palette. Search for
 
 You will be prompted 3 times:
 1. First enter the link to this repo, https://github.com/yarohtar/cam-maths-notes-obsidian
-2. Then enter 
+2. Then enter the name of a folder (can be the same as the name of the Vault)
+3. Leave the third prompt empty and hit enter
+
+You should be got to go now.
