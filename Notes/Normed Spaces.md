@@ -14,6 +14,6 @@ Can check that $B$ is closed, bounded, convex, symmetric and a neighbourhood of 
 Suppose $B'$ does satisfy this, then $B'$ defines a norm by taking
 $||x||=\inf\left\{  \alpha\geq 0 \mid \frac{x}{\alpha}\in B'  \right\}$
 
-[[Banach Space]]
-[[Minkowski's Inequality]]
-[[Hölder inequality]]
+![[Banach Space]]
+![[Minkowski's Inequality]]
+![[Hölder inequality]]
