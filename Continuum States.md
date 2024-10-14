@@ -9,3 +9,7 @@ Then we can expand any vector as
 $$
 \ket{\psi} = \int_{\mathbb{R}}\psi(x')\ket{x'} dx'
 $$
+We extract the wavefunction by projecting on $\ket{x}$
+$$
+\braket{ x | \psi } =\int \psi(x')\braket{ x | x' } dx'=\int \psi(x')\delta
+$$
