@@ -13,7 +13,8 @@ NOTE: a normed space gives rise to a [[Metric spaces|metric space]] with $d(x,y)
 $B=\{x\in X : ||x||\leq 1\}$
 
 Can check that $B$ is closed, bounded, convex, symmetric and a neighbourhood of 0.
-Suppose $B'$ does satisfy this, then 
+Suppose $B'$ does satisfy this, then $B'$ defines a norm by taking
+$||x||=$
 
 [[Banach Space]]
 [[Hölder inequality]]
