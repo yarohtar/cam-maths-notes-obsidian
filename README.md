@@ -32,4 +32,4 @@ If you made changes to some files the Pull might fail with some error messages a
 # How to navigate
 Firstly, you can switch between editing and reading mode in the top right corner.
 
-By hitting CTRL+O, you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J 
+By hitting CTRL+O, you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top left to navigate back. 
