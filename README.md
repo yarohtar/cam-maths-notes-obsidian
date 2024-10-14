@@ -9,4 +9,6 @@ WARNING: If you clone this and add your own changes, and then pull changes from 
 # How to view
 Firstly, you need to download Obsidian from the official website https://obsidian.md/
 
-Next open the app and create a new Vault. 
+Next open the app and create a new Vault. You can delete the default file.
+
+Go to settings (alternatively, hit CTRL+,). Go to co
