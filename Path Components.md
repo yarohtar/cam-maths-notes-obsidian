@@ -38,4 +38,4 @@ $$
 Similarly for other way.
 
 ### Example
-$D^1=[-1,1]$, $S^0=\{ -1,1 \}$. Suppose there is a retraction $r:D^1\$
+$D^1=[-1,1]$, $S^0=\{ -1,1 \}$. Suppose there is a retraction $r:D^1\to S^0$ with $r\circ i=id_{S^0}$
