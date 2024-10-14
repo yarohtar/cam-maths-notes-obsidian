@@ -57,7 +57,7 @@
       "fields": []
     },
     "links": {
-      "internal": false,
+      "internal": true,
       "unshared": false,
       "wiki": true,
       "slugify": "disable",
@@ -95,7 +95,11 @@
     "noticeError": false,
     "displayModalRepoEditing": false,
     "setFrontmatterKey": "Set",
-    "migrated": true
+    "migrated": true,
+    "shareAll": {
+      "enable": true,
+      "excludedFileName": "DRAFT"
+    }
   },
-  "tabsId": "text-conversion"
+  "tabsId": "embed-configuration"
 }
