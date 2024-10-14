@@ -9,6 +9,6 @@ A cts function will be called a map.
 
 
 
-[[Homotopy]]
+![[Homotopy]]
 ![[Paths]]
-[[Fundamental group]]
+![[Fundamental group]]

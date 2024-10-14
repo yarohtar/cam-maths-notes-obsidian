@@ -21,7 +21,7 @@ One direction is easy.
 For the other one, set $H(x,t)=x/(t+|x|(1-t))$. 
 Hence $X\simeq Y$.
 
-[[Contractible Space]]
+![[Contractible Space]]
 
 ### Lemma
 Suppose $f_0, f_1: X\to Y$ maps with $f_0\simeq_H f_1$ and $g_0,g_1:Y\to Z$ maps with $g_0\simeq_Gg_1$ 
@@ -34,5 +34,5 @@ Done.
 ### Proposition
 The relation of homotopy equivalence between spaces is an equivalence relation.
 
-[[Retraction map]]
-[[Deformation retraction map]]
+![[Retraction map]]
+![[Deformation retraction map]]
