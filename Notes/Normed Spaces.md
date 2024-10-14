@@ -7,8 +7,6 @@ A normed space is a pair $(X,||\cdot||)$
 NOTE: a normed space gives rise to a [[Metric spaces|metric space]] with $d(x,y)=||x-y||$. So we can talk about open sets, closed sets, convergent sequences etc.
 
 [[L norms]]
-
-
 ### Unit ball
 $B=\{x\in X : ||x||\leq 1\}$
 
@@ -17,5 +15,5 @@ Suppose $B'$ does satisfy this, then $B'$ defines a norm by taking
 $||x||=\inf\left\{  \alpha\geq 0 \mid \frac{x}{\alpha}\in B'  \right\}$
 
 [[Banach Space]]
-[[Hölder inequality]]
 [[Minkowski's Inequality]]
+[[Hölder inequality]]
