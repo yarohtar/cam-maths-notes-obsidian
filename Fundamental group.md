@@ -39,12 +39,17 @@ $$
 ```
 Interval lengths: $t+1\over 2$ and $1-t\over 2$
 $$
-H(x,t)=\begin{cases}
+H(s,t)=\begin{cases}
 \gamma_{0}\left( \frac{2s}{t+1} \right) & s\leq {t+1\over 2} \\
 x_{1} & s\geq {t+1\over 2}
 \end{cases}
 $$
-(3) Now this one is a bit different, but also easier. We will just make paths that go up to $\gamma_{0}(1-t)$
+(3) Now this one is a bit different, but also easier. We will just make paths that go up to $\gamma_{0}(1-t)$ and back.
+$$
+H(s,t)=\begin{cases}
+\gamma_{0}()
+\end{cases}
+$$
 
 ### Theorem
 Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
