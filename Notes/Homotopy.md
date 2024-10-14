@@ -1,5 +1,5 @@
 $I=[0,1]$
-### Definition
+### Definition (homotopy)
 $f,g:X\to Y$ maps. A homotopy from $f$ to $g$ is a map $H:X\times I\to Y$ s.t. $H(x,0)=f(x)$ and $H(x,1)=g(x)$. If it exists, $f$ is homotopic to $g$, $f\simeq g$ or $f\simeq_H g$. 
 
 $A\subset X$. The homotopy $H$ is relative to $A$ if additionally $H(a,t)=f(a)=g(a)$ for all $a\in A, t\in I$.
@@ -9,7 +9,7 @@ The relation "homotopic relative to set $A$" on the set of all maps from $X$ to 
 #### Proof
 Standard, use [[Gluing lemma]] for transitivity
 
-### Definition
+### Definition (homotopy-equivalence)
 A map $f:X\to Y$ is a homotopy-equivalence if there is a map $g:Y\to X$ s.t. $g\circ f\simeq id_{X}$ and $f\circ g \simeq id_Y$. 
 $X$ is homotopy equivalent to $Y$ if such $f$ exists.
 
