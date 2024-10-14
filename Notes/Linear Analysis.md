@@ -1,5 +1,4 @@
-[[No
-rmed Spaces]]
+[[Normed Spaces]]
 [[Linear Operators]]
 [[The Baire Category Theorem]]
 [[Spaces of CTS functions]]
