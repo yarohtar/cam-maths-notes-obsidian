@@ -7,4 +7,4 @@ l_{p}=\left\{  X\in S \mid \sum_{i=1}^{\infty} |X_{i}|^p<\infty  \right\}
 $$
 With norm $||X||_{p}=\left( \sum_{i=1}^{\infty}|X_{i}|^p \right)^{\frac{1}{p}}$.
 
-These all satisfy the desired properties by [[Minkowski's Inequality#Minkowski's Inequality|Minkowski]] 
+These all satisfy the desired properties by [[Minkowski's Inequality|Minkowski]] 
