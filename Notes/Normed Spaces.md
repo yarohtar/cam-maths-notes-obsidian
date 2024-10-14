@@ -18,4 +18,6 @@ Let $S$ be the set of all scalar sequences (made into a vector space by coordina
 
 $L_{p}$ stuff is defined on subsets of $S$ where they converge ... 
 
-[[Banach ]]
+[[Banach Space]]
+[[Hölder inequality]]
+[[Minkowski's Inequality]]
