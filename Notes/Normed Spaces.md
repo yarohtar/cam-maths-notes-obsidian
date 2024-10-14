@@ -14,7 +14,7 @@ $B=\{x\in X : ||x||\leq 1\}$
 
 Can check that $B$ is closed, bounded, convex, symmetric and a neighbourhood of 0.
 Suppose $B'$ does satisfy this, then $B'$ defines a norm by taking
-$||x||=$
+$||x||=\inf\{ \alpha\geq 0 \}$
 
 [[Banach Space]]
 [[Hölder inequality]]
