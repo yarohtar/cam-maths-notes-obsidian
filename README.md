@@ -7,11 +7,11 @@ You're welcome to fork this and add your own changes / notes, but if you only wa
 WARNING: If you clone this and add your own changes, and then pull changes from this repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case.
 
 # How to download
-Firstly, you need to download Obsidian from the official website https://obsidian.md/
+Firstly, you need to download and install Obsidian from the official website https://obsidian.md/
 
 Next open the app and create a new Vault. You can delete the default file.
 
-Go to settings on the bottom left (alternatively, hit CTRL+,). Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and enable it. 
+Go to settings on the bottom left (alternatively, hit CTRL+,). Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and make sure to enable it. 
 
 Close the Settings window(s). Hit CTRL+P to open the command palette. Search for "Git: Clone an existing remote repo" and hit enter.
 
