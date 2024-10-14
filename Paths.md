@@ -5,4 +5,7 @@ If $x_{0}=x_{1}$ then $\gamma$ is a loop based at $x_{0}$.
 $\gamma:x_{0}\leadsto x_{1}$ 
 
 ### Definition (concatenation)
-Let $\gamma:x_{0}\leadst$
+Let $\gamma:x_{0}\leadsto x_{1}$ and $\gamma':x_{1}\leadsto x_{2}$. Then we define a new path 
+$$
+
+$$
