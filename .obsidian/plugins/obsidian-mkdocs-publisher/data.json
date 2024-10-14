@@ -48,7 +48,7 @@
     "metadataExtractorPath": ""
   },
   "conversion": {
-    "hardbreak": false,
+    "hardbreak": true,
     "dataview": true,
     "censorText": [],
     "tags": {
@@ -101,5 +101,5 @@
       "excludedFileName": "DRAFT"
     }
   },
-  "tabsId": "embed-configuration"
+  "tabsId": "text-conversion"
 }
