@@ -7,6 +7,7 @@ $$
 where $\tilde{\psi}(p)$ is the wave function in the $\ket{P}$ continuum basis
 
 We'll show later that $\braket{ x | p }=\frac{e^{ipx/\hbar}} \frac{1}{\sqrt{2\pi \hbar }}=\braket{ p | x }$
+$\braket{ x | p }=\frac{e^{ipx}\hbar}{}$
 
 Therefore $$
 \psi(x)=\braket{ x | \psi } =\int \tilde{\psi}(p)\braket{ x | p } dp
