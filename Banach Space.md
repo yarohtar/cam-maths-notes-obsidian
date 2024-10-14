@@ -1,0 +1,1 @@
+A [[Normed Spaces|normed space]] that is complete.
