@@ -11,5 +11,5 @@ $$
 $$
 The inner product is defined on basis elements
 $$
-(\bra{e_{a}} )
+(\bra{e_{a}} \times \bra{f_{\alpha}} )(\ket{e_{b}} \times \ket{f_{\beta}} )=\braket{ e_{a} | e_{b} } \braket{ f_{\alpha} | f_{\beta} } \in \mathbb{C}
 $$
