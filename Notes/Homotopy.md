@@ -21,8 +21,7 @@ One direction is easy.
 For the other one, set $H(x,t)=x/(t+|x|(1-t))$. 
 Hence $X\simeq Y$.
 
-### Definition
-$X$ is contractible if $X\simeq\{*\}$ (single point set)
+[[Contractible Space]]
 
 ### Lemma
 Suppose $f_0, f_1: X\to Y$ maps with $f_0\simeq_H f_1$ and $g_0,g_1:Y\to Z$ maps with $g_0\simeq_Gg_1$ 
