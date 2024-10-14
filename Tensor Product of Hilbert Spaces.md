@@ -5,3 +5,7 @@ Then
 $$
 \mathcal{H}=\mathcal{H}_{1}\times \mathcal{H}_{2}
 $$
+is the tensor product that contains all elements of form
+$$
+\ket{\psi} =\sum_{a,\alpha}
+$$
