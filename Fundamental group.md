@@ -28,7 +28,7 @@ This motivates the homotopy:
 $$
 H(s,t)=\begin{cases}
 \gamma_{0}\left( \frac{4s}{t+1} \right) & s\leq \frac{t+1}{4} \\
-\gamma_{1}()
+\gamma_{1}\left( \frac{t+1}{4} +4s \right) & 
 \end{cases}
 $$
 ### Theorem
