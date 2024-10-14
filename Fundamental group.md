@@ -12,8 +12,12 @@ The following hold:
 2. $\gamma_{0}\cdot c_{x_{0}}\simeq \gamma_{0}$ relative to $\{ 0,1 \}$
 3. $\gamma_{0}\cdot \gamma_{0}^{-1}\simeq c_{x_{0}}$ relative to $\{ 0,1 \}$
 #### Proof
-Let $t$ interpolate between paths and $s$ be the path variable.
-
+(1) Let $t$ interpolate between paths and $s$ be the path variable.
+Consider the following image:
+^
+|
+|
+|
 
 ### Theorem
 Let $X$ be a space and $x_{0}$ a point. Let $\pi_{1}(X,x_{0})$ be the set of homotopy classes of loops in $X$ based at $x_{0}$. Then using
