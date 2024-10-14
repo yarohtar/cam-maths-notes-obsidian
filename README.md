@@ -4,7 +4,7 @@ None of this is official and it is not an accurate representation of what was le
 
 You're welcome to fork this and add your own changes / notes, but if you only want to read mine, see below.
 
-WARNING: If you clone this and add your own changes, and then pull changes from this repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case, so unless you know how to handle merges 
+WARNING: If you clone this and add your own changes, and then pull changes from this repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case. This only happens if you edit something and I edit the same thing and you try to fetch 
 
 # How to download
 Firstly, you need to download and install Obsidian from the official website https://obsidian.md/
