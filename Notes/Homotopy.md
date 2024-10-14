@@ -33,3 +33,4 @@ Done.
 
 ### Proposition
 The relation of homotopy equivalence between spaces is an equivalence relation.
+
