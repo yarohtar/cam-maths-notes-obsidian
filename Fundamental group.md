@@ -41,7 +41,7 @@ $$
 From here, now calculate:
 $$
 H(s,t)=\begin{cases}
-
+\gamma_{0}
 \end{cases}
 $$
 
