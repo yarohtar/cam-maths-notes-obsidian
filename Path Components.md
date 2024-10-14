@@ -24,4 +24,5 @@ Then $f\circ\gamma:f(x)\leadsto f(x')$ so $[f(x)]=[f(x')]$
 The (2) and (3) are apparently directly from definitions.
 
 ### Corollary
-If $f:X\to Y$ is a [[Homotopy#Definition (homotopy-equivalence)|homotopy equivalence]] then $\pi_{0}(f):\pi_{0}(X)\to \pi_{0}(Y)$
+If $f:X\to Y$ is a [[Homotopy#Definition (homotopy-equivalence)|homotopy equivalence]] then $\pi_{0}(f):\pi_{0}(X)\to \pi_{0}(Y)$ is a bijection.
+
