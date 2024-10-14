@@ -19,4 +19,5 @@ and it satisfies:
 Firstly, well defined:
 $[x]=[x']\in \pi_{0}(X)$
 Find $\gamma:x\leadsto x'$
-Then $f\circ\gamma:f(x)\leadsto f(x')$
+Then $f\circ\gamma:f(x)\leadsto f(x')$ so $[f(x)]=[f(x')]$
+(1) Say $f\simeq_{H}g$. Then for any 
