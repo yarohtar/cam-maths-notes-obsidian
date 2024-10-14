@@ -6,7 +6,7 @@ A normed space is a pair $(X,||\cdot||)$
 
 NOTE: a normed space gives rise to a [[Metric spaces|metric space]] with $d(x,y)=||x-y||$. So we can talk about open sets, closed sets, convergent sequences etc.
 
-[[L norms]]
+![[L norms]]
 ### Unit ball
 $B=\{x\in X : ||x||\leq 1\}$
 
