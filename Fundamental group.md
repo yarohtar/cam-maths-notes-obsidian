@@ -15,7 +15,8 @@ The following hold:
 (1) Let $t$ interpolate between paths and $s$ be the path variable.
 Consider the following image:
 ```
-^---0---|-1-|-2-|
+^
+|---0---|-1-|-2-|
 |
 t
 |
