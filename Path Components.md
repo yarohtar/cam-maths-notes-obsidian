@@ -36,3 +36,6 @@ $$
 \end{align}
 $$
 Similarly for other way.
+
+### Example
+$D^1=[-1,1]$, $S^0=\{ -1,1 \}$. Suppose there is a retraction $r:D^1\$
