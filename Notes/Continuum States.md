@@ -1,10 +1,12 @@
-Usually we expand in ccountable orthonormal basis $\ket{\psi}=\sum_{m}a_{m}\ket{\psi_{m}}$ and $\braket{ \phi_{n} | \phi_{m} } =\delta_{nm}$
+Usually we expand in countable orthonormal basis $\ket{\psi}=\sum_{m}a_{m}\ket{\psi_{m}}$ and $\braket{ \phi_{n} | \phi_{m} } =\delta_{nm}$
 
 Sometimes we generalize this to continuum states
 
 Consider $L^2(\mathbb{R},dx)$
-For $x\in \mathbb{R}$ let $\ket{x}$
-define operator $X\ket{x}=x\ket{x}$ and $\braket{ x' | x }=\delta(x-x')$
+For $x\in \mathbb{R}$ let $\ket{x}$ be a position vector.
+Define operator $X\ket{\psi}=x\ket{\psi}$ and $\braket{ x' | x }=\delta(x-x')$
+Formally this wouldn't really be allowed to be in our $\mathcal{H}$ unless we include distributions but we just kinda glance over that.
+
 Then we can expand any vector as
 $$
 \ket{\psi} = \int_{\mathbb{R}}\psi(x')\ket{x'} dx'

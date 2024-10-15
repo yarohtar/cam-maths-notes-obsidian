@@ -4,5 +4,5 @@ For finite dimensional case, given $\phi\in\mathcal H$ we have the map $f_\phi(\
 
 For infinite dimensional space this is only true for continuous maps ([[Analysis of Functions]])
 
-Example: $\delta :\mathcal H\to \mathbb C$ where $\psi(x)\to \psi(0)$ but $||\delta(x)||^2=\delta(0)$ ??
+Example: $\delta :\mathcal H\to \mathbb C$ where $\psi(x)\to \psi(0)$ but $||\delta(x)||^2=\delta(0)$ so it certainly cannot lie in our $\mathcal{H}$. 
 
