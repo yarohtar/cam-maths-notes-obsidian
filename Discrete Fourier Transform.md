@@ -1,1 +1,1 @@
-Let $\Pi_{n}$
+Let $\Pi_{n}$ be the space of all bi-infinite complex $n$-periodic sequences $x=\{ x_{l} \}_{l\in \mathbb{Z}}$ (such that $x_{l+n}=x_{l}$). Set $\omega_{n}=\exp$
