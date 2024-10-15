@@ -63,14 +63,8 @@ This converges.
 $$
 Ae=\nu\implies e=A^{-1}\nu\implies ||e||\leq ||A^{-1}||\cdot||\nu||
 $$
-
-
-
-
-
-
-
-
-
+$$
+||\nu ||^2=\sum_{i=1}^{N} 
+$$
 
 
