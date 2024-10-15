@@ -112,8 +112,18 @@ Note that $v_{i}$ and $c_{i}$ are both vectors of length $m$.
 Furthermore, we can make the matric tridiagonal! Rearrange the rows st (on RHS) the first $m$ indices are first components of vectors $c_{i}$, second $m$ indices are second components of vectors $c_{i}$ and so on. We basically bring the first eigen value to the first block, second eigenvalue to the second block etc, so we can write
 $$
 A\sim\begin{pmatrix}
-\Lambda_{1} & I &  \\
-I & \L
+\Lambda_{1} &   \\
+ & \Lambda_{2} &   &  \\
+ &  & \ddots &  \\
+ &  &  & \Lambda_{m}
+\end{pmatrix}
+\quad
+\quad
+\Lambda_{i}=\begin{pmatrix}
+\lambda_{i} & 1 \\
+1 & \lambda_{i} & \ddots &  \\
+ & \ddots & \ddots  & 1\\
+ &  & 1 & \lambda_{i}
 \end{pmatrix}
 $$
 
