@@ -129,8 +129,9 @@ $$
 These are $m$ decoupled systems $\Lambda_{k}\hat{v}_{k}=\hat{c}_{k}$. They are all tridiagonal and can be solved in $O(m)$ each, so $O(m^2)$ total. Sadly, forming $c_{k}=Qb_{k}$ and then $u_{k}=Qv_{k}$ takes a while $O(m^{3})$. 
 But we can do better!! Note that we know $q_{lj}=\sin \frac{jl\pi}{m+1}$, so for any vector $y$ we have
 $$
-(Qy)_{l}=\sum_{j=1}^{m} \sin \frac{\pi jl}{m+1}y_{j}=\mathrm{Im}
+(Qy)_{l}=\sum_{j=1}^{m} \sin \frac{\pi jl}{m+1}y_{j}=\mathrm{Im}\sum_{j=0}^{2m+1} \exp \frac{2i\pi jl}{2m+2}y_{j}
 $$
+where we defined $y_{m+1}=\dots=y_{2m+1}=0$. Now apply [[Fast Fourier Transform]] to do it in $O(m\log m)$.
 ## Special structure of 5 point equations
 First diagnoalize $B$ with $B=QDQ^{-1}$.
 Set $v_{k}=Qu_{k}$, $c_{k}=Qb_{k}$. The system becomes

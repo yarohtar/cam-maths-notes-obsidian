@@ -6,3 +6,5 @@ $$
 where $j=0\dots n-1$ (note that this does define the whole sequence uniquely).
 
 You can easily prove that $\mathcal{F}_{n}$ is an isomorphism of $\Pi_{n}$ to itself.
+
+[[Fast Fourier Transform]]
