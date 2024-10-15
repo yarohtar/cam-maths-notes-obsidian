@@ -98,7 +98,8 @@ More reordering:
 $$
 \begin{pmatrix}
 \Lambda_{1} & 1 \\
-1 & \Lambda_{2} &  \\
- & \ddots & \ddots
+1 & \Lambda_{2} &  \ddots\\
+ & \ddots & \ddots  & 1\\
+ &  & 1 & \Lambda_{n}
 \end{pmatrix}
 $$
