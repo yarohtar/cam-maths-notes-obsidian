@@ -13,3 +13,8 @@ We never fix $x$ and let $N\to \infty$.
 Let $f\sim \sum a_{k}\phi_{k}$ and $g\sim \sum b_{k}\phi_{k}$
 - Linearity: $\alpha f+\beta g\sim \sum(\alpha a_{k}+\beta_{bk})\phi_{k}$
 - Multiplication: Consider $\phi_{k}=(x-a)^k$
+  Then $fg\sim \sum c_{k}\phi_{k}$ where $c_{k}=\sum a_{j}b_{{k-j}}$
+- Division is possible but we don't really use it
+- Integrating term by term is usually ok
+- Differentiating term by term is usually NOT ok
+- 
