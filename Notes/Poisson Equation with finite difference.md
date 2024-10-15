@@ -83,4 +83,10 @@ $$
 
 
 ## Special structure of 5 point equations
-First diagnoalize $B$ wi
+First diagnoalize $B$ with $B=QDQ^{-1}$.
+Set $v_{k}=Qu_{k}$, $c_{k}=Qb_{k}$. The system becomes
+$$
+\begin{pmatrix}
+D
+\end{pmatrix}
+$$
