@@ -74,7 +74,7 @@ $$
 $$
 So finally 
 $$
-|
+||e||\leq ||A^{-1}||\cdot||\nu||\leq \frac{ch}{8}
 $$
 
 
