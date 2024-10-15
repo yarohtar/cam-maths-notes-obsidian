@@ -1,9 +1,11 @@
-We want to solve:$$
+We want to solve:
+$$
 \nabla^2u = f
 $$
-subject to some Dirichlet boundary conditions. For this method we will assume that the boundary is rectangular because finite difference gets a bit messed up otherwise.
-
+subject to some Dirichlet boundary conditions. 
 ## Five-point method
+For this method we will assume that the boundary is rectangular because finite difference gets a bit messed up otherwise.
+
 We use [[Finite difference|finite differences]] to discretize the equation. 
 $$
 \Delta_{h,x}^2u+\Delta_{h,y}^2u=h^2f(x,y)
