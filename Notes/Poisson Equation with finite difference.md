@@ -64,7 +64,10 @@ $$
 Ae=\nu\implies e=A^{-1}\nu\implies ||e||\leq ||A^{-1}||\cdot||\nu||
 $$
 $$
-||\nu ||^2=\sum_{i=1}^{m} \sum_{j=1}^{m} |\nu_{i,j}|^2\leq c^2m^2h^8<c^2 \frac{1}{h^2}h^8=c^2
+||\nu ||^2=\sum_{i=1}^{m} \sum_{j=1}^{m} |\nu_{i,j}|^2\leq c^2m^2h^8<c^2 \frac{1}{h^2}h^8=c^2h^6
+$$ $$
+\implies ||\nu||\leq ch^3
 $$
+
 
 
