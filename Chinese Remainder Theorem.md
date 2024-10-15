@@ -7,6 +7,7 @@ Let $m_{1}\dots m_{k}$ be positive integers which are pairwise coprime. Let $M=m
 The map:
 $$
 \begin{align}
-\theta: 
+\theta: \mathbb{Z}/M\mathbb{Z}&\to(\mathbb{Z}/m_{1}\mathbb{Z})\times\dots \times(\mathbb{Z}/m_{k}\mathbb{Z}) \\
+(a+M\mathbb{Z})&\to(a+m_{1}\mathbb{Z},\dots,a+m_{k})
 \end{align}
 $$
