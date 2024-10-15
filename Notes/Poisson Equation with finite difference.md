@@ -81,3 +81,6 @@ $$
 $$
 
 
+
+## Special structure of 5 point equations
+First diagnoalize $B$ wi
