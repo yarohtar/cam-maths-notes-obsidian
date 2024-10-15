@@ -86,7 +86,7 @@ $$
 ||e||\leq ||A^{-1}||\cdot||\eta||\leq \frac{ch}{8}
 $$
 ## How to do it FAST
-[[TTS matrix]]
+Note that $B$ is a [[TST matrix]] and so we can diagonalize it, say $B=QDQ$ where $D$ is the diagonal of eigenvalues. 
 
 
 
