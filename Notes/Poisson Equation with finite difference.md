@@ -70,9 +70,10 @@ $$
 Or in the matrix form $Ae=\eta$. Note that $A$ is invertible (nonzero eigenvalues that we found) so $e=A^{-1}\eta\implies ||e||\leq ||A^{-1}||\cdot||\eta||$
 Every component of $\eta$ satisfies $|\eta_{i,j}|^2\leq c^2h^8$ for some $c$ (because $O(h^4)$), so we have:
 $$
-||\eta ||^2=\sum_{i=1}^{m} \sum_{j=1}^{m} |\eta_{i,j}|^2\leq c^2m^2h^8<c^2 \frac{1}{h^2}h^8=c^2h^6
-$$ $$
-\implies ||\eta||\leq ch^3
+\begin{align}
+||\eta ||^2&=\sum_{i=1}^{m} \sum_{j=1}^{m} |\eta_{i,j}|^2\leq c^2m^2h^8<c^2 \frac{1}{h^2}h^8=c^2h^6\\
+&\implies ||\eta||\leq ch^3
+\end{align}
 $$
 The eigenvalues of $A^{-1}$ are the inverses of eigenvalues of $A$ - but we know those. 
 $$
