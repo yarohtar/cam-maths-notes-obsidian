@@ -69,5 +69,8 @@ $$ $$
 \implies ||\nu||\leq ch^3
 $$
 The eigenvalues of $A^{-1}$ are the inverses of eigenvalues of $A$ - but we know those. 
+$$
+A^{-1}=\frac{1}{4} \max \{ \sin^2+\sin^2 \}
+$$
 
 
