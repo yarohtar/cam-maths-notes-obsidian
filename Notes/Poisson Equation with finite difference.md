@@ -61,6 +61,9 @@ $$ is an eigenvector. We do some CURSED rearranging and it works.
 This converges.
 #### Proof
 $$
+e_{i-1,j}+e_{i+1,j}+e_{i,j-1}+e_{i,j+1}-4e_{i,j}=h^2f_{i,j}+\nu_{i,j}
+$$
+$$
 Ae=\nu\implies e=A^{-1}\nu\implies ||e||\leq ||A^{-1}||\cdot||\nu||
 $$
 $$
