@@ -75,9 +75,10 @@ $$
 &\implies ||\eta||\leq ch^3
 \end{align}
 $$
+The norm of a matrix is the max modulus of an eigenvalue (because $||Ax||$ is maximal when $x$ is in the direction of the associated eigenvector)
 The eigenvalues of $A^{-1}$ are the inverses of eigenvalues of $A$ - but we know those. 
 $$
-||A^{-1}||=\frac{1}{4} \max \{ (\sin^2+\sin^2)^{-1} \} \leq \frac{1}{8\sin^2\left( \frac{\pi h}{2} \right)}\leq \frac{1}{8h^2}
+||A^{-1}||=\frac{1}{4} \max \{ (\sin^2{k\pi h\over 2}+\sin^2{l\pi h\over 2})^{-1} \} \leq \frac{1}{8\sin^2\left( \frac{\pi h}{2} \right)}\leq \frac{1}{8h^2}
 $$
 So finally 
 $$
