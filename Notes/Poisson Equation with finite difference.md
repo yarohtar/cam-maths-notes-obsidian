@@ -80,6 +80,7 @@ The eigenvalues of $A^{-1}$ are the inverses of eigenvalues of $A$ - but we know
 $$
 ||A^{-1}||=\frac{1}{4} \max \{ (\sin^2{k\pi h\over 2}+\sin^2{l\pi h\over 2})^{-1} \} \leq \frac{1}{8\sin^2\left( \frac{\pi h}{2} \right)}\leq \frac{1}{8h^2}
 $$
+(note in above, $\sin x\geq ax$ where $a<1$ and $x$ is small)
 So finally 
 $$
 ||e||\leq ||A^{-1}||\cdot||\eta||\leq \frac{ch}{8}
