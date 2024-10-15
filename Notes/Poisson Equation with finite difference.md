@@ -86,13 +86,7 @@ $$
 ||e||\leq ||A^{-1}||\cdot||\eta||\leq \frac{ch}{8}
 $$
 ## How to do it FAST
-Note that $B$ is a [[TST matrix]] and so we can diagonalize it, say $B=QDQ$ where $D$ is the diagonal of eigenvalues. 
-
-
-
-## Special structure of 5 point equations
-First diagnoalize $B$ with $B=QDQ^{-1}$.
-Set $v_{k}=Qu_{k}$, $c_{k}=Qb_{k}$. The system becomes
+Note that $B$ is a [[TST matrix]] and so we can diagonalize it, say $B=QDQ$ where $D$ is the diagonal of eigenvalues. Our equation (in block matrix form) becomes:
 $$
 \begin{pmatrix}
 D & I &  \\
@@ -100,8 +94,25 @@ I & D & \ddots \\
  & \ddots  & \ddots & I \\
  &  & I & D
 \end{pmatrix}
-v=c
+\begin{pmatrix}
+v_{1} \\
+v_{2} \\
+\vdots \\
+v_{m}
+\end{pmatrix}
+=
+\begin{pmatrix}
+c_{1} \\
+c_{2} \\
+\vdots \\
+c_{m}
+\end{pmatrix}
 $$
+Furthermore, we can make the matric tridiagonal! Rearrange the rows st the first $m$ indices are (current)
+
+## Special structure of 5 point equations
+First diagnoalize $B$ with $B=QDQ^{-1}$.
+Set $v_{k}=Qu_{k}$, $c_{k}=Qb_{k}$. The system becomes
 More reordering:
 $$
 \begin{pmatrix}
