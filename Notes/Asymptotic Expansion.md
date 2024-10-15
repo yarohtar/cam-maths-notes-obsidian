@@ -9,6 +9,12 @@ f(x)\sim \sum_{k=0}^{\infty} a_{k}\phi_{k}(x)
 $$
 We make NO CLAIMS about this converging !!!!
 We never fix $x$ and let $N\to \infty$.
+
+#### Caution
+For functions $\phi$ that have infinitely many zeros as the limit is taken, this definition has problems, because we are dividing by 0. However, we will still be approximating with them (???). Example:
+$$
+J_{0}(x)\text{ "}\sim\text{" }\sqrt{ \frac{2}{\pi x} }\cos\left( x-\frac{\pi}{4} \right)
+$$
 ### Properties
 Let $f\sim \sum a_{k}\phi_{k}$ and $g\sim \sum b_{k}\phi_{k}$
 - Linearity: $\alpha f+\beta g\sim \sum(\alpha a_{k}+\beta_{bk})\phi_{k}$
