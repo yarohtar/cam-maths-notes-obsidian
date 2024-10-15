@@ -1,4 +1,1 @@
-Computation / Computability
-What is computation?
-What can be computed?
-Wha
+Automata is one way to formalize computation
