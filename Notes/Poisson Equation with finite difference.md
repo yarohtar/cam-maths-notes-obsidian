@@ -116,9 +116,9 @@ A\sim\begin{pmatrix}
  & \Lambda_{2} &   &  \\
  &  & \ddots &  \\
  &  &  & \Lambda_{m}
-\end{pmatrix}
-\quad
-\quad
+\end{pmatrix}\quad %quad
+\quad %quad
+
 \Lambda_{i}=\begin{pmatrix}
 \lambda_{i} & 1 \\
 1 & \lambda_{i} & \ddots &  \\
