@@ -85,6 +85,8 @@ So finally
 $$
 ||e||\leq ||A^{-1}||\cdot||\eta||\leq \frac{ch}{8}
 $$
+## How to do it FAST
+[[TTS matrix]]
 
 
 
