@@ -17,4 +17,11 @@ Let $f\sim \sum a_{k}\phi_{k}$ and $g\sim \sum b_{k}\phi_{k}$
 - Division is possible but we don't really use it
 - Integrating term by term is usually ok
 - Differentiating term by term is usually NOT ok
-- 
+- If $\phi_{k}$ and $\psi_{k}$ are different asymptotic sequences as $x\to x_{0}$ and suppose they both approximate $f$, then the coefficients are not the same 
+- $a_{k}$ are unique, moreover: 
+  $$
+  \begin{gather}
+a_{0}=\lim_{ x \to x_{0} } \frac{f(x)}{\phi_{0}(x)}
+a_{n}=\lim_{ x \to x_{0} } \left( f(x)-\sum_{k=1}^{N}  \right)
+\end{gather}
+$$
