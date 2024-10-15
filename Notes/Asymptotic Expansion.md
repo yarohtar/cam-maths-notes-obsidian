@@ -10,3 +10,7 @@ f(x)\sim \sum_{k=0}^{\infty} a_{k}\phi_{k}(x)
 $$
 We make NO CLAIMS about this converging !!!!
 We never fix $x$ and let $N\to \infty$.
+### Properties
+Let $f\sim \sum a_{k}\phi_{k}$ and $g\sim \sum b_{k}\phi_{k}$
+- Linearity: $\alpha f$
+- Consider $\phi_{k}=(x-a)^k$
