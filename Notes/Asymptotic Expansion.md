@@ -11,7 +11,8 @@ We make NO CLAIMS about this converging !!!!
 We never fix $x$ and let $N\to \infty$.
 
 #### Caution
-For functions $\phi$ that have infinitely many zeros as the limit is taken, this definition has problems, because we are dividing by 0. However, we will still be approximating with them (???). Example:
+For functions $\phi$ that have infinitely many zeros as the limit is taken, this definition has problems, because we are dividing by 0. However, we will still be approximating with them (???). 
+Example:
 $$
 J_{0}(x)\text{ "}\sim\text{" }\sqrt{ \frac{2}{\pi x} }\cos\left( x-\frac{\pi}{4} \right)
 $$
