@@ -85,7 +85,9 @@ So finally
 $$
 ||e||\leq ||A^{-1}||\cdot||\eta||\leq \frac{ch}{8}
 $$
-## How to do it FAST
+### Hockney method
+We want to solve this FAST.
+
 Note that $B$ is a [[TST matrix]] and so we can diagonalize it, say $B=QDQ$ where $D$ is the diagonal of eigenvalues. Our equation (in block matrix form) becomes:
 $$
 \begin{pmatrix}
@@ -132,16 +134,3 @@ $$
 (Qy)_{l}=\sum_{j=1}^{m} \sin \frac{\pi jl}{m+1}y_{j}=\mathrm{Im}\sum_{j=0}^{2m+1} \exp \frac{2i\pi jl}{2m+2}y_{j}
 $$
 where we defined $y_{m+1}=\dots=y_{2m+1}=0$. Now apply [[Fast Fourier Transform]] to do it in $O(m\log m)$.
-## Special structure of 5 point equations
-First diagnoalize $B$ with $B=QDQ^{-1}$.
-Set $v_{k}=Qu_{k}$, $c_{k}=Qb_{k}$. The system becomes
-More reordering:
-$$
-\begin{pmatrix}
-\Lambda_{1} & 1 \\
-1 & \Lambda_{2} &  \ddots\\
- & \ddots & \ddots  & 1\\
- &  & 1 & \Lambda_{n}
-\end{pmatrix}
-$$
- 
