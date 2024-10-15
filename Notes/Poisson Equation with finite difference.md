@@ -3,6 +3,7 @@ We want to solve:$$
 $$
 subject to some Dirichlet boundary conditions. For this method we will assume that the boundary is rectangular because finite difference gets a bit messed up otherwise.
 
+## Five-point method
 We use [[Finite difference|finite differences]] to discretize the equation. 
 $$
 \Delta_{h,x}^2u+\Delta_{h,y}^2u=h^2f(x,y)
