@@ -60,7 +60,9 @@ $$ is an eigenvector. We do some CURSED rearranging and it works.
 ### Theorem
 This converges.
 #### Proof
-
+$$
+Ae=\nu\implies e=A^{-1}\nu\implies ||e||
+$$
 
 
 
