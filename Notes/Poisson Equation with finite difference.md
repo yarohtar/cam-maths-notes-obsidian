@@ -60,12 +60,14 @@ v_{i,j}=\sin ix \sin jy
 $$ is an eigenvector. We do some CURSED rearranging and it works.
 
 
-### Theorem
-This converges.
+### Theorem (convergence)
+Subject to sufficient smoothness of the function $f$ and the boundary conditions $\phi$, there exists a number $c>0$, independent of $h=\frac{1}{m+1}$, such that $||e||\leq ch$
 #### Proof
+Note that the exact solution satisfies our recursion relation up to an addition of some $\eta_{i,j}=O(h^{4})$. Subtracting our numerical approximation we find the recursive formula for errors:
 $$
-e_{i-1,j}+e_{i+1,j}+e_{i,j-1}+e_{i,j+1}-4e_{i,j}=h^2f_{i,j}+\nu_{i,j}
+e_{i-1,j}+e_{i+1,j}+e_{i,j-1}+e_{i,j+1}-4e_{i,j}=h^2f_{i,j}+\eta_{i,j}
 $$
+Or in the matrix form $Ae=\eta$. 
 $$
 Ae=\nu\implies e=A^{-1}\nu\implies ||e||\leq ||A^{-1}||\cdot||\nu||
 $$
