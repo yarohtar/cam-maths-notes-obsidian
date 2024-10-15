@@ -89,6 +89,10 @@ $$
 \begin{pmatrix}
 D & I &  \\
 I & D & \ddots \\
- & \ddots  & 
+ & \ddots  & \ddots & I \\
+ &  & I & D
+\end{pmatrix}
+\begin{pmatrix}
+
 \end{pmatrix}
 $$
