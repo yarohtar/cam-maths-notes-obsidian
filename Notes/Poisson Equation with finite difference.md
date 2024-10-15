@@ -94,3 +94,11 @@ I & D & \ddots \\
 \end{pmatrix}
 v=c
 $$
+More reordering:
+$$
+\begin{pmatrix}
+\Lambda_{1} & 1 \\
+1 & \Lambda_{2} &  \\
+ & \ddots & \ddots
+\end{pmatrix}
+$$
