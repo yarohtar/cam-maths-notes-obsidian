@@ -12,3 +12,5 @@ $$
 y_{j}=\frac{1}{n}\sum_{l=0}^{n-1} \omega_{n}^{-jl}x_{l}
 $$
 where $j=0\dots n-1$
+
+You can easily prove that $FF_{n}$ is an isomorphism of $\Pi_{n}$ to itself.
