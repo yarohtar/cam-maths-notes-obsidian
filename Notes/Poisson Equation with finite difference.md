@@ -108,7 +108,14 @@ c_{2} \\
 c_{m}
 \end{pmatrix}
 $$
-Furthermore, we can make the matric tridiagonal! Rearrange the rows st the first $m$ indices are (current)
+Note that $v_{i}$ and $c_{i}$ are both vectors of length $m$.
+Furthermore, we can make the matric tridiagonal! Rearrange the rows st (on RHS) the first $m$ indices are first components of vectors $c_{i}$, second $m$ indices are second components of vectors $c_{i}$ and so on. We basically bring the first eigen value to the first block, second eigenvalue to the second block etc, so we can write
+$$
+A\sim\begin{pmatrix}
+\Lambda_{1} & I &  \\
+I & \L
+\end{pmatrix}
+$$
 
 ## Special structure of 5 point equations
 First diagnoalize $B$ with $B=QDQ^{-1}$.
