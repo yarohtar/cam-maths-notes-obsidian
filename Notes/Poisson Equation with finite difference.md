@@ -57,6 +57,10 @@ v_{i,j}=\sin ix \sin jy
 $$ is an eigenvector. We do some CURSED rearranging and it works.
 
 
+### Theorem
+This converges.
+#### Proof
+
 
 
 
