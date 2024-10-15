@@ -61,7 +61,7 @@ $$ is an eigenvector. We do some CURSED rearranging and it works.
 This converges.
 #### Proof
 $$
-Ae=\nu\implies e=A^{-1}\nu\implies ||e||
+Ae=\nu\implies e=A^{-1}\nu\implies ||e||\leq ||A^{-1}||\cdot||\nu||
 $$
 
 
