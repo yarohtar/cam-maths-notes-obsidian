@@ -40,14 +40,14 @@ B=
 $$
 We investigate this matrix, and try to prove that this discrete version does converge to the actual solution when $h$ is small.
 [[Gershgorin Theorem]]
-## Lemma
+### Lemma
 For any ordering of the grid points, the matrix $A$ is symmetric and negative definite.
-### Proof
+#### Proof
 Firstly note that $a_{ii}=-4$ for all $i$.
 Now for $i\neq j$, if $u_{i}$ and $u_{j}$ are neighbours then $a_{ij}=a_{ji}=1$, otherwise $a_{ij}=a_{ji}=0$, so $A$ is symmetric and has real eigenvalues.
 Now by [[Gershgorin Theorem]] the eigen values are at most $0$ (each row will have at most 4 entries that are $1$). Suppose now we have an eigenvalue 0 with eigenvector $x$. Let $i$ be the index st $x_i$ is the max absolute component of $x$. Then $x_j$ has to have the same modulus whenever $a_{ij}=1$. But then we can change $i$ to one of these and expand all the way to the boundary where we will get a contradiction.
 
-### Proposition
+### Proposition (eigenvalues)
 The eigenvalues of $A$ are 
 $$
 \lambda_{k,l}=-4\left( \sin^2 \frac{k\pi h}{2}+ \sin^2 \frac{l\pi h}{2} \right)
@@ -61,7 +61,7 @@ $$ is an eigenvector. We do some CURSED rearranging and it works.
 
 
 ### Theorem (convergence)
-Subject to sufficient smoothness of the function $f$ and the boundary conditions $\phi$, there exists a number $c>0$, independent of $h=\frac{1}{m+1}$, such that $||e||\leq ch$
+Subject to sufficient smoothness of the function $f$ and the boundary conditions $\phi$, there exists a number $c>0$, independent of $h=\frac{1}{m+1}$, such that $||e||\leq ch$.
 #### Proof
 Note that the exact solution satisfies our recursion relation up to an addition of some $\eta_{i,j}=O(h^{4})$. Subtracting our numerical approximation we find the recursive formula for errors:
 $$
