@@ -67,14 +67,12 @@ Note that the exact solution satisfies our recursion relation up to an addition 
 $$
 e_{i-1,j}+e_{i+1,j}+e_{i,j-1}+e_{i,j+1}-4e_{i,j}=h^2f_{i,j}+\eta_{i,j}
 $$
-Or in the matrix form $Ae=\eta$. 
+Or in the matrix form $Ae=\eta$. Note that $A$ is invertible (nonzero eigenvalues that we found) so $e=A^{-1}\eta\implies ||e||\leq ||A^{-1}||\cdot||\eta||$
+Every component of $\eta$ satisfies $|\eta_{i,j}|^2\leq c^2h^8$ for some $c$ (because $O(h^4)$), so we have:
 $$
-Ae=\nu\implies e=A^{-1}\nu\implies ||e||\leq ||A^{-1}||\cdot||\nu||
-$$
-$$
-||\nu ||^2=\sum_{i=1}^{m} \sum_{j=1}^{m} |\nu_{i,j}|^2\leq c^2m^2h^8<c^2 \frac{1}{h^2}h^8=c^2h^6
+||\eta ||^2=\sum_{i=1}^{m} \sum_{j=1}^{m} |\eta_{i,j}|^2\leq c^2m^2h^8<c^2 \frac{1}{h^2}h^8=c^2h^6
 $$ $$
-\implies ||\nu||\leq ch^3
+\implies ||\eta||\leq ch^3
 $$
 The eigenvalues of $A^{-1}$ are the inverses of eigenvalues of $A$ - but we know those. 
 $$
@@ -82,7 +80,7 @@ $$
 $$
 So finally 
 $$
-||e||\leq ||A^{-1}||\cdot||\nu||\leq \frac{ch}{8}
+||e||\leq ||A^{-1}||\cdot||\eta||\leq \frac{ch}{8}
 $$
 
 
