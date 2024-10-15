@@ -1,5 +1,4 @@
-From a complicated function $f(x)$, we want to find a simpler $g(x)$ s.t. $f\sim g$. 
-Want to break up $g$ into a hierarchy of approximations s.t.
+From a complicated function $f(x)$, we want to find a simpler $g(x)$ s.t. $f\sim g$.  Want to break up $g$ into a hierarchy of approximations s.t.
 $$g(x)=\sum_{k=0}^{N} a_{k}\phi_{k}(x)$$
 where $\phi_{k}(x)$ are very simple and relative sizes of $\phi_{k}$ are known.
 
@@ -12,5 +11,5 @@ We make NO CLAIMS about this converging !!!!
 We never fix $x$ and let $N\to \infty$.
 ### Properties
 Let $f\sim \sum a_{k}\phi_{k}$ and $g\sim \sum b_{k}\phi_{k}$
-- Linearity: $\alpha f$
-- Consider $\phi_{k}=(x-a)^k$
+- Linearity: $\alpha f+\beta g\sim \sum(\alpha a_{k}+\beta_{bk})\phi_{k}$
+- Multiplication: Consider $\phi_{k}=(x-a)^k$
