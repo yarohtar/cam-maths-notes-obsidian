@@ -10,4 +10,4 @@ $\mathcal H$ is complete with this norm: a Cauchy sequence converges in $\mathca
 ## Physical interpretation
 Each vector represents a physical space.
 Scaling a vector by a complex number represents the same physical state (states correspond to rays in $\mathcal H$) -> useful to work with normalized states
-For normalized states $(\phi, \psi)$ is the probability amplitude to transition from $\phi$ to $\psi$
+For normalized states, the inner product $(\phi, \psi)$ is the probability amplitude to transition from $\phi$ to $\psi$
