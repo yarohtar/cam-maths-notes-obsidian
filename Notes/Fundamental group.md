@@ -149,7 +149,7 @@ Step 1:
 $l^+:I\to I\times I$ with $s\to(s,1)$
 $l^-:I\to I\times I$ by concatenating $s\to(0,1-s)$, $s\to(s,0)$ and $s\to(1,s)$
 
-Then $l^+\simeq l^-$ relative to $\{ 0,1 \}$ where $L(s,\lambda)=\lambda l^-(s)+(1-\lambda)l^+(s)$
+Then $l^+\simeq_{L} l^-$ relative to $\{ 0,1 \}$ where $L(s,\lambda)=\lambda l^-(s)+(1-\lambda)l^+(s)$
 
 Step 2:
 Set $G: I\times I\to_{\gamma \times id}X\times I\to_{H?}Y$
