@@ -155,8 +155,9 @@ Then $l^+\simeq_{L} l^-$ relative to $\{ 0,1 \}$ where $L(s,\lambda)=\lambda l^-
 Step 2:
 Let $\gamma$ be a loop based at $x_{0}$ in $X$. 
 Set $G: I\times I\to_{\gamma \times id}X\times I\to_{H}Y$.
+So $G(t,0)=$
 $G\circ l^+\simeq G\circ l^-$ relative to $\{ 0,1 \}$ ie as paths from $g(x_{0})$ to $g(x_{0})$
-$[G\circ l^+]=[G\circ \gamma]$ and $[G\circ l^-]=[u^{-1}\cdot(f\circ \gamma)\cdot u]$ so done.
+$[G\circ l^+]=[g\circ \gamma]$ and $[G\circ l^-]=[u^{-1}\cdot(f\circ \gamma)\cdot u]$ so done.
 ### Theorem
 $f:X\to Y$ homotopy equivalence, $x_{0}\in X$
 Then $f_{*}:\pi_{1}(X,x_{0})\to \pi_{1}(Y,f(x_{0}))$ is an isomorphism
