@@ -124,4 +124,14 @@ $l^-:I\to I\times I$ by concatenating $s\to(0,1-s)$, $s\to(s,0)$ and $s\to(1,s)$
 Then $l^+\simeq l^-$ relative to $\{ 0,1 \}$ where $L(s,\lambda)=\lambda l^-(s)+(1-\lambda)l^+(s)$
 
 Step 2:
-Set $G: I\times I\to_{\gamma \times id}X\times I\to$
+Set $G: I\times I\to_{\gamma \times id}X\times I\to_{H?}Y$
+$G\circ l^+\simeq G\circ l^-$ relative to $\{ 0,1 \}$ ie as paths from $g(x_{0})$ to $g(x_{0})$
+$[G\circ l^+]=[G\circ \gamma]$ and $[G\circ l^-]=[u^{-1}\cdot(f\circ \gamma)\cdot u]$ so done.
+### Theorem
+$f:X\to Y$ homotopy equivalence, $x_{0}\in X$
+Then $f_{*}:\pi_{1}(X,x_{0})\to \pi_{1}(Y,f(x_{0}))$ is an isomorphism
+#### Proof
+Let $g:Y\to X$ homotopy inverse of $f$. Say $id_{Y}\simeq g\circ f$.
+Let $u(t)=H(x_{0},t)$.
+By previous lemma $g\circ f)_{*}=u_{\#}\circ(id_{Y})_{*}$.
+Also $u_{\#}$ is an isomorphism so $\pi_{1}(x,x_{0})\to _{}f_{*}$
