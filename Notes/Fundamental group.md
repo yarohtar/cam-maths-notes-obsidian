@@ -104,4 +104,9 @@ such that
 3. If $v:x_{1}\leadsto x_{2}$, then $(u\cdot v)_{\#}=v_{\#}\circ u_{\#}$
 4. If $f:X\to Y$ st $f(x_{0})=y_{0}$ and $f(x_{1})=y_{1}$ then
 (commutes, remarkable)
-5. If $x_{1}=x_{0}$, $u_{\#}$ is automorphism of $\pi_{1}$
+5. If $x_{1}=x_{0}$, $u_{\#}$ is automorphism of $\pi_{1}(X,x_{0})$ given by conjugation in $[u]\in \pi_{1}(X,x_{0})$
+#### Proof
+Only the 4. is worth proving (remarkable)
+### Warning
+$X$ path connected $\implies \pi_{1}(X,x_{0})\cong\pi_{1}(X,x_{1})$ NOT a cannonical isomorphism, it depends on path $x_{1}\leadsto x_{1}$.
+NB Abstract properties eg being trivial, abelian, 
