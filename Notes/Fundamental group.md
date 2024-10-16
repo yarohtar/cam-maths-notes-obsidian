@@ -177,9 +177,9 @@ $[G\circ l^+]=[g\circ \gamma]$ and $[G\circ l^-]=[u^{-1}\cdot(f\circ \gamma)\cdo
 $f:X\to Y$ homotopy equivalence, $x_{0}\in X$
 Then $f_{*}:\pi_{1}(X,x_{0})\to \pi_{1}(Y,f(x_{0}))$ is an isomorphism
 #### Proof
-Let $g:Y\to X$ homotopy inverse of $f$. Say $id_{X}\simeq g\circ f$.
-Let $u(t)=H(x_{0},t)$, a path in $Y$ from $f(x_{0})$ to 
-By previous lemma $(g\circ f)_{*}=u_{\#}\circ(id_{Y})_{*}$ 
+Let $g:Y\to X$ homotopy inverse of $f$. Say $id_{X}\simeq_{H} g\circ f$.
+Let $u(t)=H(x_{0},t)$, a loop in $X$ based at $x_{0}$.
+By previous lemma $(g\circ f)_{*}=u_{\#}\circ(id_{X})_{*}$ 
 (where functions are from $Y$ to $Y$)
 Also $u_{\#}$ is an isomorphism so $\pi_{1}(X,x_{0})\to _{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))$
 So the first map is injective, while the second is surjectvie because there is an isomorphism $u_{\#}:\pi_{1}(X,x_{0})\to \pi_{1}(X,g\circ f(x_{0}))$
