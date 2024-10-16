@@ -13,7 +13,7 @@ Now scale up
 Thus $\lVert Tx \rVert\leq \frac{1}{\delta}\lVert x \rVert$ for all $x \in X$.
 3=>1: $\lVert Tx-Ty \rVert\leq k\lVert x-y \rVert$ so $T$ is uniformly continuous
 
-### Definition
+### Definition (operator norm)
 For bounded $T:X\to Y$, the operator norm of $T$ is:
 $\lVert T \rVert=\lVert T \rVert_{op}=\sup \{ \lVert Tx \rVert:\lVert x \rVert\leq 1 \}$
 This for all $x \in X:\ \lVert Tx \rVert\leq \lVert T \rVert\lVert x \rVert$.
