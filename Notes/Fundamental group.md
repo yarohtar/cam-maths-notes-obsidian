@@ -163,7 +163,6 @@ We literally put coordinates $I\times I$ on this square.
 $l^+:I\to I\times I$ with $s\to(s,1)$
 $l^-:I\to I\times I$ by concatenating:
 $s\to(0,1-s)$, $s\to(s,0)$ and $s\to(1,s)$
-
 Then $l^+\simeq_{L} l^-$ relative to $\{ 0,1 \}$ where $L(s,\lambda)=\lambda l^-(s)+(1-\lambda)l^+(s)$
 
 ##### Step 2
@@ -173,14 +172,15 @@ So $G(t,0)=f\circ \gamma$ and $G(t,1)=g\circ \gamma$ and
 $G(0,t)=H(x_{0},t)=u(t)$
 $G\circ l^+\simeq G\circ l^-$ relative to $\{ 0,1 \}$ ie as paths from $g(x_{0})$ to $g(x_{0})$
 $[G\circ l^+]=[g\circ \gamma]$ and $[G\circ l^-]=[u^{-1}\cdot(f\circ \gamma)\cdot u]$ so done.
+
 ### Theorem
 $f:X\to Y$ homotopy equivalence, $x_{0}\in X$
 Then $f_{*}:\pi_{1}(X,x_{0})\to \pi_{1}(Y,f(x_{0}))$ is an isomorphism
 #### Proof
 Let $g:Y\to X$ homotopy inverse of $f$. Say $id_{Y}\simeq g\circ f$.
 Let $u(t)=H(x_{0},t)$.
-By previous lemma $g\circ f)_{*}=u_{\#}\circ(id_{Y})_{*}$.
-Also $u_{\#}$ is an isomorphism so $\pi_{1}(x,x_{0})\to _{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))$
+By previous lemma $(g\circ f)_{*}=u_{\#}\circ(id_{Y})_{*}$ (where functions are from $$)
+Also $u_{\#}$ is an isomorphism so $\pi_{1}(X,x_{0})\to _{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))$
 So the first map is injective, while the second is surjectvie because there is an isomorphism $u_{\#}:\pi_{1}(X,x_{0})\to \pi_{1}(X,g\circ f(x_{0}))$
 Reverse roles of $f$ and $g$:
 $f_{*}:\pi_{1}(X,g\circ f(x_{0}))\to \pi_{1}(X,f\circ g\circ f(x_{0}))$ surjective
