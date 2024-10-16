@@ -17,8 +17,3 @@ Then it follows that $c_n=(\psi,\psi_n)$. More generally, $c_n={(\psi,\psi_n)\ov
 
 
 [[Commutator]]
-- $[\hat x, \hat p] = i\hbar$
-- $[\hat L_i,\hat L_j]=i\hbar\epsilon_{ijk}\hat L_k$
-- $[\hat L^2, \hat L_i]=0$
-- $[\hat L_i, \hat H]=0$
-- $[\hat L^2,\hat H]=0$
