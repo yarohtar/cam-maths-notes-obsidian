@@ -7,8 +7,9 @@ States are vectors $\ket{\psi}$ in a [[Hilbert Spaces (PQM)|Hilbert space]] $\ma
 \usepackage{tikz-cd}
 
 \begin{document}
-    \begin{tikzcd}[scale=5]
-    & A \arrow[dl] \arrow[dr] & \\ B \arrow{rr} & & C 
+    \begin{tikzcd}
+    & A \arrow[dl] \arrow[dr] & \\
+    B \arrow{rr} & & C 
     \end{tikzcd}
 \end{document}
 ```
