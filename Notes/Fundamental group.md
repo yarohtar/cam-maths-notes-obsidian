@@ -117,3 +117,11 @@ $\pi_{1}(X,x_{0})\to_{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{u_{\#}} \pi_{1}(Y,g(x_{0}))$
 $\pi_{1}(X,x_{0})\to_{g_{*}}\pi_{1}(Y,g(x_{0}))$ commutes
 #### Proof
 Idea (remarkable)
+Step 1: 
+$l^+:I\to I\times I$ with $s\to(s,1)$
+$l^-:I\to I\times I$ by concatenating $s\to(0,1-s)$, $s\to(s,0)$ and $s\to(1,s)$
+
+Then $l^+\simeq l^-$ relative to $\{ 0,1 \}$ where $L(s,\lambda)=\lambda l^-(s)+(1-\lambda)l^+(s)$
+
+Step 2:
+Set $G: I\times I\to_{\gamma \times id}X\times I\to$
