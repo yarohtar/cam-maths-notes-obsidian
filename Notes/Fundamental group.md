@@ -130,18 +130,18 @@ $X$ path connected $\implies \pi_{1}(X,x_{0})\cong\pi_{1}(X,x_{1})$ NOT a cannon
 NB Abstract properties eg being trivial, abelian, ... make sense without specifiying $x_{0}$
 
 ### Lemma
-$f,g:X\to Y$, $f\simeq_{H}g$, $x_{0}\in X$. Then define $u=H(x_{0},\cdot):f(x_{0})\leadsto g(x_{0})$.
+$f,g:X\to Y$, $f\simeq_{H}g$, $x_{0}\in X$. Then define $u=H(x_{0},\cdot):f(x_{0})\leadsto g(x_{0})$. 
+Then the following diagram commutes:
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
 \pi_1(X,x_0) \arrow[r,"f_*"] \arrow[rd, "g_*"] & \pi_1(Y,f(x_0)) \arrow[d, "u_{\#}"]\\
-& \pi
+& \pi_1(Y,g(x_0))
 \end{tikzcd}
 \end{document}
 ```
-$\pi_{1}(X,x_{0})\to_{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{u_{\#}} \pi_{1}(Y,g(x_{0}))$
-$\pi_{1}(X,x_{0})\to_{g_{*}}\pi_{1}(Y,g(x_{0}))$ commutes
+
 #### Proof
 Idea (remarkable)
 Step 1: 
