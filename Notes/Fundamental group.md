@@ -197,7 +197,7 @@ so $f_{*}'$ is surjective. Now see the commutative diagram:
 \end{tikzcd}
 \end{document}
 ```
-It is commutative because $f\circ u =f\circ H(x_{0},\cdot)$.
+It is commutative because 
 
 ### Definition
 $X$ is simply connected if it is path connected and its fundamental group is trivial in some (hence all) basepoints.
