@@ -103,7 +103,16 @@ such that
 2. $(c_{x_{0}})_{\#}=id_{\pi_{1}(X,x_{0})}$
 3. If $v:x_{1}\leadsto x_{2}$, then $(u\cdot v)_{\#}=v_{\#}\circ u_{\#}$
 4. If $f:X\to Y$ st $f(x_{0})=y_{0}$ and $f(x_{1})=y_{1}$ then
-(commutes, remarkable)
+```tikz
+\usepackage{tikz-cd}
+
+\begin{document}
+\begin{tikzcd}
+x_0\arrow[r,u]\arrow[d,"f"] & x_1\arrow[d,"f"]\\
+y_0\arrow[r, "f\circ u"] & y_1
+\end{tikzcd}
+\end{document}
+```
 5. If $x_{1}=x_{0}$, $u_{\#}$ is automorphism of $\pi_{1}(X,x_{0})$ given by conjugation in $[u]\in \pi_{1}(X,x_{0})$
 #### Proof
 Only the 4. is worth proving (remarkable)
