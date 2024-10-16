@@ -2,7 +2,7 @@ Let $\{\psi_n\}$ be a complete orthogonal set of wavefunctions, meaning $(\psi_i
 $$\psi = \sum_{n=0}^\infty c_n\psi_n$$
 Then it follows that $c_n=(\psi,\psi_n)$. More generally, $c_n={(\psi,\psi_n)\over (\psi_n,\psi_n)}$. 
 
-- Any observable $O$ has associated [[Hermetian operator]] $\hat O$.
+- Any observable $O$ has associated [[Adjoint|Hermetian operatorr]] $\hat O$.
 - Hence, for any observable, we can write $\psi$ as a linear combination of eigenfunctions of $\hat O$.
 - The outcome of a measurement is always an eigenvalue of $\hat O$.
 - After a measurement with outcome $\lambda$, the wavefunction collapses to a linear combination of eigenfunctions with eigenvalue $\lambda$

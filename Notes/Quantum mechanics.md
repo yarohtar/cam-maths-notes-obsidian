@@ -3,6 +3,6 @@
 [[Particle in Potential Well]]
 [[Scattering]]
 [[Harmonic Oscillator in QM]]
-[[Hermetian operator]]
+[[Adjoint]]
 [[Measurements in QM]]
 [[Commutator]]
