@@ -15,10 +15,13 @@ Thus $\lVert Tx \rVert\leq \frac{1}{\delta}\lVert x \rVert$ for all $x \in X$.
 
 ### Definition
 For bounded $T:X\to Y$, the operator norm of $T$ is:
-$\lVert T \rVert=\lVert T \rVert_{?}=\sup \{ \lVert Tx \rVert:\lVert x \rVert\leq 1 \}$
+$\lVert T \rVert=\lVert T \rVert_{op}=\sup \{ \lVert Tx \rVert:\lVert x \rVert\leq 1 \}$
 This for all $x \in X:\ \lVert Tx \rVert\leq \lVert T \rVert\lVert x \rVert$.
 
 ### Definition
 Write $L(X,Y)$ for the set of continuous linear maps $X\to Y$ (or $B(X,Y)$). 
 Note that $S,T \in L(X,Y)$ then $S+T\in L(X,Y)$.
-Indeed $\lVert (S+T)x \rVert\leq \lVert Sx \rVert+\lVert Tx \rVert\leq (\lVert S \rVert+\lVert T \rVert)\lVert x \rVert$ so $S+T$ is bounded. Moreover, $\lVert S+T \rVert$
+Indeed $\lVert (S+T)x \rVert\leq \lVert Sx \rVert+\lVert Tx \rVert\leq (\lVert S \rVert+\lVert T \rVert)\lVert x \rVert$ so $S+T$ is bounded. Moreover, $\lVert S+T \rVert\leq \lVert S \rVert+\lVert T \rVert$ so $\lVert  \rVert$ is indeed a norm on $L(X,Y)$.
+
+### Proposition
+$X,Y,Z$ normed, $S\in L(X,Y)$ and $T\in L(Y,Z)$. Then $T\circ S\in L(X,Z)$ and $\lVert T\circ S \rVert\leq \lVert T \rVert\lVert S \rVert\lVert x \rVert$.
