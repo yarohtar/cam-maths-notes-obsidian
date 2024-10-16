@@ -1,0 +1,1 @@
+Observables in Quantum mechanics are represented by [[Linear Operators|linear]] [[Adjoint#Definition|Hermetian]] operators
