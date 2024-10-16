@@ -13,3 +13,14 @@ States are vectors $\ket{\psi}$ in a [[Hilbert Spaces (PQM)|Hilbert space]] $\ma
     \end{tikzcd}
 \end{document}
 ```
+
+```tikz
+\usepackage{tikz-cd}
+
+\begin{document}
+    \begin{tikzcd}
+    A \arrow{r} \arrow{d} & B \arrow{d}\\
+    C \arrow{r} & D 
+    \end{tikzcd}
+\end{document}
+```
