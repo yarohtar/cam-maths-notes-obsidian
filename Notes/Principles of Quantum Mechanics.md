@@ -40,3 +40,14 @@ Let's menttion and ignore some issues in spaces such as $L^2(\mathbb{R},dx)$
 [[Linear Operators#Definition]] (bounded operators)
 - In finite dim all operators are bounded
 - In infinite dimensions thats not true. Position and momentum operators are unbounded
+
+## Operators for composite systems
+Let $\{ \ket{e_{a}} \}$ be basis of $\mathcal{H}_{1}$ and $A:\mathcal{H}\to \mathcal{H}$ a linear operator.
+Similarlry $\{ \ket{f_{\alpha}} \}$ and $B$ on $\mathcal{H}_{2}$
+We define $A\otimes B:\mathcal{H}_1\otimes \mathcal{H}_{2}\to \mathcal{H}_{1}\otimes \mathcal{H}_{2}$
+by
+$(A\otimes B)(\ket{e_{a}}\otimes \ket{f_{\alpha}})=(A\ket{e_{a}})\otimes(B\ket{f_{\alpha}})$
+
+
+
+
