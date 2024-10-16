@@ -187,13 +187,13 @@ So the first map is injective, while the second is surjectvie because there is a
 $u_{\#}:\pi_{1}(X,x_{0})\to \pi_{1}(X,g\circ f(x_{0}))$
 Reverse roles of $f$ and $g$:
 $\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))\to_{f_{*}'}\pi_{1}(Y,f\circ g\circ f(x_{0}))$
-so $f_{*}'$ is surjective.
+so $f_{*}'$ is surjective. Now see the commutative diagram:
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
-\pi_1(X,x_0)\arrow[r,"f_*", "\text{inj}"] & \pi_1(Y,"f(x_0)") \arrow[d,"(f\circ u)_{\#}"] \\
-\pi_1(X,g\circ f(x_0))\arrow[r,"f_*'","\text{surj}"] & \pi_1(Y,f\circ g\circ f(x_0))
+\pi_1(X,x_0)\arrow[r,"f_*","inj"'] \arrow[d,"u_{\#}"] & \pi_1(Y,f(x_0)) \arrow[d,"(f\circ u)_{\#}"] \\
+\pi_1(X,g\circ f(x_0)) \arrow[r,"f_*'", "surj"'] & \pi_1(Y,f\circ g\circ f(x_0))
 \end{tikzcd}
 \end{document}
 ```
