@@ -3,15 +3,15 @@ States are vectors $\ket{\psi}$ in a [[Hilbert Spaces (PQM)|Hilbert space]] $\ma
 ## Postulate II
 [[Observables]] are [[Linear Operators|linear]] [[Adjoint|Hermetian]] operators $Q:\mathcal{H}\to \mathcal{H}$.
 
-```
+```tikz
 \usepackage{tikz-cd}
-
-\begin{document}
-    \begin{tikzcd}
-    & A \arrow[dl] \arrow[dr] & \\
-    B \arrow{rr} & & C 
-    \end{tikzcd}
-\end{document}
+\begin{document} 
+\begin{tikzcd}
+T     \arrow[drr, bend left, "x"]     \arrow[ddr, bend right, "y"]     \arrow[dr, dotted, "{(x,y)}" description] & & \\ 
+K & X \times_Z Y \arrow[r, "p"] \arrow[d, "q"]     & X \arrow[d, "f"] \\
+& Y \arrow[r, "g"]     & Z
+\end{tikzcd} 
+\end{document} 
 ```
 
 
@@ -20,8 +20,7 @@ States are vectors $\ket{\psi}$ in a [[Hilbert Spaces (PQM)|Hilbert space]] $\ma
 
 \begin{document}
     \begin{tikzcd}
-    & A \arrow[dl] \arrow[dr] & \\
-	    B \arrow{rr} & & C 
+    A
     \end{tikzcd}
 \end{document}
 ```
