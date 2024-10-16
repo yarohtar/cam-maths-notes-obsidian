@@ -17,3 +17,5 @@ $||x||=\inf\left\{  \alpha\geq 0 \mid \frac{x}{\alpha}\in B'  \right\}$
 [[Banach Space]]
 [[Minkowski's Inequality]]
 [[Hölder inequality]]
+
+[[Metric spaces#Some properties]]
