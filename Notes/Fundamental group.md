@@ -91,7 +91,7 @@ Well defined? If $\gamma \simeq \gamma'$ as paths, then $f\circ \gamma \simeq f\
 ### Notation
 $f_{*}=\pi_{1}(f)$
 ### Proposition
-$ux_{0}\leadsto x_{1}$ path in $X$ induces a group isomorphism
+$u:x_{0}\leadsto x_{1}$ path in $X$ induces a group isomorphism
 $$
 \begin{align}
 u_{\#}:\pi_{1}(X,x_{0})&\to \pi_{1}(X,x_{1}) \\
