@@ -28,3 +28,13 @@ Matrix elements of $A$ in this basis are $A_{nn'}=\bra{n}A\ket{n'}$.
 
 Also $(AB)_{nn'}=\bra{n}AB\ket{n'}=\sum_{k}A_{nk}B_{kn'}$
 Also $(A^{\dagger})_{nn'}=(A_{n'n})^{*}$
+
+
+When e-vectors of $Q$ are degenerate, we look for a complete set of commuting observables $\{ Q, P, \dots \}$ st $[Q,P]=0=[\dots]$ for all pairs.
+
+Then they are simultaneously diagonalizable (diagonalizable in the same basis)
+$\{ \ket{q_{m},p_{m},\dots }\}$
+
+### Operators in $dim\mathcal{H}=\infty$
+Let's menttion and ignore some issues in spaces such as $L^2(\mathbb{R},dx)$
+[[Linear Operators#Definition]] (bounded operators)
