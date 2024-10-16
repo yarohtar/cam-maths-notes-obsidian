@@ -144,7 +144,8 @@ Then the following diagram commutes:
 ```
 
 #### Proof
-Idea 
+##### Idea
+For a path $\gamma$ in $X$ based at $x_{0}$ we want to construct the following two paths in $Y$ based at $g(x_{0})$ and prove that they are homotopy equivalent.
 ```
 gx0---gogamma---->gx0
 |                  ^
@@ -156,15 +157,16 @@ V                  |
 fx0----fogamma--->fx0
 ```
 Note that $f\circ \gamma=H(\cdot,0)\circ \gamma$ and $g\circ \gamma=H(\cdot,1)\circ \gamma$
+We literally put coordinates $I\times I$ on this square.
 
-Step 1: 
+##### Step 1
 $l^+:I\to I\times I$ with $s\to(s,1)$
 $l^-:I\to I\times I$ by concatenating:
 $s\to(0,1-s)$, $s\to(s,0)$ and $s\to(1,s)$
 
 Then $l^+\simeq_{L} l^-$ relative to $\{ 0,1 \}$ where $L(s,\lambda)=\lambda l^-(s)+(1-\lambda)l^+(s)$
 
-Step 2:
+##### Step 2
 Let $\gamma$ be a loop based at $x_{0}$ in $X$. 
 Set $G: I\times I\to_{\gamma \times id}X\times I\to_{H}Y$.
 So $G(t,0)=f\circ \gamma$ and $G(t,1)=g\circ \gamma$ and 
