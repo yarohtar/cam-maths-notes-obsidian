@@ -98,7 +98,8 @@ u_{\#}:\pi_{1}(X,x_{0})&\to \pi_{1}(X,x_{1}) \\
 [\gamma]&\to [u^{-1}\cdot \gamma \cdot u]
 \end{align}
 $$
-such that
+(intuitively, we just go from $x_{1}$ to $x_{0}$, then do the loop $\gamma$ and then go back to $x_{1}$ along the same path)
+It satisfies:
 1. $u\simeq u'$ as paths $\implies u_{\#}=u_{\#}'$
 2. $(c_{x_{0}})_{\#}=id_{\pi_{1}(X,x_{0})}$
 3. If $v:x_{1}\leadsto x_{2}$, then $(u\cdot v)_{\#}=v_{\#}\circ u_{\#}$
