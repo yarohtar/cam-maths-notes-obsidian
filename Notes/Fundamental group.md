@@ -121,7 +121,8 @@ $$
 &=[(f\circ u)^{-1}\cdot(f\circ \gamma)\cdot(f\circ u)] \\
 &=[(f\circ u^{-1})\cdot(f\circ \gamma)\cdot(f\circ u)] \\
 &=[f\circ(u^{-1}\cdot \gamma \cdot u)] \\
- & =[f\circ]
+ & =[f\circ u_{\#}(\gamma)] \\
+ & =f_{*}([u_{\#}(\gamma)])
 \end{align}
 $$
 ### Warning
