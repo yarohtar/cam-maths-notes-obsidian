@@ -108,5 +108,12 @@ such that
 #### Proof
 Only the 4. is worth proving (remarkable)
 ### Warning
-$X$ path connected $\implies \pi_{1}(X,x_{0})\cong\pi_{1}(X,x_{1})$ NOT a cannonical isomorphism, it depends on path $x_{1}\leadsto x_{1}$.
-NB Abstract properties eg being trivial, abelian, 
+$X$ path connected $\implies \pi_{1}(X,x_{0})\cong\pi_{1}(X,x_{1})$ NOT a cannonical isomorphism, it depends on path $x_{0}\leadsto x_{1}$.
+NB Abstract properties eg being trivial, abelian, ... make sense without specifiying $x_{0}$
+
+### Lemma
+$f,g:X\to Y$, $f\simeq_{H}g$, $x_{0}\in X$. Then define $u=H(x_{0},\cdot):f(x_{0})\leadsto g(x_{0})$.
+$\pi_{1}(X,x_{0})\to_{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{u_{\#}} \pi_{1}(Y,g(x_{0}))$
+$\pi_{1}(X,x_{0})\to_{g_{*}}\pi_{1}(Y,g(x_{0}))$ commutes
+#### Proof
+Idea (remarkable)
