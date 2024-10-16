@@ -134,4 +134,12 @@ Then $f_{*}:\pi_{1}(X,x_{0})\to \pi_{1}(Y,f(x_{0}))$ is an isomorphism
 Let $g:Y\to X$ homotopy inverse of $f$. Say $id_{Y}\simeq g\circ f$.
 Let $u(t)=H(x_{0},t)$.
 By previous lemma $g\circ f)_{*}=u_{\#}\circ(id_{Y})_{*}$.
-Also $u_{\#}$ is an isomorphism so $\pi_{1}(x,x_{0})\to _{}f_{*}$
+Also $u_{\#}$ is an isomorphism so $\pi_{1}(x,x_{0})\to _{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))$
+So the first map is injective, while the second is surjectvie because there is an isomorphism $u_{\#}:\pi_{1}(X,x_{0})\to \pi_{1}(X,g\circ f(x_{0}))$
+Reverse roles of $f$ and $g$:
+$f_{*}:\pi_{1}(X,g\circ f(x_{0}))\to \pi_{1}(X,f\circ g\circ f(x_{0}))$ surjective
+Commutative diagram remarkable 
+
+### Definition
+$X$ is simply connected if it is path connected and its fundamental group is trivial in some (hence all) basepoints.
+
