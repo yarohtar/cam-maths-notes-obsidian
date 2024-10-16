@@ -1,8 +1,7 @@
-### Definition
-$X$ is simply connected if it is path connected and its [[Fundamental group|fundamental group]] is trivial in some (hence all) basepoints.
+$X$ is simply connected if it is [[Path Components|path connected]] and its [[Fundamental group|fundamental group]] is trivial in some (hence all) basepoints.
 
 ### Lemma
-$X$ simply connected $\iff$ For each pair of points $x_{0},x_{1}\in X$ there is a uninque homotopy class of [[Paths|paths]] between them.
+$X$ simply connected $\iff$ For each pair of points $x_{0},x_{1}\in X$ there is a unique homotopy class of [[Paths|paths]] between them.
 #### Proof
 $(\implies)$ Suppose $X$ is simply connected. Let $x_{0},x_{1}\in X$. $X$ is path connected so have path $x_{0}\leadsto x_{1}$. Suppose $\gamma,\gamma':x_{0}\leadsto x_{1}$. Then $\gamma ^{-1}\cdot \gamma$ is a loop based at $x_{0}$. 
 $[\gamma ^{-1}\cdot \gamma]\in \pi_{1}(X,x_{0})=\{ [c_{x_{0}}] \}$. So $\gamma ^{-1}\cdot \gamma'\simeq c_{x_{0}}$ relative to the endpoints
