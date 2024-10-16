@@ -146,8 +146,17 @@ Then the following diagram commutes:
 #### Proof
 Idea 
 ```
-gx0---g(gamma)---->gx
+gx0---gogamma---->gx0
+|                  ^
+|                  |
+u^-1               u
+|                  |
+|                  |
+V                  |
+fx0----fogamma--->fx0
 ```
+Note that $f\circ \gamma=H(\cdot,0)\circ \gamma$ and $g\circ \gamma=H(\cdot,1)\circ \gamma$
+
 Step 1: 
 $l^+:I\to I\times I$ with $s\to(s,1)$
 $l^-:I\to I\times I$ by concatenating:
