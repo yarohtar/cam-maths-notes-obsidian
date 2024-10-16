@@ -188,6 +188,9 @@ $u_{\#}:\pi_{1}(X,x_{0})\to \pi_{1}(X,g\circ f(x_{0}))$
 Reverse roles of $f$ and $g$:
 $\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))\to_{f_{*}'}\pi_{1}(Y,f\circ g\circ f(x_{0}))$
 so $f_{*}'$ is surjective.
+```tikz
+
+```
 
 
 ### Definition
