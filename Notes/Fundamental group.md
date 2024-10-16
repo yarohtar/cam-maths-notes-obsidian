@@ -73,7 +73,7 @@ Let $f:(X,x_{0})\to (Y,y_{0})$ be a based map. Then the function
 $$
 \begin{align}
 \pi_{1}(f):\pi_{1}(X,x_{0})&\to \pi_{1}(Y,y_{0}) \\
-[Y]&\to [f\circ Y]
+[\gamma]&\to [f\circ \gamma]
 \end{align}
 $$
 is well defined and satisfies:
@@ -186,8 +186,9 @@ $\pi_{1}(X,x_{0})\to _{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_
 So the first map is injective, while the second is surjectvie because there is an isomorphism $u_{\#}$. 
 $u_{\#}:\pi_{1}(X,x_{0})\to \pi_{1}(X,g\circ f(x_{0}))$
 Reverse roles of $f$ and $g$:
-$f_{*}:\pi_{1}(X,g\circ f(x_{0}))\to \pi_{1}(X,f\circ g\circ f(x_{0}))$ surjective
-Commutative diagram remarkable 
+$\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))\to_{f_{*}}\pi_{1}(Y,f\circ g\circ f(x_{0}))$
+so $f_{*}$ is surjective.
+
 
 ### Definition
 $X$ is simply connected if it is path connected and its fundamental group is trivial in some (hence all) basepoints.
