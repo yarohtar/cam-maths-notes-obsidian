@@ -15,11 +15,8 @@ Then it follows that $c_n=(\psi,\psi_n)$. More generally, $c_n={(\psi,\psi_n)\ov
 - Energy operator is $\hat H= {\hat p^2\over 2m} +V(\hat x)$
 - Angular momentum operator is $\hat L=\hat x\times\hat p=-i\hbar\hat x\times\nabla$ 
 
-### Commutator
-$[\hat A, \hat B] = \hat A\hat B-\hat B\hat A$
-Properties:
-- $[\hat A, \hat B\hat C] = [\hat A,\hat B]\hat C + \hat B[\hat A,\hat C]$
-- $[\hat A\hat B, \hat C] = \hat A[\hat B,\hat C] +[\hat A,\hat C] \hat B$
+
+[[Commutator]]
 - $[\hat x, \hat p] = i\hbar$
 - $[\hat L_i,\hat L_j]=i\hbar\epsilon_{ijk}\hat L_k$
 - $[\hat L^2, \hat L_i]=0$

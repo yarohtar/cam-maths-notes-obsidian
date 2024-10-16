@@ -3,4 +3,4 @@ States are vectors $\ket{\psi}$ in a [[Hilbert Spaces (PQM)|Hilbert space]] $\ma
 ## Postulate II
 Observables are [[Linear Operators|linear]] [[Hermetian operator]] $Q:\mathcal{H}\to \mathcal{H}$.
 
-Operators form an associative but not commutative algebra over $\mathbb{C}$ called the "Operator Algebra"
+Operators form an associative but not commutative algebra over $\mathbb{C}$ called the "Operator Algebra" where the product is the composition.
