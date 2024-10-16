@@ -82,4 +82,12 @@ is well defined and satisfies:
 3. If $(A,a)\to_{h}(B,b)\to_{k}(C,c)$ based maps, then $\pi_{1}(k\circ h)=\pi_{1}(k)\circ \pi_{1}(h)$
 4. $\pi_{1}(id_{X})=id_{\pi_{1}(X)}$
 #### Proof
-Well defined? 
+Well defined? If $\gamma \simeq \gamma'$ as paths, then $f\circ \gamma \simeq f\circ \gamma'$ as paths.
+1. $f\circ c_{x_{0}}=c_{y_{0}}\implies \pi_{1}(f)$ preserves unit
+   $f\circ(\gamma \cdot \gamma')=(f\circ \gamma)\cdot(f\circ \gamma')\implies$ composition law respected
+2. $f\simeq f'$ rerlative to $\{ x_{0} \} \implies f\circ \gamma \simeq f'\circ \gamma$ relative to $\{ 0,1 \}$
+3. $\pi_{1}(k\circ h)[\gamma]=[k\circ h\circ \gamma]=\pi_{1}(k)[h\circ \gamma]=\pi_{1}(k)\circ \pi_{1}(h)[\gamma]$ for all $\gamma \in \pi_{1}(A,a)$
+4. $\pi_{1}(id_{X})[\gamma]=[id_{x}\gamma]=[\gamma]$ for all $\gamma \in \pi_{1}(X,x_{0})$
+### Notation
+$f_{*}=\pi_{1}(f)$
+### Prop
