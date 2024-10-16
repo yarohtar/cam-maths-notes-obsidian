@@ -90,4 +90,18 @@ Well defined? If $\gamma \simeq \gamma'$ as paths, then $f\circ \gamma \simeq f\
 4. $\pi_{1}(id_{X})[\gamma]=[id_{x}\gamma]=[\gamma]$ for all $\gamma \in \pi_{1}(X,x_{0})$
 ### Notation
 $f_{*}=\pi_{1}(f)$
-### Prop
+### Proposition
+$ux_{0}\leadsto x_{1}$ path in $X$ induces a group isomorphism
+$$
+\begin{align}
+u_{\#}:\pi_{1}(X,x_{0})&\to \pi_{1}(X,x_{1}) \\
+[\gamma]&\to [u^{-1}\cdot \gamma \cdot u]
+\end{align}
+$$
+such that
+1. $u\simeq u'$ as paths $\implies u_{\#}=u_{\#}'$
+2. $(c_{x_{0}})_{\#}=id_{\pi_{1}(X,x_{0})}$
+3. If $v:x_{1}\leadsto x_{2}$, then $(u\cdot v)_{\#}=v_{\#}\circ u_{\#}$
+4. If $f:X\to Y$ st $f(x_{0})=y_{0}$ and $f(x_{1})=y_{1}$ then
+(commutes, remarkable)
+5. If $x_{1}=x_{0}$, $u_{\#}$ is automorphism of $\pi_{1}$
