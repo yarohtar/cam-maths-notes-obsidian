@@ -69,7 +69,7 @@ $\pi_{1}(X,x_{0})$ is the fundamental group of $X$ based at $x_{0}$.
 - Map of based spaces $f:(X,x_{0})\to(Y,y_{0})$ is a map $f:X\to Y$ st $f(x_{0})=y_{0}$.
 - Based homotopy is a homotopy relative to $\{ x_{0} \}$.
 ### Proposition
-Let $f:(X,x_{0})\to (Y,y_{0})$ be a based map. Then the fct (?) 
+Let $f:(X,x_{0})\to (Y,y_{0})$ be a based map. Then the function
 $$
 \begin{align}
 \pi_{1}(f):\pi_{1}(X,x_{0})&\to \pi_{1}(Y,y_{0}) \\
