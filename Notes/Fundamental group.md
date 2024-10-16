@@ -135,7 +135,8 @@ $f,g:X\to Y$, $f\simeq_{H}g$, $x_{0}\in X$. Then define $u=H(x_{0},\cdot):f(x_{0
 \usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
-
+\pi_1(X,x_0) \arrow[r,"f_*"] \arrow[rd, "g_*"] & \pi_1(Y,f(x_0)) \arrow[d, "u_{\#}"]\\
+& \pi
 \end{tikzcd}
 \end{document}
 ```
