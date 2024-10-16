@@ -18,9 +18,7 @@ States are vectors $\ket{\psi}$ in a [[Hilbert Spaces (PQM)|Hilbert space]] $\ma
 \usepackage{tikz-cd}
 
 \begin{document}
-    \begin{tikzcd}
-    A \arrow{r} \arrow{d} & B \arrow{d}\\
-    C \arrow{r} & D 
-    \end{tikzcd}
+why
+    
 \end{document}
 ```

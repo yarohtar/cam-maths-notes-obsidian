@@ -1,7 +1,5 @@
 {
   "accentColor": "",
   "baseFontSize": 22,
-  "enabledCssSnippets": [
-    "tikz-svg-scaling"
-  ]
+  "enabledCssSnippets": []
 }
