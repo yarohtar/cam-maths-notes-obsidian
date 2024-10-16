@@ -38,3 +38,5 @@ $\{ \ket{q_{m},p_{m},\dots }\}$
 ### Operators in $dim\mathcal{H}=\infty$
 Let's menttion and ignore some issues in spaces such as $L^2(\mathbb{R},dx)$
 [[Linear Operators#Definition]] (bounded operators)
+- In finite dim all operators are bounded
+- In infinite dimensions thats not true. Position and momentum operators are unbounded
