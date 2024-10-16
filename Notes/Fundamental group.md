@@ -144,7 +144,10 @@ Then the following diagram commutes:
 ```
 
 #### Proof
-Idea (remarkable)
+Idea 
+```
+gx0---g(gamma)---->gx
+```
 Step 1: 
 $l^+:I\to I\times I$ with $s\to(s,1)$
 $l^-:I\to I\times I$ by concatenating:
@@ -155,7 +158,8 @@ Then $l^+\simeq_{L} l^-$ relative to $\{ 0,1 \}$ where $L(s,\lambda)=\lambda l^-
 Step 2:
 Let $\gamma$ be a loop based at $x_{0}$ in $X$. 
 Set $G: I\times I\to_{\gamma \times id}X\times I\to_{H}Y$.
-So $G(t,0)=$
+So $G(t,0)=f\circ \gamma$ and $G(t,1)=g\circ \gamma$ and 
+$G(0,t)=H(x_{0},t)=u(t)$
 $G\circ l^+\simeq G\circ l^-$ relative to $\{ 0,1 \}$ ie as paths from $g(x_{0})$ to $g(x_{0})$
 $[G\circ l^+]=[g\circ \gamma]$ and $[G\circ l^-]=[u^{-1}\cdot(f\circ \gamma)\cdot u]$ so done.
 ### Theorem
