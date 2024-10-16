@@ -13,3 +13,13 @@ https://www.damtp.cam.ac.uk/user/dbs26/PQM.html
 [[Postulates of QM]]
 [[Commutator]]
 [[Adjoint]]
+
+If all eigenvectors are nondegenerate we can write
+$$
+Q=\sum_{n}q_{n}\ket{n} \bra{n}
+$$
+so that
+$$
+Q\ket{\psi} =\left( \sum_{n}q_{n}\ket{n} \bra{n}  \right)\left( \sum_{n'}\psi_{n'}\ket{tn'}  \right)=\sum_{n}q_{n}\psi_{n}\ket{n} 
+$$
+Define $f(Q)=\sum_{n}f(q_{n})$
