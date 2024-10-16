@@ -153,7 +153,8 @@ $s\to(0,1-s)$, $s\to(s,0)$ and $s\to(1,s)$
 Then $l^+\simeq_{L} l^-$ relative to $\{ 0,1 \}$ where $L(s,\lambda)=\lambda l^-(s)+(1-\lambda)l^+(s)$
 
 Step 2:
-Set $G: I\times I\to_{\gamma \times id}X\times I\to_{H}Y$
+Let $\gamma$ be a loop based at $x_{0}$ in $X$. 
+Set $G: I\times I\to_{\gamma \times id}X\times I\to_{H}Y$.
 $G\circ l^+\simeq G\circ l^-$ relative to $\{ 0,1 \}$ ie as paths from $g(x_{0})$ to $g(x_{0})$
 $[G\circ l^+]=[G\circ \gamma]$ and $[G\circ l^-]=[u^{-1}\cdot(f\circ \gamma)\cdot u]$ so done.
 ### Theorem
