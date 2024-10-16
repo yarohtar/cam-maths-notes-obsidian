@@ -61,3 +61,9 @@ $$
 gives a group structure
 #### Proof
 Directly from previous proposition.
+
+### Definition
+$\pi_{1}(X,x_{0})$ is the fundamental group of $X$ based at $x_{0}$.
+### Definition
+- Based space is a pair $(X,x_{0})$ where $X$ is a space, and $x_{0}\in X$ is the basepoint.
+- Map of based spaces $f:(X,x_{0})\to(Y,y_{0})$ is a map 
