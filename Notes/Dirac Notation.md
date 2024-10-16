@@ -5,3 +5,4 @@ The inner product is bra-ket: $\phi(\psi)=\text{"}\phi^*\cdot \psi\text{"}=\brak
 
 Think of Ket as vertical vector, bra as horizontal vector of complex conjugates and then braket as matrix product.
 Note that we can't represent all elements of $\mathcal{H}^{*}$ like this, for example the Dirac $\delta$ is not a bra of any vector.
+
