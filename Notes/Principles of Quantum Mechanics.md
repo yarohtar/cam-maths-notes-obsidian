@@ -22,4 +22,9 @@ so that
 $$
 Q\ket{\psi} =\left( \sum_{n}q_{n}\ket{n} \bra{n}  \right)\left( \sum_{n'}\psi_{n'}\ket{tn'}  \right)=\sum_{n}q_{n}\psi_{n}\ket{n} 
 $$
-Define $f(Q)=\sum_{n}f(q_{n})$
+Define $f(Q)=\sum_{n}f(q_{n})\ket{n}\bra{n}$ defines $f(Q)$ if $f(\phi_{n})$ exists.
+
+Matrix elements of $A$ in this basis are $A_{nn'}=\bra{n}A\ket{n'}$.
+
+Also $(AB)_{nn'}=\bra{n}AB\ket{n'}=\sum_{k}A_{nk}B_{kn'}$
+Also $(A^{\dagger})_{nn'}=(A_{n'n})^{*}$
