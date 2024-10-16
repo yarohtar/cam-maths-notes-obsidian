@@ -48,6 +48,8 @@ We define $A\otimes B:\mathcal{H}_1\otimes \mathcal{H}_{2}\to \mathcal{H}_{1}\ot
 by
 $(A\otimes B)(\ket{e_{a}}\otimes \ket{f_{\alpha}})=(A\ket{e_{a}})\otimes(B\ket{f_{\alpha}})$
 
+Note $[A\otimes \mathbb{1}_{\mathcal{H}_{2}}, \mathbb{1}_{\mathcal{H}_{1}}\otimes B]=0$
+
 
 
 
