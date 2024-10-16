@@ -186,8 +186,8 @@ $\pi_{1}(X,x_{0})\to _{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_
 So the first map is injective, while the second is surjectvie because there is an isomorphism $u_{\#}$. 
 $u_{\#}:\pi_{1}(X,x_{0})\to \pi_{1}(X,g\circ f(x_{0}))$
 Reverse roles of $f$ and $g$:
-$\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))\to_{f_{*}}\pi_{1}(Y,f\circ g\circ f(x_{0}))$
-so $f_{*}$ is surjective.
+$\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))\to_{f_{*}'}\pi_{1}(Y,f\circ g\circ f(x_{0}))$
+so $f_{*}'$ is surjective.
 
 
 ### Definition
