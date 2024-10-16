@@ -9,7 +9,7 @@ Q=\sum_{n}q_{n}\ket{n} \bra{n}
 $$
 so that
 $$
-Q\ket{\psi} =\left( \sum_{n}q_{n}\ket{n} \bra{n}  \right)\left( \sum_{n'}\psi_{n'}\ket{tn'}  \right)=\sum_{n}q_{n}\psi_{n}\ket{n} 
+Q\ket{\psi} =\left( \sum_{n}q_{n}\ket{n} \bra{n}  \right)\left( \sum_{n'}\psi_{n'}\ket{n'}  \right)=\sum_{n}q_{n}\psi_{n}\ket{n} 
 $$
 Define $f(Q)=\sum_{n}f(q_{n})\ket{n}\bra{n}$ defines $f(Q)$ if $f(\phi_{n})$ exists.
 

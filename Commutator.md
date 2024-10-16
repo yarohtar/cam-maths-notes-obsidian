@@ -1,8 +1,8 @@
 $[A,B]=AB-BA$
-$[\hat A, \hat B] = \hat A\hat B-\hat B\hat A$
+$[ A,  B] =  A B- B A$
 ### Properties
-- $[\hat A, \hat B\hat C] = [\hat A,\hat B]\hat C + \hat B[\hat A,\hat C]$
-- $[\hat A\hat B, \hat C] = \hat A[\hat B,\hat C] +[\hat A,\hat C] \hat B$
+- $[ A,  B C] = [ A, B] C +  B[ A, C]$
+- $[ A B,  C] = \hat A[ B, C] +[ A, C]$
 - linearity
 - Jacobi identity $[A,[B,c]]+[B,[C,A]]+[C,[A,B]]=0$
 
