@@ -183,7 +183,7 @@ By previous lemma $(g\circ f)_{*}=u_{\#}\circ(id_{X})_{*}$
 (where functions are from $X$ to $X$)
 Also $u_{\#}$ is an isomorphism so 
 $\pi_{1}(X,x_{0})\to _{f_{*}}\pi_{1}(Y,f(x_{0}))\to_{g_{*}}\pi_{1}(X,g\circ f(x_{0}))$
-So the first map is injective, while the second is surjectvie because there is an isomorphism $u_{\#}$
+So the first map is injective, while the second is surjectvie because there is an isomorphism $u_{\#}$ 
 $u_{\#}:\pi_{1}(X,x_{0})\to \pi_{1}(X,g\circ f(x_{0}))$
 Reverse roles of $f$ and $g$:
 $f_{*}:\pi_{1}(X,g\circ f(x_{0}))\to \pi_{1}(X,f\circ g\circ f(x_{0}))$ surjective
