@@ -66,4 +66,20 @@ Directly from previous proposition.
 $\pi_{1}(X,x_{0})$ is the fundamental group of $X$ based at $x_{0}$.
 ### Definition
 - Based space is a pair $(X,x_{0})$ where $X$ is a space, and $x_{0}\in X$ is the basepoint.
-- Map of based spaces $f:(X,x_{0})\to(Y,y_{0})$ is a map 
+- Map of based spaces $f:(X,x_{0})\to(Y,y_{0})$ is a map $f:X\to Y$ st $f(x_{0})=y_{0}$.
+- Based homotopy is a homotopy relative to $\{ x_{0} \}$.
+### Proposition
+Let $f:(X,x_{0})\to (Y,y_{0})$ be a based map. Then the fct (?) 
+$$
+\begin{align}
+\pi_{1}(f):\pi_{1}(X,x_{0})&\to \pi_{1}(Y,y_{0}) \\
+[Y]&\to [f\circ Y]
+\end{align}
+$$
+is well defined and satisfies:
+1. $\pi_{1}(f)$ is a group homomorphism
+2. $f$ based homotopic to $f'$ $\implies \pi_{1}(f)=\pi_{1}(f')$
+3. If $(A,a)\to_{h}(B,b)\to_{k}(C,c)$ based maps, then $\pi_{1}(k\circ h)=\pi_{1}(k)\circ \pi_{1}(h)$
+4. $\pi_{1}(id_{X})=id_{\pi_{1}(X)}$
+#### Proof
+Well defined? 
