@@ -12,4 +12,4 @@ https://www.damtp.cam.ac.uk/user/dbs26/PQM.html
 
 [[Postulates of QM]]
 [[Commutator]]
-[[Adjoint (PQM)]]
+[[Adjoint]]
