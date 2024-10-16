@@ -13,3 +13,12 @@ Now scale up
 Thus $\lVert Tx \rVert\leq \frac{1}{\delta}\lVert x \rVert$ for all $x \in X$.
 3=>1: $\lVert Tx-Ty \rVert\leq k\lVert x-y \rVert$ so $T$ is uniformly continuous
 
+### Definition
+For bounded $T:X\to Y$, the operator norm of $T$ is:
+$\lVert T \rVert=\lVert T \rVert_{?}=\sup \{ \lVert Tx \rVert:\lVert x \rVert\leq 1 \}$
+This for all $x \in X:\ \lVert Tx \rVert\leq \lVert T \rVert\lVert x \rVert$.
+
+### Definition
+Write $L(X,Y)$ for the set of continuous linear maps $X\to Y$ (or $B(X,Y)$). 
+Note that $S,T \in L(X,Y)$ then $S+T\in L(X,Y)$.
+Indeed $\lVert (S+T)x \rVert\leq \lVert Sx \rVert+\lVert Tx \rVert\leq (\lVert S \rVert+\lVert T \rVert)\lVert x \rVert$ so $S+T$ is bounded. Moreover, $\lVert S+T \rVert$
