@@ -113,9 +113,9 @@ such that
 \end{tikzcd}
 \end{document}
 ```
-1. If $x_{1}=x_{0}$, $u_{\#}$ is automorphism of $\pi_{1}(X,x_{0})$ given by conjugation in $[u]\in \pi_{1}(X,x_{0})$
+5. If $x_{1}=x_{0}$, $u_{\#}$ is automorphism of $\pi_{1}(X,x_{0})$ given by conjugation in $[u]\in \pi_{1}(X,x_{0})$
 #### Proof
-Only the 4. is worth proving (remarkable)
+$(f\circ u)_{\#}\circ f_{*} [\gamma]=$
 ### Warning
 $X$ path connected $\implies \pi_{1}(X,x_{0})\cong\pi_{1}(X,x_{1})$ NOT a cannonical isomorphism, it depends on path $x_{0}\leadsto x_{1}$.
 NB Abstract properties eg being trivial, abelian, ... make sense without specifiying $x_{0}$
