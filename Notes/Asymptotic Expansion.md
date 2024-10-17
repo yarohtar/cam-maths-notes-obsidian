@@ -33,3 +33,4 @@ a_{n}=\lim_{ x \to x_{0} } \left( f(x)-\sum_{k=0}^{n-1} a_{k}\phi_{k}\over\phi_{
 \end{gather}
 $$
 - An asymptotic expansion doesn't uniquely determine the function
+## Complex expansions
