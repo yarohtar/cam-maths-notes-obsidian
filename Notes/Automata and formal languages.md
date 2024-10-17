@@ -15,5 +15,5 @@
 11. Set is infinite if $\mathbb{N}$ injects into it
 12. Set is countable if its empty or $\mathbb{N}$ surjects onto it
 
-[[Revrite Systems]]
+[[Rewrite Systems]]
 [[Grammars]]
