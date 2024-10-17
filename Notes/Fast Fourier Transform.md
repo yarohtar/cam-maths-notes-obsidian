@@ -14,7 +14,7 @@ $$
 \begin{align}
 y_{j}&=\frac{1}{2m}\sum_{l=0}^{m-1}\omega_{2m}^{-2jl}x_{2l}+\frac{1}{2m}\sum_{l=0}^{m-1}\omega_{2m}^{-(2l+1)j}x_{2l+1}  \\
  & =\frac{1}{2} \frac{1}{m}\sum_{l=0}^{m-1} \omega_{m}^{-jl}x^E_{l}+\frac{1}{2} \frac{1}{m}\omega_{2m}^{-j}\sum_{l=0}^{m-1} \omega_{m}^{jl}x^O_{l} \\
- & =\frac{y^E_{j}+\omega_{2m}^{-j}y^O_{j}}{2}
+ & =\frac{y^E_{j}+\omega_{n}^{-j}y^O_{j}}{2}
 \end{align}
 $$
 So we only take $O(n)$ operations to find $y$! 
