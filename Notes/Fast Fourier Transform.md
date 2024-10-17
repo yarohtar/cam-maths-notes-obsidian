@@ -12,7 +12,10 @@ Note that $\omega_{n}^{2j}=\omega_{2m}^{2j}=\omega_{m}^j$ and also $x^O_{j}=x_{2
 We can now rewrite the original sum to get:
 $$
 \begin{align}
-y_{l}&=\frac{1}{2m}\sum_{j=0}^{n-1}\omega_{2m}^{-2jl}x_{2j}+\frac{1}{2m}\sum_{j=0}^{n-1}\omega_{2m}^{-(2j+1)l}x_{2j+1}  \\
- & =\frac{1}{2} \frac{1}{m}\sum_{j=0}^{n-1} \omega_{m}^{-jl}x^E_{j}+\frac{1}{2}
+y_{l}&=\frac{1}{2m}\sum_{j=0}^{m-1}\omega_{2m}^{-2jl}x_{2j}+\frac{1}{2m}\sum_{j=0}^{m-1}\omega_{2m}^{-(2j+1)l}x_{2j+1}  \\
+ & =\frac{1}{2} \frac{1}{m}\sum_{j=0}^{m-1} \omega_{m}^{-jl}x^E_{j}+\frac{1}{2} \frac{1}{m}\omega_{2m}^{-l}\sum_{j=0}^{m-1} \omega_{m}^jx^O_{j} \\
+ & =\frac{y^E_{l}+\omega_{2m}^{-l}y^O_{l}}{2}
 \end{align}
 $$
+So we only take $O(n)$ operations to find $y$! 
+Now if we do this recursively, 
