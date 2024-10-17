@@ -11,3 +11,7 @@ $S\in V$ is the start symbol
 ### Definition
 $\mathcal{D}(G,\alpha)$ is the set of derivable strings (ie all string that we can obtain by applying a finite number of rewrite rules)
 $\mathcal{L}(G)=\mathcal{D}(G,S)\cap \mathbb{W}$ is a language derived by $G$.
+
+### Proposition
+Isomorphic grammars are equivalent. (??)
+
