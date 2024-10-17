@@ -1,7 +1,7 @@
 Fix $\Omega$, a finite set of symbols.
 
-$\alpha\in \Omega^+$, $\beta \in \Omega ^{*}$ then $\alpha\to \beta$ is called a rewrite rule (production rule)
-So the set of rewrite rules is $\Omega^+\times \Omega ^{*}$ (this is countable)
+Take a nonempty string $\alpha\in \Omega^+$, and a string $\beta \in \Omega ^{*}$, then $\alpha\to \beta$ is called a rewrite rule (or production rule)
+The set of rewrite rules is $\Omega^+\times \Omega ^{*}$ (this is countable)
 
 ### Definition
 $(\Omega,P)$ is a rewrite system if $P$ is a finite set of rewrite rules.
