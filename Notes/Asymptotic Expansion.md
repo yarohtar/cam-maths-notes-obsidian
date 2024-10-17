@@ -34,3 +34,6 @@ a_{n}=\lim_{ x \to x_{0} } \left( f(x)-\sum_{k=0}^{n-1} a_{k}\phi_{k}\over\phi_{
 $$
 - An asymptotic expansion doesn't uniquely determine the function
 ## Complex expansions
+Typically, $z\in \mathbb{C}$ must be restricted to a sector of $\mathbb{C}$ around $z_{0}$ for the definitions to work.
+We might have different asymptotic approximations when $z_{0}$ is approached in different directions (even for analytic functions).
+This is called Stokes phenomenon
