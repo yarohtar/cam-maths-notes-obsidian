@@ -12,12 +12,19 @@ Note that $\omega_{n}^{2k}=\omega_{2m}^{2k}=\omega_{m}^k$ and also $x^O_{l}=x_{2
 We can now rewrite the original sum to get:
 $$
 \begin{align}
-y_{l}&=\frac{1}{2m}\sum_{l=0}^{m-1}\omega_{2m}^{-2jl}x_{2l}+\frac{1}{2m}\sum_{l=0}^{m-1}\omega_{2m}^{-(2l+1)j}x_{2l+1}  \\
- & =\frac{1}{2} \frac{1}{m}\sum_{l=0}^{m-1} \omega_{m}^{-jl}x^E_{l}+\frac{1}{2} \frac{1}{m}\omega_{2m}^{-l}\sum_{l=0}^{m-1} \omega_{m}^j1x^O_{j} \\
- & =\frac{y^E_{l}+\omega_{2m}^{-l}y^O_{l}}{2}
+y_{j}&=\frac{1}{2m}\sum_{l=0}^{m-1}\omega_{2m}^{-2jl}x_{2l}+\frac{1}{2m}\sum_{l=0}^{m-1}\omega_{2m}^{-(2l+1)j}x_{2l+1}  \\
+ & =\frac{1}{2} \frac{1}{m}\sum_{l=0}^{m-1} \omega_{m}^{-jl}x^E_{l}+\frac{1}{2} \frac{1}{m}\omega_{2m}^{-j}\sum_{l=0}^{m-1} \omega_{m}^{jl}x^O_{l} \\
+ & =\frac{y^E_{j}+\omega_{2m}^{-j}y^O_{j}}{2}
 \end{align}
 $$
 So we only take $O(n)$ operations to find $y$! 
 Now if we do this recursively, we will only need $O(n\log n)$ operations which is much faster than the naive approach. 
 ## Inverse
-
+Basically the same idea but now we have:
+$$
+x_{l}=(F^{-1}_{n}y)_{l}=\sum_{j=0}^{n-1} \omega_{n}^{jl}y_{j}
+$$
+so the recursive formula will be:
+$$
+x_{l}=x^E_{l}+\omega_{n}^lx^O_{l}
+$$
