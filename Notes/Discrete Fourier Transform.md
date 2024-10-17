@@ -5,6 +5,8 @@ $$
 $$
 where $j=0\dots n-1$ (note that this does define the whole sequence uniquely).
 
-You can easily prove that $\mathcal{F}_{n}$ is an isomorphism of $\Pi_{n}$ to itself.
+### Theorem
+$\mathcal{F}_{n}$ is an isomorphism of $\Pi_{n}$ to itself with inverse:
+$(\mathcal{F}^{-1}_{n}y)_{l}=$
 
 [[Fast Fourier Transform]]
