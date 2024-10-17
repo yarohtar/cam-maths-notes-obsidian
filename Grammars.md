@@ -15,3 +15,6 @@ $\mathcal{L}(G)=\mathcal{D}(G,S)\cap \mathbb{W}$ is a language derived by $G$.
 ### Proposition
 Isomorphic grammars are equivalent. (??)
 
+### Definition
+$\mathcal{G}(\Sigma,V)$ is the set of all grammars with $\Sigma,V$. This is countable.
+
