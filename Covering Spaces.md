@@ -24,4 +24,13 @@ $p ^{-1}(U)=\sqcup_{\alpha \in I} V_{\alpha}$ as before
 
 Have $\tilde{f}_{0}(y)\in V_{\beta}$, $\tilde{f}_{1}(y)\in V_{\gamma}$
 $N=\tilde{f}_{0}^{-1}(v_{\beta})\cap \tilde{f}_{1}^{-1}(V_{\gamma})$ open in $Y$.
-As $p|_{V_{\beta}}$ and $p|_{V_{\gamma}}$ are homeomorphisms, get $N\subseteq Y\setminus S$
+As $p|_{V_{\beta}}$ and $p|_{V_{\gamma}}$ are homeomorphisms, get $N\subseteq Y\setminus S$ so $Y\setminus S$ is open
+
+
+### Homotopy lifting lemma
+Let $p:\tilde{X}\to X$ be a covering map, $H:Y\times I\to X$ a homotopy from $f_{0}$ to $f_{1}$, $\tilde{f}_{0}$ a lift of $f_{0}$. Then there exists a unique homotopy $\tilde{H}:Y\times I\to \tilde{X}$ such that 
+1. $\tilde{H}(\cdot,0)=\tilde{f}_{0}(\cdot)$
+2. $p\circ \tilde{H}=H$
+#### Proof
+Let $\{ U_{\alpha} \}_{\alpha \in I}$ open cover of $X$ by evenly covered sets.
+Say $p ^{-1}(U)=\sqcup_{\beta \in I_{\alpha}}V_{\beta}$, 
