@@ -33,10 +33,10 @@ So $\lVert \phi_{y} \rVert\geq \frac{\lVert y \rVert_{q}^q}{\lVert y \rVert_{q}^
 Hence $\lVert \phi_{y} \rVert=\lVert y \rVert_{q}$
 
 ### Theorem
-The map $\theta:l_{q}\to l_{p}^{*}$ is an isometric isomorphism (ie they are the same)
+The map $\theta:l_{q}\to l_{p}^{*}$ is an isometric isomorphism (ie they are the same spaces)
 #### Proof
 $\theta$ linear, as $\phi_{\lambda y+\mu y'}=\lambda \phi_{y}+\mu \phi_{y'}$
-$\theta$ isometry as $\lVert \phi_{y} \rVert=\lVert y \rVert_{q}$ (so $\theta$ is injective)
+$\theta$ isometry as $\lVert \phi_{y} \rVert=\lVert y \rVert_{q}$ (so $\theta$ is injective) (???)
 Need $\theta$ surjective
 Given $T\in l_{p}^{*}$ let $y_{n}=Tl_{n}$ each 1 
 want $y\in l_{q}$ and $T=\phi_{y}$
