@@ -18,5 +18,10 @@ Set $N=\tilde{f}^{-1}_{0}(V_{\beta})\cap \tilde{f}^{-1}_{1}(V_{\beta})$ (open in
 As $p|_{V_{\beta}}$ is a homeomorphism, get $\tilde{f}_{0}|_{N}=\tilde{f}_{1}|_{N}$ so $S$ is open.
 
 ##### $S$ closed
-Let $y\in Y-S$ ie $\tilde{f}_{0}(y)\neq \tilde{f}_{1}(y)$.
-Let $f$
+Let $y\in Y\setminus S$ ie $\tilde{f}_{0}(y)\neq \tilde{f}_{1}(y)$.
+Let $f(y)\in U$
+$p ^{-1}(U)=\sqcup_{\alpha \in I} V_{\alpha}$ as before
+
+Have $\tilde{f}_{0}(y)\in V_{\beta}$, $\tilde{f}_{1}(y)\in V_{\gamma}$
+$N=\tilde{f}_{0}^{-1}(v_{\beta})\cap \tilde{f}_{1}^{-1}(V_{\gamma})$ open in $Y$.
+As $p|_{V_{\beta}}$ and $p|_{V_{\gamma}}$ are homeomorphisms, get $N\subseteq Y\setminus S$
