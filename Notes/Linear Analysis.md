@@ -1,7 +1,6 @@
 [[Normed Spaces]]
 [[Linear Operators]]
 [[Dual Spaces]]
-[[Banach-Mazur Distance]]
 [[The Baire Category Theorem]]
 [[Spaces of CTS functions]]
 [[Hilbert Spaces (PQM)]]
