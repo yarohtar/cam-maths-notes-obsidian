@@ -50,8 +50,8 @@ Upshot:
 Get map $\tilde{H}|_{W_{y_{0}}\times I}$ lifting $H|_{W_{y_{0}}\times I}$ and extending $\tilde{f}_{0}|_{W_{y_{0}}}$
 
 ##### Check
-Lifts need to agree on $(W_{y_{0}}\times I)\cap(W_{y_{1}}\times I)=(W_{y_{0}}\times W_{y_{1}})\times I$ ?
-By previous lemma, they must agree on an open and closed subset of $(W_{y_{0}}\times W_{y_{1}})\times I$.
-By construction, they agree on $(W_{y_{0}}\times W_{y_{1}})\times \{ 0 \}$
-So they have to agree on all of $(W_{y_{0}}\times W_{y_{1}})\times I$
-eg by considering that they agree on $\{ y \}\times \{ 0 \}$ (each $y\in W_{y_{0}}\cap W_{y_{1}}$) and $\{ y \}\times I$ all connected.
+Lifts need to agree on $(W_{y_{0}}\times I)\cap(W_{y_{1}}\times I)=(W_{y_{0}}\cap W_{y_{1}})\times I$ ?
+By previous lemma, they must agree on an open and closed subset of $(W_{y_{0}}\cap W_{y_{1}})\times I$.
+By construction, they agree on $(W_{y_{0}}\cap W_{y_{1}})\times \{ 0 \}$
+So they have to agree on all of $(W_{y_{0}}\cap W_{y_{1}})\times I$
+eg by considering that they agree on $\{ y \}\times \{ 0 \}$ (for each $y\in W_{y_{0}}\cap W_{y_{1}}$) and $\{ y \}\times I$ are all connected.
