@@ -8,4 +8,4 @@ The dynamical evolution of a quantum system is governed by
 $$
 i\hbar \frac{ \partial  }{ \partial t } \ket{\psi} =H\ket{\psi} 
 $$
-The time depen
+The time dependent Schrödinger equation (TDSE), for some Hamiltonian operator $H$. $H$ does NOT include time
