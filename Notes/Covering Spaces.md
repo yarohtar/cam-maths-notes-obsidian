@@ -47,6 +47,7 @@ Set
 $$
 \tilde{H}|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}=(p|_{V_{\beta}})^{-1}\circ H|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}:W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]\to V_{\beta}
 $$
+where $V_{\beta}$ is exactly where $\tilde{f}_{0}$ maps $W_{y_{0}}$.
 ##### Step 2
 Proceed iteratively
 Upshot:
