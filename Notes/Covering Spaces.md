@@ -32,12 +32,15 @@ Let $p:\tilde{X}\to X$ be a covering map, $H:Y\times I\to X$ a homotopy from $f_
 1. $\tilde{H}(\cdot,0)=\tilde{f}_{0}(\cdot)$
 2. $p\circ \tilde{H}=H$
 #### Proof
-Let $\{ U_{\alpha} \}_{\alpha \in I}$ open cover of $X$ by evenly covered sets.
+Let $\{ U_{\alpha} \}_{\alpha \in I}$ be an open cover of $X$ by evenly covered sets.
 Say $p ^{-1}(U_{\alpha})=\sqcup_{\beta \in I_{\alpha}}V_{\beta}$, with $p|_{V_{\beta}}:V_{\beta}\to U_{\alpha}$ a homeomorphism
-$\cup_{\alpha}H^{-1}(U_{\alpha})$ cover $Y\times I$
+$$
+\bigcup_{\alpha}H^{-1}(U_{\alpha})\quad\text{ cover } \quad Y\times I
+$$
+
 By [[Lebesgue number lemma]] there is some $N$ and $W_{y_{0}}$ an open nbd of $y_{0}$ in $Y$ such that 
 for all $i=0,\dots N-1$ there is some $\alpha \in I$ such that 
-$W_{y_{0}}\times\left[ \frac{1}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_\alpha)$.
+$W_{y_{0}}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_\alpha)$.
 Now construct lift $\tilde{H}|_{W_{y_{0}}\times I}$ of $H|_{W_{y_{0}}\times I}$.
 ##### Step 1
 Set
