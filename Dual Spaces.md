@@ -20,4 +20,4 @@ so $\lVert T_{m}x-T_{n}x \rVert\leq \epsilon \lVert x \rVert$
 Let $n\to \infty$: $\lVert T_{m}x-Tx \rVert\leq \epsilon\lVert x \rVert$
 Hence $\lVert Tx \rVert\leq \epsilon \lVert x \rVert+\lVert T_{m}x \rVert\leq(\epsilon+\lVert T_{m} \rVert)\lVert x \rVert$
 
-Note that $\lVert T_{m}-T \rVert\leq \epsilon$ for all $m\geq n_{0}$ so $T_{m}\to T$.
+Note that $\lVert T_{m}-T \rVert\leq \epsilon$ for all $m\geq n_{0}$ so $T_{m}\to T$. (???)
