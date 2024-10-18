@@ -1,9 +1,11 @@
 For $X$ and $Y$ [[Normed Spaces]], a linear map $T:X\to Y$ is an operator if it is continuous.
+### Definition (bounded)
+Linear map $T:X\to Y$ is bounded if there is some $k$ such that for all $x \in X$ $\lVert Lx \rVert_{Y}\leq k\lVert x \rVert_{X}$
 ### Proposition
 Let $X$, $Y$ be normed, $T:X\to Y$. Then the following are equivalent:
 1. $T$ is continuous
 2. $T$ is continuous at $0$
-3. There is a $k$ such that $\lVert Tx \rVert\leq k\lVert x \rVert$ for all $x \in X$
+3. $T$ is bounded
 #### Proof
 1=>2 is obvious
 2=>3:
@@ -13,8 +15,6 @@ Now scale up
 Thus $\lVert Tx \rVert\leq \frac{1}{\delta}\lVert x \rVert$ for all $x \in X$.
 3=>1: $\lVert Tx-Ty \rVert\leq k\lVert x-y \rVert$ so $T$ is uniformly continuous
 
-### Definition (bounded)
-Linear map $T:X\to Y$ is bounded if there is some $M$ such that for all $x \in X$:
 
 ### Definition (operator norm)
 For bounded $T:X\to Y$, the operator norm of $T$ is:
