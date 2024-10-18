@@ -38,7 +38,7 @@ $\cup_{\alpha}H^{-1}(U_{\alpha})$ cover $Y\times I$
 By [[Lebesgue number lemma]] there is some $N$ and $W_{y_{0}}$ an open nbd of $y_{0}$ in $Y$ such that 
 for all $i=0,\dots N-1$ there is some $\alpha \in I$ such that 
 $W_{y_{0}}\times\left[ \frac{1}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U\alpha)$.
-Now construct lift $\tilde{H}|_{W_{y_{0}}\times I}$ of $H|_{W_{y_{0}}\times I}$
+Now construct lift $\tilde{H}|_{W_{y_{0}}\times I}$ of $H|_{W_{y_{0}}\times I}$.
 ##### Step 1
 Set
 $$
