@@ -21,4 +21,13 @@ Want to find the [[Dual Spaces|dual space]] of $l_{p}$.
 For each $y\in l_{q}$, have $\phi_{y}\in l_{p}^{*}$ with $\phi_{y}(x)=x\cdot y$.
 Have $\lVert \phi_{y} \rVert\leq \lVert y \rVert_{q}$
 Given $y\neq 0$ let $x_{n}=(y_{n})^{q/p}$ (the obvious choice, because we want it to converge in $l_{p}$)
-So $|x_{n}$
+So $|x_{n}|^p=|y_{n}|^q$ so $x\in l_{p}$ with $\lVert x \rVert_{p}=\left( \sum|y_{n}^q \right)^{1/p}=\lVert y \rVert_{q}^{q/p}$
+Have $\phi_{y}(x)=x\cdot y=\sum|y_{n}|^{q/p+1}=\sum(y_{n})^q=\lVert y \rVert_{q}^q$
+So $\lVert \phi_{y} \rVert\geq \frac{\lVert y \rVert_{q}^q}{\lVert y \rVert_{q}^{q/p}}=\lVert y \rVert_{q}$
+Hence $\lVert \phi_{y} \rVert=\lVert y \rVert_{q}$
+
+### Theorem
+The map $\theta:l_{q}\to l_{p}^{*}$ is an isometric isomorphism (ie they are the same)
+#### Proof
+$\theta$ linear, as $\phi_{\lambda y+\mu y'}=\lambda \phi_{y}+\mu \phi_{y'}$
+$\theta$ isometry as $\lVert \phi_{y} \rVert=\lVert y \rVert_{q}$ (so $$)
