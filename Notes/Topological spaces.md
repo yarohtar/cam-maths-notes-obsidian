@@ -25,7 +25,7 @@ A subset of $X$ is closed if its complement is open.
 9. [[Interior and closure]]
 10. [[Subspace topology]]
 11. [[Continuity in topological spaces]]
-12. $X$ and $Y$ are homeomorphic if there is a bijection $f$ between them such that both $f$ and $f^{-1}$ are continuous
+12. $X$ and $Y$ are [[Homeomorphism|homeomorphic]] if there is a bijection $f$ between them such that both $f$ and $f^{-1}$ are continuous
 13. [[Product topology]]
 14. [[Open map]]
 15. [[Quotient space]]
