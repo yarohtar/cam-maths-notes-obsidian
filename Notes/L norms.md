@@ -15,3 +15,6 @@ Note that $\delta_{i}=(0,\dots, 0, 1, 0,\dots, 0)$ do not span $l_{p}$ but they 
 This is FALSE for $p=\infty$, $e$.$g$. let $x=(1,1,1,\dots)$. 
 
 Also subspacces need not be closed - eg $F$ in $l_{1}$. Even have $F$ dense in $l_{1}$.
+
+## Dual
+The [[Dual Spaces|dual space]] of $l_{p}$
