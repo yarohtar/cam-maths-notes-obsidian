@@ -1,6 +1,6 @@
 A covering space of a space $X$ is a pair $(\tilde{X}, p)$ where
 - $\tilde{X}$ is a space
-- $p: \tilde{X}\to X$ is a map such that for all $x \in X$ there is a [[Neighbourhood|nbd]] $U$ of $x$ such that $p ^{-1}(U)=\sqcup_{\alpha\in A}V_{\alpha}$, where $V_{\alpha}\subset \tilde X$ open, $p|_{V_{\alpha}}:V_{\alpha}\to U$ is a homeomorphism
+- $p: \tilde{X}\to X$ is a map such that for all $x \in X$ there is a [[Neighbourhood|nbd]] $U$ of $x$ such that $p ^{-1}(U)=\sqcup_{\alpha\in A}V_{\alpha}$, where $V_{\alpha}\subset \tilde X$ open, and $p|_{V_{\alpha}}:V_{\alpha}\to U$ is a homeomorphism
 $p$ is called a covering map. Open sets $U$ as above are called evenly covered.
 ### Definition
 Let $p: \tilde{X}\to X$ be a covering map, and $f:Y\to X$ a map.
@@ -33,7 +33,7 @@ Let $p:\tilde{X}\to X$ be a covering map, $H:Y\times I\to X$ a homotopy from $f_
 2. $p\circ \tilde{H}=H$
 #### Proof
 Let $\{ U_{\alpha} \}_{\alpha \in I}$ open cover of $X$ by evenly covered sets.
-Say $p ^{-1}(U_{\alpha})=\sqcup_{\beta \in I_{\alpha}}V_{\beta}$, with $p|_{V_{\beta}}:V_{\beta}\to U_{\alpha}$
+Say $p ^{-1}(U_{\alpha})=\sqcup_{\beta \in I_{\alpha}}V_{\beta}$, with $p|_{V_{\beta}}:V_{\beta}\to U_{\alpha}$ a homeomorphism
 $\cup_{\alpha}H^{-1}(U_{\alpha})$ cover $Y\times I$
 By [[Lebesgue number lemma]] there is some $N$ and $W_{y_{0}}$ an open nbd of $y_{0}$ in $Y$ such that 
 for all $i=0,\dots N-1$ there is some $\alpha \in I$ such that 
