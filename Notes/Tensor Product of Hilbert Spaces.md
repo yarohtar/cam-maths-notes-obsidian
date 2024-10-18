@@ -21,3 +21,7 @@ $$
 $$
 where $\psi(\underline{x})=\psi(x,y,z)$ and $\ket{\underline{x}}=\ket{x}\otimes \ket{y}\otimes \ket{z}$
 
+
+### Example
+Hydrogen atom is described by the Hamiltonian
+$H=\frac{p_{p}^{2}}{2m_{p}}\otimes\mathbb 1_{e}+1_{p}\otimes \frac{p_{e}^2}{2m_{e}}-\frac{q^{2}}{4\pi \varepsilon_{0}} \frac{1}{|x_{e}-x_{p}|}$
