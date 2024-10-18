@@ -17,4 +17,8 @@ This is FALSE for $p=\infty$, $e$.$g$. let $x=(1,1,1,\dots)$.
 Also subspacces need not be closed - eg $F$ in $l_{1}$. Even have $F$ dense in $l_{1}$.
 
 ## Dual
-The [[Dual Spaces|dual space]] of $l_{p}$
+Want to find the [[Dual Spaces|dual space]] of $l_{p}$.
+For each $y\in l_{q}$, have $\phi_{y}\in l_{p}^{*}$ with $\phi_{y}(x)=x\cdot y$.
+Have $\lVert \phi_{y} \rVert\leq \lVert y \rVert_{q}$
+Given $y\neq 0$ let $x_{n}=(y_{n})^{q/p}$ (the obvious choice, because we want it to converge in $l_{p}$)
+So $|x_{n}$
