@@ -43,4 +43,8 @@ x_{n}=\begin{cases}
 $$
 Then $x \in l_{p}$ with $\lVert x \rVert_{p}=\left( \sum_{n=1}^{N}|y_{n}|^q \right)^{1/p}$
 Also $Tx=\sum_{n=1}^{N}|y_{n}|^q\leq \lVert T \rVert\left( \sum_{n=1}^{N}|y_{n}|^q \right)^{1/p}$
-ie $\left( \sum_{n=1}^{N}|y_{n}|^q \right)^{1-1/p}\leq \lVert T \rVert$ so $y\in l_{q}$
+ie $\left( \sum_{n=1}^{N}|y_{n}|^q \right)^{1-1/p}\leq \lVert T \rVert$ so $y\in l_{q}$ with $\lVert y \rVert_{q}\leq \lVert T \rVert$ as $N$ is arbitrary
+Finally $\phi_{y}=T$ on $l_{n}$ for all $n$
+so $\phi _y=T$ on $<l_{n}:n\in \mathbb{N}>$ (notation for linear span)
+$\phi_{y}T$ is linear and continuous
+ie $\phi_{y}=T$ on the whole of $l_{p}$.
