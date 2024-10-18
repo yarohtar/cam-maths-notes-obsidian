@@ -18,6 +18,6 @@ $T$ is linear by linearity of $T_{n}$ and taking pointwise limits.
 $T$ bounded: Given $\epsilon>0$, $\lVert T_{m}-T_{n} \rVert\leq \epsilon$ for all $m,n>n_{0}$ for some $n_{0}$.
 so $\lVert T_{m}x-T_{n}x \rVert\leq \epsilon \lVert x \rVert$
 Let $n\to \infty$: $\lVert T_{m}x-Tx \rVert\leq \epsilon\lVert x \rVert$
-Hence $\lVert Tx \rVert\leq \epsilon \lVert x \rVert+\lVert T_{m}x \rVert$
+Hence $\lVert Tx \rVert\leq \epsilon \lVert x \rVert+\lVert T_{m}x \rVert\leq(\epsilon+\lVert T_{m} \rVert)\lVert x \rVert$
 
 Note that $\lVert T_{m}-T \rVert\leq \epsilon$ for all $m\geq n_{0}$ so $T_{m}\to T$.
