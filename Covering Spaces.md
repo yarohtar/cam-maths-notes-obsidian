@@ -3,11 +3,11 @@ A covering space of a space $X$ is a pair $(\tilde{X}, p)$ where
 - $p: \tilde{X}\to X$ is a map such that for all $x \in X$ there is a [[Neighbourhood|nbd]] $U$ of $x$ such that $p ^{-1}(U)=\sqcup_{\alpha\in A}V_{\alpha}$, where $V_{\alpha}\subset \tilde X$ open, $p|_{V_{\alpha}}:V_{\alpha}\to U$ is a homeomorphism
 $p$ is called a covering map. Open sets $U$ as above are called evenly covered.
 ### Definition
-Let $p: \tilde{X}\to X$ be a covering map, and f:Y\to X$
+Let $p: \tilde{X}\to X$ be a covering map, and $f:Y\to X$ a map.
 A lift of $f$ along $p$ is a map $\tilde{f}:Y\to \tilde{X}$ such that the whole thing commutes ie $p\circ \tilde{f}=f$.
 
 ### Lemma
-Let $p: \tilde{X}\to X$ covering map, and $f:Y\to X$ map. Let $\tilde{f}_{0},\tilde{f}_{1}:Y\to \tilde{X}$ tow lifts of $f$. Then
+Let $p: \tilde{X}\to X$ be a covering map, and $f:Y\to X$ a map. Let $\tilde{f}_{0},\tilde{f}_{1}:Y\to \tilde{X}$ be two lifts of $f$. Then
 $S=\{ y \in Y\mid \tilde{f}_{0}(y)=\tilde{f_{1}}(y) \}$ is open and closed in $Y$.
 #### Proof
 ##### $S$ open
