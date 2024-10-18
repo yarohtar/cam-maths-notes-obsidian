@@ -13,4 +13,6 @@ A linear bijection is an isomorphism.
 $X$, $Y$ normed with $Y$ complete. Then $L(X,Y)$ is complete. In particular, $X^{*}$ is complete.
 #### Proof
 Given $(T_{n})$ Cauchy in $L(X,Y)$:
-Have $(T_{n}x)$ Caucy
+Have $(T_{n}x)$ Cauchy in $Y$ for all $x\in X$ - since $\lVert T_{m}x-T_{n} x\rVert\leq \lVert T_{m}-T_{n} \rVert\lVert x \rVert$ so $T_{n}x\to T(x)$ for some $T(x)\in Y$.
+$T$ is linear by linearity of $T_{n}$ and taking pointwise limits.
+$T$ bounded: Given $\epsilon>0$ 
