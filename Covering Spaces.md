@@ -37,4 +37,14 @@ Say $p ^{-1}(U)=\sqcup_{\beta \in I_{\alpha}}V_{\beta}$, $p|_{V_{\beta}}:v_{\bet
 $\cup_{\alpha}H^{-1}(U_{\alpha})$ cover $Y\times I$
 By [[Lebesgue number lemma]] there is some $N$ and $W_{y_{0}}$ an open nbd of $y_{0}$ in $Y$ such that 
 for all $i=0,\dots N-1$ there is some $\alpha \in I$ such that 
-$W_{y_{0}}\times\left[ \frac{1}{N}, \frac{i+1}{N} \right]$
+$W_{y_{0}}\times\left[ \frac{1}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U\alpha)$.
+Now construct lift $\tilde{H}|_{W_{y_{0}}\times I}$ of $H|_{W_{y_{0}}\times I}$
+##### Step 1
+Set
+$$
+\tilde{H}|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}=(p|_{V_{\beta}})^{-1}\circ H|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}:W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]\to V_{\beta}
+$$
+##### Step 2
+Proceed iteratively
+Upshot:
+Get map $\tilde{H}|_{W_{y_{0}}\times I}$ lifting $H|_{W_{y_{0}}\times I}$ and extending $\tilde{f}_{0}|_{W_{y_{0}}}$
