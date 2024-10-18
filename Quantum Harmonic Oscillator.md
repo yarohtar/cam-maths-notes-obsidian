@@ -21,3 +21,9 @@ the Hamiltonian becomes
 $$
 H=\hbar \omega\left( A^{\dagger}A+\frac{1}{2} \right)
 $$
+Call $N=A^{\dagger}A$ the ([[Hermetian operator|Hermetian]]) number operator.
+We now have operators but we don't have the [[Hilbert Spaces (PQM)|Hilbert space]].
+Start from the operator algebra $\{ X^nP^m \}$ and commutation relation $[X,P]=i\hbar$. $\mathrm{Im}$ terms of $A^{\dagger},A$:
+$$
+[A,A^{\dagger}]=\frac{1}{2m\omega \hbar}[m\omega X+iP,m\omega X-iP]=-\frac{im\omega e}{2m\hbar \omega}([X,P]-)
+$$
