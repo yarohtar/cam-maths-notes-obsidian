@@ -24,3 +24,6 @@ $||x||=\inf\left\{  \alpha\geq 0 \mid \frac{x}{\alpha}\in B'  \right\}$
 We say topological space $X$ is separable if it has a countable dense subset.
 #### Example
 Each $l_{p}$ is separable for $1\leq p< \infty$ (take finite rational sequences). But $l_{\infty}$ is not separable.
+
+### Definition
+Norms $\lVert  \rVert_{1}$ and $\lVert  \rVert_{2}$ are equivalent if they induce the same topology.
