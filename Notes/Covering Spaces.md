@@ -50,9 +50,9 @@ Then we can set:
 $$
 \tilde{H}|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}=(p|_{V_{\beta}})^{-1}\circ H|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}:W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]\to V_{\beta}
 $$
-and note that $\tilde{H}(\cdot,0)$ agrees with $\tilde{f}_{0}$ on $W_{y}$
+and note that $\tilde{H}(\cdot,0)$ agrees with $\tilde{f}_{0}$ on $W_{y_{0}}$.
 ##### Step 2
-Proceed iteratively
+Proceed iteratively, now using $\tilde{H}\left(\cdot, \frac{i}{N} \right)$ instead of $\tilde{f}_{0}$ (note that our $W_{y_{0}}$ stays valid through)
 Upshot:
 Get map $\tilde{H}|_{W_{y_{0}}\times I}$ lifting $H|_{W_{y_{0}}\times I}$ and extending $\tilde{f}_{0}|_{W_{y_{0}}}$
 
