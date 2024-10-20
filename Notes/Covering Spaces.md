@@ -37,9 +37,10 @@ Say $p ^{-1}(U_{\alpha})=\sqcup_{\beta \in I_{\alpha}}V_{\beta}$, with $p|_{V_{\
 $$
 \bigcup_{\alpha}H^{-1}(U_{\alpha})\quad\text{ cover } \quad Y\times I
 $$
+
 Fix $y_{0}\in Y$.
-##### Step 1
-By [[Lebesgue number lemma]] applied to $\{ y_{0} \}\times I$, there is some $N$ st $\{ y_{0} \}\times\left[ 0, \frac{1}{N} \right]\subseteq H^{-1}(U_{\alpha})$ for some $\alpha$.
+By [[Lebesgue number lemma]] applied to $\{ y_{0} \}\times I$, there is some $N$ st $\{ y_{0} \}\times\left[ i, \frac{i+1}{N} \right]\subseteq H^{-1}(U_{\alpha(i)})$ for some $\alpha(i)$.
+Now for any $r\in\left[ \frac{i}{N}, \frac{i+1}{N} \right]$, have an open nbd of $Q_{r}$ around $H(y_{0},r)$ contained in $U_{\alpha(i)}$. As $\left[ \frac{i}{N}, \frac{i+1}{N} \right]$ is compact, there is a finite set of open 
 Now find $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that $W_{y_{0}}'\times\left[ 0, \frac{1}{N} \right]\subseteq H^{-1}(U_{\alpha})$.
 and $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that 
 for all $i=0,\dots N-1$ there is some $\alpha \in I$ such that 
