@@ -44,7 +44,8 @@ Furthermore, due to compactness of $\left[ \frac{i}{N}, \frac{i+1}{N} \right]$ w
 (Idea is find the open neighbourhoods of $H(y_{0},r)$ for each $r$ and then take their inverses, convert those into $Y_{k}\times V_{k}$, then find the finite cover of the interval by $V_{k}$$s$ and then intersect $Y_{k}$$s$ to obtain an open nbd of $y_{0}$)
 
 ##### Step 1
-Find $\beta \in I_{\alpha}$ such that $\tilde{f}_{0}(y_{0})\in V_{\beta}$. 
+Find $\beta \in I_{\alpha(0)}$ such that $\tilde{f}_{0}(y_{0})\in V_{\beta}$. Find an open nbd of $\tilde{f}_{0}(y_{0})$ in $V_{\beta}$ and intersect it with $W_{y_{0}}^{(i)}$ to obtain $W_{y_{0}}$.
+Now $\tilde{f}_{0}(W_{y_{0}})\subseteq V_{\beta}$ 
 
 
 Now find $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that $W_{y_{0}}'\times\left[ 0, \frac{1}{N} \right]\subseteq H^{-1}(U_{\alpha})$.
