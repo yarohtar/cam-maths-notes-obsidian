@@ -33,12 +33,13 @@ Let $p:\tilde{X}\to X$ be a covering map, $H:Y\times I\to X$ a homotopy from $f_
 2. $p\circ \tilde{H}=H$
 #### Proof
 Let $\{ U_{\alpha} \}_{\alpha \in I}$ be an open cover of $X$ by evenly covered sets.
-Say $p ^{-1}(U_{\alpha})=\sqcup_{\beta \in I_{\alpha}}V_{\beta}$, with $p|_{V_{\beta}}:V_{\beta}\to U_{\alpha}$ a homeomorphism
+Pick any $y_{0}\in Y$ and let $\alpha$ st $f_{0}(y_{0})\in U_{\alpha}$.
+Say $p ^{-1}(U_{\alpha})=\sqcup_{\beta \in I_{\alpha}}V_{\beta}$, with $p|_{V_{\beta}}:V_{\beta}\to U_{\alpha}$ a homeomorphism and $\tilde{f}_{0}(y_{0})\in V_{\beta}$. Note:
 $$
 \bigcup_{\alpha}H^{-1}(U_{\alpha})\quad\text{ cover } \quad Y\times I
 $$
-
-By [[Lebesgue number lemma]] applied to $I$, there is some $N$ and $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that 
+By [[Lebesgue number lemma]] applied to $\{ y_{0} \}\times I$, there is some $N$ st $\{ y_{0} \}\times\left[ 0, \frac{1}{N} \right]\subseteq H^{-1}(U_{\alpha})$. 
+and $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that 
 for all $i=0,\dots N-1$ there is some $\alpha \in I$ such that 
 $W_{y_{0}}'\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_\alpha)$.
 Additionally, pick $\beta$ st $y_{0}\in V_{\beta}$ and set $W_{y_{0}}=W_{y_{0}}'\cap \tilde{f}_{0}^{-1}(V_{\beta})$ 
