@@ -40,6 +40,7 @@ $$
 
 Fix $y_{0}\in Y$.
 By [[Lebesgue number lemma]] applied to $\{ y_{0} \}\times I$, there is some $N$ st $\{ y_{0} \}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_{\alpha(i)})$ for some $\alpha(i)$.
+Furthermore, due to compactness of $\left[ \frac{i}{N}, \frac{i+1}{N} \right]$ we know that there is some open $W_{y_{0}}'$ such that $H\left( W\times\left[ \frac{i}{N}, \frac{i+1}{N} \right] \right)$
 Now for any $r\in\left[ \frac{i}{N}, \frac{i+1}{N} \right]$, have an open nbd $Q_{r}$ around $H(y_{0},r)$ contained in $U_{\alpha(i)}$. As $\left[ \frac{i}{N}, \frac{i+1}{N} \right]$ is compact, there is a finite set of open $H^{-1}(Q_{r})$ that covers $\{ y_{0} \}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]$, hence the finite intersection of all those $H(\cdot,r)^{-1}(Q_{r})$ is an open nbd of $y_{0}$, call it $W_{y_{0}}'$, and $H\left( W_{y_{0}}'\times\left[ \frac{i}{N}, \frac{i+1}{N} \right] \right)\subseteq U_{\alpha}$.
 Now find $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that $W_{y_{0}}'\times\left[ 0, \frac{1}{N} \right]\subseteq H^{-1}(U_{\alpha})$.
 and $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that 
