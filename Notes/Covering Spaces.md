@@ -43,7 +43,8 @@ By [[Lebesgue number lemma]] applied to $\{ y_{0} \}\times I$, there is some $N$
 Furthermore, due to compactness of $\left[ \frac{i}{N}, \frac{i+1}{N} \right]$ we know that there is some open $W_{y_{0}}'$ (a nbd of $y_{0}$), such that $H\left( W_{y_{0}}^{(i)}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right] \right)\subseteq U_{\alpha(i)}$. 
 (Idea is find the open neighbourhoods of $H(y_{0},r)$ for each $r$ and then take their inverses, convert those into $Y_{k}\times V_{k}$, then find the finite cover of the interval by $V_{k}$$s$ and then intersect $Y_{k}$$s$ to obtain an open nbd of $y_{0}$)
 
-
+##### Step 1
+Find $\beta \in I_{\alpha}$ such that $\tilde{f}_{0}(y_{0})\in V_{\beta}$. 
 
 
 Now find $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that $W_{y_{0}}'\times\left[ 0, \frac{1}{N} \right]\subseteq H^{-1}(U_{\alpha})$.
