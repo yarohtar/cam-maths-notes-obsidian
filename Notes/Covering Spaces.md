@@ -38,12 +38,13 @@ $$
 \bigcup_{\alpha}H^{-1}(U_{\alpha})\quad\text{ cover } \quad Y\times I
 $$
 
-By [[Lebesgue number lemma]] applied to $I$, there is some $N$ and $W_{y_{0}}$ an open nbd of $y_{0}$ in $Y$ such that 
+By [[Lebesgue number lemma]] applied to $I$, there is some $N$ and $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that 
 for all $i=0,\dots N-1$ there is some $\alpha \in I$ such that 
-$W_{y_{0}}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_\alpha)$.
+$W_{y_{0}}'\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_\alpha)$.
+Additionally, pick $\beta$ st $y_{0}\in V_{\beta}$ and set $W_{y_{0}}=W_{y_{0}}'\cap \tilde{f}_{0}^{-1}(V_{\beta})$ 
 Now construct lift $\tilde{H}|_{W_{y_{0}}\times I}$ of $H|_{W_{y_{0}}\times I}$.
 ##### Step 1
-Firstly, $\tilde{f}_{0}$ maps 
+Firstly, $\tilde{f}_{0}$ maps $W_{y_{0}}$ to some $V_{\beta}$ 
 Set
 $$
 \tilde{H}|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}=(p|_{V_{\beta}})^{-1}\circ H|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}:W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]\to V_{\beta}
