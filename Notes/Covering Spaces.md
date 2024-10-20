@@ -45,20 +45,12 @@ Furthermore, due to compactness of $\left[ \frac{i}{N}, \frac{i+1}{N} \right]$ w
 
 ##### Step 1
 Find $\beta \in I_{\alpha(0)}$ such that $\tilde{f}_{0}(y_{0})\in V_{\beta}$. Find an open nbd of $\tilde{f}_{0}(y_{0})$ in $V_{\beta}$ and intersect it with $W_{y_{0}}^{(i)}$ to obtain $W_{y_{0}}$.
-Now $\tilde{f}_{0}(W_{y_{0}})\subseteq V_{\beta}$ 
-
-
-Now find $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that $W_{y_{0}}'\times\left[ 0, \frac{1}{N} \right]\subseteq H^{-1}(U_{\alpha})$.
-and $W_{y_{0}}'$ an open nbd of $y_{0}$ in $Y$ such that 
-for all $i=0,\dots N-1$ there is some $\alpha \in I$ such that 
-$W_{y_{0}}'\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_\alpha)$.
-Additionally, pick $\beta$ st $y_{0}\in V_{\beta}$ and set $W_{y_{0}}=W_{y_{0}}'\cap \tilde{f}_{0}^{-1}(V_{\beta})$ 
-Now construct lift $\tilde{H}|_{W_{y_{0}}\times I}$ of $H|_{W_{y_{0}}\times I}$.
-Firstly, $\tilde{f}_{0}$ maps $W_{y_{0}}$ to some $V_{\beta}$ 
-Set
+Now $\tilde{f}_{0}(W_{y_{0}})\subseteq V_{\beta}$ and $H\left( W_{y_{0}}\times\left[0, \frac{1}{N} \right] \right)\subseteq U_{\alpha(0)}$
+Then we can set:
 $$
 \tilde{H}|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}=(p|_{V_{\beta}})^{-1}\circ H|_{W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]}:W_{y_{0}}\times\left[ 0, \frac{1}{N} \right]\to V_{\beta}
 $$
+and note that $\tilde{H}(\cdot,0)$ agrees with $\tilde{f}_{0}$ on $W_{y}$
 ##### Step 2
 Proceed iteratively
 Upshot:
