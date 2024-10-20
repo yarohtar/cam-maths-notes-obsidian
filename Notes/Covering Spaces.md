@@ -52,7 +52,7 @@ $$
 $$
 and note that $\tilde{H}(\cdot,0)$ agrees with $\tilde{f}_{0}$ on $W_{y_{0}}$.
 ##### Step 2
-Proceed iteratively, now using $\tilde{H}\left(\cdot, \frac{i}{N} \right)$ instead of $\tilde{f}_{0}$ (note that our $W_{y_{0}}$ stays valid through)
+Proceed iteratively, now using $\tilde{H}\left(\cdot, \frac{i}{N} \right)$ instead of $\tilde{f}_{0}$ (note that our $W_{y_{0}}$ stays valid throughout)
 Upshot:
 Get map $\tilde{H}|_{W_{y_{0}}\times I}$ lifting $H|_{W_{y_{0}}\times I}$ and extending $\tilde{f}_{0}|_{W_{y_{0}}}$
 
