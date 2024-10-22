@@ -11,5 +11,5 @@ $$
 $$
 we get:
 $$
-\lVert A_{h} \rVert \leq 1 \text{ as } h\to 0\implies \text{the}
+\lVert A_{h} \rVert \leq 1 \text{ as } h\to 0\implies \text{the method is stable}
 $$
