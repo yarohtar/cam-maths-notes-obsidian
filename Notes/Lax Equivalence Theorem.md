@@ -4,4 +4,4 @@ u^{n+1}=A_{h}u^{n}
 $$
 with zero boundary conditions
 
-Fix a norm $\lVert  \rVert$ (any norm) and 
+Fix a norm $\lVert  \rVert$ (any norm) and $\lVert A_{h} \rVert=\sup \frac{\lVert  A_{h}x\rVert}{\lVert x \rVert}$ 
