@@ -26,3 +26,9 @@ $$
 $$
 ### Theorem
 If $\mu\leq \frac{1}{2}$ then this method converges.
+#### Proof
+We will use $\lVert  \rVert$ for $\lVert  \rVert_{\infty}$. 
+We have 
+$$
+e_{m}^{n+1}=
+$$
