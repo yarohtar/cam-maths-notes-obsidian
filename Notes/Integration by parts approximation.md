@@ -21,3 +21,12 @@ F(x)\sim \frac{e^{-x^{2}/2}}{x}\sum_{n}(-1)^n \frac{(2n-1)!!}{x^{2n}}
 $$
 (this diverges ...)
 ### Example
+Find the behaviour of $I(x)\int_{a}^\mathbf{(t)e^{xt}dt}$ as $x\to \infty$, for $f(b)\neq 0$.
+As $x\to \infty$, the integrand is dominated by a small region near $x=b$. 
+$$
+I(x)\approx f(b)\int_{a}^be^{xt}dt\sim f(b)\frac{e^{xb}}{x}
+$$
+Repeated integration by parts:
+$$
+I=e^{xb}\left( \sum_{k=1}^N(-1)^{k-1}f^{(k-1)}(b)x^{-k}-e^{-x(b-a)}\sum_{k=1}^N(-1)^{k-1}f^{(k-1)}() \right)
+$$
