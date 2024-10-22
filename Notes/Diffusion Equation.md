@@ -36,3 +36,12 @@ so we can get
 $$
 \lVert e^{n+1} \rVert \leq (2\mu+1+\lvert 1-2\mu \rvert )\lVert e^n \rVert +ch^4w
 $$
+So by $\mu\leq \frac{1}{2}$ we get:
+$$
+\begin{align}
+\lVert e^{n} \rVert &\leq \lVert e^{n-1} \rVert +ch^{4} \\
+&\leq nch^{4} \\
+&\leq \frac{T}{k}ch^{4} \\
+&\leq \frac{T}{\mu}ch^{2}\to 0 \quad \text{as}\quad h\to 0
+\end{align}
+$$
