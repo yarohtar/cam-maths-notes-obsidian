@@ -41,8 +41,9 @@ $$
 Fix $y_{0}\in Y$.
 By [[Lebesgue number lemma]] applied to $\{ y_{0} \}\times I$, there is some $N$ st $\{ y_{0} \}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_{\alpha(i)})$ for some $\alpha(i)$.
 Furthermore, due to compactness of $\left[ \frac{i}{N}, \frac{i+1}{N} \right]$ we know that there is some open $W_{y_{0}}^{(i)}$ (a nbd of $y_{0}$), such that $H\left( W_{y_{0}}^{(i)}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right] \right)\subseteq U_{\alpha(i)}$. 
-(Idea is, take $H^{-1}(U)$)
-
+(Idea is, take $H^{-1}(U_{\alpha(i)})$ open in $Y\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]$, so it is open in product topology, so it is a union of $U\times V$ where $U$ is open in $Y$, and $V$ is open in (interval). Then take all the pairs that contain $(y_{0},r)$ for some number $r$. Those will induce an open cover on the interval, hence take the finite subcover, and intersect the corresponding open sets in $Y$)
+Now set $W_{y_{0}}'=\bigcap W_{y_{0}}^{(i)}$. 
+Finally, take $\beta \in I_{\alpha(0)}$ such that $\tilde{f}_{0}(y_{0})\in V_{\beta}$, and set $W_{y_{0}}=W_{y_{0}}'\cap \tilde{f}_{}$
 ##### Step 1
 Find $\beta \in I_{\alpha(0)}$ such that $\tilde{f}_{0}(y_{0})\in V_{\beta}$. Find an open nbd of $\tilde{f}_{0}(y_{0})$ in $V_{\beta}$ and intersect it with $W_{y_{0}}^{(i)}$ to obtain $W_{y_{0}}$.
 Now $\tilde{f}_{0}(W_{y_{0}})\subseteq V_{\beta}$ and $H\left( W_{y_{0}}\times\left[0, \frac{1}{N} \right] \right)\subseteq U_{\alpha(0)}$
