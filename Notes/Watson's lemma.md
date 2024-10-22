@@ -6,5 +6,5 @@ OR
 - $\int _0^T\lvert f(t) \rvert dt<\infty$
 Then 
 $$
-F(x)\sim \sum_{n=0}^{\infty} a_{n} \frac{\Gamma(\alpha+\beta n+1)}{}
+F(x)\sim \sum_{n=0}^{\infty} a_{n} \frac{\Gamma(\alpha+\beta n+1)}{x^{\alpha+\beta n+1}}
 $$
