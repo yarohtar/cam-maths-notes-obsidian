@@ -24,3 +24,5 @@ A method is convergent if for a fixed $\mu$ and for ever $T>0$ we have
 $$
 \lim_{ h \to 0 }\lvert u_{m}^n - u(x_{m},t_{n})\rvert  =0 \quad\quad \text{uniformly}
 $$
+### Theorem
+If $\mu\leq \frac{1}{2}$ then this method converges.
