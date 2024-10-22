@@ -19,3 +19,8 @@ $$
 u_{m}^{n+1}=u_{m}^{n}+\mu(u_{m-1}^n-2u_{m}^n+u_{m+1}^n)
 $$
 with $h=\frac{1}{M+1}$ and $\mu=\frac{k}{h^2}$ 
+
+A method is convergent if for a fixed $\mu$ and for ever $T>0$ we have
+$$
+\lim_{ h \to 0 }\lvert u_{m}^n - u(x_{m},t_{n})\rvert  =0 \quad\quad \text{uniformly}
+$$
