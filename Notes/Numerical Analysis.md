@@ -18,3 +18,4 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Lax Equivalence Theorem]]
 [[Stability of Numerical Methods]]
 [[Consistency of Numerical Methods]]
+o
