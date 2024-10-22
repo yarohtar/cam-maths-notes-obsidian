@@ -20,3 +20,4 @@ $$
 F(x)\sim \frac{e^{-x^{2}/2}}{x}\sum_{n}(-1)^n \frac{(2n-1)!!}{x^{2n}}
 $$
 (this diverges ...)
+### Example

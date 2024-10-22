@@ -34,5 +34,5 @@ e_{m}^{n+1}=\mu e_{m-1}^n+(1-2\mu)e^n_{m}+\mu e_{m+1}^n+O(h^4)
 $$
 so we can get
 $$
-\lVert e^{n+1} \rVert \leq (2\mu+1+\lvert 1-2\mu \rvert )\lVert e^n \rVert +ch^4
+\lVert e^{n+1} \rVert \leq (2\mu+1+\lvert 1-2\mu \rvert )\lVert e^n \rVert +ch^4w
 $$
