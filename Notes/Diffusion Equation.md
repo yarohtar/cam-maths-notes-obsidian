@@ -14,3 +14,8 @@ So for the true solution we obtain
 $$
 u(x,t+k)=u(x,t)+\frac{k}{h^2}[u(x-h,t)-2u(x,t)+u(x+h,t)]+O(k^{2}+kh^{2}s)
 $$
+Now use $u_{m}^n=u(x_{m},t_{n})$
+$$
+u_{m}^{n+1}=u_{m}^{n}+\mu(u_{m-1}^n-2u_{m}^n+u_{m+1}^n)
+$$
+with $h=\frac{1}{M+1}$ and $\mu=\frac{k}{h^2}$ 
