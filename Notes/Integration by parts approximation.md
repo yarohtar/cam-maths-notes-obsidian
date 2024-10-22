@@ -34,5 +34,5 @@ The first sum is an $N$ term approximation of $I$, with $\phi_{k}=\frac{1}{x^{k}
 
 If $f$ is infinitely differentiable we have
 $$
-I(x)\sim \sum_{i=1}^{N} 
+I(x)\sim \sum_{k=1}^{\infty} (-1)^{k-1} \frac{f^{(k-1)}(b)}{x^k}e^{xb}
 $$

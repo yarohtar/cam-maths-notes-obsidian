@@ -2,5 +2,6 @@
 [[Asymptotic Sequence]]
 [[Asymptotic Approximation]]
 [[Approximating Integrals]]
+[[The Gamma Function]]
 
 
