@@ -17,3 +17,4 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Diffusion Equation]]
 [[Lax Equivalence Theorem]]
 [[Stability of Numerical Methods]]
+[[Consistency of Numerical Methods]]

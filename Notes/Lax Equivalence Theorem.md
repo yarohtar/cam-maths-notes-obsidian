@@ -9,7 +9,9 @@ Then since:
 $$
 \lVert u^n \rVert \leq \lVert A_{h}^n u^0 \rVert \leq \lVert A_{h} \rVert ^n\lVert u^0 \rVert
 $$
-we get:
+we get that the method is [[Stability of Numerical Methods|stable]] if
 $$
-\lVert A_{h} \rVert \leq 1 \text{ as } h\to 0\implies \text{the method is stable}
+\lVert A_{h} \rVert \leq 1 \text{ as } h\to 0
 $$
+
+Let $\hat{u}$ be the exact solution. 
