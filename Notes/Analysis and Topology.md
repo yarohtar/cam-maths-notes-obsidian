@@ -1,4 +1,3 @@
-## Convergence of functions
 [[Pointwise convergence of functions]]
 [[Uniform convergence of functions]]
 [[Uniform Cauchy]]

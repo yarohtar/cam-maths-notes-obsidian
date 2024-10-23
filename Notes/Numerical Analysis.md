@@ -1,4 +1,4 @@
-Part IB
+# Part IB
 [[Polynomial interpolation]]
 [[Orthogonal polynomials]]
 [[Approximating linear functionals]]
@@ -8,7 +8,7 @@ Part IB
 [[Linear stability]]
 [[Numerical Linear Algebra]]
 
-Part II
+# Part II
 Lecture slides on link:
 https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 
