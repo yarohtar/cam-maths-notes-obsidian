@@ -75,7 +75,8 @@ And you get a message of type "Author not set, please do this in settings", you 
 2. Scroll down to Git
 3. Scroll down and find fiels "Author name for commit" and "Author email for commit"
 4. Fill these in with your name and email
-I'm not sure for the reason this doesn't work because you are never committing so this information is never actually used. But it is what it is.
+
+I'm not sure about the reason this doesn't work because you are never committing so this information is never actually used. But it is what it is.
 
 ## Autopull
 If you don't wanna do this every time, you can set the autopull by going to Settings, scrolling down to Git and clicking on it.
