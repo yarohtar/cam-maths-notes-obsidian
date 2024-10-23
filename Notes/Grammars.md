@@ -18,8 +18,5 @@ Isomorphic grammars are equivalent. (??)
 ### Definition
 $\mathcal{G}(\Sigma,V)$ is the set of all grammars with $\Sigma,V$. This is countable.
 
-### Lemma
-Every grammar is equivalent to a [[Variable-based Grammar]]variable-based grammar
-#### Proof
-Idea: For each terminal symbol $a\in \Sigma$, define a variable $X_{a}$ and add appropriate rules $P'=\{ X(\alpha)\to X(\beta):\alpha \to \beta \in P \}$ and also add recovery rules $\{ X_{a}\to a : a\in \Sigma\}$.
-Then prove that the languages are the same
+
+[[Variable-based Grammar]]
