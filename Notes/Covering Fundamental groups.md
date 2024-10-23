@@ -20,4 +20,6 @@ $$
 induced by $\cdot$ on $y_{0}$
 
 ### Corollary
-Suppose $p:\tilde{X}\to X$ is a [[Covering Spaces#Definition (universal cover)|universal cover]]. Then each point $\tilde{x}_{0}\in p ^{-1}()$
+Suppose $p:\tilde{X}\to X$ is a [[Universal Cover|universal cover]]. Then each point $\tilde{x}_{0}\in p ^{-1}(x_{0})$ determines a bijection between $\pi_{1}(X,x_{0})$ and $p ^{-1}(x_{0})$ given by $[\gamma]\to \tilde{x}_{0}\cdot [\gamma]$.
+#### Proof
+Immediate from previous lemma.
