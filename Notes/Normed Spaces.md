@@ -7,25 +7,11 @@ A normed space is a pair $(X,||\cdot||)$
 NOTE: a normed space gives rise to a [[Metric spaces|metric space]] with $d(x,y)=||x-y||$. So we can talk about open sets, closed sets, convergent sequences etc.
 
 [[L norms]]
-### Unit ball
-$B=\{x\in X : ||x||\leq 1\}$
-
-Can check that $B$ is closed, bounded, convex, symmetric and a neighbourhood of 0.
-Suppose $B'$ does satisfy this, then $B'$ defines a norm by taking
-$||x||=\inf\left\{  \alpha\geq 0 \mid \frac{x}{\alpha}\in B'  \right\}$
-
 [[Banach Space]]
-[[Minkowski's Inequality]]
-[[Hölder inequality]]
-
 [[Metric spaces#Some properties]]
-### Theorem
-Let $X$ be an $\infty$-dimensional normed space. Then there are some $(x_{n})\in X$ with $\lVert x_{n} \rVert=1$ for all $n$ and $\lVert x_{n}-x_{m} \rVert\geq 1$ for all $n,m$. In particular, $B_{X}$ is not complete.
+[[Unit Ball]]
 
-### Definition
-We say topological space $X$ is separable if it has a countable dense subset.
-#### Example
-Each $l_{p}$ is separable for $1\leq p< \infty$ (take finite rational sequences). But $l_{\infty}$ is not separable.
+[[Separable Space]]
 
 ### Definition
 Norms $\lVert  \rVert_{1}$ and $\lVert  \rVert_{2}$ are equivalent if they induce the same topology.
