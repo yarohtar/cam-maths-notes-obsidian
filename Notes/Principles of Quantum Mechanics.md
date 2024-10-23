@@ -18,3 +18,4 @@ https://www.damtp.cam.ac.uk/user/dbs26/PQM.html
 [[The Generalized Uncertainty Principle]]
 [[Quantum Harmonic Oscillator]]
 
+[[Translations]]

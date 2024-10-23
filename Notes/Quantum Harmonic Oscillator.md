@@ -35,3 +35,5 @@ Consequently,
 $[N,AA^{\dagger}]=[A^{\dagger}A,A^{\dagger}]=A^{\dagger}[A,A^{\dagger}]+[A^{\dagger},A^{\dagger}]A^{\dagger}=A^{\dagger}$
 $[N,A]=-A$
 
+
+$\ket{n}=\frac{(A^{\dagger})^{n}}{\sqrt{ n! }}$
