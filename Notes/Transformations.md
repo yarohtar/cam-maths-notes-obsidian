@@ -9,3 +9,15 @@ In mathematical terms we study the unitary representations of $G$ on $\mathcal{H
 
 We can equivalently transform operators instead of states:
 Let $A:\mathcal{H}\to \mathcal{H}$ with $\bra{\psi}A\ket{\psi}$. After transform we have $\bra{\psi}U^{\dagger}AU\ket{\psi}$ so we could have just sent $A\to A'=U^{\dagger}AU$ whilst leaving the states unchanged.
+This is called a similarity transformation
+Similearity transformations prerserve the spectrum
+if $A\ket{a}=a\ket{a}$ then $U^{\dagger}\ket{a}$ is an eigenvector of $A'$ with eigenvalue $a$.
+
+## Continuous transformations
+Let $U$ depend smoothly on a parameter $\theta \in \mathbb{R}$ with $U(\theta=0)=id_{\mathcal{H}}$
+For $\delta \theta\ll 1$ we expand $U(\delta \theta)=id_{H}-i\delta \theta T+O(\delta \theta^2)$
+$T$ is called the generator of the transformation ("$-i$" factor is convention)
+$T$ is Hermetian
+
+Generators can be observables!
+On states $k$
