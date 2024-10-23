@@ -8,9 +8,9 @@ Indeed $\lVert (S+T)x \rVert\leq \lVert Sx \rVert+\lVert Tx \rVert\leq (\lVert S
 $X,Y,Z$ normed, $S\in L(X,Y)$ and $T\in L(Y,Z)$. Then $T\circ S\in L(X,Z)$ and $\lVert T\circ S \rVert\leq \lVert T \rVert\lVert S \rVert\lVert x \rVert$.
 
 ### Proposition
-$X$, $Y$ normed with $Y$ complete. Then the compact operators form a closed subspace of $L(X,Y)$.
+$X$, $Y$ normed with $Y$ complete. Then the [[Compact Linear Map|compact]] [[Linear Operator|operators]] form a closed subspace of $L(X,Y)$.
 #### Proof
-Subspace: Must show that $S$, $T$, copmact implies $S+T$ compact
+Subspace: Must show that $S$, $T$, compact implies $S+T$ compact
 Given $(x_{n})$ in $B_{X}$, have subsequence $(x_{n_{i}})$ with $(S{x_{n_{i}}})$ convergent to $y$.
 And then $(x_{n_{i}})$ has a subsequence $(x_{m_{i}})$ with $Tx_{m_{i}}\to y'$ say.
 So $(S+T)x_{m_{i}}\to y+y'$.
