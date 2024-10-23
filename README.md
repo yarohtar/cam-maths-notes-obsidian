@@ -67,20 +67,28 @@ Note that some things (like commutative diagrams) might not load on phone. sorry
 # How to update from remote
 If I make changes/updates to the Vault, you will be able to pull them by opening the command palette again and searching for "Git: Pull". This should do everything it needs to.
 
-## IF it doesn't!
+## IF it doesn't! (usually on phones)
 And you get a message of type "Author not set, please do this in settings", you will need to do the following:
 1. Go to Settings
 2. Scroll down to Git
-3. Scroll down and find fiels "Author name for commit" and "Aut"
+3. Scroll down and find fiels "Author name for commit" and "Author email for commit"
+4. Fill these in with your name and email
+I'm not sure for the reason this doesn't work because you are never committing so this information is never actually used. But it is what it is.
 
-Alternatively, by going to Settings (CTRL+,) and clicking on Git on bottom-left, you can adjust the Autopull interval or turn on Pull on startup.
+## Autopull
+If you don't wanna do this every time, you can set the autopull by going to Settings, scrolling down to Git and clicking on it.
+Here, you can adjust the Autopull interval or turn on Pull on startup setting.
 
 If you made changes to some files, the Pull might fail with some error messages about an impossible merge. You will either have to handle this by resolving the impossible merges (where I strongly recommend using command line git) or you'll have to reinstall the whole Vault, losing your changes.
 
 # How to navigate
 Firstly, you can switch between editing and reading mode in the top-right corner.
 
-By hitting CTRL+O (plus icon on phone), you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top-left to navigate back.
+By hitting CTRL+O (plus icon on phone), you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. 
+
+Alternatively, open this README file in obsidian and click on links in [[#Courses that exist currently]].
+
+You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top-left to navigate back.
 
 Whenever you see a link, you can hover over while holding CTRL and it will show you a popup window of what that link is pointing to. This is useful if you just want to peak a definition and don't wanna open a new file.
 
