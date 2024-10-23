@@ -33,10 +33,9 @@ By construction, they agree on $(W_{y_{0}}\cap W_{y_{1}})\times \{ 0 \}$
 So they have to agree on all of $(W_{y_{0}}\cap W_{y_{1}})\times I$
 eg by considering that they agree on $\{ y \}\times \{ 0 \}$ (for each $y\in W_{y_{0}}\cap W_{y_{1}}$) and $\{ y \}\times I$ are all connected.
 
-### Corollary
+### Corollaries
 - [[Path Lifting Lemma]]
-### Corollary
-Let $p:\tilde{X}\to X$ be a covering map, with $X$ path connected. Then the sets $p ^{-1}(x_{0})$ and $p ^{-1}(x_{1})$ are in bijection for any $x_0,x_{1}\in X$.
+- [[Path Push Forward Bijection]]
 ### Definition (path push forward)
 Given a path $\gamma:x_{0}\leadsto x_{1}$, we define the push forward of $\gamma$ to be
 $$
@@ -46,5 +45,6 @@ y_{0} & \to \tilde{\gamma}_{y_{0}}(1)
 \end{align}
 $$
 Where $\tilde{\gamma}_{y_{0}}$ is the unique lift of $\gamma$ starting at $y_{0}$ given by the [[Path Lifting Lemma]].
+### Corollary (path push forward bijective)
 
 [[Covering Fundamental groups]]
