@@ -1,11 +1,10 @@
 For $X$ and $Y$ [[Normed Spaces]], a linear map $T:X\to Y$ is an operator if it is continuous.
-### Definition (bounded)
-Linear map $T:X\to Y$ is bounded if there is some $k$ such that for all $x \in X$ $\lVert Lx \rVert_{Y}\leq k\lVert x \rVert_{X}$
+[[Bounded Linear Map]]
 ### Proposition
 Let $X$, $Y$ be normed, $T:X\to Y$. Then the following are equivalent:
 1. $T$ is continuous
 2. $T$ is continuous at $0$
-3. $T$ is bounded
+3. $T$ is [[Bounded Linear Map|bounded]]
 #### Proof
 1=>2 is obvious
 2=>3:
