@@ -1,5 +1,5 @@
 [[Normed Spaces]]
-[[Linear Operators]]
+[[Space of Linear Operators]]
 [[Dual Spaces]]
 [[The Baire Category Theorem]]
 [[Spaces of CTS functions]]
@@ -12,8 +12,6 @@
 3. Real & Complex Analysis by Rudin
 
 
-### Theorem
-Let $X$ be an $\infty$-dimensional normed space. Then there are some $(x_{n})\in X$ with $\lVert x_{n} \rVert=1$ for all $n$ and $\lVert x_{n}-x_{m} \rVert\geq 1$ for all $n,m$. In particular, $B_{X}$ is not complete.
 # Definition
 For $X$,$Y$ normed, say linear $T:X\to Y$ is compact if $\overline{T(B_{X})}$ is compact.
 ### Notes
