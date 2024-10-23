@@ -20,4 +20,10 @@ $T$ is called the generator of the transformation ("$-i$" factor is convention)
 $T$ is Hermetian
 
 Generators can be observables!
-On states $k$
+$U(\theta)=\lim_{ N \to \infty }\left( 1-i \frac{\theta}{N}T \right)^N=e^{-i\theta T}$
+(?????)
+
+## Translations
+$U(a)$ is a translation by vector $a\in \mathbb{R}^{3}$
+For infinitesimal translation $\delta a$:
+$U(\delta a)=1-\frac{i}{\hbar}\alpha \cdot P+O()$
