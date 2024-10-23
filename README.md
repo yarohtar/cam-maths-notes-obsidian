@@ -11,18 +11,22 @@ You're welcome to fork this and add your own changes / notes, but if you only wa
 WARNING: If you clone this AND are adding your own changes AND then pulling changes from my repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case. 
 
 # How to download
-Firstly, you need to download and install Obsidian from the official website https://obsidian.md/
+Firstly, you need to download and install Obsidian from the official website https://obsidian.md/ or you can download it from the app store on your phone.
 
 Next open the app and create a new Vault. You can delete the default file.
 
-Go to settings on the bottom-left (alternatively, hit CTRL+, ). Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and make sure to enable it. 
+Go to settings on the bottom-left (on computer) or top-left (on phone) (alternatively, hit CTRL+, ). Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and make sure to enable it when it installs (there will be a button on the same page).
 
-Close the Settings window(s). Hit CTRL+P to open the command palette. Search for "Git: Clone an existing remote repo" and hit enter.
+Close the Settings window(s). Hit CTRL+P to open the command palette (on windows) or click the bottom-right button and then click "Open command palette" (on android). 
+
+Search for "Git: Clone an existing remote repo" command and hit enter.
 
 You will be prompted a few times:
 1. First enter the link to this repo, https://github.com/yarohtar/cam-maths-notes-obsidian
-2. Then enter the name of a folder 
-3. Leave the third prompt empty and hit enter
+2. Then enter the name of a new folder where all the files will be put OR just click Vault Root
+3. If asked about .obsidian file, say YES
+4. If asked about merge conflicts, click DELETE
+5. Leave the last prompt empty
 
 You should be good to go now. 
 
