@@ -12,10 +12,9 @@ Part II
 Lecture slides on link:
 https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 
-[[Poisson Equation with finite difference]]
+[[Numerical Methods for Poisson Equation]]
 [[Discrete Fourier Transform]]
 [[Numerical Methods for Diffusion Equation]]
 [[Lax Equivalence Theorem]]
 [[Stability of Numerical Methods]]
 [[Consistency of Numerical Methods]]
-o
