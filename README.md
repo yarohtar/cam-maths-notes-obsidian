@@ -15,7 +15,7 @@ Firstly, you need to download and install Obsidian from the official website htt
 
 Next open the app and create a new Vault. You can delete the default file.
 
-Go to settings on the bottom-left (on computer) or top-left (on phone) (alternatively, hit CTRL+, ). Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and make sure to enable it when it installs (there will be a button on the same page).
+Go to settings (on computer, hit CTRL+, or click the gear icon on t. Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and make sure to enable it when it installs (there will be a button on the same page).
 
 Close the Settings window(s). Hit CTRL+P to open the command palette (on windows) or click the bottom-right button and then click "Open command palette" (on android). 
 
