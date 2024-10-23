@@ -29,7 +29,7 @@ where $\alpha\in\mathbb R$ is chosen to be greater than the real part of all sin
 
 A more handy formula is:
 If $F(s)$ has only finitely many isolated singularities and $\lim_{|s|\to 0}F(s)=0$ then for $t<0$, $f(t)=0$, while for $t>0$:
-$$f(t)=\sum_{k=1}^n\Res_{s=s_k}(F(s)e^{st})$$
+$$f(t)=\sum_{k=1}^n\mathop{\mathrm{Re}s}_{s=s_k}(F(s)e^{st})$$
 ### Differential equations
 We can apply Laplace transform to differential equations to solve them:
 $$t\ddot f-t\dot f+f=2$$
