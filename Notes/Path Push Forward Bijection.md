@@ -1,1 +1,0 @@
-If $X$ is path connected, then for any path $\gamma:x_{0}\leadsto x_{1}$, we have that $\gamma_{*}$ is a bijection between $p ^{-1}(x_{0})$ to $p ^{-1}(x_{1})$.
