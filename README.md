@@ -38,7 +38,7 @@ Firstly, you can switch between editing and reading mode in the top-right corner
 
 By hitting CTRL+O, you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top-left to navigate back.
 
-Whenever you see a link, you can hover over while holding CTRL and it will show you a popup window of what that link is pointing t
+Whenever you see a link, you can hover over while holding CTRL and it will show you a popup window of what that link is pointing to. This is useful if you just want to peak a definition and don't wanna open a new file.
 
 In the top-left there is an Open graph view button which shows all the files / topics interconnected in a nice graph view. Can be useful to more easily figure out what's in the Vault.
 
