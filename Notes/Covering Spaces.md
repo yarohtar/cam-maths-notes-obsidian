@@ -12,3 +12,5 @@ A lift of $f$ along $p$ is a map $\tilde{f}:Y\to \tilde{X}$ such that the whole 
 A covering map $p:\tilde{X}\to X$ is a universal cover if $\tilde{X}$ is [[Simply connected]].
 ### Definition ($n$ sheeted cover)
 A covering map $p:\tilde{X}\to X$ is $n$ sheeted if each $p ^{-1}(x)$ has cardinality $n$ (where $n\in \mathbb{N}$ or $n=\infty$).
+
+[[Covering Fundamental groups]]
