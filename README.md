@@ -13,6 +13,7 @@ WARNING: If you clone this AND are adding your own changes AND are then pulling 
 # Courses that exist currently
 Part IA:
 - [[Groups]] (but taken from [[GRM]])
+
 Part IB:
 - [[Optimisation]]
 - [[Variational principles]]
@@ -21,6 +22,7 @@ Part IB:
 - [[GRM]] (only [[Groups]] and [[Rings]])
 - [[Numerical Analysis]]
 - [[Complex Methods]]
+
 Also useful: [[Last minute revision Part IB]]
 
 Part II:
