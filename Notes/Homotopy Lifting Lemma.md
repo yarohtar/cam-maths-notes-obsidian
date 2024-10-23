@@ -37,5 +37,13 @@ eg by considering that they agree on $\{ y \}\times \{ 0 \}$ (for each $y\in W_{
 - [[Path Lifting Lemma]]
 ### Corollary
 Let $p:\tilde{X}\to X$ be a covering map, with $X$ path connected. Then the sets $p ^{-1}(x_{0})$ and $p ^{-1}(x_{1})$ are in bijection for any $x_0,x_{1}\in X$.
+### Definition (path push forward)
+Given a path $\gamma:x_{0}\leadsto x_{1}$, we define the push forward of $\gamma$ to be
+$$
+\begin{align}
+\gamma_{*}:p ^{-1}(x_{0})&\to p ^{-1}(x_{1}) \\
+y_{0}
+\end{align}
+$$
 
 [[Covering Fundamental groups]]
