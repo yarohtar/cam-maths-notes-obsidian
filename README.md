@@ -8,14 +8,14 @@ Also the Part IB files are much more concise and probably require previous under
 
 You're welcome to fork this and add your own changes / notes, but if you only want to read mine, see below.
 
-WARNING: If you clone this AND are adding your own changes AND then pulling changes from my repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case. 
+WARNING: If you clone this AND are adding your own changes AND are then pulling changes from my repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case. 
 
 # How to download
-Firstly, you need to download and install Obsidian from the official website https://obsidian.md/ or you can download it from the app store on your phone.
+Firstly, you need to download and install Obsidian from the official website https://obsidian.md/ (on computer) or you can download it from the app store on your phone.
 
 Next open the app and create a new Vault. You can delete the default file.
 
-Go to settings (on computer, hit CTRL+, or click the gear icon on the bottom left; on phone swipe right and click the gear icon). 
+Go to settings (on computer hit CTRL+, OR click the gear icon on the bottom left; on phone swipe right and click the gear icon). 
 
 Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and make sure to enable it when it installs (there will be a button on the same page).
 
