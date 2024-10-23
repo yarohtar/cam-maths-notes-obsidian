@@ -63,8 +63,4 @@ $$
 $$
 Now we can use the [[Euler method]] method to solve this, but we can also use the [[Reverse-Euler Method]] and have enhanced stability. 
 Note that in the second scenario, we would need to solve the linear system of equations that arises from the implicit method.
-### Crank-Nicolson scheme
-Using the [[Trapezoidal rule (ODEs)]], we get:
-$$
-u_{m}^{n+1}-\frac{1}{2}\mu(u_{m-1}^{n+1}-2u_{m}^{n+1}+u_{m+1}^{n+1})=u_{m}^{n}+\frac{1}{2}\mu(u_{m-1}^n-2u_{m}^n+u_{m+1}^n)
-$$
+[[Crank-Nicolson method for diffusion equation]]
