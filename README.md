@@ -32,10 +32,12 @@ You will be prompted a few times:
 4. If asked about merge conflicts, click DELETE
 5. Leave the last prompt empty
 
-You should be good to go now. You can see the files on the left (swipe on phone). 
+You should be good to go now. You can see the files on the left (swipe on phone). You should probably restart the app now to sync all the settings.
+
+Note that some things (like commutative diagrams) might not load on phone. sorry :/
 
 # How to update from remote
-If I make changes/updates to the Vault, you will be able to pull them by hitting CTRL+P and searching for "Git: Pull". This should do everything it needs to.
+If I make changes/updates to the Vault, you will be able to pull them by opening the command palette again and searching for "Git: Pull". This should do everything it needs to.
 
 Alternatively, by going to Settings (CTRL+,) and clicking on Git on bottom-left, you can adjust the Autopull interval or turn on Pull on startup.
 
@@ -44,7 +46,7 @@ If you made changes to some files, the Pull might fail with some error messages 
 # How to navigate
 Firstly, you can switch between editing and reading mode in the top-right corner.
 
-By hitting CTRL+O, you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top-left to navigate back.
+By hitting CTRL+O (plus icon on phone), you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top-left to navigate back.
 
 Whenever you see a link, you can hover over while holding CTRL and it will show you a popup window of what that link is pointing to. This is useful if you just want to peak a definition and don't wanna open a new file.
 
