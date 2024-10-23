@@ -1,7 +1,10 @@
 This is an Obsidian Vault that I used to organize my notes on various Part IB and Part II courses. Part IB notes were created during Easter term when this project started, while Part II is being created as lectures go. 
 
-None of this is official and it is not an accurate representation of what was lectured. I tend to give more attention to the things that I found difficult, while I might omit things that I already knew. 
-Most of 
+None of this is official and it is not an accurate representation of what was lectured. I tend to give more attention to the things that I found difficult, while I might omit things that I already knew.
+
+Most of the examples given in lectures are omitted here. 
+
+Also the Part IB files are much more concise and probably require previous understanding of the course in order to read (because they were originally created as a revision).
 
 You're welcome to fork this and add your own changes / notes, but if you only want to read mine, see below.
 
@@ -12,7 +15,7 @@ Firstly, you need to download and install Obsidian from the official website htt
 
 Next open the app and create a new Vault. You can delete the default file.
 
-Go to settings on the bottom-left (alternatively, hit CTRL+,). Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and make sure to enable it. 
+Go to settings on the bottom-left (alternatively, hit CTRL+, ). Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and make sure to enable it. 
 
 Close the Settings window(s). Hit CTRL+P to open the command palette. Search for "Git: Clone an existing remote repo" and hit enter.
 
@@ -33,7 +36,9 @@ If you made changes to some files, the Pull might fail with some error messages 
 # How to navigate
 Firstly, you can switch between editing and reading mode in the top-right corner.
 
-By hitting CTRL+O, you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top-left to navigate back. 
+By hitting CTRL+O, you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top-left to navigate back.
+
+Whenever you see a link, you can hover over while holding CTRL and it will show you a popup window of what that link is pointing t
 
 In the top-left there is an Open graph view button which shows all the files / topics interconnected in a nice graph view. Can be useful to more easily figure out what's in the Vault.
 
