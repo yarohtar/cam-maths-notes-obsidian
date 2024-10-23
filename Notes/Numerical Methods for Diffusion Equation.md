@@ -56,3 +56,8 @@ Look at eigenvalues of $A_{h}=I+\mu A_{*}$ noting that $A_{*}$ is a [[TST matrix
 
 ## Semidiscretization
 [[Semidiscretization]]
+Write $u_{m}(t)$ for $u(mh,t)$.
+Then we can make the equation into:
+$$
+\frac{du_{m}}{dt} =\frac{1}{h^{2}}(u_{m-1}-2u_{m}+u_{m+1})
+$$
