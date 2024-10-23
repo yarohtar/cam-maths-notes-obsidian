@@ -73,7 +73,7 @@ If I make changes/updates to the Vault, you will be able to pull them by opening
 And you get a message of type "Author not set, please do this in settings", you will need to do the following:
 1. Go to Settings
 2. Scroll down to Git
-3. Scroll down and find fiels "Author name for commit" and "Author email for commit"
+3. Scroll down and find fields "Author name for commit" and "Author email for commit"
 4. Fill these in with your name and email
 
 I'm not sure about the reason this doesn't work because you are never committing so this information is never actually used. But it is what it is.
@@ -97,6 +97,6 @@ Whenever you see a link, you can hover over while holding CTRL and it will show 
 
 In the top-left (or bottom right button on phone) there is an Open graph view button which shows all the files / topics interconnected in a nice graph view. Can be useful to more easily figure out what's in the Vault.
 
-Another useful feature is CTRL+P and search for links. You'll have some commands that should you outgoing links and backlinks to the current file.
+Another useful feature is CTRL+P and search for "links". You'll have some commands that show you outgoing links and backlinks to the current file.
 
 
