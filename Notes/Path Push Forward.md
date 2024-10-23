@@ -1,4 +1,4 @@
-Given a path $\gamma:x_{0}\leadsto x_{1}$, we define the push forward of $\gamma$ to be
+Let $p:\tilde{X}\to X$ be a [[Covering Spaces|covering map]]. Given a path $\gamma:x_{0}\leadsto x_{1}$, we define the push forward of $\gamma$ to be
 $$
 \begin{align}
 \gamma_{*}:p ^{-1}(x_{0})&\to p ^{-1}(x_{1}) \\
