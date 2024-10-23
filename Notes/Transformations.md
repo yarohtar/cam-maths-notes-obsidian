@@ -4,13 +4,13 @@ In QM, these transformations are represented by a linear and unitary operator $\
 (Or an anti linear anti unitary operator, but we'll not consider this possibility in PQM)
 
 These transformations form a group $G$ 
-$U$ is a homomorphism frrom $G$ to linear operators on $\mathcal{H}$ ie for $g_{1}\in G$ we write $U(g_{1})$ for the corresponding operator.
+$U$ is a homomorphism from $G$ to linear operators on $\mathcal{H}$ ie for $g_{1}\in G$ we write $U(g_{1})$ for the corresponding operator.
 In mathematical terms we study the unitary representations of $G$ on $\mathcal{H}$.
 
 We can equivalently transform operators instead of states:
 Let $A:\mathcal{H}\to \mathcal{H}$ with $\bra{\psi}A\ket{\psi}$. After transform we have $\bra{\psi}U^{\dagger}AU\ket{\psi}$ so we could have just sent $A\to A'=U^{\dagger}AU$ whilst leaving the states unchanged.
 This is called a similarity transformation
-Similearity transformations prerserve the spectrum
+Similarity transformations preserve the spectrum
 if $A\ket{a}=a\ket{a}$ then $U^{\dagger}\ket{a}$ is an eigenvector of $A'$ with eigenvalue $a$.
 
 ## Continuous transformations
@@ -20,8 +20,9 @@ $T$ is called the generator of the transformation ("$-i$" factor is convention)
 $T$ is Hermetian
 
 Generators can be observables!
+
+From $U(a+b)=U(a)U(b)$ we can derive:
 $U(\theta)=\lim_{ N \to \infty }\left( 1-i \frac{\theta}{N}T \right)^N=e^{-i\theta T}$
-(?????)
 
 ## Translations
 $U(a)$ is a translation by vector $a\in \mathbb{R}^{3}$
