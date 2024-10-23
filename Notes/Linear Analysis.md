@@ -42,4 +42,10 @@ So any limit of finite rank operators is compact
 
 
 ### Proposition
-$X$, $Y$, $Z$ normed, $S\in L(X,Y)$ and $T\in L(Y)$
+$X$, $Y$, $Z$ normed, $S\in L(X,Y)$ and $T\in L(Y,Z)$.
+Then:
+1. If $S$ is compact $\implies$ $T\circ S$ is compact
+2. If $T$ is compact $\implies$ $T\circ S$ is compact
+#### Proof
+1. Given $(x_{n})$ in $B_{X}$: There is a subsequencce with $(Sx_{n_{i}})$ convergent so $(TSx_{n_{i}})$ convergent ($T$ is continuous)
+2. Given $(x_{n})$ in $B_{X}$: have $(Sx_{n})$ bounded, so there is a subsequence with $(TSx_{n_{i}})$ convergent because $T$ is compact.
