@@ -26,4 +26,6 @@ $U(\theta)=\lim_{ N \to \infty }\left( 1-i \frac{\theta}{N}T \right)^N=e^{-i\the
 ## Translations
 $U(a)$ is a translation by vector $a\in \mathbb{R}^{3}$
 For infinitesimal translation $\delta a$:
-$U(\delta a)=1-\frac{i}{\hbar}\alpha \cdot P+O()$
+$U(\delta a)=1-\frac{i}{\hbar}\alpha \cdot P+O(\delta a^{2})$
+and therefore $U(a)=e^{-ia\cdot P/\hbar}$
+By definition, $\frac{P}{\hbar}$ are generators of translations
