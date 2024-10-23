@@ -58,3 +58,22 @@ Whenever you see a link, you can hover over while holding CTRL and it will show 
 In the top-left there is an Open graph view button which shows all the files / topics interconnected in a nice graph view. Can be useful to more easily figure out what's in the Vault.
 
 Another useful feature is CTRL+P and search for links. You'll have some commands that should you outgoing links and backlinks to the current file.
+
+
+# Courses that exist currently
+Part IB:
+- [[Optimisation]]
+- [[Variational principles]]
+- [[Analysis and Topology]]
+- [[Quantum mechanics]]
+- [[GRM]] (only groups and rings)
+- [[Numerical Analysis]]
+- [[Complex Methods]]
+Also useful: [[Last minute revision Part IB]]
+
+Part II:
+- [[Algebraic Topology]]
+- [[Linear Analysis]]
+- [[Numerical Analysis]]
+- [[Asymptotic methods]]
+- 
