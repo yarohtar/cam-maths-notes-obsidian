@@ -1,6 +1,6 @@
-[[Dual problem (Optimisation) OLDDDD]]
+[[Dual problem (Optimisation) DEPRECATED]]
 
-Lagrange method succeeds if and only if [[Dual problem (Optimisation) OLDDDD#Strong duality]]
+Lagrange method succeeds if and only if [[Dual problem (Optimisation) DEPRECATED#Strong duality]]
 holds.
 
-[[Dual problem (Optimisation) OLDDDD#When does Strong duality hold?]]
+[[Dual problem (Optimisation) DEPRECATED#When does Strong duality hold?]]
