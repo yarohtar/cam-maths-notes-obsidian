@@ -33,5 +33,7 @@ By construction, they agree on $(W_{y_{0}}\cap W_{y_{1}})\times \{ 0 \}$
 So they have to agree on all of $(W_{y_{0}}\cap W_{y_{1}})\times I$
 eg by considering that they agree on $\{ y \}\times \{ 0 \}$ (for each $y\in W_{y_{0}}\cap W_{y_{1}}$) and $\{ y \}\times I$ are all connected.
 
-### Corollaries
+### Corollary
 - [[Path Lifting Lemma]]
+### Corollary
+Let $p:\tilde{X}\to X$ be a covering map, with $X$ path connected. Then the sets $p ^{-1}(x_{0})$ and $p ^{-1}(x_{1})$ are in bijection for any $$ 
