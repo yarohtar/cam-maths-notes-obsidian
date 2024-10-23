@@ -32,7 +32,7 @@ You will be prompted a few times:
 4. If asked about merge conflicts, click DELETE
 5. Leave the last prompt empty
 
-You should be good to go now. 
+You should be good to go now. You can see the files on the left (swipe on phone). 
 
 # How to update from remote
 If I make changes/updates to the Vault, you will be able to pull them by hitting CTRL+P and searching for "Git: Pull". This should do everything it needs to.
