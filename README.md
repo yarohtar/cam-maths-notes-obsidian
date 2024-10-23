@@ -10,6 +10,29 @@ You're welcome to fork this and add your own changes / notes, but if you only wa
 
 WARNING: If you clone this AND are adding your own changes AND are then pulling changes from my repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case. 
 
+# Courses that exist currently
+Part IA:
+- [[Groups]] (but taken from [[GRM]])
+Part IB:
+- [[Optimisation]]
+- [[Variational principles]]
+- [[Analysis and Topology]]
+- [[Quantum mechanics]]
+- [[GRM]] (only [[Groups]] and [[Rings]])
+- [[Numerical Analysis]]
+- [[Complex Methods]]
+Also useful: [[Last minute revision Part IB]]
+
+Part II:
+- [[Algebraic Topology]]
+- [[Linear Analysis]]
+- [[Numerical Analysis]]
+- [[Asymptotic methods]]
+- [[Automata and formal languages]]
+- [[Principles of Quantum Mechanics]]
+- Some of [[Probability and Measure]]
+- Some of [[Number theory]]
+
 # How to download
 ## Step 1
 Firstly, you need to download and install Obsidian from the official website https://obsidian.md/ (on computer) or you can download it from the app store on your phone.
@@ -60,20 +83,3 @@ In the top-left there is an Open graph view button which shows all the files / t
 Another useful feature is CTRL+P and search for links. You'll have some commands that should you outgoing links and backlinks to the current file.
 
 
-# Courses that exist currently
-Part IB:
-- [[Optimisation]]
-- [[Variational principles]]
-- [[Analysis and Topology]]
-- [[Quantum mechanics]]
-- [[GRM]] (only groups and rings)
-- [[Numerical Analysis]]
-- [[Complex Methods]]
-Also useful: [[Last minute revision Part IB]]
-
-Part II:
-- [[Algebraic Topology]]
-- [[Linear Analysis]]
-- [[Numerical Analysis]]
-- [[Asymptotic methods]]
-- 
