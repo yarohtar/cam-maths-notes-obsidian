@@ -28,5 +28,15 @@ Let $i:S^1\to D^2$ be the inclusion.
 Suppose $r:D^2\to S^1$ is a [[Retraction map|retraction]], $r\circ i=id_{S^1}$
 Consider the fundamental groups:
 $$
-\pi_{1}(S^1,1)\to_{i} \pi_{1}(D^2,1)\to \pi_{1}(S^1,1)
+\pi_{1}(S^1,1)\to_{i_{*}} \pi_{1}(D^2,1)\to_{r_{*}} \pi_{1}(S^1,1)
 $$
+But $(r\circ i)_{*}=id_{\mathbb{Z}}$, so this is a contradiction because $\pi_{1}(D^2,1)=\{ * \}$
+### Corollary (Browen's fixed point theorem)
+Every continuous map $f:D^2\to D^2$ has a fixed point.
+#### Proof
+By contradiction.
+Suppose $f:D^2\to D^2$ is continuous with no fixed points.
+Define $r:D^2\to S^1$ 
+with $x\to$ half line through $x$ starting at $f(x)$ intersect $S^1$
+This is well defined as $f(x)\neq x$ for all $x$.
+If $f$ is cts then so is $r$.
