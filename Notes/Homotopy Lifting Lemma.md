@@ -36,4 +36,6 @@ eg by considering that they agree on $\{ y \}\times \{ 0 \}$ (for each $y\in W_{
 ### Corollary
 - [[Path Lifting Lemma]]
 ### Corollary
-Let $p:\tilde{X}\to X$ be a covering map, with $X$ path connected. Then the sets $p ^{-1}(x_{0})$ and $p ^{-1}(x_{1})$ are in bijection for any $$ 
+Let $p:\tilde{X}\to X$ be a covering map, with $X$ path connected. Then the sets $p ^{-1}(x_{0})$ and $p ^{-1}(x_{1})$ are in bijection for any $x_0,x_{1}\in X$.
+
+[[Covering Fundamental groups]]
