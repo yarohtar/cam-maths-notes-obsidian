@@ -12,7 +12,7 @@
 [[The Transportation Problem]]
 
 # Main objective
-Minimize functions $f:R^n\rightarrow R$
+Minimize functions $f:^n\rightarrow R$
 subject to $h(x)=b$ where $x \in X$
 
 $f$ is objective function
@@ -30,10 +30,9 @@ If $X(b)$ is not empty then the problem is feasible
 
 $h(x)\leq b$ is the same as $h(x)+s=b$ where $s\geq 0$
 
-$x=(x_1,x_2\dots x_n)^T$, the coordinates of x are called decision variables.
+$x=(x_1,x_2\dots x_n)^T$, the coordinates of $x$ are called decision variables.
 
 - [[Convex optimisation]] ($f$ is convex)
 - [[The Lagrange method]] (solving constrained problems)
 - [[Linear programs]] ($f$ is linear, $h$ is linear)
 	- simplex method to solve linear programs
-- [[Application of linear programs]]

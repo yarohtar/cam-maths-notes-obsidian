@@ -1,4 +1,4 @@
-Let $f_n:R\rightarrow R$ and $f:R\rightarrow R$. We say that $f_n\rightarrow f$ pointwise if for all $x\in R$:
+Let $f_n:\mathbb{R}\rightarrow \mathbb{R}$ and $f:\mathbb{R}\rightarrow \mathbb{R}$. We say that $f_n\rightarrow f$ pointwise if for all $x\in \mathbb{R}$:
 $$f_n(x)\rightarrow f(x)\text{ as }n\rightarrow\infty$$.
 
 ## It does not preserve nice properties

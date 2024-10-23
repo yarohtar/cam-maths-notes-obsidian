@@ -1,5 +1,5 @@
 ### Definition
-Let $X\subset R$, $f_n:X\rightarrow R$ and $f:X\rightarrow R$. We say $(f_n)$ converges uniformly to $f$ if:
+Let $X\subset \mathbb{R}$, $f_n:X\rightarrow \mathbb{R}$ and $f:X\rightarrow \mathbb{R}$. We say $(f_n)$ converges uniformly to $f$ if:
 $$\forall\epsilon>0\ \exists N\ \forall x\in X\ \forall n\geq N |f_n(x)-f(x)|<\epsilon$$
 We write $f_n\rightarrow f$ uniformly.
 
