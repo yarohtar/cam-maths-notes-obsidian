@@ -14,7 +14,7 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 
 [[Poisson Equation with finite difference]]
 [[Discrete Fourier Transform]]
-[[Diffusion Equation]]
+[[Numerical Methods for Diffusion Equation]]
 [[Lax Equivalence Theorem]]
 [[Stability of Numerical Methods]]
 [[Consistency of Numerical Methods]]
