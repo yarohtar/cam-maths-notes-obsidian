@@ -1,0 +1,4 @@
+For $X$ and $Y$ normed with $X$ complete and $T\in L(X,Y)$, suppose $B_{Y}\subseteq\overline{T(B_{X})}$.
+Then:
+1. For all $y\in Y$, there is some $x \in X$ with $Tx=y$, $\lVert x \rVert\leq 2\lVert y \rVert$ (so $T$ is surjective)
+2. $Y$ is complete
