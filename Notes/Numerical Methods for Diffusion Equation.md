@@ -61,3 +61,4 @@ Then we can make the equation into:
 $$
 \frac{du_{m}}{dt} =\frac{1}{h^{2}}(u_{m-1}-2u_{m}+u_{m+1})
 $$
+Now we can use the [[Euler method]] method to solve this, but we can also use the [[Reverse-Euler Method]] and have enhanced stability. 

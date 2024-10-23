@@ -1,7 +1,7 @@
 We are solving the differential equation ${dy\over dt} = f(t,y)$. There are several methods for this:
 [[Euler method]]
 [[Reverse-Euler Method]]
-[[Trapezoidal Numerical Method]]
+[[Trapezoidal rule (ODEs)]]
 [[Multi-Step Methods]]
 [[Runge-Kutta Methods]]
 

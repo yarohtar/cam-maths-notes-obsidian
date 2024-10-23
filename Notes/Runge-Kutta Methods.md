@@ -22,6 +22,7 @@ Now noting that $k_1=y'$, we find that the thing in brackets is just $y''$.
 Finally we find:
 $$y_{n+1}-y(t_{n+1})=hy'(b_1+b_2-1)+h^2y''(b_2c_2-\frac 1 2)+O(h^3)$$
 Hence we have order at least $p=2$ when $b_1+b_2=1$ and $b_2c_2=\frac 1 2$.
+We have arrived at the [[Trapezoidal rule (ODEs)]].
 
 Trying $f=\lambda y$, we find that a higher order is impossible with this method. 
 Sometimes this doesn't work!! So we would need to expand to higher order......

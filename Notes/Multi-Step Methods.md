@@ -1,3 +1,8 @@
+## Examples
+[[Euler method]]
+[[Reverse-Euler Method]]
+[[Trapezoidal rule (ODEs)]]
+
 ## One-step method
 $y_{n+1}=\phi(t_n,y_n)$
 
