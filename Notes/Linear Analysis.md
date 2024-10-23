@@ -14,5 +14,3 @@
 
 
 
-### Theorem
-[[Open Mapping Lemma]]

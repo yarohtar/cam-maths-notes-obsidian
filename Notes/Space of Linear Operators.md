@@ -24,4 +24,4 @@ So $T(B_{X})\subseteq \cup B(T(x_{i}),3\epsilon)$
 Thus $T(B_{X})$ is totally bounded.
 
 ### Note
-So any limit of finite rank operators is compact 
+So any limit of finite rank operators is compact (???)
