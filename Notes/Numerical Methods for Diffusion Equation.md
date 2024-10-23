@@ -45,3 +45,10 @@ $$
 &\leq \frac{T}{\mu}ch^{2}\to 0 \quad \text{as}\quad h\to 0
 \end{align}
 $$
+#### Proof 2
+Apply [[Lax Equivalence Theorem]].
+
+### Theorem
+This method is [[Stability of Numerical Methods|stable]] iff $\mu\leq \frac{1}{2}$
+#### Proof
+Look at eigenvalues of $A_{h}=I+\mu A_{*}$ noting that $A_{*}$ is [[TST]]
