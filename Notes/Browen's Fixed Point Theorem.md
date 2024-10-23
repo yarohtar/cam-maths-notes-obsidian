@@ -7,4 +7,4 @@ with $x\to$ half line through $x$ starting at $f(x)$ intersect $S^1$
 This is well defined as $f(x)\neq x$ for all $x$.
 If $f$ is cts then so is $r$.
 Also by construction $r(S^1)=id_{S^1}$
-Upshot: $r$ is a retraction which is a contradiction.
+Upshot: $r$ is a [[Retraction map|retraction]] which is a contradiction by [[Fundamental group of the circle]].

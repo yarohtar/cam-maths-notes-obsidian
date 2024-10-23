@@ -16,9 +16,9 @@ F:I\times I&\to S^1 \\
 (s,t) & \to \frac{p_{t}(\mathrm{Re}^{2\pi is}) / p_{t}(R)}{\lvert p_{t}(\mathrm{Re}^{2\pi is}) / p_{t(R)} \rvert }
 \end{align}
 $$
-Well defined because $p_{t}$ is non zero ..
+Well defined because $p_{t}$ is non zero on $\lvert z \rvert=R$
 $F(0,t)=F(1,t)=1$
-$F$ is a homotopy of loops.
+$F$ is a [[Homotopy]] of loops.
 
 For $t=0$, get loop $s\to e^{2\pi ins}$ ie $[F(\cdot,0)]=n\in \pi_{1}(S^1,1)$
 Set $f_{r}(s)=\frac{p(re^{2\pi is}) / p(r)}{\lvert p(re^{2\pi is}) / p(r) \rvert}$
@@ -30,5 +30,5 @@ So $[f_{R}]=n\in \pi_{1}(S^1,1)$ (by homotopy invariance)
 
 $f_{0}\equiv 1$ so $[f_{0}]=0\in \pi_{1}(S^1,1)$
 
-$f_{r}(s)$ gives $f_{R}\simeq f_{0}$ as loops, so $n=0$ which is a contradiction.
+$f_{r}(s)$ is a homotopy that gives $f_{R}\simeq f_{0}$ as loops, so $n=0$ which is a contradiction.
 

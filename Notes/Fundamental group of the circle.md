@@ -20,6 +20,9 @@ $l ^{-1}(m)=[p\circ l_{m}]$ by definition
 
 $l(l^{-1}(n)l^{-1}(m))=$ end point of lift of $[p\circ l_{m}]$ starting at $n$ = $n+m$
 
+### Corollary
+[[Fundamental Theorem of Algebra]]
+
 ### Theorem
 The disc $D^2$ does not retract to $S^1$. 
 #### Proof
@@ -31,6 +34,5 @@ $$
 \pi_{1}(S^1,1)\to_{i_{*}} \pi_{1}(D^2,1)\to_{r_{*}} \pi_{1}(S^1,1)
 $$
 But $(r\circ i)_{*}=id_{\mathbb{Z}}$, so this is a contradiction because $\pi_{1}(D^2,1)=\{ * \}$
-### Corollary ([[Browen's Fixed Point Theorem]]
-
-[[Fundamental Theorem of Algebra]]
+### Corollary
+[[Browen's Fixed Point Theorem]]
