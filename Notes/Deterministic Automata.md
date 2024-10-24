@@ -12,3 +12,5 @@ Fix $\Sigma$. $D=(\Sigma,Q,\delta,q_{0},F)$ is called a deterministic automata i
 4. After reading all of $w$, you're in some state $q$:
    If $q\in F$ then $D$ ACCEPTS $w$.
    If $q\not\in F$ then $D$ REJECTS $w$.
+
+### Definition
