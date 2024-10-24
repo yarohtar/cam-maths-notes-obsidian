@@ -26,4 +26,10 @@ $$
 \implies I(x)\sim  \frac{f(a)e^{x\phi(a)}}{x\lvert \phi'(a) \rvert }
 $$
 ### Case one max
-Suppose $\phi$ has one internal maximum at $t=c$ (and this is the absolute maximum)
+Suppose $\phi$ has one internal maximum at $t=c$ (and this is the absolute maximum) st $\phi'(c)=0$ and $\phi''(c)<0$ and $f(c)\neq 0$.
+$$
+\begin{gather}
+I(x)=\int_{c-\epsilon}^{c+\epsilon}f(t)e^{x\phi(t)}dt+\int_{\Omega_{\epsilon}}f(t)e^{x\phi}dt\\
+=I_{1}+I_{2}
+\end{gather}
+$$
