@@ -1,4 +1,10 @@
-For any $v\in l_{2}$ ([[L norms]]), we define its [[Fourier Transform]] as:
+## Fourier transform for $L_{2}$
+Let $f\in L_{2}$ ([[L norms]]). We define its Fourier Transform as:
+$$
+\hat{f}(\theta)=
+$$
+## Fourier transform for $l_{2}$
+For any $v\in l_{2}$ ([[L norms]]). We define its Fourier Transform as:
 $$
 \hat{v}(\theta)=\sum_{m=-\infty}^{\infty} e^{-im\theta}v_{m}
 $$
