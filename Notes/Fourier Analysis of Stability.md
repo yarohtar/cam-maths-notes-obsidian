@@ -4,5 +4,6 @@ $$
 $$
 [[Parseval's Identity]] holds:
 $$
-\lVert v \rVert^2=\left\lvert  \int _{-\pi}^\pi \hat{v}(\theta) \, d\theta  \right\rvert
+\lVert v \rVert=\left\{ \frac{1}{2\pi} \int _{-\pi}^\pi \lvert  \hat{v}(\theta) \rvert ^2 \, d\theta  \right\}^{1/2}=\lVert \hat{v} \rVert 
 $$
+## Amplification factor
