@@ -21,6 +21,14 @@
 ### Definition
 Regular concatenation grammar RCG from $G=(\Sigma,V,S,P)$ and $G'=(\Sigma,V',S',P')$
 Define $P^+=P'\cup P-\{ A\to a; A\to a\in P \}\cup \{ A\to aS';A\to a\in P \}$
-and get the new grammar $G^+ =(\Sigma,V\cup V',)$
+and get the new grammar $G^+ =(\Sigma,V\cup V',S,P^+)$
 ### Definition
-Regular union grammarr RUG
+Regular union grammar RUG
+$P^+=P\cup P' \cup \{ T\to \alpha;S\to \alpha \in P \} \cup \{ T\to \alpha;S'\to \alpha \in P' \}$
+
+### Proposition
+If $G,G'$ are regular and $V\cap V'=\emptyset$, then 
+1. If $H$ RCG, then $\mathcal{L}(H)=\mathcal{L}(G)\mathcal{L}(G')$
+2. If $H$ RUG, then $\mathcal{L}(H)=\mathcal{L}(G)\cup \mathcal{L}(G')$
+
+[[Deterrministic Automata]]
