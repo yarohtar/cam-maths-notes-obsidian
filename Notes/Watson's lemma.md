@@ -36,5 +36,19 @@ $$
 $$
 Using a property of [[The Gamma Function]] we find that the numerator is equal to:
 $$
-\left\lvert  \int_{0}^tfe^{-xt}dt-\int_{0}^\infty \sum^Na_{n}t^{\alpha+\beta n}e^{-}  \right\rvert 
+\begin{gather}
+\left\lvert  \int_{0}^tfe^{-xt}dt-\int_{0}^\infty \sum^Na_{n}t^{\alpha+\beta n}e^{-xt}  \right\rvert =\\
+=\left\lvert  \int_{0}^te^{-xt}\left[ f-\sum a_{n}t^{\alpha+\beta n} \right]dt-\int_{t}^\infty \sum a_{n}t^{\alpha+\beta n}e^{-xt}dt  \right\rvert \leq\\
+\leq \int_{0}^te^{-xt}\left\lvert  f-\sum a_{n}t^{\alpha+\beta n}  \right\rvert +\left\lvert  \int_{\epsilon}^\infty \sum a_{n}t^{\alpha+\beta n}e^{-xt}dt  \right\rvert =\\=R_{1}+R_{2}
+
+
+\end{gather}
+$$
+Now estimate
+$$
+\begin{align}
+
+R_{2} & =e^{-\epsilon x}\left\lvert  \int_{t}^\infty e^{-x(t-\epsilon)}\sum a_{n}t^{\alpha+\beta n}dt  \right\rvert  \\
+ & = \frac{e^{-\epsilon x}}{}
+\end{align}
 $$
