@@ -1,8 +1,9 @@
 ## Fourier transform for $L_{2}$
 Let $f\in L_{2}$ ([[L norms]]). We define its Fourier Transform as:
 $$
-\hat{f}(\theta)=
+\hat{f}(\theta)=\int_{-\infty}^\infty e^{-i\theta x}f(x)dx
 $$
+
 ## Fourier transform for $l_{2}$
 For any $v\in l_{2}$ ([[L norms]]). We define its Fourier Transform as:
 $$
@@ -10,5 +11,5 @@ $$
 $$
 [[Parseval's Identity]] holds:
 $$
-\lVert v \rVert=\left\{ \frac{1}{2\pi} \int _{-\pi}^\pi \lvert  \hat{v}(\theta) \rvert ^2 \, d\theta  \right\}^{1/2}=\lVert \hat{v} \rVert 
+\lVert \hat{v} \rVert^2= \frac{1}{2\pi} \int _{-\pi}^\pi \lvert  \hat{v}(\theta) \rvert ^2 \, d\theta = \sum_{m=-\infty}^{\infty} \lvert v_{m} \rvert ^2 =\lVert v \rVert^2 
 $$
