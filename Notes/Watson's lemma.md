@@ -20,3 +20,8 @@ $$
 ##### Step 1
 Show $F_{2}$ is small
 ###### Case 1
+$\lvert F_{2} \rvert\leq \int_{\epsilon}^TKe^{bt-xt}\leq \int_{\epsilon}^\infty Ke^{bt-xt}$
+Assuming $x>b$ we can integrate this and get
+$\lvert F_{2} \rvert\leq \frac{K}{x-b}e^{(b-x)\epsilon}$ ie $\lvert F_{2} \rvert=O\left( \frac{e^{-\epsilon x}}{x} \right)$#
+###### Case 2
+$\lvert F_{2} \rvert\leq \int_{\epsilon}^T\lvert f \rvert e^{-xt}dt\leq e^{-\epsilon x}\int_{\epsilon}^T\lvert f \rvert dt$
