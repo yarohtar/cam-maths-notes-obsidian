@@ -49,6 +49,18 @@ $$
 \begin{align}
 
 R_{2} & =e^{-\epsilon x}\left\lvert  \int_{t}^\infty e^{-x(t-\epsilon)}\sum a_{n}t^{\alpha+\beta n}dt  \right\rvert  \\
- & = \frac{e^{-\epsilon x}}{}
+ & = \frac{e^{-\epsilon x}}{x}\left\lvert  \int_{0}^{\infty}e^{-u}\sum a_{n}\left( \epsilon+\frac{u}{x} \right)^{\alpha+\beta n}du  \right\rvert 
 \end{align}
 $$
+as $x\to \infty$.
+Let $x>1$ and introduce $M\in \mathbb{Z}^+$ st $M>\alpha+\beta n$
+Get:
+$$
+R_{2}\leq \frac{e^{-\epsilon x}}{x}\left( \sum a_{n} \right)\int_{0}^\infty e^{-u}(\epsilon+u)^{M}du\leq K_{2} \frac{e^{-\epsilon x}}{x}
+$$
+for $K_{2}$ some constant, so $R_{2}=O\left( \frac{e^{-\epsilon x}}{x} \right)$ as $x\to \infty$
+So $\frac{R_{2}}{x^{-\alpha-\beta n-1}}\to 0$ as $x\to \infty$
+
+---
+
+adsf
