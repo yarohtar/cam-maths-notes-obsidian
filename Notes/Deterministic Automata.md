@@ -1,4 +1,4 @@
-Fix $\Sigma$. $D=(\Sigma,Q,\delta,q_{0}F)$ is called a deterministic automata if 
+Fix $\Sigma$. $D=(\Sigma,Q,\delta,q_{0},F)$ is called a deterministic automata if 
 1. $Q$ is a finite set of states
 2. $q_{0}\in Q$ is a start state
 3. $F\subseteq Q-\{ q_{0} \}$ accept states
