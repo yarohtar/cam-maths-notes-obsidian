@@ -14,3 +14,12 @@ Fix $\Sigma$. $D=(\Sigma,Q,\delta,q_{0},F)$ is called a deterministic automata i
    If $q\not\in F$ then $D$ REJECTS $w$.
 
 ### Definition
+$\hat{\delta}:Q\times \mathbb{W}\to Q$ is defined recursively:
+$\hat{\delta}(q,\varepsilon)=q$
+$\hat{\delta}(q,wa)=\delta(\hat{\delta}(q,w),a)$
+
+### Definition
+Homomorphism is just the only reasonable definition
+
+### Proposition
+If $f$ is a homomorphism from $D$ to $D'$, then $\mathcal{L}(D)=\mathcal{L}(D')$
