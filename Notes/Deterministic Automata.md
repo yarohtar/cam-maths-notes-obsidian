@@ -22,4 +22,7 @@ $\hat{\delta}(q,wa)=\delta(\hat{\delta}(q,w),a)$
 Homomorphism is just the only reasonable definition
 
 ### Proposition
-If $f$ is a homomorphism from $D$ to $D'$, then $\mathcal{L}(D)=\mathcal{L}(D')$
+If $f$ is a homomorphism from $D$ to $D'$, then $\mathcal{L}(D)=\mathcal{L}(D')$.
+
+### Corollary
+We can always WLOG that $q_{0}\not\in range(\delta)$.
