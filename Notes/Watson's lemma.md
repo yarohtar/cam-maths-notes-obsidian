@@ -4,7 +4,7 @@ Suppose also either:
 - $\lvert f(t) \rvert<Ke^{bt}$ for all $t>0$ and some $K,b>0$
 OR
 - $\int _0^T\lvert f(t) \rvert dt<\infty$
-Then 
+Then we have the [[Asymptotic Approximation]]
 $$
 F(x)\sim \sum_{n=0}^{\infty} a_{n} \frac{\Gamma(\alpha+\beta n+1)}{x^{\alpha+\beta n+1}}
 $$
@@ -62,5 +62,21 @@ for $K_{2}$ some constant, so $R_{2}=O\left( \frac{e^{-\epsilon x}}{x} \right)$ 
 So $\frac{R_{2}}{x^{-\alpha-\beta n-1}}\to 0$ as $x\to \infty$
 
 ---
-
-adsf
+For $R_1$ we note:
+$$
+f-\sum^Na_{n}t^{\alpha+\beta n}=o(t^{\alpha+\beta N})=O(t^{\alpha+\beta(N+1)})
+$$
+So
+$$
+R_{1}<K_{3}\int_{0}^\epsilon e^{-xt}t^{\alpha+\beta(N+1)}dt<K_{3}\int_{0}^\infty e^{-xt}t^{\alpha+\beta(N+1)}dt
+$$
+So
+$$
+R_{1}<K_{3} \frac{\Gamma(\alpha+\beta(N+1)+1)}{x^{\alpha+\beta(N+1)+1}}
+$$
+So $\frac{R_{1}}{x^{-\alpha-\beta(N+1)}}\to 0$ as $x \in \infty$ for all $N$.
+Finally:
+$$
+F_{1}\sim \sum a_{n} \frac{\Gamma(\alpha+\beta n+1)}{\alpha+\beta n+1}
+$$
+but $F_{2}\ll F_{1}\implies F\sim F_{1}$
