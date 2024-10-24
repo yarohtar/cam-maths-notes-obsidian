@@ -31,4 +31,4 @@ If $G,G'$ are regular and $V\cap V'=\emptyset$, then
 1. If $H$ RCG, then $\mathcal{L}(H)=\mathcal{L}(G)\mathcal{L}(G')$
 2. If $H$ RUG, then $\mathcal{L}(H)=\mathcal{L}(G)\cup \mathcal{L}(G')$
 
-[[Deterrministic Automata]]
+[[Deterministic Automata]]
