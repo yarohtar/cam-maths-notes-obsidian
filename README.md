@@ -15,6 +15,7 @@ Part IA:
 - [[Groups]] (but taken from [[GRM]])
 
 Part IB:
+- Some [[Methods]]
 - [[Optimisation]]
 - [[Variational principles]]
 - [[Analysis and Topology]]
