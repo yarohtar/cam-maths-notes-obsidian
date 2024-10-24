@@ -2,6 +2,8 @@ The general idea of Green's functions is to find the solution with $\delta$ forc
 
 Let $D_{x}$ be some linear operator only dependent on $x$. 
 If $G(x;\xi)$ solves $D_{x}G(x;\xi)=\delta(x-\xi)$ for every fixed $\xi$, then $u(x)=\int f(\xi)G(x;\xi)d\xi$ solves $D_{x}u=f(x)$
+
+
 ### Heat equation
 $$u_t-\kappa\nabla^2u=F(x,t)$$
 $$u(x,0)=f(x)$$
