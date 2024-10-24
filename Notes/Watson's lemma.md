@@ -8,3 +8,15 @@ Then
 $$
 F(x)\sim \sum_{n=0}^{\infty} a_{n} \frac{\Gamma(\alpha+\beta n+1)}{x^{\alpha+\beta n+1}}
 $$
+
+#### Proof
+No elegance, just suffering
+$$
+\begin{align}
+F(x) & =\int_{0}^\epsilon fe^{-xt}dt+\int_{\epsilon}^Tfe^{-xt}dt \\
+ & =F_{1}+F_{2}
+\end{align}
+$$
+##### Step 1
+Show $F_{2}$ is small
+###### Case 1
