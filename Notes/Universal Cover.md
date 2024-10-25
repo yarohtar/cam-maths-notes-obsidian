@@ -9,7 +9,13 @@ A NONEXAMINABLE PROOF
 Fix $x_{0}\in X$.
 Define aas a set:
 $$
-\tilde{X}_{i}=\begin{cases}
-
-\end{cases}
+\tilde{X}=\{ \text{paths in } X \text{ starting at }x_{0} \text{ and ending anywhere up to htpy of paths} \}
 $$
+$p:\tilde{X}\to X$ with $[\gamma]\to \gamma(1)$
+Need topology on $\tilde{X}$ st 
+1. $p$ cts
+2. $p$ covering map
+3. $\tilde{X}$ simply connected
+##### Step 0
+Topology on $X$, revisited.
+$\mathcal{U}=\{ U\in X: U \text{ open in } X \text{ and } U \text{ path-connected and } \pi_{1}(U,x)\to \pi_{1}\}$
