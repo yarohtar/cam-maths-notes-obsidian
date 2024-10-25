@@ -54,7 +54,7 @@ Close the Settings window(s).
 
 ## Step 3
 
-Open the command palette (on computer you can hit CTRL+P OR find the ">_" button on the left panel; on phone you need to click the bottom right ☰ button and click "Open the command palette" OR swipe down)
+Open the command palette (on computer you can hit CTRL+P OR find the ">\_" button on the left panel; on phone you need to click the bottom right ☰ button and click "Open the command palette" OR swipe down)
 
 Search for "Git: Clone an existing remote repo" command and hit enter.
 
