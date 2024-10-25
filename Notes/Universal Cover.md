@@ -61,8 +61,15 @@ Fix $W\in \mathcal{U}$ st $\beta(1)\in W$ and $W\in U_{0}\cap U_{1}$
 Now choosing $\alpha_{2}=\beta$ and $U_{2}=W$ for above works.
 ##### Step 2
 Check this topology has the desired properties.
-1. $p:\tilde{X}\to X$ with $[\gamma]\to \gamma(1)$ is cts
+##### Claim 2.1
+$p:\tilde{X}\to X$ with $[\gamma]\to \gamma(1)$ is cts
 ###### Proof
 Suppose $U\in \mathcal{U}$, $[\alpha]\in p ^{-1}(U)$. Then $([\alpha],U)\subseteq p ^{-1}(U)$ and $([\alpha],U)\in \tilde{U}$ so $p ^{-1}(U)$ open.
 2. $p$ is a covering map?
-###### Proo
+##### Claim 2.2.1
+$p\mid_{([\alpha],U)}:([\alpha],U)\to U$ homeomorphism
+###### Proof
+$p$ cts, $p(([\beta],V))=V$ so $p$ is open map.
+- surjective? $U$ is path-connected so for all $x\in U$ there is a path $\gamma:\alpha(1)\leadsto x$ in $U$ 
+Now $[\alpha \cdot \gamma]\in([\alpha],U)$ and $p[\alpha \cdot \gamma]=x$
+- injective? Assume $[\beta],[\beta']\in([\alpha],U)$ st $\beta(1)=\beta'(1)$ (ie same image under $p$)
