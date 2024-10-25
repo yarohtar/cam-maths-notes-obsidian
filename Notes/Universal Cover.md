@@ -52,4 +52,8 @@ $$
 ([\alpha],U)=\{ [\beta]\in \tilde{X}:[\beta]=[\alpha \cdot \alpha'], \text{some path in }U\text{ starting at }\alpha(1) \}
 $$
 Let $\tilde{U}$ be the sellection of all these.
-####
+##### Claim 1
+$\tilde{U}$ is a basis for a topology on $\tilde{X}$ (which we'll then use)
+###### Proof
+Assume $[\beta]\in([\alpha_{0}],U_{0})\cap([\alpha_{1}],U_{1})$ where $([\alpha_{i}],U_{i})\in \tilde{U}$
+Need: $([\alpha_{2}],U_{2})\in \tilde{U}$ st $[\beta]\in([\alpha_{2}],U_{2})\subseteq([\alpha_{0}],U_{0})\cap([\alpha_{1}],U_{1})$
