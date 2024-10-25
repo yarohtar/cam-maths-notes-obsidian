@@ -82,9 +82,12 @@ And you get a message of type "Author not set, please do this in settings", you 
 I'm not sure about the reason this doesn't work because you are never committing so this information is never actually used. But it is what it is.
 
 ## If it STILL doesn't!
-And you get a message of type "Your local changes to the following local file would be overwritten by the chekout" then you will have to discard those local changes by:
+And you get a message of type "Your local changes to the following local file would be overwritten by checkout" then you will have to discard those local changes by:
 1. Opening the command palette (CTRL+P or swipe down)
-2. Searching for "Git: CAUTION:"
+2. Searching for "Git: CAUTION: Delete all changes"
+3. Click YES
+4. WAIT for a bit 
+Eventually, you should have your changes deleted and everything synced with this repository. (You might need to run "Git: Pull" again)
 
 ## Autopull
 If you don't wanna do this every time, you can set the autopull by going to Settings, scrolling down to Git and clicking on it.
