@@ -18,4 +18,17 @@ Need topology on $\tilde{X}$ st
 3. $\tilde{X}$ simply connected
 ##### Step 0
 Topology on $X$, revisited.
-$\mathcal{U}=\{ U\in X: U \text{ open in } X \text{ and } U \text{ path-connected and } \pi_{1}(U,x)\to \pi_{1}\}$
+$$\mathcal{U}=\{ U\in X: U \text{ open in } X \text{ and } U \text{ path-connected and } \pi_{1}(U,x)\to \pi_{1}(X,x) \text{trivial for all }x\}$$
+
+##### Claim 0
+$\mathcal{U}$ basis for rthe topology on $X$
+###### Proof
+Assume $V\subseteq X$ open and $x\in V$. Need $U\in \mathcal{U}$ st $x\in U\subseteq V$
+- $X$ is semilocally simply connected so there is some $U'$ open with $x\in U'$ st $\pi_{1}(U',x)\to \pi_{1}(X,x)$ trivial
+- $X$ locally path-connected $\implies$ there is some $U$ open, path-connected st $x\in U\subseteq U'\cap V$
+- Have $U\subseteq U'\subseteq X$ inducing 
+$$
+\pi_{1}(U,x)\to \pi_{1}(U',x)\to \pi_{1}(X,x)
+$$
+Second map has image 0, so composition has to be trivial.
+Still need: $\pi_{1}(U,y)\to \pi_{1}(X,y)$ trivial for all $y\in U$.
