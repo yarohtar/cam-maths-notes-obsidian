@@ -38,7 +38,7 @@ Part II:
 - Some of [[Probability and Measure]]
 - Some of [[Number theory]]
 
-# How to download
+# How to download (works on phones and computers)
 ## Step 1
 Firstly, you need to download and install Obsidian from the official website https://obsidian.md/ (on computer) or you can download it from the app store on your phone.
 
