@@ -57,3 +57,12 @@ $\tilde{U}$ is a basis for a topology on $\tilde{X}$ (which we'll then use)
 ###### Proof
 Assume $[\beta]\in([\alpha_{0}],U_{0})\cap([\alpha_{1}],U_{1})$ where $([\alpha_{i}],U_{i})\in \tilde{U}$
 Need: $([\alpha_{2}],U_{2})\in \tilde{U}$ st $[\beta]\in([\alpha_{2}],U_{2})\subseteq([\alpha_{0}],U_{0})\cap([\alpha_{1}],U_{1})$
+Fix $W\in \mathcal{U}$ st $\beta(1)\in W$ and $W\in U_{0}\cap U_{1}$
+Now choosing $\alpha_{2}=\beta$ and $U_{2}=W$ for above works.
+##### Step 2
+Check this topology has the desired properties.
+1. $p:\tilde{X}\to X$ with $[\gamma]\to \gamma(1)$ is cts
+###### Proof
+Suppose $U\in \mathcal{U}$, $[\alpha]\in p ^{-1}(U)$. Then $([\alpha],U)\subseteq p ^{-1}(U)$ and $([\alpha],U)\in \tilde{U}$ so $p ^{-1}(U)$ open.
+2. $p$ is a covering map?
+###### Proo
