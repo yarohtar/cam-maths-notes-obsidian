@@ -91,7 +91,7 @@ Eventually, you should have your changes deleted and everything synced with this
 
 ## Autopull
 If you don't wanna do this every time, you can set the autopull by going to Settings, scrolling down to Git and clicking on it.
-Here, you can adjust the Autopull interval or turn on Pull on startup setting.
+Here, you can adjust the Autopull interval or turn on "Pull on startup" setting.
 
 If you made changes to some files, the Pull might fail with some error messages about an impossible merge. You will either have to handle this by resolving the impossible merges (where I strongly recommend using command line git) or you'll have to reinstall the whole Vault, losing your changes.
 
