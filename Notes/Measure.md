@@ -1,0 +1,1 @@
+Given a set $E$ and a [[Sigma algebra]] $\mathcal{E}$ on it, the pair $(E,\mathcal{E})$ is called a measurable space, while each $A\in \mathcal{E}$ is called a mesura

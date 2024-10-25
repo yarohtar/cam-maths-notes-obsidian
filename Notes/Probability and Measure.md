@@ -4,3 +4,5 @@ Some french guy that the lecturer mentioned:
 Jean F Le Gall website CH1 & 2
 
 [[Integration]]
+[[Sigma algebra]]
+[[Measure]]
