@@ -32,3 +32,24 @@ $$
 $$
 Second map has image 0, so composition has to be trivial.
 Still need: $\pi_{1}(U,y)\to \pi_{1}(X,y)$ trivial for all $y\in U$.
+Given a $y\in U$ pick a path $\gamma:x\leadsto y$ in $U$.
+Then the following commutes:
+
+```tikz
+\usepackage{tikz-cd}
+
+\begin{document}
+\begin{tikzcd}
+\pi_1(U,x) \arrow[r,"0"] \arrow[d,"Y_{\#}"] & \pi_1(X,x)\arrow[d,"Y_{\#}"]\\
+\pi_1(U,y)\arrow[r] & \pi_1(X,y)
+\end{tikzcd}
+\end{document}
+```
+
+##### Step 1
+Topology on $\tilde{X}$. For $[\alpha]\in \tilde{X}$, and $U\in \mathcal{U}$, define:
+$$
+([\alpha],U)=\{ [\beta]\in \tilde{X}:[\beta]=[\alpha \cdot \alpha'], \text{some path in }U\text{ starting at }\alpha(1) \}
+$$
+Let $\tilde{U}$ be the sellection of all these.
+####
