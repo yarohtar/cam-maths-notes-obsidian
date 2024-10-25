@@ -16,3 +16,6 @@ $O_{2}$ is dense so it meets $B(x_{1},\epsilon_{1})$
  Continue inductively and obtain sequence $\overline B(x_{1},\epsilon_{1})\supseteq\dots$
  with $\epsilon _n\to 0$ and 
  $\overline B(x_{n},\epsilon_{n})\subseteq O_{n}$ for all $n$
+Now $(x_{n})$ isi Cauchy and for any $n,m>N$ have $d(x_{n},x_{m})<2\epsilon_{N}$
+Let $x_{n}\to x$
+Then $x \in O_{n}$ for all $n$.
