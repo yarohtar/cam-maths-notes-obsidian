@@ -9,7 +9,8 @@ $X$ is [[Banach Space]] $\implies$ $X /N$ is Banach.
 ##### $\lVert  \rVert$ a norm:
 Need that $\lVert z \rVert=0$ and $z\in X /N \implies z=0$
 In other words that for all $x$ in $X$ we have $\lVert \pi(x) \rVert=0\implies x \in N$
-Have $x_{1},x_{2},\dots \in X$ with $\pi(x_{n})=\pi(x)$ something
+Have $x_{1},x_{2},\dots \in X$ with $\pi(x_{n})=\pi(x)$ and $\lim_{ n \to \infty } \lVert x_{n} \rVert=0$
+
 
 ##### $\pi$ continuous
 Have $\lVert \pi(x) \rVert\leq \lVert x \rVert$ for all $x \in X$ (definition of $\lVert  \rVert$)
