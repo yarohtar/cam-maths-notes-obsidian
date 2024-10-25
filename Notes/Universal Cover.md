@@ -86,4 +86,15 @@ Now $\beta'\cdot(\alpha')^{-1}\cdot \alpha''$ path in $U$, so $[\delta]\in([\bet
 Upshot: $([\alpha],U)\subseteq([\beta],U)$
 Similarly swapping $\alpha$ and $\beta$ 
 ##### Claim 2.3
-$\tilde{X}$ is simply connected 
+$\tilde{X}$ is simply connected
+###### Proof
+$\tilde{X}$ is path connected.
+Suppose $\gamma$ is a loop based at $x_{0}$, st its lift based at $[c_{x_{0}}]$, say $\tilde{\gamma}$ is a loop. 
+Observe: 
+Suppose $\gamma:I\to X$ any path starting at $x_{0}$, then lift to $\tilde{X}$ starting at $[c_{x_{0}}]\in \tilde{X}$ is: 
+$$
+\begin{align}
+\tilde{\gamma}:I & \to \tilde{X} \\
+
+\end{align}
+$$
