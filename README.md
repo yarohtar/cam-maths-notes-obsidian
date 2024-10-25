@@ -82,7 +82,9 @@ And you get a message of type "Author not set, please do this in settings", you 
 I'm not sure about the reason this doesn't work because you are never committing so this information is never actually used. But it is what it is.
 
 ## If it STILL doesn't!
-And you get a message 
+And you get a message of type "Your local changes to the following local file would be overwritten by the chekout" then you will have to discard those local changes by:
+1. Opening the command palette (CTRL+P or swipe down)
+2. Searching for "Git: CAUTION:"
 
 ## Autopull
 If you don't wanna do this every time, you can set the autopull by going to Settings, scrolling down to Git and clicking on it.
