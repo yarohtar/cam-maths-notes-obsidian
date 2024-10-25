@@ -19,5 +19,3 @@ Done by [[Open Mapping Lemma]]
 
 WARNING If $T:X\to Y$ continuous, then it is not always true that $X /KerT$ isomorphic to the image.
 EG identity from $l_{1}$ to $l_{2}$: $X /KerT$ is complete but image isn't.
-
-$u$
