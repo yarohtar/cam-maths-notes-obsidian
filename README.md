@@ -46,7 +46,7 @@ Next open the app and create a new Vault. You can delete the default file.
 
 ## Step 2
 
-Go to settings (on computer hit CTRL+, OR click the gear icon on the bottom left; on phone swipe right and click the gear icon). 
+Go to settings (on computer hit CTRL+, OR click the ⚙️ icon on the bottom left; on phone swipe right and click the ⚙️ icon). 
 
 Go to Community Plugins. Enable them. Then click Browse and search for "Git". Install the plugin and make sure to enable it when it installs (there will be a button on the same page).
 
@@ -54,7 +54,7 @@ Close the Settings window(s).
 
 ## Step 3
 
-Open the command palette (on computer you can hit CTRL+P OR find the button on the left panel; on phone you need to click the bottom right button and click "Open the command palette" OR swipe down)
+Open the command palette (on computer you can hit CTRL+P OR find the ">_" button on the left panel; on phone you need to click the bottom right ☰ button and click "Open the command palette" OR swipe down)
 
 Search for "Git: Clone an existing remote repo" command and hit enter.
 
