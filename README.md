@@ -15,6 +15,7 @@ Alternatively, you could use the command "Git: CAUTION: Discard all changes" whi
 # Courses that exist currently
 Part IA:
 - [[Groups]] (but taken from [[GRM]])
+- [[Probability Space]] (taken from [[Probability and Measure]])
 
 Part IB:
 - Some [[Methods]]

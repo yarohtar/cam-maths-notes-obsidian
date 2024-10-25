@@ -3,6 +3,4 @@ A probability space  $(\Omega,\mathcal{F},\mathbb{P})$ (ie a [[Measure|measure s
 - $\mathcal{F}$ is the set of observable sets of outcomes or events
 - $\mathbb{P}(A)$ is the probability of the event $A$.
 
-In addition to [[Measure|measure theory]], probability theory also has the notion of independence.
-Let $I$ be a countable set. 
-A family $(A_{n})$ of events is independent if, for all finite subsets $J\subseteq I$
+In addition to [[Measure|measure theory]], probability theory also has the notion of [[Independence]].
