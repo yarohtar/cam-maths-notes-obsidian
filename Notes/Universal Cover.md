@@ -77,4 +77,13 @@ Have $\gamma,\gamma'$ paths in $U$ starting at $\alpha(1)$ and ending at $\beta(
 Now $[\beta \cdot[(\beta')^{-1}]]=[\gamma \cdot(\gamma')^{-1}]=0\in \pi_{1}(X,x_{0})$ hence $[\beta]=[\beta']$
 ##### Claim 2.2.2
 Suppose $([\alpha],U), ([\beta],U)\subseteq p ^{-1}(U)$. Then these are equal or disjoint (so $p ^{-1}(U)$ is partitioned into such sets)
-######
+###### Proof
+Say $[\gamma]\in([\alpha],U)\cap([\beta],U)$
+$[\gamma]=[\alpha \cdot \alpha']=[\beta \cdot \beta']$ for $\alpha',\beta'$ paths in $U$ 
+Suppose $[\delta]\in([\alpha],U)$
+Then $[\delta]=[\alpha \cdot \alpha'']$ for $\alpha''$ path in $U$ 
+Now $\beta'\cdot(\alpha')^{-1}\cdot \alpha''$ path in $U$, so $[\delta]\in([\beta],U)$
+Upshot: $([\alpha],U)\subseteq([\beta],U)$
+Similarly swapping $\alpha$ and $\beta$ 
+##### Claim 2.3
+$\tilde{X}$ is simply connected 
