@@ -10,3 +10,4 @@ The triple $(E,\mathcal{E},\mu)$ is called a measure space.
 
 [[Set Function]]
 [[Algebra]]
+[[Ring (set)]]
