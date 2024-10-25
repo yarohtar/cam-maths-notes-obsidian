@@ -30,3 +30,4 @@ Note that $X$ and $Y$ being [[Banach Space]] $\implies$ $X\oplus Y$ is Banach.
 And also that $X$ and $Y$ are always closed subspaces of $X\oplus Y$
 
 [[Quotients]]
+[[Completions]]

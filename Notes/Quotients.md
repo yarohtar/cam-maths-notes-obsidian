@@ -14,4 +14,7 @@ Have $x_{1},x_{2},\dots \in X$ with $\pi(x_{n})=\pi(x)$ something
 ##### $\pi$ continuous
 Have $\lVert \pi(x) \rVert\leq \lVert x \rVert$ for all $x \in X$ (definition of $\lVert  \rVert$)
 ##### $X$ Banach $\implies$ $X /N$ Banach
-For all $z \in X /N$ with $\lVert z \rVert<1$ there is some $x \in X$ with $\lVert  \rVert$
+For all $z \in X /N$ with $\lVert z \rVert<1$ there is some $x \in X$ with $\lVert x \rVert<1$ and $\pi(x)=2$, so $\pi(B_{X})$ is dense in $B_{X /N}$
+Done by [[Open Mapping Lemma]]
+
+
