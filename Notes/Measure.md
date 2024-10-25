@@ -14,3 +14,11 @@ The triple $(E,\mathcal{E},\mu)$ is called a measure space.
 [[Carathéodory's Extension Theorem]]
 [[Uniqueness of Measures]]
 [[Borel Sets]]
+
+### Properties
+- If $\mu(E)=1$ then $\mu$ is a probability measure and $(E,\mathcal{E},\mu)$ is a probability space, often denoted  by $(\Omega,\mathcal{F},\mathbb{P})$
+- If $\mu(E)<\infty$, then $\mu$ is a finite measure
+- If there exists a sequence of sets $(E_{n})$ in $\mathcal{E}$ with $\mu(E_{n})<\infty$ for all $n$ and $\bigcup_{n}E_{n}=E$ then $\mu$ is a $\sigma$-finite measure
+## Lebesgue measure
+### Theorem
+There exists a unique [[]]
