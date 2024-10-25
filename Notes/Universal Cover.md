@@ -73,3 +73,8 @@ $p$ cts, $p(([\beta],V))=V$ so $p$ is open map.
 - surjective? $U$ is path-connected so for all $x\in U$ there is a path $\gamma:\alpha(1)\leadsto x$ in $U$ 
 Now $[\alpha \cdot \gamma]\in([\alpha],U)$ and $p[\alpha \cdot \gamma]=x$
 - injective? Assume $[\beta],[\beta']\in([\alpha],U)$ st $\beta(1)=\beta'(1)$ (ie same image under $p$)
+Have $\gamma,\gamma'$ paths in $U$ starting at $\alpha(1)$ and ending at $\beta(1)=\beta'(1)$ st $[\beta]=[\alpha \cdot \gamma]$ and $[\beta']=[\alpha \cdot \gamma']$
+Now $[\beta \cdot[(\beta')^{-1}]]=[\gamma \cdot(\gamma')^{-1}]=0\in \pi_{1}(X,x_{0})$ hence $[\beta]=[\beta']$
+##### Claim 2.2.2
+Suppose $([\alpha],U), ([\beta],U)\subseteq p ^{-1}(U)$. Then these are equal or disjoint (so $p ^{-1}(U)$ is partitioned into such sets)
+######
