@@ -1,4 +1,3 @@
-### Definition
 A $\sigma-$algebra on $E$ is a family $\mathcal A\subset \mathcal{P}(E)$ such that
 1. $E \in \mathcal A$
 2. $A\in \mathcal A \implies A^c \in \mathcal A$
@@ -6,3 +5,4 @@ A $\sigma-$algebra on $E$ is a family $\mathcal A\subset \mathcal{P}(E)$ such th
 ###### Remark
 If you allow only finite unions in 3. then $\mathcal A$ is called an algebra.
 $\sigma-$algebra are countable unions.
+
