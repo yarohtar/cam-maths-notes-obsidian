@@ -5,3 +5,5 @@ Let $\tilde{X}$ be the set of all Cauchy sequences in $X$, Quotiented by equiv r
 This is naturally a vector space 
 AND a normed space $\lVert [(x_{n})] \rVert=\lim_{ n \to \infty }\lVert x_{n} \rVert$
 Then $\tilde{X}$ complete (diagonal subsequence), and $X$ is dense in $\tilde{X}$ via $x\to[(x,x \dots)]$
+
+

@@ -17,4 +17,5 @@ Have $\lVert \pi(x) \rVert\leq \lVert x \rVert$ for all $x \in X$ (definition of
 For all $z \in X /N$ with $\lVert z \rVert<1$ there is some $x \in X$ with $\lVert x \rVert<1$ and $\pi(x)=2$, so $\pi(B_{X})$ is dense in $B_{X /N}$
 Done by [[Open Mapping Lemma]]
 
-
+WARNING If $T:X\to Y$ continuous, then it is not always true that $X /KerT$ isomorphic to the image.
+EG identity from $l_{1}$ to $l_{2}$: $X /KerT$ is complete but image isn't.
