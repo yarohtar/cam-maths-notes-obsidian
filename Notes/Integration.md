@@ -1,1 +1,1 @@
-[[Sigma algebra]]
+[[sigma-algebra]]
