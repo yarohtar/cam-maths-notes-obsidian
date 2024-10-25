@@ -95,6 +95,11 @@ Suppose $\gamma:I\to X$ any path starting at $x_{0}$, then lift to $\tilde{X}$ s
 $$
 \begin{align}
 \tilde{\gamma}:I & \to \tilde{X} \\
-
+s & \to[t\to \gamma(st)]
 \end{align}
 $$
+So $[\gamma]=[c_{x_{0}}]$
+
+So $p_{*}(\pi_{1}(\tilde{X},[c_{x_{0}}]))=\{ e \}\leq \pi_{1}(X,x_{0})$
+As $p:\tilde{X}\to X$ is a covering map, $p_{*}$ is injective, so $\pi_{1}(\tilde{X},[c_{x_{0}}])=0$
+
