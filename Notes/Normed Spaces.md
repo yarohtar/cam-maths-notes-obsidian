@@ -16,3 +16,10 @@ NOTE: a normed space gives rise to a [[Metric spaces|metric space]] with $d(x,y)
 [[Equivalent Norms]]
 
 [[Open Mapping Lemma]]
+
+## New spaces from old 
+For normed spaces $X$ and $Y$ can define a norm on $X\oplus Y$ by:
+$\lVert (x,y) \rVert =\lVert x \rVert+\lVert y \rVert$
+This space is written $X\oplus_{1}Y$
+
+Similarly, have $X\oplus_{2}Y$ with $\lVert (x,y) \rVert=(\lVert x \rVert^2+\lVert y \rVert^2)^{1/2}$

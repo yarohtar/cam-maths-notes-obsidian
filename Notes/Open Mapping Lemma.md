@@ -12,4 +12,12 @@ Put $x=\sum x_{n}$ which converges as its Cauchy.
 
 Then $\lVert x \rVert\leq \sum \lVert x_{n} \rVert\leq 2$ and $\lVert y-Tx \rVert=0$ so $Tx=y$
 
-2. Given $(y_{n})$ Cauchy in $Y$: WLOG $\lVert y_{n}-y_{n-1} \rVert\leq 2^{-k}$ for all $n$ (.. a sur)
+2. Given $(y_{n})$ Cauchy in $Y$: WLOG $\lVert y_{n}-y_{n-1} \rVert\leq 2^{-k}$ for all $n$ (.. a sub)
+For each $n>2$, choose $x_{n}\in X$ with $\lVert x_{n} \rVert \leq 2^{-n+1}$ with $Tx_{n}=y_{n}-y_{n-1}$
+Also choose $x_{1}\in X$ with $Tx_{1}=y_{1}$
+
+Thus $T(x_{1}+\dots+x_{n})=y_{n}$
+
+Let $x=\sum x_{n}$ (Converges as Cauchy)
+
+Then $Tx=\lim_{ n \to \infty }T(x_{1}+\dots+x_{n})=\lim_{ n \to \infty }y_{n}$ so $(y_{n})$ convergent.
