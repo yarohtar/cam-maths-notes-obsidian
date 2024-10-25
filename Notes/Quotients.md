@@ -2,7 +2,7 @@ For $X$ [[Normed Spaces]], $N$ a closed subspace of $X$, have Quotient vector sp
 Want to put a norm on $X /N$
 ### Proposition
 $X$ normed, $N$ a closed subspace of $X$. 
-Then $\lVert z \rVert=\inf \{ \lVert x \rVert : x \in X, \pi x=z \}$ definese a norm on $X /N$. Moreover, $\pi$ is continuous
+Then $\lVert z \rVert=\inf \{ \lVert x \rVert : x \in X, \pi x=z \}$ defines a norm on $X /N$. Moreover, $\pi$ is continuous
 $X$ is [[Banach Space]] $\implies$ $X /N$ is Banach.
 
 #### Proof
