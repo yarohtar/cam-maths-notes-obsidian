@@ -9,5 +9,5 @@ This property is called countable additivity.
 The triple $(E,\mathcal{E},\mu)$ is called a measure space.
 
 [[Set Function]]
-[[Algebra]]
-[[Ring (set)]]
+[[Algebra (of sets)]]
+[[Ring (of sets)]]
