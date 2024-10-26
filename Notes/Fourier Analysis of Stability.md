@@ -34,3 +34,10 @@ Now define $\hat{u}^{0}$ to be large on this nbd and 0 otherwise.
 The integral will diverge so the method would be unstable.
 
 # Multi-step
+Suppose we end up with an equation of the form:
+$$
+\hat{u}^{n+1}(\theta)+b\hat{u}^{n}(\theta)+c\hat{u}^{n-1}(\theta)=0
+$$
+Then we would find the solutions to the equation $\lambda^{2}+b\lambda+c=0$ and see if they are both $\leq1$ for all $\theta$.
+
+Tricks like this are used for other multi-step methods.
