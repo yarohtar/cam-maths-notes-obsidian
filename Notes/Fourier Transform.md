@@ -13,3 +13,4 @@ $$
 $$
 \lVert \hat{v} \rVert^2= \frac{1}{2\pi} \int _{-\pi}^\pi \lvert  \hat{v}(\theta) \rvert ^2 \, d\theta = \sum_{m=-\infty}^{\infty} \lvert v_{m} \rvert ^2 =\lVert v \rVert^2 
 $$
+Note that the inverse in this case is just the [[Fourier Series]]

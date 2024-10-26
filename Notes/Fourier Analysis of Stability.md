@@ -21,5 +21,10 @@ $$
 $$
 with
 $$
-H(\theta)=
+H(\theta)= \frac{\sum_{k=r}^{s}b_{k}e^{ik\theta}}{\sum_{k=r}^{s} a_{k}e^{ik\theta}}
 $$
+### Theorem
+The method is stable iff $\lvert H(\theta) \rvert\leq 1$ for all $\theta \in[-\pi,\pi]$.
+#### Proof
+One side is easy, due to the above calculations and [[Parseval's Identity]].
+
