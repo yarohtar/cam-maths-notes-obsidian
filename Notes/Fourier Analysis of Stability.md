@@ -1,3 +1,4 @@
+# One step
 Assume a recurrence of the form:
 $$
 \sum_{k}a_{k}u_{m+k}^{n+1}=\sum_{k}b_{k}u_{m+k}^{n}
@@ -30,4 +31,6 @@ One side is easy, due to the above calculations and [[Parseval's Identity]].
 
 Suppose now that $\lvert H(\theta_{0}) \rvert>1$ for some $\theta_{0}$. Find a small nbd of $\theta_{0}$ where $\lvert H(\theta) \rvert>1+\epsilon$. 
 Now define $\hat{u}^{0}$ to be large on this nbd and 0 otherwise. 
-The integral will diverge
+The integral will diverge so the method would be unstable.
+
+# Multi-step
