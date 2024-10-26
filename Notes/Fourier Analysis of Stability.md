@@ -28,3 +28,6 @@ The method is stable iff $\lvert H(\theta) \rvert\leq 1$ for all $\theta \in[-\p
 #### Proof
 One side is easy, due to the above calculations and [[Parseval's Identity]].
 
+Suppose now that $\lvert H(\theta_{0}) \rvert>1$ for some $\theta_{0}$. Find a small nbd of $\theta_{0}$ where $\lvert H(\theta) \rvert>1+\epsilon$. 
+Now define $\hat{u}^{0}$ to be large on this nbd and 0 otherwise. 
+The integral will diverge
