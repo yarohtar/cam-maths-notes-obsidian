@@ -8,3 +8,4 @@ $$
 ### Lemma (Second Borel-Cantelli Lemma)
 Assume that the events $(A_{n})$ are [[Independence|independent]]. 
 If $\sum_{n}\mathbb{P}(A_{n})=\infty$ then $\mathbb{P}(\lim\sup A_{n})=1$.
+#### Proof
