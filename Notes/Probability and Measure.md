@@ -8,3 +8,4 @@ Jean F Le Gall website CH1 & 2
 [[Measure]]
 [[Borel-Cantelli Lemmas]]
 [[lim sup]]
+[[lim inf]]
