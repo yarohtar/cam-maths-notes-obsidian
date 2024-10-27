@@ -1,5 +1,5 @@
 ### Lemma (First Borel-Cantelli Lemma)
-If $\sum_{n}\mu(A_{n})<\infty$, then $\mu(\lim\sup A_{n})=0$
+If $\sum_{n}\mu(A_{n})<\infty$, then $\mu(\lim\sup A_{n})=0$ ([[lim sup]])
 #### Proof
 As $n\to \infty$
 $$
@@ -7,7 +7,9 @@ $$
 $$
 ### Lemma (Second Borel-Cantelli Lemma)
 Assume that the events $(A_{n})$ are [[Independence|independent]]. 
-If $\sum_{n}\mathbb{P}(A_{n})=\infty$ then $\mathbb{P}(\lim\sup A_{n})=1$.
+If $\sum_{n}\mathbb{P}(A_{n})=\infty$ then $\mathbb{P}(\lim\sup A_{n})=1$. ([[lim sup]])
+
+The infinite monkey theorem follows from this.
 #### Proof
 Set $a_{n}=\mathbb{P}(A_{n})$. For all $n$ and $N\geq n$ we have:
 $$
