@@ -4,3 +4,4 @@ A probability space  $(\Omega,\mathcal{F},\mathbb{P})$ (ie a [[Measure|measure s
 - $\mathbb{P}(A)$ is the probability of the event $A$.
 
 In addition to [[Measure|measure theory]], probability theory also has the notion of [[Independence]].
+
