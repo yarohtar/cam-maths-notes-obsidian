@@ -9,3 +9,7 @@ $$
 Assume that the events $(A_{n})$ are [[Independence|independent]]. 
 If $\sum_{n}\mathbb{P}(A_{n})=\infty$ then $\mathbb{P}(\lim\sup A_{n})=1$.
 #### Proof
+Set $a_{n}=\mathbb{P}(A_{n})$. For all $n$ and $N\geq n$ we have:
+$$
+\mathbb{P}\left( \bigcap_{m=n}^N A_{m}^c \right) = \prod_{m=n}^{N} 
+$$
