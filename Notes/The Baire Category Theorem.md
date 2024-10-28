@@ -29,13 +29,7 @@ $X$ complete metric space with $A_{1},A_{2},\dots$ non-dense subsets of $X$. The
 [[Meagre]]
 
 ### Theorem (altalt)
-If $X$ is complete, then $X$ is not a union of [[Meagre]] subsets of $X$.
+If $X$ is complete, then $X$ is not a [[Meagre]] subset of $X$.
 
-### Proposition
-Let $f_{1},f_{2},\dots \in C[0,1]$ be pointwise bounded.
-Then they are uniformly bounded on some interval $(a,b)$.
-#### Proof
-For $n=1,2,\dots$ let $E_{n}=\{ x\in [0,1] : \forall i \lvert f_{i}(x) \rvert\leq n \}$
-Then $E_{n}$ is closed for all $n$. 
-Also $\bigcup E_{n}=[0,1]$ (as the $f_{i}$ are pointwise bounded)
-Hence some $E_{n}$ has an inte
+[[Osgood's Theorem]]
+[[Principle of Uniform Boundedness]]
