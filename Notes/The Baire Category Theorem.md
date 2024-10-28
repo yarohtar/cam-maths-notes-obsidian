@@ -34,3 +34,4 @@ If $X$ is complete, then $X$ is not a [[Meagre]] subset of $X$.
 [[Osgood's Theorem]]
 [[Principle of Uniform Boundedness]]
 [[Banach-Stewhaus Theorem]]
+[[Open Mapping Theorem]]
