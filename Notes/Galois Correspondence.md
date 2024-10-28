@@ -22,4 +22,9 @@ Want to show that imposing appropriate equivalence relations of LHSs, makes thos
 
 ### Proposition
 Suppose that $X$ is path-connected, [[Locally Path Connected]], and [[Semi-locally Simply Connected]].
-Then any subgroup $H\leq \pi_{1}()$
+Then for any subgroup $H\leq \pi_{1}(X,x_{0})$ there is a covering space $p:(\tilde{X},x_{0})\to(X,x_{0})$ with $p_{*}\pi_{1}(\tilde{X},\tilde{x}_{0})=H$
+#### Proof
+Let $q:\bar{X}\to X$ be the [[Universal Cover]] that we constructed, whose underlying set is the set of homotopy classes of paths in $X$ starting at $x_{0}$.
+Define $\sim_{H}$ on $\bar{X}$ by $[\gamma]\sim_{H}[\gamma']$ iff $\gamma(1)=\gamma'(1)$ and $[\gamma \cdot(\gamma')^{-1}]\in H\leq \pi_{1}(X,x_{0})$
+This is an equivalence relation
+1. $[\gamma]\sim_{H}[\gamma]$ 
