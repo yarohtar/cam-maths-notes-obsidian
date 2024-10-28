@@ -19,3 +19,8 @@ $O_{2}$ is dense so it meets $B(x_{1},\epsilon_{1})$
 Now $(x_{n})$ is Cauchy and for any $n,m>N$ have $d(x_{n},x_{m})<2\epsilon_{N}$
 Let $x_{n}\to x$
 Then $x \in O_{n}$ for all $n$.
+
+### Theorem (alt)
+$X$ complete metric, $F_{1},F_{2}\dots$ closed subsets of $X$ with $\bigcup F_{n}=X$. Then some $F_{n}$ has $inF_{n}\neq \emptyset$
+
+### Theorem (altalt)
