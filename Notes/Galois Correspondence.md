@@ -41,4 +41,11 @@ as $[\gamma \cdot \eta]\sim_{H}[\gamma'\cdot \eta]$ for $\eta$ any path in $U$.
 So $p_{H}$ is a covering map ($q^{-1}(U)=\sqcup(\alpha,U)$)
 
 Need $(p_{H})_{*}\pi_{1}(\tilde{X}_{H},[[c_{x_{0}}]])=H\leq \pi_{1}(X,x_{0})$
-If $[\gamma]$
+If $[\gamma]\in H$ then the lift $\tilde{\gamma}$ of $\gamma$ to $\bar{X}$ starts at $[c_{x_{0}}]$ and ends at $[\gamma]\in \bar{X}$.
+
+So the lift $\tilde{\gamma}$ to $\tilde{X}_{H}$ ends at $[[\gamma]]\sim_{H}[[c_{x_{0}}]]$, so it is a loop.
+So $[\gamma]=(p_{H})_{*}[\tilde{\gamma}]$. So we have $\supseteq$.
+
+Conversely, if $[\gamma]=(p_{H})_{*}([\tilde{\gamma}])$ then the lift of $\tilde{\gamma}$ to $\bar{X}$ starts at $[c_{x_{0}}]$ and ends at $[\gamma]$.
+
+As $\tilde{\gamma}$ is a loop in $\tilde{X}_{H}$
