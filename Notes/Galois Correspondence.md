@@ -64,4 +64,12 @@ If $h$ exists then $(p_{2})_{*}h_{*}=(p_{1})_{*}$ and $h_{*}$ is an isomorphism,
 For the other direction, let $H=(p_{1})_{*}\pi_{1}(\tilde{X}_{1},\tilde{x}_{1})$. Will show $\tilde{X}_{1}\cong \tilde{X}_{H}$ 
 
 Consider $r:(\bar{X},[c_{x_{0}}])\to(\tilde{X},\tilde{x}_{1})$
-with $[\gamma]\to$ the end point of the lift $\tilde{\gamma}\circ f \gamma$ to $\tilde{X}_{1}$ which starts at $\tilde{x}_{1}$ 
+with $[\gamma]\to$ the end point of the lift $\tilde{\gamma}\circ f \gamma$ to $\tilde{X}_{1}$ which starts at $\tilde{x}_{1}$.
+Now $r([\gamma])=r([\gamma'])$ iff $\tilde{\gamma}$ and $\tilde{\gamma}'$ end at the same point
+iff $[\gamma'\cdot \gamma ^{-1}]\in(p_{1})_{*}\pi_{1}(\tilde{X}_{1},\tilde{x}_{1})=H$
+iff $[\gamma]\sim_{H}[\gamma']$
+so the induced map $q:(\tilde{X}_{H},[[c_{x_{0}}]])\to(\tilde{X}_{1},\tilde{x}_{1})$
+is a continuous bijection and an open map as both covering maps to $X$ are local homeomorphisms.
+
+### Proposition (Unbased uniqueness)
+If $p_{1}:\tilde{X}_{1}\to X$ and $p_{2}:\tilde{X}_{2}\to X$ are path connected covering spaces, then there is a homeomorphism $h:\tilde{X}_{1}\to$
