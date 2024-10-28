@@ -34,3 +34,11 @@ So $\sim_{H}$ is an equivalence relation on $\bar{X}$
 
 Define $\tilde{X}_{H}=\bar{X} / \sim_{H}$
 and $p_{H}:\tilde{X}_{H}\to X$ to be the induced map $[[\gamma]]\to \gamma(1)$
+
+If $[\gamma]\in(\alpha,U)$ and $[\gamma']\in(\beta,U)$ and $[\gamma]\sim_{H}[\gamma']$.
+then $(\alpha,U)$ and $(\beta,U)$ are identified by $\sim _H$ 
+as $[\gamma \cdot \eta]\sim_{H}[\gamma'\cdot \eta]$ for $\eta$ any path in $U$.
+So $p_{H}$ is a covering map ($q^{-1}(U)=\sqcup(\alpha,U)$)
+
+Need $(p_{H})_{*}\pi_{1}(\tilde{X}_{H},[[c_{x_{0}}]])=H\leq \pi_{1}(X,x_{0})$
+If $[\gamma]$
