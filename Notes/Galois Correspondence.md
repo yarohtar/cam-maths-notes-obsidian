@@ -48,4 +48,12 @@ So $[\gamma]=(p_{H})_{*}[\tilde{\gamma}]$. So we have $\supseteq$.
 
 Conversely, if $[\gamma]=(p_{H})_{*}([\tilde{\gamma}])$ then the lift of $\tilde{\gamma}$ to $\bar{X}$ starts at $[c_{x_{0}}]$ and ends at $[\gamma]$.
 
-As $\tilde{\gamma}$ is a loop in $\tilde{X}_{H}$
+As $\tilde{\gamma}$ is a loop in $\tilde{X}_{H}$ we have $[\gamma]\sim_{H}[c_{x_{0}}]$ ie $[\gamma]\in H$. This shows $\subseteq$.
+
+
+### Proposition (Based uniqueness)
+Suppose that $X$ is path-connected, [[Locally Path Connected]], and [[Semi-locally Simply Connected]].
+If $p_{1}:(\tilde{X}_{1},\tilde{x}_{1})\to(X,x_{0})$, $p_{2}:(\tilde{X}_{2},\tilde{x}_{2})$
+are path connected covering spaces, there is a homomorphism
+$h:(\tilde{X}_{1},\tilde{x}_{1})\to(\tilde{X}_{2},\tilde{x}_{2})$
+st $p_{2}\circ h=p_{1}$
