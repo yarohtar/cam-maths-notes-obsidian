@@ -72,4 +72,5 @@ so the induced map $q:(\tilde{X}_{H},[[c_{x_{0}}]])\to(\tilde{X}_{1},\tilde{x}_{
 is a continuous bijection and an open map as both covering maps to $X$ are local homeomorphisms.
 
 ### Proposition (Unbased uniqueness)
-If $p_{1}:\tilde{X}_{1}\to X$ and $p_{2}:\tilde{X}_{2}\to X$ are path connected covering spaces, then there is a homeomorphism $h:\tilde{X}_{1}\to$
+If $p_{1}:\tilde{X}_{1}\to X$ and $p_{2}:\tilde{X}_{2}\to X$ are path connected covering spaces, then there is a homeomorphism $h:\tilde{X}_{1}\to \tilde{X}_{2}$
+st $p_{2}\circ h=p_{1}$ iff $(p_{1})_{*}\pi_{1}(\tilde{X}_{1},\tilde{x}_{1})$ is conjugate to $(p_{2})_{*}\pi_{1}(\tilde{X}_{2},\tilde{x}_{2})$ in $\pi_{1}(X,x_{0})$
