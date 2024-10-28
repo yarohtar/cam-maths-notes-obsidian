@@ -27,3 +27,7 @@ $X$ complete metric, $F_{1},F_{2}\dots$ closed subsets of $X$ with $\bigcup F_{n
 $X$ complete metric space with $A_{1},A_{2},\dots$ non-dense subsets of $X$. Then $\bigcup A_{n}\neq X$.
 
 [[Meagre]]
+
+### Theorem (altalt)
+If $X$ is complete, then $X$ is not a union of [[Meagre]] subsets of $X$.
+
