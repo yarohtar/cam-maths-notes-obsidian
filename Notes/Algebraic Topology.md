@@ -17,3 +17,5 @@ A cts function will be called a map.
 [[Covering Spaces]]
 
 [[Fundamental group of the circle]]
+
+[[Galois Correspondence]]
