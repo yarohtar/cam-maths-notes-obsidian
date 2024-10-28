@@ -27,4 +27,10 @@ Then for any subgroup $H\leq \pi_{1}(X,x_{0})$ there is a covering space $p:(\ti
 Let $q:\bar{X}\to X$ be the [[Universal Cover]] that we constructed, whose underlying set is the set of homotopy classes of paths in $X$ starting at $x_{0}$.
 Define $\sim_{H}$ on $\bar{X}$ by $[\gamma]\sim_{H}[\gamma']$ iff $\gamma(1)=\gamma'(1)$ and $[\gamma \cdot(\gamma')^{-1}]\in H\leq \pi_{1}(X,x_{0})$
 This is an equivalence relation
-1. $[\gamma]\sim_{H}[\gamma]$ 
+1. $[\gamma]\sim_{H}[\gamma]$ as $[c_{x_{0}}]\in H$ ($H$ contains the identity element)
+2. $[\gamma]\sim_{H}[\gamma']$ then $[\gamma \cdot(\gamma')^{-1}]\in H$ so its inverse $[\gamma'\cdot \gamma ^{-1}]\in H$
+3. $[\gamma]\sim_{H}[\gamma']\sim_{H}[\gamma'']$ then $[\gamma \cdot(\gamma')^{-1}]\in H$ and $[\gamma'\cdot(\gamma'')^{-1}]\in H$ so the product $[\gamma \cdot(\gamma'')^{-1}]\in H$.
+So $\sim_{H}$ is an equivalence relation on $\bar{X}$
+
+Define $\tilde{X}_{H}=\bar{X} / \sim_{H}$
+and $p_{H}:\tilde{X}_{H}\to X$ to be the induced map $[[\gamma]]\to \gamma(1)$
