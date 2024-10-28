@@ -1,0 +1,1 @@
+Say $A\subseteq X$ ($X$ [[Metric spaces|metric]]) if $A=\bigcup_{n=1}^\infty A_{n}$

@@ -24,3 +24,6 @@ Then $x \in O_{n}$ for all $n$.
 $X$ complete metric, $F_{1},F_{2}\dots$ closed subsets of $X$ with $\bigcup F_{n}=X$. Then some $F_{n}$ has $inF_{n}\neq \emptyset$
 
 ### Theorem (altalt)
+$X$ complete metric space with $A_{1},A_{2},\dots$ non-dense subsets of $X$. Then $\bigcup A_{n}\neq X$.
+
+[[Meagre]]
