@@ -12,5 +12,14 @@ ie the two subgroups obtained are conjugate.
 
 So fixing $(X,x_{0})$ we have functions
 $$
-\{ \text{based coveri} \}
+\{ \text{based covering maps }p:(\tilde{X},\tilde{x}_{0})\to(X,x_{0}) \}\to \{ \text{subgroups of }\pi_{1}(X,x_{0}) \}
 $$
+and 
+$$
+\left\{  \text{covering map }p:\tilde{X}\to X  \right\}\to \{ \text{conjugacy classes of subgroups of } \pi_{1}(X,x_{0})\}
+$$
+Want to show that imposing appropriate equivalence relations of LHSs, makes those into bijections.
+
+### Proposition
+Suppose that $X$ is path-connected, [[Locally Path Connected]], and [[Semi-locally Simply Connected]].
+Then any subgroup $H\leq \pi_{1}()$
