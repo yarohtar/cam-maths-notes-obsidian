@@ -1,6 +1,6 @@
 The Hamiltonian in 1d is
 $$
-H=\frac{p^{2}}{2m}+\frac{m\omega^{2}}{2}X^{2}
+H=\frac{P^{2}}{2m}+\frac{m\omega^{2}}{2}X^{2}
 $$
 Introduce dimensionless lowering and raising operators
 $$
