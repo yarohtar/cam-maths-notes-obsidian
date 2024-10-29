@@ -32,8 +32,9 @@ $$
 \end{align}
 $$
 Consequently,
-$[N,AA^{\dagger}]=[A^{\dagger}A,A^{\dagger}]=A^{\dagger}[A,A^{\dagger}]+[A^{\dagger},A^{\dagger}]A^{\dagger}=A^{\dagger}$
+$[N,A^{\dagger}]=[A^{\dagger}A,A^{\dagger}]=A^{\dagger}[A,A^{\dagger}]+[A^{\dagger},A^{\dagger}]A^{\dagger}=A^{\dagger}$
 $[N,A]=-A$
 
 $A\ket{0}=0$
 $\ket{n}=\frac{(A^{\dagger})^{n}}{\sqrt{ n! }}\ket{0}$
+
