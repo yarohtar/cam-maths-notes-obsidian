@@ -1,6 +1,6 @@
 $S$ set, $R\subseteq F(S)$ where $F(S)$ is the [[Free Group]]. 
 Let $\langle \langle R \rangle \rangle \unlhd F(S)$ be the smallest normal subgroup of $F(S)$ containing $R$ 
-Define $\braket{ S | R }=F(S) /\langle \langle R \rangle \rangle$ group with generator $S$ and relative $R$ 
+$\braket{ S | R }=F(S) /\langle \langle R \rangle \rangle$ group with generator $S$ and relative $R$ 
 Data $(S,R)$ is called a presentation of the group (finite presentation if $S$ and $R$ are finite sets)
 
 ### Universal property of group presentations
