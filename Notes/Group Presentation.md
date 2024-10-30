@@ -12,11 +12,12 @@ $$
 
 \end{align}
 $$
-Where 
+is bijective
+\*where 
 $$
 pr\braket{ S | R } :F(S)\to F(S) / \langle \langle R \rangle  \rangle 
 $$
-is bijective.
+
 #### Proof
 Suppose $\psi$, $\psi'$ give $\phi=\phi':S\to H$
 By [[Free Group#Universal property of free groups|the universal property of free groups]],
