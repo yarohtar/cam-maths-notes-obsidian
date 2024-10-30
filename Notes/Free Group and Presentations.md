@@ -34,9 +34,10 @@ $$
 - Group operation on $F(S)$ is concatenat+reduct, so $\psi$ is homomorphism
 
 ### Definition
-$S$ set, $R\subseteq F(S)$. Let $\ll R\gg\unlhd F(S)$ be the smallest normal subgroup of $F(S)$ containing $R$
+$S$ set, $R\subseteq F(S)$. Let $\ll R\gg\unlhd F(S)$ be the smallest normal subgroup of $F(S)$ containing $R$ ie 
 $\braket{ S | R }=F(S) / \ll R\gg$ group with generates $S$ and relative $R$ 
 Data $(S,R)$ is called a presentation of the group (finite if $S$ and $R$ are finite sets)
+$\langle \langle R \rangle \rangle$
 
 ### Universal property of group presentations
 For any group $H$, the function
