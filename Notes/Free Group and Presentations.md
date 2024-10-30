@@ -82,6 +82,8 @@ $$
 Induced maps also called $j_{i}:G_{i}\to G_{1}*_{H}G_{2}$
 
 ### Universal property of amalgamated free products
-For any group $K$, the function from gp homs $G_{1}*_{H}G_{2}\to K$ to group homs $\phi_{1}:G_{1}\to K$ and $\phi_{2}:G_{2}\to K$ st $\phi_{1}=\psi\circ j_{1}$ and $\phi_{2}=\psi\circ j_{2}$ 
+For any group $K$, the function from gp homs $G_{1}*_{H}G_{2}\to K$ to group homs $\phi_{1}:G_{1}\to K$ and $\phi_{2}:G_{2}\to K$ st $\phi_{1}\circ i_{1}=\phi_{2}\circ i_{2}$ 
 that sends $\psi$ to $(\phi_{1}=\psi \circ j_{1},\phi_{2}=\psi \circ j_{2})$
+is bijective.
 #### Proof
+Just expand the definitions ... umm yea 
