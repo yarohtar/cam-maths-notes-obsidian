@@ -14,7 +14,7 @@ $$
 $$
 Where 
 $$
-pr\braket{ S | R } :F(S)\to F(S) / \ll R\gg
+pr\braket{ S | R } :F(S)\to F(S) / \langle \langle R \rangle  \rangle 
 $$
 is bijective.
 #### Proof
@@ -26,8 +26,8 @@ As $pr\braket{ S | R }$ surjective have $\psi=\psi'$.
 
 Now assume $\phi:S\to H$ st the associated $\psi:F(S)\to H$ is st
 $\psi(r)=id_{H}$ for all $r\in R$. Then $R\subseteq Ker(\psi)$
-$Ker(\psi)\unlhd F(S)$, so $\ll R\gg \subseteq Ker(\psi)$ (by minimality)
-$\psi$ descends to well defined $\bar\psi:F(S) / \ll R\gg\to H$
+$Ker(\psi)\unlhd F(S)$, so $\langle \langle R \rangle \rangle\subseteq Ker(\psi)$ (by minimality)
+$\psi$ descends to well defined $\bar\psi:F(S) / \langle \langle R \rangle \rangle\to H$
 
 ### Examples
 $G=\braket{ t |  }\cong\mathbb{Z}$
