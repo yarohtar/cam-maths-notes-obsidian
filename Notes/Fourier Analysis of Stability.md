@@ -53,4 +53,4 @@ ie:
 $$
 \sum_{l,m\in \mathbb{Z}}\lvert u_{l,m} \rvert ^{2}=\frac{1}{4\pi^{2}}\int_{-\pi}^{\pi}\int_{-\pi}^\pi \lvert \hat{u}(\theta,\psi) \rvert ^{2}d\theta d\psi
 $$
-Amplification factor $H(\theta,\psi)$ also naturally generalizes and we still require $\lvert H(\theta,\psi) \rvert$
+Amplification factor $H(\theta,\psi)$ also naturally generalizes and we still require $\lvert H(\theta,\psi) \rvert\leq 1$ for stability.
