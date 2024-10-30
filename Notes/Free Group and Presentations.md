@@ -71,3 +71,13 @@ $G=\braket{ a,b | ab^{-3},ba ^{-2} }\cong\mathbb{Z} /5$
 ## Free products with amalgamation
 $G_{1},G_{2}$, $G_{i}=\braket{ S_{i} | R_{i} }$ with $S_{1}\cap S_{2=\emptyset}$
 Free product of $G_{1}$ and $G_{2}$: $G_{1}*G_{2}=\braket{ S_{1}\cup S_{2} | R_{1}\cup R_{2} }$
+universal property gives $j_{i}:G_{i}\to G_{1}*G_{2}$
+
+Suppose also $H$ is a group $i_{1}:H\to G_{1}$ and $i_{2}:H\to G_{2}$ group hom
+
+Free product with amalgamation over $H$:
+$$
+G_{1}*_{H}G_{2}=G_{1}*G_{2} /\langle \braket{ (j_{1}i_{1}(h))(j_{2}i_{2}h)^{-1} | h\in H }  \rangle 
+$$
+Induced maps also called $j_{i}:G_{i}\to G_{1}*_{H}G_{2}$
+
