@@ -35,4 +35,4 @@ If $X$ is complete, then $X$ is not a [[Meagre]] subset of $X$.
 [[Principle of Uniform Boundedness]]
 [[Banach-Stewhaus Theorem]]
 [[Open Mapping Theorem]]
-[[The Closed Graph Theorem]]
+[[Continuous, Nowhere Differentiable Functions]]
