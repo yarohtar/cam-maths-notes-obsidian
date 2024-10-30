@@ -17,18 +17,18 @@ is bijective.
 $$
 pr\braket{ S | R } :F(S)\to F(S) / \langle \langle R \rangle  \rangle 
 $$
-(Note that $\psi$ above is the natural homomorphism induced by $\phi$ in [[Free Group#Universal property of free groups]])
+(Note that $\varphi$ above is the natural homomorphism induced by $\phi$ in [[Free Group#Universal property of free groups]])
 
 #### Proof
 Suppose $\psi$, $\psi'$ give $\phi=\phi':S\to H$
-By [[Free Group#Universal property of free groups|the universal property of free groups]],
+By [[Free Group#Universal property of free groups|the universal property of free groups]] then also $\varphi=\varphi'$, so:
 $\psi\circ pr\braket{ S | R }=\psi'\circ pr\braket{ S | R }$
 (Consider $F(S)\to_{pr} \braket{ S | R }\to_{\psi,\psi'} H$)
 As $pr\braket{ S | R }$ surjective have $\psi=\psi'$.
 
-Now assume $\phi:S\to H$ st the associated $\psi:F(S)\to H$ is st
-$\psi(r)=id_{H}$ for all $r\in R$. Then $R\subseteq Ker(\psi)$
-$Ker(\psi)\unlhd F(S)$, so $\langle \langle R \rangle \rangle\subseteq Ker(\psi)$ (by minimality)
+Now assume $\phi:S\to H$ st the associated $\varphi:F(S)\to H$ is st
+$\varphi(r)=e_{H}$ for all $r\in R$. Then $R\subseteq Ker(\varphi)$
+$Ker(\varphi)\unlhd F(S)$, so $\langle \langle R \rangle \rangle\subseteq Ker(\varphi)$ (by minimality)
 $\psi$ descends to well defined $\bar\psi:F(S) / \langle \langle R \rangle \rangle\to H$
 
 ### Examples
