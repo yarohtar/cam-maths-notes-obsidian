@@ -10,7 +10,10 @@ Have $\eta+\delta,\eta-\delta \in B(y,\epsilon)$
 
 So there are some $x,x'\in B_{x}$ with $\lVert Tx-(y+\delta) \rVert<\delta$ and $\lVert Tx'-(y-\delta) \rVert<\delta$
 
-Thus $\frac{{x-x'}}{2}\in B_{x}$ and $\lVert T({x-}) \rVert$
+Thus $\frac{{x-x'}}{2}\in B_{x}$ and $\left\lVert  T\left( \frac{{x-x'}}{2}-2 \right)  \right\rVert<\delta$
+So $T(B_{x})$ dense in $B(0,\epsilon)$.
+Thus $T$ any open mapping by [[Open Mapping Lemma]] applied to $\frac{T}{\epsilon}$.
 
-### Corollary
+### Corollaries
 [[Inversion Theorem]]
+[[Comparability Theorem]]
