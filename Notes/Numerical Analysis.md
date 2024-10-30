@@ -19,3 +19,4 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Stability of Numerical Methods]]
 [[Consistency of Numerical Methods]]
 [[Fourier Analysis of Stability]]
+[[Splitting]]
