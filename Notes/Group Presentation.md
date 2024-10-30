@@ -7,7 +7,7 @@ Data $(S,R)$ is called a presentation of the group (finite presentation if $S$ a
 For any group $H$, the function
 $$
 \begin{align}
-\{ \text{gp hom }\braket{ S | R } \to H \} & \to \{\text{fn } S\to H \text{ st } \psi(r)=id_{H} \forall r\in R\} \\
+\{ \text{gp hom }\braket{ S | R } \to H \} & \to \{\text{fn } \bar{\psi}:S\to H \text{ st } \forall r\in R\ \bar\psi(r)=e_{H} \} \\
 \psi & \to \psi\circ pr\braket{ S | R } 
 
 \end{align}
@@ -19,7 +19,7 @@ $$
 is bijective.
 #### Proof
 Suppose $\psi$, $\psi'$ give $\phi=\phi':S\to H$
-By universal property of free groups,
+By [[Free Group#Universal property of free groups|the universal property of free groups]],
 $\psi\circ pr\braket{ S | R }=\psi'\circ pr\braket{ S | R }$
 (Consider $F(S)\to \braket{ S | R }\to H$)
 As $pr\braket{ S | R }$ surjective have $\psi=\psi'$.
