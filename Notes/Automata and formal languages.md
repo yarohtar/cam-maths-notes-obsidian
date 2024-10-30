@@ -19,6 +19,7 @@
 [[Formal Language]]
 [[Grammars]]
 
+[[The Chomsky Hierarchy]]
 
 
 [[Deterministic Automata]]

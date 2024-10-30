@@ -9,3 +9,5 @@ Type 0: $\mathcal{L}(G)$ for any grammar $G$
 Type 1: $\mathcal{L}(G)$ for noncontracting $G$
 Type 2: $\mathcal{L}(G)$ for context-free $G$ 
 Type 3: $\mathcal{L}(G)$ for regular $G$ 
+
+[[Regular Formal Language]]
