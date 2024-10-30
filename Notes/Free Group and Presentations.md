@@ -1,5 +1,5 @@
 $S=\{ s_{\alpha} \}_{\alpha \in I}$ set "alphabet"
-$S^{-1}=\{ s_{\alpha}^{-1} \}_{\alpha \in I}$ also set of symbols (this is just a label, its not an actual inverse)
+$S^{-1}=\{ s_{\alpha}^{-1} \}_{\alpha \in I}$ also set of symbols (this is just a label, its not an actual inverse ~~yet~~)
 $S\cap S^{-1}=\emptyset$
 Word in the alphabet $S$ finite sequence $(x_{1},x_{2},\dots,x_{n})$
 A word is reduced if it has no subwords of form $(s_{\alpha},s_{\alpha}^{-1})$ or $(s_{\alpha}^{-1},s_{\alpha})$
@@ -29,7 +29,7 @@ Given $\phi:S\to H$ set
 $$
 \psi((s_{\alpha_{1}}^{\epsilon_{1}},\dots s_{\alpha _{n}}^{\epsilon_{n}}))=\phi(s_{\alpha_{1}})^{\epsilon_{1}}\dots \phi(s_{\alpha_{n}})^{\epsilon_{n}}
 $$
-- If $(s_{\alpha_{1}}^{\epsilon_{1}}\dots,s_{\alpha_{n}}^{\epsilon_{n}})$ is not reduced: say it contains subword $(s_{\alpha},s_{\alpha}^{-1})$. Then the image contains $\phi(s_{\alpha})\phi(s_{\alpha})^{-1}=id_{H}$
+- If $(s_{\alpha_{1}}^{\epsilon_{1}}\dots,s_{\alpha_{n}}^{\epsilon_{n}})$ is not reduced: say it contains subword $(s_{\alpha},s_{\alpha}^{-1})$ then the image contains $\phi(s_{\alpha})\phi(s_{\alpha})^{-1}=e_{H}$
   So if two words related by element reduction, then $\psi$ has the same image
 - Group operation on $F(S)$ is concatenat+reduct, so $\psi$ is homomorphism
 
