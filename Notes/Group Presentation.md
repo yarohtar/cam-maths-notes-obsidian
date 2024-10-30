@@ -7,19 +7,20 @@ Data $(S,R)$ is called a presentation of the group (finite presentation if $S$ a
 For any group $H$, the function
 $$
 \begin{align}
-\{ \text{gp hom }\braket{ S | R } \to H \} & \to \{\text{fn } \bar{\psi}:S\to H \text{ st } \forall r\in R\ \bar\psi(r)=e_{H} \} \\
-\psi & \to \psi\circ pr\braket{ S | R } 
+\{ \text{gp hom }\bar{\psi}:\braket{ S | R } \to H \} & \to \{\text{fn } \phi:S\to H \text{ st } \forall r\in R\ \psi(r)=e_{H} \} \\
+\bar\psi & \to \bar\psi\circ pr\braket{ S | R } 
 
 \end{align}
 $$
-is bijective
+is bijective. 
 \*where 
 $$
 pr\braket{ S | R } :F(S)\to F(S) / \langle \langle R \rangle  \rangle 
 $$
+(Note that $\psi$ above is the natural homomorphism induced by $\phi$ in [[Free Group#Universal property of free groups]])
 
 #### Proof
-Suppose $\psi$, $\psi'$ give $\phi=\phi':S\to H$
+Suppose $\bar\psi$, $\bar\psi'$ give $\phi=\phi':S\to H$
 By [[Free Group#Universal property of free groups|the universal property of free groups]],
 $\psi\circ pr\braket{ S | R }=\psi'\circ pr\braket{ S | R }$
 (Consider $F(S)\to_{pr} \braket{ S | R }\to_{\psi,\psi'} H$)

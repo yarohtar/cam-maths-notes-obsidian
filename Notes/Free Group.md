@@ -17,7 +17,7 @@ Let $\iota:S\to F(S)$ with $s_{\alpha}\to(s_{\alpha})$
 For any group $H$, the function:
 $$
 \begin{align}
-\{ \text{gp hom } F(S)\to H \} & \to \{ \text{functions }\phi:S\to H \} \\
+\{ \text{gp hom } \psi:F(S)\to H \} & \to \{ \text{functions }\phi:S\to H \} \\
 \psi & \to \psi\circ \iota
 
 \end{align}
