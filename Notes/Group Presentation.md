@@ -29,7 +29,13 @@ As $pr\braket{ S | R }$ surjective have $\psi=\psi'$.
 Now assume $\phi:S\to H$ st the associated $\varphi:F(S)\to H$ is st
 $\varphi(r)=e_{H}$ for all $r\in R$. Then $R\subseteq Ker(\varphi)$
 $Ker(\varphi)\unlhd F(S)$, so $\langle \langle R \rangle \rangle\subseteq Ker(\varphi)$ (by minimality)
-$\psi$ descends to well defined $\bar\psi:F(S) / \langle \langle R \rangle \rangle\to H$
+Then $\varphi$ descends to a well defined $\psi:F(S) / \langle \langle R \rangle \rangle\to H$
+
+### Corollary
+Every group has a presentation.
+#### Proof
+Let $H$ be a group and $\phi:G\to G$ the identity map. 
+
 
 ### Examples
 $G=\braket{ t |  }\cong\mathbb{Z}$
