@@ -35,7 +35,8 @@ Then $\varphi$ descends to a well defined $\psi:F(S) / \langle \langle R \rangle
 Every group has a presentation.
 #### Proof
 Let $H$ be a group and $\phi:G\to G$ the identity map. 
-
+Find the induced $\varphi:F(G)\to G$ homomorphism by [[Free Group#Universal property of free groups]].
+Let $R=Ker(\varphi)$. $\mathrm{Ker}\phi$
 
 ### Examples
 $G=\braket{ t |  }\cong\mathbb{Z}$
