@@ -2,3 +2,4 @@ Given a set of symbols $\Sigma$, the set of all strings is $\mathbb{W}=\Sigma ^{
 
 A formal language is $L\subseteq \mathbb{W}$.
 
+[[Operations on Formal Languages]]
