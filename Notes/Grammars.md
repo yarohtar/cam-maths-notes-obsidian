@@ -20,6 +20,7 @@ $\mathcal{G}(\Sigma,V)$ is the set of all grammars with $\Sigma,V$. This is coun
 
 
 [[Variable-based Grammar]]
+[[The Chomsky Hierarchy]]
 [[Regular Concatenation Grammar]]
 [[Regular Union Grammar]]
 ### Proposition
