@@ -12,3 +12,20 @@ then apply elementary reductions iteratively.
 
 well defined and associative in handout ! (also ORW notes)
 
+Let $i:S\to F(S)$ with $s_{\alpha}\to(s_{\alpha})$
+### Universal property of free groups
+For any group $H$, the function:
+$$
+\begin{align}
+\{ \text{gp hom } F(S)\to H \} & \to \{ \text{functions }\phi:S\to H \} \\
+\psi & \to \psi\circ i
+
+\end{align}
+$$
+is a bijection
+
+#### Proof
+Given $\phi:S\to H$ set 
+$$
+\psi((s_{\alpha_{1}}^{\epsilon_{1}},\dots s_{\alpha _{n}}^{\epsilon_{n}}))=\phi(s_{\alpha_{1}})^{\epsilon_{1}}\dots \phi(s_{\alpha_{n}})^{\epsilon_{n}}
+$$
