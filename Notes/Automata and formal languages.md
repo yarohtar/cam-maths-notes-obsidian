@@ -22,3 +22,4 @@
 
 
 [[Deterministic Automata]]
+[[Automata]]
