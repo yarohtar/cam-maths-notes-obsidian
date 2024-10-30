@@ -1,5 +1,5 @@
 Let $L\subseteq \mathbb{W}$ be a [[Formal Language]]
-We say $L$ satisfies the regular pumping lemma with pumping number $n$ if for every word $w\in L$ with $\lvert w \rvert\geq n$ there are words $x,y,z$ such tat $w=xyz$ and for all $k\in \mathbb{N}$ we have $xy^{k}z\in L$.
+We say $L$ satisfies the regular pumping lemma with pumping number $n$ if for every word $w\in L$ with $\lvert w \rvert\geq n$ there are words $x,y,z$ such tat $w=xyz$ and for all $k\in \mathbb{N}_{0}$ we have $xy^{k}z\in L$.
 
 ### Theorem
 For every [[Regular Formal Language]] $L$, there is a number $n$ st $L$ satisfies regular pumping lemma with pumping number $n$.
@@ -17,6 +17,6 @@ $\delta(q_{0},w_{1}\dots w_{i})=\delta(q_{0},w_{1}\dots w_{j})$
 (ie we returned to the same state)
 
 Now label $x=w_{1}\dots w_{i}$, $y=w_{i+1}\dots w_{j}$ and $z=w_{j+1}\dots w_{n}w'$
-and prove by induction that $xy^{k}z$ is still accepted.
+and prove by induction that $xy^{k}z$ is still accepted (starting from $k=0$!!!)
 
 (SHOULD BE MORE CAREFUL WITH INDICES)
