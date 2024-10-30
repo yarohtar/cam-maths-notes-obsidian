@@ -10,4 +10,8 @@ We claim $n=\lvert Q \rvert$.
 
 Take any $w\in L$ with $\lvert w \rvert\geq n$.
 
-By Pigeon Hole Principle, there are some $1\leq i<j\leq n$ 
+By Pigeon Hole Principle, there are some $0\leq i<j\leq n$ st
+$\delta(q_{0},w_{1}\dots w_{i})=\delta(q_{0},w_{1}\dots w_{j})$
+(ie we returned to the same state)
+
+Now label $x=w_{1}\dots w_{i-1}$
