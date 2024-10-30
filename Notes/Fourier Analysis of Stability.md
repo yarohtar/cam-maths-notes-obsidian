@@ -41,3 +41,7 @@ $$
 Then we would find the solutions to the equation $\lambda^{2}+b\lambda+c=0$ and see if they are both $\leq1$ for all $\theta$.
 
 Tricks like this are used for other multi-step methods.
+
+# More dimensions
+Suppose now that $u_{m,l}$ varies over two spatial coordinates. 
+Then the 
