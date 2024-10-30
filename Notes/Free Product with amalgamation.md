@@ -1,6 +1,7 @@
-$G_{1},G_{2}$ groups pre $G_{i}=\braket{ S_{i} | R_{i} }$ with $S_{1}\cap S_{2}=\emptyset$
-Free product of $G_{1}$ and $G_{2}$: $G_{1}*G_{2}=\braket{ S_{1}\cup S_{2} | R_{1}\cup R_{2} }$
-universal property gives $j_{i}:G_{i}\to G_{1}*G_{2}$
+Let $G_{1},G_{2}$ be groups presented as $G_{i}=\braket{ S_{i} | R_{i} }$ with $S_{1}\cap S_{2}=\emptyset$
+Define the free product of $G_{1}$ and $G_{2}$ as:
+$$G_{1}*G_{2}=\braket{ S_{1}\cup S_{2} | R_{1}\cup R_{2} }$$
+The universal property gives $j_{i}:G_{i}\to G_{1}*G_{2}$
 
 Suppose also $H$ is a group $i_{1}:H\to G_{1}$ and $i_{2}:H\to G_{2}$ group hom
 
