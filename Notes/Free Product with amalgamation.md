@@ -13,8 +13,8 @@ Induced maps also called $j_{i}:G_{i}\to G_{1}*_{H}G_{2}$
 
 ### Universal property of amalgamated free products
 For any group $K$, there is a bijection
-1. from gp homs $G_{1}*_{H}G_{2}\to K$ 
-2. to group homs $\phi_{1}:G_{1}\to K$ and $\phi_{2}:G_{2}\to K$ st $\phi_{1}\circ i_{1}=\phi_{2}\circ i_{2}$ 
+1. from group homomorphisms $\psi:G_{1}*_{H}G_{2}\to K$ 
+2. to group homomorphisms $\phi_{1}:G_{1}\to K$ and $\phi_{2}:G_{2}\to K$ st $\phi_{1}\circ i_{1}=\phi_{2}\circ i_{2}$ 
 given by $\psi\to(\phi_{1}=\psi \circ j_{1},\phi_{2}=\psi \circ j_{2})$
 #### Proof
 Just expand the definitions ... umm yea 
