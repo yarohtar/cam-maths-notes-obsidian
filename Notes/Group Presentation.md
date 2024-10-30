@@ -22,7 +22,7 @@ $$
 Suppose $\psi$, $\psi'$ give $\phi=\phi':S\to H$
 By [[Free Group#Universal property of free groups|the universal property of free groups]],
 $\psi\circ pr\braket{ S | R }=\psi'\circ pr\braket{ S | R }$
-(Consider $F(S)\to \braket{ S | R }\to H$)
+(Consider $F(S)\to_{pr} \braket{ S | R }\to_{\psi,\psi'} H$)
 As $pr\braket{ S | R }$ surjective have $\psi=\psi'$.
 
 Now assume $\phi:S\to H$ st the associated $\psi:F(S)\to H$ is st
