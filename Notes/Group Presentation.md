@@ -36,7 +36,8 @@ Every group has a presentation.
 #### Proof
 Let $H$ be a group and $\phi:G\to G$ the identity map. 
 Find the induced $\varphi:F(G)\to G$ homomorphism by [[Free Group#Universal property of free groups]].
-Let $R=Ker(\varphi)$. $\mathrm{Ker}\phi$
+Let $R=\mathrm{Ker}(\varphi)$. 
+Then $\phi$ induces a homomorphism $\psi:\braket{ G | R }\to G$ which is an isomorphism by
 
 ### Examples
 $G=\braket{ t |  }\cong\mathbb{Z}$
