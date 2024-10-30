@@ -23,8 +23,6 @@ Regular concatenation grammar RCG from $G=(\Sigma,V,S,P)$ and $G'=(\Sigma,V',S',
 Define $P^+=P'\cup P-\{ A\to a; A\to a\in P \}\cup \{ A\to aS';A\to a\in P \}$
 and get the new grammar $G^+ =(\Sigma,V\cup V',S,P^+)$
 ### Definition
-Regular union grammar RUG
-$P^+=P\cup P' \cup \{ T\to \alpha;S\to \alpha \in P \} \cup \{ T\to \alpha;S'\to \alpha \in P' \}$
 
 ### Proposition
 If $G,G'$ are regular and $V\cap V'=\emptyset$, then 
