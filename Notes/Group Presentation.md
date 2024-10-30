@@ -7,8 +7,8 @@ Data $(S,R)$ is called a presentation of the group (finite presentation if $S$ a
 For any group $H$, the function
 $$
 \begin{align}
-\{ \text{gp hom }\bar{\psi}:\braket{ S | R } \to H \} & \to \{\text{fn } \phi:S\to H \text{ st } \forall r\in R\ \psi(r)=e_{H} \} \\
-\bar\psi & \to \bar\psi\circ pr\braket{ S | R } 
+\{ \text{gp hom }{\psi}:\braket{ S | R } \to H \} & \to \{\text{fn } \phi:S\to H \text{ st } \forall r\in R\ \varphi(r)=e_{H} \} \\
+\psi & \to \psi\circ pr\braket{ S | R } |_{S}
 
 \end{align}
 $$
@@ -20,7 +20,7 @@ $$
 (Note that $\psi$ above is the natural homomorphism induced by $\phi$ in [[Free Group#Universal property of free groups]])
 
 #### Proof
-Suppose $\bar\psi$, $\bar\psi'$ give $\phi=\phi':S\to H$
+Suppose $\psi$, $\psi'$ give $\phi=\phi':S\to H$
 By [[Free Group#Universal property of free groups|the universal property of free groups]],
 $\psi\circ pr\braket{ S | R }=\psi'\circ pr\braket{ S | R }$
 (Consider $F(S)\to_{pr} \braket{ S | R }\to_{\psi,\psi'} H$)
