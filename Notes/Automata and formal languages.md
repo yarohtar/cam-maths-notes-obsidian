@@ -18,15 +18,6 @@
 [[Rewrite Systems]]
 [[Grammars]]
 
-### Definition
-Regular concatenation grammar RCG from $G=(\Sigma,V,S,P)$ and $G'=(\Sigma,V',S',P')$
-Define $P^+=P'\cup P-\{ A\to a; A\to a\in P \}\cup \{ A\to aS';A\to a\in P \}$
-and get the new grammar $G^+ =(\Sigma,V\cup V',S,P^+)$
-### Definition
 
-### Proposition
-If $G,G'$ are regular and $V\cap V'=\emptyset$, then 
-1. If $H$ RCG, then $\mathcal{L}(H)=\mathcal{L}(G)\mathcal{L}(G')$
-2. If $H$ RUG, then $\mathcal{L}(H)=\mathcal{L}(G)\cup \mathcal{L}(G')$
 
 [[Deterministic Automata]]
