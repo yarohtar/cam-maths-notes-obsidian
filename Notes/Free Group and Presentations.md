@@ -29,3 +29,9 @@ Given $\phi:S\to H$ set
 $$
 \psi((s_{\alpha_{1}}^{\epsilon_{1}},\dots s_{\alpha _{n}}^{\epsilon_{n}}))=\phi(s_{\alpha_{1}})^{\epsilon_{1}}\dots \phi(s_{\alpha_{n}})^{\epsilon_{n}}
 $$
+- If $(s_{\alpha_{1}}^{\epsilon_{1}}\dots,s_{\alpha_{n}}^{\epsilon_{n}})$ is not reduced: say it contains subword $(s_{\alpha},s_{\alpha}^{-1})$. Then the image contains $\phi(s_{\alpha})\phi(s_{\alpha})^{-1}=id_{H}$
+  So if two words related by element reduction, then $\psi$ has the same image
+- Group operation on $F(S)$ is concatenat+reduct, so $\psi$ is homomorphism
+
+### Definition
+$S$ set, $R\subseteq F(S)$. Let $\ll R\gg\unlhd F(S)$ be the smallest normal subgroup 
