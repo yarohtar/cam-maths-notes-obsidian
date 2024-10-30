@@ -63,3 +63,11 @@ Now assume $\phi:S\to H$ st the associated $\psi:F(S)\to H$ is st
 $\psi(r)=id_{H}$ for all $r\in R$. Then $R\subseteq Ker(\psi)$
 $Ker(\psi)\unlhd F(S)$, so $\ll R\gg \subseteq Ker(\psi)$ (by minimality)
 $\psi$ descends to well defined $\bar\psi:F(S) / \ll R\gg\to H$
+
+### Examples
+$G=\braket{ t |  }\cong\mathbb{Z}$
+$G=\braket{ a,b | ab^{-3},ba ^{-2} }\cong\mathbb{Z} /5$
+
+## Free products with amalgamation
+$G_{1},G_{2}$, $G_{i}=\braket{ S_{i} | R_{i} }$ with $S_{1}\cap S_{2=\emptyset}$
+Free product of $G_{1}$ and $G_{2}$: $G_{1}*G_{2}=\braket{ S_{1}\cup S_{2} | R_{1}\cup R_{2} }$
