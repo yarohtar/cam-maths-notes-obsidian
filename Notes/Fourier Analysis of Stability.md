@@ -44,4 +44,13 @@ Tricks like this are used for other multi-step methods.
 
 # More dimensions
 Suppose now that $u_{m,l}$ varies over two spatial coordinates. 
-Then the 
+Then the [[Fourier Transform]] is given by:
+$$
+\hat{u}(\theta,\psi)=\sum_{l,m\in \mathbb{Z}}u_{l,m}e^{-i(l\theta+m\psi)}
+$$
+and it is an isometry from $l_{2}(\mathbb{Z}^{2})$ to $L_{2}([-\pi,\pi]^{2})$
+ie:
+$$
+\sum_{l,m\in \mathbb{Z}}\lvert u_{l,m} \rvert ^{2}=\frac{1}{4\pi^{2}}\int_{-\pi}^{\pi}\int_{-\pi}^\pi \lvert \hat{u}(\theta,\psi) \rvert ^{2}d\theta d\psi
+$$
+Amplification factor $H(\theta,\psi)$ also naturally generalizes and we still require $\lvert H(\theta,\psi) \rvert$
