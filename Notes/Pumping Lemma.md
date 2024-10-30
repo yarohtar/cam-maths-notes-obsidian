@@ -19,4 +19,4 @@ $\delta(q_{0},w_{1}\dots w_{i})=\delta(q_{0},w_{1}\dots w_{j})$
 Now label $x=w_{1}\dots w_{i}$, $y=w_{i+1}\dots w_{j}$ and $z=w_{j+1}\dots w_{n}w'$
 and prove by induction that $xy^{k}z$ is still accepted.
 
-(SHOULD BE MORE CAREFU )
+(SHOULD BE MORE CAREFUL WITH INDICES)
