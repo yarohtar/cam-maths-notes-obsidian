@@ -33,42 +33,7 @@ $$
   So if two words related by element reduction, then $\psi$ has the same image
 - Group operation on $F(S)$ is concatenat+reduct, so $\psi$ is homomorphism
 
-### Definition
-$S$ set, $R\subseteq F(S)$. Let $\ll R\gg\unlhd F(S)$ be the smallest normal subgroup of $F(S)$ containing $R$ ie 
-$\braket{ S | R }=F(S) / \ll R\gg$ group with generates $S$ and relative $R$ 
-Data $(S,R)$ is called a presentation of the group (finite if $S$ and $R$ are finite sets)
-$\langle \langle R \rangle \rangle$
-
-### Universal property of group presentations
-For any group $H$, the function
-$$
-\begin{align}
-\{ \text{gp hom }\braket{ S | R } \to H \} & \to \{\text{fn } S\to H \text{ st } \psi(r)=id_{H} \forall r\in R\} \\
-\psi & \to \psi\circ pr\braket{ S | R } 
-
-\end{align}
-$$
-Where 
-$$
-pr\braket{ S | R } :F(S)\to F(S) / \ll R\gg
-$$
-is bijective.
-#### Proof
-Suppose $\psi$, $\psi'$ give $\phi=\phi':S\to H$
-By universal property of free groups,
-$\psi\circ pr\braket{ S | R }=\psi'\circ pr\braket{ S | R }$
-(Consider $F(S)\to \braket{ S | R }\to H$)
-As $pr\braket{ S | R }$ surjective have $\psi=\psi'$.
-
-Now assume $\phi:S\to H$ st the associated $\psi:F(S)\to H$ is st
-$\psi(r)=id_{H}$ for all $r\in R$. Then $R\subseteq Ker(\psi)$
-$Ker(\psi)\unlhd F(S)$, so $\ll R\gg \subseteq Ker(\psi)$ (by minimality)
-$\psi$ descends to well defined $\bar\psi:F(S) / \ll R\gg\to H$
-
-### Examples
-$G=\braket{ t |  }\cong\mathbb{Z}$
-$G=\braket{ a,b | ab^{-3},ba ^{-2} }\cong\mathbb{Z} /5$
-
+[[Group Presentation]]
 ## Free products with amalgamation
 $G_{1},G_{2}$, $G_{i}=\braket{ S_{i} | R_{i} }$ with $S_{1}\cap S_{2=\emptyset}$
 Free product of $G_{1}$ and $G_{2}$: $G_{1}*G_{2}=\braket{ S_{1}\cup S_{2} | R_{1}\cup R_{2} }$

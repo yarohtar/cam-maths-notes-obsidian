@@ -20,4 +20,4 @@ A cts function will be called a map.
 
 [[Galois Correspondence]]
 
-[[Free Group and Presentations]]
+[[Free Group]]
