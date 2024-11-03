@@ -18,12 +18,10 @@ $$
 $$
 
 
+[[Dual of l spaces]]
+
 ## Spanning
 Note that $\delta_{i}=(0,\dots, 0, 1, 0,\dots, 0)$ do not span $l_{p}$ but they do span the space of finite sequences $F$. We do get close because $l_{p}$ is the closure of $F$ for $1\leq p<\infty$. 
 This is FALSE for $p=\infty$, $e$.$g$. let $x=(1,1,1,\dots)$. 
 
-Also subspacces need not be closed - eg $F$ in $l_{1}$. Even have $F$ dense in $l_{1}$.
-
-## Dual
-
-[[Dual of l spaces]]
+Also subspaces need not be closed - eg $F$ in $l_{1}$. Even have $F$ dense in $l_{1}$.

@@ -5,6 +5,7 @@ For each $y\in l_{q}$, have $\phi_{y}\in l_{p}^{*}$ with $\phi_{y}(x)=x\cdot y$.
 Norm of $\phi_y$ is $\lVert y \rVert_{q}$.
 #### Proof
 Have $\lVert \phi_{y} \rVert\leq \lVert y \rVert_{q}$ ([[Hölder inequality]])
+
 Given $y\neq 0$ let $x_{n}=(y_{n})^{q/p}$ (the obvious choice, because we want it to converge in $l_{p}$)
 
 So $|x_{n}|^p=|y_{n}|^q$ so $x\in l_{p}$ with $\lVert x \rVert_{p}=\left( \sum|y_{n}|^q \right)^{1/p}=\lVert y \rVert_{q}^{q/p}$
