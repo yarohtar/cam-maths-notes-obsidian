@@ -3,9 +3,4 @@ The dual of $X$ is $X^{*}=L(X,\mathbb{R})$ the set of all linear functionals fro
 [[Isomorphism of Normed Spaces]]
 [[Isometric Isomorphism]]
 [[Banach-Mazur Distance]]
-
-### Theorem
-$X^*$ is complete.
-
-#### Proof
-[[Complete Linear Functionals]]
+[[Completeness of Dual Spaces]]
