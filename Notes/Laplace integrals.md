@@ -63,6 +63,7 @@ Set $s=[-x\phi''(c)]^{1/2}(t-c)$
 $$
 I_{1}\approx \frac{f(c)e^{ x\phi(c) }}{[-x\phi''(c)]^{1/2}}\int_{-[-x\phi''(c)]^{1/2}\epsilon}^{[-x\phi''(c)]^{1/2}\epsilon}e^{ -s^{2}/2 }ds
 $$
+Now change limits in the integral (later see that the induced error from this is very small):
 $$
 \begin{align}
 
