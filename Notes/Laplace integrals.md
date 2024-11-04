@@ -34,8 +34,27 @@ I(x)=\int_{c-\epsilon}^{c+\epsilon}f(t)e^{x\phi(t)}dt+\int_{\Omega_{\epsilon}}f(
 \end{gather}
 $$
 $$
-I_{2}=\int_{c+\epsilon}^b f(t)e^{ x\phi(t) }dt+\int_{a}^{c-\epsilon}f(t)e^{ x\phi(t) }dt=O\left( \frac{1}{x}e^{ x\phi(c+\epsilon) } \right)+O\left( \frac{1}{x}e^{ x\phi(c-\epsilon) } \right)
+\begin{align}
+
+I_{2} & =\int_{c+\epsilon}^b f(t)e^{ x\phi(t) }dt+\int_{a}^{c-\epsilon}f(t)e^{ x\phi(t) }dt \\
+ & =O\left( \frac{1}{x}e^{ x\phi(c+\epsilon) } \right)+O\left( \frac{1}{x}e^{ x\phi(c-\epsilon) } \right)
+\end{align}
 $$
 From the [[#Case monotonic]].
 
-Then $I_{2}\ll \frac{e^{ x }\phi(c)}{x}$ by noting that $\phi(c+\epsilon)<$
+Then $I_{2}\ll \frac{e^{ x }\phi(c)}{x}$ by noting that $\phi(c+\epsilon)<\phi(c)$ and $\phi(c-\epsilon)<\phi(c)$
+
+Now Taylor expand $f$ and $\phi$.
+$$
+\phi(t)=\phi(c) + \frac{1}{2}\phi''(c)(t-c)^{2}+\dots
+$$
+$$
+f(t)=f(c)+O(t-c)
+$$
+
+$$
+\begin{align}
+I_{1} & =\int_{c-\epsilon}^{c+\epsilon}[f(c)+\dots]\exp\left( x\phi(c)+\frac{1}{2}x\phi''(c)(t-c)^2+\dots \right) dt \\
+I_{1} & \approx f(c)e^{ x\phi(c) }\int_{c-\epsilon}^{c+\epsilon}
+\end{align}
+$$
