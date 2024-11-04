@@ -96,3 +96,11 @@ $\phi(u)=-\frac{u}{2}-\frac{1}{2u}$ with max at $u=1$
 $$
 K_{0}\sim \frac{\sqrt{ 2\pi x }}{2}e^{ -x }
 $$
+### Example
+If $\phi$ has one internal maximum and the same max at one of the endpoints.
+Then the first order term contribution of the internal maximum dominates because endpoint $\sim \frac{e^{x\phi(b)}}{x}$ while internal is $\sim \frac{e^{x\phi(c)}}{\sqrt{ x }}$.
+
+### Example
+If $\phi$ has many internal local maxima, then only the absolute max matters. For multiple absolute maximums, we just add them up.
+
+
