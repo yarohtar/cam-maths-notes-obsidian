@@ -128,5 +128,7 @@ I\sim \frac{(p!)^{1/p}}{[-x\phi^{(p)}(c)]^{1/p}}f(c)e^{ x\phi(c) }\int_{-\infty}
 $$
 But the integral is just $\Gamma\left( 1+\frac{1}{p} \right)$ so 
 $$
-I\sim 
+I\sim 2\frac{(p!)^{1/p}}{[-x\phi^{(p)}(c)]^{1/p}}f(c)e^{ x\phi(c) }\Gamma\left( 1+\frac{1}{p} \right)
 $$
+(idk where the 2 came from)
+
