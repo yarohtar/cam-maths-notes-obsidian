@@ -132,3 +132,8 @@ I\sim 2\frac{(p!)^{1/p}}{[-x\phi^{(p)}(c)]^{1/p}}f(c)e^{ x\phi(c) }\Gamma\left( 
 $$
 (idk where the 2 came from)
 
+### Higher order terms?
+Plug in longer Taylor expansions .... wasn't done in lectures, see https://www.vle.cam.ac.uk/pluginfile.php/28347540/mod_resource/content/1/am_notes.pdf
+Section 3.4.4
+
+If $f(c)=0$ then we NEED higher order terms
