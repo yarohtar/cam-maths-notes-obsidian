@@ -109,3 +109,16 @@ $$
 \sim\frac{1}{2} \frac{f(b)e^{ x\phi(b) }}{[-x\phi''(b)]^{1/2}} \sqrt{ 2\pi }
 $$
 (this is done by doing the same manipulation as in [[#Case one max]] but the last integral is from $-\infty$ to $0$)
+
+### "Wide" maximum
+Suppose 
+$$
+\phi'(c)=\phi''(c)=\dots=\phi^{(p-1)}(c)=0
+$$
+but $\phi^{(p)}(c)\neq 0$
+
+Proceed as in previous case but get:
+
+$$
+I\sim \int_{c-\epsilon}^{c+\epsilon}f(t) e^{ x\phi(c) } e^{ x\phi^{(p)} }
+$$
