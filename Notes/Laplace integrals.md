@@ -123,3 +123,10 @@ $$
 I\sim \int_{c-\epsilon}^{c+\epsilon}f(t) e^{ x\phi(c) } e^{ x\phi^{(p)}(c) } \frac{(t-c)^{p}}{p!}
 $$
 Let $s=\left[ -\frac{x\phi^{(p)}(c)}{p!} \right]^{1/p}(t-c)$
+$$
+I\sim \frac{(p!)^{1/p}}{[-x\phi^{(p)}(c)]^{1/p}}f(c)e^{ x\phi(c) }\int_{-\infty}^{\infty}e^{-s ^{p}}ds
+$$
+But the integral is just $\Gamma\left( 1+\frac{1}{p} \right)$ so 
+$$
+I\sim 
+$$
