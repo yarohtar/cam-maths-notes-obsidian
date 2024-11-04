@@ -55,6 +55,15 @@ $$
 $$
 \begin{align}
 I_{1} & =\int_{c-\epsilon}^{c+\epsilon}[f(c)+\dots]\exp\left( x\phi(c)+\frac{1}{2}x\phi''(c)(t-c)^2+\dots \right) dt \\
-I_{1} & \approx f(c)e^{ x\phi(c) }\int_{c-\epsilon}^{c+\epsilon}
+I_{1} & \approx f(c)e^{ x\phi(c) }\int_{c-\epsilon}^{c+\epsilon}e^{ x }\phi''(c)(t-c)^{2} / 2dt \\
+
 \end{align}
+$$
+Set $s=[-x\phi''(c)]^{1/2}(t-c)$
+$$
+I_{1}\approx \frac{f(c)e^{ x\phi(c) }}{[-x\phi''(c)]^{1/2}}\int_{-[-x\phi''(c)]^{1/2}\epsilon}^{[-x\phi''(c)]^{1/2}\epsilon}e^{ -s^{2}/2 }ds
+$$
+$$
+I_{1}\sim \frac{f(c)e^{x\phi(c)}}{[-x\phi''(c)]^{1/2}}\int_{-\infty}^{\infty}e^{ -s^{2}/2 }ds
+I_{1}\sim f(c)e^{x\phi(c)} ()
 $$
