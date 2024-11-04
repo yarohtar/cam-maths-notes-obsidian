@@ -77,3 +77,9 @@ So error $\sim \frac{1}{[-x\phi''(c)]^{1/2}}\exp\left( -\frac{x^{2}\phi''(c)}{\l
 So error is exponentially small
 
 So $I_{1}\gg I_{2}$ so $I\sim I_{1}$
+
+### Example
+$$
+K_{0}(x)=\int_{0}^{\infty}\exp\left( -t-\frac{x^{2}}{4t} \right)dt
+$$
+Taking $\phi$
