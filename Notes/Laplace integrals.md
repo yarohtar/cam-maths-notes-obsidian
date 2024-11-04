@@ -120,5 +120,6 @@ but $\phi^{(p)}(c)\neq 0$
 Proceed as in previous case but get:
 
 $$
-I\sim \int_{c-\epsilon}^{c+\epsilon}f(t) e^{ x\phi(c) } e^{ x\phi^{(p)} }
+I\sim \int_{c-\epsilon}^{c+\epsilon}f(t) e^{ x\phi(c) } e^{ x\phi^{(p)}(c) } \frac{(t-c)^{p}}{p!}
 $$
+Let $s=\left[ -\frac{x\phi^{(p)}(c)}{p!} \right]^{1/p}(t-c)$
