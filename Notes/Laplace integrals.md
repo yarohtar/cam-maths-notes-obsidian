@@ -33,3 +33,9 @@ I(x)=\int_{c-\epsilon}^{c+\epsilon}f(t)e^{x\phi(t)}dt+\int_{\Omega_{\epsilon}}f(
 =I_{1}+I_{2}
 \end{gather}
 $$
+$$
+I_{2}=\int_{c+\epsilon}^b f(t)e^{ x\phi(t) }dt+\int_{a}^{c-\epsilon}f(t)e^{ x\phi(t) }dt=O\left( \frac{1}{x}e^{ x\phi(c+\epsilon) } \right)+O\left( \frac{1}{x}e^{ x\phi(c-\epsilon) } \right)
+$$
+From the [[#Case monotonic]].
+
+Then $I_{2}\ll \frac{e^{ x }\phi(c)}{x}$ by noting that $\phi(c+\epsilon)<$
