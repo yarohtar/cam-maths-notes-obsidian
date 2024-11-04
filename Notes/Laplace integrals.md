@@ -103,4 +103,9 @@ Then the first order term contribution of the internal maximum dominates because
 ### Example
 If $\phi$ has many internal local maxima, then only the absolute max matters. For multiple absolute maximums, we just add them up.
 
-
+### Example
+If $\phi$ has an absolute AND a local maximum at an endpoint, the contribution is now 
+$$
+\sim\frac{1}{2} \frac{f(b)e^{ x\phi(b) }}{[-x\phi''(b)]^{1/2}} \sqrt{ 2\pi }
+$$
+(this is done by doing the same manipulation as in [[#Case one max]] but the last integral is from $-\infty$ to $0$)
