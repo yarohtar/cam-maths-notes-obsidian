@@ -64,6 +64,16 @@ $$
 I_{1}\approx \frac{f(c)e^{ x\phi(c) }}{[-x\phi''(c)]^{1/2}}\int_{-[-x\phi''(c)]^{1/2}\epsilon}^{[-x\phi''(c)]^{1/2}\epsilon}e^{ -s^{2}/2 }ds
 $$
 $$
-I_{1}\sim \frac{f(c)e^{x\phi(c)}}{[-x\phi''(c)]^{1/2}}\int_{-\infty}^{\infty}e^{ -s^{2}/2 }ds
-I_{1}\sim f(c)e^{x\phi(c)} ()
+\begin{align}
+
+I_{1} & \sim \frac{f(c)e^{x\phi(c)}}{[-x\phi''(c)]^{1/2}}\int_{-\infty}^{\infty}e^{ -s^{2}/2 }ds \\
+
+I_{1} & \sim f(c)e^{x\phi(c)} \left( \frac{2\pi}{-x\phi''(c)} \right)^{1/2}
+\end{align}
 $$
+Error induced by changing limits ? 
+Recall $\int_{\xi}^{\infty}e^{-t^{2}/2}dt\sim \frac{1}{\xi}e^{-\xi^{2}/2}$ as $\xi\to \infty$
+So error $\sim \frac{1}{[-x\phi''(c)]^{1/2}}\exp\left( -\frac{x^{2}\phi''(c)}{\lvert x\phi''(c) \rvert} \right)$
+So error is exponentially small
+
+So $I_{1}\gg I_{2}$ so $I\sim I_{1}$
