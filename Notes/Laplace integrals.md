@@ -82,4 +82,17 @@ So $I_{1}\gg I_{2}$ so $I\sim I_{1}$
 $$
 K_{0}(x)=\int_{0}^{\infty}\exp\left( -t-\frac{x^{2}}{4t} \right)dt
 $$
-Taking $\phi$
+Taking $\phi(t)=-\frac{1}{4t}$ doesn't work because $\phi$ has no internal maxima.
+
+Taking $\psi(t)=-t-\frac{x^{2}}{4t}$ we find max at $t=\frac{x}{2}$ but this is not good because it depends on $x$.
+
+This motivates substitution $xu=2t$, $xdu=2dt$
+So
+$$
+K_{0}=\frac{x}{2}\int_{0}^{\infty}\exp\left( x\left( -\frac{u}{2}-\frac{1}{2u} \right) \right)du
+$$
+$\phi(u)=-\frac{u}{2}-\frac{1}{2u}$ with max at $u=1$
+
+$$
+K_{0}\sim \frac{\sqrt{ 2\pi x }}{2}e^{ -x }
+$$
