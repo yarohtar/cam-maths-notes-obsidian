@@ -25,7 +25,7 @@ If $\phi'(t)<0$ and $f(a)\neq 0$
 $$
 \implies I(x)\sim  \frac{f(a)e^{x\phi(a)}}{x\lvert \phi'(a) \rvert }
 $$
-### Case one max
+### Case one local max
 Suppose $\phi$ has one internal maximum at $t=c$ (and this is the absolute maximum) st $\phi'(c)=0$ and $\phi''(c)<0$ and $f(c)\neq 0$.
 $$
 \begin{gather}
