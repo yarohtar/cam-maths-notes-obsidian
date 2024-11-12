@@ -10,3 +10,12 @@ $f_{n}$ simple, $f$ simple
 ##### Case 4
 $f_{n}$ simple, $f$ measurable $\geq 0$
 ##### Case 5
+$f_{n}$ measurable, $f$ measurable, both $\geq 0$
+
+
+### Proposition
+Let $(g_{n})$ be a sequence of nonnegative measurable functions.
+Then:
+$$
+\sum_{n=1}^{\infty} \mu(g_{n})=\mu\left( \sum_{n=1}^{\infty} g_{n} \right)
+$$
