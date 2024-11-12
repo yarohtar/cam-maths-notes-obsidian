@@ -8,4 +8,4 @@ For sequences,
 $$
 \lim \sup x_{n}=\lim_{ n \to \infty } \sup_{m\geq n}x_{m}
 $$
-ie 
+ie limit of "peaks" that keep appearing up to infinity.
