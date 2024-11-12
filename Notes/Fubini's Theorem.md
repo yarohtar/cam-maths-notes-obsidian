@@ -1,0 +1,1 @@
+Let $E=E_{1}\times E_{2}$ with the [[Product measure]]

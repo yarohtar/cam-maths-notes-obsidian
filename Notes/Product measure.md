@@ -1,0 +1,1 @@
+Let $E=E_{1}\times E_{2}$ where $(E_{1},\mathcal{E}_{1},\mu_{1})$ and $(E_{2},\mathcal{E}_{2},\mu_{2})$ are [[Measure]] spaces with [[Product sigma algebra]]
