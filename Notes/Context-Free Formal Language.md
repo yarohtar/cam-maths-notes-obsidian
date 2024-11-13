@@ -12,3 +12,7 @@ The product rules we need to kick out are:
 3. very bad productions $A\to \alpha$ where $\lvert \alpha \rvert\geq 2$ but $\alpha$ contains terminal symbols.
 First kick the very bad productions out easily. 
 Then add unit closure rules (for every $A\to B$ and $B\to \alpha$ add rule $A\to \alpha$) and prove that removing unit productions from a unit closed grammar doesn't change the language.
+Then remove the bad productions by introducing a bunch of new variables for each of the bad productions and sticking them together. 
+
+### Lemma
+[[Context-Free Pumping Lemma]]
