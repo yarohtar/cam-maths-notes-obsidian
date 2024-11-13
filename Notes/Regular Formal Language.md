@@ -11,4 +11,4 @@ TFAE:
 3. $L=\mathcal{L}(N)$ for $N$ [[Nondeterministic Automata]]
 
 ### Lemma
-[[Pumping Lemma]]
+[[Regular Pumping Lemma]]

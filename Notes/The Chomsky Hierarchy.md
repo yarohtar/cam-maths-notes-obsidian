@@ -11,6 +11,7 @@ Type 2: $\mathcal{L}(G)$ for context-free $G$
 Type 3: $\mathcal{L}(G)$ for regular $G$ 
 
 [[Regular Formal Language]]
+[[Context-Free Formal Language]]
 
 ### Example
 $L=\{ 0^{n}1^{n}:n>0 \}$ is context-free, not regular.
@@ -18,5 +19,5 @@ $L=\{ 0^{n}1^{n}:n>0 \}$ is context-free, not regular.
 ##### Contextfree
 $S\to 0S 1$ and $S\to 01$ produces $L$
 ##### Not regular
-Suppose it is. Then it satisfies [[Pumping Lemma]]. 
+Suppose it is. Then it satisfies [[Regular Pumping Lemma]]. 
 But clearly it doesn't. 
