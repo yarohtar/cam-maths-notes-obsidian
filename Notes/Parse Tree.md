@@ -2,7 +2,7 @@ Given a set of variables $V$ and a set of terminal symbols $\Sigma$, a parse tre
 1. if $v\in T$ is a leaf then $\ell(v)\in \Sigma$
 2. if $v\in T$ is not a leaf then $\ell(v)\in V$
 
-We always look at this tree as being rooted at the top and then having a notion of left to right. For example, if $G$ is a [[Grammars]] and the parse tree "respects" $G$ and say $S\to ABC$ is a rewrite rule, then $A$ is the leftmost descendent of $S$, $B$ is the middle descendent of $S$, while $C$ is the rightmost descendent of $S$. 
+We always look at this tree as being rooted at the top and then having a notion of left to right. For example, if $G$ is a [[Grammar]] and the parse tree "respects" $G$ and say $S\to ABC$ is a rewrite rule, then $A$ is the leftmost descendent of $S$, $B$ is the middle descendent of $S$, while $C$ is the rightmost descendent of $S$. 
 
 (ADD PICTURE)
 

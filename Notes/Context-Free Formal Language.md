@@ -1,3 +1,8 @@
-A context-free formal language or a Type 2 language ([[The Chomsky Hierarchy]]) is produced by the rules $A\to \alpha$ where $A$ is a variable, and $\lvert \alpha \rvert\geq 1$. ([[Grammars]])
+A context-free formal language or a Type 2 language ([[The Chomsky Hierarchy]]) is produced by the rules $A\to \alpha$ where $A$ is a variable, and $\lvert \alpha \rvert\geq 1$. ([[Grammar]])
 
-For a context free grammar $G$ and any word $w\in L(G)$ there is a (not necessarily unique) [[Parse Tree]]
+### Proposition
+For a context free grammar $G$ and any word $w\in L(G)$ there is a (not necessarily unique) [[Parse Tree]] $T$ such that $\sigma_{T}=w$.
+
+### Theorem
+Every context free grammar $G$ has a 
+[[Chomsky Normal Form]]

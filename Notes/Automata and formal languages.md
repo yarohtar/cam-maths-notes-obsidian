@@ -17,7 +17,7 @@
 
 [[Rewrite Systems]]
 [[Formal Language]]
-[[Grammars]]
+[[Grammar]]
 
 [[The Chomsky Hierarchy]]
 
