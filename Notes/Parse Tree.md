@@ -1,0 +1,1 @@
+Given a set of variables $V$ and a set of terminal symbols $\Sigma$, a parse tree is a tree $T$ with labelling $\ell$ 
