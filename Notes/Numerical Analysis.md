@@ -21,3 +21,4 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Fourier Analysis of Stability]]
 [[Splitting]]
 [[Kronecker Product]]
+[[Spectral Numerical Methods]]
