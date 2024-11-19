@@ -22,3 +22,4 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Splitting]]
 [[Kronecker Product]]
 [[Spectral Numerical Methods]]
+[[Chebyshev Polynomials]]
