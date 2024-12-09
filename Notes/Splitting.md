@@ -29,5 +29,6 @@ u(t)=e^{tA}u(0)+\int_{0}^te^{(t-s)A}b(s)ds
 $$
 we can approximate this by:
 $$
-u^{n+1}=e^{kA}
+u^{n+1}=e^{kA}u^{n}+\frac{1}{2}k[e^{kA}b(t_{n})+b(t_{n+1})]
 $$
+and then use the splitting.
