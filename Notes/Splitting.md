@@ -15,4 +15,19 @@ $$
 r(z)=\left( 1+\frac{z}{2} \right)\left( 1-\frac{z}{2} \right)^{-1}
 $$
 to approximate the exponential.
-where the inverse is calculated in $O(M^2)$ due to its nice structure (block diagonal with tridiagonal blocks) 
+where the inverse is calculated in $O(M^2)$ due to its nice structure (block diagonal with tridiagonal blocks). Note that in $A_{x}$ we first need to appropriately permute the rows and columns to make it nice.
+
+### Inhomogeneous case
+The above works for zero boundary conditions. If that was not the case, we would have something like:
+$$
+u'=Au+b
+$$
+where $b(t)$ originates from the boundary conditions.
+The exact solution for this is:
+$$
+u(t)=e^{tA}u(0)+\int_{0}^te^{(t-s)A}b(s)ds
+$$
+we can approximate this by:
+$$
+u^{n+1}=e^{kA}
+$$
