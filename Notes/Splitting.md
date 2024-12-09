@@ -1,10 +1,3 @@
-Suppose we use some numerical scheme in the spatial coordinates and get
-$$
-u'=Au
-$$
-We might be tempted to say $u=e^{tA}u$, and then $u^{n+1}=e^{tA}u^{n}$
-Unfortunately, computing and controlling the error of $e^{tA}$ is complicated in general, however for some special cases we might get lucky.
-
 Suppose $A=B+C$
 Then
 $$
@@ -15,6 +8,10 @@ If $B$ and $C$ commute, then $e^{tA}=e^{tB}e^{ tC }$
 Taylor expand.
 
 ### Splitting
+Now suppose we are solving the diffusion equation 
+$$
+u_{t}=u_{x x} u_{y y}
+$$
 
 This allows for writing:
 $$
@@ -26,4 +23,4 @@ r(z)=\left( 1+\frac{z}{2} \right)\left( 1-\frac{z}{2} \right)^{-1}
 $$
 to approximate the exponential.
 
-In particular in the case of [[Crank-Nicolson method for diffusion equation]]
+In particular in the case of [[Numerical Methods for Diffusion Equation]]
