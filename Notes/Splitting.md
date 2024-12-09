@@ -1,16 +1,14 @@
-Suppose $A=B+C$
-Then
+Suppose we are solving the diffusion equation 
 $$
-e^{ tA }=e^{ tB }e^{ tC }+\frac{1}{2}t^{2}(CB-BC)+O(t^{3})
+u_{t}=u_{x x}+ u_{y y}
 $$
-If $B$ and $C$ commute, then $e^{tA}=e^{tB}e^{ tC }$
-#### Proof
-Taylor expand.
-
-### Splitting
-Now suppose we are solving the diffusion equation 
+Using the 5-point method, we get:
 $$
-u_{t}=u_{x x} u_{y y}
+u_{t}=\frac{1}{h^{2}}(A_{x}+A_{y})u
+$$
+Now as $A_{x}$ and $A_{y}$ commute, using [[Product of matrix exponentials]] we can write the following numerical scheme:
+$$
+u^{n+1}=e^{k(A_{x}+A_{y})/h^{2}}u^n=e^{}
 $$
 
 This allows for writing:
