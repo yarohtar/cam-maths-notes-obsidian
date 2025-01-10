@@ -22,4 +22,10 @@ $$
 \end{cases}
 $$
 
-What's more, they will form a complete set of orthogonal 
+What's more, they will form a complete set of orthogonal functions that will span the space. 
+
+### Algebra
+Product:
+$$
+T_{m}(x)T_{n}(x)=\frac{1}{2}(T_{n})
+$$
