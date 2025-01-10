@@ -11,4 +11,5 @@ In general, this does not exist, because there is no reason for $u$ to be in thi
 $$
 \sum_{n=1}^Nc_{n}\braket{ \mathcal{L}\psi_{n} | \psi_{m} } =\braket{ f | \psi_{m} }
 $$
-[[Four]]
+Now we just need to pick our $\psi_{m}$ and ideally an inner product where they are orthogonal. 
+We can use [[Fourier Series]] or [[Chebyshev Polynomials]]
