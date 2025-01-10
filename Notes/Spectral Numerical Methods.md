@@ -13,3 +13,7 @@ $$
 $$
 Now we just need to pick our $\psi_{m}$ and ideally an inner product where they are orthogonal. 
 We can use [[Fourier Series]] or [[Chebyshev Polynomials]]
+
+LECTURE 15 GIVES PDE EXAMPLES
+
+For Chebyshev expansion, in general, boundary conditions may be a problem. 
