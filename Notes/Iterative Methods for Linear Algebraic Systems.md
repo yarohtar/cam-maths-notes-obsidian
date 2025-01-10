@@ -37,4 +37,4 @@ So we want to approximate $A^{-1}$ with $(A-B)^{-1}$.
 [[Jacobi Method]]
 [[Gauss-Seidel Method]]
 
-[[The Householder-John]]
+[[The Householder-John Theorem]]

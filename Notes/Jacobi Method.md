@@ -12,3 +12,7 @@ If $A$ is [[Strictly diagonally dominant]], then the Jacobi method converges.
 #### Proof
 Lecture 17
 
+### Theorem
+If both $A$ and $2D-A$ are symmetric positive definite, then Jacobi method converges
+#### Proof
+Use [[The Householder-John Theorem]].

@@ -10,6 +10,11 @@ So $H_{GS}=-(L_{0}+U)^{-1}U_{0}$
 
 Note that there is no need to calculate the inverse explicitly, because we can calculate the components of $x^{k+1}$ by forward substitution.
 ### Theorem
-If $A$ is [[Strictly diagonally dominant]], then the Gauss-Seidel converges.
+If $A$ is [[Strictly diagonally dominant]], then the Gauss-Seidel method converges.
 #### Proof
 Lecture 17
+
+### Theorem
+If $A$ is symmetric positive definite, then the Gauss-Seidel method converges.
+#### Proof
+Use [[The Householder-John Theorem]].
