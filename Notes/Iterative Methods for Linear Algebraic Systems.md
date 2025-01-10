@@ -31,4 +31,8 @@ Take now:
 $$
 (A-B)x^{k+1}=-Bx^{k}+b
 $$
-with the iteration matrix $H=-(A-B)^{-1}B$. 
+with the iteration matrix $H=-(A-B)^{-1}B=I-(A-B)^{-1}A$
+So we want to approximate $A^{-1}$ with $(A-B)^{-1}$.
+
+[[Jacobi Method]]
+[[Gauss-Seidel Method]]
