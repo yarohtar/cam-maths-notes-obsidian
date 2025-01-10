@@ -27,5 +27,12 @@ What's more, they will form a complete set of orthogonal functions that will spa
 ### Algebra
 Product:
 $$
-T_{m}(x)T_{n}(x)=\frac{1}{2}(T_{n})
+T_{m}(x)T_{n}(x)=\frac{1}{2}(T_{\lvert m-n \rvert}(x)+T_{m+n}(x))
+$$
+Derivatives:
+$$
+T'_{2n}=(2n)\cdot 2\sum_{k=1}^{n}T_{2k-1}(x)
+$$
+$$
+T'_{2n+1}(x)=(2n+1)\left[ T_{0}(x)+2\sum_{k=1}^{n} T_{2k}(x) \right]
 $$
