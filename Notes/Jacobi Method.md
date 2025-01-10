@@ -7,3 +7,8 @@ Dx^{k+1}=-(L_{0}+U_{0})x^{k}+b
 $$
 so $H_{J}=-D^{-1}(L_{0}+U_{0})$
 
+### Theorem
+If $A$ is [[Strictly diagonally dominant]], then the Jacobi method converges.
+#### Proof
+Lecture 17
+

@@ -10,4 +10,6 @@ So $H_{GS}=-(L_{0}+U)^{-1}U_{0}$
 
 Note that there is no need to calculate the inverse explicitly, because we can calculate the components of $x^{k+1}$ by forward substitution.
 ### Theorem
-If $A$ is [[Strictly diagonally dominant]]
+If $A$ is [[Strictly diagonally dominant]], then the Gauss-Seidel converges.
+#### Proof
+Lecture 17
