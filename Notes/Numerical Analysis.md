@@ -21,5 +21,7 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Fourier Analysis of Stability]]
 [[Splitting]]
 [[Kronecker Product]]
+missing some stuff around lecture 10 where he starts exponentiating matrices
 [[Spectral Numerical Methods]]
 [[Chebyshev Polynomials]]
+[[Numerical Linear Algebra]]
