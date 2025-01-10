@@ -17,3 +17,18 @@ Standard terminology:
 We want the method to converge for any starting value of $x_{0}$.
 So we want $e^k\to 0$ for any $e^0$
 So we want $H^ke^0\to 0$ for any $e^0 \in \mathbb{R}^n$
+So we want $\rho(H)<1$.
+
+### Iterative refinement
+By writing
+$$
+x^{k+1}=x^{k}-S(Ax^{k}-b)
+$$
+we see that $S=A^{-1}$ immediately solves the equation. So we want to find $S$ which approximates $A^{-1}$. This will give an iteration matrix $H_{S}=I-SA$.
+
+### Splitting
+Take now:
+$$
+(A-B)x^{k+1}=-Bx^{k}+b
+$$
+with the iteration matrix $H=-(A-B)^{-1}B$. 
