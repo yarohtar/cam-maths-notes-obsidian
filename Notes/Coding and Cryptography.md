@@ -12,5 +12,6 @@ Given a source and a channel (described probabilistically) we aim to design an e
 3. and maybe to preserve privacy
 # 
 -----
-
+[[Communication Channel]]
 [[Discrete Memoryless Channel]]
+[[Channel Matrix]]
