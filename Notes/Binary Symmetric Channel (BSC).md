@@ -5,4 +5,4 @@ $$
 p & 1-p
 \end{pmatrix}
 $$
-ie $p$ i
+ie $p$ is probability a symbol is mistransmitted.
