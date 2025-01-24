@@ -6,3 +6,4 @@ A Haynal and P. Hamburger Set theory
 T. Jech Set Theory
 (J. Longley: Castles in the air)
 
+[[Propositional Logic]]
