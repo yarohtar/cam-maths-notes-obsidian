@@ -15,3 +15,6 @@ Given a source and a channel (described probabilistically) we aim to design an e
 [[Communication Channel]]
 [[Discrete Memoryless Channel (DMC)]]
 [[Channel Matrix]]
+[[Noiseless Coding]]
+[[Error-control codes]]
+[[Cryptography]]
