@@ -4,3 +4,5 @@ The language of propositional logic consists of a set $P$ of primitive propositi
 3. if $p,q\in L$ then $(p \implies q)\in L$
 
 [[Valuation (Propositional Logic)]]
+[[Tautology]]
+[[Abbreviations in Propositional Logic]]
