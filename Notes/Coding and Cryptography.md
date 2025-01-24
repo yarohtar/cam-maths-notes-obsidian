@@ -10,4 +10,7 @@ Given a source and a channel (described probabilistically) we aim to design an e
 1. economically
 2. reliably
 3. and maybe to preserve privacy
+# 
+-----
 
+[[Discrete Memoryless Channel]]
