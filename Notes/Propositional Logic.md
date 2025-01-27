@@ -7,3 +7,6 @@ The language of propositional logic consists of a set $P$ of primitive propositi
 [[Tautology]]
 [[Abbreviations in Propositional Logic]]
 [[Semantic Entailment]]
+[[True]]
+[[Model]]
+[[Syntactic Entailment]]
