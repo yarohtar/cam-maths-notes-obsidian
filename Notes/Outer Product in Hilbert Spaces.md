@@ -11,6 +11,6 @@ b_{1}^{*} & \dots & b_{n}^{*}
 =
 \begin{pmatrix}
 a_{1}b_{1}^{*} & \dots & a_{1}b_{n}^{*} \\
-\vdots \\ &  & \vdots
+\vdots &  & \vdots \\
 a_{n}b_{1}^{*} & \dots & a_{n}b_{n}^{*}
 \end{pmatrix}$$
