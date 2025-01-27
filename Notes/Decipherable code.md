@@ -3,3 +3,4 @@ A [[Code]] $f$ is decipherable if $f^{*}$ is injective, i.e. every string from $
 ### Example
 For $f$ injective and prefix-free, the code is decipherable.
 [[Kraft's inequality]]
+[[McMillan's Theorem]]
