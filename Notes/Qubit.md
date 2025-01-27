@@ -1,0 +1,1 @@
+Any quantum system s.t. $\mathcal{H}\simeq \mathbb{C}^{2}$ is called a qubit. This is the fundamental unit of quantum 

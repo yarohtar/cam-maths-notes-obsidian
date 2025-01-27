@@ -10,6 +10,9 @@ where $b_{l}$ is the number of ways of choosing $r$ codewords with total length 
 $f$ decipherable $\implies b_{l}\leq \lvert \Sigma_{2}^l \rvert=a^l$
 Then
 $$
-\left( \sum_{i=1}^{N}  \right)^r\leq \sum_{i=1}^{rs}a^la^{-l}=rs
+\left( \sum_{i=1}^{m}a^{-s_{i}}  \right)^r\leq \sum_{i=1}^{rs}a^la^{-l}=rs
 $$
-Goes to 1 as $r\to \infty$
+Taking $r\to \infty$ we find:
+$$
+\sum_{i=1}^{m} a^{-s_{i}}\leq 1
+$$
