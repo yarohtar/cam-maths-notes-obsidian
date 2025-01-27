@@ -14,5 +14,7 @@ Given $S\subseteq L$ and $t\in L$, a proof of $t$ from $S$ is a finite sequence 
 2. or $t_{i}\in S$ (premiss or hypothesis)
 3. or $t_{i}$ is obtained by modus ponens from earlier lines:
 $$
-\exists j,k<i \text{ s.t. } t_{k}=(t_{j})
+\exists j,k<i \text{ s.t. } t_{k}=(t_{j}\implies t_{i})
 $$
+Say $S$ proves $t$ or $S$ syntactically entails $t$ if there's a proof of $t$ from $S$. Then we write $S\vdash t$.
+[[Theorem]]
