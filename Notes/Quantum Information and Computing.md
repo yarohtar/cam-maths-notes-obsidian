@@ -4,3 +4,4 @@ Notes on moodle
 
 [[Hilbert Spaces (PQM)]]
 [[Qubit]]
+[[Tensor Product of Hilbert Spaces]]
