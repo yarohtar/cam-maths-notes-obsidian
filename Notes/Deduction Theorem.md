@@ -35,8 +35,18 @@ $$
 3. If $\exists j,k<i$ s.t. $t_{k}=(t_{j}\implies t_{i})$
    By induction we can write down proofs of $(p \implies t_{j})$ and $(p \implies(t_{j}\implies t_{i}))$ from $S$. We add the lines:
    $$
+   \begin{align}
 (p \implies(t_{j}\implies t_{i}))\implies((p \implies t_{j})\implies(p \implies t_{i}))\quad %quad
 \quad %quad
-\text{(A2)}
-
+ & \text{(A2)} \\
+(p \implies t_{j}) \implies( p \implies t_{i})\quad %quad
+\quad %quad
+ & \text{(MP)} \\
+p \implies t_{i}\quad %quad
+\quad %quad
+ & \text{(MP)}
+\end{align}
 $$
+to obtain a proof of $p \implies t_{i}$ from $S$.
+
+

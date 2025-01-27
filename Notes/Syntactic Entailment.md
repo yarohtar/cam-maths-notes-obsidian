@@ -19,3 +19,4 @@ $$
 Say $S$ proves $t$ or $S$ syntactically entails $t$ if there's a proof of $t$ from $S$. Then we write $S\vdash t$.
 [[Theorem]]
 [[Deduction Theorem]]
+[[Soundness Theorem]]
