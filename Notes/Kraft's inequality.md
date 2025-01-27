@@ -5,3 +5,5 @@ $$
 $$
 #### Proof
 Consider an $\infty$ tree where each node has descendants labelled by the elements of $\Sigma_{2}$. Each codeword corresponds to a node, the path from the root to this node spelling out the codeword.
+
+Assuming $f$ is prefix-free, no codeword is the ancestor of any other. Now view the tree as a network with water being pumped in at constant rate and dividing the flow equally at each node. The total amount of water we extract at the codewords is $\sum a^{-s_{i}}$, which is therefore $\leq 1$. 
