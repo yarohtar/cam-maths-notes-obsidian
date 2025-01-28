@@ -1,4 +1,6 @@
 A first integral of [[Time Evolution of Dynamical Variables]] is a non-constant solution $f=f(p(t),q(t),t)$ s.t. $\frac{df}{dt}=0$ 
+
+
 Each first integral reduces the order of this equation.
 In particular, if $f$ is a first integral with $dimM=2n$, then the trajectory will be confined to a hypersurface $f(p,q)=const$
 If we find $L$ independent first integrals, the trajectory will be in their intersection, which in general has dimension $2n-L$.
