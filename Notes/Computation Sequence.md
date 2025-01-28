@@ -1,4 +1,4 @@
-Given a [[Register Machines|register machine]] $M$ with upper register index $n$ and a [[Configuration of a Register Machine]] $C$ of length $n+1$, we can define the action of $M$ on $C$. We say that $M$ transforms $C$ to $C'$.
+Given a [[Register Machine|register machine]] $M$ with upper register index $n$ and a [[Configuration of a Register Machine]] $C$ of length $n+1$, we can define the action of $M$ on $C$. We say that $M$ transforms $C$ to $C'$.
 The definition is as expected based on the $Q$-instructions.
 
 ### Definition
@@ -9,6 +9,6 @@ C(0,M,\vec{w}) & =(q_{S},\vec{w}) \\
 C(k+1,M,\vec{w})  & = C \text{ where } M \text{ transforms } C(k,M,\vec{w}) \text{ to } C
 \end{align}
 $$
-We say that he co
+We say that he computation halts if there is some element in the sequence $(q_{H},\vec{v})$. Otherwise, we say that the computation sequence does not halt. 
 ### Note
 We require the input to be of appropriate length but we just conventionally pad it with empty words if it is not. 

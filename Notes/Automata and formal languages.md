@@ -25,4 +25,4 @@
 [[Deterministic Automata]]
 [[Automata]]
 
-[[Register Machines]]
+[[Register Machine]]

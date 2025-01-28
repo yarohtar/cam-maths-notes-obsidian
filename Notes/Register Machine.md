@@ -15,3 +15,6 @@ For a fixed $q\in Q$, we refer to $(q,P(q))$ as the program line.
 
 As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q)$ and we call this number the upper register index. (Note that this machine uses at most $n+1$ registers because we start from $0$)
 [[Computation Sequence]]
+[[Strong Equivalence of Register Machines]]
+[[Partial Function]]
+
