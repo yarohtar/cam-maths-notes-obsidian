@@ -17,4 +17,5 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Computation Sequence]]
 [[Strong Equivalence of Register Machines]]
 [[Partial Function]]
+[[Question]]
 
