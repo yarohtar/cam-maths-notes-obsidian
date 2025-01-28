@@ -4,6 +4,14 @@ $$
 \begin{align}
 f(x)\downarrow \quad %quad
 \quad %quad
- 
+ & \text{iff } x\in dom(f)  \\
+f(x)\uparrow \quad %quad
+\quad %quad
+ & \text{otherwise}
 \end{align}
 $$
+and use terminology that $f$ converges or diverges on input $x$.
+
+### Definition
+Let $F:\mathbb{B}^{n+1}\dashrightarrow \mathbb{B}^{n+1}$ be any partial function. We say that a register machine $M$ performs the operation $F$ if for all $\vec{w}\in \mathbb{B}^{n+1}$:
+1. If $F(\vec{w})\downarrow$ then $M$ converges on input $\vec{w}^{+}$ with register content 
