@@ -1,4 +1,5 @@
-Register machines can perform the following $Q$-instructions:
+Given a set of states $Q$ we define $Q$-instructions:
+For a natural number $k\in \mathbb{N}$ and $a\in \Sigma$ (usually $\Sigma=\{ 0,1 \}$) 
 
 | Instruction            | Interpretation                                                                                                                             |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -12,5 +13,7 @@ A pair $M=(Q,P)$ is called a register machine if $Q$ is a non-empty finite set o
 The function $P$ is called the program of the register machine.
 For a fixed $q\in Q$, we refer to $(q,P(q))$ as the program line. 
 
-[[Configuration of a Register Machine]]
+As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q)$ and we call this number the upper register index.
 
+### Transformation
+Given a register machine $M$ with upper register index $n$ 
