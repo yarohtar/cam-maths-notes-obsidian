@@ -3,3 +3,5 @@ Each first integral reduces the order of this equation.
 In particular, if $f$ is a first integral with $dimM=2n$, then the trajectory will be confined to a hypersurface $f(p,q)=const$
 If we find $L$ independent first integrals, the trajectory will be in their intersection, which in general has dimension $2n-L$.
 If $L=2n-1$, then the trajectory is completely determined (it is just a curve).
+
+Unfortunately, in general the surfaces are degenerate and do not separate the points so 
