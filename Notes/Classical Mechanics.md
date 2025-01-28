@@ -3,6 +3,6 @@ Motion of a system with $n$ degrees of freedom is described by trajectories in $
 [[Dynamical variables]]
 [[Poisson bracket]]
 [[Hamilton's Equations of Motion]]
-[[First Integral ]]
+[[First Integral]]
 
 
