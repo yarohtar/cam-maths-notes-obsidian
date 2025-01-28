@@ -4,4 +4,6 @@ In particular, if $f$ is a first integral with $dimM=2n$, then the trajectory wi
 If we find $L$ independent first integrals, the trajectory will be in their intersection, which in general has dimension $2n-L$.
 If $L=2n-1$, then the trajectory is completely determined (it is just a curve).
 
-Unfortunately, in general the surfaces are degenerate and do not separate the points so 
+Unfortunately, in general the surfaces are degenerate and do not separate the points so we can't rly do this. Sufficiently complicated systems behave in a more probabilistic manner (think thermodynamics), but it is a millennium problem to see if this follows from our equations (ergodic hypothesis)
+
+In this course we only consider sufficiently nice equations. 
