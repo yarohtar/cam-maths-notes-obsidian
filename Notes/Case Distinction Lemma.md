@@ -1,0 +1,1 @@
+Let $W=\{ A_{i}:i\leq k \}$ be a [[Question]] with $k+1$ answers and $f_{i}:\mathbb{B}^{n+1}\dashrightarrow \mathbb{B}^{n+1}$ be [[Partial Function]]s for $i\leq k$. If $W$ is answered by a [[Register Machine]] $M$ and $f_{i}$ is performed by register machines 
