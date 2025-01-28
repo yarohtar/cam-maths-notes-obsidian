@@ -5,3 +5,5 @@ $$
 ### Properties
 - $\{ f,g \}=-\{ g,f \}$
 - Jacobi identity: $\{ f,\{ g,h \} \}+\{ h,\{ f,g \} \}+\{ g,\{ h,f \} \}=0$
+- $\{ p_{j},p_{k} \}=0$, $\{ q_{j},q_{k} \}=0$, $\{ q_{j},p_{k} \}=\delta_{jk}$
+- 
