@@ -21,4 +21,5 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 ### Standard operations
 [[Subroutine Lemma]]
 [[Case Distinction Lemma]]
+[[Repeat Lemma]]
 

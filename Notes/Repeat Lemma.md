@@ -1,0 +1,1 @@
+Let $W=\{ A_{0},A_{1} \}$ be a [[Question]] about $n$-tuples with two answers and $F:\mathbb{B}^{n+1}\dashrightarrow \mathbb{B}^{n+1}$ a [[Partial Function]]. Define by recursion $F^{0}(\vec{w})=\vec{w}$ and $F^{m+1}(\vec{w})=F(F^{m}(\vec{w}))$
