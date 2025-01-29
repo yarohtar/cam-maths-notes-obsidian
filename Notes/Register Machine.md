@@ -43,7 +43,7 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Kleene's Recursion Theorem]]
 
 
-## Various sets
+## Computably enumerable sets
 [[The Halting Problem]]
 [[Sigma1 set]]
 [[Pi1 set]]
