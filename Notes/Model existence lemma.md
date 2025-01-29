@@ -32,5 +32,30 @@ $$
  & \text{(MP)}
 \end{align}
 $$
-We now define $v:L\to \{ 0,1 \}$ b
+We now define $v:L\to \{ 0,1 \}$ by
+$$
+v(t)=\begin{cases}
+1  & \text{if } \bar{S}\vdash t \ (\text{i.e. }t\in \bar{S}) \\
+0 & \text{otherwise}
+\end{cases}
+$$
+Note that $v$ is a model of $\bar{S}$ and hence of $S$.
 
+We show that $v$ is a valuation:
+Firstly, $v(\bot)=0$ since $\bar{S}$ is consistent.
+We now check $v(p \implies q)$ for arbitrary $p,q\in L$
+###### Case 1
+$v(p)=1,v(q)=0$, i.e. $p \in \bar{S}, q\not\in \bar{S}$
+need $v(p \implies q)=0$
+If not, then $\bar{S}\vdash(p \implies q)$. Write down a proof of $p \implies q$ from $\bar{S}$ and add:
+$$
+\begin{align}
+p \quad %quad
+\quad %quad
+& \text{(premiss)} \\
+q \quad %quad
+\quad %quad
+ & \text{(MP)}
+\end{align}
+$$
+So $\bar{S}\vdash q$ and $q\in \bar{S}$. Since $\bar{S}$
