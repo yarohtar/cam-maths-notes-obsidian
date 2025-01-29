@@ -1,0 +1,1 @@
+A [[Code]] $f:\Sigma_{1}\to \Sigma_{2}^{*}$ is optimal if it has the shortest possible expected word lengths among [[Decipherable code]]s

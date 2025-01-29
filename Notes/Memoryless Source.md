@@ -1,0 +1,1 @@
+A Bernoulli or memoryless source is a sequence of independently, identically distributed random variables, i.e. for each $\mu \in \Sigma_{1}$
