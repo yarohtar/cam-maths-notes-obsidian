@@ -14,6 +14,7 @@ Given a source and a channel (described probabilistically) we aim to design an e
 -----
 [[Decipherable code]]
 [[Mathematical Entropy]]
+[[Gibbs' inequality]]
 [[Noiseless Coding]]
 [[Error-control codes]]
 [[Cryptography]]
