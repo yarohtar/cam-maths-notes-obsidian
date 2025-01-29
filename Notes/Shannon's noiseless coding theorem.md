@@ -2,6 +2,7 @@ The minimum expected word length of a decipherable code $f:\Sigma_{1}\to \Sigma_
 $$
 \frac{H(X)}{\log a}\leq E(S)<\frac{H(X)}{\log a}+1
 $$
+where $a=\lvert \Sigma_{2} \rvert$, $X$ is a random variable in $\Sigma_{1}$ and $S=f(X)$. 
 #### Proof
 The lower bound is given by combining [[Gibbs' inequality]] and [[Kraft's inequality]].
 Take $q_{i}=\frac{a^{-s_{i}}}{C}$ where $C$ is just the normalizing factor.
