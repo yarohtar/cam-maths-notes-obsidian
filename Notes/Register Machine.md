@@ -23,6 +23,7 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Case Distinction Lemma]]
 [[Repeat Lemma]]
 
-## Notation
 ## Computability
 [[Computable Function]]
+[[Computable Set]]
+[[Pseudo-Computable Set]]
