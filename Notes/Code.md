@@ -1,6 +1,6 @@
 Let $\Sigma_{1},\Sigma_{2}$ be two alphabets.
 A code is a function $f:\Sigma_{1}\to \Sigma_{2}^*$
-The strings $f(x)$, $x\in \Sigma_{1}$ are called codewords
+[[Codewords]]
 
 We send a message $x_{1}x_{2}\dots x_{n}\in \Sigma_{1}^*$ as:
 $$
