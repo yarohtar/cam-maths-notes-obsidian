@@ -18,8 +18,8 @@ $$
 $$
 Say $S$ proves $t$ or $S$ syntactically entails $t$ if there's a proof of $t$ from $S$. Then we write $S\vdash t$.
 [[Theorem (Propositional Logic)]]
-[[Deduction Theorem]]
-[[Soundness Theorem]]
-[[Adequacy Theorem]]
+[[Deduction Theorem (Propositional Logic)]]
+[[Soundness Theorem (Propositional Logic)]]
+[[Adequacy Theorem (Propositional Logic)]]
 [[Model existence lemma]]
 [[Completeness Theorem]]

@@ -1,5 +1,6 @@
 Let $S\subseteq L$ and $p,q\in L$
 Then $S\vdash(p \implies q)$ if and only if $S\cup \{ p \}\vdash q$
+[[Syntactic Entailment (Propositional Logic)]]
 
 #### Proof
 Assume $S\vdash(p \implies q)$. Write down the proof of $p \implies q$ from $S$ and add the following lines to obtain a proof of $q$ from $S\cup \{ p \}$:

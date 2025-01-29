@@ -6,7 +6,7 @@ Note that $L_{1}=P\cup \{ \bot \}$ is countable, and hence by induction $L_{n}$ 
 We enumerate $L$ as $t_{1},t_{2},\dots$
 
 If $T\subseteq L$ is consistent and $t\in L$ then one of $T\cup \{ t \}$ or $T\cup \{ \neg t \}$ is consistent. Indeed, if not, then $T\cup \{ t \}\vdash \bot$ and $T\cup \{ \neg t \}\vdash \bot$
-Then by [[Deduction Theorem]], we have $T\vdash \neg t$ and $T\vdash(\neg t\implies \bot)$ and hence $T\vdash \bot$ by (MP) which is a contradiction
+Then by [[Deduction Theorem (Propositional Logic)|Deduction Theorem]], we have $T\vdash \neg t$ and $T\vdash(\neg t\implies \bot)$ and hence $T\vdash \bot$ by (MP) which is a contradiction
 
 Now start with the consistent $S$. 
 Let $S_{0}=S$
@@ -79,7 +79,7 @@ $$
 So $\bar{S}\vdash(p \implies q)$ and $v(p \implies q)=1$
 ##### Case 3
 $v(p)=0$ i.e. $p\not\in \bar{S}$ and so $\neg p \in \bar{S}$
-need: $v(p \implies q)=1$, i.e. $\bar{S}\vdash(p \implies q)$ or equivalently $\bar{S}\cup \{ p \}\vdash q$ by [[Deduction Theorem]]
+need: $v(p \implies q)=1$, i.e. $\bar{S}\vdash(p \implies q)$ or equivalently $\bar{S}\cup \{ p \}\vdash q$ by [[Deduction Theorem (Propositional Logic)|Deduction Theorem]]
 Note that:
 $$
 \begin{align}
