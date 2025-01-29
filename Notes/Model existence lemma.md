@@ -95,6 +95,15 @@ p\quad %quad
 \bot \implies((q\implies \bot)\implies \bot)\quad %quad
 \quad %quad
  & \text{(A1)} \\
-
+\neg \neg q\quad %quad
+\quad %quad
+ & \text{(MP)} \\
+\neg \neg q\implies q\quad %quad
+\quad %quad
+ & \text{(A3)} \\
+q\quad %quad
+\quad %quad
+ & \text{(MP)}
 \end{align}
 $$
+
