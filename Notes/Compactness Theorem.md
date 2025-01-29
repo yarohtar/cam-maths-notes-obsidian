@@ -6,4 +6,4 @@ Trivial if $\models$ is replaced with $\vdash$ by the [[Completeness Theorem]].
 Let $S\subseteq L$. If every finite subset of $S$ has a model, then $S$ has a model.
 #### Proof
 If $S$ doesn't have a model, then $S\models \bot$. 
-By previoius, there is a finite subset $S'$ of 
+By previous, there is a finite subset $S'$ of $S$ s.t. $S'\models \bot$
