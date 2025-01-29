@@ -27,4 +27,4 @@ $$
 - $Y=-iZX$ so we can deduce everything else 
 - $\{ I,X,Y,Z \}$ form a basis of $M_{2}(\mathbb{C}^{2})$
 - [[Hilbert-Schmidt Inner Product]] satisfies $\langle A,B \rangle_{HS}=0$ for $A\neq B$ both from above basis
-- Aslo $A$
+- Also $\langle A,A \rangle_{HS}=2$
