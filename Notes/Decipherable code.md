@@ -2,9 +2,6 @@ A [[Code]] $f$ is decipherable if $f^{*}$ is injective, i.e. every string from $
 [[Kraft's inequality]]
 [[McMillan's Theorem]]
 
-[[Communication Channel]]
-[[Discrete Memoryless Channel (DMC)]]
-[[Channel Matrix]]
 
 
 [[Memoryless Source]]
