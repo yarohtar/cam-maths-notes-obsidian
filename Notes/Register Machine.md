@@ -23,5 +23,9 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Case Distinction Lemma]]
 [[Repeat Lemma]]
 
+## Notation
+Given a register machine $M$ and $k>0$, we can define a [[Partial Function]] $f_{M,k}:\mathbb{B}^{k}\dashrightarrow \mathbb{B}$ by:
+1. $f_{M,k}(\vec{w})\uparrow$ iff $M$ does not halt on $\vec{w}$
+2. 
 ## Computability
 [[Computable Functions]]

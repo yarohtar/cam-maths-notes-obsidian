@@ -2,6 +2,3 @@ Let $F:\mathbb{B}^{n+1}\dashrightarrow \mathbb{B}^{n+1}$ be any [[Partial Functi
 1. If $F(\vec{w})\downarrow=\vec{v}$ then $M$ converges on input $\vec{w}^{+}$ with register content $\vec{v}^{+}$
 2. If $F(\vec{w})\uparrow$ then $M$ diverges on input $\vec{w}^{+}$
 (Note that we used the $^{+}$ to indicate padding for scratch space that the register machine may use for memory purposes. I will omit that padding in my notes going forward.)
-
-### Notation
-For a register machine $M$ and $k>0$ we define a partial function $f_{M,k}:\mathbb{B}^{k}\to \mathbb{B}$ 
