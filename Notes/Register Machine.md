@@ -28,9 +28,12 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Computable Set]]
 [[Computably Enumerable Set]]
 
-## Operations on 
+## Operations on natural numbers
 [[Encoding Numbers in Binary Words]]
 [[Truncation of Register Machine]]
 [[Gödel's primitive recursive functions]]
 [[Recursive Functions]]
 [[Splitting and Merging Words]]
+
+## Coding Langauges
+[[Encoding Alphabets in Binary Words]]
