@@ -1,0 +1,2 @@
+We can represent a [[Register Machine]] $M=(Q,P)$ as a list of instructions, where the $i$-th instruction in the list represents $P(q_{i})$. 
+Then we can use [[Encoding Alphabets in Binary Words]] to encode the 
