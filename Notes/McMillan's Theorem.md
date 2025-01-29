@@ -1,4 +1,4 @@
-Every decipherable code satisfies [[Kraft's inequality]].
+Every [[Decipherable code]] satisfies [[Kraft's inequality]].
 #### Proof
 Let $f:\Sigma_{1}\to \Sigma_{2}^{*}$ be a decipherable code with word lengths $s_{1}\dots s_{m}$ and $s=\max s_{i}$
 Let $r\in \mathbb{N}$
