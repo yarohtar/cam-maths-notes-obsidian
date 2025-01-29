@@ -8,4 +8,5 @@ f_{M,k+1}(\vec{w}) & \text{if } v=code(M) \text{ for register machine }M \\
 \uparrow & \text{otherwise}
 \end{cases}
 $$
-where we use [[]]
+where we use [[Encoding Register Machines]] to prove this.
+
