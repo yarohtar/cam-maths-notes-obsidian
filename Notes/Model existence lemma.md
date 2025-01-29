@@ -44,7 +44,7 @@ Note that $v$ is a model of $\bar{S}$ and hence of $S$.
 We show that $v$ is a valuation:
 Firstly, $v(\bot)=0$ since $\bar{S}$ is consistent.
 We now check $v(p \implies q)$ for arbitrary $p,q\in L$
-###### Case 1
+##### Case 1
 $v(p)=1,v(q)=0$, i.e. $p \in \bar{S}, q\not\in \bar{S}$
 need $v(p \implies q)=0$
 If not, then $\bar{S}\vdash(p \implies q)$. Write down a proof of $p \implies q$ from $\bar{S}$ and add:
@@ -58,4 +58,43 @@ q \quad %quad
  & \text{(MP)}
 \end{align}
 $$
-So $\bar{S}\vdash q$ and $q\in \bar{S}$. Since $\bar{S}$
+So $\bar{S}\vdash q$ and $q\in \bar{S}$, since $\bar{S}$ is deductively closed.
+##### Case 2
+$v(q)=1$ i.e. $q\in \bar{S}$. 
+need $v(p \implies q)=1$
+Note that
+$$
+\begin{align}
+q \implies (p \implies q)\quad %quad
+\quad %quad  \\
+&  \text{(A1)} \\
+q \quad %quad
+\quad %quad
+ & \text{(premiss)} \\
+p \implies q\quad %quad
+\quad %quad
+ & \text{(MP)}
+\end{align}
+$$
+So $\bar{S}\vdash(p \implies q)$ and $v(p \implies q)=1$
+##### Case 3
+$v(p)=0$ i.e. $p\not\in \bar{S}$ and so $\neg p \in \bar{S}$
+need: $v(p \implies q)=1$, i.e. $\bar{S}\vdash(p \implies q)$ or equivalently $\bar{S}\cup \{ p \}\vdash q$ by [[Deduction Theorem]]
+Note that:
+$$
+\begin{align}
+p\quad %quad
+\quad %quad
+ & \text{(premiss)}  \\
+\neg p\quad %quad
+\quad %quad
+ & \text{(premiss)} \\
+\bot \quad %quad
+\quad %quad
+ & \text{(MP)} \\
+\bot \implies((q\implies \bot)\implies \bot)\quad %quad
+\quad %quad
+ & \text{(A1)} \\
+
+\end{align}
+$$
