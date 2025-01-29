@@ -6,3 +6,5 @@ Notes on moodle
 [[Qubit]]
 [[Tensor Product of Hilbert Spaces]]
 [[Outer Product in Hilbert Spaces]]
+[[Orthogonal Projectors in Hilbert Spaces]]
+[[Trace of an Operator]]
