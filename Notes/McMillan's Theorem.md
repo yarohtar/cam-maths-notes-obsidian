@@ -7,7 +7,7 @@ $$
 $$
 where $b_{l}$ is the number of ways of choosing $r$ codewords with total length $l$.
 
-$f$ decipherable $\implies b_{l}\leq \lvert \Sigma_{2}^l \rvert=a^l$
+$f$ decipherable $\implies b_{l}\leq a^l$ (because any word of length $l$ in $\Sigma_{2}$ has at most one preimage under $f^{*}$ and there is $a^{l}$ such words)
 Then
 $$
 \left( \sum_{i=1}^{m}a^{-s_{i}}  \right)^r\leq \sum_{i=1}^{rs}a^la^{-l}=rs
