@@ -38,6 +38,10 @@ Part II:
 - [[Principles of Quantum Mechanics]]
 - Some of [[Probability and Measure]]
 - Some of [[Number theory]]
+- [[Coding and Cryptography]]
+- [[Logic and Set Theory]]
+- [[Integrable systems]]
+- [[Quantum Information and Computing]]
 
 # How to download (works on phones and computers)
 ## Step 1
