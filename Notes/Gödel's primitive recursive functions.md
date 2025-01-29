@@ -1,0 +1,1 @@
+Suppose $f:\mathbb{N}^{k}\dashrightarrow \mathbb{N}$ 
