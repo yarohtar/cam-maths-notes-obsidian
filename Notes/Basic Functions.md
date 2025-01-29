@@ -5,4 +5,5 @@ The basic functions are the following numerical functions:
 4. Successor function $n\to n+1$
 
 ### Proposition
-All the basic functions are [[Computable Function]].
+All the basic functions are [[Computable Function]]s.
+
