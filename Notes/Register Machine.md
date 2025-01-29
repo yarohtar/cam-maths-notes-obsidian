@@ -38,3 +38,4 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 ## Coding Langauges
 [[Encoding Alphabets in Binary Words]]
 [[Encoding Register Machines]]
+[[The Software Principle]]
