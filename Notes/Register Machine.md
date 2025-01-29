@@ -18,8 +18,10 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Strong Equivalence of Register Machines]]
 [[Partial Function]]
 [[Question]]
-### Standard operations
+## Standard operations
 [[Subroutine Lemma]]
 [[Case Distinction Lemma]]
 [[Repeat Lemma]]
 
+## Computability
+[[Computable Functions]]
