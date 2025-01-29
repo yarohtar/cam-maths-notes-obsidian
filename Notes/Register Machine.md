@@ -27,3 +27,6 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Computable Function]]
 [[Computable Set]]
 [[Computably Enumerable Set]]
+
+## Stuff
+[[Encoding Numbers in Register Machines]]
