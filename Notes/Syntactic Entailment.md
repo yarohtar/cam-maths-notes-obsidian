@@ -20,3 +20,5 @@ Say $S$ proves $t$ or $S$ syntactically entails $t$ if there's a proof of $t$ fr
 [[Theorem]]
 [[Deduction Theorem]]
 [[Soundness Theorem]]
+[[Adequacy Theorem]]
+[[Model existence lemma]]

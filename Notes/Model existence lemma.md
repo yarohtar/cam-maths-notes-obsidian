@@ -1,0 +1,1 @@
+Let $S\subseteq L$. Then if $S$ is [[Inconsistency|consistent]], then $S$ has a model. 
