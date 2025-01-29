@@ -30,3 +30,4 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 
 ## Stuff
 [[Encoding Numbers in Binary Words]]
+[[Truncation of Register Machine]]
