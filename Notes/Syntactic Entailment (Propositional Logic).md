@@ -17,7 +17,7 @@ $$
 \exists j,k<i \text{ s.t. } t_{k}=(t_{j}\implies t_{i})
 $$
 Say $S$ proves $t$ or $S$ syntactically entails $t$ if there's a proof of $t$ from $S$. Then we write $S\vdash t$.
-[[Theorem]]
+[[Theorem (Propositional Logic)]]
 [[Deduction Theorem]]
 [[Soundness Theorem]]
 [[Adequacy Theorem]]

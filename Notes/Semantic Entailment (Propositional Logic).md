@@ -4,4 +4,4 @@ v(s)=1 \text{ for all } s \in S \implies v(t)=1
 $$
 We denote this by $S\models t$
 
-Note: $S\models t$ iff $t$ is [[True]] in every [[Model]] of $S$.
+Note: $S\models t$ iff $t$ is [[True (Propositional Logic)]] in every [[Model (Propositional Logic)]] of $S$.
