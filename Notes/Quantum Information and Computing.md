@@ -8,3 +8,4 @@ Notes on moodle
 [[Outer Product in Hilbert Spaces]]
 [[Orthogonal Projectors in Hilbert Spaces]]
 [[Trace of an Operator]]
+[[Pauli Matrices]]
