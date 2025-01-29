@@ -5,6 +5,11 @@ H(X)=H(p_{1},\dots,p_{n}) = - \sum_{i=1}^{n}p_{i}\log p_{i}
 $$
 where we take $\log_{2}$.
 
+### Lemma
+$H(p_{1},\dots ,p_{n})\leq \log n$ with equality iff $p_{1}=\dots=p_{n}=\frac{1}{n}$
+#### Proof
+Take $q_{1}=\dots=q_{n}=\frac{1}{n}$ in [[Gibbs' inequality]].
+
 ### Intuition
 Entropy is a measure of 'randomness' or 'uncertainty'
 The entropy $H(X)$ is roughly speaking the expected number of tosses of a fair coin needed to simulate $X$

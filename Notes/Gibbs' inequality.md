@@ -12,5 +12,3 @@ $\ln\left( \frac{q_{i}}{p_{i}} \right)\leq \frac{q_{i}}{p_{i}}-1$
 Now multiply through and sum over 
 
 Equality holds iff $\frac{q_{i}}{p_{i}}=1$
-
-### 
