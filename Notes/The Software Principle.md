@@ -10,3 +10,7 @@ f_{M,k+1}(\vec{w}) & \text{if } v=code(M) \text{ for register machine }M \\
 $$
 where we use [[Encoding Register Machines]] to prove this.
 
+This allows us to extend our notations.
+Write $f_{v,k}(\vec{w})=f_{U,2}(v,code(q_{S},\vec{w}))$
+Similarly for [[Domain of a Computable Function]] and [[Truncation of Register Machine]].
+
