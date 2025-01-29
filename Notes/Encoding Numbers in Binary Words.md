@@ -8,4 +8,4 @@ where $b(w)$ is the binary expansion of $w$.
 
 We say that $\#^{-1}$ encodes a natural number as a binary word, while $\#$ decodes it.
 
-[[Numerical Partial Function]]
+[[Partial Numerical Function]]
