@@ -45,4 +45,6 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 
 ## Various sets
 [[The Halting Problem]]
-[[Sigma1 sets]]
+[[Sigma1 set]]
+[[Pi1 set]]
+[[Delta1 set]]
