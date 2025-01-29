@@ -1,0 +1,1 @@
+A set $X$ is called comput if its [[Pseudo-Characteristic Function]] is [[Computable Function]].

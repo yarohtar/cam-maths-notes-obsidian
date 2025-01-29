@@ -1,1 +1,0 @@
-A set $X$ is called computable if its [[Pseudo-Characteristic Function]] is [[Computable Function]].
