@@ -3,3 +3,6 @@ A channel is determined by the probabilities
 $$
 P(y_{1}\dots y_{k} \text{ received} \mid x_{1}\dots x_{k} \text{ sent})
 $$
+
+[[Discrete Memoryless Channel (DMC)]]
+[[Channel Matrix]]

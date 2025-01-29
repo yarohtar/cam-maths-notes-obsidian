@@ -12,15 +12,7 @@ Given a source and a channel (described probabilistically) we aim to design an e
 3. and maybe to preserve privacy
 # 
 -----
-[[Decipherable code]]
-[[Communication Channel]]
-[[Discrete Memoryless Channel (DMC)]]
-[[Channel Matrix]]
-[[Source]]
-[[Memoryless Source]]
-[[Expected word length]]
-[[Mathematical Entropy]]
-[[Gibbs' inequality]]
+[[Code]]
 [[Noiseless Coding]]
 [[Error-control codes]]
 [[Cryptography]]
