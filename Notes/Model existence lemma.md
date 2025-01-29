@@ -12,5 +12,25 @@ Now start with the consistent $S$.
 Let $S_{0}=S$
 We define sets $S_{n}$ by induction:
 Assume $S_{n-1}$ is defined and is consistent
-Then let $S_{n}$ be either $S_{n-1}\cup \{ t_{n} \}$ or $S_{n}$
+Then let $S_{n}$ be either $S_{n-1}\cup \{ t_{n} \}$ or $S_{n-1}\cup \{ \neg t_{n} \}$, so that $S_{n}$ is consistent 
+Finally, let $\bar{S}=\bigcup_{n\geq 0}S_{n}$
+
+Note that $S\subseteq \bar{S}$ and $\forall t\in L$ either $t\in \bar{S}$ or $\neg t\in \bar{S}$.
+
+Also $\bar{S}$ is consistent: if $\bar{S}\vdash \bot$ then as proofs are finite, there is some $n$ such that $S_{n}\vdash \bot$ which is a contradiction.
+
+$\bar{S}$ is deductively closed i.e. if $t\in L$ and $\bar{S}\vdash t$ then $t\in \bar{S}$.
+Indeed, if $t\not\in \bar{S}$ then $\neg t\in \bar{S}$. So we have a proof:
+First write down a proof of $t$ from $S$ and add the lines:
+$$
+\begin{align}
+\neg t\quad %quad
+\quad %quad
+ & \text{(premiss)} \\
+\bot \quad %quad
+\quad %quad
+ & \text{(MP)}
+\end{align}
+$$
+We now define $v:L\to \{ 0,1 \}$ b
 
