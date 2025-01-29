@@ -9,7 +9,7 @@ Take $q_{i}=\frac{a^{-s_{i}}}{C}$ where $C$ is just the normalizing factor.
 $$
 \begin{align}
 H(X) & =-\sum_{i=1}^{m} p_{i}\log p_{i} \\
- & \leq-\sum_{i=1}^{m} p_{i}\log p_{i} \\
+ & \leq-\sum_{i=1}^{m} p_{i}\log q_{i} \\
  & =\sum_{i=1}^{m}p_{i}s_{i}\log a +\sum p_{i}\log C \\
  & \leq \left( \sum_{i=1}^{m} p_{i}s_{i} \right)\log a +\log C
 \end{align}
