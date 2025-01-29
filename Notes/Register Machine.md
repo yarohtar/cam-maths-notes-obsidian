@@ -40,4 +40,5 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Encoding Register Machines]]
 [[The Software Principle]]
 [[The s-m-n Theorem]]
-[[Recursion Theorem]]
+[[Kleene's Recursion Theorem]]
+
