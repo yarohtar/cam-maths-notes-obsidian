@@ -1,6 +1,4 @@
-Given a random variable $X$ taking values in $\Sigma_{1}$ 
-Let $S=\lvert f(X) \rvert$ for [[Optimal Code]] $f$ be the minimum expected word length of a decipherable code.
-Then it satisfies:
+[[Expected word length]] for an [[Optimal Code]] $f$ satisfies:
 $$
 \frac{H(X)}{\log a}\leq E(S)<\frac{H(X)}{\log a}+1
 $$
