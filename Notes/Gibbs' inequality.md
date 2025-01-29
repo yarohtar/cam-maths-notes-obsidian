@@ -7,4 +7,10 @@ with equality iff $p_{i}=q_{i}$.
 #### Proof
 We can replace $\log$ by $\ln$ if we multiply through by $\ln 2$.
 Note, $\ln x\leq x-1$ with equality iff $x=1$.
-Let $I=\{ 1\leq i\leq n : p_{i}\neq 0 \}$
+
+$\ln\left( \frac{q_{i}}{p_{i}} \right)\leq \frac{q_{i}}{p_{i}}-1$
+Now multiply through and sum over 
+
+Equality holds iff $\frac{q_{i}}{p_{i}}=1$
+
+### 
