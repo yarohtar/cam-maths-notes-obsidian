@@ -19,4 +19,10 @@ $$
 #### Properties
 - They are [[Hermetian operator]] and unitary
 - They anticommute $\{ X,Y \}=0$
+- They are traceless
+- $XY=iZ$, $YZ=iX$, $ZX=iY$
+- $X\ket{0}=\ket{1}$, $X\ket{1}=\ket{0}$ for [[Qubit]] (bitflip operator)
+- $Z\ket{0}=\ket{0}$, $Z\ket{1}=-\ket{1}$ (phase flip operator)
+- $X\ket{+}=\ket{+}$, $X\ket{-}=-\ket{-}$
+- $Y=-iZX$ so we can deduce everything else 
 - 
