@@ -6,6 +6,7 @@ $\mathcal{H}$ is called a Hilbert space if it is [[Complete]]
 [[Riesz Representation Theorem]]
 [[Riesz-Fischer Theorem]]
 [[Bessel's Inequality]]
+[[Parseval's Identity]]
 
 ### Theorem
 Let $\mathcal{H}$ be a Hilbert space and $(e_{n})$ an [[Orthonormal Basis]] in $\mathcal{H}$
