@@ -1,0 +1,1 @@
+Parity of a 2-bit string $b_{1},b_{2}$
