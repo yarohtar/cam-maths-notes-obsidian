@@ -17,3 +17,12 @@ Then it follows that $c_n=(\psi,\psi_n)$. More generally, $c_n={(\psi,\psi_n)\ov
 
 
 [[Commutator]]
+
+### Composite system
+Suppose we have $\mathcal{H}=\mathcal{H}_{1}\otimes \mathcal{H}_{2}$ with basis $\mathcal{B}=\{ \ket{e_{i}}\otimes \ket{f_{j}} \}$
+and we want to only measure in the basis $\{ \ket{e_{i}} \}$
+We take $\mathcal{H}=\oplus_{i=1}^{m}\mathcal{E}_{i}$
+where
+$$
+\mathcal{E}_{i}=span\{ \ket{e_{i}} \otimes \ket{\phi} : \ket{\phi} \in \mathcal{H}_{2} \}
+$$
