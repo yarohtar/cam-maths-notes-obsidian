@@ -4,7 +4,8 @@ $\mathcal{H}$ is called a Hilbert space if it is [[Complete]]
 [[Closest Point Theorem]]
 [[Orthogonal Subspaces]]
 [[Riesz Representation Theorem]]
-
+[[Riesz-Fischer Theorem]]
+[[Bessel's Inequality]]
 
 
 
