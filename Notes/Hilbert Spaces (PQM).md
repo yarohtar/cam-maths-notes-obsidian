@@ -1,5 +1,5 @@
 ### Definition
-Hilbert space $\mathcal H$ is a vector space over $\mathbb C$ equipped with an inner product $(\cdot, \cdot):\mathcal H \times \mathcal H\to \mathbb C$ where
+Hilbert space $\mathcal H$ is a vector space over $\mathbb C$ (or $\mathbb{R}$) equipped with an inner product $(\cdot, \cdot):\mathcal H \times \mathcal H\to \mathbb C$ where
 1. $(\phi,\psi)=(\psi,\phi)^*$
 2. $(\phi, a\psi)=a(\phi,\psi)$ but $(a\phi, \psi)=a^*(\phi,\psi)$
 3. $(\phi,\phi)\geq 0$ with equality iff $\phi=0$
