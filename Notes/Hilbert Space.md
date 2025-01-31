@@ -3,13 +3,9 @@ $\mathcal{H}$ is called a Hilbert space if it is [[Complete]]
 
 [[Closest Point Theorem]]
 [[Orthogonal Subspaces]]
-### Theorem
-If $F$ is a closed subspace of $\mathcal{H}$, then $\mathcal{H}=F\oplus F^{\bot}$.
+[[Riesz Representation Theorem]]
 
-### Corollary 
-1. $F$ is a closed subspace of $\mathcal{H}$ $\implies(F^{\bot})^{\bot}=F$
-2. $S\subseteq \mathcal{H}\implies(S^{\bot})^{\bot}=\overline{\langle s \rangle}$
-3. $S\subseteq \mathcal{H}$ has dense linear span $\iff S^{\bot}=\{ 0 \}$
+
 
 
 
