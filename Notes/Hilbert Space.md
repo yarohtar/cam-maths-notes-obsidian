@@ -23,4 +23,6 @@ Each vector represents a physical space.
 Scaling a vector by a complex number represents the same physical state (states correspond to rays in $\mathcal H$) -> useful to work with normalized states
 For normalized states, the inner product $(\phi, \psi)$ is the probability amplitude to transition from $\phi$ to $\psi$
 
-We will usually use either a finite dimensional $\mathcal{H}$ (those will usually be our toy models) or an infinite dimensional space of sequences in $\mathbb{C}$ (which converge ie $l_{2}$ ([[L norms]]))
+We will usually use either a finite dimensional $\mathcal{H}$ (those will usually be our toy models) or an infinite dimensional space of sequences in $\mathbb{C}$ (which converge in $l_{2}$ ([[L norms]]))
+
+Note that any separable Hilbert space is isometrically isomorphic to $l_{2}$ by [[Parseval's Identity]].
