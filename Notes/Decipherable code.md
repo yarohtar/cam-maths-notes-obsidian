@@ -5,5 +5,5 @@ A [[Code]] $f$ is decipherable if $f^{*}$ is injective, i.e. every string from $
 A decipherable code with prescribed word lengths exists iff there exists a prefix-free code with the same word lengths. 
 
 [[Shannon's noiseless coding theorem]]
-[[Shannan-Fano Coding]]
+[[Shannon-Fano Coding]]
 [[Huffman Coding]]
