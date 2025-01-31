@@ -3,7 +3,7 @@
 [[Dual Spaces]]
 [[The Baire Category Theorem]]
 [[Spaces of CTS functions]]
-[[Hilbert Spaces (PQM)]]
+[[Hilbert Space]]
 [[Spectral Theory]]
 
 ### Books

@@ -2,7 +2,7 @@ Lecturer: Nilanjana Datta
 n.datta@damtp.cam.ac.uk
 Notes on moodle
 
-[[Hilbert Spaces (PQM)]]
+[[Hilbert Space]]
 [[Qubit]]
 [[Tensor Product of Hilbert Spaces]]
 [[Outer Product in Hilbert Spaces]]

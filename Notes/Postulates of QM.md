@@ -1,5 +1,5 @@
 ## Postulate I
-States are vectors $\ket{\psi}$ in a [[Hilbert Spaces (PQM)|Hilbert space]] $\mathcal{H}$.
+States are vectors $\ket{\psi}$ in a [[Hilbert Space|Hilbert space]] $\mathcal{H}$.
 ## Postulate II
 [[Observables]] are [[Linear Operator|linear]] [[Adjoint|Hermetian]] operators $Q:\mathcal{H}\to \mathcal{H}$.
 
