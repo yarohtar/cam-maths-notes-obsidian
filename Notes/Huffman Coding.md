@@ -26,4 +26,12 @@ Let $f$ be an [[Optimal Code]], prefix free, with word lengths $s_{1},\dots ,s_{
 2. If not, then either there is only one code word of maximal length or any two codewords of maximal length differ before the last digit. In either case, delete the last digit of each codeword of maximal length. This maintains prefix-free condition, contradicting $f$ optimal.
 
 #####
-We show by 
+We show by, by induction on $m$, that any Huffman code of size $m$ is optimal.
+$m=2$: codewords are just 0,1, which is optimal
+$m>2:$ [[Source]] $X_{m}$ emits $\mu_{1},\dots,\mu_{m}$ with probabilities $p_{1}\geq\dots\geq p_{m}$
+Source $X_{m-1}$ emits $\mu_{1},\dots,\mu_{m-2},\nu$ with probabilities $p_{1},\dots,p_{m-2},p_{m-1}+p_{m}$
+We construct a Huffman coding $f_{m-1}$ for $X_{m-1}$ and extend to $f_{m}$ for $X_{m}$. The expected codeword length satisfies
+$$
+E(S_{m})=E(S_{m-1})+p_{m-1}+p_{m}
+$$
+Let $f_{m}'$ be an optimal code for $X_{m}$, where $f_{m}'$ is prefix free.
