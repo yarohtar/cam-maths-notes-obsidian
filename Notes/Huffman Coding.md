@@ -35,3 +35,19 @@ $$
 E(S_{m})=E(S_{m-1})+p_{m-1}+p_{m}
 $$
 Let $f_{m}'$ be an optimal code for $X_{m}$, where $f_{m}'$ is prefix free.
+By the previous lemma, shuffling codewords we may assume that the last two codewords (i.e. associated with the smallest probabilities) of $f_{m}'$ are of maximal length and differ only in the last digit, say $y 0$ and $y 1$ for some string $y$.
+We define a code $f_{m-1}'$ for $X_{m-1}$ with 
+$$
+f_{m-1}'(\mu_{i})=f_{m}'(\mu_{i}) \quad %quad
+\quad %quad
+1\leq i\leq m-2
+$$
+$$
+f_{m-1}'(\nu)=y
+$$
+
+Then $f_{m-1}'$ is a prefix-free code and the expected word length satisfies 
+$$
+E(S_{m}')=E(S_{m-1}')+p_{m-1}+p_{m}
+$$
+By induction hypothesis, $f_{m-1}$ is optimal
