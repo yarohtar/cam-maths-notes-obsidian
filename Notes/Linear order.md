@@ -10,4 +10,6 @@ $x>y$ for $y<x$
 and $x\leq y$ for "$x<y$ or $x=y$"
 This satisfies:
 1. reflexivity $\forall x\in X\ x\leq x$
-2. antisymmetric: $\forall x$
+2. antisymmetric: $\forall x,y\in X\ (x\leq y\land y\leq x)\implies x=y$
+3. transitive: $\forall x,y,z\in X\ (x\leq y\land y\leq z)\implies x\leq z$
+4. trichotomous: $\forall x,y\in X\ (x\leq y\lor y\leq x)$
