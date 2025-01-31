@@ -3,3 +3,5 @@ $$
 (\forall S\subseteq X)(S\neq \emptyset \implies(\exists x\in S)(\forall y\in S)(x\leq y))
 $$
 This least element is unique by antisymmetry of $\leq$
+
+This property is preserved by [[Order-isomorphism]].
