@@ -7,6 +7,13 @@ $\mathcal{H}$ is called a Hilbert space if it is [[Complete]]
 [[Riesz-Fischer Theorem]]
 [[Bessel's Inequality]]
 
+### Theorem
+Let $\mathcal{H}$ be a Hilbert space and $(e_{n})$ an [[Orthonormal Basis]] in $\mathcal{H}$
+Then for all $x\in \mathcal{H}$:
+$$
+x=\sum_{n=1}^{\infty}(x,e_{n})e_{n}
+$$
+
 
 
 
