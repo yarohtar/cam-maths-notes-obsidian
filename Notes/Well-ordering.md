@@ -16,6 +16,8 @@ Let $X$, $Y$ be well ordered sets that are [[Order-isomorphism]]. then there is 
 #### Proof
 Assume $f,g:X\to Y$ are order-isomorphisms.
 We prove $(\forall x)(f(x)=g(x))$
-[[Proof by Induction]]
-Fix $x\in X$. Assume $(\forall y<x)(f(y)=g(y))$
-By the lemma, $f(x)=min$
+Fix $x\in X$. Assume $(\forall y<x)(f(y)=g(y))$ (induction hypothesis)
+By the lemma, $f(x)=minA$ where $A=Y\setminus\{ f(y):y<x \}$
+and $g(x)=minB$ where $B=Y\setminus \{ g(y):y<x \}$
+By induction hypothesis, $A=B$ so $f(x)=g(x)$
+By [[Proof by Induction]], $f=g$
