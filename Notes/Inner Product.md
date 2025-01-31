@@ -3,4 +3,4 @@ Given a real or complex vector space $X$, an inner product on $X$ is a function 
 2. $(y,x)=(x,y)^{*}$
 3. $(x,x)\geq 0$ and $(x,x)=0\iff x=0$
 
-This induces a [[Normed Spaces]]
+This induces a [[Norm]]

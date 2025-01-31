@@ -1,4 +1,4 @@
-For $X$ and $Y$ [[Normed Spaces]], a linear map $T:X\to Y$ is an operator if it is continuous.
+For $X$ and $Y$ [[Normed Space]], a linear map $T:X\to Y$ is an operator if it is continuous.
 [[Bounded Linear Map]]
 ### Proposition
 Let $X$, $Y$ be normed, $T:X\to Y$. Then the following are equivalent:

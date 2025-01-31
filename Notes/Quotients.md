@@ -1,4 +1,4 @@
-For $X$ [[Normed Spaces]], $N$ a closed subspace of $X$, have Quotient vector space $X / N$ with projection map $\pi$.
+For $X$ [[Normed Space]], $N$ a closed subspace of $X$, have Quotient vector space $X / N$ with projection map $\pi$.
 Want to put a norm on $X /N$
 ### Proposition
 $X$ normed, $N$ a closed subspace of $X$. 

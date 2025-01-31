@@ -1,4 +1,4 @@
-$X$ [[Banach Space]], $Y$ [[Normed Spaces]].
+$X$ [[Banach Space]], $Y$ [[Normed Space]].
 $T_{1},T_{2},\dots \in L(X,Y)$. Suppose that $T_{n}$ are pointwise bounded.
 Then the $T_{n}$ are uniformly bounded.
 #### Proof

@@ -1,9 +1,5 @@
-### Definition
-Hilbert space $\mathcal H$ is a vector space over $\mathbb C$ (or $\mathbb{R}$) equipped with an [[Inner Product]] $(\cdot, \cdot):\mathcal H \times \mathcal H\to \mathbb C$ (or $\mathbb{R}$) where
-1. $(\phi,\psi)=(\psi,\phi)^*$
-2. $(\phi, a\psi)=a(\phi,\psi)$ but $(a\phi, \psi)=a^*(\phi,\psi)$
-3. $(\phi,\phi)\geq 0$ with equality iff $\phi=0$
-This inner product defines a [[Normed Spaces|norm]] $||\psi||=\sqrt{(\psi,\psi)}$.
+Hilbert space $\mathcal H$ is a vector space over $\mathbb C$ (or $\mathbb{R}$) equipped with an [[Inner Product]] $(\cdot, \cdot):\mathcal H \times \mathcal H\to \mathbb C$ (or $\mathbb{R}$) 
+This inner product defines a [[Normed Space|norm]] $||\psi||=\sqrt{(\psi,\psi)}$.
 
 $\mathcal H$ is complete with this norm: a Cauchy sequence converges in $\mathcal H$
 Can take limits and derivatives.

@@ -1,4 +1,4 @@
-[[Normed Spaces]]
+[[Normed Space]]
 [[Space of Linear Operators]]
 [[Dual Spaces]]
 [[The Baire Category Theorem]]
