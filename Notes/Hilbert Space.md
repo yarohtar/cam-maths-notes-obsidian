@@ -7,7 +7,7 @@ $\mathcal{H}$ is called a Hilbert space if it is [[Complete]]
 [[Riesz-Fischer Theorem]]
 [[Bessel's Inequality]]
 [[Parseval's Identity]]
-
+[[Linear Operators in Hilbert Spaces]]
 ### Theorem
 Let $\mathcal{H}$ be a Hilbert space and $(e_{n})$ an [[Orthonormal Basis]] in $\mathcal{H}$
 Then for all $x\in \mathcal{H}$:
