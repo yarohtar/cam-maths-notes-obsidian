@@ -12,4 +12,3 @@ Notes on moodle
 [[Pauli Matrices]]
 [[Quantum Logic Gates]]
 [[Orthogonal Subspaces]]
-
