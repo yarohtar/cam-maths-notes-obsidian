@@ -13,3 +13,6 @@ For all $x,y\in X$ we have:
 [[Polarisation Identity]]
 [[Parallelogram Law]]
 [[Pythagoras]]
+
+### Theorem
+Let $(X,(,))$ be an inner product space. Then the completion $\tilde{X}$ of $X$ is also an inner product space
