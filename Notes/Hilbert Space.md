@@ -1,7 +1,6 @@
-Hilbert space $\mathcal H$ is a vector space over $\mathbb C$ (or $\mathbb{R}$) equipped with an [[Inner Product]] $(\cdot, \cdot):\mathcal H \times \mathcal H\to \mathbb C$ (or $\mathbb{R}$) 
-This inner product defines a [[Normed Space|norm]] $||\psi||=\sqrt{(\psi,\psi)}$.
+Let $\mathcal H$ be a vector space over $\mathbb C$ (or $\mathbb{R}$) equipped with an [[Inner Product]] $(\cdot, \cdot):\mathcal H \times \mathcal H\to \mathbb C$ (or $\mathbb{R}$)
+$\mathcal{H}$ is called a Hilbert space if it is [[Complete]]
 
-$\mathcal H$ is complete with this norm: a Cauchy sequence converges in $\mathcal H$
 Can take limits and derivatives.
 
 ## Physical interpretation
