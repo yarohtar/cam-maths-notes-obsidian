@@ -5,3 +5,9 @@ $$
 This least element is unique by antisymmetry of $\leq$
 
 This property is preserved by [[Order-isomorphism]].
+
+### Lemma
+Let $X$, $Y$ be well-ordered sets, $I$ be an [[Initial Segment]] of $Y$ and $f:X\to I$ be an [[Order-isomorphism]]. Then for every $x\in X$, we have 
+$$
+f(x)=min(Y\setminus \{ f(y):y<x \})
+$$
