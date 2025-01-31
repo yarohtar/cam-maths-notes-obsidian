@@ -1,0 +1,1 @@
+Let $\mathcal{H}$ be a [[Hilbert Space]] with an [[Orthonormal Basis]] $(e_{n})$. For $T\in L(\mathcal{H})$ (a [[Linear Operator]] $\mathcal{H}\to \mathcal{H}$) the matrix of $T$ 
