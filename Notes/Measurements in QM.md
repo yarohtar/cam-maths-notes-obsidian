@@ -26,3 +26,4 @@ where
 $$
 \mathcal{E}_{i}=span\{ \ket{e_{i}} \otimes \ket{\phi} : \ket{\phi} \in \mathcal{H}_{2} \}
 $$
+and take the projective measurements in these subspaces and etc whatever ... 
