@@ -11,3 +11,11 @@ Let $X$, $Y$ be well-ordered sets, $I$ be an [[Initial Segment]] of $Y$ and $f:X
 $$
 f(x)=min(Y\setminus \{ f(y):y<x \})
 $$
+### Proposition
+Let $X$, $Y$ be well ordered sets that are [[Order-isomorphism]]. then there is a unique order-isomorphism $X\to Y$
+#### Proof
+Assume $f,g:X\to Y$ are order-isomorphisms.
+We prove $(\forall x)(f(x)=g(x))$
+[[Proof by Induction]]
+Fix $x\in X$. Assume $(\forall y<x)(f(y)=g(y))$
+By the lemma, $f(x)=min$
