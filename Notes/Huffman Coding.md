@@ -50,4 +50,5 @@ Then $f_{m-1}'$ is a prefix-free code and the expected word length satisfies
 $$
 E(S_{m}')=E(S_{m-1}')+p_{m-1}+p_{m}
 $$
-By induction hypothesis, $f_{m-1}$ is optimal
+By induction hypothesis, $f_{m-1}$ is optimal so $E(S_{m-1})\leq E(S_{m-1}')$
+Therefore, $E(S_{m})\leq E(S_{m}')$ but $E(S_{m}')$ was assumed to be optimal so $f_{m}$ has to be optimal as well. 
