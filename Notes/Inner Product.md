@@ -11,3 +11,5 @@ For all $x,y\in X$ we have:
 
 ### Properties
 [[Polarisation Identity]]
+[[Parallelogram Law]]
+[[Pythagoras]]
