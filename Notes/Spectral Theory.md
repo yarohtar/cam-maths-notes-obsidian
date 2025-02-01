@@ -4,3 +4,5 @@
 [[Resolvent Set]]
 [[Resolvent Function]]
 [[Approximate Eigenvalue]]
+[[Approximate Point Spectrum]]
+[[Spectral Mapping Theorem]]
