@@ -2,3 +2,5 @@
 [[Eigenvalue]]
 [[Spectrum]]
 [[Resolvent Set]]
+[[Resolvent Function]]
+[[Approximate Eigenvalue]]
