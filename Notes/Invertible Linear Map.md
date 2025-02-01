@@ -11,7 +11,3 @@ $T$ is injective and surjective
 Note that we need both in general, unlike the final dimensional spaces.
 
 
-### Theorem
-Let $X$ be a [[Banach Space]] and $T\in L(X)$. 
-Then $\lVert T \rVert<1$ implies $I-T$ is invertible
-with $(I-T)^{-1}=\sum_{n=0}^{\infty}T^{n}$
