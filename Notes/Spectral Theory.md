@@ -6,3 +6,4 @@
 [[Approximate Eigenvalue]]
 [[Approximate Point Spectrum]]
 [[Spectral Mapping Theorem]]
+[[Non-emptiness of the Spectrum]]
