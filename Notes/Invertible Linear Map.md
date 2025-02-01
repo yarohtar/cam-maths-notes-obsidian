@@ -1,6 +1,6 @@
 Let $X$ be a [[Banach Space]] and $T\in L(X)$
 $T$ is invertible if there is some $S\in L(X)$ such that $ST=TS=I$
-Write $GL(X)=G(X)=$
+[[Space of invertible linear maps]]
 
 
 $T\in L(X)$ invertible $\iff$
