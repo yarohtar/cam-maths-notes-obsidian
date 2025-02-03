@@ -23,4 +23,9 @@ To complete the proof existence, we let
 $$
 f=\bigcup \{ h:h\text{ is an attempt} \}
 $$
-Now just check that this is a [[Function]] and find its domain
+Now just check that this is a [[Function]] and check that $f$ is an attempt.
+To find the domain of $f$: 
+If $dom(f)\neq X$ then $dom(f)=I_{x}$ for some $x\in X$
+So there is no attempt defined at $x$ 
+but we know how to do one step extension so this is untrue
+
