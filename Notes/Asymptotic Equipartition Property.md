@@ -10,3 +10,5 @@ $$
 $$
 for all $(x_{1},\dots x_{n})\in T_{n}$
 
+$T_{n}$ is called a typical set.
+
