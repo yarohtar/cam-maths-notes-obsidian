@@ -10,7 +10,6 @@ Notes on moodle
 [[Trace of an Operator]]
 [[Hilbert-Schmidt Inner Product]]
 [[Pauli Matrices]]
-[[Quantum Logic Gates]]
 [[Orthogonal Subspaces]]
 [[Measurements in QM]]
 [[Entanglement]]
