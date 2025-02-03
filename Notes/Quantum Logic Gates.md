@@ -2,3 +2,6 @@ Physically, it is a device which performs a fixed unitary operation on a selecte
 Mathematically, a quantum gate is a unitary operator.
 
 [[Quantum Circuit]]
+[[Hadamard gate]]
+[[Quantum Fourier Transform]]
+[[NOT gate]]
