@@ -14,3 +14,4 @@ Notes on moodle
 [[Orthogonal Subspaces]]
 [[Measurements in QM]]
 [[Entanglement]]
+[[Quantum Logic Gates]]
