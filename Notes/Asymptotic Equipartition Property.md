@@ -18,4 +18,9 @@ A [[Source]] $X_{1},X_{2},\dots$ satisfies AEP if for some $H\geq 0$
 $$
 -\frac{1}{n}\log P(X_{1},\dots,X_{n})\to^pH
 $$
-    where $\to ^{p}$ means 'converges in probability'
+where $\to ^{p}$ means 'converges in probability'. So we can take very different values for large $n$, but only on a set of small probabilities
+
+This second definition comes from [[Shannon's 1st coding theorem]]
+
+### Proposition
+A [[Memoryless Source]] sastisfies AEP with information rate $H(X)$ fo

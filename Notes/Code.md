@@ -20,3 +20,4 @@ i.e. extend $f$ to $f^{*}:\Sigma_{1}^{*}\to \Sigma_{2}^{*}$
 [[Reliably encodable]]
 [[Information Rate]]
 [[Shannon's 1st coding theorem]]
+[[Weak Law of Large Numbers]]
