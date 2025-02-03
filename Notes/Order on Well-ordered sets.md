@@ -4,4 +4,23 @@ Let $X,Y$ be [[Well-ordering]] sets. Then either $X\leq Y$ or $Y\leq X$.
 
 #### Proof
 Assume $Y\not\leq X$. Particular $Y\neq \emptyset$
-So we can fix $y_{0}$
+So we can fix $y_{0}\in Y$
+Define $f:X\to Y$ by [[Recursive Functions]]:
+$$
+f(x)=\begin{cases}
+min(Y\setminus \{ f(y):y<x \})  & \text{if }Y\setminus \{ f(y):y<x \}\neq \emptyset \\
+y_{0} & \text{otherwise}
+\end{cases}
+$$
+Assume the 'otherwise' clause arises. Then there is a least $x$ where it arises. So $f(I_{x})=\{ f(y):y<x \}=Y$
+And for all $y<x$
+$$
+f(y)=min(Y\setminus \{ f(z):z<y \})
+$$
+As in (previous prop) we show that $f|_{I_{x}}$ is order preserving. So $Y$ is [[Order-isomorphism]] to an [[Initial Segment]] of $X$ 
+
+As in (previous prop) we show $f$ is order-preserving and $im(f)$ is an initial segment of $Y$
+Hence $X\leq Y$.
+
+### Proposition
+Let $X$, $Y$ be [[Well-ordering]] sets. If $X\leq Y$ and $Y\leq X$ then $X$ is [[Order-isomorphism]]
