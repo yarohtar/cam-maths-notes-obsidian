@@ -10,3 +10,4 @@ T. Jech Set Theory
 [[Well-orderings and Ordinals]]
 [[Function]]
 [[Definition by recursion]]
+[[Subset Collapse]]
