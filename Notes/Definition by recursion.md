@@ -12,6 +12,15 @@ Say $h$ is an attempt if $h$ is a function $I\to Y$ where the domain of $h$ is a
 
 The theorem says that there is a unique attempt whose domain is $X$ 
 
-We first show that if $h,h'$ are attempts, then $h(x)=h'(x)$ for all $x\in dom(h)\cap dom(h')$ by induction.
+We first show that if $h,h'$ are attempts, then $h(x)=h'(x)$ for all $x\in dom(h)\cap dom(h')$ by [[Proof by Induction]].
 
-Fix $$
+Fix $x\in dom(h)\cap dom(h')$
+Assume $h(y)=h'(y)$ for all $y<x$ (induction hypothesis)
+(Note that $dom(h)\cap dom(h')$ is an initial segment of $X$)
+We have $h(x)=G(h|_{I_{x}})=G(h'|_{I_{x}})=h'(x)$
+
+To complete the proof existence, we let 
+$$
+f=\bigcup \{ h:h\text{ is an attempt} \}
+$$
+Now just check that this is a [[Function]] and find its domain
