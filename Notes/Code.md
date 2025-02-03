@@ -18,3 +18,5 @@ i.e. extend $f$ to $f^{*}:\Sigma_{1}^{*}\to \Sigma_{2}^{*}$
 
 [[Asymptotic Equipartition Property]]
 [[Reliably encodable]]
+[[Information Rate]]
+[[Shannon's 1st coding theorem]]
