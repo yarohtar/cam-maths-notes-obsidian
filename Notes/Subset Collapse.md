@@ -26,4 +26,16 @@ We do this by proving that $f(x)\leq x$ for all $x\in X$
 Fix $x\in X$ and assume $f(y)\leq y$ for all $y<x$
 Then $x\in Y\setminus \{ f(y):y<x \}$ and hence $f(x)\leq x$
 
-Fix $y<x$
+Fix $y<x$ in $X$ 
+$f(x)\in Y\setminus \{ f(z):z<x \}\subseteq Y\setminus \{ f(z):z<y \}$
+Hence $f(y)\leq f(x)$ and so $f(y)<f(x)$ so $f$ is order preserving 
+
+Let $a\in Y\setminus im(f)$
+We show that $f(x)<a$ for all $x\in X$
+It will then follow that $im(f)$ is an [[Initial Segment]] of $Y$ and we are done.
+[[Proof by Induction]]
+Fix $x\in X$ and assume $f(y)<a$ for all $y<x$
+$$
+a\in Y\setminus \{ f(y):y<x \}
+$$
+so $f(x)\leq a$ and thus $f(x)<a$
