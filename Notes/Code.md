@@ -17,3 +17,4 @@ i.e. extend $f$ to $f^{*}:\Sigma_{1}^{*}\to \Sigma_{2}^{*}$
 [[Expected word length]]
 
 [[Asymptotic Equipartition Property]]
+[[Reliably encodable]]
