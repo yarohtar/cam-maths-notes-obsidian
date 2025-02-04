@@ -1,7 +1,7 @@
 A notion of proof consists of axioms and rules of deduction 
 In [[Propositional Logic]] we adopt the following propositions as axioms:
 (A1) $p \implies(q \implies p)$ for all $p,q \in L$
-(A2) $((p \implies(q\implies p))\implies((p \implies q)\implies(p \implies r)))$
+(A2) $((p \implies(q\implies r))\implies((p \implies q)\implies(p \implies r)))$
 for all $p,q,r\in L$
 (A3) $\neg \neg p \implies p$ for $p \in L$
 (These are called axiom schemes. All axioms are tautologies.)
