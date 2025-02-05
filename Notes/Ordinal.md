@@ -24,3 +24,4 @@ Since $I_{\alpha}$ is an [[Initial Segment]] of ordinals ($j<\beta$, $\beta \in 
 
 [[Burali-Forti paradox]]
 [[Class of Ordinals]]
+[[Supremum of Ordinals]]
