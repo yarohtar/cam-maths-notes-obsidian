@@ -21,3 +21,6 @@ Let $S$ be a nonempty set of ordinals. Then $S$ has a least element.
 Let $\alpha \in S$. If $\alpha$ is not a least element, then $S\cap I_{\alpha}\neq \emptyset$
 By previous, $S\cap I_{\alpha}$ has a least element $\beta$. 
 Since $I_{\alpha}$ is an [[Initial Segment]] of ordinals ($j<\beta$, $\beta \in I_{\alpha}\implies j\in I_{\alpha}$) it follows that $\beta$ is a least element of $S$. 
+
+[[Burali-Forti paradox]]
+[[Class of Ordinals]]
