@@ -28,3 +28,11 @@ Let $X$, $Y$ be [[Well-ordering]] sets. If $X\leq Y$ and $Y\leq X$ then $X$ is [
 Let $f:X\to Y$ and $g:Y\to X$ be [[Order-isomorphism]] to initial segments of $Y$ and $X$ respectively
 Then $g\circ f:X\to X$ is an order isomorphism to an [[Initial Segment]] of $X$. By [[Subset Collapse]] and (prop 3?)
 $g\circ f=Id_{X}$. Similarly $f\circ g=Id_{Y}$
+
+
+
+## Constructing new well ordered sets
+[[Extends]]
+[[Nested]]
+### Proposition
+Let $\{ X_{i}:i\in I \}$ be a [[Nested]] set of [[Well-ordering]] sets. Then there is a well ordered set $X$ such that $X_{i}\leq X$ for all $i\in I$
