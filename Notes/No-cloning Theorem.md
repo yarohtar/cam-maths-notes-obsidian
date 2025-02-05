@@ -12,3 +12,4 @@ NO!!!
 $$
 CNOT\ket{\psi} \ket{0} =CNOT(a\ket{0} +b\ket{1} )\ket{0} =a\ket{00} +b\ket{11}
 $$
+### Theorem
