@@ -48,3 +48,11 @@ a_{2}b_{2}
 \end{pmatrix}
 $$
 We will also use $\ket{a}\otimes \ket{b}=\ket{a}\ket{b}=\ket{ab}$.
+- $$
+A\otimes B=\begin{pmatrix}
+a_{11}B & a_{12}B \\
+ a_{21}B & a_{22}B
+\end{pmatrix}
+$$
+- $A\otimes B=(A\otimes I)(I\otimes B)$
+- $\bra{u}\bra{v}A\otimes B\ket{c}\ket{d}=\bra{u}A\ket{c}\bra{v}B\ket{d}$
