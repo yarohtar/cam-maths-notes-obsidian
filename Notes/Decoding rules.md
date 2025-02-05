@@ -14,4 +14,6 @@ If $p<\frac{1}{2}$ then 2. and 3. agree
 #### Proof
 Suppose $d(x,c)=r$
 $P(x\text{ recd}| c \text{ sent})=p^{r}(1-p)^{n-r}=(1-p)^{n}\left( \frac{p}{1-p} \right)^{r}$
-Since $p<\frac{1}{2}$ we can choose 
+Since $p<\frac{1}{2}$, choosing $c$ to maximise the above probability is the same as choosing $c$ to minimize $d(x,c)$
+
+
