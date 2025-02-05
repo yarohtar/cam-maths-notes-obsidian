@@ -2,7 +2,7 @@ The error rate depends on the decoding rule. We consider 3 possible rules:
 1. The ideal observer decoding rule decodes $x\in \{ 0,1 \}^{n}$ as 
 2. The maximum likelihood decoding rule
 3. The minimum distance decoding rule
-
+[[Hamming distance]]
 
 ### Lemma
 If all messages are equally likely then 1. and 2. agree.

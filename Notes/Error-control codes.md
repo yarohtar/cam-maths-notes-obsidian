@@ -1,3 +1,4 @@
+WATCH LECTR
 [[Codewords]]
 [[Binary Code]]
 [[Information Rate]]
