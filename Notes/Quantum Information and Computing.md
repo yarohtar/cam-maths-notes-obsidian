@@ -14,3 +14,4 @@ Notes on moodle
 [[Measurements in QM]]
 [[Entanglement]]
 [[Quantum Logic Gates]]
+[[Bell basis]]
