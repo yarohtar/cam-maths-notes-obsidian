@@ -1,5 +1,5 @@
 [[Linear order]]
-[[Well-ordering]]
-[[Order-isomorphism]]
+[[Well-ordered]]
+[[Order-isomorphic]]
 [[Initial Segment]]
 [[Proof by Induction]]

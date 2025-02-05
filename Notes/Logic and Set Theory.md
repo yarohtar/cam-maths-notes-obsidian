@@ -12,3 +12,4 @@ T. Jech Set Theory
 [[Definition by recursion]]
 [[Subset Collapse]]
 [[Order on Well-ordered sets]]
+[[Ordinal]]

@@ -1,5 +1,5 @@
-Let $Y$ be a [[Well-ordering]] set and $X\subseteq Y$
-Then there is a unique [[Initial Segment]] of $Y$ which is [[Order-isomorphism]] to $X$ 
+Let $Y$ be a [[Well-ordered]] set and $X\subseteq Y$
+Then there is a unique [[Initial Segment]] of $Y$ which is [[Order-isomorphic]] to $X$ 
 
 #### Proof
 ##### Uniqueness 

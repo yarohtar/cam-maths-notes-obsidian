@@ -4,15 +4,15 @@ $$
 $$
 This least element is unique by antisymmetry of $\leq$
 
-This property is preserved by [[Order-isomorphism]].
+This property is preserved by [[Order-isomorphic]].
 
 ### Lemma
-Let $X$, $Y$ be well-ordered sets, $I$ be an [[Initial Segment]] of $Y$ and $f:X\to I$ be an [[Order-isomorphism]]. Then for every $x\in X$, we have 
+Let $X$, $Y$ be well-ordered sets, $I$ be an [[Initial Segment]] of $Y$ and $f:X\to I$ be an [[Order-isomorphic]]. Then for every $x\in X$, we have 
 $$
 f(x)=min(Y\setminus \{ f(y):y<x \})
 $$
 ### Proposition
-Let $X$, $Y$ be well ordered sets that are [[Order-isomorphism]]. then there is a unique order-isomorphism $X\to Y$
+Let $X$, $Y$ be well ordered sets that are [[Order-isomorphic]]. then there is a unique order-isomorphism $X\to Y$
 #### Proof
 Assume $f,g:X\to Y$ are order-isomorphisms.
 We prove $(\forall x)(f(x)=g(x))$
