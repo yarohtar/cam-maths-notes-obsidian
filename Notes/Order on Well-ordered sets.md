@@ -32,6 +32,7 @@ $g\circ f=Id_{X}$. Similarly $f\circ g=Id_{Y}$
 
 
 ## Constructing new well ordered sets
+$X^{+}=X\cup \{ z \}$ for some $z\not\in X$ and extend the ordering...
 [[Extends]]
 [[Nested]]
 ### Proposition
