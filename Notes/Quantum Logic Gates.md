@@ -14,4 +14,3 @@ Mathematically, a quantum gate is a unitary operator.
 ### 2 qubit gates
 [[CNOT-gate]]
 [[Controlled unitary gate]]
-[[Toffoli gate]]
