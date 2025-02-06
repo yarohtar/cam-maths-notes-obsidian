@@ -1,0 +1,1 @@
+$S\subseteq L$ is consistent if it is not [[Inconsistent]]
