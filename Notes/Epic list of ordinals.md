@@ -11,4 +11,10 @@ Then get $\omega^{2}\cdot 2,\omega^{2} \cdot 3,\dots \omega^{2}\cdot \omega=\ome
 So have
 $\omega,\omega^{2},\omega^{3},\dots,\omega^{\omega}$
 Eventually, get 
-$\omega^{\omega }\cdot 2\dots \omega^{\omega+1}\dots \omega^{\omega^{2}}\dots \omega^{\omega^{\omega}}\dots$
+$\omega^{\omega }\cdot 2\dots \omega^{\omega+1}\dots \omega^{\omega^{2}}\dots \omega^{\omega^{\omega}}\dots \omega^{\omega^{\dots}}=\varepsilon_{0}$
+Now continue to get
+$\varepsilon_{0}\dots\varepsilon_{1}\dots \varepsilon_{2}\dots\varepsilon_{\omega}\dots\varepsilon_{\varepsilon_{0}}\dots\varepsilon_{\varepsilon_{\varepsilon_{0}}}\dots\varepsilon_{\varepsilon_{\varepsilon_{\dots}}}\dots$
+
+Note, all of these ordinals are countable.
+
+[[Uncountable ordinal]]
