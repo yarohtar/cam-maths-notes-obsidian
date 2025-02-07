@@ -15,3 +15,6 @@ Soem convention needed in the case of a tie, eg. choose at random or ask for mes
 [[Error correcting]]
 [[Hamming distance]]
 [[Minimum distance of a code]]
+## New codes from old
+[[Parity Extension]]
+[[]]
