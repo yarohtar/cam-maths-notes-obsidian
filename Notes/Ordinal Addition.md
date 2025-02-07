@@ -2,6 +2,9 @@ For [[Ordinal]]$s$ $\alpha$, $\beta$ we define $\alpha+\beta$ by recursion on $\
 $\alpha+0=\alpha$
 $\alpha+\beta^{+}=(\alpha+\beta)^{+}$
 $\alpha+\lambda=sup \{ \alpha+\beta:\beta<\lambda \}$ for $\lambda$ limit
+
+This is NOT commutative in general, eg $\omega+1=\omega^{+}$ but $1+\omega=\omega$
+
 #### Remark
 Technically, we should fix an ordinal $\gamma$ and define $\alpha+\beta$ by recursion on $\beta$ in the [[Well-ordered]] set $I_{\gamma}$. By uniqueness in recursion, this gives a well-defined $\alpha+\beta$ for all $\alpha,\beta$. In general, this justifies recursive definition on all ordinals like the one above.
 
@@ -10,4 +13,17 @@ Let $p(\alpha)$ be some property of an ordinal $\alpha$. Then
 $$
 (\forall \alpha)((\forall \beta)((\beta<\alpha)\implies p(\beta))\implies p(\alpha))\implies(\forall \alpha)p(\alpha)
 $$
-Indeed, assume otherwise. Then there is an ordinal $\gamma$ such that $\neg p(\gamma)$. Then there is also a least ordinal $\alpha\leq \gamma$ such that $\neg p(\alpha)$. If $$
+Indeed, assume otherwise. Then there is an ordinal $\gamma$ such that $\neg p(\gamma)$. Then there is also a least ordinal $\alpha\leq \gamma$ such that $\neg p(\alpha)$. If $\beta<\alpha$, then $\beta\leq \gamma$ and so $p(\beta)$ holds. By assumption $p(\alpha)$ holds.
+
+### Proposition
+$$
+\beta\leq \gamma \implies \alpha+\beta\leq \alpha+\gamma
+$$
+#### Proof
+By induction on $\gamma$ ($\alpha$ fixed). Consider three cases:
+$\gamma=0$ if $\beta\leq \gamma$ then $\beta=\gamma=0$ so $\alpha+\beta\leq \alpha+\gamma$
+$\gamma=\delta^{+}$ if $\beta\leq \gamma$ then WLOG $\beta<\gamma$, and so $\beta\leq \delta$. So by induction 
+$$
+\alpha+\beta\leq \alpha+\delta<(\alpha+\delta)^{+}=\alpha+\gamma
+$$
+$\gamma\neq 0$ is a limit. WLOG $\beta<\gamma$. 
