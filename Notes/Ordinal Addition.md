@@ -10,4 +10,4 @@ Let $p(\alpha)$ be some property of an ordinal $\alpha$. Then
 $$
 (\forall \alpha)((\forall \beta)((\beta<\alpha)\implies p(\beta))\implies p(\alpha))\implies(\forall \alpha)p(\alpha)
 $$
-Indeed, assume otherwise. Then there is a least ordinal $\gamma$ such that $$
+Indeed, assume otherwise. Then there is an ordinal $\gamma$ such that $\neg p(\gamma)$. Then there is also a least ordinal $\alpha\leq \gamma$ such that $\neg p(\alpha)$. If $$
