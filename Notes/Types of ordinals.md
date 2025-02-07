@@ -1,0 +1,1 @@
+Let $\alpha$ be an [[Ordinal]]. We consider two cases, depending on whether $\alpha$ has a biggest element or not.
