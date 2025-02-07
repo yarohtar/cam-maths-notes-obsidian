@@ -11,7 +11,7 @@ Remark:
 Soem convention needed in the case of a tie, eg. choose at random or ask for message to be sent again.
 [[Decoding rules]]
 
-[[d-error detecting]]
-[[e-error correcting]]
+[[Error detecting]]
+[[Error correcting]]
 [[Hamming distance]]
 [[Minimum distance of a code]]
