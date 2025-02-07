@@ -14,3 +14,4 @@ Soem convention needed in the case of a tie, eg. choose at random or ask for mes
 [[d-error detecting]]
 [[e-error correcting]]
 [[Hamming distance]]
+[[Minimum distance of a code]]
