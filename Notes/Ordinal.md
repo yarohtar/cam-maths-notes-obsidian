@@ -26,3 +26,4 @@ Since $I_{\alpha}$ is an [[Initial Segment]] of ordinals ($j<\beta$, $\beta \in 
 [[Class of Ordinals]]
 [[Supremum of Ordinals]]
 [[Epic list of ordinals]]
+[[Hartogs' Lemma]]
