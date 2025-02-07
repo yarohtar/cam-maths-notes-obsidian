@@ -17,3 +17,4 @@ Notes on moodle
 [[Bell basis]]
 [[No-cloning Theorem]]
 [[No-signalling Principle Theorem]]
+[[Distinguishing]]

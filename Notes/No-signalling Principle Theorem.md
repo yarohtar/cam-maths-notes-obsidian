@@ -29,5 +29,18 @@ $$
 $$
 Now Bob does measurement on $B$ in $\{ \ket{b} \}$
 $$
-p(b|a)
+\begin{align}
+p(b|a)&=\bra{\phi_{AB}''} I_{A}\otimes P_{b}\ket{\phi_{AB}''}  \\
+ & =\frac{1}{p(a)}\bra{\phi_{AB}} (P_{a}\otimes I_{B})(I_{A}\otimes P_{b})(P_{a}\otimes I_{B})\ket{\phi_{AB}}  \\
+ & =\frac{1}{p(a)}\bra{\phi_{AB}} P_{a}\otimes P_{b}\ket{\phi_{AB}}  \\
+\end{align}
 $$
+So
+$$
+ p(a,b) = \lvert c_{ab} \rvert ^{2} 
+$$
+Thus
+$$
+p(b)=\sum_{a}p(a,b)=\sum_{a}\lvert c_{ab} \rvert ^{2}
+$$
+same as in Case 1
