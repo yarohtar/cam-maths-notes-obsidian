@@ -26,4 +26,7 @@ $\gamma=\delta^{+}$ if $\beta\leq \gamma$ then WLOG $\beta<\gamma$, and so $\bet
 $$
 \alpha+\beta\leq \alpha+\delta<(\alpha+\delta)^{+}=\alpha+\gamma
 $$
-$\gamma\neq 0$ is a limit. WLOG $\beta<\gamma$. 
+$\gamma\neq 0$ is a limit. WLOG $\beta<\gamma$. Then there is some $\delta$ such that $\beta<\delta<\gamma$. By induction 
+$$
+\alpha+\beta\leq \alpha+\delta\leq\alpha+\gamma=sup \{ \alpha+\eta: \eta<\gamma \}
+$$
