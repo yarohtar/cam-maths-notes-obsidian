@@ -12,5 +12,5 @@ $$
 2^{n}\leq \lvert C \rvert V(n,d-1)
 $$
 $$
-\frac{2^{n}}{V}
+\frac{2^{n}}{V(n,d-1)}\leq \lvert C \rvert
 $$

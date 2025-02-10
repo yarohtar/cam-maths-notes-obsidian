@@ -10,3 +10,12 @@ $$
 #### Proof
 [[Hamming's Bound]]
 [[Gilbert-Shannon-Varshamov Bound]]
+
+### Example
+$$
+\frac{2^{10}}{56}\leq A(10,3)\leq \frac{2^{10}}{11}
+$$
+$$
+19\leq A(10,3)\leq 93
+$$
+$A(10,3)=72$ discovered in 1999. 
