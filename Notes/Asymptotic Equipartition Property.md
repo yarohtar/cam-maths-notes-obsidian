@@ -1,6 +1,6 @@
 A [[Source]] $X_{1},X_{2},\dots$ satisfies the Asymptotic Equipartition Property (AEP) with constant $H\geq 0$ if:
 $$
-\forall \epsilon>0 \exists n_{0}\in \mathbb{N} \forall n\geq n_{0}\exists T_{n}\subseteq \Sigma^{n}
+\forall \epsilon>0\ \exists n_{0}\in \mathbb{N} \ \forall n\geq n_{0}\ \exists T_{n}\subseteq \Sigma^{n}
 $$
 1. $$
 P((X_{1},\dots,X_{n})\in T_{n})>1-\epsilon

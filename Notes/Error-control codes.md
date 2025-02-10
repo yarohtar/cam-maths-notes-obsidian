@@ -1,4 +1,4 @@
-WATCH LECTURE 5 OF FEBRUARY
+WATCH LECTURE 5th OF FEBRUARY
 [[Codewords]]
 [[Binary Code]]
 [[Information Rate]]
@@ -15,6 +15,7 @@ Soem convention needed in the case of a tie, eg. choose at random or ask for mes
 [[Error correcting]]
 [[Hamming distance]]
 [[Minimum distance of a code]]
+[[Asymptotic Equipartition Property]]
 ## New codes from old
 [[Parity Extension]]
 [[Punctured code]]
