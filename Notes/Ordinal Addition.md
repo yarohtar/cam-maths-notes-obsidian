@@ -32,3 +32,9 @@ $$
 $$
 
 ### Lemma
+Let $S$ be a nonempty set of ordinals. Then for any ordinal $\alpha$,
+$$
+\alpha+supS=sup \{ \alpha+\beta:\beta \in S \}
+$$
+#### Proof
+Cases on whether $S$ has a greatest element. 
