@@ -30,3 +30,4 @@ Since $I_{\alpha}$ is an [[Initial Segment]] of ordinals ($j<\beta$, $\beta \in 
 [[Hartogs' Lemma]]
 [[Types of ordinals]]
 [[Ordinal Addition]]
+[[Ordinal Multiplication]]
