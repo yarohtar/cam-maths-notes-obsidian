@@ -23,4 +23,5 @@ Soem convention needed in the case of a tie, eg. choose at random or ask for mes
 [[Hamming's Bound]]
 [[Gilbert-Shannon-Varshamov Bound]]
 [[Size of Largest Code]]
+[[Channel Capacity]]
 
