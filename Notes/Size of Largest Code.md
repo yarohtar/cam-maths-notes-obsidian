@@ -2,6 +2,7 @@ $$
 A(n,d)=max\{ m:\exists[n,m,d]\text{-code} \}
 $$
 ie the size of largest code with parameters $n$ and $d$ 
+[[Asymptotic Size of Largest Code]]
 
 ### Proposition
 $$
@@ -19,3 +20,4 @@ $$
 19\leq A(10,3)\leq 93
 $$
 $A(10,3)=72$ discovered in 1999. 
+
