@@ -1,0 +1,1 @@
+Let $X$, $Y$ be [[Well-ordered]] sets. 
