@@ -1,6 +1,7 @@
 ### Helstrom and Hovelo Theorem
 You are given a quantum system in unknown state $\ket{\psi}$
 You are told $\ket{\psi}$ is either in $\ket{\alpha_{0}}$ or $\ket{\alpha_{1}}$ with probability $\frac{1}{2}$
+and $\lvert \braket{ \alpha_{0} | \alpha_{1} } \rvert=\cos \theta$
 Do a 2-outcome measurement
 Probability of success
 
