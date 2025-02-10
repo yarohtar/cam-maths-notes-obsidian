@@ -19,3 +19,6 @@ Soem convention needed in the case of a tie, eg. choose at random or ask for mes
 [[Parity Extension]]
 [[Punctured code]]
 [[Shortened code]]
+[[Perfect Code]]
+[[Hamming's Bound]]
+[[Size of Largest Code]]
