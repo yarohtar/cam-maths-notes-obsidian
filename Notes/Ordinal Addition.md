@@ -30,3 +30,5 @@ $\gamma\neq 0$ is a limit. WLOG $\beta<\gamma$. Then there is some $\delta$ such
 $$
 \alpha+\beta\leq \alpha+\delta\leq\alpha+\gamma=sup \{ \alpha+\eta: \eta<\gamma \}
 $$
+
+### Lemma
