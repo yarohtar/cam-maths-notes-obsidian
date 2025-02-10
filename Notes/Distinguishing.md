@@ -45,4 +45,9 @@ p(\Pi_{0}) & =\frac{1}{2}+\frac{1}{2}Tr(\Pi_{0}\Delta) \\
 \end{align}
 $$
 Claim: $\bra{m}\Pi_{0}\ket{m}\geq 0$
-Use $\Pi_{0}^{2}=\Pi_{0}$
+Use $\Pi_{0}^{2}=\Pi_{0}$ and $\Pi_{0}^{\dagger}=\Pi_{0}$
+So
+$$
+p(\Pi_{0})\leq \frac{1}{2}+\frac{\sin \theta}{2}\bra{p} \Pi_{0}\ket{p} \leq \frac{1}{2}+ \frac{\sin \theta}{2}
+$$
+
