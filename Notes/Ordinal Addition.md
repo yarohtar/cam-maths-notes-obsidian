@@ -38,3 +38,13 @@ $$
 $$
 #### Proof
 Cases on whether $S$ has a greatest element. 
+
+### Proposition
+$$
+\alpha+(\beta+\gamma)=(\alpha+\beta)+\gamma
+$$
+#### Proof
+By induction on $\gamma$ with $\alpha$, $\beta$ fixed. We consider three cases:
+$\gamma=0$ 
+$\gamma=\delta^{+}$
+$\gamma$ a limit
