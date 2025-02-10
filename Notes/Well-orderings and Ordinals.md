@@ -4,3 +4,4 @@
 [[Order-isomorphic]]
 [[Initial Segment]]
 [[Proof by Induction]]
+[[Ordinal]]

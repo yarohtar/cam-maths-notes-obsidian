@@ -4,6 +4,7 @@ $\alpha+\beta^{+}=(\alpha+\beta)^{+}$
 $\alpha+\lambda=sup \{ \alpha+\beta:\beta<\lambda \}$ for $\lambda$ limit
 
 This is NOT commutative in general, eg $\omega+1=\omega^{+}$ but $1+\omega=\omega$
+[[Synthetic Definition of Ordinal Addition]]
 
 #### Remark
 Technically, we should fix an ordinal $\gamma$ and define $\alpha+\beta$ by recursion on $\beta$ in the [[Well-ordered]] set $I_{\gamma}$. By uniqueness in recursion, this gives a well-defined $\alpha+\beta$ for all $\alpha,\beta$. In general, this justifies recursive definition on all ordinals like the one above.
