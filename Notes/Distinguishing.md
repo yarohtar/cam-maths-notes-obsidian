@@ -28,3 +28,21 @@ $$
 -c_{0}^{*}c_{1} & -\lvert c_{1} \rvert ^{2}
 \end{pmatrix}
 $$
+and we find the eigen values are $\delta=\lvert c_{1} \rvert$
+
+Let $\ket{\alpha_{0}}$ and $\ket{\alpha_{1}}$ be such that
+$$
+0<\braket{ \alpha_{0} | \alpha_{1} }<1
+$$
+Then $\lvert \braket{ \alpha_{0} | \alpha_{1} } \rvert=\cos \theta$ for some $0<\theta<\frac{\pi}{2}$
+with $\lvert c_{0} \rvert=\cos \theta$, $\lvert c_{1} \rvert=\sin \theta$
+
+$$
+\begin{align}
+p(\Pi_{0}) & =\frac{1}{2}+\frac{1}{2}Tr(\Pi_{0}\Delta) \\
+ & =\frac{1}{2}+\frac{1}{2}Tr(\Pi_{0}(\delta \ket{p} \bra{p} -\delta\ket{m} \bra{m} )) \\
+ & =\frac{1}{2}+ \frac{\sin \theta}{2}(\bra{p} \Pi_{0}\ket{p} -\bra{m} \Pi_{0}\ket{m} )
+\end{align}
+$$
+Claim: $\bra{m}\Pi_{0}\ket{m}\geq 0$
+Use $\Pi_{0}^{2}=\Pi_{0}$
