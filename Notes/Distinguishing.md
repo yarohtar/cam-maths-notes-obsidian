@@ -14,8 +14,17 @@ Properties
 $\Delta ^{\dagger}=\Delta$
 $\ket{\beta}\in \mathcal{H}$ s.t. $\braket{ \beta | \alpha_{0} }=0=\braket{ \beta | \alpha_{1} }$
 then $\Delta \ket{\beta}=0$
+So $\Delta$ only acts nontrivially on $v=span\{ \ket{\alpha_{0}},\ket{\alpha_{1}} \}$
 $Tr\Delta=0$ so eigenvalues are $+\delta$ and $-\delta$
 Let corresponding eigenvalues be $\ket{p},\ket{m}$ and $P_{\delta}=\ket{p}\bra{p}$ and $P_{-\delta}=\ket{m}\bra{m}$
 Spectral decomposition: $\Delta=\delta P_{\delta}-\delta P_{-\delta}$
 Determine $\delta$ in terms of $\ket{\alpha_{0}}$, $\ket{\alpha_{1}}$
-Let $\ket{\alpha_{0}^{\bot}}$
+Let $\ket{\alpha_{0}^{\bot}}\in v$ ??????
+$\ket{\alpha_{1}}=c_{0}\ket{\alpha_{0}}+c_{1}\ket{\alpha_{0}^{\bot}}$
+Write $\Delta$ in this basis
+$$
+\Delta=\begin{pmatrix}
+\lvert c_{1} \rvert ^{2} & -c_{0}c_{1}^{*} \\
+-c_{0}^{*}c_{1} & -\lvert c_{1} \rvert ^{2}
+\end{pmatrix}
+$$
