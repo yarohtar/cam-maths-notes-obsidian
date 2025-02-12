@@ -1,7 +1,7 @@
 For a metric space $M$, the following are equivalent:
 1. $M$ is [[Compactness|compact]]
 2. $M$ is [[Sequential compactness|sequentially compact]]
-3. $M$ is [[Totally bounded|totally bounded]] and [[Complete|complete]]
+3. $M$ is [[Totally bounded|totally bounded]] and [[Complete Metric Space|complete]]
 
 ## Proof
 $(1\implies 2):$ Suppose $M$ is compact. Suppose it is not sequentially compact. Find a sequence $(x_n)$ which doesn't have a convergent subsequence. Suppose that there is some $x\in M$ s.t. every nbd $U$ of $x$ has infinitely many points of the sequence. Now there must be a subsequence of $(x_n)$ converging to $x$ - contradiction. Hence, for every $x\in M$ find open nbd $U_x$ of $x$ which contains at most finitely many points in the sequence. Then $U_x$ are an open cover of $M$. But $M$ is compact, so find finite $F\subseteq M$ s.t. $\bigcup_{x\in F}U_x=M$. Hence, this union contains at most finitely many points of the sequence, but there are infinitely many of them in $M$ - contradiction.

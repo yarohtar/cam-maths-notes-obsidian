@@ -15,7 +15,7 @@ A set $B$ is closed iff $M\setminus B$ is open.
 
 Let $B\subseteq M$ closed. Suppose $x_n$ is a convergent sequence in $M$ s.t. $x_n\to x$ and $x_n\in B$. Suppose $x\not\in B$. Then any open ball around $x$ will contain some point in $B$. But then no open ball around $x$ is in $M\setminus B$, so $M\setminus B$ is not open, so $B$ is not closed - contradiction. Similarly, if all convergent sequences in $M$ that are in $B$ are also convergent in $B$, then $B$ is closed. 
 
-[[Complete]]
+[[Complete Metric Space]]
 
 A subset $A\subseteq M$ is bounded if there are some $r>0$ and $z\in M$ s.t. $A\subset B_r(z)$.
 [[Totally bounded]]
