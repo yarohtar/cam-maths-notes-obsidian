@@ -25,6 +25,7 @@ Soem convention needed in the case of a tie, eg. choose at random or ask for mes
 [[Gilbert-Shannon-Varshamov Bound]]
 [[Size of Largest Code]]
 [[Channel Capacity]]
+[[Joint Entropy]]
 
 ### Lemma
 Let $\epsilon>0$. A [[Binary Symmetric Channel (BSC)]] with error probability $p$ is used to send $n$ digits. Then
@@ -73,4 +74,5 @@ Therefore
 $$
 \hat{e}(C_{n})\leq P(\text{BSC makes }\geq n(p+\epsilon)\text{ errors})\to 0
 $$
-as $n\to \infty$
+as $n\to \infty$ by lemma
+
