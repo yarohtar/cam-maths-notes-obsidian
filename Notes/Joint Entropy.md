@@ -22,3 +22,4 @@ i.e.
 $$
 H(X,Y)\leq H(X)+H(Y)
 $$
+Equality $\iff p_{ij}=p_{i}q_{j}$ for all $i,j$ $\iff$ $X$ and $Y$ are independent.

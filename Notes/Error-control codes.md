@@ -26,6 +26,7 @@ Soem convention needed in the case of a tie, eg. choose at random or ask for mes
 [[Size of Largest Code]]
 [[Channel Capacity]]
 [[Joint Entropy]]
+[[Conditional Entropy]]
 
 ### Lemma
 Let $\epsilon>0$. A [[Binary Symmetric Channel (BSC)]] with error probability $p$ is used to send $n$ digits. Then
