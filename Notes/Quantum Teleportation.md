@@ -23,4 +23,4 @@ So Bob should act with $X$ on it to get $X^{2}\ket{\psi}=\ket{\psi}$
 
 In general, if outcome is $ij$ then Bob needs to act on his final state with $Z^{i}X^{j}$ because his final state will be $X^{j}Z^{i}\ket{\psi}$
 
-
+![[Drawing 2025-02-12 10.31.37.excalidraw]]
