@@ -10,8 +10,14 @@ $H(X,Y)=H(X|Y)+H(Y)$
 $$
 \begin{align}
 H(X|Y) & =-\sum_{y\in \Sigma_{2}}\sum_{x\in \Sigma_{1}}P(X=x|Y=y)P(Y=y)\log P(X=x|Y=y)\\
- & =-\sum_{y\in \Sigma_{2}}\sum_{x\in \Sigma_{1}}P(X=x,Y=y)\log \frac{P(X=x,Y=y)}{P(Y=y)}  & \\
- & =-\sum_{y\in \Sigma_{2}}\sum_{x\in \Sigma_{1}} & P(X=x,Y=y)\log P(X=x,Y=y) \\
- &  & +
+ & =-\sum_{y\in \Sigma_{2}}\sum_{x\in \Sigma_{1}}P(X=x,Y=y)\log \frac{P(X=x,Y=y)}{P(Y=y)}\\
+ & =-\sum_{y\in \Sigma_{2}}\sum_{x\in \Sigma_{1}}P(X=x,Y=y)\log P(X=x,Y=y) \\
+ & \quad %quad
+\quad %quad
+\quad 
+ +\sum_{y}\left( \sum_{x}P(X=x,Y=y) \right)\log P(Y=y) \\
+ & =H(X,Y)-H(Y)
 \end{align}
 $$
+### Corollary 
+$H(X|Y)\leq H(X)$ with equality iff $X$ and $Y$ are independent.
