@@ -18,4 +18,5 @@ Notes on moodle
 [[No-cloning Theorem]]
 [[No-signalling Principle Theorem]]
 [[Distinguishing]]
+[[Quantum Teleportt]]
 

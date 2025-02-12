@@ -10,3 +10,6 @@ C\ket{11} =\ket{\psi^{-}} =\frac{1}{\sqrt{ 2 }}(\ket{01} -\ket{10} )
 \end{gather}
 $$
 
+![[Drawing 2025-02-12 10.07.07.excalidraw]]
+![[Bell basis 2025-02-12 10.09.10.excalidraw]]
+
