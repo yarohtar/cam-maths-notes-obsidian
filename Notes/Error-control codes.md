@@ -53,4 +53,24 @@ by WLLN
 The capacity of a [[Binary Symmetric Channel (BSC)]] with error probability $p<\frac{1}{4}$ is $\neq 0$
 
 #### Proof
-Choose $\nabl$
+Choose $\delta$ with $2p<\delta<\frac{1}{2}$
+We prove reliable encoding at rate $R=1-H(\delta)>0$
+Let $C_{n}$ be the largest code of length $n$ and 
+??????????? RACHEL PLEASE STOP HIDING YOUR BLACKBOARDS!!!!
+12 ferburary lecture
+
+Replacing $C_{n}$ by subcode gives $\lvert C_{n} \rvert=\lfloor 2^{nR} \rfloor$ and still minimum distance $\geq \lfloor n\delta \rfloor$
+Using minimum distance decoding 
+$$
+\begin{align}
+\hat{e}(C_{n}) & \leq P\left( \text{BSC makes }\geq \left\lfloor  \frac{\lfloor n\delta \rfloor -1}{2}  \right\rfloor +1 \text{ errors} \right) \\
+ & \leq P\left( \text{BSC makes }\geq \frac{n\delta-1}{2}\text{ errors} \right)
+\end{align}
+$$
+Pick $\epsilon>0$ st $p+\epsilon<\frac{\delta}{2}$
+Then $\frac{n\delta-1}{2}=n\left( \frac{\delta}{2}-\frac{1}{2n} \right)>n(p+\epsilon)$ for $n$ sufficiently large
+Therefore
+$$
+\hat{e}(C_{n})\leq P(\text{BSC makes }\geq n(p+\epsilon)\text{ errors})\to 0
+$$
+as $n\to \infty$
