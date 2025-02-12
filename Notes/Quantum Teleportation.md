@@ -9,6 +9,13 @@ $$
 \ket{\psi} _{C}\otimes \ket{\phi^{+}} _{AB} & =(\alpha \ket{0} +\beta \ket{1} )\otimes \frac{1}{\sqrt{ 2 }}(\ket{00} +\ket{11} ) \\
  & =\frac{1}{\sqrt{ 2 }}(\ket{00} +\ket{11} )(\alpha \ket{0} +\beta \ket{1} ) \\
  & +\frac{1}{\sqrt{ 2 }}(\ket{00} -\ket{11} )(\alpha \ket{0} -\beta \ket{1} ) \\
- & +\frac{1}{\sqrt{ 2 }}(\ket{01} +\ket{10} )(\alpha \ket{1} +\beta ke)
+ & +\frac{1}{\sqrt{ 2 }}(\ket{01} +\ket{10} )(\alpha \ket{1} +\beta \ket{0} ) \\
+ & +\frac{1}{\sqrt{ 2 }}(\ket{01} -\ket{10} )(\alpha \ket{1} -\beta \ket{0} )
 \end{align}
 $$
+Alice does a Bell measurement with outcome $ij$ where $i,j\in \{ 0,1 \}$
+She sends $ij$ to Bob.
+If $i=0$, $j=1$ what is the post measurement state of $CAB$?
+$\ket{\psi^{+}}_{CA}\otimes(X\ket{\psi})_{B}$
+Bob's state is $(X\ket{\psi})_{B}$
+So Bob should act with $X$ on it to get $X^{2}\ket{\psi}=\ket{\psi}$
