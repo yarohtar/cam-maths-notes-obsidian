@@ -19,5 +19,4 @@ Notes on moodle
 [[No-signalling Principle Theorem]]
 [[Distinguishing]]
 [[Quantum Teleportation]]
-[[Quantum Cryptographyw]]
-
+[[Quantum Cryptography]]
