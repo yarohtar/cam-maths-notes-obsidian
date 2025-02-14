@@ -15,4 +15,4 @@ T. Jech Set Theory
 [[Ordinal]]
 [[Poset]]
 [[Zorn's Lemma]]
-[[Hamel]]
+[[Every vector space has a basis]]
