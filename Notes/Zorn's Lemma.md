@@ -14,4 +14,5 @@ f(\lambda)=u(\{ f(\alpha):\alpha<\lambda \}) \quad %quad
 \end{gather}
 $$
 An easy induction (on $\beta$ with $\alpha$ fixed) shows that $\alpha<\beta \implies f(\alpha)<f(\beta)$
-Hence $f$ is injective whic
+Hence $f$ is injective which is a contradiction by [[Hartogs' Lemma]].
+
