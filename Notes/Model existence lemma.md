@@ -1,10 +1,9 @@
 Let $S\subseteq L$. Then if $S$ is [[Consistent]], then $S$ has a model. 
 #### Proof
-We only consider the case when the set $P$ of primitive propositions is countable. We will do the general case in chapter 3
-
 Note that $L_{1}=P\cup \{ \bot \}$ is countable, and hence by induction $L_{n}$ is also countable for all $n\in \mathbb{N}$. Thus $L=\bigcup_{n\in \mathbb{N}}L_{n}$ is countable.
 We enumerate $L$ as $t_{1},t_{2},\dots$
 
+##### Countable case
 If $T\subseteq L$ is consistent and $t\in L$ then one of $T\cup \{ t \}$ or $T\cup \{ \neg t \}$ is consistent. Indeed, if not, then $T\cup \{ t \}\vdash \bot$ and $T\cup \{ \neg t \}\vdash \bot$
 Then by [[Deduction Theorem (Propositional Logic)|Deduction Theorem]], we have $T\vdash \neg t$ and $T\vdash(\neg t\implies \bot)$ and hence $T\vdash \bot$ by (MP) which is a contradiction
 
@@ -19,6 +18,11 @@ Note that $S\subseteq \bar{S}$ and $\forall t\in L$ either $t\in \bar{S}$ or $\n
 
 Also $\bar{S}$ is consistent: if $\bar{S}\vdash \bot$ then as proofs are finite, there is some $n$ such that $S_{n}\vdash \bot$ which is a contradiction.
 
+##### Uncountable case
+We seek a maximal consistent set $\bar{S}\supseteq S$. 
+
+
+##### Finish proof
 $\bar{S}$ is deductively closed i.e. if $t\in L$ and $\bar{S}\vdash t$ then $t\in \bar{S}$.
 Indeed, if $t\not\in \bar{S}$ then $\neg t\in \bar{S}$. So we have a proof:
 First write down a proof of $t$ from $S$ and add the lines:
