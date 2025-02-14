@@ -26,7 +26,11 @@ $X\neq \emptyset$ since $S\in X$
 Let $C=\{ T_{i}:i\in I \}$ be a nonempty chain in $X$. We show $T=\bigcup_{i\in I}T_{i}$ is an [[Upper Bound]]: 
 $S\subseteq T$, $T_{i}\subseteq T$, it remains to show that $T$ is consistent.
 If $T\vdash \bot$, then as proofs are finite there are some $i_{1},\dots i_{n}\in I$
-s.t. $\bigcup_{j=1}^{n}$
+s.t. $\bigcup_{j=1}^{n}T_{i_{j}}\vdash \bot$. Since $C$ is a chain there is some $k$ such that $T_{i_{k}}\vdash \bot$
+By [[Zorn's Lemma]], $X$ has a maximal element $\bar{S}$
+Now for any $t\in L$, either $\bar{S}\cup \{ t \}$ or $\bar{S}\cup \{ \neg t \}$ is consistent,
+otherwise $\bar{S}\vdash \neg t$ and $\bar{S}\vdash \neg \neg t$ by the [[Deduction Theorem (Propositional Logic)]]. then $\bar{S}\vdash \bot$ by MP.
+It follows from maximality of $\bar{S}$ that either $t\in \bar{S}$ or $\neg t\in \bar{S}$.
 
 ##### Finish proof
 $\bar{S}$ is deductively closed i.e. if $t\in L$ and $\bar{S}\vdash t$ then $t\in \bar{S}$.
