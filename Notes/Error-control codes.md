@@ -1,4 +1,5 @@
-WATCH LECTURE 5th OF FEBRUARY
+WATCH START OF LECTURE  ON 5th OF FEBRUARY
+WATCH LECTURE 14th OF FEB
 [[Codewords]]
 [[Binary Code]]
 [[Information Rate]]
@@ -77,3 +78,9 @@ $$
 $$
 as $n\to \infty$ by lemma
 
+
+### Proposition
+For a [[Discrete Memoryless Channel (DMC)]] 
+$$
+\text{operational capacity }\leq \text{ information capacity}
+$$
