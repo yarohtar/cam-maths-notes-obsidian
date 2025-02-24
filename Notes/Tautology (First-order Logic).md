@@ -1,0 +1,1 @@
+A formula $t$ in a first-order language $L$ is a tautology if $\emptyset \models t$ i.e. $t$ is true in every $L$-structure.

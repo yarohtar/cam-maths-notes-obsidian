@@ -22,18 +22,11 @@ Two kinds:
 2. $\bot$ is a formulae
 3. If $p$, $q$ are formulae then so is $(p \implies q)$
 4. If $p$ is a formula and $x$ is a free variable in $p$ then $(\forall x)p$ is a formula
-### Definition (free variable)
-Any occurrence of a variable in a formula can be either free or bound. 
-1. Any occurrence of any variable in an atomic formula is free
-2. Given formulae $p$, $q$ any occurrence of a variable in $p$ or $q$ remains an occurrence of the same type in $(p\implies q)$
-3. If $p$ is a formulae and $x$ has at least one free occurrence in $p$ then every free occurence of $x$ in $p$ becomes bound in $(\forall x)p$ (everything else is unchanged)
-We let $FV(p)$ be the set of free variables in a formula $p$ i.e. variables that have at least one free occurrence in $p$ 
-### Definition
-A formula with no free variables is called a sentence.
-### Definition
-A structure in a first-order language $L=L(\Omega,\Pi)$ (or $L$-structure) is a non-empty set $A$ together with functions $\omega_{A}:A^{n}\to A$
-(where $\omega \in \Omega$ and $n=\alpha(\omega)$)
-and subset $\phi_{A}\subseteq A^{n}$ (where $\phi \in\Pi$ and $n=\alpha(\phi)$)
-(or identifying a subset with its indicator function $\phi_{A}:A^{n}\to \{ 0,1 \}$)
 #### Note 
 If $\alpha(\omega)=0$ then $\omega$ is called a constant. Its interpretation in a structure is $\omega_{A}:A^{0}\to A$ i.e. an element $\omega_{A}\in A$
+
+## Stuff
+[[Free Variable]]
+[[Sentence]]
+[[Structure]]
+[[Semantic Enailment (First-order logic)]]
