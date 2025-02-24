@@ -20,3 +20,5 @@ Notes on moodle
 [[Distinguishing]]
 [[Quantum Teleportation]]
 [[Quantum Cryptography]]
+
+[[Deutch-Jozsa algorithm]]
