@@ -8,7 +8,6 @@ The language $L=L(\Omega,\Pi)$ consists of the following:
 ### Variables
 This is a countably infinite set disjoint from $\Omega$ and $\Pi$
 We denote variables by $x_{1},x_{2},\dots$ or $x,y,z\dots$
-
 ### Terms
 Or $\Omega$-terms are defined inductively:
 1. Every variable is a term
@@ -22,11 +21,10 @@ Two kinds:
 2. $\bot$ is a formulae
 3. If $p$, $q$ are formulae then so is $(p \implies q)$
 4. If $p$ is a formula and $x$ is a free variable in $p$ then $(\forall x)p$ is a formula
-#### Note 
-If $\alpha(\omega)=0$ then $\omega$ is called a constant. Its interpretation in a structure is $\omega_{A}:A^{0}\to A$ i.e. an element $\omega_{A}\in A$
 
 ## Stuff
 [[Free Variable]]
 [[Sentence]]
 [[Structure]]
 [[Semantic Enailment (First-order logic)]]
+[[Syntactic Entailment (First-order Logic)]]
