@@ -12,3 +12,18 @@ $$
 e(C_{n})=\frac{1}{\lvert C_{n} \rvert }\sum_{c\in C_{n}}P(\text{error}|c \text{ sent})
 $$
 is clearly $e(C_{n})\leq \hat{e}(C_{n})$ (i.e. smaller than the max error probability)
+
+Take random variable $X$ to be the input uniformly distributed over $C_{n}$, and $Y$ be the output when $X$ is transmitted and decoded. 
+So, $e(C_{n})=P(X\neq Y)=p$ say
+Then by [[Fano's Inequality]] write:
+$$
+\begin{align}
+H(X|Y) & \leq H(p)+p\log(\lvert C_{n} \rvert-1) \\
+ & 1+pnR \\
+I(X;Y) & =H(X)-H(X|Y) \\
+nC & \geq nR-1-(1+pnR) \\
+pnR & \geq n(R-C)-2 \\
+p & \geq \frac{n(R-C)-2}{nR}\not\to 0
+\end{align}
+$$
+Thus the sequence of codes doesn't exist 
