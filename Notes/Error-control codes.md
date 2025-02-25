@@ -1,15 +1,13 @@
-WATCH START OF LECTURE  ON 5th OF FEBRUARY
 WATCH LECTURE 14th OF FEB
 [[Codewords]]
 [[Binary Code]]
-
-
 
 [[Decoding rules]]
 
 [[Error detecting]]
 [[Error correcting]]
 [[Hamming distance]]
+[[Hamming's Original Code]]
 [[Minimum distance of a code]]
 [[Asymptotic Equipartition Property]]
 ## New codes from old

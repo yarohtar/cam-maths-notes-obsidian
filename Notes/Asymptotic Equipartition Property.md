@@ -23,4 +23,4 @@ where $\to ^{p}$ means 'converges in probability'. So we can take very different
 This second definition comes from [[Shannon's 1st coding theorem]]
 
 ### Proposition
-A [[Memoryless Source]] sastisfies AEP with information rate $H(X)$ for $H(X)$ [[Mathematical Entropy]].
+A [[Memoryless Source]] satisfies AEP with information rate $H(X)$ for $H(X)$ [[Mathematical Entropy]].
