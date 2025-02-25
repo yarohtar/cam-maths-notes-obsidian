@@ -14,3 +14,14 @@ $Y_{n+1}=uw+(1-w)$ if $(n+1)th$ toss is a head or
 $Y_{n+1}=1-w$  if it is a tail
 
 Apply weak law of large numbers
+$$
+P\left( \left\lvert  \frac{1}{n} \log Z_{n}-E(\log Y)  \right\rvert >\epsilon \right)\to 0
+$$
+So to maximise $\log Z_{n}$ we maximise 
+$E(\log Y)=p\log(uw+(1-w))+(1-p)\log(1-w)=f(w)$
+Then
+$$
+f'(w)=\frac{(pu-1)-(u-1)w}{((u-1)w+1)(1-w)}
+$$
+If $u<1$ don't bet. Assume $u>1$
+If $pu\leq 1$
