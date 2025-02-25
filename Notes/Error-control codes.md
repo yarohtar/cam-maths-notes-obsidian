@@ -5,8 +5,6 @@ WATCH LECTURE 14th OF FEB
 
 
 
-Remark:
-Some convention needed in the case of a tie, eg. choose at random or ask for message to be sent again.
 [[Decoding rules]]
 
 [[Error detecting]]

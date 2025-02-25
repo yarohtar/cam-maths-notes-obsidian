@@ -2,13 +2,11 @@ The error rate depends on the decoding rule. We consider 3 possible rules:
 1. [[Ideal Observer Decoding Rule]]
 2. [[Maximum Likelihood Decoding Rule]]
 3. [[Minimum Distance Decoding Rule]]
+#### Remark
+Some convention needed in the case of a tie, eg. choose at random or ask for message to be sent again.
 
 [[Hamming distance]]
 
-### Lemma
-If all messages are equally likely then 1. and 2. agree.
-#### Proof
-By Baye's rule
 
 ### Lemma
 If $p<\frac{1}{2}$ then 2. and 3. agree
