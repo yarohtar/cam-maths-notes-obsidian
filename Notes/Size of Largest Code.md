@@ -1,7 +1,7 @@
 $$
 A(n,d)=max\{ m:\exists[n,m,d]\text{-code} \}
 $$
-ie the size of largest code with parameters $n$ and $d$ 
+ie the size of largest [[Binary Code]] with parameters $n$ and $d$ 
 [[Asymptotic Size of Largest Code]]
 
 ### Proposition
