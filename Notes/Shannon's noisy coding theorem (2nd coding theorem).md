@@ -72,4 +72,7 @@ P(B(Y,r)\cap C\supsetneq \{ c_{i} \})  & \leq \frac{(m-1)V(n,r)}{2^{n}} \\
  & \to 0
 \end{align}
 $$
-
+### Proposition
+Consider a [[Binary Symmetric Channel (BSC)]] with error probability $p$. Let $R<1-H(p)$. Then there is a sequence of codes $(C_{n})_{n\geq 1}$ with $C_{n}$ of length $n$, size $\lfloor 2^{nR} \rfloor$ and $\hat{e}(C_{n})\to 0$ as $n\to \infty$ 
+#### Proof
+Pick $R'$ s.t. $R<R'<1-H(p)$. By previous, we construct a sequence of codes $(C_{n}')_{n\geq 1}$ with $C_{n}'$ of length $n$ and size $\lfloor 2^{nR'} \rfloor$  
