@@ -2,9 +2,7 @@ WATCH START OF LECTURE  ON 5th OF FEBRUARY
 WATCH LECTURE 14th OF FEB
 [[Codewords]]
 [[Binary Code]]
-[[Information Rate]]
 
-The information rate of $C$ is $\rho(C)=\frac{\log n}{n}$
 
 We send a [[Binary Code]] through a [[Binary Symmetric Channel (BSC)]] making $n$ uses of the channel. Probability $p$ is the probability of a bit being mismatched.
 
