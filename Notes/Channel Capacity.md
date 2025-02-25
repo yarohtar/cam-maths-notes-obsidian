@@ -4,4 +4,4 @@ A code is used to send messages through a [[Discrete Memoryless Channel (DMC)]] 
 [[Maximum Error Probability]]
 [[Transmit Reliably]]
 [[Operational Channel Capacity]]
-
+[[Information Channel Capacity]]
