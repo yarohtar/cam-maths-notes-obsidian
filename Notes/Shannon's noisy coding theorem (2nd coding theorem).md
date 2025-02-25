@@ -50,6 +50,14 @@ $$
 P(Y\text{ is not detected as }c_{i}) \\
 \quad %quad
 \quad %quad
-\leq P(c_{i}\not\in B(Y,r))+P(B(Y,r)\cap C\supset \{ c_{1} \})
+\leq P(c_{i}\not\in B(Y,r))+P(B(Y,r)\cap C\supsetneq \{ c_{1} \})\\
+=P(d(c_{i},Y)>r)+ P(d(c_{i},Y)\leq r \land d(c_{j},Y)\leq r \text{ for }j\neq i)
 \end{gather}
+$$
+Now consider those two separately 
+$$
+\begin{align}
+P(d(c_{i},Y)>r)  & = P(\text{BSC makes }>r \text{ errors}) \\
+ & =P()
+\end{align}
 $$
