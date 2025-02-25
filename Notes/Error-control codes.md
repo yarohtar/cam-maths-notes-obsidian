@@ -2,7 +2,7 @@ WATCH LECTURE 14th OF FEB
 [[Codewords]]
 [[Binary Code]]
 
-[[Decoding rules]]
+[[Decoding rule]]
 
 [[Error detecting]]
 [[Error correcting]]
