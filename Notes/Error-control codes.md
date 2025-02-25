@@ -10,6 +10,7 @@ WATCH LECTURE 14th OF FEB
 [[Hamming's Original Code]]
 [[Minimum distance of a code]]
 [[Asymptotic Equipartition Property]]
+[[New Codes from Old]]
 ## New codes from old
 [[Parity Extension]]
 [[Punctured code]]
