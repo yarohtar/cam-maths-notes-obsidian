@@ -31,6 +31,9 @@ Thus
 $$
 \begin{align}
 I(X;Y) & =H(Y)-H(Y|X) \\
-
+ & \leq \sum_{i}H(Y_{i})-H(Y_{i}|X_{i}) \\
+ & =\sum_{i=1}^{n}I(X_{i};Y_{i}) \\
+ & \leq nC
 \end{align}
 $$
+Equality is if $Y_{i}$ are independent. This can only be achieved for $X_{i}$ independent and choosing the probability distribution s.t. $I(X_{i};Y_{i})=C$
