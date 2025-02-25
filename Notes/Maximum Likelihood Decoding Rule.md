@@ -1,0 +1,1 @@
+The maximum likelihood decoding rule 

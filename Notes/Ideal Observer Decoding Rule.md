@@ -1,0 +1,1 @@
+The ideal observer decoding rule decodes $x\in \{ 0,1 \}^{n}$ as the codeword $c\in C$ maximising $P(c \text{ sent} | x \text{ received})$

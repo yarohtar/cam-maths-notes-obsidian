@@ -1,7 +1,8 @@
 The error rate depends on the decoding rule. We consider 3 possible rules:
-1. The ideal observer decoding rule decodes $x\in \{ 0,1 \}^{n}$ as 
-2. The maximum likelihood decoding rule
-3. The minimum distance decoding rule
+1. [[Ideal Observer Decoding Rule]]
+2. [[Maximum Likelihood Decoding Rule]]
+3. [[Minimum Distance Decoding Rule]]
+
 [[Hamming distance]]
 
 ### Lemma
