@@ -48,9 +48,7 @@ Let $r=\lfloor n(p+\epsilon) \rfloor$
 $$
 \begin{gather}
 P(Y\text{ is not detected as }c_{i}) \\
-\quad %quad
-\quad %quad
-\leq P(c_{i}\not\in B(Y,r))+P(B(Y,r)\cap C\supsetneq \{ c_{1} \})\\
+\leq P(c_{i}\not\in B(Y,r))+P(B(Y,r)\cap C\supsetneq \{ c_{i} \})\\
 =P(d(c_{i},Y)>r)+ P(d(c_{i},Y)\leq r \land d(c_{j},Y)\leq r \text{ for }j\neq i)
 \end{gather}
 $$
@@ -58,6 +56,20 @@ Now consider those two separately
 $$
 \begin{align}
 P(d(c_{i},Y)>r)  & = P(\text{BSC makes }>r \text{ errors}) \\
- & =P()
+ & =P(\text{BSC makes }n(p+\epsilon)\text{ errors}) \\
+ & \to 0
 \end{align}
+$$
+
+If $j\neq i$
+$$
+\begin{align}
+P(c_{j}\in B(Y,r)|c_{i}\in B(Y,r)) & = \frac{V(n,r)-1}{2^{n}-1} \\
+ & \leq \frac{V(n,r)}{2^{n}} \\
+P(B(Y,r)\cap C\supsetneq \{ c_{i} \})  & \leq \frac{(m-1)V(n,r)}{2^{n}}
+\end{align}
+$$
+So
+$$
+P(B(Y,r)\cap C\supsetneq \{ c_{i} \}) \leq \frac{(m-1)V(n,r)}{2^{n}}
 $$
