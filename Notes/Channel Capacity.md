@@ -5,3 +5,5 @@ A code is used to send messages through a [[Discrete Memoryless Channel (DMC)]] 
 [[Transmit Reliably]]
 [[Operational Channel Capacity]]
 [[Information Channel Capacity]]
+
+[[Shannon's noisy coding theorem (2nd coding theorem)]]

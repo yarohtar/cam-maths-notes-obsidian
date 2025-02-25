@@ -24,9 +24,4 @@ WATCH LECTURE 14th OF FEB
 
 [[Mutual Information]]
 
-
-### Proposition
-For a [[Discrete Memoryless Channel (DMC)]] 
-$$
-\text{operational capacity }\leq \text{ information capacity}
-$$
+[[Shannon's noisy coding theorem (2nd coding theorem)]]

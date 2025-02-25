@@ -7,4 +7,5 @@ $$
 \max_{X} I(X;Y)
 $$
 (where $I$ is [[Mutual Information]])
-(max is obtained since )
+(max is obtained since it is a continuous function on a compact set)
+
