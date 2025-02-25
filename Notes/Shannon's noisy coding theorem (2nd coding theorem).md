@@ -66,10 +66,10 @@ $$
 \begin{align}
 P(c_{j}\in B(Y,r)|c_{i}\in B(Y,r)) & = \frac{V(n,r)-1}{2^{n}-1} \\
  & \leq \frac{V(n,r)}{2^{n}} \\
-P(B(Y,r)\cap C\supsetneq \{ c_{i} \})  & \leq \frac{(m-1)V(n,r)}{2^{n}}
+P(B(Y,r)\cap C\supsetneq \{ c_{i} \})  & \leq \frac{(m-1)V(n,r)}{2^{n}} \\
+ & \leq 2^{nR} 2^{nH(p+\epsilon)}2^{-n} \\
+ & =2^{n(R-(1-H(p+\epsilon)))} \\
+ & \to 0
 \end{align}
 $$
-So
-$$
-P(B(Y,r)\cap C\supsetneq \{ c_{i} \}) \leq \frac{(m-1)V(n,r)}{2^{n}}
-$$
+
