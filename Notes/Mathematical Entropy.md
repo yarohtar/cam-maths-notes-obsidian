@@ -4,6 +4,8 @@ $$
 H(X)=H(p_{1},\dots,p_{n}) = - \sum_{i=1}^{n}p_{i}\log p_{i}
 $$
 where we take $\log_{2}$.
+[[Joint Entropy]]
+[[Conditional Entropy]]
 
 ### Lemma
 $H(p_{1},\dots ,p_{n})\leq \log n$ with equality iff $p_{1}=\dots=p_{n}=\frac{1}{n}$

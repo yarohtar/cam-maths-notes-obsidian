@@ -20,8 +20,6 @@ WATCH LECTURE 14th OF FEB
 [[Size of Largest Code]]
 
 [[Channel Capacity]]
-[[Joint Entropy]]
-[[Conditional Entropy]]
 [[Fano's Inequality]]
 
 

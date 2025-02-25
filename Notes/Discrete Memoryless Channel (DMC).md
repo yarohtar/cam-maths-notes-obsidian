@@ -6,3 +6,9 @@ is the same each time the channel is used, it is independent of all past uses
 
 [[Binary Symmetric Channel (BSC)]]
 [[Binary Erasure Channel]]
+
+### Proposition
+For a [[Discrete Memoryless Channel (DMC)]] 
+$$
+\text{operational capacity }\leq \text{ information capacity}
+$$
