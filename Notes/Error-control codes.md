@@ -22,6 +22,7 @@ WATCH LECTURE 14th OF FEB
 [[Channel Capacity]]
 [[Fano's Inequality]]
 
+[[Mutual Information]]
 
 
 ### Proposition
