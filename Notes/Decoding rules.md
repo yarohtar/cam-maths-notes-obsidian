@@ -5,6 +5,7 @@ The [[Information Rate]] of $C$ is $\rho(C)=\frac{\log m}{n}$
 The error rate depends on the decoding rule. We consider 3 possible rules:
 1. [[Ideal Observer Decoding Rule]]
 2. [[Maximum Likelihood Decoding Rule]]
-3. [[Minimum Distance Decoding Rule]]
+3. [[Minimum Distance Decoding Rule]] (we use this one)
 #### Remark
 Some convention needed in the case of a tie, eg. choose at random or ask for message to be sent again.
+
