@@ -1,4 +1,6 @@
 [[Operational Channel Capacity]] = [[Information Channel Capacity]]
+We prove a bunch of propositions leading up to this 
+We only actually prove the equality for a [[Binary Symmetric Channel (BSC)]]. 
 
 ### Proposition
 For a [[Discrete Memoryless Channel (DMC)]] 

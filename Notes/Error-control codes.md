@@ -25,3 +25,5 @@ WATCH LECTURE 14th OF FEB
 [[Mutual Information]]
 
 [[Shannon's noisy coding theorem (2nd coding theorem)]]
+
+[[Kelly's betting criterion]]
