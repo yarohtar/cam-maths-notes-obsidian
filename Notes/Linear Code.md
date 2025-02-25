@@ -12,6 +12,5 @@ i.e. an $(n,k)$ code is an $[n,2^{k}]$ code
 The information rate is $\frac{k}{n}$
 
 We define $x.y=\sum_{i}^{n}x_{i}y_{i}$
-### Lemma
-Let $P\subseteq \mathbb{F}_{2}^{n}$ be a subset.
-Then $C=$
+[[Parity Check Code]]
+[[Dual Code]]
