@@ -75,4 +75,7 @@ $$
 ### Proposition
 Consider a [[Binary Symmetric Channel (BSC)]] with error probability $p$. Let $R<1-H(p)$. Then there is a sequence of codes $(C_{n})_{n\geq 1}$ with $C_{n}$ of length $n$, size $\lfloor 2^{nR} \rfloor$ and $\hat{e}(C_{n})\to 0$ as $n\to \infty$ 
 #### Proof
-Pick $R'$ s.t. $R<R'<1-H(p)$. By previous, we construct a sequence of codes $(C_{n}')_{n\geq 1}$ with $C_{n}'$ of length $n$ and size $\lfloor 2^{nR'} \rfloor$  
+Pick $R'$ s.t. $R<R'<1-H(p)$. By previous, we construct a sequence of codes $(C_{n}')_{n\geq 1}$ with $C_{n}'$ of length $n$ and size $\lfloor 2^{nR'} \rfloor$  and $e(C'_{n})\to 0$ as $n\to \infty$
+Throwing out the worst half of the codewords in $C_{n}'$ gives a code $C_{n}$ with $\hat{e}(C_{n})\leq 2e(C_{n}')$ so $\hat{e}(C_{n})\to 0$ as $n\to \infty$
+Note $C_{n}$ has length $n$ and size $\lfloor 2^{nR'-1} \rfloor>\lfloor 2^{nR} \rfloor$ for $n$ sufficiently large.
+So we can replace $C_{n}$ by a subcode of size of $\lfloor 2^{nR} \rfloor$ and still get $\hat{e}(C_{n})\to 0$ as $n\to \infty$ 
