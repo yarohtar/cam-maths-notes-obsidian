@@ -22,4 +22,4 @@ If $x\in C$ then $z_{x}=(0,0,0)$
 If $d(x,c)=1$ for some $c\in C$ then the place where $x$ and $c$ differ is given by $z_{1}+2z_{2}+4z_{4}$ (not mod 2).
 This is since if $x=c+e_{i}$ then the syndrome of $x$ is the same as the syndrome of $e_{i}$ and the syndrome of $e_{3}=(1,1,0)$ is the binary expansion of 3 (for example - can check the others as well)
 
-Thus $C$ is 1-[[Error correcting]] (it is not 2 )
+Thus $C$ is 1-[[Error correcting]] (it is not 2)
