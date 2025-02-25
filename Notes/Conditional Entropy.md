@@ -21,3 +21,14 @@ H(X|Y) & =-\sum_{y\in \Sigma_{2}}\sum_{x\in \Sigma_{1}}P(X=x|Y=y)P(Y=y)\log P(X=
 $$
 ### Corollary 
 $H(X|Y)\leq H(X)$ with equality iff $X$ and $Y$ are independent.
+
+### Lemma
+$H(X|Y)\leq H(X|Y,Z)+H(Z)$
+#### Proof
+We expand $H(X,Y,Z)$ in two different ways:
+$H(X,Y,Z)=H(Z|X,Y)+H(X|Y)+H(Y)$
+$H(X,Y,Z)=H(X|Y,Z)+H(Z|Y)+H(Y)$
+Thus
+$$
+H(X|Y)\leq H(X|Y,Z)+H()
+$$
