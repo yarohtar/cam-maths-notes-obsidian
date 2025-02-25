@@ -4,5 +4,5 @@ B(x,r)=\{ y\in \mathbb{F}_{2}^{n}:d(x,y)\leq r \}
 $$
 Note the volume is 
 $$
-V(n,r)=\lvert B(x,r) \rvert
+V(n,r)=\lvert B(x,r) \rvert  =\sum_{i=0}^{n}{n\choose i}
 $$

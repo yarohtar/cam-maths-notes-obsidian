@@ -13,9 +13,9 @@ WATCH LECTURE 14th OF FEB
 [[New Codes from Old]]
 
 [[Hamming Ball]]
+[[Hamming's Bound]]
 
 [[Perfect Code]]
-[[Hamming's Bound]]
 [[Gilbert-Shannon-Varshamov Bound]]
 [[Size of Largest Code]]
 [[Channel Capacity]]
