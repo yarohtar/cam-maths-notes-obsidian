@@ -30,5 +30,5 @@ $H(X,Y,Z)=H(Z|X,Y)+H(X|Y)+H(Y)$
 $H(X,Y,Z)=H(X|Y,Z)+H(Z|Y)+H(Y)$
 Thus
 $$
-H(X|Y)\leq H(X|Y,Z)+H()
+H(X|Y)\leq H(X|Y,Z)+H(Z|Y)\leq H(X|Y,Z)+H(Z)
 $$
