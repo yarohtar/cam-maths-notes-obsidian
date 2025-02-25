@@ -11,10 +11,9 @@ WATCH LECTURE 14th OF FEB
 [[Minimum distance of a code]]
 [[Asymptotic Equipartition Property]]
 [[New Codes from Old]]
-## New codes from old
-[[Parity Extension]]
-[[Punctured code]]
-[[Shortened code]]
+
+[[Hamming Ball]]
+
 [[Perfect Code]]
 [[Hamming's Bound]]
 [[Gilbert-Shannon-Varshamov Bound]]
