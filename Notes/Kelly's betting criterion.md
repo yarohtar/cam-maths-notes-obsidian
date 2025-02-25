@@ -1,3 +1,4 @@
+### Betting
 Every day at noon you make a bet.
 You give your friend $k$ pounds and they flip a coin
 1. if it lands on heads, you receive $ku$ pounds
@@ -26,3 +27,7 @@ $$
 If $u<1$ don't bet. Assume $u>1$
 If $pu\leq 1$ then $f(w)$ is decreasing for $w\geq 0$ so don't bet
 If $pu>1$, take maximum at $w_{0}=\frac{up-1}{u-1}$
+
+### Kelly's criterion
+Kelly interpreted gambling as a noisy channel where the gambler receives faulty information about who is going to win. 
+Kelly's criterion: For a long sequence of bets, maximise the expectation of $\log$s.
