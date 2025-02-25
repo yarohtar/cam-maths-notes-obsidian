@@ -27,3 +27,9 @@ p & \geq \frac{n(R-C)-2}{nR}\not\to 0
 \end{align}
 $$
 Thus the sequence of codes doesn't exist 
+
+### Proposition
+Consider a [[Binary Symmetric Channel (BSC)]] with error probability $p$. Let $R<1-H(p)$. Then there is a sequence of codes $(C_{n})_{n\geq 1}$ of length $n$ and size $\lfloor 2^{nR} \rfloor$ s.t. $e(C_{n})\to 0$ as $n\to \infty$
+#### Proof
+WLOG $p<\frac{1}{2}$ so there is some $\epsilon>0$ s.t. $R<1-H(p+\epsilon)$
+We use 
