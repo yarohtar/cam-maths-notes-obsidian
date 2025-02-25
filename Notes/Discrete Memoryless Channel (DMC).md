@@ -7,8 +7,11 @@ is the same each time the channel is used, it is independent of all past uses
 [[Binary Symmetric Channel (BSC)]]
 [[Binary Erasure Channel]]
 
-### Proposition
-For a [[Discrete Memoryless Channel (DMC)]] 
+### Lemma
+The $n$-th [[Communication Channel Extension]] of a DMC with [[Information Channel Capacity]] $C$ has information capacity $nC$
+#### Proof
+We take rv input $X_{1}\dots X_{n}=X$ and rv output $Y_{1}\dots Y_{n}=Y$
+Now 
 $$
-\text{operational capacity }\leq \text{ information capacity}
+H(Y|X)=\sum_{x\in X}
 $$
