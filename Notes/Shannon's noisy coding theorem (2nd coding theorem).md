@@ -32,4 +32,24 @@ Thus the sequence of codes doesn't exist
 Consider a [[Binary Symmetric Channel (BSC)]] with error probability $p$. Let $R<1-H(p)$. Then there is a sequence of codes $(C_{n})_{n\geq 1}$ of length $n$ and size $\lfloor 2^{nR} \rfloor$ s.t. $e(C_{n})\to 0$ as $n\to \infty$
 #### Proof
 WLOG $p<\frac{1}{2}$ so there is some $\epsilon>0$ s.t. $R<1-H(p+\epsilon)$
-We use 
+We use [[Minimum Distance Decoding Rule]] (in case of tie pick arbitrary)
+Let $m=\lfloor 2^{nR} \rfloor$
+We pick an $[n,m]$ [[Binary Code]] $C$ at random 
+(i.e. each with probability $\frac{1}{2^{n}\choose m}$) 
+Say $C=\{ c_{1},\dots,c_{m} \}$
+Choose $1\leq i\leq m$ at random (i.e. each with probability $\frac{1}{m}$) 
+We send $c_{i}$ through the channel and get output $Y$ 
+
+It suffices to show 
+$$
+P(Y\text{ is not detected as }c_{i})\to 0
+$$
+Let $r=\lfloor n(p+\epsilon) \rfloor$
+$$
+\begin{gather}
+P(Y\text{ is not detected as }c_{i}) \\
+\quad %quad
+\quad %quad
+\leq P(c_{i}\not\in B(Y,r))+P(B(Y,r)\cap C\supset \{ c_{1} \})
+\end{gather}
+$$
