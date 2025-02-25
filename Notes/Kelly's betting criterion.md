@@ -24,4 +24,5 @@ $$
 f'(w)=\frac{(pu-1)-(u-1)w}{((u-1)w+1)(1-w)}
 $$
 If $u<1$ don't bet. Assume $u>1$
-If $pu\leq 1$
+If $pu\leq 1$ then $f(w)$ is decreasing for $w\geq 0$ so don't bet
+If $pu>1$, take maximum at $w_{0}=\frac{up-1}{u-1}$
