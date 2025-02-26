@@ -9,4 +9,8 @@ Define equivalence relation $\sim$ on $A$ by
 $s\sim t$ iff $T\vdash(s=t)$ where($s,t \in A$)
 Replace $A$ with $A /_{\sim}$
 Two issues remain
-For first issue consider the t
+
+Firstly, in general, $T$ is not complete (i.e. there are sentences $p$ where neither $T\vdash p$ nor $T\vdash \neg p$)
+Remedy: Given consistent theory $S$ there is a consistent, complete $\bar{S}\supseteq S$
+
+Secondly, 
