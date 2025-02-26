@@ -56,3 +56,23 @@ p \implies t_{i}\quad %quad
  & \text{(MP)}
 \end{align}
 $$
+##### Case 4
+$t_{i}$ follows by (Gen) i.e. there is some $j<i$ where $t_{i}$ is $(\forall x)t_{j}$
+where $x\in FV(t_{j})$ and $x$ didn't occur free in any premiss in $t_{1},\dots,t_{j}$
+We have two further cases
+###### Case 4a 
+$x$ occurs free in $p$ 
+Then $p$ is not amongst $t_{1},\dots,t_{j}$ so this is a proof from $S$.
+We append the lines 
+$$
+\begin{align}
+(\forall x)t_{j}\quad %quad
+\quad %quad \\
+ & \text{(Gen)} \\
+(\forall x)t_{j}\implies(p\implies(\forall x)t_{j})\quad %quad
+\quad %quad
+ & \text{(A1)} \\
+p\implies
+\end{align}
+$$
+###### Case 4b
