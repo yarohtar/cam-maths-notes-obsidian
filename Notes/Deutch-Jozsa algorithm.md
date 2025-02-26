@@ -27,3 +27,15 @@ U_{f}\ket{A}  & = \frac{1}{\sqrt{ 2^{n} }}\sum_{x\in B_{n}} U_{f}\ket{x} \ket{-}
 \end{align}
 $$
 where $\ket{f(x)^{c}}=f(x)\oplus 1$
+$$
+U_{f}\ket{x} \frac{\ket{0} -\ket{1} }{\sqrt{ 2 }}=\begin{cases}
+\frac{\ket{x} \ket{0} -\ket{1} }{\sqrt{ 2 }}=\ket{x} \ket{-}  & \text{if }f(x)=0 \\
+-\ket{x} \ket{-}  & \text{if }f(x)=1
+\end{cases}
+$$
+$$
+U_{f}\ket{x} \ket{-} =(-1)^{f(x)}\ket{x} \ket{-} 
+$$
+$$
+U_{f}\ket{A} =\frac{1}{\sqrt{ 2^{n} }}\left( \sum \right)
+$$
