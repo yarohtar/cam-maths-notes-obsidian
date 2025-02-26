@@ -78,3 +78,5 @@ Measure these $n$ qubits in a complete basis $\ket{0}\dots$
 1. If $f$ is constant the outcome is $0\dots 0$
 2. If $f$ is balanced then mmt outcome is NOT all 0 
 
+### Conclusion
+We have used 1 query of $U_{f}$ and another $O(n)$ other operations.
