@@ -44,6 +44,8 @@ Discard the last qubit i.e. left with $n$ qubit state
 $$
 \ket{f} =\frac{1}{\sqrt{ 2^{n} }}\sum_{x\in B_{n}}(-1)^{f(x)}\ket{x} 
 $$
+
+Note that:
 If $f$ is constant we can find
 $$
 H^{\otimes n}\ket{f} =\pm \ket{0} ^{\otimes n}
@@ -61,3 +63,18 @@ $$
 \end{align}
 $$
 if $f$ is balanced.
+Thus 
+$$
+\begin{align}
+\ket{f}  & \bot \ket{\phi_{n}}  \\
+H^{\otimes n}\ket{f} & \bot H_{n}\ket{\phi_{n}}  \\
+H^{\otimes n} \ket{f} &  \bot \ket{0} ^{\otimes n}
+\end{align}
+$$
+#### Step 5
+Apply $H^{\otimes n}$ to $\ket{f}$
+#### Step 6
+Measure these $n$ qubits in a complete basis $\ket{0}\dots$
+1. If $f$ is constant the outcome is $0\dots 0$
+2. If $f$ is balanced then mmt outcome is NOT all 0 
+
