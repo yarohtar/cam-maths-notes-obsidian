@@ -18,3 +18,41 @@ We prove by induction on $i$ that $S\vdash(p\implies t_{i})$
 Induction hypothesis at $i$th step:
 For all $j<i$ we have $S\vdash(p\implies t_{j})$ s.t. if a variable $x$ does not occur free in any premiss in the proof $t_{1},\dots,t_{j}$ of $t_{j}$ from $S\cup \{ p \}$ 
 then $x$ must not occur free in any premiss used in the proof of $(p\implies t_{j})$ from $S$.
+We now prove that $S\vdash(p\implies t_{i})$ in four cases
+##### Case 1
+$t_{i}$ is an axiom or $t_{i}\in S$ 
+Then
+$$
+\begin{align}
+t_{i}\implies(p\implies t_{i})\quad %quad
+\quad %quad
+ & \text{(A1)} \\
+t_{i}\quad %quad
+\quad %quad
+ & \text{(axiom or premiss)} \\
+p\implies t_{i}\quad %quad
+\quad %quad
+ & \text{(MP)}
+\end{align}
+$$
+is a proof of $p\implies t_{i}$ from $S$.
+##### Case 2
+$t_{i}=p$
+Then $S\vdash (p\implies t_{i})$ since $\emptyset \vdash(p\implies p)$ in [[Propositional Logic]]
+##### Case 3
+$t_{i}$ follows by (MP), i.e. there are some $j,k<i$ s.t. $t_{k}=(t_{j}\implies t_{i})$
+By induction hypothesis, we can write down proofs of 
+$p\implies t_{j}$ and $p\implies(t_{j}\implies t_{i})$ from $S$ and append the lines
+$$
+   \begin{align}
+(p \implies(t_{j}\implies t_{i}))\implies((p \implies t_{j})\implies(p \implies t_{i}))\quad %quad
+\quad %quad
+ & \text{(A2)} \\
+(p \implies t_{j}) \implies( p \implies t_{i})\quad %quad
+\quad %quad
+ & \text{(MP)} \\
+p \implies t_{i}\quad %quad
+\quad %quad
+ & \text{(MP)}
+\end{align}
+$$
