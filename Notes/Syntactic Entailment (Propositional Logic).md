@@ -21,5 +21,5 @@ Say $S$ proves $t$ or $S$ syntactically entails $t$ if there's a proof of $t$ fr
 [[Deduction Theorem (Propositional Logic)]]
 [[Soundness Theorem (Propositional Logic)]]
 [[Adequacy Theorem (Propositional Logic)]]
-[[Model existence lemma]]
+[[Model Existence Lemma (Propositional Logic)]]
 [[Completeness Theorem]]

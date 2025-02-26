@@ -29,3 +29,5 @@ Two kinds:
 [[Semantic Enailment (First-order logic)]]
 [[Syntactic Entailment (First-order Logic)]]
 [[Soundness Theorem (First-order Logic)]]
+[[Model Existence Lemma (First-order Logic)]]
+[[Adequacy Theorem (First-order Logic)]]
