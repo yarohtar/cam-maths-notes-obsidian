@@ -18,7 +18,7 @@ $$
  & = \ket{A}  \\
 \end{align}
 $$
-#### Step 4
+#### Step 3
 $$
 \begin{align}
 U_{f}\ket{A}  & = \frac{1}{\sqrt{ 2^{n} }}\sum_{x\in B_{n}} U_{f}\ket{x} \ket{-}  \\
@@ -37,5 +37,27 @@ $$
 U_{f}\ket{x} \ket{-} =(-1)^{f(x)}\ket{x} \ket{-} 
 $$
 $$
-U_{f}\ket{A} =\frac{1}{\sqrt{ 2^{n} }}\left( \sum \right)
+U_{f}\ket{A} =\frac{1}{\sqrt{ 2^{n} }}\left( \sum _{x\in B_{n}}(-1)^{f(x)}\ket{x}  \right)\ket{-} 
 $$
+#### Step 4
+Discard the last qubit i.e. left with $n$ qubit state
+$$
+\ket{f} =\frac{1}{\sqrt{ 2^{n} }}\sum_{x\in B_{n}}(-1)^{f(x)}\ket{x} 
+$$
+If $f$ is constant we can find
+$$
+H^{\otimes n}\ket{f} =\pm \ket{0} ^{\otimes n}
+$$
+If $f$ is balanced
+Let 
+$$
+\ket{\phi_{n}} =\frac{1}{\sqrt{ 2^{n} }}\sum_{x'\in B_{n}}\ket{x'} 
+$$
+Take inner product 
+$$
+\begin{align}
+\braket{ \phi_{n} | f }  & =\frac{1}{2^{n}}\sum_{x,x'\in B_{n}}(-1)^{f(x)}\braket{ x' | x }  \\
+ & =\frac{1}{2^{n}}\sum_{x}(-1)^{f(x)}=0
+\end{align}
+$$
+if $f$ is balanced.
