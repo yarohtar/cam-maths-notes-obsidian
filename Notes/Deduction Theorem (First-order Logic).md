@@ -72,7 +72,29 @@ $$
 (\forall x)t_{j}\implies(p\implies(\forall x)t_{j})\quad %quad
 \quad %quad
  & \text{(A1)} \\
-p\implies
+p\implies(\forall x)t_{j}\quad %quad
+\quad %quad
+ & \text{(MP)}
 \end{align}
 $$
 ###### Case 4b
+$x$ does not occur free in $p$ 
+By induction hypothesis, there's a proof of $p\implies t_{j}$ from $S$ 
+which is s.t. $x$ does not occur free in any premiss used.
+We append the lines
+$$
+\begin{align}
+(\forall x)(p\implies t_{j})\quad %quad
+\quad %quad
+ & \text{(Gen)} \\
+(\forall x)(p\implies t_{j})\implies(p\implies(\forall x)t_{j})\quad %quad
+\quad %quad
+ & \text{(A7)} \\
+p\implies(\forall x)t_{j}\quad %quad
+\quad %quad
+ & \text{(MP)}
+\end{align}
+$$
+to obtain a proof of $p\implies t_{i}$ from $S$ 
+
+In all cases, it's easy to check that the induction hypothesis before $(i+1)$th step is satisfied. 
