@@ -9,8 +9,21 @@ Quantum improves:
 Let $U_{f}\ket{x}\ket{y}=\ket{x}\ket{y\oplus f(x)}$
 ### The algorithm
 #### Step 1
-Initialize all qubits in state $\ket{0}$
+Initialize all qubits in state $\ket{0}^{\otimes n}\ket{0}$
 #### Step 2
 $$
-(H^{\otimes n}\otimes HX)(\ket{0} ^{\otimes n}\ket{0} )
+\begin{align}
+(H^{\otimes n}\otimes HX)(\ket{0} ^{\otimes n}\ket{0} )  & = \ket{+} ^{\otimes n}\otimes \ket{-}  \\
+ & =\frac{1}{\sqrt{ 2^{n} }}\sum_{x\in B_{n}}\ket{x} \ket{-} \\
+ & = \ket{A}  \\
+\end{align}
 $$
+#### Step 4
+$$
+\begin{align}
+U_{f}\ket{A}  & = \frac{1}{\sqrt{ 2^{n} }}\sum_{x\in B_{n}} U_{f}\ket{x} \ket{-}  \\
+ & =\frac{1}{\sqrt{ 2^{n} }}\sum_{x\in B_{n}}(U_{f}\ket{x} (\ket{0} -\ket{1} )) \\
+ & =\frac{1}{\sqrt{ 2^{n+1} }}\sum_{x\in B_{n}}(\ket{x} \ket{f(x)} -\ket{x} \ket{f(x)^{c}} )
+\end{align}
+$$
+where $\ket{f(x)^{c}}=f(x)\oplus 1$
