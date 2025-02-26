@@ -1,0 +1,1 @@
+Let $S$ be a set of formulae in a first-order language $L$ and 
