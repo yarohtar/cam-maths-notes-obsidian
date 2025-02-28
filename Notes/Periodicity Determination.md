@@ -4,3 +4,16 @@ $f$ is periodic with a period $r$
 ### Output
 Return $r$ with some desired accuracy independent of $N$ 
 
+### Algorithm
+Construct
+$$
+\ket{\psi_{N}} =\frac{1}{\sqrt{ N }}\sum_{x\in \mathbb{Z}_{N}}\ket{x} 
+$$
+Consider a state $\ket{\psi_{N}}.\ket{0}$ (where $\ket{0}\in \mathcal{H}_{N}$)
+Apply the quantum oracle of the function $f$ 
+$$
+\begin{align}
+U_{f}\ket{\psi_{N}} \ket{0}  & =\frac{1}{\sqrt{ N }}\sum_{x\in \mathbb{Z}_{N}}U_{f}\ket{x} \ket{0}  \\
+ & =
+\end{align}
+$$
