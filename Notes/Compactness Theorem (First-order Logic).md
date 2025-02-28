@@ -16,4 +16,8 @@ Any finite subset of $S$ has a model, eg the cyclic $C_{n}$ for $n$ sufficiently
 By [[Compactness]] $S$ has a model.
 
 ### Corollary
-If a first order theory $T$ has arbitr
+If a first order theory $T$ has arbitrarily large finite models, then it has an infinite model.
+#### Proof
+Essentially the same.
+### Corollary
+[[The Uphand Löwenheim-Skolem Theorem]]
