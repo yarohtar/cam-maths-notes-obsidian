@@ -26,4 +26,7 @@ We start with two observations
    By [[Zorn's Lemma]] there is a maximal consistent theory $\bar{S}\supseteq S$. 
    Then for every sentence $p$, either $p \in \bar{S}$ or $\neg p \in \bar{S}$
    In particular $\bar{S}$ is complete
-2. 
+2. Suppose $S\vdash(\exists x)p$ where $p$ is a formula with $FV(p)=\{ x \}$. Add a new constant $c$ to $L$. Then $S\cup \{ p[c/ x] \}$ is consistent
+   If not, then by [[Deduction Theorem (First-order Logic)]] $S\vdash \neg p[c /x]$
+   Since $c$ does not appear in $S$ it follows that $S\vdash \neg p$
+   Then $S\vdash(\forall x)\neg p$ by (Gen). 
