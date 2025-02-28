@@ -34,4 +34,14 @@ We start with two observations
    We do this for every theorem of $S$ of the form $(\exists x)p$ to obtain a new language $\bar{L}=L\left( \Omega \cup C,\prod \right)$ where $C$ is a set of new constants (disjoint from $\Omega$, $\prod$) and a new theory $\bar{S}$ s.t. $\bar{S}\supseteq S$, $\bar{S}$ is consistent and $\bar{S}$ has witnesses for $S$ 
 We now start with a consistent theory $S_{0}=S$ in $L_{0}=L\left( \Omega,\prod \right)$ and by induction construct theories $S_{0}\subseteq S_{1}\subseteq T_{1}\subseteq S_{2}\subseteq T_{2}\subseteq\dots$
 and new languages $L_{n}=L\left( \Omega \cup C_{1}\cup\dots \cup C_{n},\prod \right)$ where $C_{1},C_{2},\dots$ are pairwise disjoint sets of constants (also disjoint from $\Omega$, $\Pi$)
-s.t. for all $n$, $S_{n}$ is c
+s.t. for all $n$, $S_{n}$ is complete, consistent theory in $L_{n-1}$ 
+and $T_{n}$ is a consistent theory in $L_{n}$ which has witnesses for $S_{n}$.
+Set $L^{*}=\bigcup L_{n}$ and $S^{*}=\bigcup S_{n}$
+Easy to check that $S^{*}$ is a consistent theory in $L^{*}$ which contains $S$, is complete and has witnesses.
+
+Now WLOG $S^{*}=S$ and $L^{*}=L$
+
+We let $A$ be the set of equivalence classes of closed terms in $L$ where $s\sim t$ if and only if $S\vdash s=t$
+We make $A$ an $L$ [[Structure]]:
+$\omega_{A}([t_{1}],\dots,[t_{n}])=[\omega t_{1}\dots t_{n}]$
+$\phi_{A}([t_{1}],\dots,[t_{n}])=1$ iff $S\vdash \phi t_{1}\dots t_{n}$
