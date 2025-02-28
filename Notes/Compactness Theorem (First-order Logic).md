@@ -20,4 +20,4 @@ If a first order theory $T$ has arbitrarily large finite models, then it has an 
 #### Proof
 Essentially the same.
 ### Corollary
-[[The Uphand Löwenheim-Skolem Theorem]]
+[[The Upwards Löwenheim-Skolem Theorem]]
