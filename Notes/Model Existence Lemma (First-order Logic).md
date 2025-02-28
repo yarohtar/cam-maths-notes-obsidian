@@ -14,7 +14,7 @@ Two issues remain
 Firstly, in general, $T$ is not complete (i.e. there are sentences $p$ where neither $T\vdash p$ nor $T\vdash \neg p$)
 Remedy: Given consistent theory $S$ there is a consistent, complete $\bar{S}\supseteq S$
 
-Secondly, we are missing some elements that are guaranteed by $(\exists x)p$ whre $p$ is for example $x\cdot x=1+1$
+Secondly, we are missing some elements that are guaranteed by $(\exists x)p$ where $p$ is for example $x\cdot x=1+1$
 Remedy: We add a witness, i.e. a new constant $c$ to $L$ (the new language is $L'=L\left( \Omega \cup \{ c \},\prod \right)$) and a new sentence to $T$ to obtain $T'=T\cup \{ p[c /x] \}$
 
 #### Proof (NONEXAMINABLE)
