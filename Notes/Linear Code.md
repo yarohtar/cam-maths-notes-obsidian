@@ -14,3 +14,20 @@ The information rate is $\frac{k}{n}$
 We define $x.y=\sum_{i}^{n}x_{i}y_{i}$
 [[Parity Check Code]]
 [[Dual Code]]
+[[Generator Matrix]]
+[[Parity Check Matrix]]
+### Lemma
+Every $(n,k)$ linear code is equivalent to a linear code with [[Generator Matrix]] of form $(I_{k}|B)$
+#### Proof
+We can perform row operations:
+- swap 2 rows
+- add one row to another
+By Gaussian elimination we get $G$, the generator matrix in row form:
+$$
+G=\begin{pmatrix}
+1 & * & * & \dots & * \\
+0 & 1 & * & \dots & * \\
+0 & 0 & 1 & \dots & *  \\
+\vdots & \vdots & \vdots & 
+\end{pmatrix}
+$$
