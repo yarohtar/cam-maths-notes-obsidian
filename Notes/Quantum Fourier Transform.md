@@ -6,3 +6,4 @@ F_{n}\ket{x}  & =\frac{1}{\sqrt{ n }}\sum_{y\in \mathbb{Z}_{n}}e^{i2\pi xy/n}\ke
 \end{align}
 $$
 where $\omega=e^{2\pi i/n}$
+

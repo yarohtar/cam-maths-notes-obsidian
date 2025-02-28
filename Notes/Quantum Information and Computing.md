@@ -23,3 +23,4 @@ Notes on moodle
 
 [[Deutch-Jozsa algorithm]]
 [[Simon's Problem]]
+[[Periodicity Determination]]
