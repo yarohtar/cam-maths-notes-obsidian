@@ -5,5 +5,5 @@ Let $S\subseteq L$, $t\in L$. Then $S\models t$ if and only if $S\vdash t$.
 [[Soundness Theorem (Propositional Logic)]] and [[Adequacy Theorem (Propositional Logic)]].
 
 ### Corollaries
-[[Compactness Theorem]]
+[[Compactness Theorem (Propositional Logic)]]
 [[Decidability Theorem]]

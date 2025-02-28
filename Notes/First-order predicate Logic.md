@@ -31,3 +31,5 @@ Two kinds:
 [[Soundness Theorem (First-order Logic)]]
 [[Model Existence Lemma (First-order Logic)]]
 [[Adequacy Theorem (First-order Logic)]]
+[[Gödel's Completeness Theorem for First-Order Logic]]
+[[Compactness Theorem (First-order Logic)]]

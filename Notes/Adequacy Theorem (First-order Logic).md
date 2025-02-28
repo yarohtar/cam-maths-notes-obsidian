@@ -9,6 +9,11 @@ By the [[Deduction Theorem (First-order Logic)]] $S\vdash \neg \neg p$
 Add the lines
 $$
 \begin{align}
-\neg ne
+\neg \neg p\implies p\quad %quad
+\quad %quad
+ & \text{(A3)} \\
+p\quad %quad
+\quad %quad
+ & \text{(MP)}
 \end{align}
 $$
