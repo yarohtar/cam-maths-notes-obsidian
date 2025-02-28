@@ -14,6 +14,14 @@ Apply the quantum oracle of the function $f$
 $$
 \begin{align}
 U_{f}\ket{\psi_{N}} \ket{0}  & =\frac{1}{\sqrt{ N }}\sum_{x\in \mathbb{Z}_{N}}U_{f}\ket{x} \ket{0}  \\
- & =
+ & =\frac{1}{\sqrt{ N }}\sum \ket{x} \ket{0+f(x)}  \\
+ & =\frac{1}{\sqrt{ N }}\sum_{x\in \mathbb{Z}_{N}}\ket{x} \ket{f(x)} 
 \end{align}
 $$
+Since $r$ is the period of $f$:
+$r\mid N$ and let $A=\frac{N}{r}$ be the number of periods
+
+Do a measurement on the second register of basis $\mathcal{B}_{N}=\{ \ket{0,\dots,\ket{N-1}} \}$
+Let outcome be $y=f(x_{0})$
+$x_{0}\in \{ 0,1,\dots,r-1 \}$ is the smallest value of $x$ for which $f(x)=y$
+
