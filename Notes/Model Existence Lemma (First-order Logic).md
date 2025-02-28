@@ -45,3 +45,13 @@ We let $A$ be the set of equivalence classes of closed terms in $L$ where $s\sim
 We make $A$ an $L$ [[Structure]]:
 $\omega_{A}([t_{1}],\dots,[t_{n}])=[\omega t_{1}\dots t_{n}]$
 $\phi_{A}([t_{1}],\dots,[t_{n}])=1$ iff $S\vdash \phi t_{1}\dots t_{n}$
+(lots of checking to do at this stage to prove this is all well defined)
+
+Then prove by induction on terms: if $s$ is a term with variables in the set $\{ x_{1},\dots,x_{n} \}$
+then $s_{A}([t_{1}],\dots,[t_{n}])=s[t_{1}/x_{1},\dots t_{n} /x_{n}]$
+If $s$ is a closed term, then $s_A=[s]$
+
+Similarly, for any formula $p$ with $FV(p)\subseteq \{ x_{1},\dots,x_{n} \}$
+$p_{A}([t_{1}],\dots,[t_{n}])=1$ iff $S\vdash p[t_{1} /x_{1},\dots,t_{n} /x_{n}]$
+In particular, if $p \in S$ then $S\vdash p$ so $p_{A}=1$
+Thus $A$ is a model of $S$ 
