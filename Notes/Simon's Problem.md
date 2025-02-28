@@ -9,3 +9,4 @@ or a unique $\xi\neq 0$ if $2-1$
 $\xi$ 
 
 ### Algorithm
+[[Quantum Fourier Transform]]
