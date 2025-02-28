@@ -22,3 +22,4 @@ Notes on moodle
 [[Quantum Cryptography]]
 
 [[Deutch-Jozsa algorithm]]
+[[Simon's Problem]]
