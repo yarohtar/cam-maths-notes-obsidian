@@ -3,7 +3,7 @@ The bar product is:
 $$
 C_{1}|C_{2}=\{ (x|x+y):x\in C_{1}, y\in C_{2} \}
 $$
-it is a linear code of length $2n$
+            it is a linear code of length $2n$
 ### Lemma
 1. $rank(C_{1}|C_{2})=rank(C_{1})+rank(C_{2})$
 2. $w(C_{1}|C_{2})=min\{ 2w(C_{1}),w(C_{2}) \}$
