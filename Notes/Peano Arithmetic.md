@@ -11,3 +11,14 @@ $(\forall x)(x\times 0=0)$
 $(\forall x)(\forall y)(x\times sy=x\times y+x)$
 $(\forall y_{1})\dots(\forall y_{n})[(p[0/x]\land(\forall x)(p\implies p[sx /x])\implies(\forall x)p)]$
 for every formula $p$ with $FV(p)=\{x,y_{1},\dots,y_{n}\}$
+
+Note that by [[The Upwards Löwenheim-Skolem Theorem]] there is an uncountable model of PA.
+This is because the induction is not strong enough. 
+The 'true' induction is
+$$
+(\forall A\subseteq \mathbb{N}_{0})((0\in A\land(\forall x)(x\in A\implies sx\in A))\implies A=\mathbb{N}_{0})
+$$
+But we cannot quantify over subsets of a structure.
+Since the language of PA is countable, the induction axiom-scheme only captures countably many subsets of $\mathbb{N}_{0}$
+
+A sub
