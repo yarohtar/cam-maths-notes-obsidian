@@ -30,7 +30,7 @@ Part IB:
 Also useful: [[Last minute revision Part IB]]
 
 Part II:
-- [[Algebraic Topology]]
+- Some of [[Algebraic Topology]]
 - [[Linear Analysis]]
 - [[Numerical Analysis]]
 - [[Asymptotic methods]]

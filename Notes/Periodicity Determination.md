@@ -21,7 +21,7 @@ $$
 Since $r$ is the period of $f$:
 $r\mid N$ and let $A=\frac{N}{r}$ be the number of periods
 
-Do a measurement on the second register of basis $\mathcal{B}_{N}=\{ \ket{0,\dots,\ket{N-1}} \}$
+Do a measurement on the second register of basis $\mathcal{B}_{M}=\{ \ket{0,\dots,\ket{M-1}} \}$
 Let outcome be $y=f(x_{0})$
 $x_{0}\in \{ 0,1,\dots,r-1 \}$ is the smallest value of $x$ for which $f(x)=y$
 
