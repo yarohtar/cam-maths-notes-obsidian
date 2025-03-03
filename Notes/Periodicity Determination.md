@@ -60,6 +60,8 @@ Thus
 $$
 QFT\ket{per} = \frac{1}{\sqrt{ r }}\sum_{k=0}^{r-1} \omega^{x_{0}kA}\ket{kA} =\ket{\psi} 
 $$
-
 Measurement on the first register in $\mathcal{B}_{N}$ 
-Say outcome is $(x_{0}+j_{0}r)$ for some $j_{0}\in \{ 0,1\dots A-1 \}$ with probability $\frac{1}{A}$
+Say outcome is $c=k_{0}A=k_{0} \frac{N}{r}$  for some $k_{0}\in \{ 0,\dots,r-1 \}$
+$$
+P(c=k_{0}A)=\frac{1}{r}
+$$
