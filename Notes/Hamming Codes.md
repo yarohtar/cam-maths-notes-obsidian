@@ -1,4 +1,14 @@
 Let $d\geq 2$ 
 $n=2^{d}-1$
 Let $H$ be a $d\times n$ matrix whose columns are the nonzero elements of $\mathbb{F}_{2}^{n}$ 
-The Hamming code $(n,n-d)$ 
+The Hamming $(n,n-d)$ [[Linear Code]] is the linear code with [[Parity Check Matrix]] $H$ (original is $d=3$)
+
+### Lemma 
+Let $C$ be a [[Linear Code]] with [[Parity Check Matrix]] $H$. 
+Then $w(C)=d$ if and only if
+1. any $(d-1)$ columns are linearly independent
+2. some $d$ columns are linearly dependent 
+#### Proof
+Suppose $C$ has length $n$
+Then $C=\{ x:Hx=0 \}$
+If $H$ has columns $v_{1},\dots$
