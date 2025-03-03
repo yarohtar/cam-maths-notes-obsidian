@@ -9,4 +9,5 @@ $(\forall x)(x+0=x)$
 $(\forall x)(\forall y)(x+sy=s(x+y))$
 $(\forall x)(x\times 0=0)$
 $(\forall x)(\forall y)(x\times sy=x\times y+x)$
-$(\forall y_{1})\dots(\forall y_{n})[(p[0/x]\land(\forall x)(p\implies p[sx /x]))]$
+$(\forall y_{1})\dots(\forall y_{n})[(p[0/x]\land(\forall x)(p\implies p[sx /x])\implies(\forall x)p)]$
+for every formula $p$ with $FV(p)=\{x,y_{1},\dots,y_{n}\}$
