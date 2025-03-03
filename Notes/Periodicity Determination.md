@@ -66,3 +66,4 @@ $$
 P(c=k_{0}A)=\frac{1}{r}
 $$
 [[Coprimality Theorem]]
+So repeat this $\log \log r$ times to find at least one coprime ... 
