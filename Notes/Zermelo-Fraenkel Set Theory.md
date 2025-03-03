@@ -4,3 +4,10 @@ A model of ZF we denote by $V$
 So $V$ is a non-empty set with an interpretation of $\in$ as a subset $\in_{V}$ of $V\times V$ 
 Elements of $V$ will be called 'sets'
 If $(a,b)$ is in $\in_{V}$ then say '$a$ is a member of $b$' or '$a$ belongs to $b$'
+$V$ will be called the 'universe of sets'
+## Axioms of ZF
+### The Axiom of Extensionality (Ext)
+If two sets have the same members then they are equal
+$$
+(\forall x)(\forall y)((\forall z)(z\in x \iff))
+$$
