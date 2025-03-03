@@ -32,5 +32,12 @@ $$
 $$
 By the extended born rule ??? 
 $$
-p(y)=\left\lVert  \frac{1}{\sqrt{ N }}\sum_{j=0}^{A-1}\ket{x_{0}+jr}   \right\rVert ^{2}
+p(y)=\left\lVert  \frac{1}{\sqrt{ N }}\sum_{j=0}^{A-1}\ket{x_{0}+jr}   \right\rVert ^{2} =\dots=\frac{1}{r}
 $$
+So the measurement gives a uniformly random outcome
+Post measurement state of the first register is 
+$$
+\ket{per} =\frac{1}{\sqrt{ A }}\sum_{j=0}^{A-1} {\ket{x_{0}+jr} }
+$$
+Measurement on the first register in $\mathcal{B}_{N}$ 
+Say outcome is $(x_{0}+j_{0}r)$ for some $j_{0}\in \{ 0,1\dots A-1 \}$ with probability $\frac{1}{A}$
