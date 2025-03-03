@@ -21,3 +21,12 @@ The set $y$ whose existence is asserted by (Sep) is unique by (Ext)
 We denote this $y$ by $\{ z\in x\mid p \}$
 Formally, we are introducing an $(n+1)$-arry operation symbol to the language.
 
+### Empty-set axiom (Emp)
+There is a set with no members
+$$
+(\exists x)(\forall y)\neg(y\in x)
+$$
+By (Ext) it is unique. We denote it by $\emptyset$
+
+### Pair-set axiom (Pair)
+For any sets $x$,
