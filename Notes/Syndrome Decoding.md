@@ -7,3 +7,6 @@ We complete the syndrome $Hx$
 Suppose we know $C$ is $k$ [[Error correcting]]
 Then we tabulate the syndrome $He$ for all $e\in \mathbb{F}_{2}^{n}$ with $w(e)\leq k$
 If we receive $x$ we search for $Hx$ in our list
+If successful, we get $Hx=He$ for some $e\in \mathbb{F}_{2}^{n}$ with $w(e)\leq k$
+We decode $x$ as $c=x-e$
+Then $c\in C$ as $Hc=Hx-He=0$ and $d(c,x)=w(e)\leq k$

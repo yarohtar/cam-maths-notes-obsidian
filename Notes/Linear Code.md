@@ -18,4 +18,5 @@ We define $x.y=\sum_{i}^{n}x_{i}y_{i}$
 [[Parity Check Matrix]]
 [[Hamming weight]]
 [[Syndrome Decoding]]
+[[Hamming Codes]]
 
