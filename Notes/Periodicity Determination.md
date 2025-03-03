@@ -39,5 +39,14 @@ Post measurement state of the first register is
 $$
 \ket{per} =\frac{1}{\sqrt{ A }}\sum_{j=0}^{A-1} {\ket{x_{0}+jr} }
 $$
+We apply [[Quantum Fourier Transform]]
+$$
+\begin{align}
+QFT\ket{per} &  =\frac{1}{\sqrt{ A }}\sum_{j=0}^{A-1}QFT\ket{x_{0}+jr}  \\
+ & =\frac{1}{\sqrt{ NA }}\sum_{j=0}^{A-1} \sum_{y=0}^{N-1} \omega^{x_{0}+jr}y \ket{y}  \\
+ & =\frac{1}{\sqrt{ NA }}\sum_{y=0}^{N-1} \omega^{x_{0}y}\left( \sum_{j=0}^{A-1} (\omega ry)^{j} \right) \\
+ & 
+\end{align}
+$$
 Measurement on the first register in $\mathcal{B}_{N}$ 
 Say outcome is $(x_{0}+j_{0}r)$ for some $j_{0}\in \{ 0,1\dots A-1 \}$ with probability $\frac{1}{A}$
