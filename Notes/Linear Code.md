@@ -19,4 +19,5 @@ We define $x.y=\sum_{i}^{n}x_{i}y_{i}$
 [[Hamming weight]]
 [[Syndrome Decoding]]
 [[Hamming Codes]]
+[[Reed-Muller Codes]]
 

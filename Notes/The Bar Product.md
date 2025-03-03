@@ -3,7 +3,7 @@ The bar product is:
 $$
 C_{1}|C_{2}=\{ (x|x+y):x\in C_{1}, y\in C_{2} \}
 $$
-            it is a linear code of length $2n$
+it is a linear code of length $2n$
 ### Lemma
 1. $rank(C_{1}|C_{2})=rank(C_{1})+rank(C_{2})$
 2. $w(C_{1}|C_{2})=min\{ 2w(C_{1}),w(C_{2}) \}$
@@ -12,3 +12,7 @@ $$
    Then $\{ (x_{i}|x_{i}) \}\cup \{ (0|y_{i}) \}$ is a basis for $C_{1}|C_{2}$
    Hence $rank(C_{1}|C_{2})=rank(C_{1})+rank(C_{2})$
 2. Let $x\in C_{1}$ and $y\in C_{2}$, not both zero 
+   if $y\neq 0$, $w(x|x+y)=w(x)+w(x+y)\geq w(y)\geq w(C_{2})$
+   if $y=0$ then $w(x|x)\geq 2w(x)\geq 2w(C_{1})$
+   So $w(C_{1}|C_{2})\geq min\{ 2w(C_{1}),w(C_{2}) \}$
+   But the minimums are achieved so this is equal 
