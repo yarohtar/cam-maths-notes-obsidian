@@ -44,9 +44,22 @@ $$
 \begin{align}
 QFT\ket{per} &  =\frac{1}{\sqrt{ A }}\sum_{j=0}^{A-1}QFT\ket{x_{0}+jr}  \\
  & =\frac{1}{\sqrt{ NA }}\sum_{j=0}^{A-1} \sum_{y=0}^{N-1} \omega^{x_{0}+jr}y \ket{y}  \\
- & =\frac{1}{\sqrt{ NA }}\sum_{y=0}^{N-1} \omega^{x_{0}y}\left( \sum_{j=0}^{A-1} (\omega ry)^{j} \right) \\
- & 
+ & =\frac{1}{\sqrt{ NA }}\sum_{y=0}^{N-1} \omega^{x_{0}y}\left( \sum_{j=0}^{A-1} (\omega^{ry})^{j}\ket{y}  \right) \\
 \end{align}
 $$
+We can calculate
+$$
+\begin{align}
+S=\sum_{j=0}^{A-1}(\omega ry)^{j}=\begin{cases}
+A & \text{if } y=kA, 0\leq k\leq r-1 \\
+0 & \text{else}
+\end{cases}
+\end{align}
+$$
+Thus
+$$
+QFT\ket{per} = \frac{1}{\sqrt{ r }}\sum_{k=0}^{r-1} \omega^{x_{0}kA}\ket{kA} =\ket{\psi} 
+$$
+
 Measurement on the first register in $\mathcal{B}_{N}$ 
 Say outcome is $(x_{0}+j_{0}r)$ for some $j_{0}\in \{ 0,1\dots A-1 \}$ with probability $\frac{1}{A}$
