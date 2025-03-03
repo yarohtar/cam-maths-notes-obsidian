@@ -25,3 +25,12 @@ Do a measurement on the second register of basis $\mathcal{B}_{M}=\{ \ket{0,\dot
 Let outcome be $y=f(x_{0})$
 $x_{0}\in \{ 0,1,\dots,r-1 \}$ is the smallest value of $x$ for which $f(x)=y$
 
+Probability of outcome $y=f(x_{0})$ is $p(y)$
+Terms contributing to this outcome are
+$$
+\frac{1}{\sqrt{ N }}\sum_{j=0}^{A-1}\ket{x_{0}+jr}\ket{y}
+$$
+By the extended born rule ??? 
+$$
+p(y)=\left\lVert  \frac{1}{\sqrt{ N }}\sum_{j=0}^{A-1}\ket{x_{0}+jr}   \right\rVert ^{2}
+$$
