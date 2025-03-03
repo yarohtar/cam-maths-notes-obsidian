@@ -7,5 +7,5 @@ An $(n,k)$ [[Linear Code]] with [[Generator Matrix]] $G=(I_{k}|B)$ has parity ch
 ### Proof
 Since $GH^{T}=(I_{k}|B)\begin{pmatrix}-B\\I_{n-k}\end{pmatrix}=-B+B=0$
 So rows of $H$ generate a subcode of $C^{\bot}$
-But $dim(C^{\bot})=n-k=rk(smth)$
+But $dim(C^{\bot})=n-k=rank(H)$
 Thus the rows of $H$ are a basis for $C^{\bot}$ as required.

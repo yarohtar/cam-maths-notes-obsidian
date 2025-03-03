@@ -16,3 +16,5 @@ We define $x.y=\sum_{i}^{n}x_{i}y_{i}$
 [[Dual Code]]
 [[Generator Matrix]]
 [[Parity Check Matrix]]
+[[Hamming weight]]
+
