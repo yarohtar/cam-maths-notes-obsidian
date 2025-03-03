@@ -65,3 +65,4 @@ Say outcome is $c=k_{0}A=k_{0} \frac{N}{r}$  for some $k_{0}\in \{ 0,\dots,r-1 \
 $$
 P(c=k_{0}A)=\frac{1}{r}
 $$
+[[Coprimality Theorem]]
