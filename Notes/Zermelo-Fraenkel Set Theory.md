@@ -89,3 +89,18 @@ We can now construct the [[Cartesian Product]] of sets $x,y$
 So far we can do quite a bit of mathematics with our axioms, and also any model $V$ is infinite. 
 [[Successor]]
 But we do not yet have infinite sets (because $V$ is not a set)
+The axiom of infinity asserts the existence of a [[Successor Set]]
+$$
+(\exists x)(x\text{ is a successor set})
+$$
+
+We can then show that there's a smallest successor set, i.e. we can prove 
+$$
+(\exists x)(x\text{ is a successor set}\land(\forall y)(y\text{ is a successor set})\implies x\subseteq y)
+$$
+To prove it,
+In a model, pick a successor set $y$ using (Inf). Form the set
+$$
+z=\{ t\in \mathbb{P}y\mid t \text{ is a successor set} \}
+$$
+Since $y\in z$ we can form $x=\bigcap z$. It's easy to check that $x$ is the smallest successor set
