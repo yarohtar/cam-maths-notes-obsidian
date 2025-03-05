@@ -75,3 +75,12 @@ using (Un) and (Sep)
 
 Formally, we introduce a unary operation symbol $dom$
 Note that this is defined for any set $f$ but it only has a meaning for functions.
+
+### Power-set axiom (Pow)
+We can form a power set of a set
+$$
+(\forall x)(\exists y)(\forall z)(z\in y\iff z\subseteq x)
+$$
+where $z\subseteq x$ is shorthand for $(\forall t)(t\in z\implies t\in x)$
+The unique set $y$ is denoted by $\mathbb{P}x$
+We can now construct the [[Cartesian Product]] of sets $x,y$
