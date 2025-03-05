@@ -48,4 +48,17 @@ The set $y$ whose existence is asserted here is unique by (Ext)
 We denote this by $\bigcup x$ (formally, we are introducing a unary operation symbol $\bigcup$ to the language of ZF)
 So $\bigcup x$ is the union of the members of $x$ 
 
-We write $a \cup b$ for $\bigcup \{ a \}$
+We write $a \cup b$ for $\bigcup \{ a,b \}$
+
+#### Intersection
+We can prove 
+$$
+(\forall x)(\neg(x=\emptyset)\implies(\exists y)(\forall z)(z\in y\iff(\forall t)(t\in x \implies z\in t)))
+$$
+Indeed, start with a nonempty set $x$ and form the set
+$$
+y=\left\{  z\in \bigcup x\mid (\forall t)(t\in x \implies z\in t)  \right\}
+$$
+using (Un) and (Sep). Technically, we work in a model here and then we deduce the sentence above by [[Gödel's Completeness Theorem for First-Order Logic]]
+
+
