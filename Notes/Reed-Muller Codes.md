@@ -34,4 +34,4 @@ $RM(3,0)$ is spanned by $v_{0}$. It is the repetition code of length 8
 $RM(3,1)$ is spanned by $v_{0},v_{1},v_{2},v_{3}$. Deleting the first component of each codeword gives [[Hamming's Original Code]]
 $RM(3,2)$ is spanned by all the previous plus $v_{1}\land v_{2}$, etc.
 $RM(3,3)=\mathbb{F}_{2}^{8}$
-
+ 
