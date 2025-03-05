@@ -87,3 +87,5 @@ We can now construct the [[Cartesian Product]] of sets $x,y$
 
 ### Axiom of Infinity (Inf)
 So far we can do quite a bit of mathematics with our axioms, and also any model $V$ is infinite. 
+[[Successor]]
+But we do not yet have infinite sets (because $V$ is not a set)
