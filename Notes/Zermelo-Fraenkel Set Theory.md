@@ -36,3 +36,5 @@ $$
 The unique (by (Ext)) is denoted by $\{ x,y \}$
 We write $\{ x \}$ for $\{ x,x \}$
 Formally, we introduced a binary symbol $\{ , \}$ and a unary symbol $\{  \}$
+By (Ext) we haave $\{ x,y \}=\{ y,x \}$
+We can now define [[Ordered Pair]]
