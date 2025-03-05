@@ -1,3 +1,3 @@
 [[Groups]]
-[[Rings]]
+[[Ring]]
 [[Modules]]

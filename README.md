@@ -23,7 +23,7 @@ Part IB:
 - [[Variational principles]]
 - [[Analysis and Topology]]
 - [[Quantum mechanics]]
-- [[GRM]] (only [[Groups]] and [[Rings]])
+- [[GRM]] (only [[Groups]] and [[Ring]])
 - [[Numerical Analysis]]
 - [[Complex Methods]]
 
