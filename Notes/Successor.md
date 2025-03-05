@@ -7,3 +7,7 @@ $2=1^{+}=\{ 0,1 \}$
 $3=2^{+}=\{ 0,1,2 \}$
 ...
 
+### Definition
+Say '$x$ is a successor set' if 
+$(0\in x)\land(\forall y\in x)(y^{+}\in x)$
+where $(\forall)$
