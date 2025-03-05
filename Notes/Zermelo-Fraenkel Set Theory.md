@@ -38,3 +38,14 @@ We write $\{ x \}$ for $\{ x,x \}$
 Formally, we introduced a binary symbol $\{ , \}$ and a unary symbol $\{  \}$
 By (Ext) we haave $\{ x,y \}=\{ y,x \}$
 We can now define [[Ordered Pair]] and [[Function]]
+
+### Union axiom (Un)
+Can form the union of a set
+$$
+(\forall x)(\exists y)(\forall z)(z\in y\iff(\exists t)(t\in x\land z\in t))
+$$
+The set $y$ whose existence is asserted here is unique by (Ext)
+We denote this by $\bigcup x$ (formally, we are introducing a unary operation symbol $\bigcup$ to the language of ZF)
+So $\bigcup x$ is the union of the members of $x$ 
+
+We write $a \cup b$ for $\bigcup \{ a \}$
