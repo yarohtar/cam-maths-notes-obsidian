@@ -84,3 +84,6 @@ $$
 where $z\subseteq x$ is shorthand for $(\forall t)(t\in z\implies t\in x)$
 The unique set $y$ is denoted by $\mathbb{P}x$
 We can now construct the [[Cartesian Product]] of sets $x,y$
+
+### Axiom of Infinity (Inf)
+So far we can do quite a bit of mathematics with our axioms, and also any model $V$ is infinite. 
