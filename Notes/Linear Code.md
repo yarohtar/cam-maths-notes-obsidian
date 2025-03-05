@@ -20,5 +20,5 @@ We define $x.y=\sum_{i}^{n}x_{i}y_{i}$
 [[Syndrome Decoding]]
 [[Hamming Codes]]
 [[Reed-Muller Codes]]
-[[Ring of Linear Codes]]
+[[Ring over binary words]]
 
