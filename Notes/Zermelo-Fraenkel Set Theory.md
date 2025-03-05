@@ -113,4 +113,4 @@ where $(\forall a\subseteq b)p$ is a shorthand for $(\forall a)(a\subseteq b\imp
 for any formula $p$ 
 
 So inside $V$ we have true induction! We call this $\omega$-induction
-But still, from the outside there may be subse
+But still, from the outside there may be subsets of $\omega$ that are not sets in $V$ 
