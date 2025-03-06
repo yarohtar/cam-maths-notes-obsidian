@@ -20,10 +20,9 @@ Two kinds:
 1. Atomic formulae
 2. $\bot$ is a formulae
 3. If $p$, $q$ are formulae then so is $(p \implies q)$
-4. If $p$ is a formula and $x$ is a free variable in $p$ then $(\forall x)p$ is a formula
+4. If $p$ is a formula and $x$ is a [[Free Variable]] in $p$ then $(\forall x)p$ is a formula
 
 ## Stuff
-[[Free Variable]]
 [[Sentence]]
 [[Structure]]
 [[Semantic Enailment (First-order logic)]]
