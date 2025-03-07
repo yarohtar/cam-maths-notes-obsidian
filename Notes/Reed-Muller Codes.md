@@ -42,8 +42,16 @@ $RM(3,3)=\mathbb{F}_{2}^{8}$
 4. $RM(d,r)$ has weight $2^{d-r}$
 #### Proof
 1. We have a set of $\sum_{s=0}^{d}{d \choose s}=(1+1)^{d}=2^{d}$ vectors
-   So it suffices to show they span $\mathbb{F}_{2}^{n}$, equivalently $RM(n,d)=\mathbb{F}_{2}^{n}$
+   So it suffices to show they span $\mathbb{F}_{2}^{n}$, equivalently $RM(d,d)=\mathbb{F}_{2}^{n}$
    Let $p \in X$
-   Let 
-   $a$
-      
+   Let
+   $$
+   y_{i}=\begin{cases}
+v_{i} & \text{if } i\text{th coordinate of }p \text{ is equal to }0 \\
+v_{i}+v_{0} & \text{otherwise}
+\end{cases}
+   $$
+   Expanding using distributive law, gives that $\mathbb{1}_{\{ p \}}\in RM(d,d)$
+   But these clearly span $\mathbb{F}_{2}^{n}$
+2. Follows from 1. 
+3. We order $X=\mathbb{F}_{2}^{n}$ s.t. $v_{d}=(0\dots 0,1\dots 1)$ 
