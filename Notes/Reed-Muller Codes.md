@@ -36,4 +36,14 @@ $RM(3,2)$ is spanned by all the previous plus $v_{1}\land v_{2}$, etc.
 $RM(3,3)=\mathbb{F}_{2}^{8}$
  
 ### Theorem
-1. The vector $v_{i_{1}}\wedge\dots \wedge v_{i_{s}}$ for $1\leq i_{1}<\dots<i_{s}\leq d$
+1. The vector $v_{i_{1}}\wedge\dots \wedge v_{i_{s}}$ for $1\leq i_{1}<\dots<i_{s}\leq d$ and $0\leq s\leq d$ are a basis for $\mathbb{F}_{2}^{n}$
+2. $RM(d,r)$ has rank $\sum_{s=0}^{r}{d \choose s}$
+3. $RM(d,r)=RM(d-1,r)\mid RM(d-1,r-1)$
+4. $RM(d,r)$ has weight $2^{d-r}$
+#### Proof
+1. We have a set of $\sum_{s=0}^{d}{d \choose s}=(1+1)^{d}=2^{d}$ vectors
+   So it suffices to show they span $\mathbb{F}_{2}^{n}$, equivalently $RM(n,d)=\mathbb{F}_{2}^{n}$
+   Let $p \in X$
+   Let 
+   $a$
+      
