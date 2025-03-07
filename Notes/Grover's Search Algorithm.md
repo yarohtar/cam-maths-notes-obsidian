@@ -37,4 +37,7 @@ $$
 In the space normal to this one, $Q=-I$
 
 So hopefully by rotating enough, we will get a state thats close to $\ket{x_{0}}$
-For large
+For large $N$, the starting angle between $\ket{x_{0}}$ and $\ket{\psi_{0}}$ will be $\approx \frac{\pi}{2}$ 
+also $2\alpha\approx 2\sin \alpha=\frac{2}{\sqrt{ N }}$
+so we need to rotate approximately $\frac{\sqrt{ N }\pi}{4}$
+Thus $O(\sqrt{ N })$ queries suffice.
