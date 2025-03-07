@@ -29,3 +29,12 @@ Consider acting on it by Grover iteration operator
 $$
 Q=-H_{n}I_{0}H_{n}I_{x_{0}}
 $$
+### Some facts to be proven
+In the plane spanned by $\ket{x_{0}}$ and $\ket{\psi_{0}}$ $Q$ causes a rotation through an angle $2\alpha$ where
+$$
+\sin \alpha=\frac{1}{\sqrt{ 2^{n} }}=\frac{1}{\sqrt{ N }}
+$$
+In the space normal to this one, $Q=-I$
+
+So hopefully by rotating enough, we will get a state thats close to $\ket{x_{0}}$
+For large
