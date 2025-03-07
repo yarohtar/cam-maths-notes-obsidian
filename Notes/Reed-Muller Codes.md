@@ -35,3 +35,5 @@ $RM(3,1)$ is spanned by $v_{0},v_{1},v_{2},v_{3}$. Deleting the first component 
 $RM(3,2)$ is spanned by all the previous plus $v_{1}\land v_{2}$, etc.
 $RM(3,3)=\mathbb{F}_{2}^{8}$
  
+### Theorem
+1. The vector $v_{i_{1}}\wedge\dots \wedge v_{i_{s}}$ for $1\leq i_{1}<\dots<i_{s}\leq d$
