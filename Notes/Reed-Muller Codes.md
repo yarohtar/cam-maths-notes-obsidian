@@ -46,7 +46,7 @@ $RM(3,3)=\mathbb{F}_{2}^{8}$
    Let $p \in X$
    Let
    $$
-   y_{i}=\begin{cases} 
+   y_{i}=\begin{cases}
 v_{i} & \text{if } i\text{th coordinate of }p \text{ is equal to }0 \\
 v_{i}+v_{0} & \text{otherwise}
 \end{cases}
@@ -61,4 +61,6 @@ v_{i}+v_{0} & \text{otherwise}
    Where $x$ and $y$ are sums of wedge products of ...
    We have $x=(x'\mid x')$ and $y=(y'\mid y')$
    So $z=\dots=(x'\mid x'+y')\in RM(d-1,r)\mid RM(d-1,r-1)$
-4. 
+4. $RM(d,0)$ is the repetition code of length $2^{d}$, has weight $2^{d-0}$
+   $RM(d,d)=\mathbb{F}_{2}^{n}$ by 1. has weight $1=2^{d-d}$ 
+   If $0<r<d$ we use 3. and induction on $d$ 
