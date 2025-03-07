@@ -115,3 +115,5 @@ for any formula $p$
 So inside $V$ we have true induction! We call this $\omega$-induction
 But still, from the outside there may be subsets of $\omega$ that are not sets in $V$ 
 
+### Axiom of Replacement (Rep)
+[[Class]]
