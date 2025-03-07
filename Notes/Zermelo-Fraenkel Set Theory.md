@@ -127,3 +127,10 @@ $$
 \end{gather}
 $$
 ### Axiom of Foundation (Fnd)
+$$
+(\forall x)(\neg(x=\emptyset)\implies(\exists y)(y\in x\land (\forall z\in x)\neg(z\in y)))
+$$
+
+## 
+The 9 axioms and axiom schemes form ZF set theory.
+The [[Axiom of Choice]] is not included. We write ZFC for ZF+AC
