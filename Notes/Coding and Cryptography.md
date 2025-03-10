@@ -16,4 +16,5 @@ Given a source and a channel (described probabilistically) we aim to design an e
 [[Noiseless Coding]]
 [[Error-control codes]]
 [[Linear Code]]
+[[Cyclic Code]]
 [[Cryptography]]
