@@ -13,3 +13,5 @@ So number of cyclic codes of length $N$ is $2^{k}$
 ### Lemma
 Let $C$ be a [[Cyclic Code]] of length $n$ with generator polynomial
 $g(X)=a_{0}+a_{1}X+\dots+a_{k}X^{k}$ (where $a_{k}\neq 0$)
+Then $g(X),Xg(X),\dots,X^{n-k-1}g(X)$ is a basis for $C$ 
+
