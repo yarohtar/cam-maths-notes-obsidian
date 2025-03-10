@@ -1,4 +1,4 @@
-[[Ideals]]
+[[Ideal]]
 [[The isomorphism theorems (Rings)]]
 [[Characteristic of a ring]]
 [[Integral domain]]

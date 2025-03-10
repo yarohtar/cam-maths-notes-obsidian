@@ -1,5 +1,5 @@
 ### First isomorphism theorem
-Let $\phi :R\to S$ be a ring homomorphism. Then $\ker\phi$ is an [[Ideals|ideal]] of $R$ and we have $$R/\ker \phi\cong \mathrm{Im} \phi\leq S$$
+Let $\phi :R\to S$ be a ring homomorphism. Then $\ker\phi$ is an [[Ideal|ideal]] of $R$ and we have $$R/\ker \phi\cong \mathrm{Im} \phi\leq S$$
 #### Proof
 Same as in [[The isomorphism theorems (Groups)]], just add in some ring stuff to check.
 ### Second isomorphism theorem

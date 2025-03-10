@@ -1,4 +1,4 @@
-An [[Ideals|ideal]] $I\triangleleft R$ is prime if $I\neq R$ and $ab\in I\implies a\in I\lor b\in I$.
+An [[Ideal|ideal]] $I\triangleleft R$ is prime if $I\neq R$ and $ab\in I\implies a\in I\lor b\in I$.
 
 ### Proposition 
 Let $I\triangleleft R$ be a proper ideal. Then $I$ is prime iff $R/I$ is an [[Integral domain|integral domain]].
