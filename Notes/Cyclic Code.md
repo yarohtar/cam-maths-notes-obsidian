@@ -11,3 +11,5 @@ A code $C$ is cyclic iff $\mathcal{C}=\pi(C)$ satisfies
 3. $f\in \mathcal{C}, g\in \mathbb{F}_{2}[X]\implies gf\in \mathcal{C}$
 ### Corrolary
 $C$ is a cyclic code of length $n$ if and only if $\mathcal{C}$ is an [[Ideal]] in $\frac{\mathbb{F}_{2}}{(X^{n}-1)}$
+
+[[Generator Polynomial]]
