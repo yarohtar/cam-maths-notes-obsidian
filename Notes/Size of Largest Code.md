@@ -1,3 +1,4 @@
+
 $$
 A(n,d)=max\{ m:\exists[n,m,d]\text{-code} \}
 $$
