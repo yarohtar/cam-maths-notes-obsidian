@@ -9,7 +9,7 @@ Construct
 $$
 \ket{\psi_{N}} =\frac{1}{\sqrt{ N }}\sum_{x\in \mathbb{Z}_{N}}\ket{x} 
 $$
-Consider a state $\ket{\psi_{N}}.\ket{0}$ (where $\ket{0}\in \mathcal{H}_{N}$)
+Consider a state $\ket{\psi_{N}}.\ket{0}$ (where $\ket{0}\in \mathcal{H}_{M}$)
 Apply the quantum oracle of the function $f$ 
 $$
 \begin{align}
