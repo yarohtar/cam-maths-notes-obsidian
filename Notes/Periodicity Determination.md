@@ -43,14 +43,14 @@ We apply [[Quantum Fourier Transform]]
 $$
 \begin{align}
 QFT\ket{per} &  =\frac{1}{\sqrt{ A }}\sum_{j=0}^{A-1}QFT\ket{x_{0}+jr}  \\
- & =\frac{1}{\sqrt{ NA }}\sum_{j=0}^{A-1} \sum_{y=0}^{N-1} \omega^{x_{0}+jr}y \ket{y}  \\
+ & =\frac{1}{\sqrt{ NA }}\sum_{j=0}^{A-1} \sum_{y=0}^{N-1} \omega^{y(x_{0}+jr)} \ket{y}  \\
  & =\frac{1}{\sqrt{ NA }}\sum_{y=0}^{N-1} \omega^{x_{0}y}\left( \sum_{j=0}^{A-1} (\omega^{ry})^{j}\ket{y}  \right) \\
 \end{align}
 $$
 We can calculate
 $$
 \begin{align}
-S=\sum_{j=0}^{A-1}(\omega ry)^{j}=\begin{cases}
+S=\sum_{j=0}^{A-1}(\omega^{ry})^{j}=\begin{cases}
 A & \text{if } y=kA, 0\leq k\leq r-1 \\
 0 & \text{else}
 \end{cases}
@@ -65,5 +65,6 @@ Say outcome is $c=k_{0}A=k_{0} \frac{N}{r}$  for some $k_{0}\in \{ 0,\dots,r-1 \
 $$
 P(c=k_{0}A)=\frac{1}{r}
 $$
+If $k_{0}$ is coprime to $N$, 
 [[Coprimality Theorem]]
 So repeat this $\log \log r$ times to find at least one coprime ... 
