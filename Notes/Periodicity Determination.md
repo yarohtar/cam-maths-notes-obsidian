@@ -30,7 +30,7 @@ Terms contributing to this outcome are
 $$
 \frac{1}{\sqrt{ N }}\sum_{j=0}^{A-1}\ket{x_{0}+jr}\ket{y}
 $$
-By the [[Born Rule]]
+By the extended [[Born Rule]]
 $$
 p(y)=\left\lVert  \frac{1}{\sqrt{ N }}\sum_{j=0}^{A-1}\ket{x_{0}+jr}   \right\rVert ^{2} =\dots=\frac{1}{r}
 $$
