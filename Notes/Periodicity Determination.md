@@ -65,6 +65,7 @@ Say outcome is $c=k_{0}A=k_{0} \frac{N}{r}$  for some $k_{0}\in \{ 0,\dots,r-1 \
 $$
 P(c=k_{0}A)=\frac{1}{r}
 $$
-If $k_{0}$ is coprime to $N$, 
+We try $A=gcd(c,N)$ in the hope that $k_{0}$ is coprime to $N$. If that is the period, we are done, otherwise, repeat. 
+
 [[Coprimality Theorem]]
-So repeat this $\log \log r$ times to find at least one coprime ... 
+So repeat this $\log \log r$ times to find at least one coprime.
