@@ -32,7 +32,7 @@ $$
 $$
 By the extended [[Born Rule]]
 $$
-p(y)=\left\lVert  \frac{1}{\sqrt{ N }}\sum_{j=0}^{A-1}\ket{x_{0}+jr}   \right\rVert ^{2} =\dots=\frac{1}{r}
+p(y)=\left\lVert  \frac{1}{\sqrt{ N }}\sum_{j=0}^{A-1}\ket{x_{0}+jr}   \right\rVert ^{2} =\frac{A}{N}=\frac{1}{r}
 $$
 So the measurement gives a uniformly random outcome
 Post measurement state of the first register is 
