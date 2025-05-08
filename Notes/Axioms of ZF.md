@@ -109,7 +109,7 @@ But still, from the outside there may be subsets of $\omega$ that are not sets i
 
 ### Axiom of Replacement (Rep)
 [[Class]]
-The Axiom of Replacement is the axiom-scheme asserting that the image of a set undder a [[Function Class]] is a set. As usual, we'll have parameters:
+The Axiom of Replacement is the axiom-scheme asserting that the image of a set under a [[Function Class]] is a set. As usual, we'll have parameters:
 $$
 \begin{gather}
 (\forall t_{1})\dots(\forall t_{n})(\\
