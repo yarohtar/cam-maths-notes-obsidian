@@ -1,3 +1,9 @@
+### Type 0
+[[Formal Language]] $\mathcal{L}(G)$ for any [[Grammar]] $G$.
+### Type 1
+[[Formal Language]] $\mathcal{L}(G)$ for [[Rewrite Rule#Context-free|context free]] [[Grammar]] $G$.
+### Type 2
+[[Formal Language]] $\mathcal{L}(G)$ for [[Rewrite Rule]]
 Fix $\Sigma,V$ and $S\in V$.
 A [[Grammar]] is called respectively if all production rules satisfy a property above.
 A [[Formal Language]] is called respectively if produced by a grammar of certain type.
