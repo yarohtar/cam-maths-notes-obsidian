@@ -4,7 +4,7 @@ Given a set of variables $V$ and a set of terminal symbols $\Sigma$, a parse tre
 
 We always look at this tree as being rooted at the top and then having a notion of left to right. For example, if $G$ is a [[Grammar]] and the parse tree "respects" $G$ and say $S\to ABC$ is a rewrite rule, then $A$ is the leftmost descendent of $S$, $B$ is the middle descendent of $S$, while $C$ is the rightmost descendent of $S$. 
 
-(ADD PICTURE)
+![[Parse Tree 2025-05-10 22.38.00.excalidraw]]
 
 Note that parse tree is not meant to simulate a grammar. It is merely here to represent one derivation (and it may not exist for certain derivations in some grammars)
 
