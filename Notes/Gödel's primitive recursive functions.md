@@ -19,4 +19,4 @@ is called the recursion of $f$ and $g$
 The class of primitive recursive functions is the smallest class of partial functions containing all [[Basic Functions]] that is closed under composition and recursion.
 
 ### Theorem
-Every primitive recursive function is [[Computable Function]].
+Every primitive recursive function is [[Computable]].
