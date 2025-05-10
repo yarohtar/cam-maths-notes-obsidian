@@ -8,15 +8,10 @@ $V$ is the set of variables
 $\mathbb{W}=\Sigma ^{*}$ is the set of words
 $L\subset \mathbb{W}$ is a formal language.
 [[Derivable Strings]]
-[[Formal Language]]
+[[Variable-based Grammar]]
+[[Set of all Grammars]]
 ### Definition
-Two grammars are equivalent if they generate the same languages.
+Two grammars are equivalent if they generate the same [[Formal Language]].
 
 ### Proposition
-Isomorphic grammars are equivalent. (??)
-
-### Definition
-$\mathcal{G}(\Sigma,V)$ is the set of all grammars with $\Sigma,V$. This is countable.
-
-
-[[Variable-based Grammar]]
+Isomorphic grammars are equivalent. 
