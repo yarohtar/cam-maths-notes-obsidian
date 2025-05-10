@@ -5,7 +5,7 @@ $$
 
 ### Theorem
 Let $X\subseteq \mathbb{B}^{k}$. The following are equivalent:
-1. $X$ is [[Computably Enumerable Set]]
+1. $X$ is [[Computably Enumerable]]
 2. $X$ is $\Sigma_{1}$
 
 ### Proposition
