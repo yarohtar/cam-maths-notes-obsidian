@@ -15,15 +15,13 @@
 11. Set is infinite if $\mathbb{N}$ injects into it
 12. Set is countable if its empty or $\mathbb{N}$ surjects onto it
 
-[[Rewrite Systems]]
+[[Rewrite System]]
 [[Formal Language]]
 [[Grammar]]
 
 [[The Chomsky Hierarchy]]
-
-
-[[Deterministic Automata]]
-[[Automata]]
+[[Regular Formal Language]]
+[[Context-Free Formal Language]]
 
 [[Register Machine]]
 [[Closure Properties of Languages]]

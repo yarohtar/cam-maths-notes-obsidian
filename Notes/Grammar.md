@@ -1,4 +1,4 @@
-$G=(\Sigma,V,S,P)$ is a grammar if $(\Sigma\cup V,P)$ is a [[Rewrite Systems|RWS]].
+$G=(\Sigma,V,S,P)$ is a grammar if $(\Sigma\cup V,P)$ is a [[Rewrite System|RWS]].
 $S\in V$ is the start symbol.
 
 Assume $\Omega=\Sigma \cup V$ and $\Sigma\cap V=\emptyset$, $\Sigma \neq \emptyset \neq V$
