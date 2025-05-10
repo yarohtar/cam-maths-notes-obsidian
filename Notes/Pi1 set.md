@@ -1,1 +1,0 @@
-A set is called $\Pi_{1}$ if it is a complement of a [[Sigma1 set]].
