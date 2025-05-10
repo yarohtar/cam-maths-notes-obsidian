@@ -7,7 +7,7 @@
 3. Empty string $\varepsilon : \emptyset\to X$
 4. $X^*=\cup_{n\in \mathbb{N}}X^n$ the set of $X$-strings
 5. If $|\alpha|=n$ and $k\leq n$, then $\alpha|_{k}$ is the unique initial segment of $\alpha$ with length $k$.
-6. $X^+=X^*\\ \{ \varepsilon \}$ The set of nonempty strings
+6. $X^+=X^*\setminus \{ \varepsilon \}$ The set of nonempty strings
 7. $\alpha \beta$ the concatenation of $\alpha$ and $\beta$ 
 8. Write $\alpha x$ for $\alpha \beta$ when $\beta$ is string containing only $x$ 
 9. $x^n$ string of length $n$ containing only $x$ 
