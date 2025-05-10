@@ -1,4 +1,5 @@
-We can represent a [[Register Machine]] $M=(Q,P)$ as a list of instructions, where the $i$-th instruction in the list represents $P(q_{i})$. 
+We can represent a [[Register Machine]] $M=(Q,P)$ as a list of instructions, where the $i$-th instruction in the list represents $P(q_{i})$
+
 Being careful about stuff, we can encode it into some encoding alphabet. 
 Then we can use [[Encoding Alphabets in Binary Words]] to encode the register machine into binary.
 We can do a similar thing with [[Configuration of a Register Machine]] $C$
