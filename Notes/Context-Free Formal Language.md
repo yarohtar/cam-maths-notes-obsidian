@@ -7,7 +7,7 @@ For a context free grammar $G$ and any word $w\in \mathcal{L}(G)$ there is a (no
 Every context free grammar $G$ has a [[Chomsky Normal Form]] grammar $G'$ such that $\mathcal{L}(G)=\mathcal{L}(G')$
 #### Proof (sketch)
 The product rules we need to kick out are:
-1. Unit producions $A\to B$
+1. Unit productions $A\to B$
 2. bad productions $A\to \alpha$ where $\alpha \in V^*$ but $\lvert \alpha \rvert>2$
 3. very bad productions $A\to \alpha$ where $\lvert \alpha \rvert\geq 2$ but $\alpha$ contains terminal symbols.
 First kick the very bad productions out easily. 
