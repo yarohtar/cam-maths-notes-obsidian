@@ -1,4 +1,4 @@
-There is a register machine $U$, called a universal register machine, such that we have the [[Computable Function]]
+There is a register machine $U$, called a universal register machine, such that we have the [[Computable]] [[Partial Function]]
 $$
 f_{U,2}(v,u)=\begin{cases}
 f_{M,k+1}(\vec{w}) & \text{if } v=code(M) \text{ for register machine }M \\

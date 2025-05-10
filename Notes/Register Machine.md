@@ -24,7 +24,6 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Repeat Lemma]]
 
 ## Computability
-[[Computable Function]]
 [[Computable]]
 [[Computably Enumerable]]
 
