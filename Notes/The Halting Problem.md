@@ -9,4 +9,4 @@ $$
 The sets $K$ and $K_{0}$ are [[Computably Enumerable]].
 
 ### Theorem
-The sets $K$ and $K_{0}$ are not [[Computable Set]].
+The sets $K$ and $K_{0}$ are not [[Computable]].
