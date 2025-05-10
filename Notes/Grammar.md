@@ -9,7 +9,7 @@ $G=(\Sigma,V,S,P)$ is a grammar if $(\Sigma\cup V,P)$ is a [[Rewrite Systems|RWS
 $S\in V$ is the start symbol
 
 ### Definition
-$\mathcal{D}(G,\alpha)$ is the set of derivable strings (ie all string that we can obtain by applying a finite number of rewrite rules)
+$\mathcal{D}(G,\alpha)$ is the set of derivable strings (i.e. all string that we can obtain by applying a finite number of rewrite rules)
 $\mathcal{L}(G)=\mathcal{D}(G,S)\cap \mathbb{W}$ is a [[Formal Language]] derived by $G$.
 Two grammars are equivalent if they generate the same languages.
 
