@@ -4,7 +4,7 @@ $$
 \vec{w}\in X\iff \exists v((\vec{w},v)\in Y)
 $$
 ### $\Pi_{1}$ sets
-A set is called $\Pi_{1}$ if it is a complement of a [[Sigma1 set]].
+A set is called $\Pi_{1}$ if it is a complement of a $\Sigma_{1}$ set.
 ### $\Delta_{1}$ sets
 A set is called $\Delta_{1}$ if it is both $\Sigma_{1}$ and $\Pi_{1}$.
 ### Proposition
