@@ -41,6 +41,5 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[The s-m-n Theorem]]
 [[Kleene's Recursion Theorem]]
 
-
 ## Hierarchy
 [[Computability Hierarchy]]

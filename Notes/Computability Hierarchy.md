@@ -7,7 +7,7 @@ $$
 A set is $\Sigma_{1}$ if and only if it is [[Computably Enumerable]].
 #### Proof
 $(\implies)$ By the previous definition, search for $v$ such that $(\vec{w},v)\in Y$. If it exists, we will find it. If it doesn't, the program diverges. 
-$(\impliedby)$ Suppose $X$ is [[Computably Enumerable]]. Let $M$ be a machine that lists all members of $X$. Construct the set $Y$ such that $(\vec{w},v)\in Y$ iff $M$ halts on input $\vec{w}$ in $\# v$ steps. 
+$(\impliedby)$ Suppose $X$ is [[Computably Enumerable]]. Let $M$ be a machine that lists all members of $X$. Construct the set $Y$ such that $(\vec{w},v)\in Y$ iff $M$ lists $\vec{w}$ in step $\# v$. Then $Y$ is [[Computable]], so $X$ is $\Sigma_{1}$.
 ### Proposition
 The class of $\Sigma_{1}$ sets is not closed under complementation.
 #### Proof
@@ -24,5 +24,5 @@ A set is called $\Delta_{1}$ if it is both $\Sigma_{1}$ and $\Pi_{1}$.
 ### Proposition
 A set is [[Computable]] if and only if it is a $\Delta_{1}$ set.
 #### Proof
-A set is $\Sigma_{1}$ iff it is [[Computably Enumerable]]. It is easy to see that for a [[Computable]] set, it is computably enumerable. It's complement is also computable, so computably enumerable. 
-To go the other way, list all the elements of $X$ and $X^{C}$ in alternating order. 
+$(\implies)$ A set is $\Sigma_{1}$ iff it is [[Computably Enumerable]]. It is easy to see that for a [[Computable]] set, it is computably enumerable. It's complement is also computable, so computably enumerable. 
+$(\impliedby)$ To go the other way, list all the elements of $X$ and $X^{C}$ in alternating order, because both $X$ and $X^{C}$ are computably enumerable. But this will list all elements of input space so $X$ will be [[Computable]].
