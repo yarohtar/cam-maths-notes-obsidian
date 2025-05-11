@@ -3,14 +3,12 @@ A set $X\subseteq \mathbb{B}^{k}$ is called $\Sigma_{1}$ if there is a [[Computa
 $$
 \vec{w}\in X\iff \exists v((\vec{w},v)\in Y)
 $$
+### Theorem
+A set is $\Sigma_{1}$ if and only if it is [[Computably Enumerable]].
 ### Proposition
 The class of $\Sigma_{1}$ sets is not closed under complementation.
 #### Proof
 [[The Halting Problem]]
-### Theorem
-Let $X\subseteq \mathbb{B}^{k}$. The following are equivalent:
-1. $X$ is [[Computably Enumerable]]
-2. $X$ is $\Sigma_{1}$
 # $\Pi_{1}$ sets
 A set is called $\Pi_{1}$ if it is a complement of a $\Sigma_{1}$ set.
 ### Proposition
@@ -22,4 +20,6 @@ $$
 A set is called $\Delta_{1}$ if it is both $\Sigma_{1}$ and $\Pi_{1}$.
 ### Proposition
 A set is [[Computable]] if and only if it is a $\Delta_{1}$ set.
-
+#### Proof
+A set is $\Sigma_{1}$ iff it is [[Computably Enumerable]]. It is easy to see that for a [[Computable]] set, it is computably enumerable. It's complement is also computable, so computably enumerable. 
+To go the other way, list all the elements of $X$ and $X^{C}$ in alternating order. 
