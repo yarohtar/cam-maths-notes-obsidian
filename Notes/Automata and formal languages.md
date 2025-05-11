@@ -24,4 +24,3 @@
 [[Context-Free Formal Language]]
 
 [[Register Machine]]
-[[Closure Properties of Languages]]
