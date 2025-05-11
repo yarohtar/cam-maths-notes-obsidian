@@ -5,6 +5,9 @@ $$
 $$
 ### Theorem
 A set is $\Sigma_{1}$ if and only if it is [[Computably Enumerable]].
+#### Proof
+$(\implies)$ By the previous definition, search for $v$ such that $(\vec{w},v)\in Y$. If it exists, we will find it. If it doesn't, the program diverges. 
+$(\impliedby)$ Suppose $X$ is [[Computably Enumerable]]. Let $M$ be a machine that lists all members of $X$. Construct the set $Y$ such that $(\vec{w},v)\in Y$ iff $M$ halts on input $\vec{w}$ in $\# v$ steps. 
 ### Proposition
 The class of $\Sigma_{1}$ sets is not closed under complementation.
 #### Proof
