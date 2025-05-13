@@ -16,8 +16,13 @@ Suppose $K$ was computable.
 Let $\chi$ be the total computable indicator function for $K$.
 Define the partial function:
 $$
-f(w) = \begin{cases}
+g(w) = \begin{cases}
 \uparrow  & w\in K \\
 0  & w\not\in K
 \end{cases}
 $$
+Note that $g$ is computable, so find some $w$ s.t. $f_{w,1}=g$.
+Now if $w\in K$ then $g(w)\downarrow$ which is a contradiction.
+If $w\not\in K$ then $g(w)\uparrow$ which is a contradiction.
+Thus $K$ is not computable. 
+Similar works for $K_{0}$.
