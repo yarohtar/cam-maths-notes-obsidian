@@ -14,3 +14,9 @@ $$
 f_{h_{w}(u),1}(v) = g_{w}(u,v)
 $$
 If $u\in K$ then $W_{h_{w}(u)}=W_{w}$. 
+If $u\not\in K$ then $W_{h_{w}(u)}=\emptyset$
+Let $I$ be an [[Index Set]].
+Fix some $e$ such that $W_{e}=\emptyset$. 
+Then either $e\in I$ or $e\not\in I$.
+#### Case 1
+If $e\in I$ then find some $w\not\in I$ 
