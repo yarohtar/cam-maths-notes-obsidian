@@ -45,6 +45,5 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Computability Hierarchy]]
 [[Reduction Function]]
 [[Turing Joint]]
-[[Hardness]]
 [[Complete Language]]
 [[Index Sets]]
