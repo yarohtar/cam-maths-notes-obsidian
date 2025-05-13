@@ -1,0 +1,1 @@
+If $C$ is a class of languages and $L\in C$ and $L$ is $C$-[[Hard Language]], then $L$ is $C$-complete.
