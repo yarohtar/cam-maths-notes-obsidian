@@ -38,5 +38,7 @@ Now we need to look closely into $\alpha=\omega^{rc}=\exp(2i\pi rc / 2^{m})$
 in particular, we want $rc / 2^{m}$ to be close to an integer, say $rc / 2^{m}\approx n$. In that case, $c / 2^{m}\approx n / r$. 
 Note that there is a unique integer $c_{n}$ such that 
 $$
-\left\lvert  c_{n}-\frac{2^{m}n}{r}  \right\rvert 
+\left\lvert  c_{n}-\frac{2^{m}n}{r}  \right\rvert \leq\frac{1}{2}
 $$
+The probability of measuring such $c_{n}$ turns out to be at least $\frac{4}{r\pi^{2}}$.
+We do have $r$ candidates, so the probability of measuring $c_{n}$ for some $n$ is at least $4 /\pi^{2}$. 
