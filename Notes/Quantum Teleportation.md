@@ -20,15 +20,8 @@ $$
 \ket{10} = \frac{1}{\sqrt{ 2 }}(\ket{\psi^{+}} - \ket{\psi^{-}} )\\
 \end{gather}
 $$
-
-
 Alice does a Bell measurement with outcome $ij$ where $i,j\in \{ 0,1 \}$
 She sends $ij$ to Bob.
-If $i=0$, $j=1$ what is the post measurement state of $CAB$?
-$\ket{\psi^{+}}_{CA}\otimes(X\ket{\psi})_{B}$
-Bob's state is $(X\ket{\psi})_{B}$
-So Bob should act with $X$ on it to get $X^{2}\ket{\psi}=\ket{\psi}$
-
-In general, if outcome is $ij$ then Bob needs to act on his final state with $Z^{i}X^{j}$ because his final state will be $X^{j}Z^{i}\ket{\psi}$
+Bob applies $Z^{j}X^{i}$ to his state which leaves him with $\ket{\psi}$.
 
 ![[Drawing 2025-02-12 10.31.37.excalidraw]]
