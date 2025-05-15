@@ -21,7 +21,7 @@ the Hamiltonian becomes
 $$
 H=\hbar \omega\left( A^{\dagger}A+\frac{1}{2} \right)
 $$
-Call $N=A^{\dagger}A$ the ([[Hermetian operator|Hermetian]]) number operator.
+Call $N=A^{\dagger}A$ the ([[Hermetian|Hermetian]]) number operator.
 We now have operators but we don't have the [[Hilbert Space|Hilbert space]].
 Start from the operator algebra $\{ X^nP^m \}$ and commutation relation $[X,P]=i\hbar$. In terms of $A^{\dagger},A$:
 $$

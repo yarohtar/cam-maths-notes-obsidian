@@ -1,25 +1,27 @@
-Act on $\mathcal{H}=\mathbb{C}^{2}$
+Act on $\mathcal{H}=\mathbb{C}^{2}$ (single [[Qubit]])
 $$
-\begin{gather}
-X=\sigma_{x}=\begin{pmatrix}
+X=\sigma_{x}=\sigma_{1}=\begin{pmatrix}
 0 & 1 \\
 1 & 0
 \end{pmatrix}\\
-Y=\sigma_{y}=\begin{pmatrix}
+$$
+$$
+Y=\sigma_{y}=\sigma_{2}=\begin{pmatrix}
 0 & -i \\
 i & 0
 \end{pmatrix}\\
-Z=\sigma_{z}=\begin{pmatrix}
+$$
+$$
+Z=\sigma_{z}=\sigma_{3}=\begin{pmatrix}
 1 & 0 \\
 0 & -1
 \end{pmatrix}
-
-\end{gather}
 $$
 #### Properties
-- They are [[Hermetian operator]] and unitary
+- They are [[Hermetian]] and unitary
 - They anticommute $\{ X,Y \}=0$
 - They are traceless
+- $\sigma_{i}\sigma_{j}=i\varepsilon_{ijk}\sigma_{k}$
 - $XY=iZ$, $YZ=iX$, $ZX=iY$
 - $X\ket{0}=\ket{1}$, $X\ket{1}=\ket{0}$ for [[Qubit]] (bitflip operator)
 - $Z\ket{0}=\ket{0}$, $Z\ket{1}=-\ket{1}$ (phase flip operator)

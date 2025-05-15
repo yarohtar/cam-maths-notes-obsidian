@@ -12,7 +12,7 @@ $$
 We can check:
 - $H\ket{0}=\ket{+}$
 - $H\ket{1}=\ket{-}$
-- $H^{\dagger}=H$ so [[Hermetian operator]]
+- $H^{\dagger}=H$ so [[Hermetian]]
 - $H^{2}=I$
 - $H\ket{+}=\ket{0}$
 - $H\ket{-}=\ket{1}$
