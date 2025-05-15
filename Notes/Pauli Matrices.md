@@ -17,16 +17,20 @@ Z=\sigma_{z}=\sigma_{3}=\begin{pmatrix}
 0 & -1
 \end{pmatrix}
 $$
+
 #### Properties
 - They are [[Hermetian]] and unitary
 - They anticommute $\{ X,Y \}=0$
 - They are traceless
-- $\sigma_{i}\sigma_{j}=i\varepsilon_{ijk}\sigma_{k}$
-- $XY=iZ$, $YZ=iX$, $ZX=iY$
+- $\sigma_{i}\sigma_{j}=i\varepsilon_{ijk}\sigma_{k}$ (IMPORTANT PLS REMEMBER)
+In standard basis:
 - $X\ket{0}=\ket{1}$, $X\ket{1}=\ket{0}$ for [[Qubit]] (bitflip operator)
 - $Z\ket{0}=\ket{0}$, $Z\ket{1}=-\ket{1}$ (phase flip operator)
+Similarly, but swapped:
 - $X\ket{+}=\ket{+}$, $X\ket{-}=-\ket{-}$
-- $Y=-iZX$ so we can deduce everything else 
+- $Z\ket{+}=\ket{-}$, $Z\ket{-}=\ket{+}$
+
+idk why I care about these:
 - $\{ I,X,Y,Z \}$ form a basis of $M_{2}(\mathbb{C}^{2})$
 - [[Hilbert-Schmidt Inner Product]] satisfies $\langle A,B \rangle_{HS}=0$ for $A\neq B$ both from above basis
 - Also $\langle A,A \rangle_{HS}=2$
