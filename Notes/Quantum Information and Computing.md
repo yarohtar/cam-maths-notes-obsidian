@@ -25,3 +25,4 @@ Notes on moodle
 [[Simon's Problem]]
 [[Periodicity Determination]]
 [[Grover's Search Algorithm]]
+[[Shor's Algorithm]]
