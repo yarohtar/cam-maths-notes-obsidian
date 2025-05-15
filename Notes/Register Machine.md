@@ -31,7 +31,7 @@ As $Q$ is finite, we can find the largest $k$ which appears in instructions $P(q
 [[Encoding Numbers in Binary Words]]
 [[Truncation of Register Machine]]
 [[Gödel's primitive recursive functions]]
-[[Recursive Functions]]
+[[Partial Recursive Functions]]
 [[Splitting and Merging Words]]
 
 ## Coding Langauges

@@ -5,7 +5,7 @@ Let $X,Y$ be [[Well-ordered]] sets. Then either $X\leq Y$ or $Y\leq X$.
 #### Proof
 Assume $Y\not\leq X$. Particular $Y\neq \emptyset$
 So we can fix $y_{0}\in Y$
-Define $f:X\to Y$ by [[Recursive Functions]]:
+Define $f:X\to Y$ by [[Definition by recursion]]:
 $$
 f(x)=\begin{cases}
 min(Y\setminus \{ f(y):y<x \})  & \text{if }Y\setminus \{ f(y):y<x \}\neq \emptyset \\
