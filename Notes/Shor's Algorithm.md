@@ -29,16 +29,10 @@ $$
 for some $A\approx \frac{M}{r}$
 Apply $QFT_{M}$ to get
 $$
-\frac{1}{\sqrt{ A }}\sum_{l} \frac{1}{\sqrt{ M }} \sum_{y} \omega^{x_{0}y+lry}\ket{y}
+\frac{1}{\sqrt{ A }}\sum_{l} \frac{1}{\sqrt{ M }} \sum_{c} \omega^{x_{0}c+lrc}\ket{c}
 $$
-We find that:
 $$
-\sum_{l}\omega^{lry}=\begin{cases}
-A & \text{when } M\mid ry \\
-0 & \text{otherwise}
-\end{cases}
+\frac{1}{\sqrt{ AM }}\sum_{c}\omega^{x_{0}c}\sum_{l}\omega^{lrc}\ket{c}
 $$
-Thus the state is:
-$$
-\sqrt{ \frac{A}{M} }\sum_{}
-$$
+Now we need to look closely into $\alpha=\omega^{rc}=\exp(2i\pi rc / 2^{m})$
+in particular, we want $rc / 2^{m}$ to be close to an integer, say $rc / 2^{m}\in[n-0.5, n+0.5]$
