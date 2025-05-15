@@ -13,3 +13,13 @@ This is likely to succeed.
 Let $m$ be the smallest integer such that $M=2^{m}\geq N$.
 Pick a random integer $2\leq a<N$.
 We try to implement [[Periodicity Determination]] of $f(x)=a^{x}\pmod{N}$ on a whole domain $\mathbb{Z}_{M}$.
+Start from state $\ket{0\dots 0}\ket{0}$.
+Apply $H^{n}$ on the first $n$ registers:
+$$
+\frac{1}{\sqrt{ 2^{m} }}\sum_{x}\ket{x} \ket{0}
+$$
+Apply the quantum oracle $U_{f}$ for $f$:
+$$
+\frac{1}{\sqrt{ M }}\sum_{x}\ket{x} \ket{f(x)}
+$$
+We measure the last register 
