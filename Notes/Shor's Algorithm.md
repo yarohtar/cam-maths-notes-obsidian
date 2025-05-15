@@ -29,11 +29,16 @@ $$
 for some $A\approx \frac{M}{r}$
 Apply $QFT_{M}$ to get
 $$
-\frac{1}{\sqrt{ A }}\sum_{l} \frac{1}{\sqrt{ N }} \sum_{y} \omega^{x_{0}y+lry}\ket{y}
+\frac{1}{\sqrt{ A }}\sum_{l} \frac{1}{\sqrt{ M }} \sum_{y} \omega^{x_{0}y+lry}\ket{y}
 $$
 We find that:
 $$
 \sum_{l}\omega^{lry}=\begin{cases}
-A & \text{when } lr\mid
+A & \text{when } M\mid ry \\
+0 & \text{otherwise}
 \end{cases}
+$$
+Thus the state is:
+$$
+\sqrt{ \frac{A}{M} }\sum_{}
 $$
