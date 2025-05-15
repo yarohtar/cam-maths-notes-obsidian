@@ -8,4 +8,4 @@ v  &  \text{if for all }\#u\leq\#v, \text{ have }f(\vec{w},u)\downarrow \text{ a
 $$
 the minimisation of $f$. 
 
-Recursive functions are the closure of [[Gödel's primitive recursive functions]] under the operation of minimisation.
+Partial recursive functions are the closure of [[Gödel's primitive recursive functions]] under the operation of minimisation.
