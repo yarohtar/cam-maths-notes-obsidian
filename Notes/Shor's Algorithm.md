@@ -42,4 +42,11 @@ $$
 $$
 The probability of measuring such $c_{n}$ turns out to be at least $\frac{4}{r\pi^{2}}$.
 We do have $r$ candidates, so the probability of measuring $c_{n}$ for some $n$ is at least $4 /\pi^{2}$. 
-[[Continued Fractions]]
+
+Given some $c_{n}$ we need to extract $r$ from it.
+We find the [[Continued Fraction]] of $\frac{c_{n}}{2^{m}}$. 
+Checking it's convergents we look for $p /q$ such that:
+$$
+\left\lvert  \frac{c_{n}}{2^{m}}-\frac{p}{q}  \right\rvert < \frac{1}{2^{m+1}}\leq \frac{1}{2N^{2}}
+$$
+and $q<N$.

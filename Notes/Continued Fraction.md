@@ -17,3 +17,10 @@ $$
 q_{k}=a_{k}q_{k-1}+q_{k-2}
 $$
 i.e. we can calculate the convergents quickly. 
+
+### Approximation
+Let $0<x<1$ be a rational number, and let $p /q$ be a fraction such that 
+$$
+\left\lvert  x-\frac{p}{q}  \right\rvert <\frac{1}{2q^{2}}
+$$
+Then $p/q$ is a convergent of the continued fraction of $x$.
