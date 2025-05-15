@@ -10,7 +10,7 @@ Now $gcd(N,a^{r/2}+1)$ may give us a nontrivial factor of $N$.
 This is likely to succeed. 
 
 ### Finding the period
-Let $m$ be the smallest integer such that $M=2^{m}\geq N$.
+Let $m$ be the smallest integer such that $M=2^{m}\geq N^{2}$.
 Pick a random integer $2\leq a<N$.
 We try to implement [[Periodicity Determination]] of $f(x)=a^{x}\pmod{N}$ on a whole domain $\mathbb{Z}_{M}$.
 Start from state $\ket{0\dots 0}\ket{0}$.
