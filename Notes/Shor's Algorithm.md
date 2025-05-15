@@ -50,3 +50,6 @@ $$
 \left\lvert  \frac{c_{n}}{2^{m}}-\frac{p}{q}  \right\rvert < \frac{1}{2^{m+1}}\leq \frac{1}{2N^{2}}
 $$
 and $q<N$.
+Having found one such $p /q$, we reduce it to lowest terms, and pray that $q=r$ AND $r$ is even. 
+We can easily check this.
+If we are lucky, we can apply the reasoning at the start of this page (otherwise, repeat the whole process with a different $a$)
