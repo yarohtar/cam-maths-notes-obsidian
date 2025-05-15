@@ -42,3 +42,4 @@ $$
 $$
 The probability of measuring such $c_{n}$ turns out to be at least $\frac{4}{r\pi^{2}}$.
 We do have $r$ candidates, so the probability of measuring $c_{n}$ for some $n$ is at least $4 /\pi^{2}$. 
+[[Continued Fractions]]
