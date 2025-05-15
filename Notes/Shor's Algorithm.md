@@ -35,4 +35,4 @@ $$
 \frac{1}{\sqrt{ AM }}\sum_{c}\omega^{x_{0}c}\sum_{l}\omega^{lrc}\ket{c}
 $$
 Now we need to look closely into $\alpha=\omega^{rc}=\exp(2i\pi rc / 2^{m})$
-in particular, we want $rc / 2^{m}$ to be close to an integer, say $rc / 2^{m}\in[n-0.5, n+0.5]$
+in particular, we want $rc / 2^{m}$ to be close to an integer, say $rc / 2^{m}\approx n$. In that case $c \approx$
