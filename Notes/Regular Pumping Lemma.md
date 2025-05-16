@@ -1,5 +1,5 @@
 Let $L\subseteq \mathbb{W}$ be a [[Formal Language]]
-We say $L$ satisfies the regular pumping lemma with pumping number $n$ if for every word $w\in L$ with $\lvert w \rvert\geq n$ there are words $x,y,z$ such tat $w=xyz$ and for all $k\in \mathbb{N}_{0}$ we have $xy^{k}z\in L$.
+We say $L$ satisfies the regular pumping lemma with pumping number $n$ if for every word $w\in L$ with $\lvert w \rvert\geq n$ there are words $x,y,z$ such tat $w=xyz$, $\lvert y \rvert>0$, $\lvert xz \rvert<n$ and for all $k\in \mathbb{N}_{0}$ we have $xy^{k}z\in L$.
 
 ### Theorem
 For every [[Regular Formal Language]] $L$, there is a number $n$ st $L$ satisfies regular pumping lemma with pumping number $n$.
