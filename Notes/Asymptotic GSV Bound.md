@@ -1,4 +1,4 @@
-[[Asymptotic Size of Largest Code]]
+[[Asymptotic Information rate]]
 $$
 \alpha(\delta)\geq 1-H(\delta)
 $$

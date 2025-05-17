@@ -10,8 +10,8 @@
 [[Information Rate]]
 
 [[Size of Largest Code]]
-[[Asymptotic Size of Largest Code]]
-
-[[Linear Code]]
+[[Asymptotic Information rate]]
 
 [[Error-control codes]]
+[[Linear Code]]
+

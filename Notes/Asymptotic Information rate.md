@@ -1,4 +1,4 @@
-[[Size of Largest Code]]
+We study how the [[Information Rate]] behaves for [[Size of Largest Code]] as $n\to \infty$.
 $$
 \alpha(\delta)=\limsup \frac{1}{n}\log A(n,n\delta)
 $$
