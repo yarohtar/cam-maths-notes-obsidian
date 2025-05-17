@@ -14,4 +14,9 @@ Thus the rows of $H$ are a basis for $C^{\bot}$ as required.
 Let $C$ be a [[Linear Code]] with parity check matrix $H$.
 Then $d(C)=d$ if and only if:
 1. any $d-1$ columns of $H$ are linearly independent
-2. 
+2. a set of $d$ columns of $H$ are linearly dependent.
+#### Proof
+Suppose $C$ has length $n$
+Then $C=\{ x:Hx=0 \}$
+If $H$ has columns $v_{1},\dots ,v_{m}$ 
+Then $(x_{1},\dots ,x_{m})\in C$ if and only if $\sum x_{i} v_{i}=0$

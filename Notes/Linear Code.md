@@ -20,7 +20,6 @@ We define $x\cdot y=\sum_{i}^{n}x_{i}y_{i}$
 [[Syndrome]]
 [[Syndrome Decoding]]
 
-
 [[Hamming Codes]]
 [[Reed-Muller Codes]]
 
