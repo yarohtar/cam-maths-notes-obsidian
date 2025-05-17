@@ -1,4 +1,6 @@
 [[Communication Channel]]
+[[Binary Code]]
+[[Decoding rule]]
 [[Error-control codes]]
 [[Linear Code]]
 [[Cyclic Code]]

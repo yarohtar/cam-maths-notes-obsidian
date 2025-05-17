@@ -1,7 +1,4 @@
 WATCH LECTURE 14th OF FEB
-[[Binary Code]]
-
-[[Decoding rule]]
 
 [[Error detecting]]
 [[Error correcting]]

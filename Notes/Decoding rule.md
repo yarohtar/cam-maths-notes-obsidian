@@ -1,6 +1,7 @@
 After receiving a [[Binary Code]] through a [[Binary Symmetric Channel (BSC)]], we need to decode it.
 
-There are 3 rules we consider when decoding:
+There are 3 rules we consider when decoding.
+Due to the lemma at the bottom, we shall use the [[#Minimum distance]] decoding rule.
 ## Ideal Observer
 The ideal observer decoding rule decodes $x\in \{ 0,1 \}^{n}$ as the codeword $c\in C$ maximising $P(c \text{ sent} | x \text{ received})$
 
