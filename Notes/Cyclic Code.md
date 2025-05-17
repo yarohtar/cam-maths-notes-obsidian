@@ -1,15 +1,19 @@
 A code $C\subseteq \mathbb{F}_{2}^{n}$ is a cyclic code if it is [[Linear Code]] and 
-$(a_{0},\dots,a_{n-1})\in C\implies(a_{1},\dots,a_{n-1},a_{0})\in C$
-We identify $\mathbb{F}_{2}^{n}$ with the [[Ring]] $\frac{\mathbb{F}_{2}[X]}{(X^{n}-1)}$ via
+$$
+(a_{0},\dots,a_{n-1})\in C\implies(a_{1},\dots,a_{n-1},a_{0})\in C
+$$
+We identify $\mathbb{F}_{2}^{n}$ with the [[Ring]] $\mathbb{F}_{2}[X] / (X^{n}-1)$ via
 $$
 \pi(a_{0},a_{1},\dots,a_{n-1})\to a_{0}+a_{1}X+\dots+a_{n-1}X^{n-1} 
 $$
 ### Lemma
-A code $C$ is cyclic iff $\mathcal{C}=\pi(C)$ satisfies
+A code $C$ is cyclic if and only if $\mathcal{C}=\pi(C)$ satisfies
 1. $0\in \mathcal{C}$
 2. $f,g\in \mathcal{C}$ then $f+g\in \mathcal{C}$
 3. $f\in \mathcal{C}, g\in \mathbb{F}_{2}[X]\implies gf\in \mathcal{C}$
 ### Corollary
 $C$ is a cyclic code of length $n$ if and only if $\mathcal{C}$ is an [[Ideal]] in $\frac{\mathbb{F}_{2}}{(X^{n}-1)}$
+We identify $C$ and $\mathcal{C}$.
+These ideals correspond to polynomials $g\in \mathbb{F}_{2}[X]$ dividing $X^{n}-1$.
 
 [[Generator Polynomial]]
