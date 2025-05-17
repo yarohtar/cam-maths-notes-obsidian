@@ -13,8 +13,13 @@ i.e. an $(n,k)$ code is an $[n,2^{k}]$ code
 We define $x\cdot y=\sum_{i}^{n}x_{i}y_{i}$
 
 [[Hamming weight]]
+[[Parity Check Code]]
+[[Dual Code]]
 
+[[Hamming Codes]]
+[[Reed-Muller Codes]]
 
+[[Cyclic Code]]
 
 The [[Information Rate]] is $\frac{k}{n}$
 

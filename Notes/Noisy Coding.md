@@ -9,6 +9,7 @@
 [[Size of Largest Code]]
 [[Asymptotic Information rate]]
 
-[[Error-control codes]]
-[[Linear Code]]
+[[Hamming's Original Code]]
+[[New Codes from Old]]
 
+[[Linear Code]]
