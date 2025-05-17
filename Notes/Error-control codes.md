@@ -5,10 +5,11 @@ WATCH LECTURE 14th OF FEB
 
 
 [[Perfect Code]]
-[[Gilbert-Shannon-Varshamov Bound]]
 [[Size of Largest Code]]
+[[Asymptotic Size of Largest Code]]
+[[Gilbert-Shannon-Varshamov Bound]]
+[[Asymptotic GSV Bound]]
 
-[[Channel Capacity]]
 [[Fano's Inequality]]
 
 [[Mutual Information]]

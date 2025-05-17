@@ -7,3 +7,4 @@ $$
 [[Communication Channel Extension]]
 [[Discrete Memoryless Channel (DMC)]]
 [[Channel Matrix]]
+[[Channel Capacity]]
