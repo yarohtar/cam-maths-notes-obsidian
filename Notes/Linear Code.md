@@ -17,6 +17,9 @@ We define $x\cdot y=\sum_{i}^{n}x_{i}y_{i}$
 [[Dual Code]]
 [[Generator Matrix]]
 [[Parity Check Matrix]]
+[[Syndrome]]
+[[Syndrome Decoding]]
+
 
 [[Hamming Codes]]
 [[Reed-Muller Codes]]
@@ -25,6 +28,5 @@ We define $x\cdot y=\sum_{i}^{n}x_{i}y_{i}$
 
 The [[Information Rate]] is $\frac{k}{n}$
 
-[[Syndrome Decoding]]
 [[Ring over binary words]]
 

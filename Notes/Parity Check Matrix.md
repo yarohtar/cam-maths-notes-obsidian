@@ -1,6 +1,7 @@
 Let $C$ be a $(n,k)$ [[Linear Code]]
-A parity check matrix is a [[Generator Matrix]] for $C^{\bot}$
+A parity check matrix $H$ is a [[Generator Matrix]] for $C^{\bot}$
 It is a $(n-k)\times n$ matrix 
+Note that $C=\{ x\in \mathbb{F}_{2}^{n} : Hx=0 \}$
 
 ### Lemma
 An $(n,k)$ [[Linear Code]] with [[Generator Matrix]] $G=(I_{k}|B)$ has parity check matrix $H=(-B^{T}|I_{n-k})$
