@@ -4,6 +4,8 @@ $$
 $$
 ### Theorem
 Every [[Cyclic Code]] has a generator polynomial.
+#### Proof
+Take the polynomial of the smallest degree. 
 ### Properties
 If [[Cyclic Code|cyclic codes]] $C_{1}$ and $C_{2}$ have generator polynomials $g_{1}$ and $g_{2}$ then $C_{1}\supseteq C_{2}\iff g_{1}\mid g_{2}$
 Also, if $N$ is odd, $f(X)=X^{N}-1$ has no repeated roots so
