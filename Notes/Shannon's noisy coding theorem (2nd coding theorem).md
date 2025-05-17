@@ -34,7 +34,7 @@ Thus the sequence of codes doesn't exist
 Consider a [[Binary Symmetric Channel (BSC)]] with error probability $p$. Let $R<1-H(p)$. Then there is a sequence of codes $(C_{n})_{n\geq 1}$ of length $n$ and size $\lfloor 2^{nR} \rfloor$ s.t. $e(C_{n})\to 0$ as $n\to \infty$
 #### Proof
 WLOG $p<\frac{1}{2}$ so there is some $\epsilon>0$ s.t. $R<1-H(p+\epsilon)$
-We use [[Minimum Distance Decoding Rule]] (in case of tie pick arbitrary)
+Using minimum distance [[Decoding rule]]
 Let $m=\lfloor 2^{nR} \rfloor$
 We pick an $[n,m]$ [[Binary Code]] $C$ at random 
 (i.e. each with probability $\frac{1}{2^{n}\choose m}$) 
