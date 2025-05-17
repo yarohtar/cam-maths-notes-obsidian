@@ -18,4 +18,8 @@ These ideals correspond to polynomials $g\in \mathbb{F}_{2}[X]$ dividing $X^{n}-
 
 [[Generator Polynomial]]
 [[Parity Check Polynomial]]
+### Proposition
+If $N$ is odd, $f(X)=X^{N}-1$ has no repeated roots so
+$X^{N}-1=f_{1}(X)\dots f_{k}(X)$ where $f_{1},\dots,f_{k}$ are distinct irreducible polynomials in $\mathbb{F}_{2}[X]$ 
+So number of cyclic codes of length $N$ is $2^{k}$
 
