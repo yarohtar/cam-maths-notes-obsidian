@@ -2,6 +2,6 @@ Given two alphabets $\Sigma_{1}$ and $\Sigma_{2}$, we model the source as a sequ
 
 [[Memoryless Source]]
 [[Reliably encodable]]
-[[Information Rate]]
+[[Source Information Rate]]
 [[Asymptotic Equipartition Property]]
 [[Shannon's 1st coding theorem]]

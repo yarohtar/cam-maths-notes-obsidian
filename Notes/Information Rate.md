@@ -1,1 +1,1 @@
-The information rate $H$ of a [[Source]] is the infimum of all rates at which it is [[Reliably encodable]]
+The information rat
