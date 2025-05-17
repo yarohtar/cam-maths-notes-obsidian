@@ -1,4 +1,4 @@
-
+The [[Size of Largest Code]] satisfies:
 $$
 \frac{2^{n}}{V(n,d-1)}\leq A(n,d)
 $$

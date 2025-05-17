@@ -3,7 +3,6 @@ $$
 \lvert C \rvert \leq \frac{2^{n}}{V(n,e)}
 $$
 (where $V$ is the size of the [[Hamming Ball]])
-[[Asymptotic Hamming's Bound]]
 #### Proof
 Since $C$ is $e$-error correcting, the Hamming balls $B(c,e)$ are disjoint for $c\in C$ so
 $$

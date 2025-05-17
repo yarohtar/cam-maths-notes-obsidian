@@ -5,6 +5,7 @@
 [[Error correcting]]
 [[Minimum distance of a code]]
 [[Hamming's Bound]]
+[[Asymptotic Hamming's Bound]]
 
 [[Size of Largest Code]]
 [[Perfect Code]]
