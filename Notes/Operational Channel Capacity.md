@@ -11,3 +11,13 @@ $$
 \lvert C_{n} \rvert \geq 2^{-n(1-H(\delta))} =2^{nR}
 $$
 Replacing $C_{n}$ with a subcode, we can assume $\lvert C_{n} \rvert=2^{nR}$
+The [[Maximum Error Probability]] satisfies:
+$$
+\hat{e}(C_{n})\leq \mathbb{P}\left( \left\lfloor  \frac{\lfloor n\delta \rfloor -1}{2}  \right\rfloor \text{ errors in }n \text{ uses} \right)
+$$
+Let $\epsilon>0$ such that $p+\epsilon<\frac{\delta}{2}$.
+Then for large $n$ we find $\frac{n\delta-1}{2}>n(p+\epsilon)$.
+So the above probability goes to 0 by [[Weak Law of Large Numbers]] and:
+$$
+\lim_{n\to \infty}\hat{e}(C_{n})=0
+$$

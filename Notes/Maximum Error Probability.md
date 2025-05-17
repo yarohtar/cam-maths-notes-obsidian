@@ -4,4 +4,4 @@ $$
 $$
 the maximum error probability.
 
-Note that this is the error of decoding wrong, not of the [[Communication Channel]].
+Note that this is the error of decoding wrong, not the error of the [[Communication Channel]].
