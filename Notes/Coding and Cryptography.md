@@ -15,4 +15,5 @@ Given a source and a channel (described probabilistically) we aim to design an e
 [[Code]]
 [[Noiseless Coding]]
 [[Noisy Coding]]
+[[Information Theory]]
 [[Cryptography]]
