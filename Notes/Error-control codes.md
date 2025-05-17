@@ -1,5 +1,4 @@
 WATCH LECTURE 14th OF FEB
-[[Codewords]]
 [[Binary Code]]
 
 [[Decoding rule]]
