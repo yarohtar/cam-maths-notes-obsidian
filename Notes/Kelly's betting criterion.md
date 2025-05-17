@@ -14,7 +14,7 @@ where
 $Y_{n+1}=uw+(1-w)$ if $(n+1)th$ toss is a head or 
 $Y_{n+1}=1-w$  if it is a tail
 
-Apply weak law of large numbers
+Apply [[Weak Law of Large Numbers]]
 $$
 P\left( \left\lvert  \frac{1}{n} \log Z_{n}-E(\log Y)  \right\rvert >\epsilon \right)\to 0
 $$
