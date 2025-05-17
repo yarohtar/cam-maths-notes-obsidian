@@ -12,10 +12,7 @@ Given a source and a channel (described probabilistically) we aim to design an e
 3. and maybe to preserve privacy
 # 
 -----
-[[Communication Channel]]
 [[Code]]
 [[Noiseless Coding]]
-[[Error-control codes]]
-[[Linear Code]]
-[[Cyclic Code]]
+[[Noisy Coding]]
 [[Cryptography]]

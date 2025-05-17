@@ -5,10 +5,4 @@ We usually take $\lvert \Sigma_{1} \rvert=m$ and $\lvert \Sigma_{2} \rvert=a$
 
 [[Code Extension]]
 [[Decipherable code]]
-
 [[Optimal Code]]
-[[Communication Channel]]
-[[Source]]
-
-[[Shannon's 1st coding theorem]]
-[[Weak Law of Large Numbers]]
