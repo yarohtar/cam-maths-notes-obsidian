@@ -7,3 +7,6 @@ $$
 1-H(\delta)\leq \alpha(\delta)\leq 1-H\left( \frac{\delta}{2} \right)
 $$
 where $H$ is [[Mathematical Entropy]]
+#### Proof
+[[Asymptotic Hamming's Bound]]
+[[Asymptotic GSV Bound]]

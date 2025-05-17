@@ -5,13 +5,12 @@
 [[Error correcting]]
 [[Minimum distance of a code]]
 [[Hamming's Bound]]
-[[Asymptotic Hamming's Bound]]
+[[Perfect Code]]
+
+[[Information Rate]]
 
 [[Size of Largest Code]]
-[[Perfect Code]]
 [[Asymptotic Size of Largest Code]]
-[[Gilbert-Shannon-Varshamov Bound]]
-[[Asymptotic GSV Bound]]
 
 [[Linear Code]]
 
