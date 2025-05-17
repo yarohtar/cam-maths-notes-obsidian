@@ -1,1 +1,18 @@
-Let $C$ be a [[Cyclic Code]]
+Let $C$ be a [[Cyclic Code]] with [[Generator Polynomial]] $g$.
+The parity check polynomial is a polynomial $h$ such that 
+$$
+g(X)h(X)=X^{n}-1
+$$
+### Corollary
+Writing $h(X)=b_{0}+b_{1}X+\dots+b_{n-k}X^{n-k}$
+the [[Parity Check Matrix]] of $C$ is:
+$$
+\begin{pmatrix}
+b_{n-k} & b_{n-k-1} & \dots & b_{0} & 0 & 0 &  \dots & 0 \\
+0 & b_{n-k} & \dots & b_{1} & b_{0} & 0 & \dots & 0 \\
+\vdots & \vdots & \ddots & \vdots & \vdots & \vdots & \vdots & \vdots \\
+0 & \dots & 0 & b_{n-k} & \dots & b_{0}
+\end{pmatrix}
+$$
+#### Proof
+Just check that this is orthogonal with [[Generator Matrix]] given in [[Generator Polynomial]].
