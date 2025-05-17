@@ -16,3 +16,6 @@ Taking $r\to \infty$ we find:
 $$
 \sum_{i=1}^{m} a^{-s_{i}}\leq 1
 $$
+
+### Corollary 
+A decipherable code with prescribed word lengths exists iff there exists a prefix-free code with the same word lengths. 
