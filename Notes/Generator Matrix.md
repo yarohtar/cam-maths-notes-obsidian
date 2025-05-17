@@ -7,6 +7,7 @@ Every $(n,k)$ linear code is equivalent to a linear code with [[Generator Matrix
 We can perform row operations:
 - swap 2 rows
 - add one row to another
+(because rows are just basis vectors, this corresponds to permuting the basis or taking linear combinations of basis vectors to find new bases)
 By Gaussian elimination and some permutations we get $G$, the generator matrix in row form:
 $$
 G=\begin{pmatrix}
