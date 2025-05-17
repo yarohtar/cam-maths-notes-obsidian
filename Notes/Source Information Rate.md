@@ -1,7 +1,6 @@
 The information rate $H$ of a [[Source]] is the infimum of all rates at which it is [[Reliably encodable]]
 ### Lemma
 The [[Source Information Rate]] of a [[Bernoulli Source]] is at most the expected word length of an [[Optimal Code]].
-![[Pasted image 20250517175119.png]]
 #### Proof
 Let $c$ be an optimal code
 Let $S_{1},S_{2},\dots$ be codeword lengths when we encode $X_{1},X_{2},\dots$
