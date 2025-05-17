@@ -1,9 +1,16 @@
-
+$A(n,d)$ is the largest possible size $m$ of a $[n,m,d]$ [[Binary Code]].
 $$
 A(n,d)=max\{ m:\exists[n,m,d]\text{-code} \}
 $$
-ie the size of largest [[Binary Code]] with parameters $n$ and $d$ 
-
+### Lemma
+$$
+A(n,d+1)\leq A(n,d)
+$$
+#### Proof
+Let $m=A(n,d+1)$ and let $C$ be a $[n,m,d+1]$ code.
+Let $c_{1},c_{2}\in C$ be two distinct codewords such that $d(c_{1},c_{2})=d+1$. 
+Let $c_{1}'$ differ from $c_{1}$ in exactly one of the places where $c_{1}$ and $c_{2}$ differ.
+Then $d(c_{1}',c_{2})=d$, and for any $c\in C$ we have $d(c_{1}',c)\leq d(c_{1},c)$
 ### Proposition
 $$
 \frac{2^{n}}{V(n,d-1)}\leq A(n,d)\leq \frac{2^{n}}{V\left( n,\left\lfloor  \frac{d-1}{2}  \right\rfloor  \right)}
