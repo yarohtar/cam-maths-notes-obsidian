@@ -6,6 +6,7 @@ $$
 where we take $\log_{2}$.
 [[Joint Entropy]]
 [[Conditional Entropy]]
+[[Fano's Inequality]]
 [[Mutual Information]]
 
 ### Lemma

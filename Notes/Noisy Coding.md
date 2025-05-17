@@ -12,11 +12,4 @@
 [[Gilbert-Shannon-Varshamov Bound]]
 [[Asymptotic GSV Bound]]
 
-[[Fano's Inequality]]
-
-
-[[Shannon's noisy coding theorem (2nd coding theorem)]]
-
-[[Kelly's betting criterion]]
-
 [[Error-control codes]]

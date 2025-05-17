@@ -13,3 +13,5 @@ We use a [[Decoding rule]] and analyze some properties of the channel:
 [[Maximum Error Probability]]
 [[Transmit Reliably]]
 [[Channel Capacity]]
+
+[[Kelly's betting criterion]]
