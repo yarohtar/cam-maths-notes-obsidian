@@ -7,5 +7,7 @@ $$
 [[Communication Channel Extension]]
 [[Discrete Memoryless Channel (DMC)]]
 [[Channel Matrix]]
+
+[[Maximum Error Probability]]
 [[Transmit Reliably]]
 [[Channel Capacity]]
