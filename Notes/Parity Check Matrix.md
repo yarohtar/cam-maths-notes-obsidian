@@ -10,3 +10,8 @@ Since $GH^{T}=(I_{k}|B)\begin{pmatrix}-B\\I_{n-k}\end{pmatrix}=-B+B=0$
 So rows of $H$ generate a subcode of $C^{\bot}$
 But $dim(C^{\bot})=n-k=rank(H)$
 Thus the rows of $H$ are a basis for $C^{\bot}$ as required.
+### Lemma
+Let $C$ be a [[Linear Code]] with parity check matrix $H$.
+Then $d(C)=d$ if and only if:
+1. any $d-1$ columns of $H$ are linearly independent
+2. 
