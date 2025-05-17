@@ -1,6 +1,6 @@
 The minimum distance of a [[Binary Code]] $C$ is the smallest [[Hamming distance]] between distinct codewords.
 
-An $[n,m]$ code with minimum distance $d$ is sometimes called $[n,m,d]$
+An $[n,m]$ [[Binary Code]] with minimum distance $d$ is sometimes called $[n,m,d]$
 
 ### Lemma
 Let $C$ be a code with minimum distance $d$ 

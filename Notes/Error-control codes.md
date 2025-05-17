@@ -1,15 +1,8 @@
 WATCH LECTURE 14th OF FEB
 
-[[Error detecting]]
-[[Error correcting]]
-[[Hamming distance]]
 [[Hamming's Original Code]]
-[[Minimum distance of a code]]
-[[Asymptotic Equipartition Property]]
 [[New Codes from Old]]
 
-[[Hamming Ball]]
-[[Hamming's Bound]]
 
 [[Perfect Code]]
 [[Gilbert-Shannon-Varshamov Bound]]

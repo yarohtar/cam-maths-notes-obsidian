@@ -1,6 +1,11 @@
 [[Communication Channel]]
 [[Binary Code]]
 [[Decoding rule]]
+[[Error detecting]]
+[[Error correcting]]
+[[Minimum distance of a code]]
+[[Hamming's Bound]]
+
 [[Error-control codes]]
 [[Linear Code]]
 [[Cyclic Code]]
