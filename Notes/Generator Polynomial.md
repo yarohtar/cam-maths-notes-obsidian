@@ -18,4 +18,17 @@ Let $C$ be a [[Cyclic Code]] of length $n$ with generator polynomial
 $g(X)=a_{0}+a_{1}X+\dots+a_{k}X^{k}$ (where $a_{k}\neq 0$)
 Then $g(X),Xg(X),\dots,X^{n-k-1}g(X)$ is a basis for $C$ 
 In particular, $\operatorname{rank}C=n-k$.
-
+### Corollary
+Let $C$ be a [[Cyclic Code]] with generator polynomial
+$$
+g(X)=a_{0}+a_{1}X+\dots+a_{k}X^{k}
+$$
+The [[Generator Matrix]] of $C$ is:
+$$
+\begin{pmatrix}
+a_{0} & a_{1} & \dots & a_{k} & 0 & 0 & \dots & 0 \\
+0 & a_{0} & a_{1} & \dots & a_{k} & 0 & \dots & 0 \\
+\vdots & \vdots & \vdots & \ddots & \vdots & \vdots & \vdots & \vdots  \\
+0 & 0 & 0 & \dots & 0 & a_{0} & \dots  & a_{k}
+\end{pmatrix}
+$$

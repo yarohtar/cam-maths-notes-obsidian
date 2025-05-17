@@ -17,4 +17,5 @@ We identify $C$ and $\mathcal{C}$.
 These ideals correspond to polynomials $g\in \mathbb{F}_{2}[X]$ dividing $X^{n}-1$.
 
 [[Generator Polynomial]]
+[[Parity Check Polynomial]]
 
