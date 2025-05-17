@@ -6,6 +6,7 @@ $$
 where we take $\log_{2}$.
 [[Joint Entropy]]
 [[Conditional Entropy]]
+[[Mutual Information]]
 
 ### Lemma
 $H(p_{1},\dots ,p_{n})\leq \log n$ with equality iff $p_{1}=\dots=p_{n}=\frac{1}{n}$
