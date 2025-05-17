@@ -14,12 +14,13 @@ Let $v_{0}=\mathbb{1}_{A}(1,1,\dots 1)$
 For $1\leq i\leq d$ let $v_{i}=\mathbb{1}_{H_{i}}$ where $H_{i}=\{ p \in X: p_{i}=0 \}$
 
 ### Definition
-Reed-Muller code $RM(d,r)$ of order $r$ and length $n=2^{d}$ is the vector subspace of $\mathbb{F}_{2}^{n}$ spanned by $v_{0}$ and wedge products of at most $r$ of the $v_{i}$.
+Reed-Muller code $RM(d,r)$ of order $r$ and length $n=2^{d}$ 
+is the vector subspace of $\mathbb{F}_{2}^{n}$ spanned by $v_{0}$ and wedge products of at most $r$ of the $v_{i}$.
 
 ### Example
 $d=3$, $n=8$
 
-|                X                | 000 | 001 | 010 | 011 | 100 | 101 | 110 | 111 |
+|               $X$               | 000 | 001 | 010 | 011 | 100 | 101 | 110 | 111 |
 | :-----------------------------: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 |             $v_{0}$             |  1  |  1  |  1  |  1  |  1  |  1  |  1  |  1  |
 |             $v_{1}$             |  1  |  1  |  1  |  1  |  0  |  0  |  0  |  0  |
