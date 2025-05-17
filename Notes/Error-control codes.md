@@ -4,6 +4,11 @@ WATCH LECTURE 14th OF FEB
 [[New Codes from Old]]
 
 [[Linear Code]]
+[[Parity Check Code]]
+[[Dual Code]]
+[[Hamming Codes]]
+[[Reed-Muller Codes]]
+
 [[Cyclic Code]]
 
 

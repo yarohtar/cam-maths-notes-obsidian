@@ -12,4 +12,6 @@
 [[Gilbert-Shannon-Varshamov Bound]]
 [[Asymptotic GSV Bound]]
 
+[[Linear Code]]
+
 [[Error-control codes]]

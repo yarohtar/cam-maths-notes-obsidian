@@ -12,13 +12,9 @@ i.e. an $(n,k)$ code is an $[n,2^{k}]$ code
 The [[Information Rate]] is $\frac{k}{n}$
 
 We define $x.y=\sum_{i}^{n}x_{i}y_{i}$
-[[Parity Check Code]]
-[[Dual Code]]
 [[Generator Matrix]]
 [[Parity Check Matrix]]
 [[Hamming weight]]
 [[Syndrome Decoding]]
-[[Hamming Codes]]
-[[Reed-Muller Codes]]
 [[Ring over binary words]]
 
