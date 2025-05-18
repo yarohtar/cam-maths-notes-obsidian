@@ -20,4 +20,5 @@ The splitting field of $g$ over $\mathbb{F}_{p}$ is $\mathbb{F}_{p^{n}}$
 Needs [[Galois Theory]] but basically, after adding one root to $\mathbb{F}_{p}$
 we can check that the resulting field is $\mathbb{F}_{p^{n}}$ and we can also check 
 that we have added *every* root.
-This is because if $g(\alpha)=0$, then $g(\alpha^{p})=0$ 
+This is because if $g(\alpha)=0$, then $g(\alpha^{p})=g(\alpha)^{p}=0$ etc.
+(I THINK AT LEAST)
