@@ -13,4 +13,4 @@ $$
 Note that here we say $f(a)=0$ in $K\simeq \mathbb{F}_{2^{r}}$ rather than $\mathbb{F}_{2} /(X^{n}-1)$.
 ### Example
 $n=7$, $r=3$
-$K\simeq \mathbb{F}_{8}\simeq \mathbb{F}_{2}^{3}$
+$K\simeq \mathbb{F}_{8}\simeq \mathbb{F}_{2}[X] /g(X)$ for some irreducible $g$ of degree 3.
