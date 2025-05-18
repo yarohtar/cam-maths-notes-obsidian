@@ -14,4 +14,10 @@ We are basically introducing a new root $X$ that satisfies $f(X)=0$ at each step
 ### Lemma
 Let $p$ be prime and $\mathbb{F}_{p}$ be a [[Finite Field]]
 Let $g$ be an irreducible polynomial of degree $n$ in $\mathbb{F}_{p}[X]$
-The splitting field of $g$ over $\mathbb{F}_{p}$ is $\mathbb{F}_{p^{n}}$
+The splitting field of $g$ over $\mathbb{F}_{p}$ is $\mathbb{F}_{p^{n}}$ 
+(i.e. $\mathbb{F}_{p}[X] /(g)$)
+#### Proof (sketch)
+Needs [[Galois Theory]] but basically, after adding one root to $\mathbb{F}_{p}$
+we can check that the resulting field is $\mathbb{F}_{p^{n}}$ and we can also check 
+that we have added *every* root.
+This is because if $g(\alpha)=0$, then $g(\alpha^{p})=0$ 
