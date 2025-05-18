@@ -24,4 +24,11 @@ We also find that [[Splitting Field]] of $X^{7}-1$ is $\mathbb{F}_{8}\simeq \mat
 In fact, all elements of $\mathbb{F}_{8}^{\times}$ are roots of $X^{7}-1$
 Say $\alpha$ is a root of $X^{3}+X+1$.
 Then $\alpha^{2}$ and $\alpha^{4}$ also are
-So $\alpha^{3}$, $\alpha^{6}$, $\alpha r$
+So $\alpha^{3}$, $\alpha^{6}$, $\alpha^{5}$ must be roots of $X^{3}+X^{2}+1$
+The defining set $A\subseteq\{ \alpha, \alpha^{2},\alpha^{4} \}$
+gives $g(X)=X^{3}+X+1$
+The defining set $A\subseteq \{ \alpha^{3},\alpha^{6},\alpha^{5} \}$ 
+gives $g(X)=X^{3}+X^{2}+1$
+If $A$ combines roots from these two sets then 
+$g(X)=X^{6}+X^{5}+X^{4}+X^{3}+X^{2}+X+1$
+etc.
