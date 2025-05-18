@@ -21,4 +21,5 @@ Needs [[Galois Theory]] but basically, after adding one root to $\mathbb{F}_{p}$
 we can check that the resulting field is $\mathbb{F}_{p^{n}}$ and we can also check 
 that we have added *every* root.
 This is because if $g(\alpha)=0$, then $g(\alpha^{p})=g(\alpha)^{p}=0$ etc.
+(due to [[A Freshman's Dream]])
 (I THINK AT LEAST)

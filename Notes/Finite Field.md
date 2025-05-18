@@ -8,6 +8,8 @@ A finite field has prime [[Characteristic of a ring]]
 So say that our field has characteristic $p$ where $p$ is prime.
 Then consider the field as the vector space of dimension $n$ over $\mathbb{F}_{p}$
 This has size $p^{n}$.
+### Corollary
+[[A Freshman's Dream]] holds in any finite field.
 
 ### Theorem
 Any finite field can be represented as a quotient 
