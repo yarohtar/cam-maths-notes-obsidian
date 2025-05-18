@@ -26,6 +26,8 @@ We define $x\cdot y=\sum_{i}^{n}x_{i}y_{i}$
 [[Reed-Muller Codes]]
 
 [[Cyclic Code]]
+[[Cyclic Code with Defining Set]]
+[[BCH Code]]
 
 
 [[Ring over binary words]]

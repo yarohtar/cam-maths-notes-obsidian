@@ -1,0 +1,1 @@
+Let $n$ be an odd integer and let $r$

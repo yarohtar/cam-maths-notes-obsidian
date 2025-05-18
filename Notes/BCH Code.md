@@ -1,0 +1,1 @@
+A BCH code is a [[Cyclic Code]] 
