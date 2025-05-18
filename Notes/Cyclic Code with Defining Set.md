@@ -8,5 +8,6 @@ $$
 $$
 The [[Cyclic Code]] of length $n$ with defining set $A\subseteq \mu_{n}(K)$ is the code:
 $$
-C=\{  \}
+C=\{ f(X)\in \mathbb{F}_{2} /(X^{n}-1): (\forall a\in A)\ f(a)=0 \}
 $$
+Note that here we say $f(a)=0$ in $K$ 
