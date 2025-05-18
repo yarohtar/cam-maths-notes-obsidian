@@ -35,7 +35,7 @@ Part II:
 - [[Numerical Analysis]]
 - [[Asymptotic methods]]
 - [[Automata and formal languages]]
-- [[Principles of Quantum Mechanics]]
+- Some of [[Principles of Quantum Mechanics]]
 - Some of [[Probability and Measure]]
 - Some of [[Number theory]]
 - [[Coding and Cryptography]]
