@@ -16,6 +16,7 @@ K=\mathbb{F}_{p}[X] / (f)
 $$
 where $f$ is an irreducible polynomial of degree $n$ and $p$ is prime.
 The field will have order $p^{n}$.
+So we can identify $K\simeq \mathbb{F}_{p^{n}}\simeq \mathbb{F}_{p}^{n}$
 
 ### Lemma
 For $q=p^{\alpha}$ for $\alpha\geq 1$, consider the unique field $\mathbb{F}_{q}$.
