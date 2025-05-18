@@ -11,6 +11,12 @@ This has size $p^{n}$.
 ### Corollary
 [[A Freshman's Dream]] holds in any finite field.
 
+### Lemma
+For prime $p$:
+$$
+\mathbb{F}_{p^{n}}=\mathbb{F}_{p}[X] / (x^{p^{n}}-x)
+$$
+
 ### Theorem
 Any finite field can be represented as a quotient 
 $$
