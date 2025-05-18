@@ -18,4 +18,9 @@ where $f$ is an irreducible polynomial of degree $n$ and $p$ is prime.
 The field will have order $p^{n}$.
 
 ### Lemma
-If $q=p^{\alpha}$ for $\alpha\geq 1$, the unique field $\mathbb{F}_{q}$ 
+For $q=p^{\alpha}$ for $\alpha\geq 1$, consider the unique field $\mathbb{F}_{q}$.
+Then the multiplicative group $\mathbb{F}^{\times}_{q}$ is cyclic.
+We say that $\beta$ is a primitive element if 
+$$
+\mathbb{F}_{q}^{\times}=\{ 1,\boldsymbol{\beta}\dots,\beta^{q-2} \}
+$$
