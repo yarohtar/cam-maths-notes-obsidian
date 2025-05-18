@@ -27,6 +27,7 @@ We define $x\cdot y=\sum_{i}^{n}x_{i}y_{i}$
 
 [[Cyclic Code]]
 [[Cyclic Code with Defining Set]]
+[[Defining Set]]
 [[BCH Code]]
 
 
