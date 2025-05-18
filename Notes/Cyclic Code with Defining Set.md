@@ -4,6 +4,8 @@ The [[Cyclic Code]] of length $n$ with defining set $A$ is the code:
 $$
 C=\{ f(X)\in \mathbb{F}_{2}[X] /(X^{n}-1): (\forall a\in A)\ f(a)=0 \}
 $$
+Note that as the [[Generator Polynomial]] $g(X)$ of $C$ divides $X^{n}-1$, 
+we only need to ensure that $g(a)=0$ for all $a\in A$.
 ### Remark
 If we let $r\geq 1$ such that $2^{r}=1\pmod{n}$ and set $K\simeq \mathbb{F}_{2^{r}}$
 we find that $\mu_{n}(K)=\{ x\in K:x^{n}=1 \}\leq K^{\times}$ 
@@ -15,4 +17,7 @@ $$
 Thus any defining set is $A\subseteq \{ 1,\alpha,\alpha^{2},\dots,\alpha^{n-1} \}$.
 ### Example
 $n=7$
-We find $X^{7}-1=(X-1)(X^{3}+X+1)(X^{3}+X)$
+We find $X^{7}-1=(X+1)(X^{3}+X+1)(X^{3}+X^{2}+1)$
+where $X^{3}+X+1$ and $X^{3}+X^{2}+1$ have no linear factors, 
+so they are irreducible. 
+We also find that [[Splitting Field]] of $X^{7}-1$ is $\mathbb{F}_{8}\simeq \mathbb{F}_{2} /(X^{3}+X+1)$
