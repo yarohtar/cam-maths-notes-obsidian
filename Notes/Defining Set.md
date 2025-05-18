@@ -9,6 +9,7 @@ $$
 Note that the exact choice of $K$ won't matter. 
 ### Lemma
 $C$ is uniquely determined by its defining set.
+#### Proof
 
 
 # This wasn't done in lectures like this
