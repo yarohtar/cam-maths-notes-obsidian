@@ -12,7 +12,7 @@ A code $C$ is cyclic if and only if $\mathcal{C}=\pi(C)$ satisfies
 2. $f,g\in \mathcal{C}$ then $f+g\in \mathcal{C}$
 3. $f\in \mathcal{C}, g\in \mathbb{F}_{2}[X]\implies gf\in \mathcal{C}$
 ### Corollary
-$C$ is a cyclic code of length $n$ if and only if $\mathcal{C}$ is an [[Ideal]] in ${\mathbb{F}_{2}} / {(X^{n}-1)}$
+$C$ is a cyclic code of length $n$ if and only if $\mathcal{C}$ is an [[Ideal]] in $\mathbb{F}_{2}[X] / (X^{n}-1)$
 We identify $C$ and $\mathcal{C}$.
 These ideals correspond to polynomials $g\in \mathbb{F}_{2}[X]$ dividing $X^{n}-1$.
 
