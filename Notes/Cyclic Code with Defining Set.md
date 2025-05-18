@@ -21,3 +21,7 @@ We find $X^{7}-1=(X+1)(X^{3}+X+1)(X^{3}+X^{2}+1)$
 where $X^{3}+X+1$ and $X^{3}+X^{2}+1$ have no linear factors, 
 so they are irreducible. 
 We also find that [[Splitting Field]] of $X^{7}-1$ is $\mathbb{F}_{8}\simeq \mathbb{F}_{2} /(X^{3}+X+1)$
+In fact, all elements of $\mathbb{F}_{8}^{\times}$ are roots of $X^{7}-1$
+Say $\alpha$ is a root of $X^{3}+X+1$.
+Then $\alpha^{2}$ and $\alpha^{4}$ also are
+So $\alpha^{3}$, $\alpha^{6}$, $\alpha r$
