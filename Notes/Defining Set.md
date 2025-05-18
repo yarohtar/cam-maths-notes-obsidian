@@ -1,4 +1,12 @@
 Let $C$ be a [[Cyclic Code]] of length $n$ 
+Let $K$ be a field extension of $\mathbb{F}_{2}$
+A defining set $A$ of $C$ is a set with the property:
+$$
+(\forall f\in \mathbb{F}_{2}[X])\ f+(X^{n}-1)\in C \iff (\forall a\in A)\ f(a)=0
+$$
+Note that necessarily $A\subseteq \{ x\in K:x^{n}=1 \}$
+
+
 with [[Generator Polynomial]] $g\in \mathbb{F}_{2}[X] /(X^{n}-1)$
 Let $K$ be a field extension of $\mathbb{F}_{2}$ containing all $n$-th roots of unity
 (e.g. $K=\mathbb{F}_{2^{r}}$ for $2^{r}=1\pmod{n}$, or $K$ a [[Splitting Field]] of $X^{n}-1$)
