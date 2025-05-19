@@ -6,7 +6,7 @@ Let $h:\mathcal{M}\to \{ 1,\dots,p-1 \}$ be a hash function
 To send a message $m$ with $0\leq m\leq p-1$, 
 Alice randomly chooses $k$ with $1\leq k\leq p-2$ coprime to $p-1$
 She computes $r,s$ with $1\leq r\leq p-1$ and $1\leq s\leq p-2$ 
-stisfying:
+satisfying:
 $$
 r=g^{k}\pmod{p}
 $$
