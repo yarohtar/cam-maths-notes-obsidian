@@ -29,14 +29,13 @@ between the columns of $H$ so $w(C)\geq\delta$
 Note that $H$ is not the [[Parity Check Matrix]] 
 in the usual sense, because $\alpha \not\in \mathbb{F}_{2}$
 # Decoding
-Suppose we receive $r=c+e$ where $e$ is the error pattern
+Suppose we receive $r=c\oplus e$ where $e$ is the error pattern
 ### Definition
 The error locator polynomial of an error pattern $e\in \mathbb{F}_{2}^{n}$ is
 $$
 \sigma(X)=\prod_{i\in \mathcal{E}}(1-\alpha^{i}X)\in K[X]
 $$
 where $\mathcal{E}=\{ i: e_{i}=1 \}$.
-Note that $\sigma(\alpha^{n-i})=0$, so if we know $\sigma$ we can recover all errors
 ### Theorem
 Suppose $\operatorname{deg}\sigma=\lvert \mathcal{E} \rvert\leq t$ where $2t+1\leq\delta$.
 $\sigma(X)$ has constant term 1 and satisfies:
@@ -80,9 +79,14 @@ Also $\operatorname{deg}w(X)=\operatorname{deg}\sigma(X)\leq t$
 
 To show uniqueness, note $\sigma(X)$ has distinct nonzero roots,
 so $\sigma(X)$ and $w(X)=-X\sigma'(X)$ are coprime.
-Suppose 
-
-
+Suppose $\tilde{\sigma}$ and $\tilde{w}$ are another pair of solutions.
+WLOG $\operatorname{deg}\tilde{\sigma}\leq \operatorname{deg}\sigma$
+Then 
+$$
+\sigma(X)\tilde{w}(X) = \tilde{\sigma}(X) w(X)\pmod{X^{2t+1}}
+$$
+But all have degree $\leq t$ so we actually have equality.
+As they don't share any roots it has to be $\sigma=\tilde{\sigma}$ (and $w=\tilde{w}$)
 ### Application
 Taking coefficients of $X^{i}$ for $t+1\leq i\leq 2t$ 
 allows us to solve for the coeffs of $\sigma(X)$.
