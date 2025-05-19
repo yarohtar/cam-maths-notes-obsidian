@@ -16,3 +16,9 @@ The stream $(y_{n})_{n\in \mathbb{N}}$ comes from a linear feedback shift regist
 with auxiliary polynomial $P$ if and only if its [[Generating Function]] 
 is formally of the form $\frac{A(X)}{P(X)}$ with $A\in \mathbb{F}_{2}[X]$ 
 such that $\operatorname{degA}<\operatorname{deg}P$
+### Lemma
+Let $(x_{n})$ and $(y_{n})$ be outputs from LFSRs of lengths $M$, $N$
+Then:
+1. $(x_{n}+y_{n})$ is output of LFSR of length $M+N$
+2. $(x_{n}y_{n})$ is output of LFSR of length $MN$
+Problem with $(x_{n}y_{n})$ is that there will be more $0s$ on average.

@@ -33,3 +33,4 @@ $$
 [[Vigenere Cipher]]
 [[Stream Cipher]]
 [[One Time Pad]]
+[[Rabin Cryptosystem]]
