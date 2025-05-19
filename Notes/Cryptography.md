@@ -9,6 +9,8 @@ $$
 $$
 \mathcal{K}=\{ \text{all possible keys} \}
 $$
+[[Cryptosystem]]
+[[Cyphers]]
 
 [[Feedback Shift Register]]
 [[Linear Feedback Shift Register]]
