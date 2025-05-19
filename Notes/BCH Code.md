@@ -29,16 +29,18 @@ between the columns of $H$ so $w(C)\geq\delta$
 Note that $H$ is not the [[Parity Check Matrix]] 
 in the usual sense, because $\alpha \not\in \mathbb{F}_{2}$
 # Decoding
+Suppose we receive $r=c+e$ where $e$ is the error pattern
 ### Definition
 The error locator polynomial of an error pattern $e\in \mathbb{F}_{2}^{n}$ is
 $$
 \sigma(X)=\prod_{i\in \mathcal{E}}(1-\alpha^{i}X)\in K[X]
 $$
 where $\mathcal{E}=\{ i: e_{i}=1 \}$.
+Note that $\sigma(\alpha^{n-i})=0$, so if we know $\sigma$ we can recover all errors
 ### Theorem
 Suppose $\operatorname{deg}\sigma=\lvert \mathcal{E} \rvert\leq t$ where $2t+1\leq\delta$.
-Then $\sigma(X)$ is the unique polynomial in $K[X]$ of least degree
-such that:
-1. $\sigma(0)=1$
-2. $\sigma(X)\sum_{j=1}^{2t}r(\alpha^{j})X^{j}=\omega(X)\pmod{X^{2t+1}}$ 
-   for some $\omega \in K[X]$ with $\operatorname{}$
+$\sigma(X)$ has constant term 1 and satisfies:
+$$
+\sigma(X)\sum_{j=1}^{2t} r(\alpha^{j})X^{j}
+$$
+#### Proof
