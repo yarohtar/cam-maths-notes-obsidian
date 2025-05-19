@@ -11,6 +11,8 @@ $$
 $$
 [[Cryptosystem]]
 [[Signature]]
+[[Commitment Schemes]]
+[[Secret Sharing Schemes]]
 
 
 [[Feedback Shift Register]]

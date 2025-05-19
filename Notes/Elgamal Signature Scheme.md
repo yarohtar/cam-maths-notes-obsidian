@@ -30,3 +30,22 @@ Alice HAS TO choose different $k$ each time.
 Suppose she sends $m_{1}$ and $m_{2}$ using the same $k$
 with signatures $(r,s_{1})$ and $(r,s_{2})$
 Then:
+$$
+h(m_{1})=ur+ks_{1}\pmod{p-1}
+$$
+$$
+h(m_{2})=ur+ks_{2}\pmod{p-1}
+$$
+Hence:
+$$
+h(m_{1})-h(m_{2})=k(s_{1}-s_{2})\pmod{p-1}
+$$
+By the previous Lemma, we can find solutions for $k$ 
+and then choose $k$ such that $r=g^{k}\pmod{p}$
+Then
+$$
+s_{1}=\frac{h(m_{1})-ur}{k}\pmod{p-1}
+$$
+This gives $ur=h(m_{1})-ks_{1}$ so we can find solutions for $u$
+Choose the solution that gives $y=g^{u}$.
+Now we found Alice's private key and we are able to sign msgs.
