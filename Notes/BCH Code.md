@@ -51,7 +51,21 @@ Let
 $$
 w(X)=-X\sigma'(X)=\sum_{i\in \mathcal{E}}\alpha^{i}X\prod_{j\in \mathcal{E}\setminus \{ i \}}(1-\alpha^{j}X)
 $$
-So $w(X)$ is a polynomial 
+So $w(X)$ is a polynomial of degree equal to $\operatorname{deg}\sigma$
+We work in $K[[X]]$ the ring of formal power series.
+Note:
+$$
+\frac{1}{1-\alpha^{i}X}=\sum_{n=0}^{\infty}(\alpha^{i}X)^{n}\in K[[X]]
+$$
+So:
+$$
+\begin{align}
+\frac{w(X)}{\sigma(X)} &= \sum_{i\in \mathcal{E}} \frac{\alpha^{i}X}{1-\alpha^{i}X}  \\
+ &= \sum_{i\in \mathcal{E}}\sum_{j=1}^{\infty}(\alpha^{i}X)^{j} \\
+ & =\sum_{j=1}^{\infty}\sum_{i\in \mathcal{E}} (\alpha^{i}X)^{j} \\
+ & =\sum_{j=1}^{\infty}X^{j}e(\alpha^{j})
+\end{align}
+$$
 ### Application
 Taking coefficients of $X^{i}$ for $t+1\leq i\leq 2t$ 
 allows us to solve for the coeffs of $\sigma(X)$.
