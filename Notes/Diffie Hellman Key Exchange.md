@@ -4,4 +4,4 @@ Alice chooses $\alpha \in \mathbb{Z}_{p-1}$ and sends $g^{\alpha}\pmod{p}$ to Bo
 Similarly Bob sends $g^{\beta}\pmod{p}$ to Alice for $\beta \in \mathbb{Z}_{p-1}$
 Then both of them know the secret key $g^{\alpha \beta}$
 ### Conjecture
-Finding 
+Finding $g^{\alpha \beta}$ from $g$, $g^{\alpha}$ and $g^{\beta}$ is essentially as difficult as solving the discrete logarithm problem.
