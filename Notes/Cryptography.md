@@ -11,6 +11,7 @@ $$
 $$
 [[Cryptosystem]]
 [[Breaking Cryptosystems]]
+[[Unicity Distance]]
 
 [[Feedback Shift Register]]
 [[Linear Feedback Shift Register]]
