@@ -21,5 +21,10 @@ H=\begin{pmatrix}
 1 & \alpha^{\delta-1} & \alpha^{2(\delta-1)} & \dots & \alpha^{(\delta-1)(n-1)}
 \end{pmatrix}
 $$
-Taking any $\delta-1$ columns, gives a [[Vandermonde matrix]], so $H$ 
-has rank at least $\delta-1$ 
+Taking any $\delta-1$ columns, gives a [[Vandermonde matrix]], 
+so any $\delta-1$ columns of $H$ are linearly independent.
+But a codeword in $C$ is a dependence relation 
+between the columns of $H$ so $w(C)\geq\delta$
+
+Note that $H$ is not the [[Parity Check Matrix]] 
+in the usual sense, because $\alpha \not\in \mathbb{F}_{2}$
