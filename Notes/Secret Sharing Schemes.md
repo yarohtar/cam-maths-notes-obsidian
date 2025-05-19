@@ -13,7 +13,9 @@ $$
 The $r^{th}$ member receives a shadow pair $(x_{r},P(r))$
 
 Now suppose $k$ members are together.
-They have the data $(y_{j},Q(j))$ for some $Q$ and can solve:
+They have the data $(y_{j},Q(j))$ 
+where $x_{r_{j}}=y_{j}$ and $P(x_{r_{j}})=Q(j)$
+and can solve:
 $$
 \begin{pmatrix}
 1 & y_{1} & \dots & y_{1}^{k-1} \\
@@ -37,3 +39,28 @@ Q(k)
 $$
 because the [[Vandermonde matrix]] has nonzero determinant 
 
+Then $z_{i}=a_{i}$ so $z_{0}=a_{0}=S$
+
+However, if only $k-1$ members are present then:
+$$
+\begin{pmatrix}
+y_{1} & \dots & y_{1}^{k-1} \\
+y_{2} & \dots & y_{2}^{k-1} \\
+\vdots & \ddots & \vdots \\
+y_{k-1} & \dots & y_{k-1}^{k-1}
+\end{pmatrix}
+\begin{pmatrix}
+z_{1} \\
+z_{2}\\
+\vdots \\
+z_{k}
+\end{pmatrix}
+=
+\begin{pmatrix}
+Q(1) -z_{0}\\
+Q(2) -z_{0}\\
+\vdots  \\
+Q(k) -z_{0}
+\end{pmatrix}
+$$
+Which can be solved for any $z_{0}$ so we have no idea which one i
