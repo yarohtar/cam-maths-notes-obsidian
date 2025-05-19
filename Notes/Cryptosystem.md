@@ -8,3 +8,6 @@ d:\mathcal{E}\times \mathcal{K}\to \mathcal{M}
 $$
 Such that $d(e(m,k),k)=m$ for all $m\in \mathcal{M}$ and $k\in \mathcal{K}$
 
+### Exmples
+[[Substitution cypher]]
+[[Vigenere Cypher]]
