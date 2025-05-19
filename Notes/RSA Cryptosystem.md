@@ -15,4 +15,8 @@ Let
 $$
 X=\{ x\in(\mathbb{Z}_{p})^{\times}: o_{p}(x^{b})\neq o_{q}(x^{b}) \}
 $$
-1. If $x\in$
+1. If $x\in X$, then there is some $0\leq t<a$ such that $(x^{2^{t}b}-1,N)$ 
+   is nontrivial factor of $N$
+2. $\lvert X \rvert\geq \frac{1}{2}(p-1)(q-1)$
+### Corollary
+Finding the private key $(N,d)$ is essentially as difficult as factoring $N$
