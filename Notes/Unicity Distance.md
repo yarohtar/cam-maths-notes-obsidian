@@ -12,6 +12,21 @@ Now:
 $$
 \begin{align}
 H(K|C^{(n)}) &=H(K,C^{(n)}) -H(C^{(n)}) \\
- & = H()
+ & = H(K,M^{(n)},C^{(n)}) - H(C^{(n)}) \\
+ & =H(K,M^{(n)})-H(C^{(n)}) \\
+ & =H(K)+H(M^{(n)}) -H(C^{(n)})
 \end{align}
+$$
+Assume:
+1. all keys are equally likely, so $H(K)=\log \lvert K \rvert$
+2. $H(M^{(n)})=nH$ where $H=H(M)$ (i.e. msgs are independent)
+3. All ciphertext is equally likely so $H(C^{(n)})=n\log \lvert \Sigma \rvert$
+
+So we get:
+$$
+H(K|C^{(n)})=\log \lvert K \rvert +nH-n\log \lvert \Sigma \rvert 
+$$
+and:
+$$
+U=\frac{\log \lvert K \rvert }{\log \lvert \Sigma \rvert -H}
 $$
