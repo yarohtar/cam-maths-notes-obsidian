@@ -13,6 +13,8 @@ $$
 [[Breaking Cryptosystems]]
 [[Key Equivocation]]
 [[Message Equivocation]]
+[[Perfect Secrecy]]
+[[Unicity Distance]]
 ### Lemma 
 [[Message Equivocation]]$\leq$[[Key Equivocation]]
 $H(M|C)\leq H(K|C)$
@@ -24,10 +26,11 @@ $$
 H(K|C)&=H(K,C)-H(C) \\
  & =H(M,K,C)-H(M|K,C)-H(C) \\
  & =H(K|M,C)+H(M,C)-H(C) \\
- & 
+ & =H(K|M,C) +H(M|C)\geq H(M|C)
 \end{align}
 $$
-[[Unicity Distance]]
+
+
 
 [[Feedback Shift Register]]
 [[Linear Feedback Shift Register]]
