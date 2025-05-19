@@ -14,6 +14,8 @@ The [[Information Rate]] is $\frac{k}{n}$
 
 We define $x\cdot y=\sum_{i}^{n}x_{i}y_{i}$
 
+[[Ring over binary words]]
+
 [[Hamming weight]]
 [[Parity Check Code]]
 [[Dual Code]]
@@ -26,10 +28,6 @@ We define $x\cdot y=\sum_{i}^{n}x_{i}y_{i}$
 [[Reed-Muller Codes]]
 
 [[Cyclic Code]]
+[[Defining Set]] (wasn't done in lectures)
 [[Cyclic Code with Defining Set]]
-[[Defining Set]]
 [[BCH Code]]
-
-
-[[Ring over binary words]]
-

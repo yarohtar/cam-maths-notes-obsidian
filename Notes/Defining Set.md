@@ -5,7 +5,7 @@ $$
 (\forall f\in \mathbb{F}_{2}[X])\ f(X)+(X^{n}-1)\in C \iff (\forall a\in A)\ f(a)=0
 $$
 Note that necessarily $A\subseteq \{ x\in K:x^{n}=1 \}$ for nonempty $C$.
-Also $A$ need not be unique (I think)
+Also $A$ need not be unique
 
 We say a [[Cyclic Code]] $C$ is defined by $A\subseteq \{ x\in K :x^{n}=1\}$ if:
 $$
