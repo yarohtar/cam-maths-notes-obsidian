@@ -41,6 +41,22 @@ Note that $\sigma(\alpha^{n-i})=0$, so if we know $\sigma$ we can recover all er
 Suppose $\operatorname{deg}\sigma=\lvert \mathcal{E} \rvert\leq t$ where $2t+1\leq\delta$.
 $\sigma(X)$ has constant term 1 and satisfies:
 $$
-\sigma(X)\sum_{j=1}^{2t} r(\alpha^{j})X^{j}
+\sigma(X)\sum_{j=1}^{2t} r(\alpha^{j})X^{j}=w(X) \pmod{X^{2t+1}}
 $$
+where $w(X)$ is a polynomial of degree $\leq t$.
+Moreover, $\sigma(X)$ is the unique polynomial of least degree 
+satisfying the above.
 #### Proof
+Let
+$$
+w(X)=-X\sigma'(X)=\sum_{i\in \mathcal{E}}\alpha^{i}X\prod_{j\in \mathcal{E}\setminus \{ i \}}(1-\alpha^{j}X)
+$$
+So $w(X)$ is a polynomial 
+### Application
+Taking coefficients of $X^{i}$ for $t+1\leq i\leq 2t$ 
+allows us to solve for the coeffs of $\sigma(X)$.
+Then 
+$$
+\mathcal{E}=\{ 0\leq i\leq n-1 : \sigma(\alpha^{-i})=0\}
+$$
+This determines $e$ and we decode as $r\oplus e$.
