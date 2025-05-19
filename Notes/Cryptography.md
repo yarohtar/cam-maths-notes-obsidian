@@ -10,6 +10,7 @@ $$
 \mathcal{K}=\{ \text{all possible keys} \}
 $$
 [[Cryptosystem]]
+[[Breaking Cryptosystems]]
 
 [[Feedback Shift Register]]
 [[Linear Feedback Shift Register]]

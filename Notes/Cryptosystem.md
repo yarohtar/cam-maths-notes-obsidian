@@ -9,5 +9,5 @@ $$
 Such that $d(e(m,k),k)=m$ for all $m\in \mathcal{M}$ and $k\in \mathcal{K}$
 
 ### Exmples
-[[Substitution cypher]]
-[[Vigenere Cypher]]
+[[Substitution cipher]]
+[[Vigenere Cipher]]
