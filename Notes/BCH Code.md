@@ -66,6 +66,23 @@ $$
  & =\sum_{j=1}^{\infty}X^{j}e(\alpha^{j})
 \end{align}
 $$
+Thus we find:
+$$
+w(X)=\sigma(X)\sum_{j=1}^{\infty} e(\alpha^{j})X^{j}
+$$
+By definition, $c(\alpha^{j})=0$ for $1\leq j\leq\delta-1$
+so for $1\leq j\leq 2t$. So $r(\alpha^{j})=e(\alpha^{j})$ for $1\leq j\leq 2t$
+Thus
+$$
+\sigma(X)\sum_{j=1}^{2t}r(\alpha^{j})X^{j}=w(X)\pmod{X^{2t+1}}
+$$
+Also $\operatorname{deg}w(X)=\operatorname{deg}\sigma(X)\leq t$
+
+To show uniqueness, note $\sigma(X)$ has distinct nonzero roots,
+so $\sigma(X)$ and $w(X)=-X\sigma'(X)$ are coprime.
+Suppose 
+
+
 ### Application
 Taking coefficients of $X^{i}$ for $t+1\leq i\leq 2t$ 
 allows us to solve for the coeffs of $\sigma(X)$.
