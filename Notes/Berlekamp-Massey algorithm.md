@@ -33,5 +33,13 @@ A_{1}=\begin{pmatrix}
 x_{1} & x_{0} \\
 x_{2} & x_{1}
 \end{pmatrix},\quad %quad
-A_{2}
+A_{2}=\begin{pmatrix}
+x_{2} & x_{1} & x_{0} \\
+x_{3} & x_{2} & x_{1} \\
+x_{4} & x_{3} & x_{2}
+\end{pmatrix},\quad %quad
+\dots
 $$
+For each $A_{i}$ if $\det(A_{i})\neq 0$ then just continue
+If $\det(A_{i})=0$, we try $d=i$, 
+solve for $a_{0},\dots,a_{d-1}$ and check the stream.
