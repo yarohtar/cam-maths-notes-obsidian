@@ -1,3 +1,14 @@
+Suppose we have a numerical scheme 
+$$
+u'=Au
+$$
+for some matrix $A$.
+Often, $A$ is naturally represented as $A=B+C$.
+In [[Numerical Schemes as Approximations to Exp]],
+we want to find $e^{tA}=e^{t(B+C)}$
+
+
+
 Suppose we are solving the diffusion equation 
 $$
 u_{t}=u_{x x}+ u_{y y}
