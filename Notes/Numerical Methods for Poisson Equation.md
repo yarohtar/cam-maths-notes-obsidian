@@ -76,22 +76,34 @@ $$ is an eigenvector. We do some CURSED rearranging and it works.
 
 
 ### Theorem (convergence)
-Subject to sufficient smoothness of the function $f$ and the boundary conditions $\phi$, there exists a number $c>0$, independent of $h=\frac{1}{m+1}$, such that $||e||\leq ch$.
+Subject to sufficient smoothness of the function $f$ 
+and the boundary conditions $\phi$, 
+there exists a number $c>0$, 
+independent of $h=\frac{1}{m+1}$, 
+such that $||e||\leq ch$.
 #### Proof
-Note that the exact solution satisfies our recursion relation up to an addition of some $\eta_{i,j}=O(h^{4})$. Subtracting our numerical approximation we find the recursive formula for errors:
+Note that the exact solution satisfies our recursion relation 
+up to an addition of some $\eta_{i,j}=O(h^{4})$. 
+Subtracting our numerical approximation 
+we find the recursive formula for errors:
 $$
 e_{i-1,j}+e_{i+1,j}+e_{i,j-1}+e_{i,j+1}-4e_{i,j}=h^2f_{i,j}+\eta_{i,j}
 $$
-Or in the matrix form $Ae=\eta$. Note that $A$ is invertible (nonzero eigenvalues that we found) so $e=A^{-1}\eta\implies ||e||\leq ||A^{-1}||\cdot||\eta||$
-Every component of $\eta$ satisfies $|\eta_{i,j}|^2\leq c^2h^8$ for some $c$ (because $O(h^4)$), so we have:
+Or in the matrix form $Ae=\eta$. 
+Note that $A$ is invertible (nonzero eigenvalues that we found) 
+so $e=A^{-1}\eta\implies ||e||\leq ||A^{-1}||\cdot||\eta||$
+Every component of $\eta$ satisfies $|\eta_{i,j}|^2\leq c^2h^8$ for some $c$ (because $O(h^4)$), 
+so we have:
 $$
 \begin{align}
 ||\eta ||^2&=\sum_{i=1}^{m} \sum_{j=1}^{m} |\eta_{i,j}|^2\leq c^2m^2h^8<c^2 \frac{1}{h^2}h^8=c^2h^6\\
 &\implies ||\eta||\leq ch^3
 \end{align}
 $$
-The norm of a matrix is the max modulus of an eigenvalue (because $||Ax||$ is maximal when $x$ is in the direction of the associated eigenvector)
-The eigenvalues of $A^{-1}$ are the inverses of eigenvalues of $A$ - but we know those. 
+The norm of a matrix is the max modulus of an eigenvalue 
+(because $||Ax||$ is maximal when $x$ is in the direction of the associated eigenvector)
+The eigenvalues of $A^{-1}$ are the inverses of eigenvalues of $A$
+Thus:
 $$
 ||A^{-1}||=\frac{1}{4} \max \left\{ \left(\sin^2{k\pi h\over 2}+\sin^2{l\pi h\over 2}\right)^{-1} \right\} \leq \frac{1}{8\sin^2\left( \frac{\pi h}{2} \right)}\leq \frac{1}{8h^2}
 $$
