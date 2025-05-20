@@ -52,4 +52,17 @@ $$
 u_{m}^{n+1}=\mu(u_{m+1}^{n}-u_{m-1}^{n}) + u_{m}^{n-1}
 $$
 The local error is $O(k^{3}+kh^{2})=O(h^{3})$
-We use [[fouri]]
+We use [[Fourier Analysis of Stability]]:
+$$
+\hat{u}^{n+1}(\theta) = \mu(e^{i\theta} - e^{-i\theta}) \hat{u}^{n}(\theta) + \hat{u}^{n-1}(\theta)
+$$
+This is a difference equation $w_{n+1}+bw_{n}+cw_{n-1}=0$ 
+with general solution $w_{n}=c_{1}\lambda_{1}^{n}+c_{2}\lambda_{2}^{n}$ 
+where $\lambda_{1 /2}$ are roots of $\lambda^{2}+b\lambda+c=0$
+In our case:
+$$
+\lambda_{1,2}(\theta) = i\mu \sin \theta \pm \sqrt{ 1- \mu^{2} \sin ^{2}\theta }
+$$
+We have stability iff $\lvert \lambda_{1,2} \rvert\leq 1$ for all $\theta$, 
+which is true iff $\mu\leq 1$
+
