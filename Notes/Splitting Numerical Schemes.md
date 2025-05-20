@@ -29,7 +29,7 @@ we can approximate this by:
 $$
 u^{n+1}=e^{kA}u^{n}+\int_{t_{n}}^{t_{n+1}} e^{(t_{n+1}-s)A}b(s)ds
 $$
-Then for example use trapezoidal rule to find:
+Then for example use (integral) trapezoidal rule to find:
 $$
 u^{n+1}=e^{kA}u^{n}+\frac{1}{2}k[e^{kA}b(t_{n})+b(t_{n+1})]
 $$
