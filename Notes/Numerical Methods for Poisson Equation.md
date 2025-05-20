@@ -56,9 +56,10 @@ otherwise $a_{ij}=a_{ji}=0$, so $A$ is symmetric and has real eigenvalues.
 Now by [[Gershgorin Theorem]] the eigen values are at most $0$ 
 (each row will have at most 4 entries that are $1$). 
 Suppose now we have an eigenvalue 0 with eigenvector $x$. 
-Let $i$ be the index st $x_i$ is the max absolute component of $x$. 
-Then $x_j$ has to have the same modulus whenever $a_{ij}=1$. 
-But then we can change $i$ to one of these and expand all the way to the boundary where we will get a contradiction.
+Suppose for some $i$, $x_{i}$ is the max absolute component of $x$.
+Then all its neighbours $x_{j}$ have $a_{ij}=1$ so $\lvert x_{i} \rvert=\lvert x_{j} \rvert$.
+We can traverse the whole grid like this, 
+thus all the components have the same norm.
 
 ### Proposition (eigenvalues)
 The eigenvalues of $A$ are 
