@@ -29,6 +29,7 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 
 [[Numerical Schemes as Approximations to Exp]]
 [[Splitting Numerical Schemes]]
+[[Numerical Schemes for 2D Diffusion Equation]]
 [[Kronecker Product]]
 missing some stuff around lecture 10 where he starts exponentiating matrices
 [[Spectral Numerical Methods]]
