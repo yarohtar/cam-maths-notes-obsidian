@@ -1,4 +1,4 @@
-We want to find
+We want to find [[Fourier Transform]]
 $$
 y_{j}=(\mathcal{F}_{n}x)_{j}=\frac{1}{n}\sum_{l=0}^{n-1} \omega_{n}^{-jl}x_{l}
 $$
@@ -19,8 +19,8 @@ y_{j}&=\frac{1}{2m}\sum_{l=0}^{m-1}\omega_{2m}^{-2jl}x_{2l}+\frac{1}{2m}\sum_{l=
 \end{align}
 $$
 So we only take $O(n)$ operations to find $y$! 
-Now if we do this recursively, 
-we will only need $O(n\log n)$ operations which is much faster than the naive approach. 
+Now if we do this recursively, we will only need $O(n\log n)$ operations 
+which is much faster than the naive approach. 
 ## Inverse
 Basically the same idea but now we have:
 $$
