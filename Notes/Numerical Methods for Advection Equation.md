@@ -20,6 +20,7 @@ u_{m}^{n+1}-u_{m}^{n}=\frac{1}{4} \mu(u_{m+1}^{n+1}-u_{m-1}^{n+1}) + \frac{1}{4}
 $$
 We find $u^{n+1}=B^{-1}Cu^{n}$ 
 where $B$ and $C$ are [[Toeplitz matrix]] antisymmetric tridiagonal
+and $B^{T}=C$
 $$
 B=\begin{pmatrix}
 1 & -\frac{1}{4}\mu &  \\
@@ -35,3 +36,13 @@ C=\begin{pmatrix}
  &  & -\frac{1}{4}\mu & 1
 \end{pmatrix}
 $$
+Similar to [[TST matrix]], these have 
+Eigenvalues:
+$$
+\lambda_{k} = \alpha+2i\beta \cos \frac{k\pi}{M+1}
+$$
+Eigenvectors:
+$$
+(w_{k})_{m} = \left( i^{m}\sin \frac{km\pi}{M+1} \right)
+$$
+
