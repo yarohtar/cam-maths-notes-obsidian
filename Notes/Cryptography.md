@@ -12,7 +12,7 @@ $$
 [[Cryptosystem]]
 [[Signature]]
 [[Commitment Schemes]]
-[[Secret Sharing Schemes]]
+[[Threshold Scheme]]
 
 
 [[Feedback Shift Register]]
