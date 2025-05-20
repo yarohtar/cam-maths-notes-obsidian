@@ -52,7 +52,7 @@ $$
 u_{m}^{n+1}=\mu(u_{m+1}^{n}-u_{m-1}^{n}) + u_{m}^{n-1}
 $$
 The local error is $O(k^{3}+kh^{2})=O(h^{3})$
-We use [[Fourier Analysis of Stability]]:
+We use [[Fourier Analysis of Stability#Multi-step]]:
 $$
 \hat{u}^{n+1}(\theta) = \mu(e^{i\theta} - e^{-i\theta}) \hat{u}^{n}(\theta) + \hat{u}^{n-1}(\theta)
 $$
