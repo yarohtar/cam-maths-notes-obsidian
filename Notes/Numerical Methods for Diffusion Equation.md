@@ -75,7 +75,7 @@ which yields:
 $$
 u^{n+1}_{m}-\mu(u^{n+1}_{m-1}-2u_{m}^{n+1}+u_{m+1}^{n+1})=u_{m}^{n}
 $$
-Reverse Euler has enchance
+Reverse Euler has enhanced stability.
 This means that we can pick larger $\mu$ 
 i.e. we can have $k\approx h$
 Note that for [[Reverse-Euler Method]], 
@@ -96,6 +96,6 @@ $$
 \lambda_{k}(A)=\frac{\lambda_{k}(C)}{\lambda_{k}(B)}=\frac{1-2\mu \sin ^{2} \frac{1}{2}\pi kh}{1+2\mu \sin ^{2} \frac{1}{2}\pi kh}\implies \lvert \lambda_{k}(A) \rvert \leq 1
 $$
 So this method is stable for any $\mu>0$!!! 
-
+[[Normal Matrix]]
 See the rest of convergence proof in Lecture 6 notes 
 (its same as [[Lax Equivalence Theorem]] but its IMPROTANT FOR EXAMS)
