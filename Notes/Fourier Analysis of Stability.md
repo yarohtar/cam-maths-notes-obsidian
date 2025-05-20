@@ -47,11 +47,12 @@ $$
 Now we calculate:
 $$
 \begin{align}
-\lVert \hat{u}^{n} \rVert ^{2} = \frac{1}{2\pi} \int_{-\pi}^{\pi} \lvert H(the) \rvert 
+\lVert \hat{u}^{n} \rVert ^{2}  & = \frac{1}{2\pi} \int_{-\pi}^{\pi} \lvert H(\theta) \rvert ^{2n} \lvert \hat{u}^{0}(\theta) \rvert ^{2} d\theta \\
+ & \geq \frac{1}{2\pi} (1+\epsilon)^{2n} \int_{\theta_{1}}^{\theta_{2}} \frac{2\pi}{\theta_{2}-\theta_{1}} d\theta \\
+ & (1+\epsilon)^{2n}
 \end{align}
 $$
-The integral will diverge so the method would be unstable.
-
+The integral diverges so the method is unstable.
 # Multi-step
 Suppose we end up with an equation of the form:
 $$
