@@ -9,3 +9,4 @@ $$
 are [[Fourier Series]] coefficients. 
 [[The de la Vallee Poussin Theorem]]
 [[Carlesson's Theorem]]
+[[Convergence at Spectral Speed]]
