@@ -92,11 +92,30 @@ Define $B=I-\frac{1}{2}\mu A_{*}$ and $C=I+\frac{1}{2}\mu A_{*}$
 where $A_{*}$ is a [[TST matrix]] with $\alpha=-2$, $\beta=1$
 Let $A=B^{-1}C$.
 Amazingly, $B$ and $C$ have the same set of eigenvectors, 
-hence $A$ also does, with eigenvalues given by:
+hence $A$ also does and they are all [[Normal Matrix]]
+with eigenvalues given by:
 $$
 \lambda_{k}(A)=\frac{\lambda_{k}(C)}{\lambda_{k}(B)}=\frac{1-2\mu \sin ^{2} \frac{1}{2}\pi kh}{1+2\mu \sin ^{2} \frac{1}{2}\pi kh}\implies \lvert \lambda_{k}(A) \rvert \leq 1
 $$
 So this method is stable for any $\mu>0$!!! 
-[[Normal Matrix]]
+We can verify that $\eta_{m}^{n}=O(k^{3}+kh^{2})$. 
+We also have:
+$$
+\lVert \eta^{n} \rVert = \left( h\sum_{m}\lvert \eta_{m}^{n} \rvert ^{2} \right)^{1/2} = O(k^{3}+kh^{2})
+$$
+Hence for the error we have:
+$$
+Be^{n+1}=Ce^{n}+\eta^{n}
+$$
+so:
+$$
+\lVert e^{n+1} \rVert \leq \lVert B^{-1}C \rVert \cdot \lVert e^{n} \rVert + \lVert B^{-1} \rVert \cdot \lVert \eta^{n} \rVert 
+$$
+All eigenvalues of $B$ are greater than $1$ 
+(by [[Gershgorin Theorem]])
+
+
+
+
 See the rest of convergence proof in Lecture 6 notes 
 (its same as [[Lax Equivalence Theorem]] but its IMPROTANT FOR EXAMS)
