@@ -1,7 +1,7 @@
-All eigenvalues of a matrix $A$ are contained in the union of Gershgorin discs in the complex plane, where a Gershgorin disc is:
-$$
-\Gamma_{i}=\{ z \in \mathbb{C} \mid |z-a_{ii}|\leq r_{i} \}, \quad r_{i}=\sum_{j\neq i}|a_{ij}|
-$$
+All eigenvalues of a matrix $A$ are contained 
+in the union of Gershgorin discs in the complex plane, 
+where a Gershgorin disc is:
+[[Gershgorin Disc]]
 ### Proof
 Let $\lambda$ be an eigen value of $A$ with eigenvector $x$ st $Ax=\lambda x$. 
 Take the largest absolute coordinate in $x$ be $i$ and divide through so that $x_{i}=1$ and $|x_{j}|\leq 1$ for $j\neq i$ (so WLOG take this $x$ at the start).

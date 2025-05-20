@@ -4,7 +4,8 @@ $$
 $$
 subject to some Dirichlet boundary conditions. 
 ## Five-point method
-For this method we will assume that the boundary is rectangular because finite difference gets a bit messed up otherwise.
+For this method we will assume that the boundary is rectangular 
+because finite difference gets a bit messed up otherwise.
 
 We use [[Finite difference|finite differences]] to discretize the equation. 
 $$
@@ -18,7 +19,12 @@ Now let $u_{i,j}=u(ih,jh)$ and $f_{i,j}=f(ih,jh)$ to get
 $$
 u_{i-1,j}+u_{i+1,j}+u_{i,j-1}+u_{i,j+1}-4u_{i,j}=h^2f_{i,j}
 $$
-Now we make $u$ into a column vector, and rewrite the system of equations into $Au=b$ (note that $u_{0,j}$ and $u_{i,0}$ are boundary conditions and should be on rhs). If we fill the column vector $u$ in a natural way (column by column in the grid) then the matrix $A$ looks like this (in block matrix format):
+Now we make $u$ into a column vector, 
+and rewrite the system of equations into $Au=b$ 
+(note that $u_{0,j}$ and $u_{i,0}$ are boundary conditions and should be on rhs).
+If we fill the column vector $u$ in a natural way 
+(column by column in the grid)
+then the matrix $A$ looks like this (in block matrix format):
 $$
 A=\begin{pmatrix} 
 B & I  \\
@@ -38,7 +44,8 @@ B=
 & & & 1 & -4
 \end{pmatrix}
 $$
-We investigate this matrix, and try to prove that this discrete version does converge to the actual solution when $h$ is small.
+We investigate this matrix, and try to prove that 
+this discrete version does converge to the actual solution when $h$ is small.
 [[Gershgorin Theorem]]
 ### Lemma
 For any ordering of the grid points, the matrix $A$ is symmetric and negative definite.
