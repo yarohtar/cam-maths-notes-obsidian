@@ -6,6 +6,7 @@ with some initial conditions $u(x,0)=u_{0}(x)$
 and Dirichlet boundary conditions $u(0,t)=\phi_{0}(t)$ and $u(1,t)=\phi_{1}(t)$.
 
 ## Full discretization
+Similar as in [[Numerical Methods for Poisson Equation]]
 By Taylor's expansion:
 $$
 \begin{gather}
@@ -68,6 +69,7 @@ $$
 $$
 Now we can use the [[Euler method]] method to solve this, 
 but we can also use the [[Reverse-Euler Method]] and have enhanced stability. 
-Note that in the second scenario, 
-we would need to solve the linear system of equations that arises from the implicit method.
+Note that for [[Reverse-Euler Method]], 
+we would need to solve the linear system of equations 
+that arises from the implicit method.
 [[Crank-Nicolson method for diffusion equation]]
