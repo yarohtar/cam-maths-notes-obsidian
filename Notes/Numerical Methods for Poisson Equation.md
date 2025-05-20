@@ -117,9 +117,7 @@ We want to solve this FAST.
 
 Note that $B$ is a [[TST matrix]] and so we can diagonalize it, 
 say $B=QDQ$ where $D$ is the diagonal of eigenvalues. 
-We set $Q_{d}=\operatorname{diag}(Q,Q, \dots, Q)$ 
-Rewrite the equation as $AQ_{d}u=Q_{d}b$
-to find:
+Set $v_{k}=Qu_{k}$ and $c_{k}=Qu_{k}$ to find:
 $$
 \begin{pmatrix}
 D & I &  \\
@@ -141,9 +139,14 @@ c_{2} \\
 c_{m}
 \end{pmatrix}
 $$
-where $v=Q_{d}u$ and $c=Q_{d}b$.
-Note that $v_{i}$ and $c_{i}$ are both vectors of length $m$.
-Furthermore, we can make the matric tridiagonal! Rearrange the rows st (on RHS) the first $m$ indices are first components of vectors $c_{i}$, second $m$ indices are second components of vectors $c_{i}$ and so on. We basically bring the first eigen value to the first block, second eigenvalue to the second block etc, so we can write
+Note that $v_{i}$ and $c_{i}$ are both vectors of length $m$, 
+while $v$ and $c$ have length $m^{2}$
+Furthermore, we can make the matrix tridiagonal! 
+Rearrange the rows s.t. (on RHS) 
+the first $m$ indices are first components of vectors $c_{i}$, 
+second $m$ indices are second components of vectors $c_{i}$ and so on. 
+We basically bring the first eigen value to the first block, 
+second eigenvalue to the second block etc, so we can write
 $$
 A\sim\begin{pmatrix}
 \Lambda_{1} &   \\
@@ -160,9 +163,13 @@ A\sim\begin{pmatrix}
  &  & 1 & \lambda_{i}
 \end{pmatrix}
 $$
-These are $m$ decoupled systems $\Lambda_{k}\hat{v}_{k}=\hat{c}_{k}$. They are all tridiagonal and can be solved in $O(m)$ each, so $O(m^2)$ total. Sadly, forming $c_{k}=Qb_{k}$ and then $u_{k}=Qv_{k}$ takes a while $O(m^{3})$. 
-But we can do better!! Note that we know $q_{lj}=\sin \frac{jl\pi}{m+1}$, so for any vector $y$ we have
+These are $m$ decoupled systems $\Lambda_{k}\hat{v}_{k}=\hat{c}_{k}$. 
+They are all tridiagonal and can be solved in $O(m)$ each, so $O(m^2)$ total. 
+Sadly, forming $c_{k}=Qb_{k}$ and then $u_{k}=Qv_{k}$ takes $O(m^{3})$. 
+But we can do better!! 
+Note that we know $q_{lj}=\sin \frac{jl\pi}{m+1}$, so for any vector $y$ we have
 $$
 (Qy)_{l}=\sum_{j=1}^{m} \sin \frac{\pi jl}{m+1}y_{j}=\mathrm{Im}\sum_{j=0}^{2m+1} \exp \frac{2i\pi jl}{2m+2}y_{j}
 $$
-where we defined $y_{m+1}=\dots=y_{2m+1}=0$. Now apply [[Fast Fourier Transform]] to do it in $O(m\log m)$.
+where we defined $y_{m+1}=\dots=y_{2m+1}=0$. 
+Now apply [[Fast Fourier Transform]] to do it in $O(m\log m)$.
