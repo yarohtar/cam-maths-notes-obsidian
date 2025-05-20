@@ -22,9 +22,9 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Numerical Methods for Diffusion Equation]]
 [[Numerical Methods for Advection Equation]]
 
-[[Numerical Methods for Cauchy Problem]]
-
 [[Fourier Analysis of Stability]]
+[[Numerical Methods for Cauchy Problem]]
+[[Numerical Methods for Unbounded Advection Equation]]
 [[Splitting]]
 [[Kronecker Product]]
 missing some stuff around lecture 10 where he starts exponentiating matrices
