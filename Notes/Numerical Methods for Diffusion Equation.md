@@ -56,7 +56,7 @@ This method is [[Stability of Numerical Methods|stable]] for $l_{2}$ [[L norms|n
 #### Proof
 Look at eigenvalues of $A_{h}=I+\mu A_{*}$ noting that $A_{*}$ is a [[TST matrix]]. 
 The eigenvalues are of the form $1-4\mu\sin^2 \frac{\pi lh}{2}$, 
-and if $\frac{\mu>1}{2}$ we will have an eigenvalue of modulus >1 (for small enough $h$) 
+and if $\mu>\frac{1}{2}$ we will have an eigenvalue of modulus >1 (for small enough $h$) 
 which is not stable.
 
 ## Semidiscretization
