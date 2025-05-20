@@ -1,8 +1,9 @@
 Suppose we are solving the diffusion equation 
 $$
-u_{t}=a(x,y)u_{x x}+ b(x,y)u_{y y}
+u_{t}= \frac{\partial}{\partial x}(a(x,y)u_{x})+ \frac{\partial}{\partial y}(b(x,y)u_{y})
 $$
-### 
+### Constant diffusion
+Assume $a(x,y)=b(x,y)=1$ everywhere.
 Using the 5-point method, we get:
 $$
 u_{t}=\frac{1}{h^{2}}(A_{x}+A_{y})u
@@ -35,3 +36,14 @@ The stability is verified:
 $$
 \lVert r(\mu A_{x})r(\mu A_{y}) \rVert \leq \lVert r(\mu A_{x}) \rVert \lVert r(\mu A_{y}) \rVert \leq 1
 $$
+### Variable diffusion
+First replace all space derivatives by 
+$$
+\frac{dg(\xi)}{d\xi}= \frac{g(\xi+h /2) - g(\xi - h /2)}{h}
+$$
+to find the ODE system:
+$$
+u'_{l,m} = \frac{1}{h^{2}} (a_{l-1 /2, m} u_{l-1,m} + a_{l+ 1/ 2,m}u_{l+1,m} +\dots)
+$$
+Then $A_{x}$ and $A_{y}$ do not necessarily commute 
+(as they carry $a_{l,m\pm 1 /2}$)
