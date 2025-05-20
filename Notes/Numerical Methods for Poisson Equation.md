@@ -115,7 +115,10 @@ $$
 ### Hockney method
 We want to solve this FAST.
 
-Note that $B$ is a [[TST matrix]] and so we can diagonalize it, say $B=QDQ$ where $D$ is the diagonal of eigenvalues. Our equation (in block matrix form) becomes:
+Note that $B$ is a [[TST matrix]] and so we can diagonalize it, 
+say $B=QDQ$ where $D$ is the diagonal of eigenvalues. 
+We apply $Q_{d}=\operatorname{diag}(Q,Q, \dots, Q)$ 
+Our equation $Au=b$ (in block matrix form) becomes:
 $$
 \begin{pmatrix}
 D & I &  \\
@@ -137,6 +140,7 @@ c_{2} \\
 c_{m}
 \end{pmatrix}
 $$
+where $v=Qu$ and $c=Qb$.
 Note that $v_{i}$ and $c_{i}$ are both vectors of length $m$.
 Furthermore, we can make the matric tridiagonal! Rearrange the rows st (on RHS) the first $m$ indices are first components of vectors $c_{i}$, second $m$ indices are second components of vectors $c_{i}$ and so on. We basically bring the first eigen value to the first block, second eigenvalue to the second block etc, so we can write
 $$
