@@ -30,7 +30,9 @@ The method is stable iff $\lvert H(\theta) \rvert\leq 1$ for all $\theta \in[-\p
 One side is easy, due to the above calculations.
 In particular, using [[Parseval's Identity]]:
 $$
-\lVert u^{n} \rVert = \lVert \hat{u}^{n} \rVert = 
+\lVert u^{n} \rVert = \lVert \hat{u}^{n} \rVert 
+= \lvert H(\theta) \rvert ^{n} \lVert \hat{u}^{0} \rVert 
+\leq \lVert \hat{u}^{0} \rVert 
 $$
 
 Suppose now that $\lvert H(\theta_{0}) \rvert>1$ for some $\theta_{0}$. 
@@ -38,9 +40,15 @@ Find a small nbd $[\theta_{1},\theta_{2}]$ of $\theta_{0}$ where $\lvert H(\thet
 Now define $\hat{u}^{0}$ to be large on this nbd and 0 otherwise. 
 $$
 \hat{u}^{0}(\theta)=\begin{cases}
-\sqrt{ \frac{2\pi}{n} } &  \theta_{1}\leq \theta\leq \theta_{2} \\
+\sqrt{ \frac{2\pi}{\theta_{2}-\theta_{1} } } &  \theta_{1}\leq \theta\leq \theta_{2} \\
 0 & \text{otherwise}
 \end{cases}
+$$
+Now we calculate:
+$$
+\begin{align}
+\lVert \hat{u}^{n} \rVert ^{2} = \frac{1}{2\pi} \int_{-\pi}^{\pi} \lvert H(the) \rvert 
+\end{align}
 $$
 The integral will diverge so the method would be unstable.
 
