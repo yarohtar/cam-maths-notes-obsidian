@@ -46,13 +46,19 @@ B=
 $$
 We investigate this matrix, and try to prove that 
 this discrete version does converge to the actual solution when $h$ is small.
-[[Gershgorin Theorem]]
 ### Lemma
-For any ordering of the grid points, the matrix $A$ is symmetric and negative definite.
+For any ordering of the grid points, 
+the matrix $A$ is symmetric and negative definite.
 #### Proof
 Firstly note that $a_{ii}=-4$ for all $i$.
-Now for $i\neq j$, if $u_{i}$ and $u_{j}$ are neighbours then $a_{ij}=a_{ji}=1$, otherwise $a_{ij}=a_{ji}=0$, so $A$ is symmetric and has real eigenvalues.
-Now by [[Gershgorin Theorem]] the eigen values are at most $0$ (each row will have at most 4 entries that are $1$). Suppose now we have an eigenvalue 0 with eigenvector $x$. Let $i$ be the index st $x_i$ is the max absolute component of $x$. Then $x_j$ has to have the same modulus whenever $a_{ij}=1$. But then we can change $i$ to one of these and expand all the way to the boundary where we will get a contradiction.
+Now for $i\neq j$, if $u_{i}$ and $u_{j}$ are neighbours then $a_{ij}=a_{ji}=1$, 
+otherwise $a_{ij}=a_{ji}=0$, so $A$ is symmetric and has real eigenvalues.
+Now by [[Gershgorin Theorem]] the eigen values are at most $0$ 
+(each row will have at most 4 entries that are $1$). 
+Suppose now we have an eigenvalue 0 with eigenvector $x$. 
+Let $i$ be the index st $x_i$ is the max absolute component of $x$. 
+Then $x_j$ has to have the same modulus whenever $a_{ij}=1$. 
+But then we can change $i$ to one of these and expand all the way to the boundary where we will get a contradiction.
 
 ### Proposition (eigenvalues)
 The eigenvalues of $A$ are 
