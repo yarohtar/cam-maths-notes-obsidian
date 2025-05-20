@@ -27,6 +27,7 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Numerical Methods for Unbounded Advection Equation]]
 [[Numerical Methods for Unbounded Wave Equation]]
 
+[[Numerical Schemes as Approximations to Exp]]
 [[Splitting]]
 [[Kronecker Product]]
 missing some stuff around lecture 10 where he starts exponentiating matrices
