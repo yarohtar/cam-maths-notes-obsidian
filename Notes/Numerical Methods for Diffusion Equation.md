@@ -71,9 +71,31 @@ $$
 Now we can use the [[Euler method]] method to solve this, 
 (which yields a full discretization)
 but we can also use the [[Reverse-Euler Method]] 
-and have enhanced stability. 
-
+which yields:
+$$
+u^{n+1}_{m}-\mu(u^{n+1}_{m-1}-2u_{m}^{n+1}+u_{m+1}^{n+1})=u_{m}^{n}
+$$
+Reverse Euler has enchance
+This means that we can pick larger $\mu$ 
+i.e. we can have $k\approx h$
 Note that for [[Reverse-Euler Method]], 
 we would need to solve the linear system of equations 
 that arises from the implicit method.
-[[Crank-Nicolson method for diffusion equation]]
+### Crank Nicolson scheme
+[[Crank-Nicolson method]]
+Using the [[Trapezoidal rule (ODEs)]] after [[Semidiscretization]] we get:
+$$
+u_{m}^{n+1}-\frac{1}{2}\mu(u_{m-1}^{n+1}-2u_{m}^{n+1}+u_{m+1}^{n+1})=u_{m}^{n}+\frac{1}{2}\mu(u_{m-1}^n-2u_{m}^n+u_{m+1}^n)
+$$
+
+Define $B=I-\frac{1}{2}\mu A_{*}$ and $C=I+\frac{1}{2}\mu A_{*}$ where $A_{*}$ is a [[TST matrix]]
+Let $A=B^{-1}C$.
+Amazingly, $B$ and $C$ have the same set of eigenvectors, 
+hence $A$ also does, with eigenvalues given by:
+$$
+\lambda_{k}(A)=\frac{\lambda_{k}(C)}{\lambda_{k}(B)}=\frac{1-2\mu \sin ^{2} \frac{1}{2}\pi kh}{1+2\mu \sin ^{2} \frac{1}{2}\pi kh}\implies \lvert \lambda_{k}(A) \rvert \leq 1
+$$
+So this method is stable for any $\mu>0$!!! 
+
+See the rest of convergence proof in Lecture 6 notes 
+(its same as [[Lax Equivalence Theorem]] but its IMPROTANT FOR EXAMS)
