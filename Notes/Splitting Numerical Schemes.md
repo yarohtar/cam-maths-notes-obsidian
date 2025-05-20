@@ -6,9 +6,15 @@ for some matrix $A$.
 Often, $A$ is naturally represented as $A=B+C$.
 In [[Numerical Schemes as Approximations to Exp]],
 we want to find $e^{tA}=e^{t(B+C)}$
-
-
-
+Using [[Product of matrix exponentials]]:
+$$
+e^{tA} = e^{tB}e^{tC} + \frac{1}{2} t^{2}(CB-BC)+O(t^{3})
+$$
+and if $B$ and $C$ commute:
+$$
+e^{tA}=e^{tB}e^{tC}
+$$
+### Example
 Suppose we are solving the diffusion equation 
 $$
 u_{t}=u_{x x}+ u_{y y}
@@ -17,7 +23,13 @@ Using the 5-point method, we get:
 $$
 u_{t}=\frac{1}{h^{2}}(A_{x}+A_{y})u
 $$
-Now as $A_{x}$ and $A_{y}$ commute, using [[Product of matrix exponentials]] we can write the following numerical scheme:
+We can show that $A_{x}=G\otimes I$ and $A_{y}=I\otimes G$ 
+where $\otimes$ is [[Kronecker Product]].
+Then $A_{x}A_{y}=A_{y}A_{x}=G\otimes G$
+
+
+It can be shown that $A_{x}$ and $A_{y}$ commute.
+We can write the following numerical scheme:
 $$
 u^{n+1}=e^{k(A_{x}+A_{y})/h^{2}}u^n=e^{kA_{x}/h^{2}}e^{kA_{y}/h^{2}}u^n
 $$
