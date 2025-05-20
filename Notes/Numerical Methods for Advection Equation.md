@@ -7,7 +7,20 @@ with initial conditions $u(x,0)=u_{0}(x)$ for $t=0$
 and Dirichlet boundary conditions $u(0,t)=\phi_{0}(t)$ at $x=0$
 and $u(1,t)=\phi_{1}(t)$ at $x=1$
 
-
+## Euler instability
+Suppose we try 
+$$
+u_{m}^{n+1}-u_{m}^{n} = \mu(u_{m+1}^{n}-u_{m}^{n})
+$$
+We have $u^{n+1}=Au^{n}$ where
+$$
+A=\begin{pmatrix}
+1-\mu & \mu &  \\
+ & 1-\mu & \ddots \\
+ &  & \ddots & \mu \\
+ &  &  &  1-\mu
+\end{pmatrix}
+$$
 ## Crank-Nicolson method
 [[Crank-Nicolson method]]
 We use [[Semidiscretization]]:

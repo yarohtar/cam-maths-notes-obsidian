@@ -37,4 +37,4 @@ $$
 H(\theta)=1-\mu+\mu e^{i\theta}
 $$
 So $\lvert H(\theta) \rvert =\lvert 1-\mu+\mu e^{i\theta} \rvert \leq \lvert 1-\mu \rvert+\mu=1$ for $\mu \in[0,1]$.
-Hence we have stab
+Hence we have stability for $\mu\leq 1$, but instability for $\mu>1$
