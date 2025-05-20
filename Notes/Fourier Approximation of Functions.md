@@ -10,3 +10,13 @@ are [[Fourier Series]] coefficients.
 [[The de la Vallee Poussin Theorem]]
 [[Carlesson's Theorem]]
 [[Convergence at Spectral Speed]]
+### Lemma
+$$
+\hat{f}_{n} = \frac{1}{\pi in} \hat{f}'_{n} = \frac{1}{\pi in} \hat{f}''_{n} = \dots
+$$
+#### Proof
+Integration by parts.
+### Lemma
+For nice enough $f$, $\hat{f}_{n}$ decay faster than $O(n^{-p})$ for any $p \in \mathbb{N}$
+### Theorem
+For nice enough $f$, we have [[Convergence at Spectral Speed]].
