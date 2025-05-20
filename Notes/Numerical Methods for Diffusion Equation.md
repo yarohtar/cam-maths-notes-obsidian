@@ -55,10 +55,11 @@ Apply [[Lax Equivalence Theorem]].
 ### Theorem
 This method is [[Stability of Numerical Methods|stable]] for $l_{2}$ [[L norms|norm]] iff $\mu\leq \frac{1}{2}$.
 #### Proof
-Look at eigenvalues of $A_{h}=I+\mu A_{*}$ noting that $A_{*}$ is a [[TST matrix]]. 
-The eigenvalues are of the form $1-4\mu\sin^2 \frac{\pi lh}{2}$, 
-and if $\mu>\frac{1}{2}$ we will have an eigenvalue of modulus >1 (for small enough $h$) 
-which is not stable.
+Look at eigenvalues of $A_{h}=I+\mu A_{*}$ noting that $A_{*}$ is a [[TST matrix]] with $\alpha=-2$, $\beta=1$
+Eigenvalues of $A_{*}$ are $-4\sin ^{2} \frac{\pi lh}{2}$
+Hence the eigenvalues of $A_{h}$ are $\lambda_{l}=1-4\mu\sin^2 \frac{\pi lh}{2}$, 
+and if $\mu>\frac{1}{2}$ we will have an eigenvalue of modulus $>1$
+(for small enough $h$) which is not stable.
 
 ## Semidiscretization
 [[Semidiscretization]]
@@ -68,7 +69,10 @@ $$
 \frac{du_{m}}{dt} =\frac{1}{h^{2}}(u_{m-1}-2u_{m}+u_{m+1})
 $$
 Now we can use the [[Euler method]] method to solve this, 
-but we can also use the [[Reverse-Euler Method]] and have enhanced stability. 
+(which yields a full discretization)
+but we can also use the [[Reverse-Euler Method]] 
+and have enhanced stability. 
+
 Note that for [[Reverse-Euler Method]], 
 we would need to solve the linear system of equations 
 that arises from the implicit method.
