@@ -1,12 +1,13 @@
 For a $L$-periodic function $f$, we write:
 $$f(x)\sim \sum_n f_ne^{2\pi inx\over L}$$
-where $f_n=\frac 1 L <f,\ e^{2\pi i nx\over L}>$. Note that we are summing over $n\in\mathbb Z$.
+where $f_n=\frac 1 L \langle f,e^{2\pi inx/L} \rangle$. Note that we are summing over $n\in\mathbb Z$.
 
-Call $e_n(x)=e^{2\pi inx\over L}$. Then $<e_n,\ e_m>=L\delta_{nm}$.
-
+Call $e_n(x)=e^{2\pi inx\over L}$. 
+Then $\langle e_{n},e_{m} \rangle=L\delta_{nm}$.
 This is known as the complex Fourier series of $f$.
 
-By writing $a_n=f_n+f_{-n}$ and $b_n=i(f_n-f_{-n})$, we find the Fourier series of $f$:
+By writing $a_n=f_n+f_{-n}$ and $b_n=i(f_n-f_{-n})$, 
+we find the Fourier series of $f$:
 $$f(x)\sim \frac 1 2 a_0 + \sum_{n=1}^\infty a_n\cos{2\pi i n x\over L} + \sum_{n=1}^\infty b_n \sin{2\pi i nx\over L}$$
 where $a_n=\frac 2 L<f,\ \cos{2\pi nx\over L}>$ and $b_n=\frac 2 L <f,\ \sin{2\pi n x\over L}>$.
 
