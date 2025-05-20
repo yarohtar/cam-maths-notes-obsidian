@@ -14,10 +14,9 @@ and if $B$ and $C$ commute:
 $$
 e^{tA}=e^{tB}e^{tC}
 $$
-### Example
-
 ### Inhomogeneous case
-The above works for zero boundary conditions. If that was not the case, we would have something like:
+The above works for zero boundary conditions. 
+If that was not the case, we would have something like:
 $$
 u'=Au+b
 $$
@@ -27,6 +26,10 @@ $$
 u(t)=e^{tA}u(0)+\int_{0}^te^{(t-s)A}b(s)ds
 $$
 we can approximate this by:
+$$
+u^{n+1}=e^{kA}u^{n}+\int_{t_{n}}^{t_{n+1}} e^{(t_{n+1}-s)A}b(s)ds
+$$
+Then for example use trapezoidal rule to find:
 $$
 u^{n+1}=e^{kA}u^{n}+\frac{1}{2}k[e^{kA}b(t_{n})+b(t_{n+1})]
 $$

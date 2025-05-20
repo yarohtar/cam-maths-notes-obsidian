@@ -46,4 +46,12 @@ $$
 u'_{l,m} = \frac{1}{h^{2}} (a_{l-1 /2, m} u_{l-1,m} + a_{l+ 1/ 2,m}u_{l+1,m} +\dots)
 $$
 Then $A_{x}$ and $A_{y}$ do not necessarily commute 
-(as they carry $a_{l,m\pm 1 /2}$)
+so by [[Product of matrix exponentials]]:
+$$
+u^{n+1}e^{kA_{x}/h^{2}}e^{kA_{y}/h^{2}}u^{n}
+$$
+has an error $O(k^{2})$
+We can find a better approximation, for example:
+$$
+e^{t(B+C)} = e^{tB/2}e^{tC}e^{tB/2} + O(t^{3})
+$$
