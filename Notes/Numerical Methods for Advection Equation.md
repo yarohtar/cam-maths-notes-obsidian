@@ -21,6 +21,9 @@ A=\begin{pmatrix}
  &  &  &  1-\mu
 \end{pmatrix}
 $$
+But $A$ is not [[Normal Matrix]]. 
+The eigenvalues of $A$ are bounded by $1$ for $\mu\leq 2$ 
+but the $\lVert A \rVert_{\infty}$ is $\lvert 1-\mu \rvert+\mu$ which is only $\leq 1$ for $\mu\leq 1$.
 ## Crank-Nicolson method
 [[Crank-Nicolson method]]
 We use [[Semidiscretization]]:
