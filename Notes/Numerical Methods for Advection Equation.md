@@ -6,6 +6,7 @@ for $0\leq x\leq 1$ and $t\geq 0$
 with initial conditions $u(x,0)=u_{0}(x)$ for $t=0$
 and Dirichlet boundary conditions $u(0,t)=\phi_{0}(t)$ at $x=0$
 and $u(1,t)=\phi_{1}(t)$ at $x=1$
+Note that the exact solution is $u(x,t)=\phi(x+t)$
 
 
 ## Crank-Nicolson method
@@ -46,3 +47,4 @@ $$
 \lvert \lambda_{k}(A) \rvert =1
 $$
 $A$ is also [[Normal Matrix]] so $\rho(A)=1$, thus the method is stable.
+## 
