@@ -27,10 +27,21 @@ $$
 ### Theorem
 The method is stable iff $\lvert H(\theta) \rvert\leq 1$ for all $\theta \in[-\pi,\pi]$.
 #### Proof
-One side is easy, due to the above calculations and [[Parseval's Identity]].
+One side is easy, due to the above calculations.
+In particular, using [[Parseval's Identity]]:
+$$
+\lVert u^{n} \rVert = \lVert \hat{u}^{n} \rVert = 
+$$
 
-Suppose now that $\lvert H(\theta_{0}) \rvert>1$ for some $\theta_{0}$. Find a small nbd of $\theta_{0}$ where $\lvert H(\theta) \rvert>1+\epsilon$. 
+Suppose now that $\lvert H(\theta_{0}) \rvert>1$ for some $\theta_{0}$. 
+Find a small nbd $[\theta_{1},\theta_{2}]$ of $\theta_{0}$ where $\lvert H(\theta) \rvert>1+\epsilon$. 
 Now define $\hat{u}^{0}$ to be large on this nbd and 0 otherwise. 
+$$
+\hat{u}^{0}(\theta)=\begin{cases}
+\sqrt{ \frac{2\pi}{n} } &  \theta_{1}\leq \theta\leq \theta_{2} \\
+0 & \text{otherwise}
+\end{cases}
+$$
 The integral will diverge so the method would be unstable.
 
 # Multi-step
