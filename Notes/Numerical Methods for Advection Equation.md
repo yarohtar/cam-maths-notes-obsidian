@@ -18,6 +18,9 @@ and [[Trapezoidal rule (ODEs)]]
 $$
 u_{m}^{n+1}-u_{m}^{n}=\frac{1}{4} \mu(u_{m+1}^{n+1}-u_{m-1}^{n+1}) + \frac{1}{4}\mu(u_{m+1}^{n}-u_{m-1}^{n})
 $$
+### Lemma
+This is stable for all $\mu>0$.
+#### Proof
 We find $u^{n+1}=B^{-1}Cu^{n}$ 
 where $B$ and $C$ are [[TAntiST Matrix]] and hence [[Normal Matrix]]
 $$
@@ -35,8 +38,11 @@ C=\begin{pmatrix}
  &  & -\frac{1}{4}\mu & 1
 \end{pmatrix}
 $$
-Then $A=B^{-1}C$ is also [[Normal Matrix]] 
-and shares its eigenvectors with $B$ and $C$ so:
+Then $A=B^{-1}C$ shares its eigenvectors with $B$ and $C$ so:
 $$
-\lambda_{k}(A)=\frac{\lambda_{k}(C)}{}
+\lambda_{k}(A)=\frac{\lambda_{k}(C)}{\lambda_{k}(B)} = \frac{1+\frac{1}{2}i\mu \cos kx}{1-\frac{1}{2}\mu \cos kx}
 $$
+$$
+\lvert \lambda_{k}(A) \rvert =1
+$$
+$A$ is also [[Normal Matrix]] so $\rho(A)=1$, thus the method is stable.

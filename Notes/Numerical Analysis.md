@@ -12,13 +12,16 @@
 Lecture slides on link:
 https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 
+
 [[Numerical Methods for Poisson Equation]]
 [[Discrete Fourier Transform]]
-[[Numerical Methods for Diffusion Equation]]
-[[Numerical Methods for Advection Equation]]
-[[Lax Equivalence Theorem]]
+
 [[Stability of Numerical Methods]]
 [[Consistency of Numerical Methods]]
+[[Lax Equivalence Theorem]]
+[[Numerical Methods for Diffusion Equation]]
+[[Numerical Methods for Advection Equation]]
+
 [[Fourier Analysis of Stability]]
 [[Splitting]]
 [[Kronecker Product]]

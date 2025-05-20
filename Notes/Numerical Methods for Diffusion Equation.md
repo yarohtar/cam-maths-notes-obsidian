@@ -61,7 +61,7 @@ Hence the eigenvalues of $A_{h}$ are $\lambda_{l}=1-4\mu\sin^2 \frac{\pi lh}{2}$
 and if $\mu>\frac{1}{2}$ we will have an eigenvalue of modulus $>1$
 (for small enough $h$) which is not stable.
 
-## Semidiscretization
+## Semidiscretization (with Euler)
 [[Semidiscretization]]
 Write $u_{m}(t)$ for $u(mh,t)$.
 Then we can make the equation into:
@@ -81,7 +81,7 @@ i.e. we can have $k\approx h$
 Note that for [[Reverse-Euler Method]], 
 we would need to solve the linear system of equations 
 that arises from the implicit method.
-### Crank Nicolson scheme
+## Crank Nicolson scheme
 [[Crank-Nicolson method]]
 Using the [[Trapezoidal rule (ODEs)]] after [[Semidiscretization]] we get:
 $$
