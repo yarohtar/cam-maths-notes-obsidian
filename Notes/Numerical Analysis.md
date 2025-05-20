@@ -22,7 +22,7 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Numerical Methods for Diffusion Equation]]
 [[Numerical Methods for Advection Equation]]
 
-[[Numerical Methods for Unbounded Diffusion Equation]]
+[[Numerical Methods for Cauchy Problem]]
 
 [[Fourier Analysis of Stability]]
 [[Splitting]]

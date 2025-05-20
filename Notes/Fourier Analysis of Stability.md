@@ -13,7 +13,7 @@ LHS & =\sum_{m}e^{-im\theta}\sum_{k=r}^{s} a_{k}u_{m+k}^{n+1} \\
  & =\sum_{k=r}^{s}a_{k}\sum_{m}e^{-i(m-k)\theta}u_{m}^{n+1} \\
  & \left( \sum_{k=r}^{s}a_{k}e^{ik\theta} \right)\hat{u} ^{n+1}(\theta) \\
  \\
-RHS & =\left( \sum_{k=r}^{s}b_{k}e^{ik\theta} \right)\hat{u}^{n+1}(\theta)
+RHS & =\left( \sum_{k=r}^{s}b_{k}e^{ik\theta} \right)\hat{u}^{n}(\theta)
 \end{align}
 $$
 Hence we find:
