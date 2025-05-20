@@ -60,7 +60,8 @@ Suppose for some $i$, $x_{i}$ is the max absolute component of $x$.
 Then all its neighbours $x_{j}$ have $a_{ij}=1$ so $\lvert x_{i} \rvert=\lvert x_{j} \rvert$.
 We can traverse the whole grid like this, 
 thus all the components have the same norm.
-
+But then there is a row $i$ of $A$ where $a_{ij}=1$ for only $2$ values of $j$,
+so in that row we cannot have $(Ax)_{i}=0$.
 ### Proposition (eigenvalues)
 The eigenvalues of $A$ are 
 $$
