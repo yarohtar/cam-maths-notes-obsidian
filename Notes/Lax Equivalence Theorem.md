@@ -21,5 +21,6 @@ Then, assuming $\lVert e^{0} \rVert=0$, we have
 $$
 \lVert e^{n} \rVert\leq \lVert \eta^{n-1} \rVert+\dots+\lVert \eta^{0} \rVert\leq nck^{2}
 $$
-for some constant $c>0$.
+for some constant $c>0$ 
+and local truncation errors $\eta^{t}=\hat{u}^{t+1}-A_{h}\hat{u}^{t}$
 Since $n\leq \frac{T}{k}$, we get $\lVert e^{n} \rVert\leq cTk$, which shows convergence. 
