@@ -32,5 +32,6 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Numerical Schemes for 2D Diffusion Equation]]
 
 [[Spectral Numerical Methods]]
+[[Fourier Approximation of Functions]]
 [[Chebyshev Polynomials]]
 [[Numerical Linear Algebra]]

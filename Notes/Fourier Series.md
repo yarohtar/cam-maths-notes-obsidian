@@ -1,6 +1,7 @@
 For a $L$-periodic function $f$, we write:
-$$f(x)\sim \sum_n f_ne^{2\pi inx\over L}$$
-where $f_n=\frac 1 L \langle f,e^{2\pi inx/L} \rangle$. Note that we are summing over $n\in\mathbb Z$.
+$$f(x)\sim \sum_n \hat{f}_ne^{2\pi inx\over L}$$
+where $\hat{f}_n=\frac 1 L \langle f,e^{2\pi inx/L} \rangle$. 
+Note that we are summing over $n\in\mathbb Z$.
 
 Call $e_n(x)=e^{2\pi inx\over L}$. 
 Then $\langle e_{n},e_{m} \rangle=L\delta_{nm}$.
