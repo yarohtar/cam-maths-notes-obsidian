@@ -1,4 +1,4 @@
-For a $L$-periodic function $f$, we write:
+For an $L$-periodic function $f$, we write:
 $$f(x)\sim \sum_n \hat{f}_ne^{2\pi inx\over L}$$
 where $\hat{f}_n=\frac 1 L \langle f,e^{2\pi inx/L} \rangle$. 
 Note that we are summing over $n\in\mathbb Z$.
