@@ -38,7 +38,7 @@ $$
 where $\mathcal{E}=\{ i: e_{i}=1 \}$.
 ### Theorem
 Suppose $\operatorname{deg}\sigma=\lvert \mathcal{E} \rvert\leq t$ where $2t+1\leq\delta$.
-$\sigma(X)$ has constant term 1 and satisfies:
+$\sigma(X)$ has constant term $1$ and satisfies:
 $$
 \sigma(X)\sum_{j=1}^{2t} r(\alpha^{j})X^{j}=w(X) \pmod{X^{2t+1}}
 $$
