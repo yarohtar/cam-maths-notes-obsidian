@@ -37,7 +37,7 @@ So $\lvert F_{2} \rvert=O(e^{-\epsilon x})$
 
 In both cases, $F_{2}$ is small beyond all orders.
 
-##### Step 2
+## $F_{1}$ contribution
 Want to show
 $$
 \frac{F_{1}-\sum a_{n} \frac{\Gamma(\alpha+\beta n+1)}{x^{\alpha+\beta n+1}}}{x^{-\alpha-\beta n-1}}\to 0
