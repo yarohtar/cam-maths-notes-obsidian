@@ -16,21 +16,22 @@ $$
 F(x)\sim \sum_{n=0}^{\infty} a_{n} \frac{\Gamma(\alpha+\beta n+1)}{x^{\alpha+\beta n+1}}
 $$
 
-#### Proof
+# Proof / Method
 No elegance, just suffering
+## Split the problem
 $$
 \begin{align}
 F(x) & =\int_{0}^\epsilon fe^{-xt}dt+\int_{\epsilon}^Tfe^{-xt}dt \\
  & =F_{1}+F_{2}
 \end{align}
 $$
-##### Step 1
-Show $F_{2}$ is small
-###### Case 1
+We expect $F_{1}$ to be the main contribution, and $F_{2}$ small.
+## $F_{2}$ is small
+### Case 1
 $\lvert F_{2} \rvert\leq \int_{\epsilon}^TKe^{bt-xt}\leq \int_{\epsilon}^\infty Ke^{bt-xt}$
 Assuming $x>b$ we can integrate this and get
 $\lvert F_{2} \rvert\leq \frac{K}{x-b}e^{(b-x)\epsilon}$ ie $\lvert F_{2} \rvert=O\left( \frac{e^{-\epsilon x}}{x} \right)$#
-###### Case 2
+### Case 2
 $\lvert F_{2} \rvert\leq \int_{\epsilon}^T\lvert f \rvert e^{-xt}dt\leq e^{-\epsilon x}\int_{\epsilon}^T\lvert f \rvert dt$
 So $\lvert F_{2} \rvert=O(e^{-\epsilon x})$
 

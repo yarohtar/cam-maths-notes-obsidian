@@ -4,6 +4,10 @@ F(x) = \int_{a}^{b} f(t)e^{x\phi(t)} dt
 $$
 and we want to find [[Asymptotic Approximation]] of $F$ 
 when $x\to \infty$
+
+We assume that zeros and singularities of $f$ are not problematic.
+If they are, we need to account for them separately.
+Best way to do this is by some [[Watson's lemma]] type argument.
 # The method
 ## Draw picture of $\phi(t)$
 We want to figure out the most important features of $\phi$ 
