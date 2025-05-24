@@ -3,7 +3,7 @@ Then:
 $$
 \int_{a}^{b} f(t) e^{ix\phi(t)}dt \sim \frac{1}{ix} \left( \frac{f(b)}{\phi'(b)} e^{ix\phi(b)} - \frac{f(a)}{\phi'(a)}e^{ix\phi(a)} \right)
 $$
-# Proof
+### Proof
 $\phi$ is a bijection -> use substitute $u=\phi(t)$.
 The inverse function rule gives:
 $$
