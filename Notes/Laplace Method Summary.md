@@ -19,5 +19,21 @@ $$
 x\phi(t) \sim x\phi(c) + xA_{p}(t-c)^{p} + xA_{p+1}(t-c)^{p+1} + \dots
 $$
 up to appropriate number of terms. 
-Note that we take $A_{n}=\phi^{(n)}(c)$ and $p$ is the 
+Note that we take $A_{n}=\phi^{(n)}(c)$ and $p$ is the first nonzero term.
 ## Change variables
+Use the change of variables:
+$$
+t=c+x^{-1/p}u
+$$
+and don't forget also $dt=x^{-1/p}du$.
+Note that the boundary now becomes large.
+The integrand becomes:
+$$
+\exp\left( x\phi(c) + A_{p} u^{p} + A_{p+1} \frac{u^{p+1}}{x^{1/p}} + A_{p+2} \frac{u^{p+2}}{x^{2/p}} + O\left(  \frac{u^{p+3}}{x^{3/p}} \right) \right)
+$$
+## Taylor expand
+Use $e^{z}=1+z+\frac{z^{2}}{2}+\dots$ on terms past $A_{p}u^{p}$ to get:
+$$
+e^{x\phi(c)+A_{p}u^{p}} \left( 1+ \frac{A_{p+1}u^{p+1}}{x^{1/p}} + \dots \right)
+$$
+## Calculate the integrals
