@@ -2,8 +2,14 @@ The Gamma function is an analytic way to represent factorials.
 $$
 \Gamma(\xi)=\int_{0}^\infty t^{\xi-1}e^{-t}dt
 $$
+This is analytic for $\mathrm{Re}(\xi)>0$.
+It satisfies the functional equation:
+$$
+z\Gamma(z)=\Gamma(z+1)
+$$
+(as expected)
+Also $\Gamma(1)$
 ### Properties
-- $\Gamma$ is analytic for $\mathrm{Re}(\xi)>0$
 - $\Gamma(\xi+1)=\xi \Gamma(\xi)$
 - $\Gamma(n+1)=n!$
 - $\int_{0}^\infty t^{\xi-1}e^{-xt}dt=\frac{\Gamma(\xi)}{x^{\xi}}$ for $x>0$
