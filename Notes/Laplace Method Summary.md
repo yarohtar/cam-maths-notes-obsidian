@@ -37,3 +37,14 @@ $$
 e^{x\phi(c)+A_{p}u^{p}} \left( 1+ \frac{A_{p+1}u^{p+1}}{x^{1/p}} + \dots \right)
 $$
 ## Calculate the integrals
+We first replace each boundary of form $x^{1/p}\epsilon$ with $\infty$.
+This leaves us with integrals of form:
+$$
+\int_{0}^{\infty} u^{n} e^{-Au^{p}} du = \frac{A^{-(n+1)/p}}{p} \Gamma\left( \frac{n+1}{p} \right)
+$$
+$$
+\int_{-\infty}^{\infty} u^{2m} e^{-Au^{2q}} du = \frac{A^{-(2m+1)/(2q)}}{q} \Gamma\left( \frac{2m+1}{2q} \right)
+$$
+$$
+\int_{-\infty}^{\infty} u^{2m+1} e^{-Au^{2q}}du = 0
+$$ 
