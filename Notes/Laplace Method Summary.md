@@ -14,3 +14,10 @@ as well as the endpoints $a$ and $b$
 ## Truncation
 We split the integral into small sections around the maxima
 ## Expansion
+For each maximum $c$, write:
+$$
+x\phi(t) \sim x\phi(c) + xA_{p}(t-c)^{p} + xA_{p+1}(t-c)^{p+1} + \dots
+$$
+up to appropriate number of terms. 
+Note that we take $A_{n}=\phi^{(n)}(c)$ and $p$ is the 
+## Change variables
