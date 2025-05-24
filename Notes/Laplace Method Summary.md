@@ -1,10 +1,14 @@
 We have an integral of the form
 $$
-F(x) = \int_{a}^{b} e^{x\phi(t)} dt
+F(x) = \int_{a}^{b} f(t)e^{x\phi(t)} dt
 $$
 and we want to find [[Asymptotic Approximation]] of $F$ 
 when $x\to \infty$
 # The method
+We will assume $f(t)=1$, but if $f$ is involved, we Taylor expand:
+$$
+f()
+$$
 ## Draw picture of $\phi(t)$
 We want to figure out the most important features of $\phi$ 
 ## Find the significant points
@@ -19,7 +23,8 @@ $$
 x\phi(t) \sim x\phi(c) + xA_{p}(t-c)^{p} + xA_{p+1}(t-c)^{p+1} + \dots
 $$
 up to appropriate number of terms. 
-Note that we take $A_{n}=\phi^{(n)}(c)$ and $p$ is the first nonzero term.
+Note that we take $A_{n}=\frac{\phi^{(n)}(c)}{n!}$ and $p$ is the first nonzero term.
+Crucially, $p$ is even (otherwise $c$ is a saddle, not a max)
 ## Change variables
 Use the change of variables:
 $$
