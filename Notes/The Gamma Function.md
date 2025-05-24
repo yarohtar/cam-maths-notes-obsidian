@@ -22,18 +22,17 @@ $$
 \Gamma(z)\Gamma\left( z+\frac{1}{2} \right) = 2^{1-2z} \sqrt{ \pi } \Gamma(2z)
 $$
 ### Useful integral
+For $\mathrm{Re}(a)>0$ and $p>0$:
 $$
-\int_{0}^{\inf} e^{-ax}
+\int_{0}^{\infty} e^{-ax^{p}}dx = a^{-1 /p} \Gamma\left( 1+ \frac{1}{p} \right)
 $$
-### Properties
-- $\Gamma(\xi+1)=\xi \Gamma(\xi)$
-- $\Gamma(n+1)=n!$
-- $\int_{0}^\infty t^{\xi-1}e^{-xt}dt=\frac{\Gamma(\xi)}{x^{\xi}}$ for $x>0$
-- Generalizes the binomial coefficients: 
+### Binomial coefficient
 $$
 {\xi \choose k}=\frac{1}{k!} \frac{\Gamma(\xi+1)}{\Gamma(\xi-k+1)} 
 $$
-for $k=0,1,\dots$  and $\xi \in \mathbb{C}$
-- $(1+t)^{\xi}=\sum_{k=0}^{\infty}{\xi \choose k}t^k$
+It also works with:
+$$
+(1+t)^{\xi}=\sum_{k=0}^{\infty}{\xi \choose k}t^k
+$$
 
 
