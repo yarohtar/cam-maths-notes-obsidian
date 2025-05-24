@@ -23,5 +23,12 @@ $$
 ## Use substitution
 Substitute
 $$
-t= c+ s x^{-1/2}
+t= c+ s x^{-1/2} \left(- \frac{\phi''(c)}{2} \right)^{-1/2}
 $$
+We should be left with an integral of form
+$$
+\int_{-\infty}^{\infty} e^{-is^{2}}ds
+$$
+which we solve using [[The Fresnel Integrals]].
+Note that we did have to choose a suitable $\epsilon$ for this to work,
+but the exact $\epsilon$ doesn't really matter.
