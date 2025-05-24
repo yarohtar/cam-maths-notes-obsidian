@@ -5,10 +5,6 @@ $$
 and we want to find [[Asymptotic Approximation]] of $F$ 
 when $x\to \infty$
 # The method
-We will assume $f(t)=1$, but if $f$ is involved, we Taylor expand:
-$$
-f()
-$$
 ## Draw picture of $\phi(t)$
 We want to figure out the most important features of $\phi$ 
 ## Find the significant points
@@ -19,6 +15,9 @@ as well as the endpoints $a$ and $b$
 We split the integral into small sections around the maxima
 ## Expansion
 For each maximum $c$, write:
+$$
+f(t) = f(c) + f'(c) (t-c) + \frac{1}{2} f''(c)(t-c)^{2} +\dots
+$$
 $$
 x\phi(t) \sim x\phi(c) + xA_{p}(t-c)^{p} + xA_{p+1}(t-c)^{p+1} + \dots
 $$
@@ -32,7 +31,7 @@ t=c+x^{-1/p}u
 $$
 and don't forget also $dt=x^{-1/p}du$.
 Note that the boundary now becomes large.
-The integrand becomes:
+The exp bit of the integrand becomes:
 $$
 \exp\left( x\phi(c) + A_{p} u^{p} + A_{p+1} \frac{u^{p+1}}{x^{1/p}} + A_{p+2} \frac{u^{p+2}}{x^{2/p}} + O\left(  \frac{u^{p+3}}{x^{3/p}} \right) \right)
 $$
@@ -41,6 +40,7 @@ Use $e^{z}=1+z+\frac{z^{2}}{2}+\dots$ on terms past $A_{p}u^{p}$ to get:
 $$
 e^{x\phi(c)+A_{p}u^{p}} \left( 1+ \frac{A_{p+1}u^{p+1}}{x^{1/p}} + \dots \right)
 $$
+We now multiply this by the Taylor expansion of $f(t)$
 ## Calculate the integrals
 We first replace each boundary of form $x^{1/p}\epsilon$ with $\infty$.
 This leaves us with integrals of form:
