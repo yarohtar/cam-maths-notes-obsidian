@@ -19,5 +19,18 @@ S(x) = \frac{S(1)}{\sqrt{ x }}
 $$
 Now to evaluate $C(1)$ we note:
 $$
-
+\frac{1}{\sqrt{ s }} = \frac{1}{\sqrt{ \pi }} \int_{-\infty}^{\infty} e^{-s\lambda^{2}} d\lambda
 $$
+Now sub that into the above expression, 
+change order of integration
+and do some integration by parts
+Should get 
+$$
+C(1) = \sqrt{ \frac{\pi}{2} }
+$$
+Similarly, $S(1)=C(1)$
+By adding and subtracting these integrals we get:
+$$
+\int_{-\infty}^{\infty} e^{\pm ixt^{2}}dt =C(x) + iS(x) = (1\pm i) \sqrt{ \frac{\pi}{2x} }
+$$
+
