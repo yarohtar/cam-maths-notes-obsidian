@@ -10,4 +10,7 @@ We want to figure out the most important features of $\phi$
 ## Find the significant points
 We want to find all the global maxima of $\phi$.
 This may include local maxima in $(a,b)$ 
-as well as the endpoints 
+as well as the endpoints $a$ and $b$
+## Truncation
+We split the integral into small sections around the maxima
+## Expansion
