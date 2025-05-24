@@ -19,9 +19,9 @@ We can keep integrating by parts to find
 $$
 F(x)\sim \frac{e^{-x^{2}/2}}{x}\sum_{n}(-1)^n \frac{(2n-1)!!}{x^{2n}}
 $$
-(this diverges ...)
+(this diverges, but that is okay as we can [[Optimal Truncation]])
 ### Example
-Find the behaviour of $I(x)\int_{a}^\mathbf{(t)e^{xt}dt}$ as $x\to \infty$, for $f(b)\neq 0$.
+Find the behaviour of $I(x)=\int_{a}^b f{(t)e^{xt}dt}$ as $x\to \infty$, for $f(b)\neq 0$.
 As $x\to \infty$, the integrand is dominated by a small region near $x=b$. 
 $$
 I(x)\approx f(b)\int_{a}^be^{xt}dt\sim f(b)\frac{e^{xb}}{x}

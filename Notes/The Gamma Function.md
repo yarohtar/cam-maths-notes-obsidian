@@ -1,3 +1,4 @@
+The Gamma function is an approximation of 
 $$
 \Gamma(\xi)=\int_{0}^\infty t^{\xi-1}e^{-t}dt
 $$
