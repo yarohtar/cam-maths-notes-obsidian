@@ -3,9 +3,10 @@ $$
 F(x)=\int_{a}^{b}f(t)e^{ix\phi(t)}dt
 $$
 where $\phi$ is stationary at a point $c\in(a,b)$.
-Suppose that $\phi''(c)\neq0$
 
 # Method
+Suppose that $\phi''(c)\neq0$
+It is very similar if $c$ is of higher order.
 ## Taylor expand
 Write:
 $$

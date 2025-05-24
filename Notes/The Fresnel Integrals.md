@@ -33,4 +33,15 @@ By adding and subtracting these integrals we get:
 $$
 \int_{-\infty}^{\infty} e^{\pm ixt^{2}}dt =C(x) + iS(x) = (1\pm i) \sqrt{ \frac{\pi}{2x} }
 $$
-
+### More generally
+By defining
+$$
+C_{p}(x) = \int_{-\infty}^{\infty} \cos(xt^{p}) dt
+$$
+$$
+S_{p}(x) = \int_{-\infty}^{\infty} \sin(xt^{p}) dt
+$$
+We can find:
+$$
+\int_{0}^{\infty} e^{\pm ixt^{p}} = C_{p}(x) \pm iS_{p}(x) = \frac{1}{x^{1/p}} e^{\pm i\pi/(2p)} \Gamma\left( 1+\frac{1}{p} \right)
+$$
