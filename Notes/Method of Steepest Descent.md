@@ -6,4 +6,12 @@ where $C$ is a curve in $\mathbb{C}$.
 The size of the integrand $e^{x\phi(z)}$ 
 is determined by the real part of $\phi(z)$
 Write $\phi(p+iq)=u(p,q)+iv(p,q)$
-The path of steepest descent is the one where $$
+We want $u$ to be small
+Path of steepest descent is the one where $u$ decreases rapidly 
+So we look for the direction $-\nabla u$ i.e. curves parallel to $\nabla u$
+Due to [[Cauchy-Riemann Equations]]
+$$
+\nabla u \cdot \nabla v = u_{p} v_{p} + u_{q} v_{q} = 0
+$$
+so we are looking for curves perpendicular to $\nabla v$
+But these are curves of constant $v$.
