@@ -55,7 +55,8 @@ Apply [[Lax Equivalence Theorem]].
 ### Theorem
 This method is [[Stability of Numerical Methods|stable]] for $l_{2}$ [[L norms|norm]] iff $\mu\leq \frac{1}{2}$.
 #### Proof
-Look at eigenvalues of $A_{h}=I+\mu A_{*}$ noting that $A_{*}$ is a [[TST matrix]] with $\alpha=-2$, $\beta=1$
+Look at eigenvalues of $A_{h}=I+\mu A_{*}$ 
+noting that $A_{*}$ is a [[TST matrix]] with $\alpha=-2$, $\beta=1$
 Eigenvalues of $A_{*}$ are $-4\sin ^{2} \frac{\pi lh}{2}$
 Hence the eigenvalues of $A_{h}$ are $\lambda_{l}=1-4\mu\sin^2 \frac{\pi lh}{2}$, 
 and if $\mu>\frac{1}{2}$ we will have an eigenvalue of modulus $>1$
