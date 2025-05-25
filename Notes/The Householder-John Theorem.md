@@ -9,6 +9,7 @@ Write:
 $$
 -Bw = \lambda(A-B) w
 $$
+As $Aw\neq 0$ we find that $\lambda\neq 1$ so:
 $$
 Bw = \frac{\lambda}{\lambda-1} Aw
 $$
@@ -32,6 +33,8 @@ Apply this to $(A-B-B^{T})$:
 $$
 \begin{align}
 0 & <w^{\dagger} (A-B-B^{T}) w  \\
- & =\left( 1- \frac{\lambda}{} \right)
+ & =\left( 1- \frac{\lambda}{\lambda-1} - \frac{\bar{\lambda}}{\bar{\lambda}-1} \right) w^{\dagger}Aw \\
+ & = \frac{1-\lvert \lambda \rvert ^{2}}{\lvert \lambda-1 \rvert ^{2}} w^{\dagger}Aw
 \end{align}
 $$
+As $\lvert \lambda-1 \rvert ^{2}>0$ and $w^{\dagger}Aw>0$ we find $\lvert \lambda \rvert<1$
