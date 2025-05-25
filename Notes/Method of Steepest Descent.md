@@ -6,3 +6,4 @@ where $C$ is a curve in $\mathbb{C}$.
 The size of the integrand $e^{x\phi(z)}$ 
 is determined by the real part of $\phi(z)$
 Write $\phi(p+iq)=u(p,q)+iv(p,q)$
+The path of steepest descent is the one where $$
