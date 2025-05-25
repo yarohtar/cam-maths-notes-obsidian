@@ -1,4 +1,7 @@
-If $A$ and $B$ are real matrices such that both $A$ and $A-B-B^T$ are symmetric positive definite, then the spectral radius of $H=-(A-B)^{-1}B$ is strictly less than one.
+Let $A$ and $B$ are real matrices such that 
+both $A$ and $A-B-B^T$ are symmetric positive definite.
+Define $H=-(A-B)^{-1}B$.
+Then $\rho(H) < 1$
 #### Proof
 LEcture 17
 
