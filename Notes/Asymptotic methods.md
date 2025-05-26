@@ -1,6 +1,6 @@
-[[Asymptotic Expansion]]
 [[Asymptotic Sequence]]
 [[Asymptotic Approximation]]
+[[Asymptotic Expansion]]
 [[Approximating Integrals]]
 [[The Gamma Function]]
 [[Watson's lemma]]
