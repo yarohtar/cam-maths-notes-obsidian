@@ -1,7 +1,9 @@
-Consider $$
+Consider 
+$$
 F(x)=\int_{0}^Tf(t)e^{-xt}dt
 $$
-Suppose $$
+Suppose 
+$$
 f(t)\sim t^\alpha \sum_{n=0}^{\infty}a_{n}t^{n\beta} \quad %quad
 \text{ as } \quad %quad
 t\to 0^{+}
