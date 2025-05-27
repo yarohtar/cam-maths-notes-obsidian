@@ -25,6 +25,7 @@ Two kinds:
 ## Stuff
 [[Sentence]]
 [[Structure]]
+[[Interpretation]]
 [[Semantic Enailment (First-order logic)]]
 [[Syntactic Entailment (First-order Logic)]]
 [[Soundness Theorem (First-order Logic)]]
