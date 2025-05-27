@@ -27,16 +27,20 @@ Also $\bar{S}$ is consistent: if $\bar{S}\vdash \bot$ then as proofs are finite,
 We seek a maximal consistent set $\bar{S}\supseteq S$. 
 Let $X=\{ T\subseteq L:T\text{ consistent and }S\subseteq T \}$
 partially ordered by $\subseteq$.
-$X\neq \emptyset$ since $S\in X$
-Let $C=\{ T_{i}:i\in I \}$ be a nonempty chain in $X$. We show $T=\bigcup_{i\in I}T_{i}$ is an [[Upper Bound]]: 
+$X\neq \emptyset$ since $S\subseteq X$
+Let $C=\{ T_{i}:i\in I \}$ be a nonempty [[Chain]] in $X$. 
+We show $T=\bigcup_{i\in I}T_{i}$ is an [[Upper Bound]]: 
 $S\subseteq T$, $T_{i}\subseteq T$, it remains to show that $T$ is consistent.
 If $T\vdash \bot$, then as proofs are finite there are some $i_{1},\dots i_{n}\in I$
-s.t. $\bigcup_{j=1}^{n}T_{i_{j}}\vdash \bot$. Since $C$ is a chain there is some $k$ such that $T_{i_{k}}\vdash \bot$
+s.t. $\bigcup_{j=1}^{n}T_{i_{j}}\vdash \bot$. 
+Since $C$ is a chain there is some $k$ such that $T_{i_{k}}\vdash \bot$
+Thus $T$ is consistent.
 By [[Zorn's Lemma]], $X$ has a maximal element $\bar{S}$
 Now for any $t\in L$, either $\bar{S}\cup \{ t \}$ or $\bar{S}\cup \{ \neg t \}$ is consistent,
-otherwise $\bar{S}\vdash \neg t$ and $\bar{S}\vdash \neg \neg t$ by the [[Deduction Theorem (Propositional Logic)]]. then $\bar{S}\vdash \bot$ by MP.
+otherwise $\bar{S}\vdash \neg t$ and $\bar{S}\vdash \neg \neg t$ 
+by the [[Deduction Theorem (Propositional Logic)]]
+Then $\bar{S}\vdash \bot$ by MP.
 It follows from maximality of $\bar{S}$ that either $t\in \bar{S}$ or $\neg t\in \bar{S}$.
-
 ### Finish proof
 $\bar{S}$ is deductively closed i.e. if $t\in L$ and $\bar{S}\vdash t$ then $t\in \bar{S}$.
 Indeed, if $t\not\in \bar{S}$ then $\neg t\in \bar{S}$. So we have a proof:
