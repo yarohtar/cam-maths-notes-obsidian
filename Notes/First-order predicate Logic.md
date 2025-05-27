@@ -33,3 +33,4 @@ Two kinds:
 [[Gödel's Completeness Theorem for First-Order Logic]]
 [[Compactness Theorem (First-order Logic)]]
 [[The Downward Löwenheim-Skolem Theorem]]
+[[The Upwards Löwenheim-Skolem Theorem]]
