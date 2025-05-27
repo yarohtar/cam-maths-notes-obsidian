@@ -4,4 +4,6 @@ A valuation in on $L$ in [[Propositional Logic]] is a function $v:L\to \{ 0,1 \}
 
 ### Proposition
 If $v,v'$ are valuations and $v|_{P}=v'|_{P}$ then $v=v'$
-For any function $w:P\to \{ 0,1 \}$ there exists a valuation $v$ on $L$ s.t. $v|_{P}=w$
+### Proposition
+Let $w:P\to \{ 0,1 \}$ 
+Then there exists a valuation $v$ on $L$ s.t. $v|_{P}=w$
