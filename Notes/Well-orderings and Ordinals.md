@@ -5,4 +5,5 @@
 [[Order-isomorphic]]
 [[Initial Segment]]
 [[Proof by Induction]]
+[[Definition by recursion]]
 [[Ordinal]]
