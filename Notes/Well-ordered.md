@@ -9,8 +9,10 @@ This property is preserved by [[Order-isomorphic]].
 ### Lemma
 Let $X$, $Y$ be well-ordered sets, $I$ be an [[Initial Segment]] of $Y$ and $f:X\to I$ be an [[Order-isomorphic]]. Then for every $x\in X$, we have 
 $$
-f(x)=min(Y\setminus \{ f(y):y<x \})
+f(x)=\min(Y\setminus \{ f(y):y<x \})
 $$
+### Corollary
+[[Proof by Induction]]
 ### Proposition
 Let $X$, $Y$ be well ordered sets that are [[Order-isomorphic]]. 
 Then there is a unique order-isomorphism $X\to Y$
@@ -19,7 +21,7 @@ Assume $f,g:X\to Y$ are order-isomorphisms.
 We prove $(\forall x)(f(x)=g(x))$ by [[Proof by Induction]]
 Fix $x\in X$. 
 Assume $(\forall y<x)(f(y)=g(y))$ (induction hypothesis)
-By the lemma, $f(x)=minA$ where $A=Y\setminus\{ f(y):y<x \}$
-and $g(x)=minB$ where $B=Y\setminus \{ g(y):y<x \}$
+By the lemma, $f(x)=\min A$ where $A=Y\setminus\{ f(y):y<x \}$
+and $g(x)=\min B$ where $B=Y\setminus \{ g(y):y<x \}$
 By induction hypothesis, $A=B$ so $f(x)=g(x)$
 By [[Proof by Induction]], $f=g$
