@@ -26,6 +26,7 @@ Two kinds:
 [[Sentence]]
 [[Structure]]
 [[Interpretation]]
+[[Theory]]
 [[Semantic Enailment (First-order logic)]]
 [[Syntactic Entailment (First-order Logic)]]
 [[Soundness Theorem (First-order Logic)]]
