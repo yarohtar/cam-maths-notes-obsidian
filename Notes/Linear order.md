@@ -2,7 +2,8 @@ A linear order (or total order) on a set $X$ is a relation $<$ on $X$ that is:
 1. irreflexive $\forall x\in X,\ \neg(x<x)$
 2. transitive $\forall x,y,z\in X\ ((x<y)\land(y<z))\implies(x<z)$
 3. trichotomous $\forall x,y\in X\ (x<y)\lor(x=y)\lor(y<x)$
-We say $X$ is linearly ordered by $<$, or simply $X$ is a linearly ordered set. 
+We say $X$ is linearly ordered by $<$, 
+or simply $X$ is a linearly ordered set. 
 
 ### Notation
 For $x,y\in X$ write
