@@ -15,3 +15,9 @@ $$
 $$
 so we are looking for curves perpendicular to $\nabla v$
 But these are curves of constant $v$.
+
+Furthermore, we would like curves going through 
+stationary points of $\phi$ i.e. $\phi'(z)=0$ 
+The reasoning is similar to [[Laplace Method Summary]]
+Note that at stationary points, we will have two possible choices
+We want the one that makes the real part go to $0$
