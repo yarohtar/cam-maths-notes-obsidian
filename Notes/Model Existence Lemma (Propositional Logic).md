@@ -1,9 +1,10 @@
-Let $S\subseteq L$. Then if $S$ is [[Consistent]], then $S$ has a model. 
-#### Proof
+Let $S\subseteq L$ be [[Consistent]].
+Then $S$ has a [[Model (Propositional Logic)]]
+## Proof
+### Countable case
 Note that $L_{1}=P\cup \{ \bot \}$ is countable, and hence by induction $L_{n}$ is also countable for all $n\in \mathbb{N}$. Thus $L=\bigcup_{n\in \mathbb{N}}L_{n}$ is countable.
 We enumerate $L$ as $t_{1},t_{2},\dots$
 
-##### Countable case
 If $T\subseteq L$ is consistent and $t\in L$ then one of $T\cup \{ t \}$ or $T\cup \{ \neg t \}$ is consistent. Indeed, if not, then $T\cup \{ t \}\vdash \bot$ and $T\cup \{ \neg t \}\vdash \bot$
 Then by [[Deduction Theorem (Propositional Logic)|Deduction Theorem]], we have $T\vdash \neg t$ and $T\vdash(\neg t\implies \bot)$ and hence $T\vdash \bot$ by (MP) which is a contradiction
 

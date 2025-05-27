@@ -30,10 +30,12 @@ Given $S\subseteq L$ and $t\in L$, a proof of $t$ from $S$ is a finite sequence 
 $$
 \exists j,k<i \text{ s.t. } t_{k}=(t_{j}\implies t_{i})
 $$
-Say $S$ proves $t$ or $S$ syntactically entails $t$ if there's a proof of $t$ from $S$. Then we write $S\vdash t$.
+Say $S$ proves $t$ or $S$ syntactically entails $t$ or $S\vdash t$
+if there's a proof of $t$ from $S$. 
+
 [[Theorem (Propositional Logic)]]
 [[Deduction Theorem (Propositional Logic)]]
 [[Soundness Theorem (Propositional Logic)]]
-[[Adequacy Theorem (Propositional Logic)]]
 [[Model Existence Lemma (Propositional Logic)]]
+[[Adequacy Theorem (Propositional Logic)]]
 [[Completeness Theorem]]
