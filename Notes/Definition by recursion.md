@@ -23,7 +23,7 @@ Assume $h(y)=h'(y)$ for all $y<x$ (induction hypothesis)
 (Note that $dom(h)\cap dom(h')$ is an initial segment of $X$)
 We have $h(x)=G(h|_{I_{x}})=G(h'|_{I_{x}})=h'(x)$
 
-To complete the proof existence, we let 
+To complete the proof of existence, we let 
 $$
 f=\bigcup \{ h:h\text{ is an attempt} \}
 $$
