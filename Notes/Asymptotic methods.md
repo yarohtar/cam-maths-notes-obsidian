@@ -5,6 +5,6 @@
 [[The Gamma Function]]
 [[Watson's lemma]]
 [[Laplace integrals]]
-[[Laplace Method Summary]]
+[[Laplace Method]]
 [[Oscillatory Integrals]]
 [[Method of Steepest Descent]]
