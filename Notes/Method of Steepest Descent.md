@@ -21,3 +21,22 @@ stationary points of $\phi$ i.e. $\phi'(z)=0$
 The reasoning is similar to [[Laplace Method Summary]]
 Note that at stationary points, we will have two possible choices
 We want the one that makes the real part go to $0$
+# The Method
+## Analyse $\phi$
+### Separate
+$$
+\phi(p+iq) = u(p,q) + iv(p,q)
+$$
+### Stationary points
+We find the stationary points of $\phi$
+### Wells / valleys
+We need places where $u\to-\infty$ as $p^{2}+q^{2}\to \infty$
+We can freely deform the contour in here
+as long as we stay in the same well/valley
+## Steepest descent contours
+Find all the contours where $v=const$
+Note that these are parallel to $\nabla u$ 
+We specifically want the ones passing through 
+the end points of our integration contour $C$
+as well as the ones passing through stationary points of $\phi$
+## Deform $C$
