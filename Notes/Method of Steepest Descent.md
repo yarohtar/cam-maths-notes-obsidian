@@ -28,7 +28,8 @@ $$
 \phi(p+iq) = u(p,q) + iv(p,q)
 $$
 ### Stationary points
-We find the stationary points of $\phi$
+We find the stationary points of $\phi$, 
+similar to [[Laplace Method Summary]]
 ### Wells / valleys
 We need places where $u\to-\infty$ as $p^{2}+q^{2}\to \infty$
 We can freely deform the contour in here
@@ -40,3 +41,12 @@ We specifically want the ones passing through
 the end points of our integration contour $C$
 as well as the ones passing through stationary points of $\phi$
 ## Deform $C$
+We want to deform $C$ into a combination of the above contours
+such that it passes through some stationary points
+## Parametrise
+Around each stationary point, parametrise $p,q$ 
+For lowest order, the first order approx is sufficient
+## Expand
+After substituting our parametrisation, 
+evaluate the integral around each stationary point 
+similar to [[Laplace Method Summary]]
