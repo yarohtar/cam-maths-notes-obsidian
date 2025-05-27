@@ -1,7 +1,12 @@
 A notion of proof consists of axioms and rules of deduction 
 In [[Propositional Logic]] we adopt the following propositions as axioms:
-(A1) $p \implies(q \implies p)$ for all $p,q \in L$
-(A2) $((p \implies(q\implies r))\implies((p \implies q)\implies(p \implies r)))$
+# A1
+ $$
+ p \implies(q \implies p)
+$$ 
+for all $p,q \in L$
+# 
+$((p \implies(q\implies r))\implies((p \implies q)\implies(p \implies r)))$
 for all $p,q,r\in L$
 (A3) $\neg \neg p \implies p$ for $p \in L$
 (These are called axiom schemes. All axioms are tautologies.)
@@ -22,4 +27,4 @@ Say $S$ proves $t$ or $S$ syntactically entails $t$ if there's a proof of $t$ fr
 [[Soundness Theorem (Propositional Logic)]]
 [[Adequacy Theorem (Propositional Logic)]]
 [[Model Existence Lemma (Propositional Logic)]]
-[[Completeness Theorem]]
+[[Completeness Theorem
