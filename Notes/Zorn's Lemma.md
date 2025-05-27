@@ -1,4 +1,5 @@
-Let $X$ be a (nonempty) [[Poset]] in which every [[Chain]] has an [[Upper Bound]]. 
+Let $X$ be a (nonempty) [[Poset]].
+Suppose every [[Chain]] in $X$ has an [[Upper Bound]]. 
 Then $X$ has a [[Maximal]] element.
 #### Proof
 Assume $X$ has no maximal element. For each $x\in X$ fix $x'\in X$ s.t. $x<x'$ (by [[Axiom of Choice]])

@@ -15,5 +15,7 @@ defines a bijection $A\to B$
 For such partitions $A\setminus g(B\setminus f(P))=P$
 Let's define $H:\mathbb{P}A\to \mathbb{P}A$ by $H(P)=A\setminus g(B\setminus f(P))$
 $\mathbb{P}A$ is a [[Complete Poset]] and $H$ is order-preserving. 
-By [[Knaster-Tarski fixed point theorem]] there exists $P\subseteq A$ such that $H(P)=P$.
-Then setting $Q=A\setminus P$ and $R=f(P)$ and $S=B\setminus R$ gives the required partition.
+By [[Knaster-Tarski fixed point theorem]] 
+there exists $P\subseteq A$ such that $H(P)=P$.
+Then setting $Q=A\setminus P$ and $R=f(P)$ and $S=B\setminus R$ 
+gives the required partition.
