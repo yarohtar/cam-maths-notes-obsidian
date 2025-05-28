@@ -19,5 +19,6 @@ Let $S$ be a set of formulae in a language $L$ and $p$ be a formula in $L$. A pr
 2. $t_{i}$ is a premiss (member of $S$), or
 3. $t_{i}$ follows from modus ponens
 4. $t_{i}$ follows by Generalisation ($\exists j<i$, s.t. $t_{i}=(\forall x)t_{j}$, $x\in FV(t_{j})$ $x$ is not free in any premiss $t_{k}$ for $k\leq j$)
+We write $S\vdash p$.
 
 [[Deduction Theorem (First-order Logic)]]

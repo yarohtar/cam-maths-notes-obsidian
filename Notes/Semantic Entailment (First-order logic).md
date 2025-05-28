@@ -9,6 +9,5 @@ one for each free variable occurring in $S\cup \{ t \}$
 For any $u\in S\cup \{ t \}$, 
 let $u'$ be the [[Sentence]] in the new language $L'$ 
 obtained from $u$ by replacing free vars with the new constants
-Set $S'=\{ s':\si \}$
-
-[[Tautology (First-order Logic)]]
+Set $S'=\{ s': s \in S \}$ 
+We say $S$ entails $t$ or $S\models t$, if $S'\models t'$
