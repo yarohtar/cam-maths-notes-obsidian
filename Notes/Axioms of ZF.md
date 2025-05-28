@@ -1,83 +1,10 @@
-### The Axiom of Extensionality (Ext)
-If two sets have the same members then they are equal
-$$
-(\forall x)(\forall y)((\forall z)(z\in x \iff z\in y)\implies x=y)
-$$
-### Axiom of Separation (Sep)
-Can take a subset of a set. This is an axiom scheme
-$$
-(\forall t_{1})\dots (\forall t_{n})(\forall x)(\exists y)(\forall z)(z\in y \iff(z\in x\land p))
-$$
-where $p$ is a formula with $FV(p)=\{ z,t_{1},\dots,t_{n} \}$
-The set $y$ whose existence is asserted by (Sep) is unique by (Ext)
-We denote this $y$ by $\{ z\in x\mid p \}$
-Formally, we are introducing an $(n+1)$-arry operation symbol to the language.
-
-### Empty-set axiom (Emp)
-There is a set with no members
-$$
-(\exists x)(\forall y)\neg(y\in x)
-$$
-By (Ext) it is unique. We denote it by $\emptyset$
-
-### Pair-set axiom (Pair)
-For any sets $x$, $y$, can form $\{ x,y \}$
-$$
-(\forall x)(\forall y)(\exists z)(\forall t)(t\in z \iff(t=x\lor t=y))
-$$
-The unique (by (Ext)) is denoted by $\{ x,y \}$
-We write $\{ x \}$ for $\{ x,x \}$
-Formally, we introduced a binary symbol $\{ , \}$ and a unary symbol $\{  \}$
-By (Ext) we have $\{ x,y \}=\{ y,x \}$
-We can now define [[Ordered Pair]] and [[Function]]
-
-### Union axiom (Un)
-Can form the union of a set
-$$
-(\forall x)(\exists y)(\forall z)(z\in y\iff(\exists t)(t\in x\land z\in t))
-$$
-The set $y$ whose existence is asserted here is unique by (Ext)
-We denote this by $\bigcup x$ (formally, we are introducing a unary operation symbol $\bigcup$ to the language of ZF)
-So $\bigcup x$ is the union of the members of $x$ 
-
-We write $a \cup b$ for $\bigcup \{ a,b \}$
-
-#### Intersection
-We can prove 
-$$
-(\forall x)(\neg(x=\emptyset)\implies(\exists y)(\forall z)(z\in y\iff(\forall t)(t\in x \implies z\in t)))
-$$
-Indeed, start with a nonempty set $x$ and form the set
-$$
-y=\left\{  z\in \bigcup x\mid (\forall t)(t\in x \implies z\in t)  \right\}
-$$
-using (Un) and (Sep). Technically, we work in a model here and then we deduce the sentence above by [[Gödel's Completeness Theorem for First-Order Logic]]
-
-The unique set $y$ constructed here is denoted by $\bigcap x$
-We write $a\cap b$ for $\bigcap \{ a,b \}$
-
-We can now define the domain of a [[Function]] $f$ 
-If $(x,y)\in f$, then since $(x,y)=\{ \{ x \},\{ x,y \} \}$
-we have $x,y\in \bigcup \bigcup f$
-So we can form the set 
-$$
-dom\ f=\left\{  x\in \bigcup \bigcup f\mid (\exists y)((x,y)\in f)  \right\}
-$$
-using (Un) and (Sep)
-
-Formally, we introduce a unary operation symbol $dom$
-Note that this is defined for any set $f$ but it only has a meaning for functions.
-
-### Power-set axiom (Pow)
-We can form a power set of a set
-$$
-(\forall x)(\exists y)(\forall z)(z\in y\iff z\subseteq x)
-$$
-where $z\subseteq x$ is shorthand for $(\forall t)(t\in z\implies t\in x)$
-The unique set $y$ is denoted by $\mathbb{P}x$
-We can now construct the [[Cartesian Product]] of sets $x,y$
-
-### Axiom of Infinity (Inf)
+[[Axiom of Extensionality]]
+[[Axiom of Separation]]
+[[Empty-set axiom]]
+[[Pair-set axiom]]
+[[Union axiom]]
+[[Power-set axiom]]
+[[Axiom of Infinity]]
 So far we can do quite a bit of mathematics with our axioms, and also any model $V$ is infinite. 
 [[Successor]]
 But we do not yet have infinite sets (because $V$ is not a set)
