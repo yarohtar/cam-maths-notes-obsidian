@@ -12,7 +12,8 @@ $$
 (\forall x)(\exists t)(t\text{ is transitive}\land(x\subseteq t))
 $$
 #### Proof
-We define '$f$ is an attempt' to mean '$f$ is a function' and $(dom\ f\in \omega)$ and $(f(0)=x)$ and
+We define '$f$ is an attempt' to mean:
+'$f$ is a function' and $(dom\ f\in \omega)$ and $(f(0)=x)$ and
 $$
 (\forall n\in \omega)\left( n^{+}\in dom\ f \implies f(n^{+})=\bigcup f(n) \right)
 $$
@@ -24,3 +25,5 @@ Another $\omega$ induction shows that every $n\in \omega$ in the domain of same 
 $$
 (\forall n\in \omega)(\exists f)(f\text{ is an attempt}\land(n\in dom\ f))
 $$
+
+DIDN'T FINISH PROOF

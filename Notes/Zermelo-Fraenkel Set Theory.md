@@ -8,3 +8,6 @@ $V$ will be called the 'universe of sets'
 [[Axioms of ZF]]
 
 [[Transitive]]
+[[Principle of Epsilon-Induction]]
+[[Epsilon-recursion Theorem]]
+[[Well-Founded]]
