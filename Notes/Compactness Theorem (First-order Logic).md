@@ -21,3 +21,4 @@ If a first order theory $T$ has arbitrarily large finite models, then it has an 
 Essentially the same.
 ### Corollary
 [[The Upwards Löwenheim-Skolem Theorem]]
+[[The Downward Löwenheim-Skolem Theorem]]
