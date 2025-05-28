@@ -11,3 +11,7 @@ $V$ will be called the 'universe of sets'
 [[Principle of Epsilon-Induction]]
 [[Epsilon-recursion Theorem]]
 [[Well-Founded]]
+[[Local]]
+[[Extensional]]
+[[Mostowski's Collapsing Theorem]]
+[[Picture of the Universe]]
