@@ -1,4 +1,4 @@
-Let $S$ be a first-order theory.
+Let $S$ be a first-order [[Theory]].
 If every finite subset of $S$ has a model, then $S$ has a model.
 
 #### Proof
