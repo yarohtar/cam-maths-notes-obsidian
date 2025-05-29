@@ -1,4 +1,5 @@
-Let $S$ be a consistent theory in a first-order language $L=L\left( \Omega,\prod \right)$. Then $S$ has a model.
+Let $S$ be a [[Consistent]] [[Theory]] in a first-order language $L=L\left( \Omega,\prod \right)$
+Then $S$ has a model.
 
 #### Idea
 We build a model from the language itself 
