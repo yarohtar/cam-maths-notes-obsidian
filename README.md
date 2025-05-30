@@ -13,11 +13,11 @@ WARNING: If you clone this AND are adding your own changes AND are then pulling 
 Alternatively, you could use the command "Git: CAUTION: Discard all changes" which would discard your local changes and sync with the remote.
 
 # Courses that exist currently
-Part IA:
+## Part IA
 - [[Groups]] (but taken from [[GRM]])
 - [[Probability Space]] (taken from [[Probability and Measure]])
 
-Part IB:
+## Part IB
 - Some [[Methods]]
 - [[Optimisation]]
 - [[Variational principles]]
@@ -29,7 +29,7 @@ Part IB:
 
 Also useful: [[Last minute revision Part IB]]
 
-Part II:
+## Part II
 - Some of [[Algebraic Topology]]
 - [[Linear Analysis]]
 - [[Numerical Analysis]]
