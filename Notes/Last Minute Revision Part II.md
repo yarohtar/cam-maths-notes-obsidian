@@ -32,6 +32,26 @@ Then just apply this to $A-B-B^{T}$ and do some algebra
 
 ## Watson's lemma
 [[Watson's lemma]]
+Consider 
+$$
+F(x)=\int_{0}^Tf(t)e^{-xt}dt
+$$
+Suppose 
+$$
+f(t)\sim t^\alpha \sum_{n=0}^{\infty}a_{n}t^{n\beta} \quad %quad
+\text{ as } \quad %quad
+t\to 0^{+}
+$$
+with $\alpha>-1$ and $\beta>0$
+Suppose also either: 
+- $\lvert f(t) \rvert<Ke^{bt}$ for all $t>0$ and some $K,b>0$
+OR
+- $\int _0^T\lvert f(t) \rvert dt<\infty$
+Then we have the [[Asymptotic Approximation]]
+$$
+F(x)\sim \sum_{n=0}^{\infty} a_{n} \frac{\Gamma(\alpha+\beta n+1)}{x^{\alpha+\beta n+1}}
+$$
+
 ## Laplace Method
 [[Laplace Method]]
 $$
@@ -56,3 +76,10 @@ $$
 $$
 \int_{-\infty}^{\infty} u^{2m+1} e^{-Au^{2q}}du = 0
 $$ 
+## Steepest descent
+# Automata
+[[Automata and formal languages]]
+## Regular pumping
+## Context free pumping
+## Primitive recursive
+![[Gö]]
