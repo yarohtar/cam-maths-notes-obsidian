@@ -3,6 +3,8 @@
 ## $\kappa^{2}=\kappa$
 # Numerical
 [[Numerical Analysis]]
+## PDEs
+
 ## Iterative methods
 ### Gauss-Scheidel
 ![[Gauss-Seidel Method]]
