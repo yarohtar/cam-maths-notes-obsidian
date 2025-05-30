@@ -80,6 +80,18 @@ $$
 # Automata
 [[Automata and formal languages]]
 ## Regular pumping
+For $\lvert w \rvert\geq n$ there are $w=xyz$ with $\lvert y \rvert>0$ s.t. $xy^{k}z\in L$ 
 ## Context free pumping
+For $\lvert w \rvert\geq n$ there are $w=xuyvz$ with $\lvert uv \rvert>0$ and $\lvert uyv \rvert \leq n$ 
+such that $xu^{k}yv^{k}z\in L$
 ## Primitive recursive
-![[Gö]]
+![[Gödel's primitive recursive functions]]
+
+![[Partial Recursive Functions]]
+
+# Coding and Cryptography
+# QIC
+[[Quantum Information and Computing]]
+## Pauli
+![[Pauli Matrices]]
+## C
