@@ -90,8 +90,19 @@ such that $xu^{k}yv^{k}z\in L$
 ![[Partial Recursive Functions]]
 
 # Coding and Cryptography
+## SO MANY DEFINITIONS
+
+
+
 # QIC
 [[Quantum Information and Computing]]
 ## Pauli
 ![[Pauli Matrices]]
-## C
+## Teleport
+![[Quantum Teleportation]]
+![[Coprimality Theorem]]
+## Periodicity
+1. apply oracle
+2. measure last register
+3. do fourier
+## Shor's algorithm
