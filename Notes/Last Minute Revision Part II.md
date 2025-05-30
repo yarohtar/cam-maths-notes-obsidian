@@ -3,7 +3,12 @@
 ## $\kappa^{2}=\kappa$
 # Numerical
 [[Numerical Analysis]]
-## Householder-John
+## Iterative methods
+### Gauss-Scheidel
+![[Gauss-Seidel Method]]
+### Jacobi
+![[Jacobi Method]]
+### Householder-John
 Let $A$ and $B$ are real matrices such that 
 both $A$ and $A-B-B^T$ are symmetric positive definite.
 Define $H=-(A-B)^{-1}B$.
