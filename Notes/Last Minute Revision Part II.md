@@ -2,8 +2,15 @@
 ## Mostovski
 ## $\kappa^{2}=\kappa$
 # Numerical
+[[Numerical Analysis]]
+## 
 # Asymptotic
-[[Laplace Method]]
+## $\Gamma$ function
+![[The Gamma Function]]
+
+## Laplace Method
+### The method
+### Integrals
 $$
 \int_{0}^{\infty} u^{n} e^{-Au^{p}} du = \frac{A^{-(n+1)/p}}{p} \Gamma\left( \frac{n+1}{p} \right)
 $$
@@ -13,4 +20,4 @@ $$
 $$
 \int_{-\infty}^{\infty} u^{2m+1} e^{-Au^{2q}}du = 0
 $$ 
-# 
+# Numerical Analysis
