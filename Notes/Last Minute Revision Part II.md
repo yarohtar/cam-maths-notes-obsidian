@@ -3,6 +3,17 @@
 ## $\kappa^{2}=\kappa$
 # Numerical
 [[Numerical Analysis]]
+## Householder-John
+Let $A$ and $B$ are real matrices such that 
+both $A$ and $A-B-B^T$ are symmetric positive definite.
+Define $H=-(A-B)^{-1}B$.
+Then $\rho(H) < 1$
+### Proof
+Key point is, for complex $w$ and positive definite $C$ it still holds:
+$$
+w^{\dagger}Cw>0
+$$
+Then just apply this to $A-B-B^{T}$ and do some algebra
 ## 
 # Asymptotic
 ## $\Gamma$ function
