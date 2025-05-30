@@ -43,6 +43,8 @@ Also useful: [[Last minute revision Part IB]]
 - [[Integrable systems]]
 - [[Quantum Information and Computing]]
 
+[[Last Minute Revision Part II]]
+
 # How to download (works on phones and computers)
 ## Step 1
 Firstly, you need to download and install Obsidian from the official website https://obsidian.md/ (on computer) or you can download it from the app store on your phone.
