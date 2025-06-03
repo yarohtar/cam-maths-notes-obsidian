@@ -73,4 +73,4 @@ Note that similarity transformations preserve the spectrum so:
 $$
 \kappa(PAP^{T}) = \kappa(P^{-1}PAP^{T}P) = \kappa(AP^{T}P)
 $$
-Now if $S$ is an approximation to $A$ such tha
+Now if $S$ is an approximation to $A$ such that $S=QQ^{T}$ we can set $P=Q^{-1}$ 

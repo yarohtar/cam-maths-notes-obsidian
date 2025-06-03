@@ -4,3 +4,4 @@
 
 # Part II
 [[Iterative Methods for Linear Algebraic Systems]]
+[[Finding Eigenvalues]]
