@@ -116,6 +116,20 @@ such that $xu^{k}yv^{k}z\in L$
 3. do fourier
 ## Shor's algorithm
 [[Shor's Algorithm]]
-Given $r$ such that $a^{r}=1\pmod{N}$ we find:
+Given period $r$ such that $a^{r}=1\pmod{N}$ where $2\mid r$, we find:
+$$
+N\mid a^{r}-1=(a^{r/2}-1)(a^{r/2}+1)
+$$
+If $r$ is the smallest period then $N\not\mid a^{r/2}-1$
+Then $gcd(N,a^{r/2}+1)$ is likely to be nontrivial factor of $N$
+
+To find $r$ we do the following:
+Pick $M$ such that $M=2^{m}\geq N^{2}$
+Do the usual periodicity determination stuff
+Form the state:
+$$
+\frac{1}{\sqrt{ AM }} \sum_{c} \omega^{x_{0}c} \sum_{l} \omega^{lrc}\ket{c}
+$$
+where $\omega$
 
 ![[Continued Fraction#Approximation]]
