@@ -144,7 +144,10 @@ in appropriate basis with respect to $y'_{i}$
 Then Alice and Bob communicate publicly where $y$ and $y'$ match
 They discard values where they don't.
 On average, there should be $\frac{n}{2}$ bits left.
-
+### Step 4
+Alice and Bob publicly compare some sample parts of string $x$
+If there are errors, then qubits have been tinkered with 
+and we can infer how much tinkering has been done.
 
 ## Shor's algorithm
 [[Shor's Algorithm]]
