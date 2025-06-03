@@ -105,7 +105,8 @@ such that $xu^{k}yv^{k}z\in L$
 
 # QIC
 [[Quantum Information and Computing]]
-## Diting
+## Distinguishing states
+[[Helstrom Holevo bound]]
 
 ## Pauli
 ![[Pauli Matrices]]

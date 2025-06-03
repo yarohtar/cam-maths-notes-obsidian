@@ -2,8 +2,8 @@ Let $\ket{\phi_{AB}}\in \mathcal{H}_{A}\otimes \mathcal{H}_{B}$
 Let Alice have particle $A$ and Bob have particle $B$ 
 Then Alice cannot convey any info to Bob just by doing local measurement on $A$.
 
-#### Proof
-##### Case 1
+## Proof
+### Case 1
 Bob does a complete measurement on $B$ in basis $\{ \ket{b} \}_{b=1}^{d_{B}}$
 Let $\{ \ket{a} \}_{a=1}^{d_{A}}$ onb of $\mathcal{H}_{A}$
 Write:
@@ -17,7 +17,7 @@ p(b)&=\bra{\phi_{AB}} I_{A}\otimes \ket{b} \bra{b} \ket{\phi_{AB}} \\
  & =\sum_{a} \lvert c_{ab} \rvert ^{2}
 \end{align}
 $$
-##### Case 2
+### Case 2
 When alice does a measurement prior to Bob, suppose Alice does measurement on $A$ in $\{ \ket{a} \}$
 Then 
 $$

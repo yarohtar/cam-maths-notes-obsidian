@@ -15,6 +15,8 @@ Notes on moodle
 [[Entanglement]]
 [[Quantum Logic Gates]]
 [[Bell basis]]
+
+[[Helstrom Holevo bound]]
 [[No-cloning Theorem]]
 [[No-signalling Principle Theorem]]
 [[Distinguishing]]
