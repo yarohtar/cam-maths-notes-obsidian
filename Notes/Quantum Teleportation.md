@@ -23,5 +23,3 @@ $$
 Alice does a Bell measurement with outcome $ij$ where $i,j\in \{ 0,1 \}$
 She sends $ij$ to Bob.
 Bob applies $Z^{j}X^{i}$ to his state which leaves him with $\ket{\psi}$.
-
-![[Drawing 2025-02-12 10.31.37.excalidraw]]

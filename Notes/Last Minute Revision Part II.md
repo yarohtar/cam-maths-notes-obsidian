@@ -1,5 +1,6 @@
 # LST
 ## Mostovski
+### AAAAAAAAAAAAA
 ## $\aleph_{\alpha}\cdot\aleph_{\alpha} =\aleph_{\alpha}$
 ### Proof
 We go by induction on $\alpha$
@@ -14,9 +15,10 @@ Then
 $$
 \lvert I_{\delta} \rvert \leq \lvert \tau \times \tau \rvert =\lvert \tau \rvert <\lvert \omega_{\alpha} \rvert 
 $$
-Now every proper initial segment of $\omega_{\alpha}\times \omega_{\alpha}$ injects into $\omega_{\alpha}$
+Now every proper initial segment of $\omega_{\alpha}\times \omega_{\alpha}$ has order type $<\omega_{\alpha}$
+But order type of $\omega_{\alpha}\times \omega_{\alpha}$ is the supremum of its initial segments
 So $\lvert \omega_{\alpha}\times \omega _{\alpha} \rvert \leq \lvert \omega_{\alpha} \rvert$
-
+The other direction is trivial.
 
 
 # Numerical analysis
