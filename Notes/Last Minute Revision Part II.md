@@ -1,6 +1,13 @@
 # LST
 ## Mostovski
 ## $\kappa^{2}=\kappa$
+### Proof
+Order $\kappa^{2}$ by going up in squares.
+Then let $\delta=(\alpha,\beta)$ for $\alpha,\beta< \kappa$ 
+We find that in this ordering $\delta\leq(\tau,\tau)$ for $\tau=max\{ \alpha,\beta \}^{+}$
+Note that $\kappa$ is a limit so $\tau<$
+
+
 # Numerical analysis
 [[Numerical Analysis]]
 ## Finite difference
@@ -87,7 +94,8 @@ It is also useful to identify regions where $u\to-\infty$
 when $x^{2}+y^{2}\to \infty$ 
 because we can deform the contour freely there
 
-## WKBJ
+## Laplace / WKBJ
+
 
 # Automata
 [[Automata and formal languages]]
