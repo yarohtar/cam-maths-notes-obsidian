@@ -25,7 +25,8 @@ $$
 w^{\dagger}Cw>0
 $$
 Then just apply this to $A-B-B^{T}$ and do some algebra
-### That last thing that I never typed out
+![[Conjugate]]
+
 # Asymptotic
 ## $\Gamma$ function
 ![[The Gamma Function]]
