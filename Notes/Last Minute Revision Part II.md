@@ -2,10 +2,15 @@
 ## Mostovski
 ## $\aleph_{\alpha}\cdot\aleph_{\alpha} =\aleph_{\alpha}$
 ### Proof
-Order $\kappa^{2}$ by going up in squares.
-Then let $\delta=(\alpha,\beta)$ for $\alpha,\beta< \kappa$ 
+We go by induction on $\alpha$
+Note that $\alpha=0$ is trivial as $\omega_{0}\times \omega_{0}$ is countable.
+
+Order $\omega_{\alpha}\times \omega_{\alpha}$ by going up in squares.
+Then let $\delta=(x,y)$ for $x,y<\omega_{\alpha}$
 We find that in this ordering $\delta\leq(\tau,\tau)$ for $\tau=max\{ \alpha,\beta \}^{+}$
-Note that $\kappa$ is a limit so $\tau<\kappa$
+Now $\omega_{\alpha}$ is a limit so $\lvert \tau \rvert<\lvert \omega_{\alpha } \rvert$
+Then either $\tau$ is finite or $\tau
+So $I_{\delta}\subseteq \omega_{\tau}\times \omega_{\tau}$ which injects into $\omega_{\tau}$ 
 
 
 
