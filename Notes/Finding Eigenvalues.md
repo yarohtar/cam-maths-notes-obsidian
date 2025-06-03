@@ -7,4 +7,4 @@ Use a [[Householder Reflection]]
 $$
 H_{u} = I - 2\frac{uu^{T}}{\lVert u \rVert ^{2}}
 $$
-with $u=w$
+with $u=w\pm \lVert w \rVert e_{1}$
