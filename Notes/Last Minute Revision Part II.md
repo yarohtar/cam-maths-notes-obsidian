@@ -106,7 +106,7 @@ such that $xu^{k}yv^{k}z\in L$
 # QIC
 [[Quantum Information and Computing]]
 ## Distinguishing states
-[[Helstrom Holevo bound]]
+![[Helstrom Hovelo Theorem]]
 
 ## Pauli
 ![[Pauli Matrices]]
@@ -117,6 +117,10 @@ such that $xu^{k}yv^{k}z\in L$
 1. apply oracle
 2. measure last register
 3. do fourier
+
+## BB84
+
+
 ## Shor's algorithm
 [[Shor's Algorithm]]
 Given period $r$ such that $a^{r}=1\pmod{N}$ where $2\mid r$, we find:

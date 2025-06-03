@@ -16,10 +16,9 @@ Notes on moodle
 [[Quantum Logic Gates]]
 [[Bell basis]]
 
-[[Helstrom Holevo bound]]
 [[No-cloning Theorem]]
 [[No-signalling Principle Theorem]]
-[[Distinguishing]]
+[[Helstrom Hovelo Theorem]]
 [[Quantum Teleportation]]
 [[Quantum Cryptography]]
 
