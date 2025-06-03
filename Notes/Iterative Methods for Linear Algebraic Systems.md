@@ -19,7 +19,7 @@ So we want $e^k\to 0$ for any $e^0$
 So we want $H^ke^0\to 0$ for any $e^0 \in \mathbb{R}^n$
 So we want $\rho(H)<1$.
 
-### Iterative refinement
+## Iterative refinement
 By writing
 $$
 x^{k+1}=x^{k}-S(Ax^{k}-b)
@@ -38,5 +38,14 @@ So we want to approximate $A^{-1}$ with $(A-B)^{-1}$.
 
 [[Jacobi Method]]
 [[Gauss-Seidel Method]]
-
 [[The Householder-John Theorem]]
+### Relaxation
+Suppose we have some $H$ that converges but we want to converge faster
+Define $H_{\omega}=\omega H+(1-\omega)I$
+We want to find $\omega$ which minimizes $\rho(H_{\omega})$
+In general, this is unknown, 
+but suppose we know $\sigma(H)$ is real and in the interval $[\alpha,\beta]$
+Then we can figure out optimal $\omega$ by "centering" the spectrum around $0$:
+$$
+-\omega \alpha-(1-\omega) = \omega \beta + (1-\omega)
+$$
