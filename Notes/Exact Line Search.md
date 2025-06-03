@@ -26,4 +26,5 @@ $$
 \alpha=\frac{(r^{k},d^{k})}{(Ad^{k},d^{k})}
 $$
 where $r^{k}=b-Ax^{k}$
-[[Exact Line Search with Steepest Desc]]
+[[Exact Line Search with Steepest Descent]]
+[[Conjugate Gradient Search]]
