@@ -41,7 +41,7 @@ $$
 $$
 (r^{k},r^{i})=(r^{k},d^{i}) = 0
 $$
-3. The directions are actually conjugate, for $i<k$:
+3. The directions are conjugate, for $i<k$:
 $$
 (d^{k},d^{i})_{A} = 0
 $$
