@@ -30,4 +30,6 @@ So $\rho(H)<1$.
 ### Theorem
 If both $A$ and $2D-A$ are symmetric positive definite, then Jacobi method converges
 #### Proof
+$H=-D^{-1}(L_{0}+U_{0})=-(A-L_{0}-U)(A-D)$ 
+
 Use [[The Householder-John Theorem]].

@@ -35,5 +35,6 @@ If $A$ is symmetric positive definite, then the Gauss-Seidel method converges.
 #### Proof
 $H=-(A-U_{0})^{-1}U_{0}$
 Note $A-U_{0}-U_{0}^{T}=D$ 
+Now $D$ is also symmetric positive definite as $e_{i}^{T}Ae_{i}>0$
+Use [[The Householder-John Theorem]] to find $\rho(H)<1$
 
-Use [[The Householder-John Theorem]].
