@@ -8,3 +8,7 @@ $$
 H_{u} = I - 2\frac{uu^{T}}{\lVert u \rVert ^{2}}
 $$
 with $u=w\pm \lVert w \rVert e_{1}$
+Then
+$$
+H_{u}w=\mp \lVert w \rVert e_{1}
+$$

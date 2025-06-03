@@ -21,7 +21,3 @@ H_{u}a=b
 $$
 Thus $H_u$ doesn't affect the first $k-1$ rows and columns of a matrix, 
 and if $a$ is the $k$-th column, we have $H_ua=b$ so we introduced $0$s to the $k$-th column. 
-
-### Note
-It is more efficient to calculate $H_uA$ as $A-2{1\over u^Tu}u(u^TA)$ (complexity $O(n^2)$) 
-rather than calculating $H_u$ and then multiplying matrices (complexity $O(n^3)$).
