@@ -19,5 +19,9 @@ $$
 such that $F(x^{k+1})$ is minimal.
 The optimal $\alpha$ is such that $x^{k+1}$ minimizes $A$-distance to $x^{*}$ i.e. 
 $$
-
+x^{k+1}-x^{*}\bot_{A} d^{k}
+$$
+Thus we find:
+$$
+\alpha=- \frac{(r^{k},d^{k})}{(Ad^{k},d^{k})}
 $$
