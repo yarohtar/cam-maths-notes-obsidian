@@ -7,10 +7,15 @@ Note that $\alpha=0$ is trivial as $\omega_{0}\times \omega_{0}$ is countable.
 
 Order $\omega_{\alpha}\times \omega_{\alpha}$ by going up in squares.
 Then let $\delta=(x,y)$ for $x,y<\omega_{\alpha}$
-We find that in this ordering $\delta\leq(\tau,\tau)$ for $\tau=max\{ \alpha,\beta \}^{+}$
+We find that in this ordering $\delta\leq(\tau,\tau)$ for $\tau=max\{ \alpha,\beta \}^{+}<\omega_{\alpha}$
 Now $\omega_{\alpha}$ is a limit so $\lvert \tau \rvert<\lvert \omega_{\alpha } \rvert$
-Then either $\tau$ is finite or $\tau
-So $I_{\delta}\subseteq \omega_{\tau}\times \omega_{\tau}$ which injects into $\omega_{\tau}$ 
+Then either $\tau$ is finite or $\lvert \tau \rvert=\lvert \tau \times \tau \rvert$ (by induction hypothesis)
+Then
+$$
+\lvert I_{\delta} \rvert \leq \lvert \tau \times \tau \rvert =\lvert \tau \rvert <\lvert \omega_{\alpha} \rvert 
+$$
+Now every proper initial segment of $\omega_{\alpha}\times \omega_{\alpha}$ injects into $\omega_{\alpha}$
+So $\lvert \omega_{\alpha}\times \omega _{\alpha} \rvert \leq \lvert \omega_{\alpha} \rvert$
 
 
 
