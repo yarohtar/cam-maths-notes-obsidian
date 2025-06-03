@@ -53,7 +53,7 @@ $$
 $$
 Also $Ad^{k}$ is a multiple of $r^{k+1}-r^{k}$ so:
 $$
-\beta_{k} = -\frac{(r^{k+1},r^{k+1}-r^{k})}{(d^{k},r^{k+1}-r^{k})} =  - \frac{\lVert r^{k+1} \rVert ^{2}}{\lVert r^{k} \rVert ^{2}}
+\beta_{k} = -\frac{(r^{k+1},r^{k+1}-r^{k})}{(d^{k},r^{k+1}-r^{k})} =  \frac{\lVert r^{k+1} \rVert ^{2}}{\lVert r^{k} \rVert ^{2}}
 $$
 ## Corollary (number of iterations)
 Let $s$ be the number of distinct eigenvalues of $A$
