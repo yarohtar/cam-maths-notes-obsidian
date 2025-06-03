@@ -18,3 +18,5 @@ $$
 $$
 A^{k+1} = \bar{Q}_{k}\bar{R}_{k}
 $$
+The first column of $A^{k+1}$ is related to [[Power Method for Finding Eigenvalues]] 
+The last row of $A^{k+1}$ is related to [[Inverse Iteration for Finding Eigenvalues]]
