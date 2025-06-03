@@ -32,4 +32,4 @@ If both $A$ and $2D-A$ are symmetric positive definite, then Jacobi method conve
 #### Proof
 $H=-D^{-1}(L_{0}+U_{0})=-(A-L_{0}-U_{0})(L_{0}+U_{0})$ 
 So setting $B=L_{0}+U_{0}$ we find $A-B-B^{T}=2D-A$
-Use [[The Householder-John Theorem]].
+Now use [[The Householder-John Theorem]] to find $\rho(H)<1$
