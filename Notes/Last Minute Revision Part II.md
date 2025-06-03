@@ -105,6 +105,8 @@ such that $xu^{k}yv^{k}z\in L$
 
 # QIC
 [[Quantum Information and Computing]]
+## Diting
+
 ## Pauli
 ![[Pauli Matrices]]
 ## Teleport
@@ -130,6 +132,19 @@ Form the state:
 $$
 \frac{1}{\sqrt{ AM }} \sum_{c} \omega^{x_{0}c} \sum_{l} \omega^{lrc}\ket{c}
 $$
-where $\omega$
+where $\omega=e^{2i\pi rc / 2^{m}}$
+The second sum is big when $rc / 2^{m}$ is near an integer, 
+while it is small when it is not.
+So we measure and assume $c /2^{m}\approx n /r$
+For each $n$ there is a unique integer $c_{n}$ such that:
+$$
+\left\lvert  c_{n} - \frac{2^{m}n}{r}  \right\rvert \leq \frac{1}{2}
+$$
+Now approximate $c_{n} /2^{m}$ by continued fractions 
+getting some $p,q$ coprime such that:
+$$
+\left\lvert  \frac{c_{n}}{2^{m} }- \frac{p}{q}  \right\rvert  < \frac{1}{q^{2}} \leq \frac{1}{2^{m+1}} \leq \frac{1}{2N^{2}}
+$$
+We now hope that $q=r$.
 
 ![[Continued Fraction#Approximation]]
