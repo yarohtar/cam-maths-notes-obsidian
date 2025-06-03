@@ -3,3 +3,18 @@ Then iterate as:
 $$
 A_{k+1} = R_{k}Q_{k} = Q_{k+1}R_{k+1}
 $$
+Set
+$$
+\bar{Q}_{k} = Q_{0}Q_{1}\dots Q_{k}
+$$
+and 
+$$
+\bar{R}_{k} = R_{k}R_{k-1}\dots R_{0}
+$$
+Then 
+$$
+A_{k+1}=\bar{Q}^{T}_{k} A \bar{Q}_{k}
+$$
+$$
+A^{k+1} = \bar{Q}_{k}\bar{R}_{k}
+$$
