@@ -23,5 +23,7 @@ x^{k+1}-x^{*}\bot_{A} d^{k}
 $$
 Thus we find:
 $$
-\alpha=- \frac{(r^{k},d^{k})}{(Ad^{k},d^{k})}
+\alpha=\frac{(r^{k},d^{k})}{(Ad^{k},d^{k})}
 $$
+where $r^{k}=b-Ax^{k}$
+
