@@ -61,4 +61,16 @@ Then the method terminates in at most $s$ steps.
 ### Proof
 [[The Krylov Subspaces]]
 
-# 
+# Preconditioning
+The method converges the fastest if the [[Condition Number]] is close to $1$
+To that end, we introduce a change of variables $x=P^{T}\hat{x}$,
+where $P$ is some nonsingular preconditioner. 
+We now solve:
+$$
+PAP^{T}\hat{x}=Pb
+$$
+Note that similarity transformations preserve the spectrum so:
+$$
+\kappa(PAP^{T}) = \kappa(P^{-1}PAP^{T}P) = \kappa(AP^{T}P)
+$$
+Now if $S$ is an approximation to $A$ such tha
