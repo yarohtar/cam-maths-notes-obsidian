@@ -7,9 +7,6 @@
 $$
 \frac{1}{h^2}[g(x-h)-2g(x)+g(x+h)]=g''(x)+\frac{1}{12}h^2g^{(4)}(x)+\frac{1}{360}h^4g^{(6)}(x)+O(h^6)
 $$
-## Fourier and Chebyshev
-
-
 ## Gauss-Scheidel
 ![[Gauss-Seidel Method]]
 ## Jacobi
@@ -27,7 +24,7 @@ $$
 Then just apply this to $A-B-B^{T}$ and do some algebra
 ## Conjugate gradient
 ![[Conjugate Gradient Search]]
-
+![[The Krylov Subspaces]]
 
 
 # Asymptotic
@@ -81,6 +78,11 @@ $$
 \int_{-\infty}^{\infty} u^{2m+1} e^{-Au^{2q}}du = 0
 $$ 
 ## Steepest descent
+[[Method of Steepest Descent]]
+Curves of constant $v$ are curves of rapidly decreasing $u$
+We deform the integration contour to go along these curves 
+and only take contributions from points where $\phi'(x+iy)=0$
+We Taylor expand $u$ and $v$ around these points if needed.
 # Automata
 [[Automata and formal languages]]
 ## Regular pumping
