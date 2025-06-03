@@ -1,7 +1,8 @@
 You are given a quantum system in unknown state $\ket{\psi}$
 You are told $\ket{\psi}$ is either in $\ket{\alpha_{0}}$ or $\ket{\alpha_{1}}$ with probability $\frac{1}{2}$
 and $\lvert \braket{ \alpha_{0} | \alpha_{1} } \rvert=\cos \theta$
-The probability of correctly identifying the state by ANY measurement satisfies $p\leq \frac{1}{2}+ \frac{\sin \theta}{2}$
+The probability $p$ of correctly identifying the state 
+by ANY measurement satisfies $p\leq \frac{1}{2}+ \frac{\sin \theta}{2}$
 This bound is TIGHT 
 
 ### Proof

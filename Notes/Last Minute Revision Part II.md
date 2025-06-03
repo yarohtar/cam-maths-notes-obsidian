@@ -86,6 +86,9 @@ We Taylor expand $u$ and $v$ around these points if needed.
 It is also useful to identify regions where $u\to-\infty$ 
 when $x^{2}+y^{2}\to \infty$ 
 because we can deform the contour freely there
+
+## WKBJ
+
 # Automata
 [[Automata and formal languages]]
 ## Regular pumping
@@ -112,11 +115,13 @@ such that $xu^{k}yv^{k}z\in L$
 ![[Pauli Matrices]]
 ## Teleport
 ![[Quantum Teleportation]]
-![[Coprimality Theorem]]
+
 ## Periodicity
 1. apply oracle
 2. measure last register
 3. do fourier
+To find probability of success use:
+![[Coprimality Theorem]]
 
 ## BB84
 [[BB84]]
