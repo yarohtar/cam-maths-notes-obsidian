@@ -5,7 +5,8 @@
 Order $\kappa^{2}$ by going up in squares.
 Then let $\delta=(\alpha,\beta)$ for $\alpha,\beta< \kappa$ 
 We find that in this ordering $\delta\leq(\tau,\tau)$ for $\tau=max\{ \alpha,\beta \}^{+}$
-Note that $\kappa$ is a limit so $\tau<$
+Note that $\kappa$ is a limit so $\tau<\kappa$
+
 
 
 # Numerical analysis
