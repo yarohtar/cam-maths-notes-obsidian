@@ -3,16 +3,16 @@
 ## $\kappa^{2}=\kappa$
 # Numerical analysis
 [[Numerical Analysis]]
-## PDEs
-### Finite difference
+## Finite difference
 $$
 \frac{1}{h^2}[g(x-h)-2g(x)+g(x+h)]=g''(x)+\frac{1}{12}h^2g^{(4)}(x)+\frac{1}{360}h^4g^{(6)}(x)+O(h^6)
 $$
+## Fourier and Chebyshev
 
-## Iterative methods
-### Gauss-Scheidel
+
+## Gauss-Scheidel
 ![[Gauss-Seidel Method]]
-### Jacobi
+## Jacobi
 ![[Jacobi Method]]
 ### Householder-John
 Let $A$ and $B$ are real matrices such that 
@@ -25,7 +25,10 @@ $$
 w^{\dagger}Cw>0
 $$
 Then just apply this to $A-B-B^{T}$ and do some algebra
-![[Conjugate]]
+## Conjugate gradient
+![[Conjugate Gradient Search]]
+
+
 
 # Asymptotic
 ## $\Gamma$ function
