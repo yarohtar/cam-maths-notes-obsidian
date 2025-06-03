@@ -6,10 +6,7 @@ $$b_j=a_j-\sum_{i=1}^{j-1}{R_{ij}\over ||b_i||}b_i$$
 with $q_i={b_i\over ||b_i||}$ and $R_{ij}=\braket{ q_{i} | a_{j} }$ for $i<j$ and $R_{jj}=||b_j||$.
 
 ## Givens rotation
-We use the fact that
-$$\begin{pmatrix}{\alpha\over\sqrt{\alpha^2+\beta^2}} & \beta\over\sqrt{\alpha^2+\beta^2} \\ -\beta\over\sqrt{\alpha^2+\beta^2} & \alpha\over\sqrt{\alpha^2+\beta^2}\end{pmatrix}\begin{pmatrix}\alpha\\\beta\end{pmatrix}=\begin{pmatrix}\sqrt{\alpha^2+\beta^2}\\ 0\end{pmatrix}$$
-To introduce the $0$s from left to right. 
-
+Use [[Givens Rotation]] to introduce $0$s from left to right.
 ## Householder reflections
 Take a [[Householder Reflection]] $H_{u}$
 where $u=a-b$ for 
