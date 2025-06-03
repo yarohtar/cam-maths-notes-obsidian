@@ -1,6 +1,6 @@
 # LST
 ## Mostovski
-## $\kappa^{2}=\kappa$
+## $\aleph_{\alpha}\cdot\aleph_{\alpha} =\aleph_{\alpha}$
 ### Proof
 Order $\kappa^{2}$ by going up in squares.
 Then let $\delta=(\alpha,\beta)$ for $\alpha,\beta< \kappa$ 
