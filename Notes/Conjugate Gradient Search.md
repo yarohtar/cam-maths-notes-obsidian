@@ -16,6 +16,7 @@ In particular $r^{n}=0$.
 Nothing special, just check.
 
 # The method
+See [[Standard Conjugate Gradient Method]] for the optimized algorithm.
 ### Initial conditions
 For any initial $x^{0}$, set $d^{0}=r^{0}=b-Ax^{0}$
 ### Iterate
@@ -46,14 +47,16 @@ $$
 $$
 ### Proof
 Prove all three claims by one induction on $k$.
-## Corollary
+## Corollary (simplification)
 $$
 \alpha_{k} = \frac{\lVert r^{k} \rVert^{2} }{(d^{k},Ad^{k})}
 $$
-
-## Theorem (number of iterations)
+Also $Ad^{k}$ is a multiple of $r^{k+1}-r^{k}$ so:
+$$
+\beta_{k} = -\frac{(r^{k+1},r^{k+1}-r^{k})}{(d^{k},r^{k+1}-r^{k})} =  - \frac{\lVert r^{k+1} \rVert ^{2}}{\lVert r^{k} \rVert ^{2}}
+$$
+## Corollary (number of iterations)
 Let $s$ be the number of distinct eigenvalues of $A$
 Then the method terminates in at most $s$ steps.
 ### Proof
 [[The Krylov Subspaces]]
-
