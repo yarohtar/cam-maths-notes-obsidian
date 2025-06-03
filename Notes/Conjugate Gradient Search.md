@@ -47,3 +47,7 @@ $$
 ### Proof
 Prove all three claims by one induction on $k$.
 ## Theorem (number of iterations)
+Let $s$ be the number of distinct eigenvalues of $A$
+Then the method terminates in at most $s$ steps.
+### Proof
+[[The Krylov Subspaces]]
