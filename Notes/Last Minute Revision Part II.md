@@ -119,6 +119,31 @@ such that $xu^{k}yv^{k}z\in L$
 3. do fourier
 
 ## BB84
+[[BB84]]
+We want to share a secret key.
+### Step 1
+Alice generates strings $x$ and $y$
+### Step 2
+Alice sends $\ket{\psi_{xy}}=\ket{\psi_{x_{1}y_{1}}} \dots \ket{\psi_{x_{n}y_{n}}}$ to Bob
+where 
+$$
+\ket{\psi_{00}} =\ket{0}
+$$
+$$
+\ket{\psi_{01}} =\ket{1}
+$$
+$$
+\ket{\psi_{10}} = \ket{+}
+$$
+$$
+\ket{\psi_{11}} =\ket{-}
+$$
+### Step 3
+Bob generates a random $y'$ and measures each qubit 
+in appropriate basis with respect to $y'_{i}$
+Then Alice and Bob communicate publicly where $y$ and $y'$ match
+They discard values where they don't.
+On average, there should be $\frac{n}{2}$ bits left.
 
 
 ## Shor's algorithm
