@@ -32,4 +32,18 @@ $$
 i.e. the value that makes $d^{k+1}$ normal to $Ad^{k}$
 ## Theorem (properties)
 For every $m\geq 0$, the conjugate gradient satisfies:
-1. $\operatorname{span}\{ r_{i} : i<k\}=\operatorname{span}\{ d_{i} : i<k\}$ for every $k$
+1. For every $k$:
+$$
+\operatorname{span}\{ r_{i} : i<k\}=\operatorname{span}\{ d_{i} : i<k\}=\operatorname{span}\{ A^{i}r^{0}:i<k \}
+$$
+2. For $i<k$, we have orthogonality conditions:
+$$
+(r^{k},r^{i})=(r^{k},d^{i}) = 0
+$$
+3. The directions are actually conjugate, for $i<k$:
+$$
+(d^{k},d^{i})_{A} = 0
+$$
+### Proof
+Prove all three claims by one induction on $k$.
+## Theorem (number of iterations)
