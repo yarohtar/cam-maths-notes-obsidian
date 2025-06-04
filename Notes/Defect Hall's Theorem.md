@@ -13,4 +13,4 @@ E'=\{ xz_{i} : x\in X, 1\leq i\leq d \}
 $$
 After finding the [[Matching]], remove the vertices $z_{1},\dots,z_{d}$
 Because of injectivity, we get a [[Matching with Deficiency]] at most $d$
-Then remove a few edges to get a 
+Then remove a few edges to get deficiency $d$
