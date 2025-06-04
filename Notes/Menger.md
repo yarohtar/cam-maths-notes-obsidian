@@ -4,7 +4,13 @@ of disjoint paths from $a$ to $b$.
 Equivalently if all $a-b$ separators have size at least $k$ 
 then there exist $k$ disjoint paths from $a$ to $b$.
 ### Proof
-
+#### Setup
+Suppose it is not true.
+Then it has a counterexample for some $k$, assume $k$ is smallest
+Note $k\geq 2$, as the theorem holds for $k=1$
+Let $\mathcal{G}$ be the set of counterexamples for that $k$
+Let $G\in \mathcal{G}$ be a counterexample with the least number of edges.
+#### Step 1
 
 ## Corollary
 Let $G$ be connected with $\lvert G \rvert\geq 2$
