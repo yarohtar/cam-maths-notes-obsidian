@@ -44,7 +44,7 @@ Let $G_{\alpha}$ be the graph with vertices $G_{a}\cup S\cup \{ c \}$
 and added edges $\{ sc: s \in S \}$
 and $G_{\beta}$ graph with vertices $G_{b}\cup S\cup \{ c \}$
 and added edges $\{ sc : s \in S \}$
-Note that $G_{\alpha}$ and $G_{\beta}$ added $\lvert S \rvert$ edges, but removed 
+Note that $G_{\alpha}$ added $\lvert S \rvert$ edges but removed at least $N(b)$ edges
 ## Corollary
 Let $G$ be connected with $\lvert G \rvert\geq 2$
 Then $G$ is $k$-connected if and only if all pairs of $a\ne b$
