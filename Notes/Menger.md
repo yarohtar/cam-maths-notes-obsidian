@@ -32,7 +32,12 @@ As this is the shortest path, we know $x_{2}\not\in N(a)$
 Also $x_{2}\ne b$
 Now let $G'=G-x_{1}x_{2}$
 Now $\kappa_{a,b}(G')<\lvert S \rvert$ otherwise there is a smaller counterexample
-So let $S'$ be a separator of $a,b$ in $G'$ with size $\lvert S \rvert-1$
+So let $S'$ be a separator of $a,b$ in $G'$ with size $\lvert S \rvert-1\geq 1$
+Then $S'\cup \{ x_{1} \}$ and $S'\cup \{ x_{2} \}$ are both separators of $a,b$ in $G$
+Now note $S'\cup \{ x_{2} \}\ne N(a)$ and $S'\cup \{ x_{1} \}\ne N(b)$
+Also if $S'\cup \{ x_{1} \}=N(a)$ and $S'\cup \{ x_{2} \}=N(b)$ 
+then $N(a)\cap N(b)=S'\ne \emptyset$
+And thus we found a separator of $a,b$ that is neither $N()$
 
 
 
