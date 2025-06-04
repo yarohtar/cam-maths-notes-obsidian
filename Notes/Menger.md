@@ -31,7 +31,9 @@ where $l\geq 2$
 As this is the shortest path, we know $x_{2}\not\in N(a)$
 Also $x_{2}\ne b$
 Now let $G'=G-x_{1}x_{2}$
-We removed an edge so $G'$ is not a counterexample by minimality
+Now $\kappa_{a,b}(G')<\lvert S \rvert$ otherwise there is a smaller counterexample
+So let $S'$ be a separator of $a,b$ in $G'$ with size at most $\lvert S \rvert-1$
+
 
 
 ## Corollary
