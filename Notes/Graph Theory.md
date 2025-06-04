@@ -5,4 +5,4 @@ Skipping definitions
 [[Hall's Theorem]]
 [[Defect Hall's Theorem]]
 
-
+[[Connectivity Parameter]]
