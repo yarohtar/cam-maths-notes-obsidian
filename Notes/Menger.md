@@ -23,9 +23,12 @@ If $N(a)\cap N(b)\neq \emptyset$, then let $x\in N(a)\cap N(b)$
 Consider $G'=G-x$
 In $G'$ there is at most $k-1$ disjoint paths from $a$ to $b$
 (if there was more then in $G$ we can always add back the path $axb$)
-By minimality, there is a separator $S'$ of size $k-1$
+By minimality, there is a separator $S'$ of size $k-1$ in $G'$
 But then $S=S'\cup \{ x \}$ is a separator in $G$
 Hence assume $N(a)\cap N(b)=\emptyset$
+Let $ax_{1}x_{2}\dots x_{l}b$ be the shortest path from $a$ to $b$
+where $l\geq 2$
+As this is the shortest path, we know $x_{2}\not\in N(a)$
 
 
 ## Corollary
