@@ -29,6 +29,9 @@ Hence assume $N(a)\cap N(b)=\emptyset$
 Let $ax_{1}x_{2}\dots x_{l}b$ be the shortest path from $a$ to $b$
 where $l\geq 2$
 As this is the shortest path, we know $x_{2}\not\in N(a)$
+Also $x_{2}\ne b$
+Now let $G'=G-x_{1}x_{2}$
+We removed an edge so $G'$ is not a counterexample by minimality
 
 
 ## Corollary
