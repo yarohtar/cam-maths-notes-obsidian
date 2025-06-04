@@ -10,7 +10,13 @@ Then it has a counterexample for some $k$, assume $k$ is smallest
 Note $k\geq 2$, as the theorem holds for $k=1$
 Let $\mathcal{G}$ be the set of counterexamples for that $k$
 Let $G\in \mathcal{G}$ be a counterexample with the least number of edges.
+
+For each $a,b$ in $G$, define $\kappa_{a,b}$ to be the size of smallest separator.
+Suppose $a,b$ are counterexamples in $G$ 
+with a maximum of $k$ disjoint paths from $a$ to $b$
+Let $S$ be the minimum $a-b$ separato
 #### Step 1
+
 
 ## Corollary
 Let $G$ be connected with $\lvert G \rvert\geq 2$
