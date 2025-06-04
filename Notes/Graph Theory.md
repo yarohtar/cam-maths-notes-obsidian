@@ -6,3 +6,5 @@ Skipping definitions
 [[Defect Hall's Theorem]]
 
 [[Connectivity Parameter]]
+[[Separator]]
+[[Menger]]

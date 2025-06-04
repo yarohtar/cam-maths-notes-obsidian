@@ -9,5 +9,5 @@ $$
 $$
 ### Lemma
 $$
-
+\kappa(G-x)\geq \kappa(G)-1
 $$

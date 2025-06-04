@@ -1,0 +1,1 @@
+Let $G$ be a connected graph and $a\ne b$ 
