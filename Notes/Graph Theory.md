@@ -8,3 +8,4 @@ Skipping definitions
 [[Connectivity Parameter]]
 [[Separator]]
 [[Menger]]
+[[Colouring]]
