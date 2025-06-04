@@ -52,7 +52,8 @@ Also $N(b)\not\subseteq S$ so there is an edge going out of $b$ not to $S$
 Thus we have removed at least $\lvert S \rvert+1$ edges.
 Now $G_{\alpha}$ has less edges than $G$
 Similar for $G_{\beta}$
-Then by minimality 
+Then $\kappa_{a,c}(G_{\alpha})= \lvert S \rvert$ and $\kappa_{b,c}(G_{\beta}) = \lvert S \rvert$
+($S$ is a separator, and if there was a smaller one then it would sepa)
 
 ## Corollary
 Let $G$ be connected with $\lvert G \rvert\geq 2$
