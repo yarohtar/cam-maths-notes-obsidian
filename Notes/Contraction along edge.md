@@ -4,5 +4,5 @@ $$
 V(G /e) = V(G) - \{ x,y \} + \{ a \}
 $$
 $$
-E(V /e) = E(G[V(G) - \{ x,y \}]) \cup \{ ax' : x \sim x'\} \cup \{  \}
+E(V /e) = E(G[V(G) - \{ x,y \}]) \cup \{ ax' : x \sim x'\} \cup \{ ay' : y \sim y' \}
 $$
