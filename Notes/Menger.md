@@ -44,7 +44,16 @@ Let $G_{\alpha}$ be the graph with vertices $G_{a}\cup S\cup \{ c \}$
 and added edges $\{ sc: s \in S \}$
 and $G_{\beta}$ graph with vertices $G_{b}\cup S\cup \{ c \}$
 and added edges $\{ sc : s \in S \}$
-Note that $G_{\alpha}$ added $\lvert S \rvert$ edges but removed at least $N(b)$ edges
+We can think of $G_{\alpha}$ as collapsing $G_{b}$ into $c$ 
+and adding the edges from $c$ to all of $S$
+Every point of $S$ has at least one edge going towards $G_{b}$
+(otherwise there is a smaller separator)
+Also $N(b)\not\subseteq S$ so there is an edge going out of $b$ not to $S$
+Thus we have removed at least $\lvert S \rvert+1$ edges.
+Now $G_{\alpha}$ has less edges than $G$
+Similar for $G_{\beta}$
+Then by minimality 
+
 ## Corollary
 Let $G$ be connected with $\lvert G \rvert\geq 2$
 Then $G$ is $k$-connected if and only if all pairs of $a\ne b$
