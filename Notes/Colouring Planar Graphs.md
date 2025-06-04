@@ -17,4 +17,5 @@ Let $G$ be planar. Then $G$ admits a $5$ colouring.
 ### Proof
 By induction.
 Let $x\in V(G)$ have degree at most $5$
-Then 
+Then colour $G-x$ in $5$ colours.
+Let $x_{1},x_{2},x_{3},x_{4},x_{5}$ be neighbourhoods of $x$ arranged by argument
