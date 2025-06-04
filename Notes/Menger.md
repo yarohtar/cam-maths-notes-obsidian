@@ -66,5 +66,5 @@ admit $k$ disjoint paths from $a$ to $b$.
 ## Corollary
 Let $G$ be connected with $\lvert G \rvert\geq 2$
 Then $G$ is $k$-connected if and only if 
-for any $B\subseteq G$ with $\lvert B \rvert=k$
-there are at most $k$ disjoint
+for any $B\subseteq V(G)$ with $\lvert B \rvert=k$ and $a\in V(G)\setminus B$
+there are at least $k$ disjoint paths from $a$ to $B$
