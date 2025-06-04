@@ -37,11 +37,14 @@ Then $S'\cup \{ x_{1} \}$ and $S'\cup \{ x_{2} \}$ are both separators of $a,b$ 
 Now note $S'\cup \{ x_{2} \}\ne N(a)$ and $S'\cup \{ x_{1} \}\ne N(b)$
 Also if $S'\cup \{ x_{1} \}=N(a)$ and $S'\cup \{ x_{2} \}=N(b)$ 
 then $N(a)\cap N(b)=S'\ne \emptyset$
-And thus we found a separator of $a,b$ that is neither $N()$
-
-
-
-
+And thus we found a separator of $a,b$ that is neither $N(a)$ nor $N(b)$
+#### Step 2 (main idea)
+Let $G_{a}$ be connected component of $a$ in $G\setminus S$ and similarly $G_{b}$
+Let $G_{\alpha}$ be the graph with vertices $G_{a}\cup S\cup \{ c \}$ 
+and added edges $\{ sc: s \in S \}$
+and $G_{\beta}$ graph with vertices $G_{b}\cup S\cup \{ c \}$
+and added edges $\{ sc : s \in S \}$
+Note that $G_{\alpha}$ and $G_{\beta}$ added $\lvert S \rvert$ edges, but removed 
 ## Corollary
 Let $G$ be connected with $\lvert G \rvert\geq 2$
 Then $G$ is $k$-connected if and only if all pairs of $a\ne b$
