@@ -9,8 +9,20 @@ We go by induction on $\lvert X \rvert$
 ### Case 1
 Suppose there is some $\emptyset \ne A\neq X$ such that $\lvert A \rvert=\lvert N(A) \rvert$
 Then $A$ satisfies the criterion so there is a matching on $A$
-Also set $B\subseteq X\setminus A$
+Also set $B\subseteq X\setminus A$ and $G_{2}=G[X\setminus A \sqcup Y\setminus N_{G}(A)]$
 Write:
 $$
 \lvert A \rvert +\lvert B \rvert \leq \lvert N_{G}(A\cup B) \rvert = \lvert N_{G}(A) \rvert  + \lvert N_{G_{2}}(B) \rvert  
 $$
+Thus $\lvert B \rvert\leq \lvert N_{G_{2}}(B) \rvert$
+### Case 2
+For all $A\neq X$ we have $\lvert A \rvert<\lvert X \rvert$
+Pick connected vertices $x,y$ 
+Let $G'=G[X\setminus \{ x \} \sqcup Y\setminus \{ y \}]$
+Let $B\subseteq X\setminus \{ x \}$
+Then:
+$$
+\lvert N_{G'}(B) \rvert \geq \lvert N_{G}(B) \rvert -1 > \lvert B \rvert -1
+$$
+So $\lvert B \rvert\leq \lvert N_{G'}(B) \rvert$
+So apply induction hypothesis.
