@@ -53,9 +53,18 @@ Thus we have removed at least $\lvert S \rvert+1$ edges.
 Now $G_{\alpha}$ has less edges than $G$
 Similar for $G_{\beta}$
 Then $\kappa_{a,c}(G_{\alpha})= \lvert S \rvert$ and $\kappa_{b,c}(G_{\beta}) = \lvert S \rvert$
-($S$ is a separator, and if there was a smaller one then it would sepa)
+($S$ is a separator, and if there was a smaller one then it would separate $a,b$)
+Now as $G_{\alpha}$ and $G_{\beta}$ are not counterexamples, by minimality, 
+so there are disjoint paths $P_{1},\dots,P_{k}$ from $a$ to $c$ 
+and disjoint paths $Q_{1},\dots,Q_{k}$ from $b$ to $c$
+and we can concatenate them to find $k$ disjoint paths from $a$ to $b$
 
 ## Corollary
 Let $G$ be connected with $\lvert G \rvert\geq 2$
 Then $G$ is $k$-connected if and only if all pairs of $a\ne b$
 admit $k$ disjoint paths from $a$ to $b$.
+## Corollary
+Let $G$ be connected with $\lvert G \rvert\geq 2$
+Then $G$ is $k$-connected if and only if 
+for any $B\subseteq G$ with $\lvert B \rvert=k$
+there are at most $k$ disjoint
