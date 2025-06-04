@@ -121,10 +121,14 @@ $$
 1. The language $L^{*}M$ is a solution to this equation
 2. If $Z$ is a solution to this equation then $L^{*}M\subseteq Z$
 3. If $\epsilon \not\in L$ then $L^{*}M$ is the unique solution to this equation.
+### Use
 Useful to solve stuff like 
 $$
-\{ S\to 2S,S\to \}
+\{ S\to 2S,S\to 2A,A\to 0A,A\to 0B, B\to 1B, B\to 1 \}
 $$
+We find that $B=1^{+}$
+Then $A=0A\cup 01^{+}$ so $A=0^{*}01^{+}=0^{+}1^{+}$
+Then $S=2S\cup 2A$ so $S=2^{*}20^{+}1^{+}=2^{+}0^{+}1^{+}$
 ## Regular pumping
 For $\lvert w \rvert\geq n$ there are $w=xyz$ with $\lvert y \rvert>0$ s.t. $xy^{k}z\in L$ 
 ## Context free pumping
