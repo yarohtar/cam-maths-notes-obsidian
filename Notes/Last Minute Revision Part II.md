@@ -112,6 +112,7 @@ because we can deform the contour freely there
 
 # Automata
 [[Automata and formal languages]]
+
 ## Regular pumping
 For $\lvert w \rvert\geq n$ there are $w=xyz$ with $\lvert y \rvert>0$ s.t. $xy^{k}z\in L$ 
 ## Context free pumping
