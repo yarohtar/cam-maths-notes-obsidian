@@ -18,4 +18,11 @@ Let $G$ be planar. Then $G$ admits a $5$ colouring.
 By induction.
 Let $x\in V(G)$ have degree at most $5$
 Then colour $G-x$ in $5$ colours.
-Let $x_{1},x_{2},x_{3},x_{4},x_{5}$ be neighbourhoods of $x$ arranged by argument
+Let $x_{1},x_{2},x_{3},x_{4},x_{5}$ be neighbourhoods of $x$ arranged clockwise
+WLOG they are all coloured differently, 
+say by colours $1,2,3,4,5$ respectively.
+Consider the connected component of $x_{1}$ 
+in the subgraph of $G$ consisting of vertices of colours $1,3$
+If $x_{3}$ is not in that component, then swap colours $1,3$ 
+and colour $x$ by $1$
+Otherwise there is a path from $x_{1}$ to $x_{3}$ in colours $1,3$
