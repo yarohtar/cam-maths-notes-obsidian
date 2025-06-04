@@ -112,7 +112,19 @@ because we can deform the contour freely there
 
 # Automata
 [[Automata and formal languages]]
-
+## Language equations
+Let $L$ and $M$ be languages over $\Sigma$
+Consider the equation 
+$$
+X=LX\cup M
+$$
+1. The language $L^{*}M$ is a solution to this equation
+2. If $Z$ is a solution to this equation then $L^{*}M\subseteq Z$
+3. If $\epsilon \not\in L$ then $L^{*}M$ is the unique solution to this equation.
+Useful to solve stuff like 
+$$
+\{ S\to 2S,S\to \}
+$$
 ## Regular pumping
 For $\lvert w \rvert\geq n$ there are $w=xyz$ with $\lvert y \rvert>0$ s.t. $xy^{k}z\in L$ 
 ## Context free pumping
