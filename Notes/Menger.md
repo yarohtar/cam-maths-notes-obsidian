@@ -14,8 +14,18 @@ Let $G\in \mathcal{G}$ be a counterexample with the least number of edges.
 For each $a,b$ in $G$, define $\kappa_{a,b}$ to be the size of smallest separator.
 Suppose $a,b$ are counterexamples in $G$ 
 with a maximum of $k$ disjoint paths from $a$ to $b$
-Let $S$ be the minimum $a-b$ separato
+Let $S$ be the minimum $a-b$ separator
+Then $\lvert S \rvert=\kappa_{a,b}>k$ 
 #### Step 1
+There is a minimum separator $\tilde{S}$ which is neither $N(a)$ nor $N(b)$
+To prove this, assume WLOG $S=N(a)$
+If $N(a)\cap N(b)\neq \emptyset$, then let $x\in N(a)\cap N(b)$
+Consider $G'=G-x$
+In $G'$ there is at most $k-1$ disjoint paths from $a$ to $b$
+(if there was more then in $G$ we can always add back the path $axb$)
+By minimality, there is a separator $S'$ of size $k-1$
+But then $S=S'\cup \{ x \}$ is a separator in $G$
+Hence assume $N(a)\cap N(b)=\emptyset$
 
 
 ## Corollary
