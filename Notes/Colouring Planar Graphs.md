@@ -26,3 +26,6 @@ in the subgraph of $G$ consisting of vertices of colours $1,3$
 If $x_{3}$ is not in that component, then swap colours $1,3$ 
 and colour $x$ by $1$
 Otherwise there is a path from $x_{1}$ to $x_{3}$ in colours $1,3$
+Do similar for $x_{2}$ and $x_{4}$ with colours $2,4$
+The graph is planar, so these two paths intersect
+But this is a contradiction.
