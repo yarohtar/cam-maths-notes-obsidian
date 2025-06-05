@@ -174,6 +174,26 @@ such that $xu^{k}yv^{k}z\in L$
 
 ![[Partial Recursive Functions]]
 
+## Reductions
+Things to consider:
+$$
+g(u,v) = \begin{cases}
+1 & u\in K \\
+\uparrow & \text{otherwise}
+\end{cases}
+$$
+$$
+g(u,v)=\begin{cases}
+f_{u}(v) & u\in K \\
+\uparrow & \text{otherwise}
+\end{cases}
+$$
+$$
+g_{w}(u,v) = \begin{cases}
+f_{w}(v) & u\in K
+\end{cases}
+$$
+
 ## Index sets
 ![[Reduction Function]]
 
