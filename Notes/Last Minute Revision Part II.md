@@ -184,7 +184,7 @@ g(u,v) = \begin{cases}
 $$
 $$
 g(u,v)=\begin{cases}
-f_{u}(v) & u\in K \\
+f_{u}(v) & u=v \\
 \uparrow & \text{otherwise}
 \end{cases}
 $$
@@ -198,6 +198,17 @@ $$
 g(u,v) = \begin{cases}
 1 & \text{if }f_{u}(u) \text{ doesn't halt in }\#v\text{ steps} \\
 \uparrow & \text{otherwise}
+\end{cases}
+$$
+$$
+g(u,v) = \begin{cases}
+1 & \text{if }f_{u}(u) \text{ halts in }\#v\text{ steps} \\
+\uparrow & \text{otherwise}
+\end{cases}
+$$
+$$
+g(u,v) = \begin{cases}
+f_{u}(v)  & \text{if for some }w  
 \end{cases}
 $$
 and other similar things
