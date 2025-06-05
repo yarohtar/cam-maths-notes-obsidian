@@ -139,7 +139,7 @@ It is also useful to identify regions where $u\to-\infty$
 when $x^{2}+y^{2}\to \infty$ 
 because we can deform the contour freely there
 
-## Laplace / WKBJ
+## Liouville-Green / WKBJ
 
 
 # Automata
