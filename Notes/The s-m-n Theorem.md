@@ -4,3 +4,7 @@ Then there is a total computable function $h:\mathbb{B}\to \mathbb{B}$ such that
 This is conceptually related to the [[Curry-Howard Correspondence]]
 
 ### Proof 
+Let $h(v)$ be the code of a machine that does the following:
+1. Accepts input $\vec{w}$
+2. Writes out $v$
+3. Computes $g(\vec{w},v)$
