@@ -190,9 +190,17 @@ f_{u}(v) & u\in K \\
 $$
 $$
 g_{w}(u,v) = \begin{cases}
-f_{w}(v) & u\in K
+f_{w}(v) & u\in K \\
+\uparrow & \text{otherwise}
 \end{cases}
 $$
+$$
+g(u,v) = \begin{cases}
+1 & \text{if }f_{u}(u) \text{ doesn't halt in }\#v\text{ steps} \\
+\uparrow & \text{otherwise}
+\end{cases}
+$$
+and other similar things
 
 ## Index sets
 ![[Reduction Function]]
