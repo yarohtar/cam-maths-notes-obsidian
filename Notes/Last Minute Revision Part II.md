@@ -7,6 +7,7 @@ Use $TC(\{ x \})$
 ![[Epsilon-recursion Theorem]]
 [[Relation Class]]
 ## Mostovski
+[[Mostowski's Collapsing Theorem]]
 ### AAAAAAAAAAAAA
 ## $\aleph_{\alpha}\cdot\aleph_{\alpha} =\aleph_{\alpha}$
 ### Proof
