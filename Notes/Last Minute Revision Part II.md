@@ -208,9 +208,11 @@ g(u,v) = \begin{cases}
 $$
 $$
 g(u,v) = \begin{cases}
-f_{u}(v)  & \text{if for some }w  
+1  & \text{if for some }w\text{ and some }p,q<w, f_{u}(p) \text{ halts in }\#q \text{ steps}  \\
+\uparrow & \text{otherwise}
 \end{cases}
 $$
+
 and other similar things
 
 ## Index sets
