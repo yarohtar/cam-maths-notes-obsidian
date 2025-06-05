@@ -8,3 +8,4 @@ Let $h(v)$ be the code of a machine that does the following:
 1. Accepts input $\vec{w}$
 2. Writes out $v$
 3. Computes $g(\vec{w},v)$
+This is computable.
