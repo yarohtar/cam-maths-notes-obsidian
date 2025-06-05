@@ -174,6 +174,10 @@ such that $xu^{k}yv^{k}z\in L$
 
 ![[Partial Recursive Functions]]
 
+## Index sets
+![[Reduction Function]]
+
+
 # Coding and Cryptography
 ## SO MANY DEFINITIONS
 

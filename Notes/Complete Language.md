@@ -1,4 +1,5 @@
-If $C$ is a class of languages and $L\in C$ and $L$ is $C$-[[Hard Language]], then $L$ is $C$-complete.
+Let $C$ be a class of languages and $L\in C$ 
+We say $L$ is $C$-Complete if it is $C$-[[Hard Language]].
 
 ### Examples
 [[Computability Hierarchy]]
