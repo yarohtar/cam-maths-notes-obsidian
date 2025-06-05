@@ -1,4 +1,11 @@
 # LST
+## Transitive closure
+Use attempts with unions.
+## $\in$ induction
+Use $TC(\{ x \})$
+## $\in$ recursion
+
+
 ## Mostovski
 ### AAAAAAAAAAAAA
 ## $\aleph_{\alpha}\cdot\aleph_{\alpha} =\aleph_{\alpha}$
