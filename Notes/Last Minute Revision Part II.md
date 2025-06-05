@@ -6,9 +6,16 @@ Use $TC(\{ x \})$
 ## $\in$ recursion
 ![[Epsilon-recursion Theorem]]
 [[Relation Class]]
-## Mostovski
-[[Mostowski's Collapsing Theorem]]
-### AAAAAAAAAAAAA
+## Mostowski
+![[Mostowski's Collapsing Theorem]]
+## Ordinal
+An ordinal is a [[Transitive]] set well ordered by $\in$.
+Order types are defined and unique for all sets 
+by [[Mostowski's Collapsing Theorem]]
+## Cardinal
+Assuming [[Axiom of Choice]], cardinality of $x$ is 
+the smallest ordinal bijecting with $x$
+Additionally infinite cardinals are $\aleph_{\alpha}=\omega_{\alpha}$ for $\alpha \in ON$
 ## $\aleph_{\alpha}\cdot\aleph_{\alpha} =\aleph_{\alpha}$
 ### Proof
 We go by induction on $\alpha$
