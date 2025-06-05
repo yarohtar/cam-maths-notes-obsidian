@@ -1,4 +1,21 @@
 # LST
+## Knaster-Tarski Fixpoint
+![[Knaster-Tarski fixed point theorem]]
+## Schroder-Bernstein
+Let $A,B$ be sets and $f:A\to B$, $g:B\to A$ injective
+Then there is a bijection between them.
+### Proof
+Seek a set $P$ such that:
+$$
+A\setminus g(B\setminus f(P))=P
+$$
+Then define
+$$
+h(x) = \begin{cases}
+f(x) & x\in P \\
+g^{-1}(x) & \text{otherwise}
+\end{cases}
+$$
 ## Transitive closure
 Use attempts with unions.
 ## $\in$ induction
