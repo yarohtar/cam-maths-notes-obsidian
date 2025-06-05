@@ -29,4 +29,6 @@ If $u\not\in K$ then $W_{h_{w}(u)}=\emptyset=W_{e}$ so $h_{w}(u)\in I$.
 If $u\in K$, then $W_{h_{w}(u)}=W_{w}$, so $h_{w}(u)\not\in I$. 
 This proves $B\setminus K\leq_{m}I$ so $I$ is not computable.
 #### Case 2
-If $e\not\in I$ by similar arguments find $w\in I$ and prove that $h_{w}$ reduces $K$ to $I$. Then $K\leq_{m}I$ so $I$ is not computable.
+If $e\not\in I$ by similar arguments find $w\in I$ 
+and prove that $h_{w}$ reduces $K$ to $I$. 
+Then $K\leq_{m}I$ so $I$ is not computable.
