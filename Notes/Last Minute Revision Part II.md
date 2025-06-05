@@ -215,7 +215,7 @@ $$
 $$
 g(u,v) = \begin{cases}
 f_{f_{u}(v)}(v)  &  \text{if }f_{u}(v)\text{ halts} \\
-\uparrow & otherwise
+\uparrow & \text{otherwise}
 \end{cases}
 $$
 
