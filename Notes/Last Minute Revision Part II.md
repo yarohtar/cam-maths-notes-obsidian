@@ -212,6 +212,12 @@ g(u,v) = \begin{cases}
 \uparrow & \text{otherwise}
 \end{cases}
 $$
+$$
+g(u,v) = \begin{cases}
+f_{f_{u}(v)}(v)  &  \text{if }f_{u}(v)\text{ halts} \\
+\uparrow & otherwise
+\end{cases}
+$$
 
 and other similar things
 
