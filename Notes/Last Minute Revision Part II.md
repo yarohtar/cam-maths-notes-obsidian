@@ -4,7 +4,7 @@ Use attempts with unions.
 ## $\in$ induction
 Use $TC(\{ x \})$
 ## $\in$ recursion
-
+[[Epsilon-recursion Theorem]]
 
 ## Mostovski
 ### AAAAAAAAAAAAA
