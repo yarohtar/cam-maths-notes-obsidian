@@ -17,8 +17,8 @@
       }
     },
     {
-      "prefix": "Words in Vault",
-      "suffix": "",
+      "prefix": " ",
+      "suffix": " words in vault",
       "metric": {
         "type": 2,
         "counter": 0
@@ -33,18 +33,10 @@
         "type": 2,
         "counter": 6
       }
-    },
-    {
-      "prefix": "",
-      "suffix": "",
-      "metric": {
-        "type": 2,
-        "counter": 0
-      }
     }
   ],
   "countComments": false,
-  "collectStats": false,
+  "collectStats": true,
   "displaySectionCounts": false,
   "pageWords": 300,
   "statsPath": ".obsidian/vault-stats.json"
