@@ -1,4 +1,6 @@
-A set $I$ is called an index set if it is closed under weak equivalence (i.e. if $w,v\in I$ then $W_{w}=W_{v}$)
+A set $I$ is called an index set 
+if it is closed under weak equivalence 
+(i.e. if $w,v\in I$ then $W_{w}=W_{v}$)
 [[Rice's Theorem]]
 ### Examples
 - $Emp=\{ w:W_{w}=\emptyset \}$
@@ -11,3 +13,4 @@ $K\leq_{m}Tot,Inf$.
 $Emp\equiv_{m}B\setminus K$
 ### Proposition
 $Fin$ is neither $\Sigma_{1}$ nor $\Pi_{1}$.
+[[Computability Hierarchy]]
