@@ -6,3 +6,8 @@ $$
 (\forall x\in a)(\forall y\in a)(x\ r\ y\iff f(x)\in f(y))
 $$
 Moreover, the pair $(b,f)$ is unique.
+### Proof
+Define
+$$
+
+$$
