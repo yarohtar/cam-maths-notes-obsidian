@@ -174,7 +174,7 @@ such that $xu^{k}yv^{k}z\in L$
 
 ![[Partial Recursive Functions]]
 
-## Reductions
+## smn applications
 Things to consider:
 $$
 g(u,v) = \begin{cases}
@@ -219,7 +219,6 @@ g(u,v) = \begin{cases}
 \end{cases}
 $$
 and other similar things
-
 ## Index sets
 ![[Reduction Function]]
 
