@@ -166,7 +166,9 @@ For $\lvert w \rvert\geq n$ there are $w=xyz$ with $\lvert y \rvert>0$ s.t. $xy^
 ## Context free pumping
 For $\lvert w \rvert\geq n$ there are $w=xuyvz$ with $\lvert uv \rvert>0$ and $\lvert uyv \rvert \leq n$ 
 such that $xu^{k}yv^{k}z\in L$
-[[Automata and formal languages]]
+
+## Fixpoints
+![[Kleene's Recursion Theorem]]
 ## Primitive recursive
 ![[Gödel's primitive recursive functions]]
 
