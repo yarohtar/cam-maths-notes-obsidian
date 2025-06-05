@@ -178,6 +178,12 @@ such that $xu^{k}yv^{k}z\in L$
 Things to consider:
 $$
 g(u,v) = \begin{cases}
+f_{f_{u}(u)}(v)  &  u\in K \\
+\uparrow & \text{otherwise}
+\end{cases}
+$$
+$$
+g(u,v) = \begin{cases}
 1 & u\in K \\
 \uparrow & \text{otherwise}
 \end{cases}
@@ -212,13 +218,6 @@ g(u,v) = \begin{cases}
 \uparrow & \text{otherwise}
 \end{cases}
 $$
-$$
-g(u,v) = \begin{cases}
-f_{f_{u}(v)}(v)  &  \text{if }f_{u}(v)\text{ halts} \\
-\uparrow & \text{otherwise}
-\end{cases}
-$$
-
 and other similar things
 
 ## Index sets
