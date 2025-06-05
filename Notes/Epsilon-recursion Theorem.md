@@ -15,5 +15,12 @@ We say $f$ is an attempt if
 - $\operatorname{dom}f$ is transitive
 and 
 $$
-(\forall x)(x\in \operatorname{dom}f \implies f(x)=G())
+(\forall x)(x\in \operatorname{dom}f \implies f(x)=G(f|_{x}))
+$$
+Note that $f|_{x}$ makes sense as $\operatorname{dom}f$ is transitive.
+Now use $\in$ induction to show two attempts agree on intersection of their domains
+Another $\in$ induction shows every set is in domain for some $f$
+Then $F$ is defined by
+$$
+(\exists f)('f \text{ is an attempt}'\land y\in f(x))
 $$

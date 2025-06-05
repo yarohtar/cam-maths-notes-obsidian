@@ -4,8 +4,8 @@ Use attempts with unions.
 ## $\in$ induction
 Use $TC(\{ x \})$
 ## $\in$ recursion
-[[Epsilon-recursion Theorem]]
-
+![[Epsilon-recursion Theorem]]
+[[Relation Class]]
 ## Mostovski
 ### AAAAAAAAAAAAA
 ## $\aleph_{\alpha}\cdot\aleph_{\alpha} =\aleph_{\alpha}$
