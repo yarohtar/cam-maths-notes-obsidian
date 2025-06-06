@@ -345,7 +345,7 @@ $I(X;Y)$ is the knowledge gained about $X$ given $Y$
 ![[Information Channel Capacity]]
 
 ### Operational channel capacity
-Supremum over all reliable transmition rates
+Supremum over all reliable transmittion rates
 ![[Transmit Reliably]]
 ![[Maximum Error Probability]]
 
