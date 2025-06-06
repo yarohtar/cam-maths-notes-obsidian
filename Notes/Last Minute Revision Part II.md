@@ -318,13 +318,15 @@ $RM(d,r)$ is defined as the space spanned by
 $v_{0}=(1,1,\dots,1)^{T}$ and a wedge product of at most $r$ of $v_{i}$
 where $v_{i}=\mathbb{1}_{H_{i}}$ where $H_{i}=\{ p \in \mathbb{F}_{2}^{d} : p_{i}=0 \}$
 Note the length is $2^{d}$
-
-#### Lemma
-### Theorem
+#### Theorem
 1. The vector $v_{i_{1}}\wedge\dots \wedge v_{i_{s}}$ for $1\leq i_{1}<\dots<i_{s}\leq d$ and $0\leq s\leq d$ are a basis for $\mathbb{F}_{2}^{n}$
 2. $RM(d,r)$ has rank $\sum_{s=0}^{r}{d \choose s}$
 3. $RM(d,r)=RM(d-1,r)\mid RM(d-1,r-1)$ [[The Bar Product]]
 4. $RM(d,r)$ has weight $2^{d-r}$
+#### Theorem
+
+
+
 
 
 # QIC

@@ -47,14 +47,14 @@ $RM(3,3)=\mathbb{F}_{2}^{8}$
    Let
    $$
    y_{i}=\begin{cases}
-v_{i} & \text{if } i\text{th coordinate of }p \text{ is equal to }0 \\
+v_{i} & \text{if } p_{i}=0\\
 v_{i}+v_{0} & \text{otherwise}
 \end{cases}
    $$
    Expanding using distributive law, gives that $\mathbb{1}_{\{ p \}}\in RM(d,d)$
    But these clearly span $\mathbb{F}_{2}^{n}$
 2. Follows from 1. 
-3. We order $X=\mathbb{F}_{2}^{n}$ s.t. $v_{d}=(0\dots 0,1\dots 1)$ (where we take $2^{d-1}$ ones and $2^{d-1}$ zeros)
+3. We order $X=\mathbb{F}_{2}^{d}$ s.t. $v_{d}=(0\dots 0,1\dots 1)$ (where we take $2^{d-1}$ ones and $2^{d-1}$ zeros)
    and $v_{i}=(v_{i}'\mid v_{i}')$ for $1\leq i\leq d-1$
    Let $z\in R(d,r)$. It is a sum of wedge products of $v_{0},\dots,v_{d}$
    so $z=x+(y\wedge v_{d})$
