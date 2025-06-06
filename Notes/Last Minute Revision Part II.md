@@ -130,11 +130,25 @@ $$
 \int_{-\infty}^{\infty} u^{2m+1} e^{-Au^{2q}}du = 0
 $$
 ## Stationary phase
-If $\phi'(t)\ne 0$ for any $t$ then just use partial integration 
-with 
-![[Riemann-Lebesgue Lemma]]
+### Monotonic
+$$
+\int_{a}^{b} f(t) e^{ix\phi(t)}dt
+$$
+If $\phi$ is monotonic on this interval 
+then we need to do partial integration
+First use $u=\phi(t)$ and then partial integrate.
 
+Note that in this case we do not Taylor expand anything 
+but use
+#### Riemann-Lebesgue Lemma
+$$
+F(x) = \int_{a}^{b} e^{ixt} f(t) dt \to 0
+$$
+as $x\to \infty$ provided that $\int_{a}^{b}\lvert f \rvert dt<\infty$
 
+### Stationary points
+All stationary points contribute $O\left( \frac{1}{\sqrt{ x }} \right)$
+Use similar stuff as in Laplace
 
 ## Steepest descent
 [[Method of Steepest Descent]]
