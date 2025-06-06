@@ -301,7 +301,10 @@ $$
 $$
 \frac{2^{n}}{\lvert V(n,d-1) \rvert } \leq \lvert C \rvert 
 $$
-
+## Linear codes
+### Parity check matrix
+An $(n,k)$ [[Linear Code]] with [[Generator Matrix]] $G=(I_{k}|B)$ 
+has parity check matrix $H=(-B^{T}|I_{n-k})$
 
 
 # QIC
