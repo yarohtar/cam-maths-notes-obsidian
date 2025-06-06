@@ -254,6 +254,22 @@ and other similar things
 
 # Coding and Cryptography
 [[Coding and Cryptography]]
+## Gibbs'
+$$
+-\sum p_{i}\log p_{i} \leq - \sum q_{i}\log q_{i}
+$$
+### Proof
+Use $\ln x\leq x-1$ with equality iff $x=1$
+## Kraft
+$$
+\sum_{i=1}^{m}a^{-s_{i}}\leq 1
+$$
+### Proof
+Consider an $\infty$ tree with labels from $\Sigma_{2}$
+## Shannon
+$$
+\frac{H(X)}{\log a} \leq E(S)\leq \frac{H(X)}{\log a} + 1
+$$
 
 
 # QIC
