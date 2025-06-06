@@ -314,7 +314,8 @@ all elements of $\mathbb{F}_{2}^{n}$
 ### Reed Muller
 ![[The Bar Product]]
 
-
+$RM(d,r)$ is defined as the space spanned by 
+$v_{0}=(1,1,\dots,1)^{T}$ and at most $r$
 
 
 
