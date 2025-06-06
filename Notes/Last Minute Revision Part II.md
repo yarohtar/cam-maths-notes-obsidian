@@ -305,6 +305,13 @@ $$
 ### Parity check matrix
 An $(n,k)$ [[Linear Code]] with [[Generator Matrix]] $G=(I_{k}|B)$ 
 has parity check matrix $H=(-B^{T}|I_{n-k})$
+### Syndrome
+![[Syndrome Decoding]]
+
+### Hamming codes
+Codes with parity check matrix whose columns are 
+all elements of $\mathbb{F}_{2}^{n}$
+
 
 
 # QIC
