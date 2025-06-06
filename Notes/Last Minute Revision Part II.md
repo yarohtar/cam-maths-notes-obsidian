@@ -128,7 +128,14 @@ $$
 $$
 $$
 \int_{-\infty}^{\infty} u^{2m+1} e^{-Au^{2q}}du = 0
-$$ 
+$$
+## Stationary phase
+If $\phi'(t)\ne 0$ for any $t$ then just use partial integration 
+with 
+![[Riemann-Lebesgue Lemma]]
+
+
+
 ## Steepest descent
 [[Method of Steepest Descent]]
 Curves of constant $v$ are curves of rapidly decreasing $u$
