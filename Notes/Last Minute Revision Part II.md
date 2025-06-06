@@ -323,6 +323,20 @@ Note the length is $2^{d}$
 2. $RM(d,r)$ has rank $\sum_{s=0}^{r}{d \choose s}$
 3. $RM(d,r)=RM(d-1,r)\mid RM(d-1,r-1)$ [[The Bar Product]]
 4. $RM(d,r)$ has weight $2^{d-r}$
+### BCH codes
+![[BCH Code]]
+
+## Information theory
+### Entropy
+$$
+I(X;Y) = H(X) - H(X|Y)
+$$
+$H(X)$ measures how much we don't know about $X$
+$H(X|Y)$ measures how much we don't know about $X$ if we know $Y$
+$I(X;Y)$ is the knowledge gained about $X$ given $Y$
+
+### Info capacity (for calculations)
+![[Information Channel Capacity]]
 
 
 
