@@ -13,7 +13,8 @@ Integrating by parts:
 $$
 F(x)=\left[ f(t) \frac{e^{ixt}}{ix} \right]_{a}^{b}- \frac{1}{ix}\int_{a}^{b}f'(t)e^{ixt}dt
 $$
-Now assuming that $f(a)\neq 0$ or $f(b)\neq 0$ we find, by the previous lemma on the integral term, that:
+Now assuming that $f(a)\neq 0$ or $f(b)\neq 0$ we find,
+by the previous lemma on the integral term, that:
 $$
 F(x)\sim \frac{1}{ix}[f(t)e^{ixt}]_{a}^{b}=O\left( \frac{1}{x} \right)
 $$
