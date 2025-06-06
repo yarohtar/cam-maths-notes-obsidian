@@ -286,6 +286,22 @@ Set $s_{i}=\lceil -\log p_{i} \rceil$ and find codewords greedily
 ### Lower bound
 Apply Gibbs for $q_{i}=\frac{a^{-s_{i}}}{C}$ where $C=\sum a^{-s_{i}}\leq 1$ by Kraft
 
+## Noisy coding
+### Binary code
+$[n,m,d]$ code has wordlength $n$ and $m$ words with minimm distance $d$
+Information rate is 
+$$
+\rho(C)=\frac{\log m}{n}
+$$
+### Hamming bound
+$$
+\lvert C \rvert  \leq \frac{2^{n}}{\lvert V(n,e) \rvert }
+$$
+### GSV bound
+$$
+
+$$
+
 
 
 # QIC
