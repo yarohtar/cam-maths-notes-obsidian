@@ -329,6 +329,12 @@ Note the length is $2^{d}$
 ## Information theory
 ### Entropy
 $$
+H(X,Y) = H(X|Y) + H(Y)
+$$
+![[Fano's Inequality]]
+
+### Mutual information
+$$
 I(X;Y) = H(X) - H(X|Y)
 $$
 $H(X)$ measures how much we don't know about $X$
@@ -338,7 +344,10 @@ $I(X;Y)$ is the knowledge gained about $X$ given $Y$
 ### Info capacity (for calculations)
 ![[Information Channel Capacity]]
 
-
+### Operational channel capacity
+Supremum over all reliable transmition rates
+![[Transmit Reliably]]
+![[Maximum Error Probability]]
 
 
 # QIC
