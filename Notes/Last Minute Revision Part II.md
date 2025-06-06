@@ -299,7 +299,7 @@ $$
 $$
 ### GSV bound
 $$
-
+\frac{2^{n}}{\lvert V(n,d-1) \rvert } \leq \lvert C \rvert 
 $$
 
 
