@@ -256,10 +256,10 @@ and other similar things
 [[Coding and Cryptography]]
 ## Gibbs'
 $$
--\sum p_{i}\log p_{i} \leq - \sum q_{i}\log q_{i}
+-\sum p_{i}\log p_{i} \leq - \sum p_{i}\log q_{i}
 $$
 ### Proof
-Use $\ln x\leq x-1$ with equality iff $x=1$
+Use $\ln x\leq x-1$ with equality iff $x=1$ on $x=\frac{p_{i}}{q_{i}}$
 ## Kraft
 $$
 \sum_{i=1}^{m}a^{-s_{i}}\leq 1
@@ -269,10 +269,12 @@ Consider an $\infty$ tree with labels from $\Sigma_{2}$
 ## McMillan
 Decipherable codes satisfy Kraft
 ### Proof
-Let $b_{l}$ be the number of codewords of length $l$
-Then for $r\in \mathbb{N}$
+Let $r\in \mathbb{N}$
+Let $b_{l}$ be the number of ways to choose $r$ codewords with total length $l$
+Then $b_{l}\leq a^{l}$
+Also
 $$
-\left( \sum a^{-s_{i}} \right)^{r} = \sum_{l=1}^{rs} b_{l} a^{-l}
+\left( \sum a^{-s_{i}} \right)^{r} = \sum_{l=1}^{rs} b_{l} a^{-l}\leq rs
 $$
 ## Shannon
 $$
@@ -280,7 +282,11 @@ $$
 $$
 ### Proof
 #### Upper bound
-Set $s_{i}=\lceil -\log p_{i} \rceil$
+Set $s_{i}=\lceil -\log p_{i} \rceil$ and find codewords greedily
+### Lower bound
+Apply Gibbs for $q_{i}=\frac{a^{-s_{i}}}{C}$ where $C=\sum a^{-s_{i}}\leq 1$ by Kraft
+
+
 
 # QIC
 [[Quantum Information and Computing]]
