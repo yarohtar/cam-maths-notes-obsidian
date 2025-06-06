@@ -311,6 +311,10 @@ has parity check matrix $H=(-B^{T}|I_{n-k})$
 ### Hamming codes
 Codes with parity check matrix whose columns are 
 all elements of $\mathbb{F}_{2}^{n}$
+### Reed Muller
+![[The Bar Product]]
+
+
 
 
 

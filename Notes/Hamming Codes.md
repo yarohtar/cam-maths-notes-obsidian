@@ -1,6 +1,6 @@
 Let $d\geq 2$ 
 $n=2^{d}-1$
-Let $H$ be a $d\times n$ matrix whose columns are *all* the nonzero elements of $\mathbb{F}_{2}^{n}$ 
+Let $H$ be a $d\times n$ matrix whose columns are *all* the nonzero elements of $\mathbb{F}_{2}^{d}$ 
 The Hamming $(n,n-d)$ [[Linear Code]] is the linear code with [[Parity Check Matrix]] $H$ (original is $d=3$)
 ### Lemma
 The Hamming $(n,n-d)$ [[Linear Code]] $C$ has minimum 
