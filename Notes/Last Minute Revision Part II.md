@@ -348,6 +348,9 @@ $I(X;Y)$ is the knowledge gained about $X$ given $Y$
 Supremum over all reliable transmittion rates
 ![[Transmit Reliably]]
 ![[Maximum Error Probability]]
+## Cryptography
+
+
 
 
 # QIC
