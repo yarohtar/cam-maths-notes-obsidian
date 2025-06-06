@@ -18,4 +18,5 @@ $$
 $$
 
 ### Corollary 
-A decipherable code with prescribed word lengths exists iff there exists a prefix-free code with the same word lengths. 
+A decipherable code with prescribed word lengths exists 
+iff there exists a prefix-free code with the same word lengths. 

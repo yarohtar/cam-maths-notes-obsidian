@@ -266,11 +266,21 @@ $$
 $$
 ### Proof
 Consider an $\infty$ tree with labels from $\Sigma_{2}$
+## McMillan
+Decipherable codes satisfy Kraft
+### Proof
+Let $b_{l}$ be the number of codewords of length $l$
+Then for $r\in \mathbb{N}$
+$$
+\left( \sum a^{-s_{i}} \right)^{r} = \sum_{l=1}^{rs} b_{l} a^{-l}
+$$
 ## Shannon
 $$
 \frac{H(X)}{\log a} \leq E(S)\leq \frac{H(X)}{\log a} + 1
 $$
-
+### Proof
+#### Upper bound
+Set $s_{i}=\lceil -\log p_{i} \rceil$
 
 # QIC
 [[Quantum Information and Computing]]
