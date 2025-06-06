@@ -8,7 +8,7 @@ $$
 are called Fresnel integrals.
 Using the substitution $s=xt^{2}$ we find
 $$
-C(x) = \frac{2}{\sqrt{ x }} \int_{0}^{\infty} \frac{\cos s}{\sqrt{ s }} ds
+C(x) = \frac{1}{\sqrt{ x }} \int_{0}^{\infty} \frac{\cos s}{\sqrt{ s }} ds
 $$
 and similar for $S$ and we find:
 $$
