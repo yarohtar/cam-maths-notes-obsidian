@@ -161,8 +161,16 @@ when $x^{2}+y^{2}\to \infty$
 because we can deform the contour freely there
 
 ## Liouville-Green / WKBJ
-
-
+$$
+(S_{0}')^{2}=q
+$$
+$$
+S_{1}'=-\frac{1}{4q}
+$$
+### Connection criterion
+$$
+\frac{1}{\epsilon}\int_{a}^{b}\sqrt{ \lvert q \rvert  } = \left( n+\frac{1}{2} \right)\pi
+$$
 # Automata
 [[Automata and formal languages]]
 ## Language equations
@@ -245,8 +253,7 @@ and other similar things
 
 
 # Coding and Cryptography
-## SO MANY DEFINITIONS
-
+[[Coding and Cryptography]]
 
 
 # QIC
