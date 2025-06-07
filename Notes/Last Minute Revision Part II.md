@@ -22,8 +22,10 @@ Use attempts with unions.
 Use $TC(\{ x \})$
 ## $\in$ recursion
 ![[Epsilon-recursion Theorem]]
-[[Relation Class]]
 ## Mostowski
+![[Well-Founded]]
+![[Extensional]]
+
 ![[Mostowski's Collapsing Theorem]]
 ## Ordinal
 An ordinal is a [[Transitive]] set well ordered by $\in$.
@@ -365,7 +367,8 @@ $$
 H(K|C^{(n)}) = H(K) + H(M^{(n)}) - H(C^{(n)})
 $$
 ### Cryptosystems
-![[]]
+![[Rabin Cryptosystem]]
+![[RSA Cryptosystem]]
 
 ### Elgamal scheme
 Alice chooses a large prime $p$ and a random integer $1<u<p$
