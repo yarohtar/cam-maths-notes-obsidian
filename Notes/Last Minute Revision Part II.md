@@ -27,6 +27,7 @@ Use $TC(\{ x \})$
 ![[Extensional]]
 ![[Local]]
 
+
 ![[Mostowski's Collapsing Theorem]]
 ## Ordinal
 An ordinal is a [[Transitive]] set well ordered by $\in$.
@@ -81,6 +82,12 @@ Then just apply this to $A-B-B^{T}$ and do some algebra
 ![[Conjugate Gradient Search]]
 ![[The Krylov Subspaces]]
 
+
+## Eigenvalues
+### Inverse
+![[Inverse Iteration for Finding Eigenvalues]]
+### QR
+![[The QR Algorithm]]
 
 # Asymptotic
 ## $\Gamma$ function
