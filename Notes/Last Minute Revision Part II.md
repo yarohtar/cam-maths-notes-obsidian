@@ -352,8 +352,21 @@ Supremum over all reliable transmittion rates
 ### Equivocation
 Any cryptoword will reveal at least as much about the message 
 as about the key, i.e. 
-
+$$
+H(M|C) \leq H(K|C)
+$$
 ### Unicity distance
+$U$ is the least $n$ such that 
+$$
+H(K|C^{(n)}) = 0
+$$
+Can calculate:
+$$
+H(K|C^{(n)}) = H(K) + H(M^{(n)}) - H(C^{(n)})
+$$
+### Cryptosystems
+![[]]
+
 ### Elgamal scheme
 Alice chooses a large prime $p$ and a random integer $1<u<p$
 Let $g$ be a primitive root $\pmod{p}$.
