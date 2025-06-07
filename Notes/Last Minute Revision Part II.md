@@ -25,6 +25,7 @@ Use $TC(\{ x \})$
 ## Mostowski
 ![[Well-Founded]]
 ![[Extensional]]
+![[Local]]
 
 ![[Mostowski's Collapsing Theorem]]
 ## Ordinal
