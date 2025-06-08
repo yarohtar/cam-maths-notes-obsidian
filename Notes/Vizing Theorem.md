@@ -20,3 +20,7 @@ Let $c$ be a colour unused in $x$
 If $y_{1}$ is not in the same $c,c_{1}$ component as $x$ 
 then recolour that component 
 Similarly for $y_{k}$
+Now $H$ is a $c,c_{1}$ component containing $x,y_{1},y_{k}$
+Note that $H$ is a path or an even cycle
+But one of $c,c_{1}$ is missing at each of $x,y_{1},y_{2}$ 
+so $H$ cannot exist.
