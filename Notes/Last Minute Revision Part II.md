@@ -488,7 +488,6 @@ We now hope that $q=r$.
 ![[Continued Fraction#Approximation]]
 
 # Graphs
-[[Graph Theory]]
 ## Planar
 ### Corollary
 If $G$ is planar and $\lvert G \rvert\geq 3$, then $\lvert E(G) \rvert\leq 3\lvert G \rvert-6$.
@@ -505,4 +504,9 @@ Suppose $G$ is planar and $\lvert G \rvert\geq 4$ and there is no cycle of lengt
 Then $\lvert E(G) \rvert\leq 2(\lvert G \rvert -2)$
 #### Proof
 $4\lvert F \rvert\geq 2\lvert E(G) \rvert$ 
+
+## Hall
+![[Hall's Theorem]]
+
+
 

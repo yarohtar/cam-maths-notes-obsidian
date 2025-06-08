@@ -3,7 +3,7 @@ $$
 \kappa=\operatorname{min} \{ \lvert S \rvert  : S\subseteq V(G), G-S \text{ is disconnected or singleton} \}
 $$
 $G$ is $k$-connected if $k\leq \kappa$
-## Lemma
+### Lemma
 $$
 \delta(G) \geq \kappa(G)
 $$
