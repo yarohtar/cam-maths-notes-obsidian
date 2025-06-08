@@ -507,6 +507,17 @@ $4\lvert F \rvert\geq 2\lvert E(G) \rvert$
 
 ## Hall
 ![[Hall's Theorem]]
+## Menger
+![[Menger]]
 
+## Colouring planar
+In proofs of $5-6$ colour theorems use
+### Proposition
+Let $G$ be planar. Then $\delta(G)\leq 5$.
+#### Proof
+The average degree of $G$ is $\frac{2e}{n}$
+Since $e\leq 3n-6$ the average degree is at most $6-\frac{12}{n}<6$
+So minimal degree is at most $5$
 
+## 
 
