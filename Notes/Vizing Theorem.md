@@ -6,4 +6,11 @@ WTS $\chi'(G)\leq \Delta+1$
 Induction on edges
 Pick an edge $xy_{1}$ and colour everything else in $\Delta+1$
 Construct the longest sequence of distinct $y_{1}y_{2}\dots y_{k}$
-where if $y_{i}$ is missing colour $c_i$ then $x$
+where if $y_{i}$ is missing colour $c_i$ then $xy_{i+1}$ is coloured $c_{i}$
+#### Case 1
+No $y$ such that $xy$ is coloured $c_{k}$
+Note $k\leq \Delta$
+Now recolour $y_{i}$ with colour $c_{i}$
+#### Case 2
+Some $j<k$ such that $xy_{j}$ is coloured $c_{k}$ i.e. $c_{j-1}=c_{k}$
+Recolour $y_{i}$ with $c_{i}$ for $1\leq i< j$ so WLOG $j=1$
