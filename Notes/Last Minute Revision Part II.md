@@ -525,5 +525,7 @@ So minimal degree is at most $5$
 ### Polynomial 
 ![[Chromatic Polynomial]]
 
-### V
+### Vizing
+Edge colouring $\chi'$
+![[Vizing Theorem]]
 
