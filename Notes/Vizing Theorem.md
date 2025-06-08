@@ -15,3 +15,7 @@ Now recolour $y_{i}$ with colour $c_{i}$
 $c_{k}=c_{j}$ for some $j<k$
 Recolour $y_{i}$ with $c_{i}$ for $1\leq i<j$
 leaving $y_{j}$ uncoloured, so WLOG $j=1$
+and $y_{1}$ is uncoloured with $c_{1}=c_{k}$ missing at $y_{1},y_{k}$
+Let $c$ be a colour unused in $x$
+If $y_{1}$ is not in the same $c,c_{1}$ component as $x$ 
+then recolour that component 
