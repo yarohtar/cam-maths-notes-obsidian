@@ -12,5 +12,4 @@ No $y$ such that $xy$ is coloured $c_{k}$
 Note $k\leq \Delta$
 Now recolour $y_{i}$ with colour $c_{i}$
 #### Case 2
-Some $j<k$ such that $xy_{j}$ is coloured $c_{k}$ i.e. $c_{j-1}=c_{k}$
-Recolour $y_{i}$ with $c_{i}$ for $1\leq i< j$ so WLOG $j=1$
+$c_{k}=c_{j}$ fo
