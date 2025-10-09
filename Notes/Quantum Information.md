@@ -8,4 +8,6 @@ We write $B(\mathcal{H})$ for the [[Space of Linear Operators]] $\mathcal{H}\to 
 For $T\in B(\mathcal{H})$ define the dual (ie [[Adjoint]]) to be $T^{*}$
 
 [[Quantum Measurements]]
+[[Unitary]]
+[[Quantum Logic Gates]]
 [[Density Operators]]

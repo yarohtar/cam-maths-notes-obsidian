@@ -16,10 +16,12 @@ This defines the [[Observables]]
 Note that now the possible mmt results correspond to eigenvalues of the observable $M$
 ## Positive operator valued measure (POVM)
 Consider a mmt $\{ M_{n} \}_{n}\in \mathcal{B}(\mathcal{H})$.
-
-$E_{n}=M_{n}^{*}M_{n}$ [[Positive semi-definite]]
-$M_{n}=\sqrt{ E_{n} }$
-## Unitary Evolutions
+Then we define [[Positive semi-definite]] operators:
+$$
+E_{n} = M_{n}^{*}M_{n}
+$$
+This family of operators is called a POVM.
+We can always recover $M_{n}$ from a POVM by taking roots (as they are positive).
 
 # Part IB/II
 Let $\{\psi_n\}$ be a complete orthogonal set of wavefunctions, meaning $(\psi_i,\psi_j)=\delta_{ij}$ and any wavefunction $\psi$ can be written as:

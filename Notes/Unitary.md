@@ -1,5 +1,6 @@
-A matrix $A$ is unitary if:
+An operator $A$ is unitary if:
 $$
-A\bar{A}^{T} = I
+AA^{*} = I
 $$
-where $\bar{A}$ is complex conjugate.
+where $A^{*}$ is the dual operator to $A$
+If $A$ is a complex matrix then $A^{*}=\bar{A}^{T}$
