@@ -5,8 +5,10 @@ We say $\{ \mathcal{M}_{n} \}_{n}$ are quantum measurements if for any state $\k
 1. the probability that $n$ occurs as the result of mmt is $p(n) = \braket{ \phi | \mathcal{M}_{n}^{*}\mathcal{M}_{n} \phi}$
 2. the state post mmt is $\frac{\mathcal{M}_{n}\ket{\phi}}{\sqrt{ p(n) }}$
 ## Projective measurement
-Consider quantum measurements $\{ \mathcal{M}_{n} \}_{n}$ which are projections 
-(i.e. they are [[Hermetian]])
+Consider quantum measurements $\{ \mathcal{M}_{n} \}_{n}$ which are orthogonal projections 
+(i.e. they are [[Hermetian]] and $\mathcal{M}_{n}\mathcal{M}_{m}=\delta_{mn}M_{n}$)
+These are called projective measurements.
+These define the [[Observables]]
 ## Positive operator valued measurement (POVM)
 $E_{n}=M_{n}^{*}M_{n}$ [[Positive semi-definite]]
 $M_{n}=\sqrt{ E_{n} }$

@@ -24,10 +24,12 @@ When eigenvectors of $Q$ are degenerate, we look for a complete set of commuting
 Then they are simultaneously diagonalizable (diagonalizable in the same basis)
 $\{ \ket{q_{m},p_{m},\dots }\}$
 
-### Operators in $dim\mathcal{H}=\infty$
+### Operators in $\dim\mathcal{H}=\infty$
 Let's mention and ignore some issues in spaces such as $L^2(\mathbb{R},dx)$
 - In finite dim all operators are bounded
-- In infinite dimensions thats not true. Position and momentum operators are unbounded and we would need to pay attention to them (but we don't)
+- In infinite dimensions that's not true. 
+  Position and momentum operators are unbounded.
+  We would need to pay attention to them (but we don't)
 
 ## Operators for composite systems
 Let $\{ \ket{e_{a}} \}$ be basis of $\mathcal{H}_{1}$ and $A:\mathcal{H}\to \mathcal{H}$ a linear operator.
