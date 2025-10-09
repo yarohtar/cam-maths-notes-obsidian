@@ -2,7 +2,7 @@
 Let $\mathcal{H}$ be a [[Hilbert Space]]. 
 Consider a collection of [[Linear Operator]]s $\{ \mathcal{M}_{n} \}_{n} \subseteq \mathcal{B(\mathcal{H})}$ with $\sum_{n}M_{n}^{*}M_{n}=\mathbb{1}$
 We say $\{ \mathcal{M}_{n} \}_{n}$ are quantum measurements if for any state $\ket{\phi}\in \mathcal{H}$:
-1. the probability that $\ket{n}$ occurs as the result of mmt is $p(n) = \braket{ \phi | \mathcal{M}_{n}^{*}\mathcal{M}_{n} \phi}$
+1. the probability that $n$ occurs as the result of mmt is $p(n) = \braket{ \phi | \mathcal{M}_{n}^{*}\mathcal{M}_{n} \phi}$
 2. the state post mmt is $\frac{\mathcal{M}_{n}\ket{\phi}}{\sqrt{ p(n) }}$
 ## Projective measurement
 ## Positive operator valued measurement (POVM)
@@ -15,7 +15,7 @@ Let $\{\psi_n\}$ be a complete orthogonal set of wavefunctions, meaning $(\psi_i
 $$\psi = \sum_{n=0}^\infty c_n\psi_n$$
 Then it follows that $c_n=(\psi,\psi_n)$. More generally, $c_n={(\psi,\psi_n)\over (\psi_n,\psi_n)}$. 
 
-- Any observable $O$ has associated [[Adjoint|Hermetian operatorr]] $\hat O$.
+- Any observable $O$ has associated [[Adjoint|Hermetian operator]] $\hat O$. [[Hermetian]]
 - Hence, for any observable, we can write $\psi$ as a linear combination of eigenfunctions of $\hat O$.
 - The outcome of a measurement is always an eigenvalue of $\hat O$.
 - After a measurement with outcome $\lambda$, the wavefunction collapses to a linear combination of eigenfunctions with eigenvalue $\lambda$
