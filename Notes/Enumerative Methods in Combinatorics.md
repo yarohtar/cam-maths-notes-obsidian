@@ -59,4 +59,4 @@ k^{2} & l^{2} & m^{2}
 \end{pmatrix}
 =0
 $$
-but this is the [[van]]
+but this is the [[Vandermonde matrix]] so some of $k,l,m$ are the same.
