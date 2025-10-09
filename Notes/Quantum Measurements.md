@@ -1,12 +1,9 @@
 # General definition
-[[Bounded Linear Map]]
 Let $\mathcal{H}$ be a [[Hilbert Space]]. 
-Consider a collection of operators $\{ \mathcal{M}_{n} \}_{n} \subseteq \mathcal{B(\mathcal{H})}$ with $\sum_{n}M_{n}^{*}M_{n}=\mathbb{1}$
-Suppose we have a state $\ket{\phi}$
-$$
-\left\{ \ket{n}  \text{ with prob } p(n)=\braket{ \phi | M_{n}^{*}M_{n}\phi }   \right\}\to^\text{mmt} \frac{M_{n}\ket{\phi} }{\sqrt{ p(n) }}
-$$
-
+Consider a collection of [[Linear Operator]]s $\{ \mathcal{M}_{n} \}_{n} \subseteq \mathcal{B(\mathcal{H})}$ with $\sum_{n}M_{n}^{*}M_{n}=\mathbb{1}$
+We say $\{ \mathcal{M}_{n} \}_{n}$ are quantum measurements if for any state $\ket{\phi}\in \mathcal{H}$:
+1. the probability that $\ket{n}$ occurs as the result of mmt is $p(n) = \braket{ \phi | \mathcal{M}_{n}^{*}\mathcal{M}_{n} \phi}$
+2. the state post mmt is $\frac{\mathcal{M}_{n}\ket{\phi}}{\sqrt{ p(n) }}$
 ## Projective measurement
 ## Positive operator valued measurement (POVM)
 $E_{n}=M_{n}^{*}M_{n}$ [[Positive semi-definite]]
