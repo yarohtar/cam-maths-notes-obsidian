@@ -44,3 +44,19 @@ $$
 \{ (1,\phi,\phi^{2},\dots), (1,\bar{\phi},\bar{\phi}^{2},\dots) \}
 $$
 where $\phi$ and $\bar{\phi}$ satisfy $1+x=x^{2}$
+
+### Example 3
+There exists a subset of size $p$ in $\mathbb{F}_{p}^{2}$ with no $3$ in a line.
+#### Proof
+Define $S=\{ (n\pmod{p}, n^{2}\pmod{p}) : 1\leq n\leq p \}$
+Suppose for contradiction $(k,k^{2}),(l,l^{2}),(m,m^{2})$ are in a line in $\mathbb{F}_{p}^{2}$
+Then 
+$$
+\det \begin{pmatrix}
+1 & 1 & 1 \\
+k & l & m \\
+k^{2} & l^{2} & m^{2}
+\end{pmatrix}
+=0
+$$
+but this is the [[van]]
