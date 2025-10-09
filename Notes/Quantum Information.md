@@ -5,7 +5,7 @@ ac2722@cam.ac.uk
 ### Notation
 $\mathcal{H}$ is a general [[Hilbert Space]]
 We write $B(\mathcal{H})$ for the [[Space of Linear Operators]] $\mathcal{H}\to \mathcal{H}$
+For $T\in B(\mathcal{H})$ define the dual (ie [[Adjoint]]) to be $T^{*}$
 
-
-[[Measurements in QM]]
+[[Quantum Measurements]]
 [[Density Operators]]

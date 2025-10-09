@@ -11,7 +11,7 @@ Notes on moodle
 [[Hilbert-Schmidt Inner Product]]
 [[Pauli Matrices]]
 [[Orthogonal Subspaces]]
-[[Measurements in QM]]
+[[Quantum Measurements]]
 [[Entanglement]]
 [[Quantum Logic Gates]]
 [[Bell basis]]

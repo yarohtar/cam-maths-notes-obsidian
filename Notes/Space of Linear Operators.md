@@ -1,6 +1,7 @@
+[[Linear Operator]]
 [[Operator Norm]]
 ### Definition
-Write $L(X,Y)$ for the set of continuous linear maps $X\to Y$ (or $B(X,Y)$). 
+Write $L(X,Y)$ (or $B(X,Y)$) for the set of continuous linear maps $X\to Y$.
 Note that $S,T \in L(X,Y)$ then $S+T\in L(X,Y)$.
 Indeed $\lVert (S+T)x \rVert\leq \lVert Sx \rVert+\lVert Tx \rVert\leq (\lVert S \rVert+\lVert T \rVert)\lVert x \rVert$ so $S+T$ is bounded. 
 Moreover, $\lVert S+T \rVert\leq \lVert S \rVert+\lVert T \rVert$ so $\lVert  \rVert$ is indeed a norm on $L(X,Y)$.

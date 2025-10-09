@@ -4,5 +4,5 @@
 [[Scattering]]
 [[Harmonic Oscillator in QM]]
 [[Adjoint]]
-[[Measurements in QM]]
+[[Quantum Measurements]]
 [[Commutator]]
