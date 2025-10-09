@@ -17,5 +17,21 @@ x^2F(x) = x^{3}+x^4+2x^5
 $$
 Thus
 $$
-F(x)(1-x-x^{2})=x+\sum_{}
+F(x)(1-x-x^{2})=x+\sum_{n\geq 2}(F_{n}-F_{n-1}-F_{n-2})=x
+$$
+Alternatively:
+$$
+\begin{align}
+F(x)&=\sum F_{n}x^n = x + (F_{1}+F_{0})x^{2} + (F_{2}+F_{1})x^{3} + \dots  \\
+&=x + xF(x) + x^{2}F(x)
+\end{align}
+$$
+Now use decomposition:
+$$
+F(x) = \frac{x}{1-x-x^{2}} = \frac{\alpha}{1-\phi x} + \frac{\beta}{1-\bar{\phi}x}
+$$
+where $\phi$ and $\bar{\phi}$ are roots of $x^{2}-x-1=0$
+Thus:
+$$
+F(x)=\sum_{n\geq 0}\alpha (\phi x)^{n} + 
 $$
