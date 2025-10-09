@@ -5,14 +5,15 @@ We say $\{ M_{n} \}_{n}$ are quantum measurements if for any state $\ket{\phi}\i
 1. the probability that $n$ occurs as the result of mmt is $p(n) = \braket{ \phi | M_{n}^{*}M_{n} \phi}$
 2. the state post mmt is $\frac{M_{n}\ket{\phi}}{\sqrt{ p(n) }}$
 ## Projective measurement
-Consider quantum measurements $\{ M_{n} \}_{n}$ which are orthogonal projections 
-(i.e. they are [[Hermetian]] and $M_{n}M_{m}=\delta_{mn}M_{n}$)
-These are called projective measurements.
+Quantum measurements $\{ M_{n} \}_{n}$ which are orthogonal projections are called projective mmts
+(i.e. they are [[Hermetian]] and $M_{n}M_{m}=\delta_{mn}M_{n}$).
 Now any [[Hermetian]] operator $M$ can be represented as 
 $$
 M = \sum_{n} \lambda_{n}M_{n}
 $$
 where projected spaces of $M_{n}$ correspond to eigenspaces of $M$ with eigenvalue $\lambda_{n}$
+This defines the [[Observables]]
+Note that now the measurement results 
 
 
 ## Positive operator valued measurement (POVM)
