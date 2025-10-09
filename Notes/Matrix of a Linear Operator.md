@@ -1,4 +1,6 @@
-Let $\mathcal{H}$ be a [[Hilbert Space]] with an [[Orthonormal Basis]] $(e_{n})$. For $T\in L(\mathcal{H})$ (a [[Linear Operator]] $\mathcal{H}\to \mathcal{H}$) the matrix of $T$ with respect to $(e_{n})$ is $A=(a_{ij})$ where 
+Let $\mathcal{H}$ be a [[Hilbert Space]] with an [[Orthonormal Basis]] $(e_{n})$. 
+For $T\in L(\mathcal{H})$ (a [[Linear Operator]] $\mathcal{H}\to \mathcal{H}$) 
+the matrix of $T$ with respect to $(e_{n})$ is $A=(a_{ij})$ where 
 $$
 a_{ij}=(Te_{j},e_{i})
 $$
