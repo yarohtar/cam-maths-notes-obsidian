@@ -1,17 +1,19 @@
 # General definition
 Let $\mathcal{H}$ be a [[Hilbert Space]]. 
 Consider a collection of [[Linear Operator]]s $\{ M_{n} \}_{n} \subseteq \mathcal{B(\mathcal{H})}$ with $\sum_{n}M_{n}^{*}M_{n}=\mathbb{1}$
-We say $\{ \mathcal{M}_{n} \}_{n}$ are quantum measurements if for any state $\ket{\phi}\in \mathcal{H}$:
-1. the probability that $n$ occurs as the result of mmt is $p(n) = \braket{ \phi | \mathcal{M}_{n}^{*}\mathcal{M}_{n} \phi}$
+We say $\{ M_{n} \}_{n}$ are quantum measurements if for any state $\ket{\phi}\in \mathcal{H}$:
+1. the probability that $n$ occurs as the result of mmt is $p(n) = \braket{ \phi | M_{n}^{*}M_{n} \phi}$
 2. the state post mmt is $\frac{M_{n}\ket{\phi}}{\sqrt{ p(n) }}$
 ## Projective measurement
-Consider quantum measurements $\{ \mathcal{M}_{n} \}_{n}$ which are orthogonal projections 
+Consider quantum measurements $\{ M_{n} \}_{n}$ which are orthogonal projections 
 (i.e. they are [[Hermetian]] and $M_{n}M_{m}=\delta_{mn}M_{n}$)
 These are called projective measurements.
 Now any [[Hermetian]] operator $M$ can be represented as 
 $$
-M = \sum_{n} \lambda_{n}\mathcal{M}_{n}
+M = \sum_{n} \lambda_{n}M_{n}
 $$
+where projected spaces of $M_{n}$ correspond to eigenspaces of $M$ with eigenvalue $\lambda_{n}$
+
 
 ## Positive operator valued measurement (POVM)
 $E_{n}=M_{n}^{*}M_{n}$ [[Positive semi-definite]]
