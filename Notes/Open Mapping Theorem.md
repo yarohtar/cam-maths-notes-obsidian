@@ -1,6 +1,6 @@
 $X$, $Y$ [[Banach Space]], $T\in L(X,Y)$ surjective. Then $T$ is an open mapping.
 (ie $\exists k$ st $\forall y\in Y$ )
-    #### Proof
+#### Proof
 $T$ surjectivee
 So $\bigcup_{n}\overline{T(nB_{x})}=Y$ with each $\overline{T(nB_{x})}$ closed.
 Thus by [[The Baire Category Theorem]], some $\overline{T(n,B_{x})}$ contains a ball $B(y,\epsilon)$.
