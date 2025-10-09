@@ -1,14 +1,18 @@
 # General definition
 Let $\mathcal{H}$ be a [[Hilbert Space]]. 
-Consider a collection of [[Linear Operator]]s $\{ \mathcal{M}_{n} \}_{n} \subseteq \mathcal{B(\mathcal{H})}$ with $\sum_{n}M_{n}^{*}M_{n}=\mathbb{1}$
+Consider a collection of [[Linear Operator]]s $\{ M_{n} \}_{n} \subseteq \mathcal{B(\mathcal{H})}$ with $\sum_{n}M_{n}^{*}M_{n}=\mathbb{1}$
 We say $\{ \mathcal{M}_{n} \}_{n}$ are quantum measurements if for any state $\ket{\phi}\in \mathcal{H}$:
 1. the probability that $n$ occurs as the result of mmt is $p(n) = \braket{ \phi | \mathcal{M}_{n}^{*}\mathcal{M}_{n} \phi}$
-2. the state post mmt is $\frac{\mathcal{M}_{n}\ket{\phi}}{\sqrt{ p(n) }}$
+2. the state post mmt is $\frac{M_{n}\ket{\phi}}{\sqrt{ p(n) }}$
 ## Projective measurement
 Consider quantum measurements $\{ \mathcal{M}_{n} \}_{n}$ which are orthogonal projections 
-(i.e. they are [[Hermetian]] and $\mathcal{M}_{n}\mathcal{M}_{m}=\delta_{mn}M_{n}$)
+(i.e. they are [[Hermetian]] and $M_{n}M_{m}=\delta_{mn}M_{n}$)
 These are called projective measurements.
-These define the [[Observables]]
+Now any [[Hermetian]] operator $M$ can be represented as 
+$$
+M = \sum_{n} \lambda_{n}\mathcal{M}_{n}
+$$
+
 ## Positive operator valued measurement (POVM)
 $E_{n}=M_{n}^{*}M_{n}$ [[Positive semi-definite]]
 $M_{n}=\sqrt{ E_{n} }$
