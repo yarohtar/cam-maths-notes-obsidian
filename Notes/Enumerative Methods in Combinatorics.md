@@ -46,7 +46,8 @@ $$
 where $\phi$ and $\bar{\phi}$ satisfy $1+x=x^{2}$
 
 ### Example 3
-There exists a subset of size $p$ in $\mathbb{F}_{p}^{2}$ with no $3$ in a line.
+Let $p$ be prime. 
+Then there exists a subset of size $p$ in $\mathbb{F}_{p}^{2}$ with no $3$ in a line.
 #### Proof
 Define $S=\{ (n\pmod{p}, n^{2}\pmod{p}) : 1\leq n\leq p \}$
 Suppose for contradiction $(k,k^{2}),(l,l^{2}),(m,m^{2})$ are in a line in $\mathbb{F}_{p}^{2}$
