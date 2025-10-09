@@ -1,6 +1,10 @@
+Part II:
 Lecturer: Nilanjana Datta
 n.datta@damtp.cam.ac.uk
 Notes on moodle
+Part III:
+Angela Capel B0.14
+ac2722@cam.ac.uk
 
 [[Hilbert Space]]
 [[Qubit]]
