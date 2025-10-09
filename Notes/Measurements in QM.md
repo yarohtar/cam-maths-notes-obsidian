@@ -6,6 +6,12 @@ $$
 \left\{ \ket{n}  \text{ with prob } p(n)=\braket{ \phi | M_{n}^{*}M_{n}\phi }   \right\}\to^\text{mmt} \frac{M_{n}\ket{\phi} }{\sqrt{ p(n) }}
 $$
 
+## Projective measurement
+## Positive operator valued measurement (POVM)
+$E_{n}=M_{n}^{*}M_{n}$ [[Positive semi-definite]]
+$M_{n}=\sqrt{ E_{n} }$
+## Unitary Evolutions
+
 # Part IB/II
 Let $\{\psi_n\}$ be a complete orthogonal set of wavefunctions, meaning $(\psi_i,\psi_j)=\delta_{ij}$ and any wavefunction $\psi$ can be written as:
 $$\psi = \sum_{n=0}^\infty c_n\psi_n$$
