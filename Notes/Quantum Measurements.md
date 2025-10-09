@@ -13,10 +13,10 @@ M = \sum_{n} \lambda_{n}M_{n}
 $$
 where projected spaces of $M_{n}$ correspond to eigenspaces of $M$ with eigenvalue $\lambda_{n}$
 This defines the [[Observables]]
-Note that now the measurement results 
+Note that now the possible mmt results correspond to eigenvalues of the observable $M$
+## Positive operator valued measure (POVM)
+Consider a mmt $\{ M_{n} \}_{n}\in \mathcal{B}(\mathcal{H})$.
 
-
-## Positive operator valued measurement (POVM)
 $E_{n}=M_{n}^{*}M_{n}$ [[Positive semi-definite]]
 $M_{n}=\sqrt{ E_{n} }$
 ## Unitary Evolutions
