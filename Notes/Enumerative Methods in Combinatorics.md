@@ -1,4 +1,4 @@
-### Example
+### Example 1
 The [[Fibonacci Sequence]] has a formal generating functions $F(x)\in \mathbb{C}[[x]]$ 
 defined by:
 $$
@@ -33,5 +33,13 @@ $$
 where $\phi$ and $\bar{\phi}$ are roots of $x^{2}-x-1=0$
 Thus:
 $$
-F(x)=\sum_{n\geq 0}\alpha (\phi x)^{n} + 
+F(x)=\sum_{n\geq 0}\alpha (\phi x)^{n} + \beta (\bar{\phi}x)^{n}
+$$
+and now substitute back to the original formal power series
+
+### Example 2
+The vector space $V$ over $\mathbb{C}$ of all infinite sequences $(A_{0},A_{1},A_{2},\dots)$ s.t. $A_{n+2}=A_{n+1}+A_{n}$ 
+has dimension $2$ and is spanned by 
+$$
+\{ (1,\phi,\phi^{2},\dots), (1,\bar{\phi},\bar{\phi}^{2},\dots) \}
 $$
