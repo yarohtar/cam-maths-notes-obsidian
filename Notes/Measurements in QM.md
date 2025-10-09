@@ -1,4 +1,5 @@
 # General definition
+[[Bounded Linear Map]]
 Let $\mathcal{H}$ be a [[Hilbert Space]]. 
 Consider a collection of operators $\{ \mathcal{M}_{n} \}_{n} \subseteq \mathcal{B(\mathcal{H})}$ with $\sum_{n}M_{n}^{*}M_{n}=\mathbb{1}$
 Suppose we have a state $\ket{\phi}$
