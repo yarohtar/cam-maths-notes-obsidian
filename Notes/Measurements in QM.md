@@ -1,6 +1,10 @@
 # General definition
 Let $\mathcal{H}$ be a [[Hilbert Space]]. 
-Consider a collection of operators $\{  \}$
+Consider a collection of operators $\{ \mathcal{M}_{n} \}_{n} \subseteq \mathcal{B(\mathcal{H})}$ with $\sum_{n}M_{n}^{*}M_{n}=\mathbb{1}$
+Suppose we have a state $\ket{\phi}$
+$$
+\left\{ \ket{n}  \text{ with prob } p(n)=\braket{ \phi | M_{n}^{*}M_{n}\phi }   \right\}\to^\text{mmt} \frac{M_{n}\ket{\phi} }{\sqrt{ p(n) }}
+$$
 
 # Part IB/II
 Let $\{\psi_n\}$ be a complete orthogonal set of wavefunctions, meaning $(\psi_i,\psi_j)=\delta_{ij}$ and any wavefunction $\psi$ can be written as:
