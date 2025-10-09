@@ -43,3 +43,4 @@ has dimension $2$ and is spanned by
 $$
 \{ (1,\phi,\phi^{2},\dots), (1,\bar{\phi},\bar{\phi}^{2},\dots) \}
 $$
+where $\phi$ and $\bar{\phi}$ satisfy $1+x=x^{2}$
