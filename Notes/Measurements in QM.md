@@ -1,3 +1,8 @@
+# General definition
+Let $\mathcal{H}$ be a [[Hilbert Space]]. 
+Consider a collection of operators $\{  \}$
+
+# Part IB/II
 Let $\{\psi_n\}$ be a complete orthogonal set of wavefunctions, meaning $(\psi_i,\psi_j)=\delta_{ij}$ and any wavefunction $\psi$ can be written as:
 $$\psi = \sum_{n=0}^\infty c_n\psi_n$$
 Then it follows that $c_n=(\psi,\psi_n)$. More generally, $c_n={(\psi,\psi_n)\over (\psi_n,\psi_n)}$. 
