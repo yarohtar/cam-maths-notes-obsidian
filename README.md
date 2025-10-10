@@ -1,4 +1,4 @@
-This is an Obsidian Vault that I used to organize my notes on various Part IB and Part II courses. Part IB notes were created during Easter term when this project started, while Part II is being created as lectures go. 
+This is an Obsidian Vault that I used to organize my notes on various Part IB, Part II and Part III courses. Part IB notes were created during Easter term when this project started, while Part II is being created as lectures go. 
 
 None of this is official and it is not an accurate representation of what was lectured. I tend to give more attention to the things that I found difficult, while I might omit things that I already knew.
 
@@ -14,11 +14,11 @@ Alternatively, you could use the command "Git: CAUTION: Discard all changes" whi
 
 # Courses that exist currently
 ## Part IA
-- [[Groups]] (but taken from [[GRM]])
+- [[Groups]] (taken from [[GRM]])
 - [[Probability Space]] (taken from [[Probability and Measure]])
 
 ## Part IB
-- Some [[Methods]]
+- Some of [[Methods]]
 - [[Optimisation]]
 - [[Variational principles]]
 - [[Analysis and Topology]]
@@ -36,7 +36,7 @@ Also useful: [[Last minute revision Part IB]]
 - [[Asymptotic methods]]
 - [[Automata and formal languages]]
 - Some of [[Principles of Quantum Mechanics]]
-- Some of [[Probability and Measure]]
+- [[Probability and Measure]] (mostly just measure)
 - Some of [[Number theory]]
 - Some of [[Graph Theory]]
 - [[Coding and Cryptography]]
