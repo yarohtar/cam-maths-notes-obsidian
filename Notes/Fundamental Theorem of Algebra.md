@@ -13,7 +13,7 @@ $$
 \begin{align}
 
 F:I\times I&\longrightarrow S^1 \\
-(s,t) &\longrightarrow \frac{p_{t}(\mathrm{Re}^{2\pi is}) / p_{t}(R)}{\lvert p_{t}(\mathrm{Re}^{2\pi is}) / p_{t(R)} \rvert }
+(s,t) &\longrightarrow \frac{p_{t}(R e^{2\pi is}) / p_{t}(R)}{\lvert p_{t}(R e^{2\pi is}) / p_{t(R)} \rvert }
 \end{align}
 $$
 Well defined because $p_{t}$ is non zero on $\lvert z \rvert=R$
