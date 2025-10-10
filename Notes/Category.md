@@ -14,6 +14,8 @@ subject to:
 7. $f(gh)=(fg)h$ whenever $fg$ and $gh$ are defined
 ### Examples
 [[Category of Sets]]
+[[Category of Relations]]
+[[Category of Partial Functions]]
 [[Category of Groups]]
 [[Category of Rings]]
 [[Category of Vector Spaces]]
