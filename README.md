@@ -14,7 +14,7 @@ Alternatively, you could use the command "Git: CAUTION: Discard all changes" whi
 
 # Courses that exist currently
 ## Part IA
-- [[Groups]] (taken from [[GRM]])
+- [[Groups]] (taken from [[Groups, Rings and Modules]])
 - [[Probability Space]] (taken from [[Probability and Measure]])
 
 ## Part IB
@@ -23,7 +23,7 @@ Alternatively, you could use the command "Git: CAUTION: Discard all changes" whi
 - [[Variational principles]]
 - [[Analysis and Topology]]
 - [[Quantum mechanics]]
-- [[GRM]] (only [[Groups]] and [[Ring]])
+- [[Groups, Rings and Modules]] (only [[Groups]] and [[Ring]])
 - [[Numerical Analysis]]
 - [[Complex Methods]]
 
@@ -112,6 +112,7 @@ If you made changes to some files, the Pull might fail with some error messages 
 Firstly, you can switch between editing and reading mode in the top-right corner.
 
 By hitting CTRL+O (plus icon on phone), you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. 
+Obsidian search is automatically fuzzy which means that searching "anatop" will match "__Ana__lysis and *TOP*ology" 
 
 Alternatively, open this README file in obsidian and click on links in [[#Courses that exist currently]].
 
