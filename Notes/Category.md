@@ -26,4 +26,4 @@ subject to:
 [[Category of Homotopy]]
 [[Monoid]]
 [[Groupoid]]
-[[Preorder]]
+[[Preorder Category]]
