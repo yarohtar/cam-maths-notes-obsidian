@@ -16,4 +16,6 @@ subject to:
 [[Category of Sets]]
 [[Category of Groups]]
 [[Category of Rings]]
-[[Category of ]]
+[[Category of Vector Spaces]]
+[[Category of Topological Spaces]]
+[[Category of Metric Spaces]]
