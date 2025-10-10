@@ -3,7 +3,8 @@ A family $(A_{n})_{n\in I}$ of events is independent if, for all finite subsets 
 $$
 \mathbb{P}\left( \bigcap_{i\in J}A_{i} \right)=\prod_{i\in J}\mathbb{P}(A_{i})
 $$
-A family $(\mathcal{A}_{i})$ of sub-[[sigma-algebra]]s of $\mathcal{F}$ is independent iif the family $(A_{i})_{i\in I}$ is independent whenever $A_{i}\in \mathcal{A}_{i}$ for all $i$.
+A family $(\mathcal{A}_{i})$ of sub-[[sigma-algebra]]s of $\mathcal{F}$ is independent
+if and only if the family $(A_{i})_{i\in I}$ is independent whenever $A_{i}\in \mathcal{A}_{i}$ for all $i$.
 
 ### Theorem
 Let $\mathcal{A}_{1}$ and $\mathcal{A}_{2}$ be [[pi-system]]s contained in $\mathcal{F}$ and suppose that 
