@@ -31,5 +31,5 @@ So $[f_{R}]=n\in \pi_{1}(S^1,1)$ (by homotopy invariance)
 $f_{0}\equiv 1$ so $[f_{0}]=0\in \pi_{1}(S^1,1)$
 
 $f_{r}(s)$ is a homotopy that gives $f_{R}\simeq f_{0}$ as loops, 
-so $n=0$ which is a contradiction.
+so $[f_{R}]=0$ which is a contradiction.
 
