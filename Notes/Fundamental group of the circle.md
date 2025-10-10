@@ -1,5 +1,6 @@
 ### Theorem
-Let $u:I\to S^1$, $u(t)=e^{2\pi it}$ loop based at $1\in S^1$. Then there's a group isomorphism
+Let $u:I\to S^1$, $u(t)=e^{2\pi it}$ loop based at $1\in S^1$. 
+Then there's a group isomorphism
 $$
 \begin{align}
 \pi_{1}(S^1,1) & \to (\mathbb{Z},+) \\

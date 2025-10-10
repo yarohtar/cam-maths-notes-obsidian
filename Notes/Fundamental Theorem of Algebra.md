@@ -4,7 +4,7 @@ Every non constant polynomial over $\mathbb{C}$ has a root in $\mathbb{C}$.
 By contradiction.
 Let $p(z)=z^n+a_{1}z^{n-1}+\dots+a_{n}$ with no root, $n\geq 1$ (wlog monic)
 
-Take $R\gg 0$ st $R>max\left( \sum \lvert a_{i} \rvert, 1 \right)$
+Take $R\gg 0$ st $R>\max\left( \sum \lvert a_{i} \rvert, 1 \right)$
 On $\lvert z \rvert=R$, there can be no roots.
 Let $p_{t}(z)=z^n+t(a_{1}z^{n-1}+\dots+a_{n})$ for $t\in[0,1]$.
 Then $p_{t}$ also has no roots in $\lvert z \rvert=R$.
@@ -12,8 +12,8 @@ Define:
 $$
 \begin{align}
 
-F:I\times I&\to S^1 \\
-(s,t) & \to \frac{p_{t}(\mathrm{Re}^{2\pi is}) / p_{t}(R)}{\lvert p_{t}(\mathrm{Re}^{2\pi is}) / p_{t(R)} \rvert }
+F:I\times I&\longrightarrow S^1 \\
+(s,t) &\longrightarrow \frac{p_{t}(\mathrm{Re}^{2\pi is}) / p_{t}(R)}{\lvert p_{t}(\mathrm{Re}^{2\pi is}) / p_{t(R)} \rvert }
 \end{align}
 $$
 Well defined because $p_{t}$ is non zero on $\lvert z \rvert=R$
@@ -30,5 +30,6 @@ So $[f_{R}]=n\in \pi_{1}(S^1,1)$ (by homotopy invariance)
 
 $f_{0}\equiv 1$ so $[f_{0}]=0\in \pi_{1}(S^1,1)$
 
-$f_{r}(s)$ is a homotopy that gives $f_{R}\simeq f_{0}$ as loops, so $n=0$ which is a contradiction.
+$f_{r}(s)$ is a homotopy that gives $f_{R}\simeq f_{0}$ as loops, 
+so $n=0$ which is a contradiction.
 
