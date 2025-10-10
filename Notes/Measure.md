@@ -23,5 +23,5 @@ The triple $(E,\mathcal{E},\mu)$ is called a measure space.
 [[Ring (of sets)]]
 [[Carathéodory's Extension Theorem]]
 [[Uniqueness of Measures]]
-[[Borel Sets]]
+[[Borel Sigma Algebra]]
 [[Lebesgue Measure]]

@@ -1,4 +1,4 @@
-There exists a unique [[Borel Sets|Borel measure]] $\mu$ on $\mathbb{R}$ such that, for all $a,b\in \mathbb{R}$ with $a<b$,
+There exists a unique [[Borel Sigma Algebra|Borel measure]] $\mu$ on $\mathbb{R}$ such that, for all $a,b\in \mathbb{R}$ with $a<b$,
 $$
 \mu((a,b])=b-a.
 $$
