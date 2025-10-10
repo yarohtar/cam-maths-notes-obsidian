@@ -14,3 +14,6 @@ subject to:
 7. $f(gh)=(fg)h$ whenever $fg$ and $gh$ are defined
 ### Examples
 [[Category of Sets]]
+[[Category of Groups]]
+[[Category of Rings]]
+[[Category of ]]
