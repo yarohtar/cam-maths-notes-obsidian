@@ -1,6 +1,7 @@
 Let $p:\tilde{X}\to X$ be a [[Covering Spaces|covering map]], 
 Let $H:Y\times I\to X$ be a homotopy from $f_{0}$ to $f_{1}$
-Let $\tilde{f}_{0}$ be a lift of $f_{0}$. Then there exists a unique homotopy $\tilde{H}:Y\times I\to \tilde{X}$ such that 
+Let $\tilde{f}_{0}$ be a [[Lift]] of $f_{0}$
+Then there exists a unique homotopy $\tilde{H}:Y\times I\to \tilde{X}$ such that 
 1. $\tilde{H}(\cdot,0)=\tilde{f}_{0}(\cdot)$
 2. $p\circ \tilde{H}=H$
 #### Proof
@@ -11,9 +12,21 @@ $$
 $$
 
 Fix $y_{0}\in Y$.
-By [[Lebesgue number lemma]] applied to $\{ y_{0} \}\times I$, there is some $N$ st $\{ y_{0} \}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_{\alpha(i)})$ for some $\alpha(i)$.
-Furthermore, due to compactness of $\left[ \frac{i}{N}, \frac{i+1}{N} \right]$ we know that there is some open $W_{y_{0}}^{(i)}$ (a nbd of $y_{0}$), such that $H\left( W_{y_{0}}^{(i)}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right] \right)\subseteq U_{\alpha(i)}$. 
-(Idea is, take $H^{-1}(U_{\alpha(i)})$ open in $Y\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]$, so it is open in product topology, so it is a union of $U\times V$ where $U$ is open in $Y$, and $V$ is open in (interval). Then take all the pairs that contain $(y_{0},r)$ for some number $r$. Those will induce an open cover on the interval, hence take the finite subcover, and intersect the corresponding open sets in $Y$)
+By [[Lebesgue number lemma]] applied to $\{ y_{0} \}\times I$, 
+there is some $N$ st $\{ y_{0} \}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]\subseteq H^{-1}(U_{\alpha(i)})$ for some $\alpha(i)$.
+Furthermore, due to compactness of $\left[ \frac{i}{N}, \frac{i+1}{N} \right]$ 
+we know that there is some open $W_{y_{0}}^{(i)}$ (a nbd of $y_{0}$), 
+such that $H\left( W_{y_{0}}^{(i)}\times\left[ \frac{i}{N}, \frac{i+1}{N} \right] \right)\subseteq U_{\alpha(i)}$
+##### Why?
+Idea is, take $H^{-1}(U_{\alpha(i)})$ open in $Y\times\left[ \frac{i}{N}, \frac{i+1}{N} \right]$, 
+so it is open in product topology, 
+so it is a union of $U\times V$ where $U$ is open in $Y$, 
+and $V$ is open in (interval). 
+Then take all the pairs that contain $(y_{0},r)$ for some number $r$. 
+Those will induce an open cover on the interval, 
+hence take the finite subcover, 
+and intersect the corresponding open sets in $Y$
+#####
 Now set $W_{y_{0}}'=\bigcap W_{y_{0}}^{(i)}$. 
 Finally, take $\beta \in I_{\alpha(0)}$ such that $\tilde{f}_{0}(y_{0})\in V_{\beta}$, and set $W_{y_{0}}=W_{y_{0}}'\cap \tilde{f}_{0}^{-1}(V_{\beta})$.
 ##### Step 1
@@ -33,10 +46,11 @@ Lifts need to agree on $(W_{y_{0}}\times I)\cap(W_{y_{1}}\times I)=(W_{y_{0}}\ca
 By [[Uniqueness of Lifts Lemma]], they must agree on an open and closed subset of $(W_{y_{0}}\cap W_{y_{1}})\times I$.
 By construction, they agree on $(W_{y_{0}}\cap W_{y_{1}})\times \{ 0 \}$
 So they have to agree on all of $(W_{y_{0}}\cap W_{y_{1}})\times I$
-eg by considering that they agree on $\{ y \}\times \{ 0 \}$ (for each $y\in W_{y_{0}}\cap W_{y_{1}}$) and $\{ y \}\times I$ are all connected.
+eg by considering that they agree on $\{ y \}\times \{ 0 \}$ (for each $y\in W_{y_{0}}\cap W_{y_{1}}$) 
+and $\{ y \}\times I$ are all connected.
 
 ### Corollaries
-- [[Path Lifting Lemma]]
-- [[Path Push Forward Bijection Proposition]]
+[[Path Lifting Lemma]]
+[[Path Push Forward Bijection Proposition]]
 
 [[Covering Fundamental groups]]
