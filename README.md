@@ -111,10 +111,11 @@ If you made changes to some files, the Pull might fail with some error messages 
 # How to navigate
 Firstly, you can switch between editing and reading mode in the top-right corner.
 
-By hitting CTRL+O (plus icon on phone), you'll be able to search through files. Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. 
-Obsidian search is automatically fuzzy which means that searching "anatop" will match "__Ana__lysis and *TOP*ology" 
+By hitting CTRL+O (plus icon on phone), you'll be able to search through files. 
+Search for the course that interests you and you'll usually find an indexed file of sections / topics in that course. 
+Obsidian search is automatically fuzzy which means that searching "anatop" will match "==Ana==lysis and ==Top==ology" 
 
-Alternatively, open this README file in obsidian and click on links in [[#Courses that exist currently]].
+Alternatively, open this README file in Obsidian and click on links in [[#Courses that exist currently]].
 
 You can click on links to open further files (CTRL+Click to open in new tab). You can also use CTRL+J or the arrow in the top-left to navigate back.
 
