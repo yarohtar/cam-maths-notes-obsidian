@@ -49,6 +49,7 @@ Also useful: [[Last minute revision Part IB]]
 ## Part III
 - [[Quantum Information]]
 - [[Algebraic Methods in Combinatorics]]
+- [[Category Theory]]
 
 # How to download (works on phones and computers)
 ## Step 1
