@@ -8,7 +8,7 @@ $$
 $$
 For any measurable function $f$, if $\mu(|f|)<\infty$, 
 we say that $f$ is integrable 
-and we define:
+and we define the integral:
 $$
 \mu(f)=\mu(f^+)-\mu(f^-)
 $$

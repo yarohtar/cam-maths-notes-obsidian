@@ -9,4 +9,4 @@ Jean F Le Gall website CH1 & 2
 [[lim sup]]
 [[lim inf]]
 [[Measurable Function]]
-[[Integration]]
+[[Integral]]
