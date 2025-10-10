@@ -19,3 +19,5 @@ subject to:
 [[Category of Vector Spaces]]
 [[Category of Topological Spaces]]
 [[Category of Metric Spaces]]
+[[Category of Smooth Manifolds]]
+[[Category of Topological Groups]]
