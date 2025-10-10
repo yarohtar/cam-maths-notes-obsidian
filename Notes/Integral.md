@@ -7,7 +7,7 @@ $$
 \mu(f)=\sup \{ \mu(g):g \text{ simple, } g\leq f \}
 $$
 For any measurable function $f$, if $\mu(|f|)<\infty$, 
-we say that $f$ is integrable 
+we say that $f$ is integrable
 and we define the integral:
 $$
 \mu(f)=\mu(f^+)-\mu(f^-)
