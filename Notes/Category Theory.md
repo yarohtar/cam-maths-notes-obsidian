@@ -6,6 +6,9 @@ A category $\mathcal{C}$ consists of
 4. An operation sending $A$ to $1_{A}$ where $A\xrightarrow 1_{A}A$
 5. A partial binary operation on morphisms $(f,g)\to fg$ s.t.
    $$
-fg \text{defined} \iff \operatorname{dom}f=\operatorname{cod}g
+fg \text{ defined} \iff \operatorname{dom}f=\operatorname{cod}g
 $$
 and then $\operatorname{dom}fg=\operatorname{dom}g$ and $\operatorname{cod}fg =\operatorname{cod}f$
+subject to:
+6. $f 1_{A}=f$ and $1_{A}g=g$ whenever the composites are defined
+7. $f(gh)=(fg)h$ whenever $fg$ and $gh$ are defined
