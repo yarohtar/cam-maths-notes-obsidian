@@ -41,7 +41,7 @@ Also useful: [[Last minute revision Part IB]]
 - Some of [[Graph Theory]]
 - [[Coding and Cryptography]]
 - [[Logic and Set Theory]]
-- [[Integrable systems]]
+- Some of [[Integrable systems]]
 - [[Quantum Information and Computing]]
 
 [[Last Minute Revision Part II]]
