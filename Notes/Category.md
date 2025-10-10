@@ -21,3 +21,4 @@ subject to:
 [[Category of Metric Spaces]]
 [[Category of Smooth Manifolds]]
 [[Category of Topological Groups]]
+[[Category of Homotopy]]
