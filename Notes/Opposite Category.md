@@ -1,0 +1,1 @@
+For any [[Category]] $\mathcal{C}$, the opposite category $\mathcal{C}^{}$
