@@ -1,5 +1,6 @@
-Let $p: \tilde{X}\to X$ be a [[Covering Spaces|covering map]], and $f:Y\to X$ a map. Let $\tilde{f}_{0},\tilde{f}_{1}:Y\to \tilde{X}$ be two lifts of $f$. Then
-$S=\{ y \in Y\mid \tilde{f}_{0}(y)=\tilde{f_{1}}(y) \}$ is open and closed in $Y$.
+Let $p: \tilde{X}\to X$ be a [[Covering Spaces|covering map]], and $f:Y\to X$ a map. 
+Let $\tilde{f}_{0},\tilde{f}_{1}:Y\to \tilde{X}$ be two lifts of $f$. 
+Then $S=\{ y \in Y\mid \tilde{f}_{0}(y)=\tilde{f_{1}}(y) \}$ is open and closed in $Y$.
 #### Proof
 ##### $S$ open
 Fix $y \in S$. Let $f(y)\in U$ evenly covered nbd in $X$. 

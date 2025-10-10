@@ -1,4 +1,6 @@
-Let $p:\tilde{X}\to X$ be a [[Covering Spaces|covering map]], $H:Y\times I\to X$ a homotopy from $f_{0}$ to $f_{1}$, $\tilde{f}_{0}$ a lift of $f_{0}$. Then there exists a unique homotopy $\tilde{H}:Y\times I\to \tilde{X}$ such that 
+Let $p:\tilde{X}\to X$ be a [[Covering Spaces|covering map]], 
+Let $H:Y\times I\to X$ be a homotopy from $f_{0}$ to $f_{1}$
+Let $\tilde{f}_{0}$ be a lift of $f_{0}$. Then there exists a unique homotopy $\tilde{H}:Y\times I\to \tilde{X}$ such that 
 1. $\tilde{H}(\cdot,0)=\tilde{f}_{0}(\cdot)$
 2. $p\circ \tilde{H}=H$
 #### Proof
