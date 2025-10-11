@@ -13,7 +13,7 @@ Notes on moodle
 [[Orthogonal Subspaces]]
 [[Quantum Measurements]]
 [[Entanglement]]
-[[Quantum Logic Gates]]
+[[Logic Gates]]
 [[Bell basis]]
 
 [[No-cloning Theorem]]

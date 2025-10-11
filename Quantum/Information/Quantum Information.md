@@ -9,6 +9,6 @@ For $T\in B(\mathcal{H})$ define the dual (ie [[Adjoint]]) to be $T^{*}$
 
 [[Quantum Measurements]]
 [[Unitary]]
-[[Quantum Logic Gates]]
+[[Logic Gates]]
 [[Trace of an Operator]]
 [[Density Operators]]

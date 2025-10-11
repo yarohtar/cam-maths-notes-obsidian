@@ -1,4 +1,4 @@
-We want to find discrete [[Fourier Transform]]
+We want to find discrete [[Analysis/Fourier Transform]]
 $$
 y_{j}=(\mathcal{F}_{n}x)_{j}=\frac{1}{n}\sum_{l=0}^{n-1} \omega_{n}^{-jl}x_{l}
 $$

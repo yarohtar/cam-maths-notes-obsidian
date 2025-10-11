@@ -2,7 +2,7 @@ Let $f(t)$ be defined for all $t\geq 0$. Its Laplace transform is:
 $$F(s)=\mathcal L\{f(t)\}(s)=\int_0^\infty f(t)e^{-st}dt$$
 where $s\in\mathbb C$, provided that integral exists.
 
-If additionally $f(t)=0$ for $t<0$, then $F(s)=-\tilde f(-is)$ ([[Fourier Transform]])
+If additionally $f(t)=0$ for $t<0$, then $F(s)=-\tilde f(-is)$ ([[Analysis/Fourier Transform]])
 
 ### Examples
 - $f(t)=1$, $F(s)=\frac 1 s$

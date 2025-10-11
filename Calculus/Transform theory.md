@@ -1,2 +1,2 @@
-[[Fourier Transform]]
+[[Analysis/Fourier Transform]]
 [[Laplace Transform]]

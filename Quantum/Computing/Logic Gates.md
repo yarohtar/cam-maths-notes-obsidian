@@ -3,7 +3,7 @@ on a selected set of qubits in a fixed period of time.
 Mathematically, a quantum gate is a [[Unitary]] operator
 
 ### 1 qubit gates
-[[Quantum Circuit]]
+[[Circuit]]
 [[Hadamard gate]]
 [[Quantum Fourier Transform]]
 [[X-gate]]

@@ -1,6 +1,6 @@
 [[Normed Space]]
 [[Space of Linear Operators]]
-[[Dual Spaces]]
+[[Analysis/Dual Spaces]]
 [[The Baire Category Theorem]]
 [[Spaces of CTS functions]]
 [[Hilbert Space]]
