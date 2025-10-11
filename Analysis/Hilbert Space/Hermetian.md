@@ -9,4 +9,3 @@ there exist unique $T_{1},T_{2}\in L(\mathcal{H})$ Hermetian with $T=T_{1}+iT_{2
 $T_{1}=\frac{1}{2}(T+T^{*})$
 $T_{2}=\frac{1}{2}(T^{*}-T)$
 
-

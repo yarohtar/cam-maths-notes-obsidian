@@ -15,10 +15,10 @@ A subset of $X$ is closed if its complement is open.
 
 ## Basic properties/defns
 1. Some topologies are induced by a [[Metric space|metric]].
-2. [[Hausdorff space]]
+2. [[Hausdorff]]
 3. $A\subset X$ is open if every point has an open [[Neighbourhood|nbd]] that is contained in $A$
 4. $x_n\to x$ if for any nbd $V$ of $x$ we find $N$ s.t. $x_n\in V$ for $n>N$
-5. In a [[Hausdorff space]], the limits are unique.
+5. In a [[Hausdorff]], the limits are unique.
 6. Suppose $A\subset X$ is closed and $x_n\to x$ in $X$ and $x\not\in A$. Then no open nbd of $x$ is in $X\setminus A$ but then $X\setminus A$ is not open contradiction so it has to be $x\in A$.
 7. HOWEVER, a set $A$ which contains all its limit points no longer has to be closed.
 8. [[Accumulation points]]

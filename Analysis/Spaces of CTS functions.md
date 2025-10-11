@@ -1,4 +1,4 @@
-We study $C(K)$ where $K$ is a [[Compactness|compact]] [[Hausdorff space]].
+We study $C(K)$ where $K$ is a [[Compactness|compact]] [[Hausdorff]].
 
 [[Compact Hausdorff is Normal]]
 [[Urysohn's Lemma]]

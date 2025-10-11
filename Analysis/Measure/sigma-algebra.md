@@ -5,7 +5,7 @@ A $\sigma-$algebra on $E$ is a family $\mathcal E\subset \mathcal{P}(E)$ such th
 
 Alternatively, $\mathcal{E}$ is a $\sigma$-algebra if it is a [[pi-system]] and a [[d-system]].
 ###### Remark
-If you allow only finite unions in 3. then $\mathcal E$ is called an [[Algebra (of sets)]].
+If you allow only finite unions in 3. then $\mathcal E$ is called an [[Algebra]].
 $\sigma-$algebra are countable unions.
 
 ### Definition (Generated $\sigma$-algebra)

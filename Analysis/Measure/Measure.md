@@ -19,8 +19,8 @@ The triple $(E,\mathcal{E},\mu)$ is called a measure space.
   and $\mu(E_{n})<\infty$ for all $n$ then $\mu$ is a $\sigma$-finite measure
 
 [[Set Function]]
-[[Algebra (of sets)]]
-[[Ring (of sets)]]
+[[Algebra]]
+[[Ring]]
 [[Carathéodory's Extension Theorem]]
 [[Uniqueness of Measures]]
 [[Borel Sigma Algebra]]

@@ -23,7 +23,7 @@ https://yarohtar.github.io/maths-notes/
 - [[Variational principles]]
 - [[Analysis and Topology]]
 - [[Quantum mechanics]]
-- [[Groups, Rings and Modules]] (only [[Groups]] and [[Ring]])
+- [[Groups, Rings and Modules]] (only [[Groups]] and [[Algebra/Ring]])
 - [[Numerical Analysis]]
 - [[Complex Methods]]
 

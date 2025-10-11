@@ -1,4 +1,5 @@
-Let $X$ be a topological space. We say it is disconnected if we can find open $U$ and $V$ s.t. $U\cap V=\emptyset$, $U\cup V=X$ and they are nonempty.
+Let $X$ be a topological space.
+We say it is disconnected if we can find open $U$ and $V$ s.t. $U\cap V=\emptyset$, $U\cup V=X$ and they are nonempty.
 
 We say $X$ is connected if it is not disconnected.
 
