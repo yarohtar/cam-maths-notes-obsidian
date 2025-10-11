@@ -1,5 +1,5 @@
 NONEXAMINABLE (part ii)
-For any normed space $X$ there is a completion of $X$ meaning a complete norrmed space in which $X$ is dense
+For any normed space $X$ there is a completion of $X$ meaning a complete normed space in which $X$ is dense
 
 Let $\tilde{X}$ be the set of all Cauchy sequences in $X$, Quotiented by equiv relation $(x_{n})\sim(y_{n})$ if $x_{n}-y_{n}\to 0$.
 This is naturally a vector space 

@@ -1,4 +1,3 @@
-
 ## Real Sequences
 ### Theorem
 A real sequence $x_n$ is convergent if and only if:

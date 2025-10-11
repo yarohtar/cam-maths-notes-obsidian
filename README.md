@@ -1,16 +1,16 @@
-This is an Obsidian Vault that I used to organize my notes on various Part IB, Part II and Part III courses. Part IB notes were created during Easter term when this project started, while Part II is being created as lectures go. 
+This is an Obsidian Vault that I use to organize my notes on various courses during my time in Cambridge.
 
-None of this is official and it is not an accurate representation of what was lectured. I tend to give more attention to the things that I found difficult, while I might omit things that I already knew.
+No content presented in here is official nor endorsed by the University (or people associated with the University) 
+and it is not an accurate representation of what was lectured or what is examined.
+While some notes were taken during lectures, a big part was created after lectures / during revision and heavily modified based on various resources.
+In particular, all errors are my own.
 
-Most of the examples given in lectures are omitted here. 
+The lecture notes were created in Obsidian (https://obsidian.md/). 
+The guide on how to view them in app is below. 
 
-Also the Part IB files are much more concise and probably require previous understanding of the course in order to read (because they were originally created as a revision).
+If you don't want to view them in app, you can also browse them on:
+https://yarohtar.github.io/maths-notes/
 
-You're welcome to fork this and add your own changes / notes, but if you only want to read mine, see below.
-
-WARNING: If you clone this AND are adding your own changes AND are then pulling changes from my repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case. 
-
-Alternatively, you could use the command "Git: CAUTION: Discard all changes" which would discard your local changes and sync with the remote.
 
 # Courses that exist currently
 ## Part IA
@@ -84,6 +84,10 @@ Note that some things (like commutative diagrams) might not load on phone. sorry
 
 # How to update from remote
 If I make changes/updates to the Vault, you will be able to pull them by opening the command palette again and searching for "Git: Pull". This should do everything it needs to.
+
+WARNING: If you clone this AND are adding your own changes AND are then pulling changes from my repo, the obsidian git plugin sometimes gets very confused about merging. You should use command line git in this case. 
+
+Alternatively, you could use the command "Git: CAUTION: Discard all changes" which would discard your local changes and sync with the remote.
 
 ## IF it doesn't! (usually on phones)
 And you get a message of type "Author not set, please do this in settings", you will need to do the following:
