@@ -3,6 +3,6 @@
 [[Uniform Cauchy]]
 [[Power series]]
 [[Uniform continuity]]
-[[Metric spaces]]
-[[Topological spaces]]
+[[Metric space]]
+[[Topological space]]
 [[Compact - Sequentially Compact - Totally Bounded]]
