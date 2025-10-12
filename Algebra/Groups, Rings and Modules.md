@@ -1,3 +1,3 @@
-[[Groups]]
+[[Group]]
 [[Algebra/Ring]]
 [[Modules]]
