@@ -1,6 +1,8 @@
-For [[Well-ordered]] sets $X,Y$, write $X\leq Y$ if $X$ is [[Order-isomorphic]] to an [[Initial Segment]] of $Y$ 
+For [[Well-ordered]] sets $X,Y$, 
+write $X\leq Y$ if $X$ is [[Order-isomorphic]] to an [[Initial Segment]] of $Y$ 
 ### Theorem
-Let $X,Y$ be [[Well-ordered]] sets. Then either $X\leq Y$ or $Y\leq X$.
+Let $X,Y$ be [[Well-ordered]] sets. 
+Then either $X\leq Y$ or $Y\leq X$.
 
 #### Proof
 Assume $Y\not\leq X$. Particular $Y\neq \emptyset$
@@ -23,7 +25,8 @@ As in (previous prop) we show $f$ is order-preserving and $im(f)$ is an initial 
 Hence $X\leq Y$.
 
 ### Proposition
-Let $X$, $Y$ be [[Well-ordered]] sets. If $X\leq Y$ and $Y\leq X$ then $X$ is [[Order-isomorphic]] to $Y$ 
+Let $X$, $Y$ be [[Well-ordered]] sets. 
+If $X\leq Y$ and $Y\leq X$ then $X$ is [[Order-isomorphic]] to $Y$ 
 #### Proof
 Let $f:X\to Y$ and $g:Y\to X$ be [[Order-isomorphic]] to initial segments of $Y$ and $X$ respectively
 Then $g\circ f:X\to X$ is an order isomorphism to an [[Initial Segment]] of $X$. By [[Subset Collapse]] and (prop 3?)
@@ -40,6 +43,12 @@ Let $\{ X_{i}:i\in I \}$ be a [[Nested]] set of [[Well-ordered]] sets. Then ther
 #### Proof
 Let $X=\bigcup_{i\in I}X_{i}$
 For $x,y\in X$ we let $x<y$ iff there is some $i\in I$ such that $x,y\in X_{i}$ and $x<_{i}y$.
-Since the $X_{i}$ are [[Nested]], it follows that $<$ on $X$ is a well defined [[Linear order]] such that each $X_{i}$ is an [[Initial Segment]] of $X$ 
-Let $S\subseteq X$, $S\neq \emptyset$. Then there is some $i\in I$ such that $X_{i}\cap S\neq \emptyset$
-Since $X_{i}$ is [[Well-ordered]], then $X_{i}\cap S$ has a least element $x$. Since $X_{i}$ is initial segment of $X$, $x$ has to be the least element of $S$. 
+Since the $X_{i}$ are [[Nested]], 
+it follows that $<$ on $X$ is a well defined [[Linear order]] 
+such that each $X_{i}$ is an [[Initial Segment]] of $X$ 
+Let $S\subseteq X$, $S\neq \emptyset$. 
+Then there is some $i\in I$ such that $X_{i}\cap S\neq \emptyset$
+Since $X_{i}$ is [[Well-ordered]], 
+then $X_{i}\cap S$ has a least element $x$. 
+Since $X_{i}$ is initial segment of $X$,
+$x$ has to be the least element of $S$. 

@@ -1,4 +1,6 @@
-Let $A$, $B$ be sets. Assume that there are injections $f:A\to B$ and $g:B\to A$. Then there's a bijection $h:A\to B$
+Let $A$, $B$ be sets. 
+Assume that there are injections $f:A\to B$ and $g:B\to A$. 
+Then there's a bijection $h:A\to B$
 
 #### Proof
 We seek partitions $P\cup Q$ of $A$ and $R\cup S$ of $B$ 

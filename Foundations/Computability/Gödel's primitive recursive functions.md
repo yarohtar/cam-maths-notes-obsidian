@@ -1,4 +1,6 @@
-Suppose $f:\mathbb{N}^{k}\dashrightarrow \mathbb{N}$, $g:\mathbb{N}^{k+2}\dashrightarrow \mathbb{N}$ and $g_{1},\dots,g_{k}:\mathbb{N}^{l}\dashrightarrow \mathbb{N}$ are [[Partial Numerical Function]]s.
+Suppose $f:\mathbb{N}^{k}\dashrightarrow \mathbb{N}$, $g:\mathbb{N}^{k+2}\dashrightarrow \mathbb{N}$ 
+and $g_{1},\dots,g_{k}:\mathbb{N}^{l}\dashrightarrow \mathbb{N}$ 
+are [[Partial Numerical Function]]s.
 
 The partial numerical function $c$ defined by
 $$

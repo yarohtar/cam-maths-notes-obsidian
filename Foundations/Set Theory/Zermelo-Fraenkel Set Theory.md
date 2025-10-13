@@ -7,7 +7,7 @@ If $(a,b)$ is in $\in_{V}$ then say '$a$ is a member of $b$' or '$a$ belongs to 
 $V$ will be called the 'universe of sets'
 [[Axioms of ZF]]
 
-[[Transitive]]
+[[Foundations/Set Theory/Transitive]]
 [[Principle of Epsilon-Induction]]
 [[Epsilon-recursion Theorem]]
 [[Well-Founded]]

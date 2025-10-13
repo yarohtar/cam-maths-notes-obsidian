@@ -1,4 +1,6 @@
-A [[Grammar|grammar]] $G=(\Sigma,V,S,P)$ is variable-based if $P$ only contains rules whose LHS is a string of variables in $V$ (ie we cannot rewrite a terminal symbol).
+Let $G=(\Sigma,V,S,P)$ be a [[Grammar]]
+Suppose that $P$ only contains rules whose LHS is a string in $V^{+}$
+Then we say that $G$ is a variable based grammar.
 ### Lemma
 Every grammar is equivalent to a variable-based grammar
 #### Proof

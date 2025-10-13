@@ -30,7 +30,7 @@ Use $TC(\{ x \})$
 
 ![[Mostowski's Collapsing Theorem]]
 ## Ordinal
-An ordinal is a [[Transitive]] set well ordered by $\in$.
+An ordinal is a [[Foundations/Set Theory/Transitive]] set well ordered by $\in$.
 Order types are defined and unique for all sets 
 by [[Mostowski's Collapsing Theorem]]
 ## Cardinal
