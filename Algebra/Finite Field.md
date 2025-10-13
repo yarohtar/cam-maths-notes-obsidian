@@ -1,7 +1,7 @@
 A [[Field]] with finitely many elements.
 ### Lemma
 A finite field has order of a prime power.
-Moreover, this is unique.
+Moreover, there is a unique finite field of each prime power.
 #### Proof
 A finite field has prime [[Characteristic of a ring]] 
 (otherwise, it wouldn't be an [[Integral domain]])
