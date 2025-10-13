@@ -50,6 +50,7 @@ Also useful: [[Last minute revision Part IB]]
 - [[Quantum Information]]
 - [[Algebraic Methods in Combinatorics]]
 - [[Category Theory]]
+- [[Information Theory]]
 
 # How to download (works on phones and computers)
 ## Step 1

@@ -1,12 +1,7 @@
-[[Ideal]]
-[[The isomorphism theorems (Rings)]]
-[[Characteristic of a ring]]
-[[Integral domain]]
-[[Maximal Ideal]]
-[[Prime Ideal]]
-[[Factorisation in integral domains]]
-[[Principal Ideal Domain]]
-[[Euclidean Domain]]
-[[Unique Factorisation Domain]]
-[[Polynomial rings]]
-[[Noetherian Rings]]
+A ring is an ordered tuple $(R,+,\cdot)$ where 
+- $(R,+)$ is an [[Abelian]] [[Group]]
+- $(R,\cdot)$ is a [[Monoid]]
+and multiplication is distributive:
+- $a(b+c)=ab+ac$
+- $(b+c)a=ba+ca$
+
