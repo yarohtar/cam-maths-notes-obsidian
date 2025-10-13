@@ -22,3 +22,6 @@ $$
 [[Power Set Functor]]
 [[Dual Space Functor]]
 [[Opposite Functor]]
+[[Monoid Homomorphism]]
+[[Order Preserving Map]]
+[[Group action]]

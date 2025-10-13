@@ -1,6 +1,6 @@
 $G$ is a $p$-group if $|G|=p^n$ for some $n$ and prime $p$.
 ### Theorem (centre)
-If $G$ is a $p$-group, then the [[Group actions#Action on itself|centre]] $Z(G)$ is nontrivial.
+If $G$ is a $p$-group, then the [[Group action#Action on itself|centre]] $Z(G)$ is nontrivial.
 #### Proof
 Note that any conjugacy class has order $1$ or divisible by $p$. $Z$ is the union of all $1$ classes. The union of all other conjugacy classes is $G\setminus Z$. But all other classes are divisible by $p$ so their union has to be divisible by $p$ so $G\setminus Z$ has to be divisible by $p$ so $|Z|$ has to be divisible by $p$ so $|Z|\geq p$.
 #### Corollary

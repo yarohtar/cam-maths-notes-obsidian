@@ -3,3 +3,4 @@
 [[Quotient Category]]
 [[Opposite Category]]
 [[Functor]]
+[[Natural Transformation]]

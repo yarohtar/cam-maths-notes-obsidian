@@ -1,6 +1,6 @@
 [[The isomorphism theorems (Groups)]]
 [[Simple groups]]
-[[Group actions]]
+[[Group action]]
 [[Permutation groups]]
 [[Alternating groups]]
 [[Groups of prime order]]

@@ -1,3 +1,7 @@
+If $G$ is a [[Group]], a group action is a [[Functor]] $G\to \mathrm{Set}$ 
+consisting of a set $X$ 
+and mappings $a\to g.a$ for each $g\in G$
+
 An action $G\times X\to X$ is equivalent to a homomorphism $\phi:G\to Sym (X)$ with $\phi(g)(x)=g(x)$.
 
 We denote orbit $Orb_G(x)=\{g(x):g\in G\}$ and stabilizer $G_x=\{g\in G : g(x)=x\}$. The stabilizer of the action is $\ker\phi=\bigcap_{x\in X}G_x$. If $x$ and $y$ are in the same orbit, then their stabilizers are conjugate i.e. if $y=g(x)$, then $G_{y}=gG_xg^{-1}$.
