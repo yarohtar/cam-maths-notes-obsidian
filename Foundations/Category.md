@@ -28,4 +28,5 @@ subject to:
 [[Monoid]]
 [[Groupoid]]
 [[Preorder Category]]
+[[Cateogry of Small Categories]]
 

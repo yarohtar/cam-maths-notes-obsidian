@@ -15,5 +15,10 @@ F(1_{A}) = 1_{FA} \\
 F(fg)=(Ff)(Fg) \text{ whenever }fg \text{ is defined}
 \end{gather}
 $$
+[[Covariant]]
+[[Contravariant]]
 [[Forgetful Functor]]
 [[Free Group Functor]]
+[[Power Set Functor]]
+[[Dual Space Functor]]
+[[Opposite Functor]]
