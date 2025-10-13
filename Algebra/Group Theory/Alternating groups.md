@@ -1,5 +1,5 @@
 ### Ccls
-Every [[Group action#Action on itself|conjugacy class]] in $A_n$ is either the same as in $S_n$ or it splits into two. Moreover, $ccl_{A_n}(\sigma)$ splits if and only if the [[Permutation groups#Cycle type|cycle type]] of $\sigma$ has distinct odd numbers.
+Every [[Group Action#Action on itself|conjugacy class]] in $A_n$ is either the same as in $S_n$ or it splits into two. Moreover, $ccl_{A_n}(\sigma)$ splits if and only if the [[Permutation groups#Cycle type|cycle type]] of $\sigma$ has distinct odd numbers.
 #### Proof
 Let $\sigma\in A_n$ with $(l_1\dots l_k)$. 
 Note that: $$|ccl_{S_n}(\sigma)|\cdot |C_{S_n}(\sigma)|=|S_n|$$

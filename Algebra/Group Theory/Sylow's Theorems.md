@@ -8,7 +8,7 @@ Consider $\Omega$, the set of all subsets of $G$ of size $p^a$.
 Note that $|\Omega|={p^am\choose p^a}$ which is not divisible by $p$. 
 Consider the natural (left multiplication) action of $G$ on $\Omega$.
 It has at least one orbit not divisible by $p$, suppose that is the orbit of $X\subseteq G$. 
-Now $|G_X|\cdot |Orb_G(X)|=|G|$ by [[Group action#Orbit-stabilizer|orbit-stabilizer]] so $p^a\mid |G_X|$ i.e. $|G_X|\geq p^a$. 
+Now $|G_X|\cdot |Orb_G(X)|=|G|$ by [[Group Action#Orbit-stabilizer|orbit-stabilizer]] so $p^a\mid |G_X|$ i.e. $|G_X|\geq p^a$. 
 But also $|G|\leq |Orb_G(X)|\cdot |X|$ because $G=\bigcup_{g\in G} g(X)=\bigcup_{Y\in Orb_G(X)}Y$.  
 So $|G_X|\leq p^a$ so $|G_X|=p^a$. 
 ### Second Sylow Theorem

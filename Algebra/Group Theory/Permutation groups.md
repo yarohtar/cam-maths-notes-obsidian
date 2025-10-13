@@ -8,4 +8,4 @@ It induces an [[Alternating groups|alternating]] subgroup $A_n=\ker sgn$.
 
 ### Cycle type
 If $\sigma=\sigma_1\dots \sigma_k$ where $\sigma_i$ has length $l_i$ and $l_i$ are WLOG decreasing, then the cycle type of $\sigma$ is $(l_1,l_2,\dots l_k)$. 
-Each cycle type will give us a [[Group action#Action on itself|conjugacy class]] of $S_n$. 
+Each cycle type will give us a [[Group Action#Action on itself|conjugacy class]] of $S_n$. 
