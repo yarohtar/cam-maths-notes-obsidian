@@ -1,3 +1,9 @@
+After receiving a word through 
+a communication channel, 
+we hope to recover the original message. 
+We use a [[Decoding rule]] 
+and analyse some properties of the channel.
+
 We define two concepts:
 [[Operational Channel Capacity]]
 [[Information Channel Capacity]]

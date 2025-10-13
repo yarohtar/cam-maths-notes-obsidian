@@ -16,5 +16,6 @@ Given a source and a channel (described probabilistically) we aim to design an e
 [[Noiseless Coding]]
 [[Noisy Coding]]
 [[Linear Code]]
-[[Information Theory]]
+[[Channel Capacity]]
+[[Kelly's betting criterion]]
 [[Cryptography]]
