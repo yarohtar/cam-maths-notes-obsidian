@@ -16,7 +16,7 @@ https://yarohtar.github.io/maths-notes/
 ## Part IA
 - [[Group]] (taken from [[Groups, Rings and Modules]])
 - [[Probability Space]] (taken from [[Probability and Measure]])
-
+- [[Algebra/Vector Spaces/Vector Space]]
 ## Part IB
 - Some of [[Methods]]
 - [[Optimisation]]

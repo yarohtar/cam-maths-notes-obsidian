@@ -1,4 +1,4 @@
-Given a vector space $V$ 
+Given a [[Vector Space]] $V$ 
 with inner product $(\cdot,\cdot)$ 
 and vectors $v_1,\dots,v_n$ 
 we find
