@@ -31,8 +31,3 @@ If $X(b)$ is not empty then the problem is feasible
 $h(x)\leq b$ is the same as $h(x)+s=b$ where $s\geq 0$
 
 $x=(x_1,x_2\dots x_n)^T$, the coordinates of $x$ are called decision variables.
-
-[[Convex optimisation]] ($f$ is convex)
-[[Lagrange multipliers]] (solving constrained problems)
-[[Linear programs]] ($f$ is linear, $h$ is linear)
-[[Simplex method]]

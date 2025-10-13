@@ -1,5 +1,5 @@
 [[Euler-Lagrange]]
-[[Lagrange multipliers]]
+[[Lagrange Multipliers for Functionals]]
 [[Principle of least action]]
 [[Noether Theorem]]
 [[Legendre Transform]]

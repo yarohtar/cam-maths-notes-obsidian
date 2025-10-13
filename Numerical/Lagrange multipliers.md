@@ -5,6 +5,7 @@ L(x,\lambda)= f(x) -\lambda g(x)
 $$
 Note that the partial derivative in $\lambda$ will give us the condition $g(x)=0$, 
 so we just need to solve ${\partial L\over \partial x}=0$ and $g(x)=0$. 
+[[Lagrange Multipliers for Functionals]]
 
 # General method
 We are minimizing $f(x)$ subject to $x\in X$ and $g(x)\leq b$. 
@@ -19,13 +20,14 @@ $$
 \Lambda=\{\lambda : \inf_{x\in X,z\geq 0}L(x,z,\lambda) > -\infty\}
 $$
 4. Note that $\lambda\in\Lambda$ has to be $\lambda\leq 0$ because of $-\lambda^Tz$ term.
-5. Now find $x^*(\lambda)\in X$ and $z^*(\lambda)\geq 0$ which minimize $L$ for every $\lambda\in\Lambda$
-6. Note that $\lambda^Tz^*(\lambda)=0$, this is called complementary slackness
-7. Hence, determine $\lambda^*$ such that $x^*$ and $z^*$ are feasible 
+5. Now find $x^*(\lambda)\in X$ and $z^*(\lambda)\geq 0$ 
+   which minimize $L$ for every $\lambda\in\Lambda$
+6. Note that $\lambda^Tz^*(\lambda)=0$, 
+   this is called [[Complimentary slackness]]
+7. Hence, determine $\lambda^*$ such that $x^*(\lambda ^{*})$ and $z^*(\lambda ^{*})$ are feasible 
    (this might FAIL in which case the method doesn't work)
 8. Use [[Lagrange sufficiency theorem]] to finalize.
 ### Example 1 (no slack variable)
-
 Minimize $-x_1-x_2+x_3$
 s.t. $x_1^2+x_2^2=4$ and $x_1+x_2+x_3=1$
 
@@ -74,7 +76,9 @@ $(1-\lambda_2)-2\lambda_1x_1=0$
 $(-3-\lambda_2)-2\lambda_1x_2=0$
 If $\lambda_1=0$, this system is inconsistent, so $\lambda_1<0$. This means $s_1=0$ in order to minimize $-\lambda_1s_1$
 
-NOTE: Here we are minimizing $L(x,s,\lambda)$ as if $x,s,\lambda$ are all INDEPENDENT! That is why we can say the previous line. Later we should check if there is a $\lambda$ such that the minimum is feasible.
+NOTE: Here we are minimizing $L(x,s,\lambda)$ as if $x,s,\lambda$ are all INDEPENDENT! 
+That is why we can say the previous line. 
+Later we should check if there is a $\lambda$ such that the minimum is feasible.
 
 Now we have two cases: $\lambda_2<0$ and $\lambda_2=0$. First case does not yield a feasible minimum. In the second case we are just solving:
 $1-2\lambda_1x_1=0$
@@ -86,15 +90,3 @@ This should yield $(\lambda_1,\lambda_2)=(-\sqrt\frac{5}{8},0)$, $(x_1,x_2)=(-\s
 That is a feasible solution so by [[Lagrange sufficiency theorem]] we are done.
 
 
-
-
-
-# Functionals and Lagrange multipliers
-
-Suppose we are minimizing $F[x]=\int f(t,x,\dot x) dt$ subject to $G[x]=\int g(t,x,\dot x) dt =C$. This is equivalent to minimizing:
-
-$$L[x,\lambda]=\int (f(t,x,\dot x)-\lambda g(t,x,\dot x))dt+\lambda C$$
-Note that here $\lambda$ does not depend on $t$ because we are only taking $F[x]-\lambda (G[x]-C)$. On the other hand, suppose the condition was $g(t,x,\dot x)=0$. Then we want to minimize:
-
-$$L[x,\lambda]=\int (f(t,x,\dot x)-\lambda(t) g(t,x,\dot x))dt$$
-This way, the [[Euler-Lagrange]] for the function $\lambda(t)$ will give condition $g(t,x,\dot x)=0$. 
