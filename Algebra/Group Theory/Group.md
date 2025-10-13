@@ -6,5 +6,5 @@ where $\cdot:G\times G\to G$ respecting the following axioms:
 $$
 gg^{-1}=g^{-1}g=e
 $$
-
+### Category Theory Definition
 Alternatively, a group is a [[Monoid]] in which all morphisms are isomorphisms.

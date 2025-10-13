@@ -5,7 +5,7 @@ $$
 a=gbg^{-1}
 $$
 This is an equivalence relation.
-Its equivalence classes are called [[Conjugacy Class]]
+Its equivalence classes are called [[Conjugacy Class|conjugacy classes]]
 
 Similarly, let $A,B\subseteq G$
 Then $A$ and $B$ are conjugate if for some $g\in G$
