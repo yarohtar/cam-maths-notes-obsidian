@@ -24,6 +24,8 @@ subject to:
 [[Category of Smooth Manifolds]]
 [[Category of Topological Groups]]
 [[Category of Homotopy]]
+[[Category of Matrices]]
 [[Monoid]]
 [[Groupoid]]
 [[Preorder Category]]
+

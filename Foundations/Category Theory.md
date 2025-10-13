@@ -2,3 +2,4 @@
 [[Small Category]]
 [[Quotient Category]]
 [[Opposite Category]]
+[[Functor]]
