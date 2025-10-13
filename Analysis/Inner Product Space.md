@@ -1,4 +1,6 @@
-Given a real or complex vector space $X$, and an [[Inner Product]] $(,)$ on $X$ we say that $(X,(,))$ is an inner product space.
+Given a real or complex vector space $X$, 
+and an [[Inner Product]] $(,)$ on $X$ we say that $(X,(,))$ 
+is an inner product space.
 [[Orthonormal Sequence]]
 [[Orthonormal Basis]]
 ### Theorem
