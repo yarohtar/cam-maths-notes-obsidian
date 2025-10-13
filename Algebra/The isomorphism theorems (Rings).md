@@ -1,7 +1,7 @@
 ### First isomorphism theorem
 Let $\phi :R\to S$ be a ring homomorphism. Then $\ker\phi$ is an [[Ideal|ideal]] of $R$ and we have $$R/\ker \phi\cong \mathrm{Im} \phi\leq S$$
 #### Proof
-Same as in [[The isomorphism theorems (Groups)]], just add in some ring stuff to check.
+Same as in [[The isomorphism theorems]], just add in some ring stuff to check.
 ### Second isomorphism theorem
 Let $R\leq S$ and $J\triangleleft S$. Then $R\cap J\triangleleft R$ and $R+J\leq S$ and
 $$R/(R\cap J)\cong (R+J)/J\leq S/J$$
