@@ -22,7 +22,7 @@ Note that this is exactly the problem of finding the optimal strategy for Player
 Suppose we have optimal strategies $p$ and $q$.
 Complementary slackness for $p$ gives:
 $$q^TA^Tp-we^Tp=0,\quad\text{i.e.}\quad q^TA^Tp=w$$
-Also in an optimal strategy $w=v$ (by [[Duality (Optimisation)#Strong duality|strong duality]]). 
+Also in an optimal strategy $w=v$ (by [[Strong Duality]]). 
 Hence, using [[Optimality conditions in LPs|optimality conditions]] we arrive at the following theorem:
 ## Theorem
 Suppose $p$ and $q$ are strategies for Player1 and Player2 respectively, and $v$ is a value satisfying:

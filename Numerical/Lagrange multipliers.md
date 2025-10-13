@@ -1,6 +1,8 @@
 Suppose we are minimizing a function $f(x)$ subject to $g(x)=0$. 
-This is equivalent to minimizing the function
-$$L(x,\lambda)= f(x) -\lambda g(x)$$
+This can (sometimes) be done by instead minimizing the function:
+$$
+L(x,\lambda)= f(x) -\lambda g(x)
+$$
 Note that the partial derivative in $\lambda$ will give us the condition $g(x)=0$, 
 so we just need to solve ${\partial L\over \partial x}=0$ and $g(x)=0$. 
 
@@ -8,8 +10,11 @@ so we just need to solve ${\partial L\over \partial x}=0$ and $g(x)=0$.
 We are minimizing $f(x)$ subject to $x\in X$ and $g(x)\leq b$. 
 The following method works as long as we have [[The Necessity Theorem]].
 1. Introduce the slack variable $z\geq 0$ s.t. $g(x)+z=b$.
-2. Introduce the Lagrangian $L(x,z,\lambda)=f(x)-\lambda^T g(x)+\lambda^T b-\lambda^T z$
-3. Find the set 
+2. Introduce the [[Numerical/Lagrangian|Lagrangian]] 
+$$
+L(x,z,\lambda)=f(x)-\lambda^T g(x)+\lambda^T b-\lambda^T z
+$$
+3. Find the set of [[Feasible Lagrange Multipliers]]
 $$
 \Lambda=\{\lambda : \inf_{x\in X,z\geq 0}L(x,z,\lambda) > -\infty\}
 $$
