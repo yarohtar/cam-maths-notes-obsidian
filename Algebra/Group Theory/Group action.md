@@ -21,7 +21,8 @@ with $\phi(g)(x)=g.x$
 [[Center]]
 [[Normalizer]]
 ### Category Theory Definition
-If $G$ is a [[Group]], a group action is a [[Functor]] $F:G\to \mathrm{Set}$ to [[Category of Sets]].
+If $G$ is a [[Group]], a group action is a [[Functor]] $F:G\to \mathrm{Set}$
+[[Category of Sets]]
 
 It consists of a set $X$ (the singular element of $\operatorname{ob}G$ is mapped to $X$)
 and mappings $Fg:X\to X$ where $g\in \operatorname{mor}G$

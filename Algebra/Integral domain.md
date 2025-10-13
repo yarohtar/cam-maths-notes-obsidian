@@ -1,4 +1,4 @@
-Ring $R$ is an integral domain if for every $a,b\in R$ we have $ab=0\implies a=0\lor b=0$. 
+[[ring]] $R$ is an integral domain if for every $a,b\in R$ we have $ab=0\implies a=0\lor b=0$. 
 
 ### Lemma
 If $R$ is an integral domain, so is $R[X]$.

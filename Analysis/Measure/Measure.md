@@ -20,7 +20,7 @@ The triple $(E,\mathcal{E},\mu)$ is called a measure space.
 
 [[Set Function]]
 [[Algebra]]
-[[Ring]]
+[[Analysis/Measure/Ring]]
 [[Carathéodory's Extension Theorem]]
 [[Uniqueness of Measures]]
 [[Borel Sigma Algebra]]

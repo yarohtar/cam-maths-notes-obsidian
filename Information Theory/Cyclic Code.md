@@ -2,7 +2,7 @@ A code $C\subseteq \mathbb{F}_{2}^{n}$ is a cyclic code if it is [[Linear Code]]
 $$
 (a_{0},\dots,a_{n-1})\in C\implies(a_{1},\dots,a_{n-1},a_{0})\in C
 $$
-We identify $\mathbb{F}_{2}^{n}$ with the [[Algebra/Ring]] $\mathbb{F}_{2}[X] / (X^{n}-1)$ via
+We identify $\mathbb{F}_{2}^{n}$ with the [[Algebra/Ring Theory/Ring]] $\mathbb{F}_{2}[X] / (X^{n}-1)$ via
 $$
 \pi(a_{0},a_{1},\dots,a_{n-1})\to a_{0}+a_{1}X+\dots+a_{n-1}X^{n-1} 
 $$

@@ -1,4 +1,4 @@
-An [[Integral domain|integral domain]] $R$ is PID if every [[Ideal|ideal]] $I\triangleleft R$ is principal i.e. $I=(a)$.
+An [[Integral domain|integral domain]] $R$ is PID if every [[Ideal|ideal]] $I\triangleleft R$ is [[Principal Ideal]] i.e. $I=(a)$.
 
 ### Lemma
 Let $0\neq r\in R$, where $R$ is PID. Then $(r)$ is maximal if and only if $r$ is irreducible.

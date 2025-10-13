@@ -15,7 +15,7 @@ $$
 (a+M\mathbb{Z})&\to(a+m_{1}\mathbb{Z},\dots,a+m_{k}\mathbb{Z})
 \end{align}
 $$
-is a [[Algebra/Ring|ring]] isomorphism.
+is a [[Algebra/Ring Theory/Ring|ring]] isomorphism.
 #### Proof
 We just need to check that its bijective, but this is exactly the previous theorem.
 ### Corollary

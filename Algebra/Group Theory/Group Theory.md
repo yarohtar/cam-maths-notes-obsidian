@@ -1,5 +1,5 @@
 [[Group]]
-[[The isomorphism theorems]]
+[[Algebra/Group Theory/The isomorphism theorems]]
 [[Simple]]
 [[Group Action]]
 [[Permutation group]]

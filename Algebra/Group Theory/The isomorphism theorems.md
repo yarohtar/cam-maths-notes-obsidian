@@ -1,3 +1,3 @@
 [[First Isomorphism Theorem]]
-[[Second Isomorphism Theorem]]
-[[Third Isomorphism Theorem]]
+[[Algebra/Group Theory/Second Isomorphism Theorem]]
+[[Algebra/Group Theory/Third Isomorphism Theorem]]

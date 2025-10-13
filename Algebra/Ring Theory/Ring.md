@@ -1,6 +1,6 @@
 A ring is an ordered tuple $(R,+,\cdot)$ where 
 - $(R,+)$ is an [[Abelian]] [[Group]]
-- $(R,\cdot)$ is a [[Monoid]]
+- $(R,\cdot)$ is a [[Monoid]] ([[Associativity]] with identity)
 and multiplication is distributive:
 - $a(b+c)=ab+ac$
 - $(b+c)a=ba+ca$
