@@ -1,4 +1,6 @@
-$X$ is simply connected if it is [[Path Components|path connected]] and its [[Fundamental group|fundamental group]] is trivial in some (hence all) basepoints.
+$X$ is simply connected if 
+- it is [[Path Components|path connected]]
+- its [[Fundamental group|fundamental group]] is trivial in some (hence all) basepoints.
 
 ### Lemma
 $X$ simply connected $\iff$ For each pair of points $x_{0},x_{1}\in X$ there is a unique homotopy class of [[Paths|paths]] between them.

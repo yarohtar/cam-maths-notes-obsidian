@@ -3,6 +3,7 @@ $T$ is invertible if there is some $S\in L(X)$ such that $ST=TS=I$
 [[Space of invertible linear maps]]
 
 
+### Proposition
 $T\in L(X)$ invertible $\iff$
 $T$ is a bijection and $T^{-1}$ is continuous $\iff$
 $T$ is a bijection [[Inversion Theorem]] $\iff$
