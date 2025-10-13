@@ -7,9 +7,13 @@ $$
 $$
 g.(h.x) = (gh).x \text{ for all }g,h\in G
 $$
-(We use convention that $(g,x)\to$)
+(We use convention that $g.x=y$ means $(g,x)\to y$)
+
 An action $G\times X\to X$ is equivalent to a [[Homomorphism]] $\phi:G\to Sym (X)$ 
 with $\phi(g)(x)=g.x$
+[[Orbit]]
+[[Stabilizer]]
+[[Stabilizer of Group Action]]
 ### Category Theory Definition
 If $G$ is a [[Group]], a group action is a [[Functor]] $F:G\to \mathrm{Set}$ [[Category of Sets]]
 consisting of a set $X$ (the singular element of $\operatorname{ob}G$ is mapped to $X$)
@@ -17,15 +21,13 @@ where each element $g\in \operatorname{mor}G$ is sent to a mapping $Fg:X\to X$
 given by some $x \to g.x$
 
 
-
-
-We denote orbit $Orb_G(x)=\{g(x):g\in G\}$ and stabilizer $G_x=\{g\in G : g(x)=x\}$. 
-The stabilizer of the action is $\ker\phi=\bigcap_{x\in X}G_x$. 
 If $x$ and $y$ are in the same orbit, 
 then their stabilizers are conjugate i.e. if $y=g(x)$, then $G_{y}=gG_xg^{-1}$.
 
 ### Orbit-stabilizer 
-Suppose we have an action $G\times X\to X$. Then for any $x\in X$, there is a bijection $Orb_G(x)\to G/G_x$. Furthermore, if $G$ is finite, then
+Suppose we have an action $G\times X\to X$. 
+Then for any $x\in X$, there is a bijection $Orb_G(x)\to G/G_x$. 
+Furthermore, if $G$ is finite, then
 $$|Orb_G(x)|\cdot |G_x|=|G|$$
 #### Proof
 Send $g(x)\to gG_x$.
