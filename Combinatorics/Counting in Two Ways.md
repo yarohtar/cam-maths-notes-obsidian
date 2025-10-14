@@ -5,3 +5,6 @@ We can count stuff in various ways:
 4. Asymptotic formula
 5. An algorithm
 [[Binomial Coefficient]]
+[[Falling Factorial]]
+[[Rising Factorial]]
+[[Multinomial]]
