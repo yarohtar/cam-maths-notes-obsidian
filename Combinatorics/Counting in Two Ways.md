@@ -7,5 +7,5 @@ We can count stuff in various ways:
 [[Binomial Coefficient]]
 [[Falling Factorial]]
 [[Rising Factorial]]
-[[Multinomial]]
+[[Multinomial Coefficient]]
 [[Stirling Number of the Second Kind]]

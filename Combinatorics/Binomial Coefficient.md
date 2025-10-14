@@ -21,16 +21,5 @@ $$
 $$
 ### Theorem
 $$
-\sum_{k=0}^{n}\binom{ n }{ k }x^{k}y^{n-k}=(x+y)^{n}
-$$
-### Corollary
-$$
-\sum_{k=0}^{n} \binom{ n }{ k } = 2^{n}
-$$
-$$
-\sum_{k=0}^{n} \binom{ n }{ k }(-1)^{k}=0
-$$
-### Theorem
-$$
 \sum_{m=k}^{n} \binom{ m }{ k } = \binom{ n+1 }{ k+1 }
 $$

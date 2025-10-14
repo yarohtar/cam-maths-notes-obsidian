@@ -14,15 +14,19 @@ If $\{ n+1 \}$ is an equivalence class,
 then there is $k-1$ other equivalence classes in $[n]$
 This gives $\genfrac{ \{ }{ \} }{0pt}{0}{ n }{ k-1 }$.
 Alternatively, if $n+1$ is in some other equivalence class,
-then there were $\genfrac{ \{ }{ \} }{0pt}{0}{ n }{ k }$ ways to choose the other equiv classes,
+then there were $\genfrac{ \{ }{ \} }{0pt}{0}{ n }{ k }$ ways to choose the other equivalence classes,
 and $k$ ways to add $n+1$ to one of them.
 ### Theorem
+Let $\cdot ^{\underline{ k }}$ be [[Falling Factorial]]
+Then:
 $$
 x^{n} = \sum_{k=0}^{n} \genfrac{ \{ }{ \} }{0pt}{0}{ n }{ k } x^{\underline{k}}
 $$
 #### Proof
 
+
 ### Theorem
+Let $\cdot ^{\overline{ k }}$ be [[Rising Factorial]]
 $$
 x^{n} = \sum_{k=0}^{n}(-1)^{n-k} x^{\overline{k}}
 $$
@@ -33,7 +37,7 @@ P_{n}(m) = 1^{n} + 2^{n} + \dots + m^{n}
 $$
 is a polynomial of degree $n+1$ given by
 $$
-P_{n}(m) = \sum_{k=0}^{n} k! \genfrac{ \{ }{ \} }{0pt}{0}{ n }{ k } \binom{ m+1 }{ k+1 }
+P_{n}(m) = \sum_{k=0}^{n} k! \genfrac{\{}{\}}{0pt}{0}{ n }{ k } \binom{ m+1 }{ k+1 }
 $$
 #### Proof
 We use prev theorem to change basis of the vector space $V$ 
