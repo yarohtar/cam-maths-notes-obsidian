@@ -8,3 +8,4 @@ We can count stuff in various ways:
 [[Falling Factorial]]
 [[Rising Factorial]]
 [[Multinomial]]
+[[Stirling Number of the Second Kind]]

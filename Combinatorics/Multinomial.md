@@ -7,9 +7,11 @@ The number
 $$
 \binom{ n }{ a_{1},\dots,a_{k} }
 $$
-of partitions of $[n]$ into sets of size $a_{1},\dots,a_{k}$ is
+of partitions of $[n]$ into sets of size $a_{1},\dots,a_{k}$ is called the multinomial.
+
+### Theorem
 $$
-\frac{ n! }{ a_{1}! \dots a_{k}! }
+\binom{ n }{ a_{1},\dots,a_{k} } = \frac{ n! }{ a_{1}! \dots a_{k}! }
 $$
 ### Theorem
 $$
@@ -31,3 +33,4 @@ $$
 $$
 and each equivalence class has size $a_{1}!a_{2}!\dots a_{k}!$
 
+The multinomial expansion follows ...
