@@ -3,3 +3,4 @@ Reading:
 - Matousek (2010) 33 miniatures
 - Alon (1999) Combinatorial Nullstellensatz
 [[Enumerative Methods in Combinatorics]]
+[[Counting in Two Ways]]
