@@ -1,4 +1,4 @@
-Suppose $f$ is [[Analytic]] and $f(x+iy)=u(x,y)+iv(x,y)$
+Suppose $f$ is [[Holomorphic]] and $f(x+iy)=u(x,y)+iv(x,y)$
 For a fixed $y$, take the derivative in $x$ direction:
 $$f'(x+iy) = {\partial u\over \partial x}+ i {\partial v \over \partial x}$$
 Similarly, for a fixed $x$, take derivative in $iy$ direction:
