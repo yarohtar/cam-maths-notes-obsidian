@@ -9,3 +9,4 @@ We can count stuff in various ways:
 [[Rising Factorial]]
 [[Multinomial Coefficient]]
 [[Stirling Number of the Second Kind]]
+[[Sum of Powers]]
