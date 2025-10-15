@@ -1,12 +1,24 @@
 Let $\{ X_{n} \}$ be a [[Source]].
-It satisfies the Asymptotic Equipartition Property with constant $H\geq 0$ 
-if for all $\epsilon>0$ 
-there is some $n_{0}\in \mathbb{N}$ 
-such that for all $n\geq n_{0}$ 
+It satisfies the AEP with constant $H\geq 0$ if:
+for all $\epsilon>0$ and all large enough $n$:
 $$
 \mathbb{P}(X_{1}^{n}\in B_{n}^{*}(\epsilon)) > 1-\epsilon
 $$
 where $B_{n}^{*}(\epsilon)$ is the set of [[Typical Strings]].
+
+### Lemma
+Let $\{ X_{n} \}$ be a source taking values in a discrete set $A$
+Let $P^{n}$ be the joint PDF of $(X_{1},\dots,X_{n})$:
+$$
+P^{n}(x_{1}^{n})=\mathbb{P}(X_{1}^{n}=x_{1}^{n})
+$$
+for all $x_{1}^{n}\in A^{n}$
+Then $\{ X_{n} \}$ satisfies AEP for $H\geq 0$
+if and only if 
+$$
+-\frac{1}{n}\log P(X_{1},\dots,X_{n}) \xrightarrow{p} H
+$$
+as $n\to \infty$ where $\xrightarrow{p}$ means [[Convergence in Probability]]
 
 ### Definition 2
 A [[Source]] $X_{1},X_{2},\dots$ satisfies AEP if for some $H\geq 0$
