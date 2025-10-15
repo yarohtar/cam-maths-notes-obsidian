@@ -8,7 +8,7 @@ where $B_{n}^{*}(\epsilon)$ is the set of [[Typical Strings]].
 
 ### Lemma
 Let $\{ X_{n} \}$ be a source taking values in a discrete set $A$
-Let $P^{n}$ be the joint PDF of $(X_{1},\dots,X_{n})$:
+Let $P^{n}:\mathbb{A}^{n}\to[0,1]$ be the joint PDF of $(X_{1},\dots,X_{n})$:
 $$
 P^{n}(x_{1}^{n})=\mathbb{P}(X_{1}^{n}=x_{1}^{n})
 $$
@@ -16,7 +16,7 @@ for all $x_{1}^{n}\in A^{n}$
 Then $\{ X_{n} \}$ satisfies AEP for $H\geq 0$
 if and only if 
 $$
--\frac{1}{n}\log P(X_{1},\dots,X_{n}) \xrightarrow{p} H
+-\frac{1}{n}\log P^n(X_{1},\dots,X_{n}) \xrightarrow{p} H
 $$
 as $n\to \infty$ where $\xrightarrow{p}$ means [[Convergence in Probability]]
 

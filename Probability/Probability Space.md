@@ -1,4 +1,5 @@
-A probability space  $(\Omega,\mathcal{F},\mathbb{P})$ (i.e. a [[Measure|measure space]] with $\mathbb{P}(\Omega)=1$) 
+A [[Measure|measure space]] $(\Omega,\mathcal{F}, \mathbb{P})$ is called a probability space if $\mathbb{P}(\Omega)=1$
+
 provides a model for an experiment whose outcome is subjective to chance, 
 according to the following interpretation:
 - $\Omega$ is the set of possible outcomes
