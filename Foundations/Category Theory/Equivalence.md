@@ -1,0 +1,37 @@
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[Category]].
+An equivalence between $\mathcal{C}$ and $\mathcal{D}$ consists of [[Functor]]s $F:\mathcal{C}\to \mathcal{D}$ and $G:\mathcal{D}\to \mathcal{C}$
+and [[Natural Transformation]] isomorphisms $\alpha:1_{\mathcal{C}}\to GF$ and $\beta:FG\to 1_{\mathcal{D}}$
+We write $\mathcal{C}\simeq \mathcal{D}$ if there exists such an equivalence.
+
+### Example
+[[Category of Partial Functions]] $\mathrm{Part}$ is equivalent to the category $\mathrm{Set}_{*}$ of pointed sets:
+we define $F:\mathrm{Set}_{*}\to \mathrm{Part}$ by
+$$
+F(A,a)=A\setminus \{ a \} 
+$$
+$$
+F((A,a)\xrightarrow{f}(B,b))
+$$
+defined by $Ff(x)=f(x)$ if $f(x)\neq b$, undefined otherwise
+and $G:\mathrm{Part}\to \mathrm{Set}_{*}$ by $G(A)=(A\cup \{ A \},A)$
+$$
+G(A\xrightarrow{f}B)(x)=\begin{cases}
+f(x) & x\in A\text{ and } f(x) \text{ defined} \\
+B  & \text{otherwise}
+\end{cases}
+$$
+Then $FG=1_{\mathrm{Part}}$ and there is a natural isomorphism $1_{\mathrm{Set_{*}}}\to GF$ sending $(A,a)$ to $G(A\setminus \{ a \})$
+Note that $\mathrm{Part}$ has a singleton isomorphism class of objects $\{ \emptyset \}$, but $\mathrm{Set}_{*}$ doesn't so $\mathrm{Part}\not\cong \mathrm{Set}_{*}$
+
+### Example
+The [[Category]] $\mathrm{fdVect}_{K}$ of finite dim [[Vector Space]]s over $K$,
+is equivalent to $\mathrm{fdVect}_{K}^{op}$ using the [[Dual Space Functor]] $(\cdot)^{*}$ and the [[Natural Transformation]] ...
+#### Example
+$\mathrm{fdVect}_{K}$ is also equivalent to $\mathrm{Mat}_{K}$ 
+the functor $F:\mathrm{Mat}_{K}\to \mathrm{fdVect}_{K}$ sends $n$ to $K^{n}$ 
+and a $(p\times n)$ matrix $A$ to the linear map $K^{n}\to K^{p}$ which it represents wrt the standard bases
+To define $G:\mathrm{fdVect}_{K}\to \mathrm{Mat}_{K}$ choose a basis for each finite dim space,
+and define $G(V)=\dim V$ and $G(V\xrightarrow{\theta}W)=$ matrix representing $\theta$ w.r.t the chosen basis
+Now $GF=1_{\mathrm{Mat}_{K}}$ provided we choose the standard bases for the spaces $K^{n}$
+$FG\neq 1_{\mathrm{fdVect}_{K}}$ but the chosen basis for $V$ yields an isomorphism $FG(V)=K^{\dim V}\to V$
+and these form a [[Natural Transformation]] isomorphism $FG\to 1_{\mathrm{fdVect}_{K}}$

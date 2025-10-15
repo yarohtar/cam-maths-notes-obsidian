@@ -20,3 +20,29 @@ Given $\alpha$ and $\beta:G\to H$ the assignment $A\to \beta_{A}\alpha_{A}$ is a
 So for any two [[Category|categories]] $\mathcal{C}$ and $\mathcal{D}$ 
 we have a [[Category]] $[\mathcal{C},\mathcal{D}]$ of [[Functor|functors]] and natural transformations between them
 
+### Lemma
+Let $\alpha:F\to G$ be a natural transformation between two [[Functor]]s $\mathcal{C}\to \mathcal{D}$
+Then $\alpha$ is an isomorphism in $[\mathcal{C}, \mathcal{D}]$ if and only if each $\alpha_{A}$ is an isomorphism in $\mathcal{D}$
+#### Proof
+##### $\implies$
+obvious since composition in $[\mathcal{C},\mathcal{D}]$ is pointwise
+##### $\impliedby$
+Suppose each $\alpha_{A}$ has an inverse $\beta_{A}$ 
+We need to verify naturality of $\beta$
+given $A\xrightarrow{f}B$ in $\mathcal{C}$, consider:
+```tikz
+\usepackage{tikz-cd}
+
+\begin{document}
+\begin{tikzcd}
+GA \arrow[r,"Gf"] \arrow[d,"\beta_{A}"] & GB\arrow[d,"\beta_{B}"]\\
+GA\arrow[u,"\alpha_{A}"]\arrow[r,"Ff"] & GB \arrow[u,"\alpha_{B}"]
+\end{tikzcd}
+\end{document}
+```
+We have $\beta_{B}(Gf)=\beta_{B}(Gf)\alpha_{A}\beta_{A}=\beta_{B}\alpha_{B}(Ff)\beta_{A}=(Ff)\beta_{A}$ 
+
+[[Equivalence]]
+### Examples
+Given permrutation representations of $G$ on $A$ and $B$, 
+a natural transformation between them is a $G$-[[Equivariant]] 

@@ -4,3 +4,5 @@
 [[Opposite Category]]
 [[Functor]]
 [[Natural Transformation]]
+[[Natural Isomorphism]]
+[[Path Full]]
