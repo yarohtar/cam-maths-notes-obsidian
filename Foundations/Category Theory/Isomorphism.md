@@ -14,13 +14,13 @@ $$
 gf=1_{A}
 $$
 ### Lemma
-Suppose $f$ is an isomorphism with inverse $f^{-1}$.
-Suppose $fg=1_{B}$ and/or $hf=1_{A}$ for some $B\xrightarrow{g,h}A$.
-Then
+Suppose $f:A\to B$ is an isomorphism with inverse $f^{-1}$.
+The following hold for any $B\xrightarrow{g,h}A$
 $$
-g=f^{-1}\quad %quad
- \text{and/or}\quad %quad
- h=f^{-1}
+fg=1_{B}\implies g=f^{-1}
+$$
+$$
+hf=1_{A} \implies h=f^{-1}
 $$
 #### Proof
 Suppose $fg=1_{B}$
@@ -40,3 +40,10 @@ By definition of identities:
 $$
 g=f^{-1}
 $$
+Now suppose $hf=1_{A}$
+Note that in the [[Opposite Category]] $\mathcal{C}^{op}$
+$$
+f\cdot_{op}h=hf=1_{A}
+$$
+(where $\cdot_{op}$ is composition in $\mathcal{C}^{op}$)
+Thus, by previous case, we get $h=f^{-1}$

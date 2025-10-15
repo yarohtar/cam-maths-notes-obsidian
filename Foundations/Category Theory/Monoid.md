@@ -1,4 +1,5 @@
-A [[Small Category]] with one object $*$ is a monoid, (morphisms being elements)
-i.e. it satisfies:
+A [[Small Category]] with one object $*$ is a monoid
+(morphisms being elements).
+In other words it satisfies:
 - [[Associativity]]
-- Identity
+- There is an identity element
