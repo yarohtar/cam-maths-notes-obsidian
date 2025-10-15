@@ -1,4 +1,5 @@
-Let $(E,\mathcal{E},\mu)$ be a measure space. A function $g:E\to \mathbb{R}$ is simple if:
+Let $(E,\mathcal{E},\mu)$ be a [[Measure Space]].
+A function $g:E\to \mathbb{R}$ is simple if:
 $$
 g=\sum_{k=1}^{m} a_{k}1_{A_{k}}
 $$

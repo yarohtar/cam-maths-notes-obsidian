@@ -6,10 +6,9 @@ Jean F Le Gall website CH1 & 2
 [[sigma-algebra]]
 [[Measure]]
 [[Measure Space]]
-[[Borel-Cantelli Lemmas]]
-[[lim sup]]
-[[lim inf]]
 [[Measurable Function]]
+[[First Borel-Cantelli Lemma]]
+[[Second Borel-Cantelli Lemma]]
 [[Integral]]
 
 [[Probability Space]]

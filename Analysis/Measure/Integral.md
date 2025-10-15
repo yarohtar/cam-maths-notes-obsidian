@@ -1,4 +1,9 @@
-For a [[simple function]] $g=\sum_{k=1}^{m} a_{k}1_{A_{k}}$, we define:
+Let 
+$$
+g=\sum_{k=1}^{m} a_{k}1_{A_{k}}
+$$
+be a [[Simple Function]]
+Define:
 $$
 \mu(g)=\sum_{k=1}^{m} a_{k}\mu(A_{k})
 $$
