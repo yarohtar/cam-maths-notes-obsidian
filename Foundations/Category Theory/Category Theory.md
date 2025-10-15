@@ -5,4 +5,9 @@
 [[Functor]]
 [[Natural Transformation]]
 [[Natural Isomorphism]]
-[[Path Full]]
+[[Equivalence]]
+[[Faithfull]]
+[[Full]]
+[[Essentially Injective]]
+[[Essentially Surjective]]
+

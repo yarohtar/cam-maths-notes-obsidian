@@ -13,16 +13,17 @@ GA\arrow[r,"Gf"] & GB
 \end{tikzcd}
 \end{document}
 ```
-ie $\alpha_{B}(Ff)=(Gf)\kappa_{B}$
+i.e. $\alpha_{B}(Ff)=(Gf)\kappa_{B}$
 These are called naturality squares for $\alpha$ at $f$
 Natural transformations can be composed:
-Given $\alpha$ and $\beta:G\to H$ the assignment $A\to \beta_{A}\alpha_{A}$ is a nat.trans. 
-So for any two [[Category|categories]] $\mathcal{C}$ and $\mathcal{D}$ 
-we have a [[Category]] $[\mathcal{C},\mathcal{D}]$ of [[Functor|functors]] and natural transformations between them
-
+Given $\alpha$ and $\beta:G\to H$ the assignment $A\to \beta_{A}\alpha_{A}$ is a natural transformation.
+[[Category of Functors]]
 ### Lemma
-Let $\alpha:F\to G$ be a natural transformation between two [[Functor]]s $\mathcal{C}\to \mathcal{D}$
-Then $\alpha$ is an isomorphism in $[\mathcal{C}, \mathcal{D}]$ if and only if each $\alpha_{A}$ is an isomorphism in $\mathcal{D}$
+Let $F,G:\mathcal{C}\to \mathcal{D}$ be [[Functor]]s
+Let $\alpha:F\to G$ be a natural transformation between them.
+Then $\alpha$ is an isomorphism in [[Category of Functors]] $[\mathcal{C}, \mathcal{D}]$ 
+if and only if 
+each $\alpha_{A}$ is an isomorphism in $\mathcal{D}$
 #### Proof
 ##### $\implies$
 obvious since composition in $[\mathcal{C},\mathcal{D}]$ is pointwise

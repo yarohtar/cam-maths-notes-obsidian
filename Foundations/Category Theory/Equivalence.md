@@ -1,7 +1,35 @@
-Let $\mathcal{C}$ and $\mathcal{D}$ be [[Category]].
-An equivalence between $\mathcal{C}$ and $\mathcal{D}$ consists of [[Functor]]s $F:\mathcal{C}\to \mathcal{D}$ and $G:\mathcal{D}\to \mathcal{C}$
-and [[Natural Transformation]] isomorphisms $\alpha:1_{\mathcal{C}}\to GF$ and $\beta:FG\to 1_{\mathcal{D}}$
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[Category|categories]].
+An equivalence between $\mathcal{C}$ and $\mathcal{D}$ consists of [[Functor]]s:
+$$F:\mathcal{C}\to \mathcal{D}\quad %quad
+\text{and}\quad %quad
+ G:\mathcal{D}\to \mathcal{C}$$
+and [[Natural Isomorphism]]s:
+$$\alpha:1_{\mathcal{C}}\to GF\quad %quad
+ \text{and}\quad %quad
+ \beta:FG\to 1_{\mathcal{D}}$$
 We write $\mathcal{C}\simeq \mathcal{D}$ if there exists such an equivalence.
+
+### Lemma
+Let $F:\mathcal{C}\to \mathcal{D}$ be a [[Functor]].
+Then $F$ is part of an equivalence $\mathcal{C}\simeq \mathcal{D}$ 
+if and only if
+$F$ is [[Full]], [[Faithfull]] and [[Essentially Surjective]].
+#### Proof
+##### $\implies$
+Suppose given $G$, $\alpha$ and $\beta$ (as in the [[Equivalence]] definition)
+For any $B\in \operatorname{ob}\mathcal{D}$, 
+$\beta_{B}$ is an isomorphism $FGB\to B$ so $F$ is [[Essentially Surjective]]
+Given $f:A\to B$ and $f=\alpha_{B}^{-1}(GFf)\alpha_{A}$ 
+so $f$ is recoverable from $Ff$, $A$ and $B$
+i.e. $F$ is [[Faithfull]]
+Suppose given $FA\xrightarrow{g}FB$ the composite:
+$$
+f:A\xrightarrow{\alpha_{A}}GFA\xrightarrow{Gg}GFB\xrightarrow{\alpha_{B}^{-1}}B
+$$
+satisfies $GFf=Gg$.
+Note that $G$ is [[Faithfull]] for the same reason as $F$ 
+so we get $Ff=g$
+##### $\impliedby$
 
 ### Example
 [[Category of Partial Functions]] $\mathrm{Part}$ is equivalent to the category $\mathrm{Set}_{*}$ of pointed sets:
