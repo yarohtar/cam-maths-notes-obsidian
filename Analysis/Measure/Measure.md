@@ -1,13 +1,14 @@
-Let $E$ be a set with a [[sigma-algebra]] $\mathcal{E}$ on it
-The pair $(E,\mathcal{E})$ is called a measurable space, 
-while each $A\in \mathcal{E}$ is called a measurable set. 
+Let $(E,\mathcal{E})$ be a [[Measurable Space]]
+Let $\mu:\mathcal{E}\to[0,\infty]$ be a function satisfying:
+- $\mu(\emptyset)=0$
+- for any sequence $(A_{n})$ of disjoint elements of $\mathcal{E}$:
+$$
+\mu\left( \bigcup_{n} A_{n} \right) = \sum_{n} \mu(A_{n})
+$$
+Then $\mu$ is called a measure.
 
-A function $\mu:\mathcal{E}\to[0,\infty]$ with $\mu(\emptyset)=0$ is called a measure 
-if for any sequence $(A_{n})$ of disjoint elements of $\mathcal{E}$:
-$$
-\mu\left( \bigcup_{n}A_{n} \right)=\sum_{n}\mu(A_{n})
-$$
-This property is called countable additivity. 
+[[Finite Measure]]
+[[Probability Measure]]
 
 The triple $(E,\mathcal{E},\mu)$ is called a measure space.
 
