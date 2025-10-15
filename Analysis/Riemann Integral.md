@@ -1,8 +1,8 @@
 Let $U\subseteq \mathbb{R}$ and $[a,b]\subseteq U$ (with $a\leq b$)
 Let $f:U\to \mathbb{R}$ be a function.
 Suppose $f$ is [[Riemann Integrable]] on $[a,b]$
-with [[Upper Integral]] and [[Lower Integral]] equal to $I$
-Then we say that the Riemann integral of $f$ is $I$
+with [[Upper Integral]] and [[Lower Integral]] equal to $I$ 
+Then we say that the Riemann integral of $f$ is $I$ 
 We write:
 $$
 \int_{a}^{b} f = I
