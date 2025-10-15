@@ -1,19 +1,12 @@
-A [[Source]] $X_{1},X_{2},\dots$ satisfies the Asymptotic Equipartition Property (AEP) 
-with constant $H\geq 0$ if 
-For all $\epsilon>0$ 
+Let $\{ X_{n} \}$ be a [[Source]].
+It satisfies the Asymptotic Equipartition Property with constant $H\geq 0$ 
+if for all $\epsilon>0$ 
 there is some $n_{0}\in \mathbb{N}$ 
 such that for all $n\geq n_{0}$ 
-there is a set $T_{n}\subseteq \Sigma^{n}$ and:
 $$
-\mathbb{P}((X_{1},\dots,X_{n})\in T_{n})>1-\epsilon
+\mathbb{P}(X_{1}^{n}\in B_{n}^{*}(\epsilon)) > 1-\epsilon
 $$
-$$
-2^{-n(H+\epsilon)}\leq P(x_{1},\dots,x_{n})\leq 2^{-n(H-\epsilon)}
-$$
-for all $(x_{1},\dots x_{n})\in T_{n}$
-
-$T_{n}$ is called a typical set.
-
+where $B_{n}^{*}(\epsilon)$ is the set of [[Typical Strings]].
 
 ### Definition 2
 A [[Source]] $X_{1},X_{2},\dots$ satisfies AEP if for some $H\geq 0$
