@@ -13,11 +13,12 @@ GA\arrow[r,"Gf"] & GB
 \end{tikzcd}
 \end{document}
 ```
-i.e. $\alpha_{B}(Ff)=(Gf)\kappa_{B}$
+i.e. $\alpha_{B}(Ff)=(Gf)\alpha_{A}$
 These are called naturality squares for $\alpha$ at $f$
 Natural transformations can be composed:
 Given $\alpha$ and $\beta:G\to H$ the assignment $A\to \beta_{A}\alpha_{A}$ is a natural transformation.
 [[Category of Functors]]
+[[Equivalence]]
 ### Lemma
 Let $F,G:\mathcal{C}\to \mathcal{D}$ be [[Functor]]s
 Let $\alpha:F\to G$ be a natural transformation between them.
@@ -36,14 +37,24 @@ given $A\xrightarrow{f}B$ in $\mathcal{C}$, consider:
 
 \begin{document}
 \begin{tikzcd}
-GA \arrow[r,"Gf"] \arrow[d,"\beta_{A}"] & GB\arrow[d,"\beta_{B}"]\\
-GA\arrow[u,"\alpha_{A}"]\arrow[r,"Ff"] & GB \arrow[u,"\alpha_{B}"]
+GA 
+\arrow[r,"Gf"] 
+\arrow[d,shift left, "\beta_{A}"] 
+& GB
+\arrow[d,shift left, "\beta_{B}"]
+\\
+FA
+\arrow[u,shift left,"\alpha_{A}"]
+\arrow[r,"Ff"] 
+& FB 
+\arrow[u,shift left, "\alpha_{B}"]
 \end{tikzcd}
 \end{document}
 ```
-We have $\beta_{B}(Gf)=\beta_{B}(Gf)\alpha_{A}\beta_{A}=\beta_{B}\alpha_{B}(Ff)\beta_{A}=(Ff)\beta_{A}$ 
-
-[[Equivalence]]
+We have 
+$$
+\beta_{B}(Gf)=\beta_{B}(Gf)\alpha_{A}\beta_{A}=\beta_{B}\alpha_{B}(Ff)\beta_{A}=(Ff)\beta_{A}
+$$ 
 ### Examples
 Given permrutation representations of $G$ on $A$ and $B$, 
 a natural transformation between them is a $G$-[[Equivariant]] 
