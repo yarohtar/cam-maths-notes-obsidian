@@ -15,8 +15,8 @@ https://yarohtar.github.io/maths-notes/
 # Courses that exist currently
 ## Part IA
 - [[Group]] (taken from [[Groups, Rings and Modules]])
-- [[Probability Space]] (taken from [[Probability and Measure]])
-- [[Algebra/Vector Spaces/Vector Space]]
+- [[Probability]] (taken from [[Probability and Measure]])
+- [[Vector Space]]
 ## Part IB
 - Some of [[Methods]]
 - [[Optimisation]]
