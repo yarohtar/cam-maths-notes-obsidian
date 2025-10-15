@@ -4,7 +4,8 @@ A real sequence $x_n$ is convergent if and only if:
 $$\forall\epsilon\ \exists M\in N\ \forall n,m>M\ |x_n-x_m|<\epsilon$$
 ### Proof
 One way is trivial.
-Prove that it is bounded and then use [[Boltzano-Weierstrass theorem#Real sequences]]
+For other direction, prove that it is bounded,
+and then use [[Boltzano-Weierstrass theorem#Real sequences]]
 
 ## $R^n$ sequences
 ### Theorem

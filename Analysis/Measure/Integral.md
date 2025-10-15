@@ -1,23 +1,23 @@
-Let 
+Let $(A,\mathcal{A},\mu)$ be a [[Measure Space]]
+Given a [[Simple Function]]:
 $$
 g=\sum_{k=1}^{m} a_{k}1_{A_{k}}
 $$
-be a [[Simple Function]]
-Define:
+we define the integral:
 $$
 \mu(g)=\sum_{k=1}^{m} a_{k}\mu(A_{k})
 $$
-For any nonnegative [[Measurable Function]] $f$ we define:
+For any nonnegative [[Measurable Function]] $f$ 
+we define its integral as:
 $$
 \mu(f)=\sup \{ \mu(g):g \text{ simple, } g\leq f \}
 $$
-For any measurable function $f$, if $\mu(|f|)<\infty$, 
-we say that $f$ is integrable
-and we define the integral:
+Finally, for any [[Measurable Function]] $f$ with $\mu(|f|)<\infty$,
+we say that $f$ is integrable and we define the integral:
 $$
 \mu(f)=\mu(f^+)-\mu(f^-)
 $$
-where $f^+=f\land 0$ and $f^-=(-f)\land0$
+where $f^+=f\land 0$ and $f^-=(-f)\land0$.
 
 [[Monotone Convergence]]
 [[Fatou's Lemma]]
