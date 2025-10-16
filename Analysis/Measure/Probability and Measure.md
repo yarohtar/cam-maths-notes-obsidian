@@ -5,7 +5,7 @@ Jean F Le Gall website CH1 & 2
 
 [[sigma-algebra]]
 [[Measure]]
-[[Measure Space]]
+[[Inclusion-Exclusion Principle]]
 [[Measurable Function]]
 [[First Borel-Cantelli Lemma]]
 [[Second Borel-Cantelli Lemma]]

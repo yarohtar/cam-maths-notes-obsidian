@@ -65,7 +65,29 @@ $$
 (1-\epsilon)2^{n(H-\epsilon)} \leq \lvert B_{n} \rvert
 $$
 #### Proof
-Using [[Inclusion-Exclusion Principle]]
+Let $B_{n}^{*}=B_{n}^{*}(\epsilon)$ be the set of [[Typical Strings]] with entropy $H$.
+By definition:
+$$
+\mathbb{P}(x_{1}^{n}\in B_{n}^{*})\leq 2^{-n(H-\epsilon)}
+$$
+and thus:
+$$
+\begin{align}
+P^{n}(B_{n}\cap B_{n}^{*}) \leq \lvert B_{n}\cap B_{n}^{*} \rvert \cdot 2^{-n(H-\epsilon)} \leq \lvert B_{n} \rvert \cdot 2^{-n(H-\epsilon)}
+
+\end{align}
+$$
+Using [[Inclusion-Exclusion Principle]]:
+$$
+\begin{align}
+P^{n}(B_{n}\cap B_{n}^{*})  & = P^{n}(B_{n}) + P^{n}(B_{n}^{*}) - P(B_{n}\cup B_{n}^{*}) \\
+ & \geq P^{n} (B_{n}) + P^{n}(B_{n}^{*}) - 1  \\
+ & \xrightarrow{p} 1 \quad %quad
+\text{as} \quad %quad
+n\to \infty
+\end{align}
+$$
+by the previous lemma.
 
 
 ### Proposition

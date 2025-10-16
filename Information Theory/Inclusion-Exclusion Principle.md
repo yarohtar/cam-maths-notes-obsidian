@@ -2,27 +2,22 @@ Given finite sets $A$ and $B$:
 $$
 \lvert A\cup B \rvert =\lvert A \rvert  + \lvert B \rvert  - \lvert A\cap B \rvert 
 $$
-Moreover, given finite sets $A_{1},A_{2},\dots,A_{n}$:
+
+More generally:
+Let $(E,\mathcal{E},\mu)$ be a [[Measure Space]].
+Let $E_{1},E_{2},\dots,E_{n}\in \mathcal{E}$ be sets of finite measure.
+Then:
 $$
-\left\lvert  \bigcup_{i=1}^{n} A_{i}  \right\rvert  = \sum_{k=1}^{n} (-1)^{k+1} \sum_{1\leq i_{1}< \dots < i_{k} \leq n} \left\lvert  \bigcap_{j=1}^{k} A_{i_{j}}  \right\rvert 
-$$
-or equivalently:
-$$
-\left\lvert  \bigcup_{i=1}^{n} A_{i}  \right\rvert = \sum_{S\in \mathcal{P}^{+}[n]} (-1)^{\lvert S \rvert +1} \left\lvert  \bigcap_{i\in S} A_{i}  \right\rvert 
+\mu\left( \bigcup_{i=1}^{n} E_{i} \right) = \sum_{S\in \mathcal{P}^{+}[n]} (-1)^{\lvert S \rvert +1} \mu\left( \bigcap_{i\in S} E_{i} \right)
 $$
 where $\mathcal{P}^{+}[n]$ is the set of non-empty subsets of $[n]=\{ 1,\dots,n \}$ 
-
-By taking complements with respect to $A=\bigcup_{i=1}^{n}A_{i}$:
+In particular, any $n$ observables in a [[Probability Space]] satisfy this relation.
+### Proof
+The result follows by expanding the expression:
 $$
-\left\lvert  \overline{\bigcap_{i=1}^{n} A_{i}}  \right\rvert =\sum_{S\in\mathcal{P}^{+}[n]} (-1)^{\lvert S \rvert +1} \left\lvert \overline{ \bigcup_{i\in S} A_{i}}  \right\rvert 
+1-(1-1_{E_{1}})(1-1_{E_{2}})\dots(1-1_{E_{n}})
 $$
+which is the indicator function for 
 $$
-\lvert A \rvert - \left\lvert  \bigcap_{i=1}^{n} A_{i}  \right\rvert =\sum_{S\in \mathcal{P}^{+}[n]} (-1)^{\lvert S \rvert +1} \lvert A \rvert - \sum_{S\in \mathcal{P}^{+}[n]}(-1)^{\lvert S \rvert +1} \left\lvert  \bigcup_{i\in S}A_{i}  \right\rvert 
-$$
-$$
-\lvert A \rvert - \left\lvert  \bigcap_{i=1}^{n} A_{i}  \right\rvert = -\lvert A \rvert \sum_{k=1}^{n} (-1)^{k}\binom{ n }{ k } - \sum_{S\in \mathcal{P}^{+}[n]}(-1)^{\lvert S \rvert +1} \left\lvert  \bigcup_{i\in S} A_{i}  \right\rvert 
-$$
-The [[Binomial Coefficient]] sum is $-1$ and so:
-$$
-\left\lvert  \bigcap_{i=1}^{n} A_{i}  \right\rvert = \sum_{S\in \mathcal{P}^{+}[n]} (-1)^{\lvert S \rvert +1} \left\lvert  \bigcup_{i\in S}A_{i}  \right\rvert 
+\overline{\bigcap_{i=1}^{n}\overline{E_{i}}} = \bigcup_{i=1}^{n} E_{i}
 $$
