@@ -20,7 +20,7 @@ Thus:
 $$
 1\geq \sum_{x_{1}^n\in B_{n}^{*}(\epsilon)} P^{n}(x_{1}^{n}) \geq \lvert B_{n}^{*}(\epsilon) \rvert 2^{-n(H+\epsilon)}
 $$
-## Lemma
+## Lemma (AEP)
 Let $\{ X_{n} \}$ be a [[Source]] taking values in a discreet set $A$
 It satisfies the [[Asymptotic Equipartition Property]] with entropy $H\geq 0$
 if and only if

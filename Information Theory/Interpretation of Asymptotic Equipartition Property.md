@@ -11,7 +11,7 @@ AEP says that this randomly chosen number is close to $2^{-nH}$
 (with high probability).
 
 In other words, most strings $x_{1}^{n}$ 
-will have probability close to $2^{-nH}$.
+should have probability close to $2^{-nH}$.
 These are called [[Typical Strings]].
 
 There will usually be a lot of strings that are not typical.
@@ -20,7 +20,8 @@ However, seeing anything from the non typical set is improbable.
 For example, consider $A=\{ 0,1 \}$ 
 and $X_{n}$ are iid with $p_{0}=\frac{3}{4}$ and $p_{1}=\frac{1}{4}$.
 We can find $H=2-\frac{3}{4}\log 3\approx 0.81$.
-The string $0000\dots 0$ is the most probable, but not very "typical"
+The string $0000\dots 0$ is the most probable individual string, 
+but its not very "typical" (we expect to see a $3:1$ ratio)
 Indeed, it's probability is $p_{n}=2^{-2n}\cdot 3^{n}$ which gives:
 $$
 -\frac{1}{n}\log p_{n} = 2 - \log 3 \approx 0.42
