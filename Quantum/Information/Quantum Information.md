@@ -12,3 +12,4 @@ For $T\in B(\mathcal{H})$ define the dual (ie [[Adjoint]]) to be $T^{*}$
 [[Logic Gates]]
 [[Trace of an Operator]]
 [[Density Operators]]
+[[Schumacher's Theorem]]

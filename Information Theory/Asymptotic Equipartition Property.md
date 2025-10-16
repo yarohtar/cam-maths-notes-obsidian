@@ -21,6 +21,7 @@ $$
 as $n\to \infty$ where $\xrightarrow{p}$ means [[Convergence in Probability]]
 This comes from [[Shannon's 1st coding theorem]]
 #### Proof
+##### $\implies$
 Let $\epsilon>0$
 Note that $X_{1}^{n}\in B_{n}^{*}(\epsilon)$ if and only if:
 $$
@@ -30,7 +31,9 @@ which happens if and only if:
 $$
 H-\epsilon\leq -\frac{1}{n} \log P^{n}(X_{1}^{n}) \leq H + \epsilon 
 $$
-If $n$ is large enough, then this happens with probability:
+By definition of AEP, 
+if $n$ is large enough, 
+this happens with probability:
 $$
 \mathbb{P}\left( \left\lvert  \frac{1}{n} \log P^{n}(X_{1}^{n}) + H  \right\rvert \leq \epsilon \right) > 1-\epsilon
 $$
@@ -40,9 +43,21 @@ Q_{n}(\epsilon) = \mathbb{P}\left( \left\lvert  \frac{1}{n}\log P^{n} (X_{1}^{n}
 $$
 We have proved that for any $\epsilon>0$:
 $$
-\lim_{n\to \infty} Q_{n}(\epsilon) < \epsilon
+\lim_{n\to \infty} Q_{n}(\epsilon) \leq \epsilon
 $$
-
+Note that for any $\delta<\epsilon$:
+$$
+Q_{n}(\delta) \geq Q_{n}(\epsilon)
+$$
+so taking limits:
+$$
+\delta \geq \lim_{n\to \infty}Q_{n}(\delta) \geq \lim_{n\to \infty}Q_{n}(\epsilon)
+$$
+Now let $\delta \to 0$ to find:
+$$
+\lim_{n\to \infty} Q_{n}(\epsilon) = 0
+$$
+which is exactly the definition of [[Convergence in Probability]].
 
 ### Proposition
 A [[Bernoulli Source]] satisfies AEP with information rate $H(X)$ 
