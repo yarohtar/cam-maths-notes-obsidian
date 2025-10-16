@@ -38,6 +38,20 @@ $$
 $$
 and [[Convergence in Probability]] follows.
 ### Lemma
+Let $\{ X_{n} \}$ be a [[Source]] taking values in a discreet set $A^{n}$
+Let $\{ B_{n} \}$ be any sequence of subsets of $A^{n}$
+Suppose
+$$
+\mathbb{P}(X_{1}^{n} \in B_{n})\to 1 \quad %quad
+\text{as } n\to \infty 
+$$
+Then for any $\epsilon>0$ and any large enough $n$:
+$$
+\lvert B_{n} \rvert \geq(1-\epsilon) 2^{n(H-\epsilon)}
+$$
+#### Proof
+
+
 
 ### Proposition
 A [[Bernoulli Source]] satisfies AEP with information rate $H(X)$ 
