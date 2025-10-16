@@ -12,3 +12,5 @@ We can count stuff in various ways:
 [[Sum of Powers]]
 [[Stirling Number of the First Kind]]
 [[Burnside's Lemma (Orbit-Counting Lemma)]]
+[[Fibonacci Sequence]]
+

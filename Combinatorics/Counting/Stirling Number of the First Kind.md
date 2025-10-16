@@ -27,6 +27,9 @@ $$
 \genfrac[]{0pt}{0}{ n }{ k } = \sum_{1=a_{1}<a_{2}<\dots<a_{k}\leq n} \frac{ (n-1)! }{ (a_{2}-1)\dots(a_{k}-1) }
 $$
 by counting cycles.
+#### Proof 3
+Use [[Burnside's Lemma (Orbit-Counting Lemma)]].
+Let $G=S_{n}$ act on $\{ f:[n]\to[x] \}$ by permuting the domain
 ### Theorem
 $$
 x^{\underline{ n }} = \sum_{k=1}^{n} (-1)^{n-k} \genfrac[]{0pt}{0}{ n }{ k } x^{k}
