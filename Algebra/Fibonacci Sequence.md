@@ -62,3 +62,51 @@ If $p$ is prime and $p\equiv \pm 1\pmod{5}$, then $F_{p-1}\equiv 0\pmod{p}$ and 
 and $F_{n}\pmod{p}$ has period $k(p)|p-1$
 ### Proof
 Apply previous theorems, and use [[Fermat's Little Theorem]]
+## Theorem
+Let
+$$
+S=\begin{pmatrix}
+0 & 1 \\
+1 & 1
+\end{pmatrix}
+$$
+Then
+$$
+S^{n} = \begin{pmatrix}
+F_{n-1} &  F_{n} \\
+F_{n}  & F_{n+1}
+\end{pmatrix}
+$$
+## Theorem
+If $p$ prime and $p\equiv \pm 1\pmod{5}$ then $S^{p-1}\equiv I\pmod{p}$
+## Theorem
+If $p$ prime and $p\equiv\pm 2\pmod{5}$ then $S^{p+1}\equiv-I\pmod{p}$
+### Proof
+Notice if $A_{0}=a$ and $A_{1}=b$ with 
+$$
+\begin{pmatrix}
+A_{n} \\
+A_{n+1}
+\end{pmatrix}
+ = \begin{pmatrix}
+b-a & a \\
+a & b
+\end{pmatrix}
+\begin{pmatrix}
+F_{n} \\
+F_{n+1}
+\end{pmatrix}
+$$
+so if $F_{n}\pmod{p}$ has period $k(p)$
+then $A_{n}$ has period dividing $k(p)$ 
+and conversely if $\begin{pmatrix}b-a & a \\ a & b\end{pmatrix}$ is invertible
+which it is so long as $b^{2}-ab-a^{2}\not\equiv 0\pmod{p}$
+$$
+b^{2}-ab-a^{2}\equiv 0\pmod{p} \iff b = \frac{ a\pm \sqrt{ a^{2}+4a^{2} } }{ 2 } \equiv a\left( \frac{ 1\pm \sqrt{ 5 } }{ 2 } \right) \pmod{p}
+$$
+Let $m$ be minimal such that $F_{m}\equiv 0\pmod{p}$
+
+Then 
+$$
+\{ \lambda S^{r}\pmod{p} : \lambda \in \mathbb{F}_{p}^{x}, 1\leq r\leq m \}
+$$
