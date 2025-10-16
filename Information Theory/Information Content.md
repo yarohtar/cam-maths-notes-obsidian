@@ -8,3 +8,5 @@ $$
 I(X) = -\log p(X)
 $$
 where $p(X)$ is [[Random Probability of Random Variable]].
+
+Note that improbable events have high information content.
