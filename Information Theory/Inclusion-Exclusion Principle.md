@@ -8,14 +8,21 @@ $$
 $$
 or equivalently:
 $$
-\left\lvert  \bigcup_{i=1}^{n} A_{i}  \right\rvert = \sum_{S\subseteq[n]} (-1)^{\lvert S \rvert +1} \left\lvert  \bigcap_{i\in S} A_{i}  \right\rvert 
+\left\lvert  \bigcup_{i=1}^{n} A_{i}  \right\rvert = \sum_{S\in \mathcal{P}^{+}[n]} (-1)^{\lvert S \rvert +1} \left\lvert  \bigcap_{i\in S} A_{i}  \right\rvert 
 $$
-where $[n]=\{ 1,\dots,n \}$ and we take empty intersection to be empty.
+where $\mathcal{P}^{+}[n]$ is the set of non-empty subsets of $[n]=\{ 1,\dots,n \}$ 
 
 By taking complements with respect to $A=\bigcup_{i=1}^{n}A_{i}$:
 $$
-\left\lvert  \overline{\bigcap_{i=1}^{n} A_{i}}  \right\rvert =\sum_{S\subseteq[n]} (-1)^{\lvert S \rvert +1} \left\lvert \overline{ \bigcup_{i\in S} A_{i}}  \right\rvert 
+\left\lvert  \overline{\bigcap_{i=1}^{n} A_{i}}  \right\rvert =\sum_{S\in\mathcal{P}^{+}[n]} (-1)^{\lvert S \rvert +1} \left\lvert \overline{ \bigcup_{i\in S} A_{i}}  \right\rvert 
 $$
 $$
-\lvert A \rvert - \lvert  \rvert 
+\lvert A \rvert - \left\lvert  \bigcap_{i=1}^{n} A_{i}  \right\rvert =\sum_{S\in \mathcal{P}^{+}[n]} (-1)^{\lvert S \rvert +1} \lvert A \rvert - \sum_{S\in \mathcal{P}^{+}[n]}(-1)^{\lvert S \rvert +1} \left\lvert  \bigcup_{i\in S}A_{i}  \right\rvert 
+$$
+$$
+\lvert A \rvert - \left\lvert  \bigcap_{i=1}^{n} A_{i}  \right\rvert = -\lvert A \rvert \sum_{k=1}^{n} (-1)^{k}\binom{ n }{ k } - \sum_{S\in \mathcal{P}^{+}[n]}(-1)^{\lvert S \rvert +1} \left\lvert  \bigcup_{i\in S} A_{i}  \right\rvert 
+$$
+The [[Binomial Coefficient]] sum is $-1$ and so:
+$$
+\left\lvert  \bigcap_{i=1}^{n} A_{i}  \right\rvert = \sum_{S\in \mathcal{P}^{+}[n]} (-1)^{\lvert S \rvert +1} \left\lvert  \bigcup_{i\in S}A_{i}  \right\rvert 
 $$
