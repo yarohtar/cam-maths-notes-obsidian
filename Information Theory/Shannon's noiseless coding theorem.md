@@ -1,8 +1,11 @@
-[[Expected word length]] for an [[Optimal Code]] $f$ satisfies:
+Let $X$ be a [[Discrete Memoryless Source]] with values in $\Sigma_{1}$
+Let $f:\Sigma_{1}\to \Sigma_{2}^{*}$ be an [[Optimal Code]] for $X$
+Then its [[Expected word length]] $\mathbb{E}(S)$ satisfies:
 $$
 \frac{H(X)}{\log a}\leq \mathbb{E}(S)<\frac{H(X)}{\log a}+1
 $$
-where $a=\lvert \Sigma_{2} \rvert$, and $H(X)$ is the  [[Mathematical Entropy]].
+where $a=\lvert \Sigma_{2} \rvert$, 
+and $H(X)$ is the  [[Mathematical Entropy]].
 
 #### Proof
 The lower bound is given by combining [[Gibbs' inequality]] and [[Kraft's inequality]].
