@@ -1,8 +1,9 @@
 Let $\Omega$ be a set and $\mathcal{F}\subseteq \mathcal{P}(\Omega)$ a [[sigma-algebra]] on it.
 Let $\mathbb{P}:\mathcal{F}\to[0,\infty]$.
-Then $(\Omega,\mathcal{F},\mathbb{P})$ is a probability space subject to:
+Suppose:
 - $\mathbb{P}$ is a [[Measure]] on $(\Omega,\mathcal{F})$
 - $\mathbb{P}(\Omega)=1$
+Then $(\Omega,\mathcal{F},\mathbb{P})$ is a probability space.
 Equivalently:
 A [[Measure Space]] $(\Omega,\mathcal{F}, \mathbb{P})$ is called a probability space if $\mathbb{P}(\Omega)=1$.
 

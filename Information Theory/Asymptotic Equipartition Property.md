@@ -11,7 +11,13 @@ $$
 \text{as }n\to \infty
 $$
 where $\xrightarrow{p}$ means [[Convergence in Probability]]
-and $P^{n}(X_{1}^{n})$ is "random probability of random string".
+and $P^{n}(X_{1}^{n})$ is [[Random Probability of Random Variable]]
+$$
+\begin{align}
+\mathbb{P}(P^{n}(X_{1}^{n}) = p)  & = \mathbb{P}(\{ \omega \in \Omega : P^{n}(X_{1}^{n}(\omega))=p \}) \\
+ & =\mathbb{P}(\{ \omega \in \Omega: \mathbb{P}(\{ \omega'\in \Omega : X_{1}^{n}(\omega') = X_{1}^{n}(\omega) \}) = p \})
+\end{align}
+$$
 ##### Note
 There are alternative definitions, e.g. based on [[Typical Strings]].
 However, this definition made the more sense to me, so I'm using it as main.
