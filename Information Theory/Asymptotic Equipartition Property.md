@@ -65,9 +65,9 @@ $$
 (1-\epsilon)2^{n(H-\epsilon)} \leq \lvert B_{n} \rvert
 $$
 #### Proof
-
+Using [[Inclusion-Exclusion Principle]]
 
 
 ### Proposition
-A [[Bernoulli Source]] satisfies AEP with information rate $H(X)$ 
+A [[Memoryless Source]] satisfies AEP with information rate $H(X)$ 
 for $H(X)$ [[Mathematical Entropy]].
