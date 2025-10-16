@@ -18,16 +18,17 @@ There are alternative definitions
 However, this definition made the most sense to me, so I'm using it as main.
 Note also that I'm making no assumptions about $X_{n}$.
 We can, however, prove that [[Discrete Memoryless Source]] satisfies AEP.
+I am also not saying anything about $H$
+although I call it entropy, to hint that it should be [[Mathematical Entropy]]
 [[Interpretation of Asymptotic Equipartition Property]]
 ## Theorem
 Suppose $\{ X_{n} \}$ satisfies AEP with entropy $H\geq 0$.
 Then the smallest sets of strings $B_{n}\subseteq A^{n}$ such that:
 $$
-\mathbb{P}(X_{1}^{n}\in B_{n}) \xrightarrow{p} 1 \quad %quad
+\mathbb{P}(X_{1}^{n}\in B_{n}) \longrightarrow 1 \quad %quad
 \text{as}\quad %quad
 n\to \infty
 $$
-(where $\xrightarrow{p}$ is [[Convergence in Probability]])
 have sizes $\lvert B_{n} \rvert\approx2^{nH}$.
 
 More precisely, the following lemmata:
@@ -36,7 +37,7 @@ For every $\epsilon>0$
 there is a sequence of sets $\{ B_{n}\subseteq A^{n} \}$ with $\lvert B_{n} \rvert\leq 2^{n(H+\epsilon)}$
 such that:
 $$
-\mathbb{P}(X_{1}^{n}\in B_{n}) \xrightarrow{p} 1 \quad %quad
+\mathbb{P}(X_{1}^{n}\in B_{n}) \longrightarrow 1 \quad %quad
 \text{as}\quad %quad
 n\to \infty
 $$
@@ -50,13 +51,13 @@ $$
 Also $\{ X_{n} \}$ satisfies AEP 
 thus by [[Typical Strings#Lemma (AEP)]]:
 $$
-\mathbb{P}(X_{1}^{n}\in B_{n}^{*}(\epsilon)) \to ^{p} 1
+\mathbb{P}(X_{1}^{n}\in B_{n}^{*}(\epsilon)) \longrightarrow 1
 $$
 ### Lemma 2
 Let $\epsilon>0$.
 Suppose for some $\{ B_{n}\subseteq A^{n} \}$ we have:
 $$
-\mathbb{P}(X_{1}^{n}\in B_{n}) \to ^{p} 1 \quad %quad
+\mathbb{P}(X_{1}^{n}\in B_{n}) \longrightarrow 1 \quad %quad
 \text{as} \quad %quad
 n\to \infty
 $$
@@ -73,23 +74,25 @@ $$
 and thus:
 $$
 \begin{align}
-P^{n}(B_{n}\cap B_{n}^{*}) \leq \lvert B_{n}\cap B_{n}^{*} \rvert \cdot 2^{-n(H-\epsilon)} \leq \lvert B_{n} \rvert \cdot 2^{-n(H-\epsilon)}
+P^{n}(B_{n}\cap B_{n}^{*})  & \leq \lvert B_{n}\cap B_{n}^{*} \rvert \cdot 2^{-n(H-\epsilon)}  \\
+ & \leq \lvert B_{n} \rvert \cdot 2^{-n(H-\epsilon)}
 
 \end{align}
 $$
-Using [[Inclusion-Exclusion Principle]]:
+Note that by assumption $P^{n}(B_{n})\to 1$
+and by [[Typical Strings#Lemma (AEP)]] $P^{n}(B_{n}^{*})\to 1$
+so using [[Inclusion-Exclusion Principle]]:
 $$
 \begin{align}
 P^{n}(B_{n}\cap B_{n}^{*})  & = P^{n}(B_{n}) + P^{n}(B_{n}^{*}) - P(B_{n}\cup B_{n}^{*}) \\
  & \geq P^{n} (B_{n}) + P^{n}(B_{n}^{*}) - 1  \\
- & \xrightarrow{p} 1 \quad %quad
+ & \longrightarrow 1 \quad %quad
 \text{as} \quad %quad
 n\to \infty
 \end{align}
 $$
-by the previous lemma.
-
-
-### Proposition
-A [[Memoryless Source]] satisfies AEP with information rate $H(X)$ 
-for $H(X)$ [[Mathematical Entropy]].
+Thus, for large enough $n$:
+$$
+1-\epsilon\leq P^{n}(B_{n}\cap B_{n}^{*}) \leq \lvert B_{n} \rvert \cdot 2^{-n(H-\epsilon)}
+$$
+and the inequality follows.

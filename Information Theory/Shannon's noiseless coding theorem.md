@@ -1,6 +1,6 @@
 [[Expected word length]] for an [[Optimal Code]] $f$ satisfies:
 $$
-\frac{H(X)}{\log a}\leq E(S)<\frac{H(X)}{\log a}+1
+\frac{H(X)}{\log a}\leq \mathbb{E}(S)<\frac{H(X)}{\log a}+1
 $$
 where $a=\lvert \Sigma_{2} \rvert$, and $H(X)$ is the  [[Mathematical Entropy]].
 
@@ -19,7 +19,7 @@ $$
 Where $\log C\leq 0$ by [[Kraft's inequality]].
 Hence:
 $$
-\frac{H(X)}{\log a}\leq \sum_{i=1}^{m} p_{i}s_{i}=E(S)
+\frac{H(X)}{\log a}\leq \sum_{i=1}^{m} p_{i}s_{i}=\mathbb{E}(S)
 $$
 We get equality iff $p_{i}=a^{-s_{i}}$ for some integers $s_{i}$.
 
@@ -36,7 +36,7 @@ there is a prefix-free code with word lengths $s_{1},\dots,s_{m}$.
 Also
 $$
 \begin{align}
-E(S) & =\sum_{i=1}^{m} p_{i}s_{i} \\
+\mathbb{E}(S) & =\sum_{i=1}^{m} p_{i}s_{i} \\
  & <\sum_{i=1}^{m} p_{i}(-\log_{a}p_{i}+1) \\
  & = \frac{H(X)}{\log_{a}}+1
 \end{align}

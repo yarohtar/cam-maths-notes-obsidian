@@ -1,7 +1,7 @@
 The information rate $H$ of a [[Source]] 
 is the infimum of all rates at which it is [[Reliably encodable]]
 ### Lemma
-The [[Source Information Rate]] of a [[Memoryless Source]] 
+The [[Source Information Rate]] of a [[Discrete Memoryless Source]] 
 is at most the expected word length of an [[Optimal Code]].
 #### Proof
 Let $c$ be an optimal code
@@ -9,7 +9,7 @@ Let $S_{1},S_{2},\dots$ be codeword lengths when we encode $X_{1},X_{2},\dots$
 Let $\epsilon>0$
 Let 
 $$
-A_{n}=\{ x : c^{*}(x) \text{ has length less than }n(\mathbb{E}(S_{1})+\epsilon) \}
+A_{n}=\{ x : c^{*}(x) \text{ has length less than }n\cdot(\mathbb{E}(S_{1})+\epsilon) \}
 $$
 Then
 $$
@@ -30,11 +30,11 @@ $$
 So the source is [[Reliably encodable]] at rate $r=\mathbb{E}(S_{1})+\epsilon$ for all $\epsilon>0$. 
 Hence the information rate is at most $\mathbb{E}(s_{1})$.
 ### Corollary
-A Bernoulli source has information rate less than $H(X)+1$.
+A [[Discrete Memoryless Source]] has information rate less than $H(X)+1$.
 #### Proof
 [[Shannon's noiseless coding theorem]]
 ### Proposition
-The information rate $H$ of a Bernoulli source is at most $H(X)$. 
+The information rate $H$ of a [[Discrete Memoryless Source]] is at most $H(X)$. 
 #### Proof
 Encode $X_{1},X_{2},\dots$ in blocks of size $N$. 
 Let $Y_{1}=(X_{1},\dots,X_{N})$ etc. 

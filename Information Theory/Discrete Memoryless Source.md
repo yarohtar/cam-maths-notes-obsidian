@@ -1,6 +1,7 @@
 A [[Source]] $\{ X_{n} \}$ taking values in a discrete set $A$ 
 where all $X_{i}$ are identically distributed and independent
 is called a Discrete Memoryless Source.
+Sometimes it is also called a Bernoulli Source.
 ## Theorem
 A DMS $\{ X_{n} \}$ satisfies [[Asymptotic Equipartition Property]] 
 with entropy equal to [[Mathematical Entropy]] $H(X_{1})$
