@@ -8,7 +8,7 @@ where $B_{n}^{*}(\epsilon)$ is the set of [[Typical Strings]].
 
 ### Lemma
 Let $\{ X_{n} \}$ be a [[Source]] taking values in a discrete set $A$
-Let $P^{n}:\mathbb{A}^{n}\to[0,1]$ be the joint PDF of $(X_{1},\dots,X_{n})$:
+Let $P^{n}:A^{n}\to[0,1]$ be the joint PDF of $(X_{1},\dots,X_{n})$:
 $$
 P^{n}(x_{1}^{n})=\mathbb{P}(X_{1}^{n}=x_{1}^{n})
 $$
