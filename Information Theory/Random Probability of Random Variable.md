@@ -17,7 +17,17 @@ $$
 Q=P(X)=\mathbb{P}(X=X)=1
 $$
 This is wrong. 
-We need to fully expand the definitions to understand why:
+We need to fully expand the definitions to understand why.
+Firstly:
 $$
-Q=P(X)=\mathbb{P}(\{ \omega \in \Omega : X(\omega) = X \})
+P(a)=\mathbb{P}(\{ \omega' \in \Omega:X(\omega') = a \})
 $$
+Now we can properly see:
+$$
+Q(\omega)=P(X(\omega))=\mathbb{P}(\{ \omega' \in \Omega : X(\omega') = X(\omega) \})
+$$
+i.e. $Q$ is randomly sent to a probability in the image of $P$
+
+Thinking about it further, 
+if $X$ takes value $x_{i}\in A$ with probability $p_{i}\in[0,1]$
+then $Q$ will take the value $p_{i}$ with probability $p_{i}$

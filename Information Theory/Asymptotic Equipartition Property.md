@@ -12,20 +12,25 @@ $$
 $$
 where $\xrightarrow{p}$ means [[Convergence in Probability]]
 and $P^{n}(X_{1}^{n})$ is [[Random Probability of Random Variable]]
-$$
-\begin{align}
-\mathbb{P}(P^{n}(X_{1}^{n}) = p)  & = \mathbb{P}(\{ \omega \in \Omega : P^{n}(X_{1}^{n}(\omega))=p \}) \\
- & =\mathbb{P}(\{ \omega \in \Omega: \mathbb{P}(\{ \omega'\in \Omega : X_{1}^{n}(\omega') = X_{1}^{n}(\omega) \}) = p \})
-\end{align}
-$$
+#### Interpretation
+Each string $x_{1}^{n}$ has probability $P^{n}(x_{1}^{n})$ of occurring
+Choose one of the **probabilities** at random (following the distribution of $X_{1}^{n}$)
+AEP says that this randomly chosen number is close to $2^{-nH}$ 
+(with high probability).
+
+In other words, most strings $x_{1}^{n}$ 
+will have probability close to $2^{-nH}$
+These are called [[Typical Strings]].
+
+There might be strings that are not typical.
+We make no claims on whether they are more or less probable than $2^{-nH}$
+For example, consider $A=\{ 0,1 \}$ with $p_{0}=\frac{3}{4}$ and $p_{1}=\frac{1}{4}$
+
+
+
 ##### Note
 There are alternative definitions, e.g. based on [[Typical Strings]].
 However, this definition made the more sense to me, so I'm using it as main.
-##### Interpretation
-We are saying that $\{ X_{n} \}$ satisfies AEP if, 
-for large enough $n$,
-given a random string $X_{1}^{n}$,
-the probability that 
 ## Lemma
 Let $\{ X_{n} \}$ be a [[Source]] taking values in a discreet set $A$
 It satisfies the AEP with constant $H\geq 0$ if:
