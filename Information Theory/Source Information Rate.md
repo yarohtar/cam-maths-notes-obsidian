@@ -1,6 +1,8 @@
-The information rate $H$ of a [[Source]] is the infimum of all rates at which it is [[Reliably encodable]]
+The information rate $H$ of a [[Source]] 
+is the infimum of all rates at which it is [[Reliably encodable]]
 ### Lemma
-The [[Source Information Rate]] of a [[Bernoulli Source]] is at most the expected word length of an [[Optimal Code]].
+The [[Source Information Rate]] of a [[Bernoulli Source]] 
+is at most the expected word length of an [[Optimal Code]].
 #### Proof
 Let $c$ be an optimal code
 Let $S_{1},S_{2},\dots$ be codeword lengths when we encode $X_{1},X_{2},\dots$
@@ -34,7 +36,8 @@ A Bernoulli source has information rate less than $H(X)+1$.
 ### Proposition
 The information rate $H$ of a Bernoulli source is at most $H(X)$. 
 #### Proof
-Encode $X_{1},X_{2},\dots$ in blocks of size $N$. Let $Y_{1}=(X_{1},\dots,X_{N})$ etc. 
+Encode $X_{1},X_{2},\dots$ in blocks of size $N$. 
+Let $Y_{1}=(X_{1},\dots,X_{N})$ etc. 
 Then if $X$ has information rate $H$, $Y$ has information rate $NH$
 Apply the previous corollary:
 $$

@@ -31,7 +31,8 @@ $$
 $$
 \implies a^{-s_{i}}\leq p_{i}\implies \sum_{i=1}^{m} a^{-s_{i}}\leq \sum_{i=1}^{m} p_{i}=1
 $$
-So by [[McMillan's Theorem]] there is a prefix-free code with word lengths $s_{1},\dots,s_{m}$
+So by [[McMillan's Theorem]]
+there is a prefix-free code with word lengths $s_{1},\dots,s_{m}$.
 Also
 $$
 \begin{align}
