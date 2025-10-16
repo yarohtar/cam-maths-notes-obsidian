@@ -1,6 +1,7 @@
-Let $\{ X_{n} \}_{n\in \mathbb{N}}$ be random variables taking values in alphabet $A$
+Let $A$ be a discreet set.
+Let $\{ X_{n} \}_{n\in \mathbb{N}}$ be [[Random Variable]]s taking values in $A$
 and let $H\geq 0$
-The sets of typical strings of length $n\in \mathbb{N}$ with constant $H$
+The sets of typical strings of length $n\in \mathbb{N}$ with entropy $H$
 are defined for each $\epsilon>0$ by:
 $$
 B_{n}^{*}(\epsilon)= \{ x_{1}^{n}\in A^{n} : 2^{-n(H+\epsilon)} \leq P^{n}(x_{1}^{n}) \leq 2^{-n(H-\epsilon)} \}

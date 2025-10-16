@@ -4,8 +4,14 @@ for all $\epsilon>0$
 $$
 \lim_{n\to \infty}\mathbb{P}(X_{1}^{n}\in B_{n}^{*}(\epsilon)) = 1
 $$
-where $B_{n}^{*}(\epsilon)$ is the set of [[Typical Strings]].
-
+where $B_{n}^{*}(\epsilon)$ is the set of [[Typical Strings]] with entropy $H$
+##### Note
+There are some alternative definitions.
+In this one, we make no claim that $H$ is the [[Mathematical Entropy]],
+but it usually will be.
+## Proposition
+If $\{ X_{n} \}$ satisfies AEP with constant $H\geq 0$
+Then for every $\epsilon$ 
 ### Lemma
 Let $\{ X_{n} \}$ be a [[Source]] taking values in a discrete set $A$
 Let $P^{n}:A^{n}\to[0,1]$ be the joint PDF of $(X_{1},\dots,X_{n})$:
@@ -38,7 +44,8 @@ $$
 $$
 and [[Convergence in Probability]] follows.
 ### Lemma
-Let $\{ X_{n} \}$ be a [[Source]] taking values in a discreet set $A^{n}$
+Let $\{ X_{n} \}$ be a [[Source]] taking values in a discreet set $A$
+Suppose $\{ X_{n} \}$ satisfies AEP with constant $H\geq 0$
 Let $\{ B_{n} \}$ be any sequence of subsets of $A^{n}$
 Suppose
 $$
