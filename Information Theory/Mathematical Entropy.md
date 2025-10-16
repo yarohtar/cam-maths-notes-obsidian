@@ -1,4 +1,6 @@
-Consider a random variable $X$ taking values $x_{1}\dots x_{n}$ with probabilities $p_{1},\dots,p_{n}$. 
+Consider a random variable $X$ 
+taking values $x_{1}\dots x_{n}$ 
+with probabilities $p_{1},\dots,p_{n}$. 
 The entropy of $X$ is:
 $$
 H(X)=H(p_{1},\dots,p_{n}) = - \sum_{i=1}^{n}p_{i}\log p_{i}

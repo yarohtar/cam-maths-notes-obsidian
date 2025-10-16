@@ -12,7 +12,10 @@ $$
 $$
 where $\xrightarrow{p}$ means [[Convergence in Probability]]
 and $P^{n}(X_{1}^{n})$ is [[Random Probability of Random Variable]]
-#### Interpretation
+##### Note
+There are alternative definitions, e.g. based on [[Typical Strings]].
+However, this definition made the most sense to me, so I'm using it as main.
+### Interpretation
 Each string $x_{1}^{n}$ has probability $P^{n}(x_{1}^{n})$ of occurring
 Choose one of the **probabilities** at random (following the distribution of $X_{1}^{n}$)
 AEP says that this randomly chosen number is close to $2^{-nH}$ 
@@ -22,15 +25,19 @@ In other words, most strings $x_{1}^{n}$
 will have probability close to $2^{-nH}$
 These are called [[Typical Strings]].
 
-There might be strings that are not typical.
+There will usually be a lot of strings that are not typical.
 We make no claims on whether they are more or less probable than $2^{-nH}$
-For example, consider $A=\{ 0,1 \}$ with $p_{0}=\frac{3}{4}$ and $p_{1}=\frac{1}{4}$
+However, seeing anything from the non typical set is improbable.
+For example, consider $A=\{ 0,1 \}$ 
+and $X_{n}$ are iid with $p_{0}=\frac{3}{4}$ and $p_{1}=\frac{1}{4}$.
+We can find $H=2-\frac{3}{4}\log 3\approx 0.81$.
+The string $0000\dots 0$ is the most probable, but not very "typical"
+Indeed, it's probability is $p_{n}=2^{-2n}\cdot 3^{n}$ which gives:
+$$
+-\frac{1}{n}\log p_{n} = 2 - \log 3 \approx 0.42
+$$
+and that is not close to $H$.
 
-
-
-##### Note
-There are alternative definitions, e.g. based on [[Typical Strings]].
-However, this definition made the more sense to me, so I'm using it as main.
 ## Lemma
 Let $\{ X_{n} \}$ be a [[Source]] taking values in a discreet set $A$
 It satisfies the AEP with constant $H\geq 0$ if:
