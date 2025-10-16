@@ -30,7 +30,8 @@ $$
 $$
 ### Proof
 Let $\epsilon>0$.
-Note that $X_{1}^{n}\in B_{n}^{*}(\epsilon)$ if and only if:
+Note that $X_{1}^{n}\in B_{n}^{*}(\epsilon)$ 
+if and only if:
 $$
 2^{-n(H+\epsilon)} \leq P^{n}(X_{1}^{n}) \leq 2^{-n(H-\epsilon)}
 $$
@@ -38,9 +39,8 @@ which happens if and only if:
 $$
 H-\epsilon\leq -\frac{1}{n} \log P^{n}(X_{1}^{n}) \leq H + \epsilon 
 $$
-Now $\{ X_{n} \}$ satisfies AEP
-if and only if (by definition)
+Also, $\{ X_{n} \}$ satisfies AEP iff (by definition):
 $$
 \lim_{n\to \infty} \mathbb{P}\left( \left\lvert  \frac{1}{n} \log P^{n}(X_{1}^{n}) +H  \right\rvert > \epsilon \right) \to 0
 $$
-and [[Convergence in Probability]] follows.
+Thus the equivalence follows.

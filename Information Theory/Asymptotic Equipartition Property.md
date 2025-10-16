@@ -15,38 +15,27 @@ and $P^{n}(X_{1}^{n})$ is [[Random Probability of Random Variable]]
 ##### Note
 There are alternative definitions, e.g. based on [[Typical Strings]].
 However, this definition made the most sense to me, so I'm using it as main.
-### Interpretation
-Each string $x_{1}^{n}$ has probability $P^{n}(x_{1}^{n})$ of occurring
-Choose one of the **probabilities** at random (following the distribution of $X_{1}^{n}$)
-AEP says that this randomly chosen number is close to $2^{-nH}$ 
-(with high probability).
+Sometimes, this is stated as a theorem instead, 
+but I find that not very elegant.
+[[Interpretation of Asymptotic Equipartition Property]]
+## Theorem
+Suppose $\{ X_{n} \}$ satisfies AEP with entropy $H\geq 0$.
+Then the smallest sets of strings $B_{n}\subseteq A^{n}$
+that hits $X_{n}$ almost surely has size $\approx2^{nH}$
 
-In other words, most strings $x_{1}^{n}$ 
-will have probability close to $2^{-nH}$.
-These are called [[Typical Strings]].
-
-There will usually be a lot of strings that are not typical.
-We make no claims on whether they are more or less probable than $2^{-nH}$
-However, seeing anything from the non typical set is improbable.
-For example, consider $A=\{ 0,1 \}$ 
-and $X_{n}$ are iid with $p_{0}=\frac{3}{4}$ and $p_{1}=\frac{1}{4}$.
-We can find $H=2-\frac{3}{4}\log 3\approx 0.81$.
-The string $0000\dots 0$ is the most probable, but not very "typical"
-Indeed, it's probability is $p_{n}=2^{-2n}\cdot 3^{n}$ which gives:
+Then there are around $2^{nH}$ [[Typical Strings]].
+More precisely:
 $$
--\frac{1}{n}\log p_{n} = 2 - \log 3 \approx 0.42
+(1-\epsilon)2^{n(H-\epsilon)} \leq \lvert B_{n}^{*}(\epsilon) \rvert \leq 2^{n(H+\epsilon)}
 $$
-and that is not close to $H$.
-
-where $B_{n}^{*}(\epsilon)$ is the set of [[Typical Strings]] with entropy $H$
-## Proposition
-If $\{ X_{n} \}$ satisfies AEP with constant $H\geq 0$
-Then for every $\epsilon$ 
-### Lemma
-#### Proof
+### Proof
+Let $\epsilon>0$.
+From [[Typical Strings]], we know $\lvert B_{n}^{*}(\epsilon) \rvert\leq 2^{n(H+\epsilon)}$ 
+(regardless of whether AEP is satisfied)
+The other inequality follows from the following lemma.
 ### Lemma
 Let $\{ X_{n} \}$ be a [[Source]] taking values in a discreet set $A$
-Suppose $\{ X_{n} \}$ satisfies AEP with constant $H\geq 0$
+Suppose $\{ X_{n} \}$ satisfies AEP with entropy $H\geq 0$
 Let $\{ B_{n} \}$ be any sequence of subsets of $A^{n}$
 Suppose
 $$
@@ -58,6 +47,7 @@ $$
 \lvert B_{n} \rvert \geq(1-\epsilon) 2^{n(H-\epsilon)}
 $$
 #### Proof
+
 
 
 
