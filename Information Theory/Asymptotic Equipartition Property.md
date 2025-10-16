@@ -1,8 +1,8 @@
 Let $\{ X_{n} \}$ be a [[Source]] taking values in a discreet set $A$
 It satisfies the AEP with constant $H\geq 0$ if:
-for all $\epsilon>0$ and all large enough $n$:
+for all $\epsilon>0$
 $$
-\mathbb{P}(X_{1}^{n}\in B_{n}^{*}(\epsilon)) > 1-\epsilon
+\lim_{n\to \infty}\mathbb{P}(X_{1}^{n}\in B_{n}^{*}(\epsilon)) = 1
 $$
 where $B_{n}^{*}(\epsilon)$ is the set of [[Typical Strings]].
 
@@ -12,16 +12,16 @@ Let $P^{n}:A^{n}\to[0,1]$ be the joint PDF of $(X_{1},\dots,X_{n})$:
 $$
 P^{n}(x_{1}^{n})=\mathbb{P}(X_{1}^{n}=x_{1}^{n})
 $$
-for all $x_{1}^{n}\in A^{n}$
+for all $x_{1}^{n}\in A^{n}$.
 Then $\{ X_{n} \}$ satisfies AEP for $H\geq 0$
 if and only if 
 $$
--\frac{1}{n}\log P^n(X_{1},\dots,X_{n}) \xrightarrow{p} H
+-\frac{1}{n}\log P^n(X_{1},\dots,X_{n}) \xrightarrow{p} H \quad %quad
+\text{as }n\to \infty
 $$
-as $n\to \infty$ where $\xrightarrow{p}$ means [[Convergence in Probability]]
-This comes from [[Shannon's 1st coding theorem]]
+where $\xrightarrow{p}$ means [[Convergence in Probability]]
+and $P^{n}(X_{1}^{n})$ is "random probability of random string".
 #### Proof
-##### $\implies$
 Let $\epsilon>0$
 Note that $X_{1}^{n}\in B_{n}^{*}(\epsilon)$ if and only if:
 $$
@@ -31,33 +31,13 @@ which happens if and only if:
 $$
 H-\epsilon\leq -\frac{1}{n} \log P^{n}(X_{1}^{n}) \leq H + \epsilon 
 $$
-By definition of AEP, 
-if $n$ is large enough, 
-this happens with probability:
+Now $\{ X_{n} \}$ satisfies AEP
+if and only if (by definition)
 $$
-\mathbb{P}\left( \left\lvert  \frac{1}{n} \log P^{n}(X_{1}^{n}) + H  \right\rvert \leq \epsilon \right) > 1-\epsilon
+\lim_{n\to \infty} \mathbb{P}\left( \left\lvert  \frac{1}{n} \log P^{n}(X_{1}^{n}) +H  \right\rvert > \epsilon \right) \to 0
 $$
-Define:
-$$
-Q_{n}(\epsilon) = \mathbb{P}\left( \left\lvert  \frac{1}{n}\log P^{n} (X_{1}^{n}) + H  \right\rvert >\epsilon \right)
-$$
-We have proved that for any $\epsilon>0$:
-$$
-\lim_{n\to \infty} Q_{n}(\epsilon) \leq \epsilon
-$$
-Note that for any $\delta<\epsilon$:
-$$
-Q_{n}(\delta) \geq Q_{n}(\epsilon)
-$$
-so taking limits:
-$$
-\delta \geq \lim_{n\to \infty}Q_{n}(\delta) \geq \lim_{n\to \infty}Q_{n}(\epsilon)
-$$
-Now let $\delta \to 0$ to find:
-$$
-\lim_{n\to \infty} Q_{n}(\epsilon) = 0
-$$
-which is exactly the definition of [[Convergence in Probability]].
+and [[Convergence in Probability]] follows.
+### Lemma
 
 ### Proposition
 A [[Bernoulli Source]] satisfies AEP with information rate $H(X)$ 
