@@ -1,18 +1,32 @@
-Consider a random variable $X$ 
-taking values $x_{1}\dots x_{n}$ 
-with probabilities $p_{1},\dots,p_{n}$. 
-The entropy of $X$ is:
+Let $X$ be a [[Random Variable]] taking values in a discrete set $A$, 
+following a distribution $P(x)=\mathbb{P}(X=x)$
+Let $Y=P(X)$ be the [[Random Probability of Random Variable]].
+Mathematical entropy is defined as:
 $$
-H(X)=H(p_{1},\dots,p_{n}) = - \sum_{i=1}^{n}p_{i}\log p_{i}
+H(X) = -\mathbb{E} (\log(Y))
 $$
-where we take $\log_{2}$.
+In other words:
+$$
+H(X) = - \sum_{a\in A} P(a) \log (P(a))
+$$
+By convention, we take $\log=\log_{2}$.
+We usually only care about $H(X)<\infty$.
+
 [[Joint Entropy]]
 [[Conditional Entropy]]
 [[Fano's Inequality]]
 [[Mutual Information]]
 
 ### Lemma
-$H(p_{1},\dots ,p_{n})\leq \log n$ with equality iff $p_{1}=\dots=p_{n}=\frac{1}{n}$
+For $p_{1},p_{2},\dots,p_{n}$ with $p_{1}+p_{2}+\dots+p_{n}=1$:
+$$
+H(p_{1},\dots ,p_{n})\leq \log n
+$$
+Additionally $H(p_{1},\dots,p_{n})=\log n$
+if and only if
+$$
+p_{1}=\dots=p_{n}=\frac{1}{n}
+$$
 #### Proof
 Take $q_{1}=\dots=q_{n}=\frac{1}{n}$ in [[Gibbs' inequality]].
 
