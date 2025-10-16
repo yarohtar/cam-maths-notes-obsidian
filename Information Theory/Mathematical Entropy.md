@@ -1,9 +1,9 @@
 Let $X$ be a [[Random Variable]] taking values in a discrete set $A$, 
 following a distribution $P(x)=\mathbb{P}(X=x)$
-Let $Y=P(X)$ be the [[Random Probability of Random Variable]].
+Let $I=-\log P(X)$ be the [[Information Content]] of $X$
 Mathematical entropy is defined as:
 $$
-H(X) = -\mathbb{E} (\log(Y))
+H(X) = \mathbb{E} (I)
 $$
 In other words:
 $$
@@ -30,9 +30,10 @@ $$
 #### Proof
 Take $q_{1}=\dots=q_{n}=\frac{1}{n}$ in [[Gibbs' inequality]].
 
-### Intuition
+## Intuition
 Entropy is a measure of 'randomness' or 'uncertainty'
 The entropy $H(X)$ is roughly speaking the expected number of tosses of a fair coin needed to simulate $X$
+(its a two sided coin because we use $\log_{2}$)
 #### Example 1
 Suppose $p_{1}=p_{2}=p_{3}=p_{4}=\frac{1}{4}$
 we identify $\{ x_{1},\dots x_{4} \}$ with $\{ H H, HT, TH, TT \}$
@@ -40,7 +41,7 @@ so $H(X)=2$
 #### Example 2
 $(p_{1},p_{2},p_{3},p_{4})=\left( \frac{1}{2},\frac{1}{4},\frac{1}{8},\frac{1}{8} \right)$
 $H(X)=\frac{1}{2}\cdot 1+\frac{1}{4}\cdot 2+\frac{1}{8}\cdot 3+\frac{1}{8} \cdot 3=\frac{7}{4}$
-(to get this, think of a binary tree)
+(to get this, think of a binary tree!)
 
 So Example 1 is more random than Example 2.
 

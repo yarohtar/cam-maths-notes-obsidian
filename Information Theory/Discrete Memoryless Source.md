@@ -14,10 +14,11 @@ P^{n}(X_{1}^{n})=\prod_{i=1}^{n}P(X_{i}) \\
 -\frac{1}{n}\log P^{n}(X_{1}^{n}) = -\frac{1}{n}\sum_{i=1}^{n} \log P(X_{i})
 \end{gather}
 $$
-Set $Y_{i}=-\log P(X_{i})$ 
+Set $I_{i}=-\log P(X_{i})$, the [[Information Content]] of $X_{i}$
 and use [[Weak Law of Large Numbers]] for $n\to \infty$
 to find:
 $$
 \frac{ 1 }{ n } \sum_{i=1}^{n} Y_{i} \xrightarrow{p} \mathbb{E}(Y_{i}) = H(X_{1})
 $$
-Hence $\{ X_{n} \}$ satisfies [[Asymptotic Equipartition Property]] with entropy $H(X_{1})$
+Hence $\{ X_{n} \}$ satisfies [[Asymptotic Equipartition Property]] 
+with entropy $H(X_{1})$
