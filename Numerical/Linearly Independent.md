@@ -5,4 +5,4 @@ $$
 \lambda_{1}v_{1} + \lambda_{2}v_{2} + \dots + \lambda_{n}v_{n}=0 \implies \lambda_{1}=\lambda_{2}=\dots=\lambda_{n}=0
 $$
 for all $\lambda_{1},\dots,\lambda_{n}\in F$.
-In other words, no nontrivial [[Linear Combination]] is $0$
+In other words, no nontrivial [[Linear Combination]] of linearly independent vectors is $0$
