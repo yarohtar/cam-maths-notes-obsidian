@@ -1,17 +1,30 @@
-In general, linear programs are problems of the following form:
-Minimize $c^Tx$ subject to $Ax\leq b$.
+Let $M_{1},M_{2},M_{3},N_{1},N_{2}\subseteq \mathbb{N}$ be finite sets of indices.
+Let $a_{i}\in \mathbb{R}^{n}$ for $i\in M_{1}\cup M_{2}\cup M_{3}$
+and let $b_{i}\in \mathbb{R}$
+Minimize $c^Tx$ subject to:
+$a_i^Tx\leq b_i$ for $i\in M_1$
+$a_i^Tx\geq b_i$ for $i\in M_2$
+$a_i^Tx= b_i$ for $i\in M_3$
+$x_j\geq 0$ for $j\in N_1$
+$x_j\leq 0$ for $j\in N_2$
+
+Let $A$ be a $\mathbb{R}^{m\times n}$ matrix.
+Let $b\in \mathbb{R}^{m}$ and $c\in \mathbb{R}^{n}$ be vectors
+The linear program takes the following general form:
+" Minimize $c^Tx$ over $x\in \mathbb{R}^{n}$ subject to $Ax\leq b$. "
+
 There are other equivalent forms they can take:
 [[Forms of linear programs]]
 ## Solving the linear program
 
-[[Maximum of convex function]] is always at an [[Extreme point of convex set|extreme point]] (of domain).
+[[Maximum of convex function]] is always at an [[Extreme Point]] (of domain).
 
 So if we found all extreme points and evaluated the function there, 
 we should have our solution.
 
 Consider a Linear program in standard form:
 minimize $c^Tx$ such that $Ax=b$ and $x\geq 0$ 
-where $A\in R^{m\times n}$ and $x\in R^n$.
+where $A\in \mathbb{R}^{m\times n}$ and $x\in \mathbb{R}^n$.
 
 We shall use a few assumptions:
 - Assumption A: The rows of $A$ are linearly independent.

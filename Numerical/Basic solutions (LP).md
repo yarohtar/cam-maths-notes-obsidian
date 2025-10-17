@@ -5,7 +5,7 @@ Let $A$ be a $m\times n$ matrix. A point $x$ such that $Ax=b$ is called basic so
 A basic feasible solution (BFS) is a basic solution $x$ such that $x\geq 0$.
 
 ### Theorem
-A point $x$ is an [[Extreme point of convex set|extreme point]] of $\{x| Ax=b, x\geq 0\}$ if and only if $x$ is a BFS.
+A point $x$ is an [[Extreme Point|extreme point]] of $\{x| Ax=b, x\geq 0\}$ if and only if $x$ is a BFS.
 #### Proof
 Let $x$ be a BFS and suppose $x=\delta y + (1-\delta)z$, $y\neq z$ and $y,z$ feasible.
 If $x_i=0$, then $y_i=z_i=0$, so both $y$ and $z$ are BFS corresponding to the same $B$ as $x$ so $y=z=x$. Hence $x$ has to be an extreme point.
