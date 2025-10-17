@@ -3,7 +3,7 @@ Have the problem:
 Minimize $(c^T\quad 0^T)x$ s.t. $(A\quad I)x=b$ and $x\geq 0$.
 where $I$ is $m\times m$ identity matrix, and $b\geq 0$.
 
-Hence try a [[Basic solutions (LP)|BFS]] $x^T=(0^T\quad b^T)$ 
+Hence try a [[Basic Solution|BFS]] $x^T=(0^T\quad b^T)$ 
 (which of course has exactly $m$ nonzero indices)
 Now apply [[Optimality conditions in LPs#Optimality condition|the optimality condition]], 
 noting that (in that notation) $c_B=0$ (and $B=I$), 
@@ -29,7 +29,7 @@ First consider the problem of minimizing $\sum_i y_i$ s.t. $Ax+y=b$, with $x,\ y
 Now this is of the form $(A\quad I)y=b$, 
 so we can apply the [[Simplex method#Simplex algorithm|simplex algorithm]]. 
 This *has to* terminate at a solution $(x_0^T\quad 0^T)$ if the original problem is feasible. 
-But now $x_0$ is a [[Basic solutions (LP)|BFS]] of the original problem. 
+But now $x_0$ is a [[Basic Solution|BFS]] of the original problem. 
 Now, given that we also tracked the $c^Tx$ function in this algorithm, 
 we are sure to have a good setup for Phase 2.
 ### Phase 2
