@@ -20,21 +20,46 @@ There are other equivalent forms they can take:
 ## Theorem
 Suppose the set of feasible values $X$ is nonempty,
 i.e. there is some $x\in \mathbb{R}^{n}$ satisfying the constraints.
-Then there exists an algorithm that finds the optimal solution to the linear problem,
+Then there exists an algorithm that finds the optimal solution(s) to the linear problem,
 and this algorithm always terminates.
 ### Proof
-[[Maximum of convex function]] is always at an [[Extreme Point]] (of domain).
+[[Extrema of a Convex Function]] is always at an [[Extreme Point]] (of domain).
 So we need to find all [[Extreme Point]]s and evaluate the function there.
+Using [[Basic Feasible Solution#Theorem]], 
+this becomes the problem of finding all [[Basic Feasible Solution]]s
 
-Consider a Linear program in standard form:
-" Minimize $c^Tx$ such that $Ax=b$ and $x\geq 0$ "
-where $A\in \mathbb{R}^{m\times n}$ and $x\in \mathbb{R}^n$.
+Consider a Linear program in the standard form:
+" Minimize $c^Tx$ over $x\in \mathbb{R}^{n}$ subject to $Ax=b$ and $x\geq 0$ "
+where $A\in \mathbb{R}^{m\times n}$, $c\in \mathbb{R}^{n}$ and $b\in \mathbb{R}^{m}$.
 
-We shall use a few assumptions:
-- Assumption A: The rows of $A$ are linearly independent.
-- Assumption B: Every set of $m$ columns of $A$ are linearly independent.
-- Assumption C: All feasible [[Basic Solution|basic solutions]] are non-degenerable 
-  i.e. they have exactly $m$ non-zero entries.
+We may assume that rows of $A$ are [[Linearly Independent]]
+(due to existence of $x$ such that $Ax=b$, 
+we can just remove some rows without changing the problem)
+
+For a set $B\subseteq[n]$ we denote by $A_{B}$ the $m\times \lvert B \rvert$ submatrix of $A$
+obtained by taking $i$-th columns of $A$ for $i\in B$.
+
+Now onto the algorithm:
+1. Let $B\subseteq[n]$ with $A_{B}$ having linearly independent columns 
+   (note $\lvert B \rvert\leq m$, and there is only finitely many of them)
+2. Let $A'$ be a $\lvert B \rvert \times \lvert B \rvert$ invertible submatrix of $A_{B}$,
+   found by removing some rows
+3. Set $x_{B}=A'^{-1}b_{B}$ and $x_{i}=0$ for $i\not\in B$
+4. Then $x_{B}$ is a [[Basic Solution]] to $Ax=b$
+5. If $x\geq 0$, then $x$ is a [[Basic Feasible Solution]]
+   and we note down $x$ with the associated cost $c^{T}x$
+6. Go back to step 1. until we have tried all possible $B$, 
+   otherwise proceed to
+7. We filter out the minimums from our noted down values.
+
+By using [[Basic Solution#Lemma]] 
+we know that each $B$ (as defined in Step 1.)
+will give us the unique [[Basic Solution]] $x$ with support $B$
+By definition of [[Basic Solution]]s, we also know that this covers *all* of them.
+
+Finally, by [[Basic Feasible Solution#Theorem]],
+we know that we have actually covered exactly the set of [[Extreme Point]]s,
+and by [[Extrema of a Convex Function]] we are done.
 
 Select $B(1),\dots B(m)$, the non-zero entries in $x$ (do this in $n \choose m$ ways).
 Set $B=[A_{B(1)} \dots A_{B(m)}]$, an $m\times m$ matrix taking columns of $A$
