@@ -1,7 +1,7 @@
 [[Convex optimisation]]
 [[Lagrange multipliers]]
 [[The Necessity Theorem]]
-[[Dual Problem]]
+[[Duality in Optimisation Problems]]
 [[Economist perspective]] (not important tbh)
 [[Barrier method]]
 [[Linear programs]]

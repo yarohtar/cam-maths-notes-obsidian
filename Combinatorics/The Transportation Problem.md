@@ -16,7 +16,7 @@ Firstly, find any feasible $x_{ij}$
 This will give $n+m-1$ equations of form $c_{ij}=\lambda_i+\mu_j$. 
 Solve them (taking $\lambda_1=0$ for example). 
 If now $c_{ij}\leq \lambda_i+\mu_j$ for all $i,j$, we are done 
-because we have a feasible [[Dual Problem]] and [[Complimentary slackness]]
+because we have a feasible [[Duality in Optimisation Problems]] and [[Complimentary slackness]]
 ([[Optimality conditions in LPs]]). 
 Otherwise, find the largest $c_{ij}-\lambda_i-\mu_j>0$ 
 Change $x_{ij}$ to $x_{ij}+\epsilon$ while also redistributing the values in the initial flow (by $\pm\epsilon$ each) 
