@@ -1,8 +1,5 @@
-## Real sequences
-### Theorem
-Let $x_n$ be a bounded real sequence. 
+Let $x_n$ be a [[Bounded]] real sequence. 
 Then $x_n$ contains a convergent subsequence.
-
 #### Proof
 By considering half intervals. 
 Alternatively, can use increasing bounded sequence converges property.

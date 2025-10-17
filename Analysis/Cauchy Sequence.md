@@ -8,12 +8,16 @@ $$
 ### Lemma
 Every [[Convergence|convergent]] sequence is Cauchy.
 ### Lemma
-
+Every Cauchy sequence is [[Bounded]].
 
 ## Theorem
 A real sequence $x_n\in \mathbb{R}$ is convergent 
 if and only if
 $x_{n}$ is Cauchy.
+This easily extends to sequences in $\mathbb{R}^{n}$
 ### Proof
-We only need one direction.
-and then use [[Boltzano-Weierstrass theorem#Real sequences]]
+We only need to show one direction.
+Assume $x_{n}$ is Cauchy.
+Because $x_{n}$ is [[Bounded]], we can use [[Boltzano-Weierstrass Theorem]]
+to find some $S\subseteq \mathbb{N}$ and $\{ x_{n} \}_{n\in S}$ that converges.
+But then by the Cauchy condition, we can find that $\{ x_{n} \}_{n\in \mathbb{N}}$ converges.

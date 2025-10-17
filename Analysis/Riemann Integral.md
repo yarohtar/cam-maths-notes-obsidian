@@ -11,20 +11,22 @@ Additionally, define:
 $$
 \int_{b}^{a} f = -I
 $$
-If the domain $U$ contains $(N, \infty)$ for some $N$, 
-define for all $a>N$:
+
+## Improper integrals
+If the domain $U$ contains $[N, b)$ for some $N\in \mathbb{R}$ and $b\in(N,\infty]\setminus U$
+(note the inclusion of $b=\infty$)
+define for all $a\geq N$:
 $$
-\int_{a}^{\infty} f = \lim_{x \to \infty} \int_{a}^{x} f
-$$
-$$
-\int_{\infty}^{a} f = - \lim_{x \to \infty} \int _{a}^{x} f
+\int_{a}^{b} f = \lim_{x \to b} \int_{a}^{x} f
 $$
 if the limit exists.
-Similarly for $-\infty$.
+we do a similar thing for $(a,N]\subseteq U$ and $a\in[-\infty,N)\setminus U$
 
-If the domain $U=\mathbb{R}$, 
-and both $\int_{0}^{\infty}f$ and $\int_{-\infty}^{0}f$ exist
-then define:
+If both $(a,b)\subseteq U$ and $a,b\not\in U$ (where $a<b$) 
+let $c\in(a,b)$ and define:
 $$
-\int_{-\infty}^{\infty} f = \int_{-\infty}^{0}f + \int_{0}^{\infty} f
+\int_{a}^{b} f = \int_{a}^{c}f + \int_{c}^{b}f
 $$
+(if $\int_{a}^{c}f$ and $\int_{c}^{b}f$ exist as improper integrals for all $c\in(a,b)$)
+It can be shown that this is well defined 
+i.e. the result doesn't depend on $c$.
