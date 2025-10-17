@@ -4,4 +4,4 @@ The [[Support]] of $x$ is:
 $$
 B=\{ i\in[n] : x_{i}\neq 0 \}
 $$
-We say that $x$ is a basic solution whenever $\lvert B \rvert\leq m$
+we say $x$ is a basic solution if the columns of $A_{B}$ are [[Linearly Independent]]

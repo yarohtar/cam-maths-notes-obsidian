@@ -9,7 +9,8 @@ Let $y$ be a BFS to $Ay=b$ with [[Support]] $B'\subseteq B$
 Then $x=y$.
 #### Proof
 Let $A'$ be an $m\times \lvert B \rvert$ matrix, 
-taking $i$-th columns of $A$ for each $i\in B$
+taking $i$-th columns of $A$ for each $i\in B$.
+
 ## Theorem
 Let $S$ be the convex set:
 $$
