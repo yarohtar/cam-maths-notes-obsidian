@@ -35,5 +35,5 @@ A subset of $X$ is closed if its complement is open.
 
 ## More stuff
 [[Connectedness]]
-[[Compactness]]
-[[Sequential compactness]]
+[[Compact]]
+[[Sequentially compact]]

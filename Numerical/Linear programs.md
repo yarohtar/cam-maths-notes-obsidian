@@ -23,7 +23,7 @@ i.e. there is some $x\in \mathbb{R}^{n}$ satisfying the constraints.
 Then there exists an algorithm that finds the optimal solution(s) to the linear problem,
 and this algorithm always terminates.
 ### Proof
-[[Extrema of a Convex Function]] is always at an [[Extreme Point]] (of domain).
+[[Maximum of a Convex Function]] is always at an [[Extreme Point]] (of domain).
 So we need to find all [[Extreme Point]]s and evaluate the function there.
 Using [[Basic Feasible Solution#Theorem]], 
 this becomes the problem of finding all [[Basic Feasible Solution]]s
@@ -59,7 +59,7 @@ By definition of [[Basic Solution]]s, we also know that this covers *all* of the
 
 Finally, by [[Basic Feasible Solution#Theorem]],
 we know that we have actually covered exactly the set of [[Extreme Point]]s,
-and by [[Extrema of a Convex Function]] we are done.
+and by [[Maximum of a Convex Function]] we are done.
 
 Select $B(1),\dots B(m)$, the non-zero entries in $x$ (do this in $n \choose m$ ways).
 Set $B=[A_{B(1)} \dots A_{B(m)}]$, an $m\times m$ matrix taking columns of $A$

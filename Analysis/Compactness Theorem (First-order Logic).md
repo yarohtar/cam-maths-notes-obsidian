@@ -13,7 +13,7 @@ $S=T\cup \{ \neg t_{1},\neg t_{2},\dots \}$
 where 
 $t_{n}=(\exists x_{1})\dots(\exists x_{n})(\forall x)(x=x_{1}\lor\dots \lor x=x_{n})$
 Any finite subset of $S$ has a model, eg the cyclic $C_{n}$ for $n$ sufficiently large
-By [[Compactness]] $S$ has a model.
+By [[Compact]] $S$ has a model.
 
 ### Corollary
 If a first order theory $T$ has arbitrarily large finite models, then it has an infinite model.

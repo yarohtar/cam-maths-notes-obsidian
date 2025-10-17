@@ -1,4 +1,4 @@
-Let $K$ be a [[Compactness|compact]] [[Hausdorff]] space. 
+Let $K$ be a [[Compact|compact]] [[Hausdorff]] space. 
 Then $K$ is [[Normal space]].
 
 ### Proof
