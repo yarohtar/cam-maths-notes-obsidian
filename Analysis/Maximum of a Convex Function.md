@@ -14,4 +14,4 @@ As $f$ is a [[Convex Function]], $U$ is a [[Convex Set]].
 Suppose $U$ contains all [[Extreme Point]]s of $S$ 
 
 TODO
-Somewhere here, there is a proof that $U=S$ but I can't find it rn.
+Somewhere here, there is a proof that $U=S$, but I can't find it rn.

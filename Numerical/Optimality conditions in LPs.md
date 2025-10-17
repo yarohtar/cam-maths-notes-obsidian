@@ -1,3 +1,6 @@
+
+To improve, we need a condition similar to [[First-order condition]]
+
 [[Strong duality in linear programs]]
 
 ### Theorem

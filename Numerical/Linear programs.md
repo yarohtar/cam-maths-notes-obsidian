@@ -61,18 +61,6 @@ Finally, by [[Basic Feasible Solution#Theorem]],
 we know that we have actually covered exactly the set of [[Extreme Point]]s,
 and by [[Maximum of a Convex Function]] we are done.
 
-Select $B(1),\dots B(m)$, the non-zero entries in $x$ (do this in $n \choose m$ ways).
-Set $B=[A_{B(1)} \dots A_{B(m)}]$, an $m\times m$ matrix taking columns of $A$
-Now take $x_B=B^{-1}b$.
-Construct a basic solution from $x_B$ by adding $0$s.
-
-Now using [[Basic Solution#Theorem|BFS theorem]] we get the following algorithm:
-1. Check all $n\choose m$ basic solutions
-2. Filter out BFSs
-3. Evaluate $c^Tx$ on the BFSs and output the best.
-
-This is too slow!
-To improve, we need a condition similar to [[First-order condition]]
 
 [[Optimality conditions in LPs]]
 
