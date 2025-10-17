@@ -1,1 +1,2 @@
-The [[Category]] of [[Topological space]] and continuous maps denoted by $\mathrm{Top}$
+The [[Category]] of [[Topological space]]s and [[Continuous]] maps between them
+denoted by $\mathrm{Top}$

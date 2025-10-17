@@ -1,2 +1,2 @@
-The [[Category]] of topological groups and continuous homomorphisms 
+The [[Category]] of topological groups and [[Continuous]] homomorphisms 
 denoted by $\mathrm{TopGp}$

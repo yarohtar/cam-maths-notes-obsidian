@@ -5,7 +5,7 @@ P^{n}(x_{1}^{n})=\mathbb{P}(X_{1}^{n}=x_{1}^{n})
 $$
 for all $x_{1}^{n}\in A^{n}$.
 (using notation $X_{1}^{n}=(X_{1},\dots,X_{n})$)
-Then $\{ X_{n} \}$ satisfies AEP with entropy $H\geq 0$ if:
+Then we say that $\{ X_{n} \}$ satisfies AEP with entropy $H\geq 0$ if:
 $$
 -\frac{1}{n}\log P^n(X_{1}^{n}) \xrightarrow{p} H \quad %quad
 \text{as }n\to \infty
