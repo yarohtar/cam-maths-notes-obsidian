@@ -2,7 +2,8 @@ $X$ is compact if every open cover of $X$ has a finite subcover.
 
 [[Compact-closed]]
 ### Theorem
-If $X\neq\emptyset$ is compact and $f:X\to\mathbb R$ is continuous then $f$ is bounded and attains its bound.
+If $X\neq\emptyset$ is compact and $f:X\to\mathbb R$ is [[Continuous]] 
+then $f$ is [[Bounded]] and attains its bound.
 #### Proof sketch
 Consider $\{f^{-1}((f(x)-1,f(x)+1)):x\in X\}$, a cover of $X$. 
 It has a finite subcover, 
