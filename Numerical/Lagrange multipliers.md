@@ -23,7 +23,7 @@ $$
 5. Now find $x^*(\lambda)\in X$ and $z^*(\lambda)\geq 0$ 
    which minimize $L$ for every $\lambda\in\Lambda$
 6. Note that $\lambda^Tz^*(\lambda)=0$, 
-   this is called [[Complimentary slackness]]
+   this is called [[Complimentary Slackness]]
 7. Hence, determine $\lambda^*$ such that $x^*(\lambda ^{*})$ and $z^*(\lambda ^{*})$ are feasible 
    (this might FAIL in which case the method doesn't work)
 8. Use [[Lagrange sufficiency theorem]] to finalize.

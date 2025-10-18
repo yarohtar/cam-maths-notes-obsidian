@@ -20,7 +20,7 @@ We saw this happen in [[Supporting hyperplane#Theorem (Gradient)]]
 
 Note that if $h_j(x)<b_j$, 
 then we are not willing to pay anything for that material. 
-This corresponds to the [[Complimentary slackness]].
+This corresponds to the [[Complimentary Slackness]].
 
 When someone is selling us the materials at price $\lambda$, 
 and wants to buy the products later, 

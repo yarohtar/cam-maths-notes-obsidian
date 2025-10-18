@@ -29,9 +29,9 @@ and let $\lambda$ be dual feasible
 
 Then $x$ and $\lambda$ are optimal 
 if and only if 
-[[Complimentary slackness]] holds.
+[[Complimentary Slackness]] holds.
 ### Proof
-[[Complimentary slackness]] is equivalent to:
+[[Complimentary Slackness]] is equivalent to:
 $$
 (c^T-\lambda^TA)x=0
 $$
@@ -42,7 +42,7 @@ $$
 c^{T}x-\lambda^{T}b=0
 $$
 Then substitute $b=Ax$ to find $(c^{T}-\lambda^{T}A)x=0$ 
-Hence [[Complimentary slackness]] holds.
+Hence [[Complimentary Slackness]] holds.
 #### $\impliedby$
 Let $x$ be primal feasible, and $\lambda$ dual feasible
 and suppose $(c^{T}-\lambda^{T}A)x=0$

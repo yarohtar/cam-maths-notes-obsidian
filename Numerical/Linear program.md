@@ -18,7 +18,7 @@ for some $X\subseteq \mathbb{R}^{n}$ that's defined by some linear constraints.
 There are other equivalent forms they can take:
 [[Forms of linear programs]]
 ## Lemma
-Suppose $x\in X$ is optimal.
+Suppose $x\in X$ is optimal for an LP.
 Then $x$ is a [[Basic Feasible Solution]].
 ### Proof
 [[Maximum of a Convex Function]] is always at an [[Extreme Point]] (of domain).
@@ -58,9 +58,4 @@ By using [[Basic Solution#Lemma]]
 we know that each $B$ (as defined in Step 1.)
 will give us the unique [[Basic Solution]] $x$ with support $B$
 By definition of [[Basic Solution]]s, we also know that this covers *all* of them.
-
-Finally, by [[Basic Feasible Solution#Theorem]],
-we know that we have actually covered exactly the set of [[Extreme Point]]s,
-and by [[Maximum of a Convex Function]] we are done.
-
 

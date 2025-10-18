@@ -43,5 +43,5 @@ Now for $\lambda$ and $\mu$ feasible:
 Now pick an optimal solution $x$, and pick:
 $$\lambda_i=\begin{cases}1&i\in S\\0&i\in\overline S\end{cases}\quad\quad\quad\mu_{ij}=\begin{cases}1&i\in S\text{ and } j\in\overline S\\0&\text{otherwise}\end{cases}$$
 (using notation from [[The max-flow min-cut Theorem]])
-One can check that [[Complimentary slackness]] holds, 
+One can check that [[Complimentary Slackness]] holds, 
 hence the dual of max-flow problem is indeed the min-cut problem.

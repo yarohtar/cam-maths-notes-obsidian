@@ -28,7 +28,7 @@ Suppose we have optimal strategies $p$ and $q$.
 Complementary slackness for $p$ gives:
 $$q^TA^Tp-we^Tp=0,\quad\text{i.e.}\quad q^TA^Tp=w$$
 Also in an optimal strategy $w=v$ (by [[Strong Duality]]). 
-Hence, using [[Optimality condition in Linear Programming|optimality conditions]] we arrive at the following theorem:
+Hence, using [[Optimality Condition in Linear Programming|optimality conditions]] we arrive at the following theorem:
 ## Theorem
 Suppose $p$ and $q$ are strategies for Player1 and Player2 respectively, 
 and $v$ is a value satisfying:
