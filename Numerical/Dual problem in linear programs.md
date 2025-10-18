@@ -1,5 +1,6 @@
 Consider the primal problem:
-" Minimize $c^Tx$ s.t. $Ax=b$ $x\geq 0$ "
+" Minimize $c^Tx$ over $x\geq 0$ subject to $Ax=b$ "
+where $x,c\in \mathbb{R}^{n}$, $b\in \mathbb{R}^{m}$ and $A$ is an $m\times n$ matrix.
 Now the [[Numerical/Lagrangian|Lagrangian]] is:
 $$
 L(x,\lambda)=c^Tx-\lambda^T(Ax-b)=(c^T-\lambda^TA)x+\lambda^T b
@@ -14,6 +15,7 @@ h(\lambda)=\inf_{x\geq 0}(c^T-\lambda^TA)x+\lambda^Tb=\lambda^Tb
 $$
 So the dual problem is:
 " Maximize $\lambda^Tb$ over $\lambda$ subject to $\lambda^TA\leq c^T$ "
+where $\lambda \in \mathbb{R}^{m}$.
 
 Note that this is a [[Linear Program]] in [[Forms of linear programs#General form|General Form]].
 

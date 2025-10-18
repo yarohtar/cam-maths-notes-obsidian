@@ -1,11 +1,14 @@
 Consider a [[Linear Program]] in the standard form:
 " Minimize $c^Tx$ over $x\in \mathbb{R}^{n}$ subject to $Ax=b$ and $x\geq 0$ "
 where $A\in \mathbb{R}^{m\times n}$, $c\in \mathbb{R}^{n}$ and $b\in \mathbb{R}^{m}$.
-Suppose $x$ is a [[Basic Feasible Solution]] with support $B\subseteq[n]$
+Suppose $x$ is a [[Basic Feasible Solution]] with [[Support]] $B\subseteq[n]$
+Then $x$ is optimal
+if and only if
+$$
+c - A^{T}\lambda \geq 0
+$$
+where $A_{B}$ is $m\times \lvert B \rvert$ matrix 
 Suppose that 
-$$
-x^{T}-(x^{T}_{B}A_{B})A \geq 0
-$$
 Then $x$ is optimal.
 Moreover, we can find $\lambda=(A_{B}^{T})^{-1}x_{B}$
 optimal for the [[Dual Problem]].
