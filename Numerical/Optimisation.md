@@ -1,11 +1,12 @@
 [[Convex optimisation]]
+[[Barrier method]]
 [[Lagrange multipliers]]
 [[The Necessity Theorem]]
-[[Duality in Optimisation Problems]]
-[[Economist perspective]] (not important tbh)
-[[Barrier method]]
-[[Linear program]]
-[[Optimality conditions in LPs]]
+[[Dual Problem]]
+[[Complimentary slackness]] (the most important)
+[[Economist perspective]] (not important)
+[[Linear Program]]
+[[Optimality condition in Linear Programming]]
 [[Simplex method]]
 [[Two-person Zero-sum Games]]
 [[The Maximal Flow Problem]]

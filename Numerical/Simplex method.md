@@ -5,7 +5,7 @@ where $I$ is $m\times m$ identity matrix, and $b\geq 0$.
 
 Hence try a [[Basic Solution|BFS]] $x^T=(0^T\quad b^T)$ 
 (which of course has exactly $m$ nonzero indices)
-Now apply [[Optimality conditions in LPs#Optimality condition|the optimality condition]], 
+Now apply [[Optimality condition in Linear Programming#Optimality condition|the optimality condition]], 
 noting that (in that notation) $c_B=0$ (and $B=I$), 
 hence we only need to check $c\geq 0$. 
 If so, we are done.

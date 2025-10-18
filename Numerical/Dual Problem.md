@@ -13,4 +13,3 @@ where $\Lambda$ is the set of [[Feasible Lagrange Multipliers]]
 
 [[Weak Duality]]
 [[Strong Duality]]
-[[Complimentary slackness]]

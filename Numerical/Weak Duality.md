@@ -1,6 +1,6 @@
 Given a problem 
 " Minimize $f(x)$ subject to $g(x)=b$ "
-and its [[Duality in Optimisation Problems]]
+and its [[Dual Problem]]
 " Maximize $h(\lambda)=\inf_{x\in X}L(x,\lambda)$ subject to $\lambda \in \Lambda$ "
 where $L$ is the [[Numerical/Lagrangian|Lagrangian]] 
 and $\Lambda$ is the set of [[Feasible Lagrange Multipliers]]

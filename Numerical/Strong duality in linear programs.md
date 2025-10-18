@@ -1,4 +1,4 @@
-### Theorem
-If a linear program is feasible and bounded, then strong duality holds.
+If a [[Linear Program]] is feasible and bounded, 
+then [[Strong Duality]] holds.
 #### Proof
 Example sheet 1, problem 4

@@ -1,9 +1,3 @@
-
-To improve, we need a condition similar to [[First-order condition]]
-
-[[Strong duality in linear programs]]
-
-### Theorem
 Let $x$ be primal feasible,
 $\lambda$ be dual feasible
 and suppose [[Complimentary slackness]] holds. 
@@ -30,6 +24,8 @@ s.t. $\lambda^TA\leq c^T$
 ```
 ````
 
+[[Strong duality in linear programs]]
+
 [[Complimentary slackness]] means that
 $$(c^T-\lambda^TA)x=0$$
 Let $x$ be primal feasible, and $\lambda$ dual feasible.
@@ -54,4 +50,4 @@ $$B^T\lambda=c_B$$
 $$\lambda=(B^T)^{-1}c_B$$
 So as long as:
 $$(c^T-c_B^TB^{-1}A)\geq 0$$
-we can find such $\lambda$ and hence use [[Optimality conditions in LPs#Theorem|the theorem]] to finish.
+we can find such $\lambda$ and hence use [[Optimality condition in Linear Programming#Theorem|the theorem]] to finish.
