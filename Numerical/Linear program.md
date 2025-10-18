@@ -62,6 +62,3 @@ we know that we have actually covered exactly the set of [[Extreme Point]]s,
 and by [[Maximum of a Convex Function]] we are done.
 
 
-[[Optimality condition in Linear Programming]]
-
-[[Simplex method]]
