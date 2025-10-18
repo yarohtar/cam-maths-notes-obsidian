@@ -1,4 +1,4 @@
-There are two forms we usually consider for [[Linear programs]]
+There are two forms we usually consider for [[Linear program]]
 All these are equivalent (by changing signs, adding slack, etc.)
 ### General form
 " Minimize $c^Tx$ over $x\in \mathbb{R}^{n}$ subject to $Ax\leq b$. "

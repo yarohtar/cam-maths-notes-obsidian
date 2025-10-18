@@ -4,7 +4,7 @@
 [[Duality in Optimisation Problems]]
 [[Economist perspective]] (not important tbh)
 [[Barrier method]]
-[[Linear programs]]
+[[Linear program]]
 [[Optimality conditions in LPs]]
 [[Simplex method]]
 [[Two-person Zero-sum Games]]

@@ -1,8 +1,11 @@
-
+Given a primal problem:
 " Minimize $f(x)$ subject to $g(x)=b$, $x\in X$ "
-Define [[Numerical/Lagrangian|Lagrangian]]:
+Define the [[Numerical/Lagrangian|Lagrangian]]:
 $$
-L(x,b,\lambda)=f(x)-\lambda^T(g(x)-b)
+\begin{align}
+L(x,b,\lambda) & =f(x)-\lambda^T(g(x)-b) \\
+ & =-\lambda^{T} g(x)  + f(x) + \lambda^{T}b
+\end{align}
 $$
 Now we define the dual problem: 
 " Maximize $h(\lambda)=\inf_{x\in X}L(x,\lambda)$ subject to $\lambda\in \Lambda$ "
@@ -10,3 +13,4 @@ where $\Lambda$ is the set of [[Feasible Lagrange Multipliers]]
 
 [[Weak Duality]]
 [[Strong Duality]]
+[[Complimentary slackness]]

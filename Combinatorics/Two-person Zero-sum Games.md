@@ -8,7 +8,7 @@ $$
 the largest possible 
 (where $(A^Tp)_j$ is the expected payoff for Player1 given that Player2 plays $j$).
 
-Introduce $e=(1 \quad \dots \quad1)^T$ and reframe this into a [[Linear programs|linear program]]:
+Introduce $e=(1 \quad \dots \quad1)^T$ and reframe this into a [[Linear program|linear program]]:
 maximise $v$ s.t. $A^Tp\geq ve$, $p\geq 0$, $e^Tp=1$.
 
 The [[Numerical/Lagrangian|Lagrangian]] is 

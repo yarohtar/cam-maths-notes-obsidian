@@ -3,15 +3,20 @@ Minimize $c^Tx$
 s.t. $Ax=b$
 $x\geq 0$
 
-Now $$L(x,\lambda)=c^Tx-\lambda^T(Ax-b)=(c^T-\lambda^TA)x+\lambda^T b$$
-$$\Omega=\{c^T-\lambda^TA\geq 0\}=\{\lambda|\lambda^TA\leq c^T\}$$
-$$g(\lambda)=\inf_{x\geq 0}(c^T-\lambda^TA)x+\lambda^Tb=\lambda^Tb$$
-
+Now 
+$$
+L(x,\lambda)=c^Tx-\lambda^T(Ax-b)=(c^T-\lambda^TA)x+\lambda^T b
+$$
+$$
+\Lambda=\{c^T-\lambda^TA\geq 0\}=\{\lambda|\lambda^TA\leq c^T\}
+$$
+$$
+g(\lambda)=\inf_{x\geq 0}(c^T-\lambda^TA)x+\lambda^Tb=\lambda^Tb
+$$
 So the dual problem is:
-Maximize $\lambda^Tb$
-s.t. $\lambda^TA\leq c^T$
+" Maximize $\lambda^Tb$ over $\lambda \in \Lambda$ subject to $\lambda^TA\leq c^T$ "
 
-Note that this is a linear program in [[Forms of linear programs#General form]].
+Note that this is a [[Linear program]] in [[Forms of linear programs#General form]].
 
 If we try to find the dual problem of the dual problem, 
 we should end up with the primal problem. 
