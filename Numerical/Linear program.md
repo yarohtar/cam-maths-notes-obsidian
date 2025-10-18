@@ -17,17 +17,19 @@ for some $X\subseteq \mathbb{R}^{n}$ that's defined by some linear constraints.
 
 There are other equivalent forms they can take:
 [[Forms of linear programs]]
+## Lemma
+Suppose $x\in X$ is optimal.
+Then $x$ is a [[Basic Feasible Solution]].
+### Proof
+[[Maximum of a Convex Function]] is always at an [[Extreme Point]] (of domain).
+So we need to find all [[Extreme Point]]s and evaluate the function there.
+We are done by [[Basic Feasible Solution#Theorem]].
 ## Theorem
 Suppose the set of feasible values $X$ is nonempty,
 i.e. there is some $x\in \mathbb{R}^{n}$ satisfying the constraints.
 Then there exists an algorithm that finds the optimal solution(s) to the linear problem,
 and this algorithm always terminates.
 ### Proof
-[[Maximum of a Convex Function]] is always at an [[Extreme Point]] (of domain).
-So we need to find all [[Extreme Point]]s and evaluate the function there.
-Using [[Basic Feasible Solution#Theorem]], 
-this becomes the problem of finding all [[Basic Feasible Solution]]s
-
 Consider a Linear program in the standard form:
 " Minimize $c^Tx$ over $x\in \mathbb{R}^{n}$ subject to $Ax=b$ and $x\geq 0$ "
 where $A\in \mathbb{R}^{m\times n}$, $c\in \mathbb{R}^{n}$ and $b\in \mathbb{R}^{m}$.

@@ -7,16 +7,23 @@ if and only if
 $$
 c - A^{T}\lambda \geq 0
 $$
-where $A_{B}$ is $m\times \lvert B \rvert$ matrix 
-Suppose that 
-Then $x$ is optimal.
-Moreover, we can find $\lambda=(A_{B}^{T})^{-1}x_{B}$
-optimal for the [[Dual Problem]].
+for some $\lambda \in \mathbb{R}^{m}$ satisfying $(A_{B}^{T})\lambda=c_{B}$
+where $A_{B}$ is $m\times \lvert B \rvert$ submatrix of $A$
+obtained by taking $i$-th columns of $A$ for all $i\in B$
 
+Moreover, $\lambda$ is then feasible and optimal solution for the [[Dual Problem]].
 ### Proof
-Start from [[Dual problem in Linear Programs]]:
-" Maximize $\lambda^Tb$ over $\lambda \in \mathbb{R}^{m}$ subject to $\lambda \in \Lambda$ "
+Start from the [[Dual problem in Linear Programs]]:
+" Maximize $\lambda^Tb$ over $\lambda \in \mathbb{R}^{m}$ subject to $A^{T}\lambda\leq c$ "
+Note that a feasible $x$ is primal optimal 
+and feasible $\lambda$ is dual optimal
+if and only if 
+[[Complimentary slackness]] holds.
+(due to [[Dual problem in Linear Programs#Lemma]])
 
+Additionally, $x$ is optimal
+if and only if
+$x$ is a [[Basic Feasible Solution]]
 
 Now suppose we can find $\lambda$ s.t.
 - $(c^T-\lambda^TA)_{B(i)}=0$ [[Complimentary slackness]]
