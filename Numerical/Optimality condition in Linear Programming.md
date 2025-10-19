@@ -25,9 +25,10 @@ $$
 Let $b\in \mathbb{R}^{m}$.
 Suppose $f(b)=c^{T}x$ for some [[Basic Feasible Solution]] $x$.
 Suppose $x$ has [[Basis]] $B$ and [[Support]] $S$.
-Let $s \in \mathbb{R}^{m}$ be such that $s_{i}>0$ for all $i\in B\setminus S$
+Let $s \in \mathbb{R}^{n}$ be such that $s_{i}>0$ for all $i\in B\setminus S$
 Then the function $g(t)=f(b+t s)$ is right-continuous at $t=0$.
 #### Proof
+Firstly, let $X(b)$ be the set of [[Basic Feasible Solution]]s 
 By definition of [[Basis]], we have that $A_{B}$ is invertible.
 Thus form the vector $s'\in \mathbb{R}^{n}$ 
 by $s_{B}'=A_{B}^{-1}s$ and $s_{i}'=0$ for $i\not\in B$
@@ -39,16 +40,20 @@ Thus
 $$
 f(b+ts) \leq c^{T}(x+ts')=f(b) + t c^{T}s'
 $$
-Suppose $f(b+ts)<f(b)+tc^{T}s'$ for some $0<t\leq \epsilon$
-and let 
-$$
-t_{1}=\inf \{ t: f(b+ts) < f(b) + tc^{T}s' \}
-$$
+Suppose $f(b+t_{1}s)<f(b)+t_{1}c^{T}s'$ for some $0<t_{1}\leq \epsilon$
 Now let $x_{1}$ be a [[Basic Feasible Solution]] such that:
 $$
 f(b+t_{1}s) = c^{T}x_{1}
 $$
+Define $s_{1}'$ similarly to $s'$ above,
+and note that for small enough $\delta>0$ and all $0\leq k\leq \delta$:
+$$
+f(b+t_{1}s-ks) \leq c^{T}x_{1} - kc^{T}s_{1}' \leq f(b) + c^{T} (ts'-ks_{1}')
+$$
+and on the other side:
+$$
 
+$$
 
 Let $s \in \mathbb{R}^{m}$ and $\epsilon>0$
 Suppose $f(b)=c^{T}x$ for some $x$ such that $Ax=b$.
