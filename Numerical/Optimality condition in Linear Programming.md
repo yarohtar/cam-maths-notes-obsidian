@@ -24,10 +24,32 @@ f(b)=\min \{ c^{T}x : Ax=b,\ x\geq 0 \}
 $$
 Let $b\in \mathbb{R}^{m}$.
 Suppose $f(b)=c^{T}x$ for some [[Basic Feasible Solution]] $x\in \mathbb{R}^{n}$
-Suppose $x$ has [[Basis]] $B$ and [[Support]] $S$.
-Let $s \in \mathbb{R}^{n}$ be such that $s_{i}\geq0$ for all $i\in B\setminus S$
+Suppose $x$ has [[Basis]] $B$.
+Let $s \in \mathbb{R}^{n}$ be such that $s\geq0$ and [[Support]] of $s$ is a subset of $B$.
 Then the function $g(t)=f(b+tAs)$ is right-continuous at $t=0$.
 #### Proof
+For $\epsilon>0$ small enough, define $x:[0,\epsilon]\to \mathbb{R}^{n}$ satisfying:
+- $x(0)=x$
+- $x(t)$ is a [[Basic Feasible Solution]] for $Ax(t)=b+tAs$
+- $f(b+tAs)=c^{T}x(t)$
+Note that $x+ts$ is a [[Basic Feasible Solution]] for $A(x+ts)=b+tAs$
+when $t$ is small enough.
+So $f(b+tAs)$ does achieve its minimum somewhere
+and thus it achieves its minimum at some [[Basic Feasible Solution]].
+
+Now assume that $f(b+tAs)\neq c^{T}(x+ts)$ for all small enough $t$
+Let $B(t)$ be a [[Basis]] for $x(t)$
+There is only $\binom{ n }{ m }$ choices for $B(t)$ 
+so one of them appears infinitely often.
+Denote this [[Basis]] by $B_{\infty}$
+Take a sequence $t_{n}\to 0$
+such that $B_{\infty}$ is the [[Basis]] of $x(t_{n})$
+Then 
+
+
+
+
+
 Let $t>0$ be small and $x(t)$ a [[Basic Feasible Solution]] for $Ax(t)=b+tAs$
 such that $f(b+tAs)=c^{T}x(t)$.
 Note that this is always defined for small $t$
