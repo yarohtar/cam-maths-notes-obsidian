@@ -14,43 +14,43 @@ https://yarohtar.github.io/maths-notes/
 
 # Courses that exist currently
 ## Part IA
-- [[Group]] (taken from [[Groups, Rings and Modules]])
-- [[Probability]] (taken from [[Probability and Measure]])
-- [[Vector Space]]
+[[Group]] (taken from [[Groups, Rings and Modules]])
+[[Probability]] (taken from [[Probability and Measure]])
+[[Vector Space]]
 ## Part IB
-- Some of [[Methods]]
-- [[Optimisation]]
-- [[Variational principles]]
-- [[Analysis and Topology]]
-- [[Quantum mechanics]]
-- [[Groups, Rings and Modules]] (only [[Group]] and [[Algebra/Ring Theory/Ring]])
-- [[Numerical Analysis]]
-- [[Complex Methods]]
+Some of [[Methods]]
+[[Optimisation]]
+[[Variational principles]]
+[[Analysis and Topology]]
+[[Quantum mechanics]]
+[[Groups, Rings and Modules]] (only [[Group]] and [[Algebra/Ring Theory/Ring]])
+[[Numerical Analysis]]
+[[Complex Methods]]
 
 Also useful: [[Last minute revision Part IB]]
 
 ## Part II
-- Some of [[Algebraic Topology]]
-- [[Linear Analysis]]
-- [[Numerical Analysis]]
-- [[Asymptotic methods]]
-- [[Automata and formal languages]]
-- Some of [[Principles of Quantum Mechanics]]
-- [[Probability and Measure]] (mostly just measure)
-- Some of [[Number theory]]
-- Some of [[Graph Theory]]
-- [[Coding and Cryptography]]
-- [[Logic and Set Theory]]
-- Some of [[Integrable systems]]
-- [[Quantum Information and Computing]]
+Some of [[Algebraic Topology]]
+[[Linear Analysis]]
+[[Numerical Analysis]]
+[[Asymptotic methods]]
+[[Automata and formal languages]]
+Some of [[Principles of Quantum Mechanics]]
+[[Probability and Measure]] (mostly just measure)
+Some of [[Number theory]]
+Some of [[Graph Theory]]
+[[Coding and Cryptography]]
+[[Logic and Set Theory]]
+Some of [[Integrable systems]]
+[[Quantum Information and Computing]]
 
 [[Last Minute Revision Part II]]
 
 ## Part III
-- [[Quantum Information]]
-- [[Algebraic Methods in Combinatorics]]
-- [[Category Theory]]
-- [[Information Theory]]
+[[Quantum Information]]
+[[Algebraic Methods in Combinatorics]]
+[[Category Theory]]
+[[Information Theory]]
 
 # How to download (works on phones and computers)
 ## Step 1
