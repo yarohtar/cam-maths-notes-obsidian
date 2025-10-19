@@ -23,7 +23,7 @@ $$
 f(b)=\min \{ c^{T}x : Ax=b,\ x\geq 0 \}
 $$
 Let $b\in \mathbb{R}^{m}$.
-Suppose $f(b)=c^{T}x$ for some [[Basic Feasible Solution]] $x$.
+Suppose $f(b)=c^{T}x$ for some [[Basic Feasible Solution]] $x\in \mathbb{R}^{n}$
 Suppose $x$ has [[Basis]] $B$ and [[Support]] $S$.
 Let $s \in \mathbb{R}^{n}$ be such that $s_{i}\geq0$ for all $i\in B\setminus S$
 Then the function $g(t)=f(b+tAs)$ is right-continuous at $t=0$.
@@ -36,8 +36,24 @@ $$
 A(x+ts)=b+tAs
 $$
 so $f(b+tAs)$ does achieve its minimum somewhere 
-and thus it achieves it at some [[Basic Feasible Solution]]
-If for all small enough $t>0$ we have $x(t)=x+ts$ then we are done.
+and thus it achieves it at some [[Basic Feasible Solution]].
+If for all small enough $t>0$ we have $c^{T}x(t)=c^{T}(x+ts)$ then we are done.
+Assume otherwise, and take the infinite sequence $t_{n}\to0$
+such that $c^{T}x(t_{n})<c^{T}( x+t_{n}s)$.
+Define $x_{n}=x(t_{n})$
+
+If for any $n$ we had $x(t_{n})-t_{n}s\geq 0$ 
+then we would find 
+$$
+f(b)\leq c^{T}x(t_{n})-t_{n}c^{T}s<c^{T}x
+$$
+which is a contradiction.
+Thus for every $n$ there is some index $i_n$ such that
+$$
+x(t_{n})_{i_{n}} - t_{n} s_{i_{n}} <0
+$$
+But as we know $x(t_{n})\geq 0$ and $t_{n}\to 0$
+it has to be that for large $n$ we have 
 
 
 
