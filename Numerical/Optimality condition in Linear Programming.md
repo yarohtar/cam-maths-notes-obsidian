@@ -38,21 +38,6 @@ $$
 so $f(b+tAs)$ does achieve its minimum somewhere 
 and thus it achieves it at some [[Basic Feasible Solution]].
 If for all small enough $t>0$ we have $c^{T}x(t)=c^{T}(x+ts)$ then we are done.
-Assume otherwise, and take the infinite sequence $t_{n}\to0$
-such that $c^{T}x(t_{n})<c^{T}( x+t_{n}s)$.
-
-Now construct sequences $y_{n}(i)$ recursively for $i=0,1,\dots$
-Set $y_{n}(0)=x(t_{n})_{i}$.
-For $i>0$ we have two cases:
-1. $y_{n}(i-1)$ is unbounded as $n\to \infty$ and there is no bounded subsequence.
-   Set $y_{n}(i)=y_{n}(i-1)$
-2. $y_{n}(i-1)$ has a bounded subsequence.
-   Then by [[Boltzano-Weierstrass Theorem]] 
-   it has a convergent subsequence.
-   Set $y_{n}(i)$ to be that convergent subsequence.
-
-
-If $x_{n}$ is bounded, 
 If for any $n$ we had $x(t_{n})-t_{n}s\geq 0$ 
 then we would find 
 $$
