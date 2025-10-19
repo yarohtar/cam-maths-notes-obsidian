@@ -7,8 +7,8 @@ The basis of $x$ is a set $B\subseteq[n]$ such that:
 where $A_{B}$ is the $m\times m$ submatrix of $A$ 
 formed by taking $i$-th column of $A$ when $i\in B$
 ## Lemma
-Suppose $x$ and $y$ are [[Basic Solution]]s to $Ax=b$
-with the same [[Basis]].
+Suppose $x$ is a [[Basic Solution]] to $Ax=b$ with Basis $B$
+and suppose $y$ is a [[Basic Solution]] to $Ax=b$ with [[Support]] $S\subseteq B$.
 Then $x=y$.
 ### Proof
 Suppose $x$ and $y$ have basis $B$ and [[Support]]s $S_{x}$ and $S_{y}$ respectively.
