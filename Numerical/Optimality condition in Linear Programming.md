@@ -25,9 +25,22 @@ $$
 Let $b\in \mathbb{R}^{m}$.
 Suppose $f(b)=c^{T}x$ for some [[Basic Feasible Solution]] $x$.
 Suppose $x$ has [[Basis]] $B$ and [[Support]] $S$.
-Let $s \in \mathbb{R}^{n}$ be such that $s_{i}>0$ for all $i\in B\setminus S$
-Then the function $g(t)=f(b+t s)$ is right-continuous at $t=0$.
+Let $s \in \mathbb{R}^{n}$ be such that $s_{i}\geq0$ for all $i\in B\setminus S$
+Then the function $g(t)=f(b+tAs)$ is right-continuous at $t=0$.
 #### Proof
+Let $t>0$ be small and $x(t)$ a [[Basic Feasible Solution]] for $Ax(t)=b+tAs$
+such that $f(b+tAs)=c^{T}x(t)$.
+Note that this is always defined for small $t$
+because in particular $x+ts$ is a [[Basic Feasible Solution]] for 
+$$
+A(x+ts)=b+tAs
+$$
+so $f(b+tAs)$ does achieve its minimum somewhere 
+and thus it achieves it at some [[Basic Feasible Solution]]
+If for all small enough $t>0$ we have $x(t)=x+ts$ then we are done.
+
+
+
 Firstly, let $X(b)$ be the set of [[Basic Feasible Solution]]s 
 By definition of [[Basis]], we have that $A_{B}$ is invertible.
 Thus form the vector $s'\in \mathbb{R}^{n}$ 
