@@ -22,15 +22,41 @@ Let $f:\mathbb{R}^{m}\to \mathbb{R}$ defined by:
 $$
 f(b)=\min \{ c^{T}x : Ax=b,\ x\geq 0 \}
 $$
-Then $f$ is [[Continuous]] whenever there is some $x$ such that $Ax=b$.
+Let $b\in \mathbb{R}^{m}$.
+Suppose $f(b)=c^{T}x$ for some [[Basic Feasible Solution]] $x$.
+Suppose $x$ has [[Basis]] $B$ and [[Support]] $S$.
+Let $s \in \mathbb{R}^{m}$ be such that $s_{i}>0$ for all $i\in B\setminus S$
+Then the function $g(t)=f(b+t s)$ is right-continuous at $t=0$.
 #### Proof
+By definition of [[Basis]], we have that $A_{B}$ is invertible.
+Thus form the vector $s'\in \mathbb{R}^{n}$ 
+by $s_{B}'=A_{B}^{-1}s$ and $s_{i}'=0$ for $i\not\in B$
+
+For small enough $\epsilon>0$ and all $0\leq t\leq\epsilon$
+we have that $A(x+t s')=b$ and $x+ts'\geq 0$.
+Notably, $x+ts'$ is still a [[Basic Feasible Solution]].
+Thus
+$$
+f(b+ts) \leq c^{T}(x+ts')=f(b) + t c^{T}s'
+$$
+Suppose $f(b+ts)<f(b)+tc^{T}s'$ for some $0<t\leq \epsilon$
+and let 
+$$
+t_{1}=\inf \{ t: f(b+ts) < f(b) + tc^{T}s' \}
+$$
+Now let $x_{1}$ be a [[Basic Feasible Solution]] such that:
+$$
+f(b+t_{1}s) = c^{T}x_{1}
+$$
+
+
 Let $s \in \mathbb{R}^{m}$ and $\epsilon>0$
 Suppose $f(b)=c^{T}x$ for some $x$ such that $Ax=b$.
 We can WLOG assume that $x$ is a [[Basic Feasible Solution]].
 Thus $x$ has a [[Basis]] $B\subseteq[n]$ where $A_{B}$ is invertible.
 Define $s'\in \mathbb{R}^{n}$ by $s'_{B}=A_{B}^{-1}s$ and $s'_{i}=0$ for $i\not\in B$
 Define $x'=x+\epsilon s'$
-Now $f(b+\epsilon s)\leq f(b)+\epsilon c^{T}s'$
+Now $f(b+\epsilon s)\leq c^{T}x' = f(b)+\epsilon c^{T}s'$
 Similarly, if $x_{1}$ is such that $f(b+\epsilon s)=c^{T}x_{1}$
 then $f(b)\leq f(b+\epsilon s)-\epsilon c^{T}s'$
 
