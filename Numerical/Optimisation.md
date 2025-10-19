@@ -3,9 +3,10 @@
 [[Lagrange multipliers]]
 [[The Necessity Theorem]]
 [[Dual Problem]]
-[[Complimentary Slackness]] (the most important)
+[[Complimentary Slackness]]
 [[Economist perspective]] (not important)
 [[Linear Program]]
+[[Dual Problem in Linear Programs]] (most important lemma)
 [[Optimality Condition in Linear Programming]]
 [[Simplex method]]
 [[Two-person Zero-sum Games]]

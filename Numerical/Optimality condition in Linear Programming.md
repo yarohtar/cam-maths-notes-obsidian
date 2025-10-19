@@ -2,31 +2,19 @@ Consider a [[Linear Program]] in the standard form:
 " Minimize $c^Tx$ over $x\in \mathbb{R}^{n}$ subject to $Ax=b$ and $x\geq 0$ "
 where the matrix $A\in \mathbb{R}^{m\times n}$ has rank $m$
 and $c\in \mathbb{R}^{n},\ b\in \mathbb{R}^{m}$ are vectors.
-Let $B\subseteq[n]$ be a [[Basis]] of $A$
-and let $x$ be the unique corresponding [[Basic Feasible Solution]]
-(if it is feasible).
+Let $x$ be a [[Basic Feasible Solution]].
 Then $x$ is optimal
 if and only if
+for some [[Basis]] $B$ of $x$:
 $$
 c-A^{T}((A^{T}_{B})^{-1}c_{B})\geq0
 $$
-Suppose $x$ is a [[Basic Feasible Solution]] with [[Basis]] $B\subseteq[n]$
-Suppose also that:
-$$
-$$
-Then $x$ is optimal.
-
-Moreover, if there is an optimal solution then
-one of the optimal solutions has a [[Basis]] $B$ such that:
-$$
-c-A^{T}((A^{T}_{B})^{-1}c_{B})\geq 0
-$$
-
 Additionally $\lambda=(A_{B}^{T})^{-1}c_{B}$ is then the optimal solution to the 
 [[Dual Problem in Linear Programs]]:
 " Maximize $\lambda^{T}b$ over $\lambda \in \mathbb{R}^{m}$ subject to $A^{T}\lambda\leq c$ "
 
-We present the proof through several lemmata.
+We will only prove the following lemma
+(which gets us pretty close to the above statement)
 ### Lemma
 Consider a [[Linear Program]]:
 " Minimize $c^Tx$ over $x\in \mathbb{R}^{n}$ subject to $Ax=b$ and $x\geq 0$ "
@@ -72,23 +60,3 @@ c-A^{T}\lambda\geq 0
 $$
 Then $\lambda$ is feasible, and $(c-A^{T}\lambda)x=0$ so [[Complimentary Slackness]] holds.
 This happens if and only if $x$ is primal optimal and $\lambda$ is dual optimal.
-
-### Lemma
-Let $x$ be a [[Basic Feasible Solution]] with [[Support]] $B\subseteq[n]$
-and suppose $\lvert B \rvert=m$ (i.e. $B$ is a [[Basis]] of $x$)
-Then $x$ is optimal 
-if and only if
-$$
-c-A^{T}((A_{B}^{T})^{-1}c_{B})\geq 0
-$$
-### Proof
-Using the previous theorem, 
-the unique $\lambda \in \mathbb{R}^{m}$ satisfying $(A_{B}^{T})\lambda=c_{B}$ is exactly:
-$$
-\lambda=(A_{B}^{T})^{-1}c_{B}
-$$
-where we used the fact that $A_{B}$ is square (due to $\lvert B \rvert=m$)
-and invertible by the definition of [[Basic Solution]].
-
-## Proof
-

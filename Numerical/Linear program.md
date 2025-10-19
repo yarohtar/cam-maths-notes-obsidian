@@ -22,6 +22,8 @@ Suppose $x\in X$ is optimal for an LP.
 Then $x$ is a [[Basic Feasible Solution]].
 ### Proof
 [[Maximum of a Convex Function]] is always at an [[Extreme Point]] (of domain).
+So minimum of a concave function is an [[Extreme Point]].
+Note that linear programs are both convex and concave.
 So we need to find all [[Extreme Point]]s and evaluate the function there.
 We are done by [[Basic Feasible Solution#Theorem]].
 ## Theorem
