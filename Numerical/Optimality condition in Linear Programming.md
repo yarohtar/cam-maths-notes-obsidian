@@ -3,16 +3,17 @@ Consider a [[Linear Program]] in the standard form:
 where the matrix $A\in \mathbb{R}^{m\times n}$ has rank $m$
 and $c\in \mathbb{R}^{n},\ b\in \mathbb{R}^{m}$ are vectors.
 Suppose $x$ is a [[Basic Feasible Solution]] with [[Basis]] $B\subseteq[n]$
-Then $x$ is optimal
-if and only if
+Suppose also that:
 $$
-c - A^{T}((A_{B}^{T})^{-1}c_{B}) \geq 0
+c-A^{T}((A^{T}_{B})^{-1}c_{B})\geq0
 $$
-where $A_{B}$ is $m\times m$ submatrix of $A$
-obtained by taking $i$-th columns of $A$ for all $i\in B$.
-
-Moreover, $\lambda=(A_{B}^{T})^{-1}c_{B}$ is then feasible and optimal solution 
-for the [[Dual Problem in Linear Programs]]:
+Then $x$ is optimal.
+Moreover, there exists a [[Basis]] $B\subseteq[n]$ such that:
+$$
+c-A^{T}((A^{T}_{B})^{-1}c_{B})\geq 0
+$$
+and $\lambda=(A_{B}^{T})^{-1}c_{B}$ is then the optimal solution to the 
+[[Dual Problem in Linear Programs]]:
 " Maximize $\lambda^{T}b$ over $\lambda \in \mathbb{R}^{m}$ subject to $A^{T}\lambda\leq c$ "
 
 We present the proof through several lemmata.
@@ -22,11 +23,13 @@ Let $f:\mathbb{R}^{m}\to \mathbb{R}$ defined by:
 $$
 f(b)=\min \{ c^{T}x : Ax=b,\ x\geq 0 \}
 $$
-Let $b\in \mathbb{R}^{m}$.
-Suppose $f(b)=c^{T}x$ for some [[Basic Feasible Solution]] $x\in \mathbb{R}^{n}$
-Suppose $x$ has [[Basis]] $B$.
+Let $b\in \mathbb{R}^{m}$ and suppose $f(b)$ achieves its minimum.
+Then there is some [[Basis]] $B\subseteq[n]$ of $A$
+such that the unique [[Basic Feasible Solution]] $x\in \mathbb{R}^{n}$ to $Ax=b$
+with [[Basis]] $B$ has the following property:
 Let $s \in \mathbb{R}^{n}$ be such that $s\geq0$ and [[Support]] of $s$ is a subset of $B$.
-Then the function $g(t)=f(b+tAs)$ is right-continuous at $t=0$.
+Let $g(t)=f(b+tAs)$
+Then there is some $t>0$ such that $g(t)=c^{T}(x+ts)$.
 #### Proof
 For $\epsilon>0$ small enough, define $x:[0,\epsilon]\to \mathbb{R}^{n}$ satisfying:
 - $x(0)=x$
@@ -37,7 +40,7 @@ when $t$ is small enough.
 So $f(b+tAs)$ does achieve its minimum somewhere
 and thus it achieves its minimum at some [[Basic Feasible Solution]].
 
-Now assume that $f(b+tAs)\neq c^{T}(x+ts)$ for all small enough $t$
+Now assume that $f(b+tAs)< c^{T}(x+ts)$ for all small enough $t$
 Let $B(t)$ be a [[Basis]] for $x(t)$
 There is only $\binom{ n }{ m }$ choices for $B(t)$ 
 so one of them appears infinitely often.
@@ -45,7 +48,15 @@ Denote this [[Basis]] by $B_{\infty}$
 Take a sequence $t_{n}\to 0$
 such that $B_{\infty}$ is the [[Basis]] of $x(t_{n})$
 Then 
-
+$$
+x(t_{n})_{B_{\infty}} = A_{B_{\infty}}^{-1} (b+ t_{n}As)
+$$
+RHS clearly converges to $A_{B_{\infty}}^{-1}b$ as $n\to \infty$ 
+so $x(t_{n})$ converges to some $x'$ 
+where $x'_{B_{\infty}}=A_{B_{\infty}}^{-1}b$ and $x'_{i}=0$ for $i\not\in B_{\infty}$
+Then also $g(t_{n})=c^{T}x(t_{n})$ converges to $c^{T}x'$
+By properties of the limits, $c^{T}x'\leq c^{T}x=g(0)$
+By choice of $g()$
 
 
 

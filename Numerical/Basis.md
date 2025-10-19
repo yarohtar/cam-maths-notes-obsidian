@@ -1,21 +1,21 @@
-Let $x\in \mathbb{R}^{n}$ be a [[Basic Solution]] to $Ax=b$ with [[Support]] $S$
-where $A\in \mathbb{R}^{m\times n}$ and $b\in \mathbb{R}^{m}$
-The basis of $x$ is a set $B\subseteq[n]$ such that:
-- $S\subseteq B$
+Let $A$ be an $\mathbb{R}^{m\times n}$ matrix.
+A basis of $A$ is a set $B\subseteq[n]$ such that 
 - $\lvert B \rvert=m$
-- and $A_{B}$ is invertible
+- $A_{B}$ is invertible
 where $A_{B}$ is the $m\times m$ submatrix of $A$ 
-formed by taking $i$-th column of $A$ when $i\in B$
+formed by taking $i$-th column of  when $i\in B$.
+
+Let $x\in \mathbb{R}^{n}$ be a vector with [[Support]] $S$
+We say that $x$ has basis $B$ if $S\subseteq B$
 ## Lemma
-Suppose $x$ is a [[Basic Solution]] to $Ax=b$ with Basis $B$
-and suppose $y$ is a [[Basic Solution]] to $Ax=b$ with [[Support]] $S\subseteq B$.
-Then $x=y$.
+Let $B$ be a [[Basis]] of $A$ and let $b\in \mathbb{R}^{m}$
+Then there exists a unique [[Basic Solution]] $x\in \mathbb{R}^{n}$ with basis $B$ to:
+$$
+Ax=b
+$$
 ### Proof
-Suppose $x$ and $y$ have basis $B$ and [[Support]]s $S_{x}$ and $S_{y}$ respectively.
-Then by definition, $S_{x},S_{y}\subseteq B$.
-Now $x_{i}=y_{i}=0$ for $i\not\in B$
-and $x_{B}=y_{B}=A_{B}^{-1}b$
-where $A_{B}$ is invertible by definition.
+Define $x$ by $x_{B}=A_{B}^{-1}b$ and $x_{i}=0$ for $i\not\in B$.
+This is a [[Basic Solution]] and unique by construction.
 ## Lemma
 Suppose $A\in \mathbb{R}^{m\times n}$ has rank $m$ (i.e. all its rows are [[Linearly Independent]])
 Then for any [[Basic Solution]] $x$, there exists a basis.
