@@ -1,10 +1,20 @@
 Consider the [[Linear Program]]:
-" Minimize $(c^T\quad 0^T)x$ over $x\geq 0$ subject to $(A\quad I)x=b$ "
-where $I$ is $m\times m$ identity matrix, and $b\geq 0$.
+" Minimize $(c^T\quad 0^T)x$ over $x\in \mathbb{R}^{n}$, $x\geq 0$ subject to $(A\quad I)x=b$ "
+where $I$ is an $m\times m$ identity matrix
+$A$ is an $(n-m)\times m$ matrix
+and $c\in \mathbb{R}^{n-m}$, $b\in \mathbb{R}^{m}$ are vectors and $b\geq 0$
 
-Hence try a [[Basic Solution|BFS]] $x^T=(0^T\quad b^T)$ 
-(which of course has exactly $m$ nonzero indices)
-Now apply [[Optimality Condition in Linear Programming#Optimality condition|the optimality condition]], 
+Consider a vector $x^{T}=(0^{T}\quad b^{T})$
+Its [[Support]] is among the last $m$ indices.
+The corresponding columns in $(A\quad I)$ are columns of the matrix $I$ 
+Thus $x$ is a [[Basic Solution]] and $x\geq 0$ so $x$ is a [[Basic Feasible Solution]].
+
+Now apply the [[Optimality Condition in Linear Programming]]:
+$x$ is optimal
+if and only if:
+$$
+(c\quad 0) - (A^{T}\lambda \geq 0
+$$
 noting that (in that notation) $c_B=0$ (and $B=I$), 
 hence we only need to check $c\geq 0$. 
 If so, we are done.

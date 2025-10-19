@@ -11,7 +11,9 @@ for some $\lambda \in \mathbb{R}^{m}$ satisfying $(A_{B}^{T})\lambda=c_{B}$
 where $A_{B}$ is $m\times \lvert B \rvert$ submatrix of $A$
 obtained by taking $i$-th columns of $A$ for all $i\in B$
 
-Moreover, $\lambda$ is then feasible and optimal solution for the [[Dual Problem]].
+Moreover, $\lambda$ is then feasible and optimal solution 
+for the [[Dual Problem in Linear Programs]]:
+" Maximize $\lambda^{T}b$ over $\lambda \in \mathbb{R}^{m}$ subject to $A^{T}\lambda\leq c$ "
 ### Proof
 Start from the [[Dual Problem in Linear Programs]]:
 " Maximize $\lambda^Tb$ over $\lambda \in \mathbb{R}^{m}$ subject to $A^{T}\lambda\leq c$ "
@@ -19,7 +21,7 @@ Note that a feasible $x$ is primal optimal
 and feasible $\lambda$ is dual optimal
 if and only if 
 [[Complimentary Slackness]] holds (due to [[Dual Problem in Linear Programs#Lemma]])
-i.e. $(c-A^{T}\lambda)x=0$
+i.e. $x^{T}(c-A^{T}\lambda)=0$
 i.e. $c_{B} - A_{B}^{T}\lambda=0$ (due to [[Support]] of $x$ being $B$)
 #### $\implies$
 Suppose $x$ is primal optimal.
@@ -41,3 +43,19 @@ $$
 Then $\lambda$ is feasible, and $(c-A^{T}\lambda)x=0$ so [[Complimentary Slackness]] holds.
 This happens if and only if $x$ is primal optimal and $\lambda$ is dual optimal.
 
+## Corollary
+Let $x$ be a [[Basic Feasible Solution]] with [[Support]] $B\subseteq[n]$
+and suppose $\lvert B \rvert=m$
+Then $x$ is optimal 
+if and only if
+$$
+c-A^{T}((A_{B}^{T})^{-1}c_{B})\geq 0
+$$
+### Proof
+Using the previous theorem, 
+the unique $\lambda \in \mathbb{R}^{m}$ satisfying $(A_{B}^{T})\lambda=c_{B}$ is exactly:
+$$
+\lambda=(A_{B}^{T})^{-1}c_{B}
+$$
+where we used the fact that $A_{B}$ is square (due to $\lvert B \rvert=m$)
+and invertible by the definition of [[Basic Solution]].
