@@ -10,5 +10,6 @@ $$
 e_{1}^{(n)} = \mathbb{P}(\text{decl }P : X_{1}^{n}\simeq Q^{n})=Q^{n}(B_{n})
 $$
 $$
-e_{2}^{(n)} = \mathbb{P}(\text{decl }Q : X_{1}^{n}\in P^{n}) = P^{n}
+e_{2}^{(n)} = \mathbb{P}(\text{decl }Q : X_{1}^{n}\in P^{n}) = P^{n}(B_{n}^{C})
 $$
+[[Stein's Lemma]]
