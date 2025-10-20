@@ -10,4 +10,10 @@
 [[Full]]
 [[Essentially Injective]]
 [[Essentially Surjective]]
+[[Skeletal]]
 
+[[Monomorphism]]
+[[Epimorphism]]
+[[Balanced]]
+
+[[Yoneda Lemma]]
