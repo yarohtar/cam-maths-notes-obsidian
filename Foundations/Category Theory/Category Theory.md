@@ -17,3 +17,7 @@
 [[Balanced]]
 
 [[Yoneda Lemma]]
+[[Yoneda Embedding]]
+
+[[Representable]]
+[[Representation]]
