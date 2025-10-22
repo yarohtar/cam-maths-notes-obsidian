@@ -2,21 +2,7 @@ Suppose we are given [[Functor|functors]] $\mathcal{C}\xrightarrow{F,G}\mathcal{
 A natural transformation $\alpha:F\to G$ is an operation
 assigning each $A\in \operatorname{ob}\mathcal{C}$ a morphism $FA\xrightarrow{\alpha_{A}}GA$ in $\mathcal{D}$ 
 such that for each $A\xrightarrow{f}B$ in $\mathcal{C}$ 
-we have a commutative diagram:
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
-\mathcal{C}
-\end{tikzcd}
-\end{document}
-```
-$$
-\int_{0}^{1}  \, dx 
-$$
-
-
-
+we have a commutative diagram: 
 ```tikz
 \usepackage{tikz-cd}
 
