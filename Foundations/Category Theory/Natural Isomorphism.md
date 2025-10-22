@@ -45,3 +45,24 @@ $$
 1_{G}=\alpha \beta
 $$
 So $\beta$ is an [[Isomorphism]] to $\alpha$.
+
+### Special Case
+When $F=1_{\mathcal{C}}$ we get that the following commutes:
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
+A \arrow[r,"f"] \arrow[d, shift left, "\alpha_{A}"]
+ & B \arrow[d,shift left, "\alpha_{B}"] \\
+GA \arrow[r,"Gf"] \arrow[u, shift left, "\alpha_{A}^{-1}"]
+ & GB \arrow[u, shift left, "\alpha_{B}^{-1}"]
+\end{tikzcd}
+\end{document}
+```
+i.e. we can write
+$$
+\begin{gather}
+f=\alpha_{B}^{-1}(Gf)\alpha_{A}  \\
+Gf = \alpha_{B}f\alpha_{A}^{-1}
+\end{gather}
+$$

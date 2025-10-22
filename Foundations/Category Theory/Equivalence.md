@@ -36,13 +36,16 @@ f:A\xrightarrow{\alpha_{A}}GFA\xrightarrow{Gg}GFB\xrightarrow{\alpha_{B}^{-1}}B
 $$
 satisfies:
 $$
-GFf=GF(\alpha_{B}^{-1} (Gg) \alpha_{A})=
+GFf=\alpha_{B}f\alpha_{A}^{-1}=Gg
 $$
 Note that $G$ is [[Faithfull]] for the same reason as $F$ 
 so we get $Ff=g$. 
 ##### $\impliedby$
-For each $B\in \operatorname{ob}\mathcal{D}$ choose an object $GB$ of $\mathcal{C}$ and an isomorphism $\beta_{B}:FGB\to B$ in $\mathcal{D}$.
-Given $B\xrightarrow{g}C$ in $\mathcal{D}$ define $GB\xrightarrow{Gg}GC$ to be the unique [[Morphism]] whose range under $F$ is 
+For each $B\in \operatorname{ob}\mathcal{D}$ choose an [[Object]] $GB$ of $\mathcal{C}$ 
+and an [[Isomorphism]] $\beta_{B}:FGB\to B$ in $\mathcal{D}$, 
+which we can do as $F$ is [[Essentially Surjective]].
+Given $B\xrightarrow{g}C$ in $\mathcal{D}$ define $GB\xrightarrow{Gg}GC$ 
+to be the unique [[Morphism]] whose range under $F$ is 
 $$
 FGB\xrightarrow{\beta_{D}}B\xrightarrow{g}C\xrightarrow{\beta_{C}^{-1}}FGC
 $$
