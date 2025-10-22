@@ -1,8 +1,8 @@
 Suppose we are given [[Functor|functors]] $\mathcal{C}\xrightarrow{F,G}\mathcal{D}$
 A natural transformation $\alpha:F\to G$ is an operation
-assigning each $A\in \operatorname{ob}\mathcal{C}$ a morphism $FA\xrightarrow{\alpha_{A}}GA$ in $\mathcal{D}$ 
+assigning each $A\in \operatorname{ob}\mathcal{C}$ a [[Morphism]] $FA\xrightarrow{\alpha_{A}}GA$ in $\mathcal{D}$ 
 such that for each $A\xrightarrow{f}B$ in $\mathcal{C}$ 
-we have a commutative diagram: 
+we have a [[Commutative Diagram]]:
 ```tikz
 \usepackage{tikz-cd}
 
@@ -22,12 +22,12 @@ Given $\alpha$ and $\beta:G\to H$ the assignment $A\to \beta_{A}\alpha_{A}$ is a
 ### Lemma
 Let $F,G:\mathcal{C}\to \mathcal{D}$ be [[Functor]]s
 Let $\alpha:F\to G$ be a natural transformation between them.
-Then $\alpha$ is an isomorphism in [[Category of Functors]] $[\mathcal{C}, \mathcal{D}]$ 
+Then $\alpha$ is an [[Isomorphism]] in [[Category of Functors]] $[\mathcal{C}, \mathcal{D}]$ 
 if and only if 
-each $\alpha_{A}$ is an isomorphism in $\mathcal{D}$
+each $\alpha_{A}$ is an [[Isomorphism]] in $\mathcal{D}$
 #### Proof
 ##### $\implies$
-obvious since composition in $[\mathcal{C},\mathcal{D}]$ is pointwise
+Obvious since composition in $[\mathcal{C},\mathcal{D}]$ is pointwise
 ##### $\impliedby$
 Suppose each $\alpha_{A}$ has an inverse $\beta_{A}$ 
 We need to verify naturality of $\beta$
