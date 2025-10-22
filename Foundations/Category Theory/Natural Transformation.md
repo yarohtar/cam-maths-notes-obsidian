@@ -5,6 +5,17 @@ such that for each $A\xrightarrow{f}B$ in $\mathcal{C}$
 we have a commutative diagram:
 ```tikz
 \usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
+
+\end{tikzcd}
+\end{document}
+```
+
+
+
+```tikz
+\usepackage{tikz-cd}
 
 \begin{document}
 \begin{tikzcd}

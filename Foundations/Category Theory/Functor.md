@@ -1,3 +1,10 @@
+---
+aliases:
+  - functor
+  - functorial
+  - functorially
+  - functors
+---
 Let $\mathcal{C}$ and $\mathcal{D}$ be [[Category|categories]].
 A functor $F:\mathcal{C}\to \mathcal{D}$ consists of mappings
 $$
