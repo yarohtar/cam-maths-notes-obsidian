@@ -7,10 +7,13 @@ we have a commutative diagram:
 \usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
-
+\mathcal{C}
 \end{tikzcd}
 \end{document}
 ```
+$$
+\int_{0}^{1}  \, dx 
+$$
 
 
 
