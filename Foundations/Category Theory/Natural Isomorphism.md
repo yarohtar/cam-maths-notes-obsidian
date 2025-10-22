@@ -13,29 +13,35 @@ each $\alpha_{A}$ is an [[Isomorphism]] in $\mathcal{D}$
 ##### $\implies$
 Obvious since composition in $[\mathcal{C},\mathcal{D}]$ is pointwise.
 ##### $\impliedby$
-Suppose each $\alpha_{A}$ has an inverse $\beta_{A}$ 
+Suppose each $\alpha_{A}$ has an [[Inverse]] $\beta_{A}$ 
 We need to verify naturality of $\beta$.
-Given $A\xrightarrow{f}B$ in $\mathcal{C}$, consider:
+Given $A\xrightarrow{f}B$ in $\mathcal{C}$, consider the [[Naturality Square]] of $\alpha$ at $f$:
 ```tikz
 \usepackage{tikz-cd}
 
 \begin{document}
 \begin{tikzcd}
-GA 
-\arrow[r,"Gf"] 
-\arrow[d,shift left, "\beta_{A}"] 
-& GB
-\arrow[d,shift left, "\beta_{B}"]
-\\
-FA
-\arrow[u,shift left,"\alpha_{A}"]
+FA 
 \arrow[r,"Ff"] 
-& FB 
-\arrow[u,shift left, "\alpha_{B}"]
+\arrow[d, shift left, "\alpha_{A}"] 
+& FB
+\arrow[d, shift left, "\alpha_{B}"]
+\\
+GA
+\arrow[u, shift left, dashrightarrow, "\beta_{A}"]
+\arrow[r,"Gf"] 
+& GB 
+\arrow[u,shift left, dashrightarrow, "\beta_{B}"]
 \end{tikzcd}
 \end{document}
 ```
 We have 
 $$
 \beta_{B}(Gf)=\beta_{B}(Gf)\alpha_{A}\beta_{A}=\beta_{B}\alpha_{B}(Ff)\beta_{A}=(Ff)\beta_{A}
-$$ 
+$$
+Thus $\beta$ is a [[Natural Transformation]] and by definition:
+$$
+1_{F}=\beta \alpha, \quad %quad
+1_{G}=\alpha \beta
+$$
+So $\beta$ is an [[Isomorphism]] to $\alpha$.

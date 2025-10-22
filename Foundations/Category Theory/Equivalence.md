@@ -1,12 +1,16 @@
 Let $\mathcal{C}$ and $\mathcal{D}$ be [[Category|categories]].
 An equivalence between $\mathcal{C}$ and $\mathcal{D}$ consists of [[Functor]]s:
-$$F:\mathcal{C}\to \mathcal{D}\quad %quad
+$$
+F:\mathcal{C}\to \mathcal{D}\quad %quad
 \text{and}\quad %quad
- G:\mathcal{D}\to \mathcal{C}$$
+G:\mathcal{D}\to \mathcal{C}
+$$
 and [[Natural Isomorphism]]s:
-$$\alpha:1_{\mathcal{C}}\to GF\quad %quad
+$$
+\alpha:1_{\mathcal{C}}\to GF\quad %quad
  \text{and}\quad %quad
- \beta:FG\to 1_{\mathcal{D}}$$
+\beta:FG\to 1_{\mathcal{D}}
+$$
 We write $\mathcal{C}\simeq \mathcal{D}$ if there exists such an equivalence.
 
 ### Lemma
