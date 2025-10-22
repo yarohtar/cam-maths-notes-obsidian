@@ -34,7 +34,10 @@ The composite:
 $$
 f:A\xrightarrow{\alpha_{A}}GFA\xrightarrow{Gg}GFB\xrightarrow{\alpha_{B}^{-1}}B
 $$
-satisfies $GFf=Gg$.
+satisfies:
+$$
+GFf=GF(\alpha_{B}^{-1} (Gg) \alpha_{A})=
+$$
 Note that $G$ is [[Faithfull]] for the same reason as $F$ 
 so we get $Ff=g$. 
 ##### $\impliedby$
