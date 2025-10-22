@@ -13,10 +13,11 @@ GA\arrow[r,"Gf"] & GB
 \end{tikzcd}
 \end{document}
 ```
-i.e. $\alpha_{B}(Ff)=(Gf)\alpha_{A}$
-These are called naturality squares for $\alpha$ at $f$
-Natural transformations can be composed:
-Given $\alpha$ and $\beta:G\to H$ the assignment $A\to \beta_{A}\alpha_{A}$ is a natural transformation.
+These are called [[Naturality Square]] for $\alpha$ at $f$
+### Lemma
+In addition to above, given another [[Functor]] $H:\mathcal{C}\to \mathcal{D}$ 
+and a natural transformation $\beta:G\to H$
+The assignment $A\to \beta_{A}\alpha_{A}$ is a natural transformation.
 [[Category of Functors]]
 [[Equivalence]]
 ### Lemma

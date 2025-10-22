@@ -1,3 +1,8 @@
+---
+aliases:
+  - Categories
+---
+
 A category $\mathcal{C}$ consists of
 1. a collection of $\operatorname{ob}\mathcal{C}$  of [[Object]]s $A, B, C,\dots$
 2. a collection $\operatorname{mor}\mathcal{C}$ of [[Morphism]] $f,g,h, \dots$ 
