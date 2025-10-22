@@ -6,10 +6,6 @@
 [[Natural Transformation]]
 [[Natural Isomorphism]]
 [[Equivalence]]
-[[Faithfull]]
-[[Full]]
-[[Essentially Injective]]
-[[Essentially Surjective]]
 [[Skeletal]]
 
 [[Monomorphism]]

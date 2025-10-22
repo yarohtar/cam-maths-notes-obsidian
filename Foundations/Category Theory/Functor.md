@@ -32,3 +32,8 @@ $$
 [[Monoid Homomorphism]]
 [[Order Preserving Map]]
 [[Group Action]]
+
+[[Faithfull]]
+[[Full]]
+[[Essentially Injective]]
+[[Essentially Surjective]]
