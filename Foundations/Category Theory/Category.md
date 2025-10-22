@@ -9,7 +9,7 @@ A category $\mathcal{C}$ consists of
 3. two operations $\operatorname{dom}$ and $\operatorname{cod}$ sending morphisms to objects
    we write $A\xrightarrow{f} B$ to mean $\operatorname{dom} f=A$ and $\operatorname{cod}f=B$
 4. An operation sending $A$ to $1_{A}$ where $A\xrightarrow 1_{A}A$
-5. A partial binary operation on morphisms $(f,g)\to fg$ s.t.
+5. A partial binary operation on morphisms $(f,g)\to fg$ such that:
 $$
 fg \text{ defined} \iff \operatorname{dom}f=\operatorname{cod}g
 $$
