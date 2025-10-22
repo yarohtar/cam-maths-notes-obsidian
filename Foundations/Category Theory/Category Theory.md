@@ -8,8 +8,6 @@
 [[Equivalence]]
 [[Skeletal]]
 
-[[Monomorphism]]
-[[Epimorphism]]
 [[Balanced]]
 
 [[Yoneda Lemma]]
