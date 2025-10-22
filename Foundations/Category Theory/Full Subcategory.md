@@ -1,1 +1,1 @@
-Take some objects and all morphisms between them
+Take some [[Object]]s and all [[Morphism]]s between them.

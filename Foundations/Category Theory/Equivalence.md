@@ -20,19 +20,23 @@ if and only if
 $F$ is [[Full]], [[Faithfull]] and [[Essentially Surjective]].
 #### Proof
 ##### $\implies$
-Suppose given $G$, $\alpha$ and $\beta$ (as in the [[Equivalence]] definition)
+Suppose we are given a [[Functor]] $G:\mathcal{D}\to \mathcal{C}$ 
+and [[Natural Isomorphism]]s $1_{\mathcal{C}}\xrightarrow{\alpha} GF$ and $FG\xrightarrow{\beta}1_{\mathcal{D}}$.
 For any $B\in \operatorname{ob}\mathcal{D}$, 
-$\beta_{B}$ is an isomorphism $FGB\to B$ so $F$ is [[Essentially Surjective]]
-Given $f:A\to B$ and $f=\alpha_{B}^{-1}(GFf)\alpha_{A}$ 
+$\beta_{B}$ is an [[Isomorphism]] $FGB\to B$ 
+so $F$ is [[Essentially Surjective]]
+Given $f:A\to B$ in $\mathcal{C}$, note $f=\alpha_{B}^{-1}(GFf)\alpha_{A}$ 
 so $f$ is recoverable from $Ff$, $A$ and $B$
-i.e. $F$ is [[Faithfull]]
-Suppose given $FA\xrightarrow{g}FB$ the composite:
+i.e. $f$ is unique given $\operatorname{dom}f$, $\operatorname{cod}f$ and $Ff$
+i.e. $F$ is [[Faithfull]].
+Suppose there is some $FA\xrightarrow{g}FB$.
+The composite:
 $$
 f:A\xrightarrow{\alpha_{A}}GFA\xrightarrow{Gg}GFB\xrightarrow{\alpha_{B}^{-1}}B
 $$
 satisfies $GFf=Gg$.
 Note that $G$ is [[Faithfull]] for the same reason as $F$ 
-so we get $Ff=g$
+so we get $Ff=g$. 
 ##### $\impliedby$
 For each $B\in \operatorname{ob}\mathcal{D}$ choose an object $GB$ of $\mathcal{C}$ and an isomorphism $\beta_{B}:FGB\to B$ in $\mathcal{D}$.
 Given $B\xrightarrow{g}C$ in $\mathcal{D}$ define $GB\xrightarrow{Gg}GC$ to be the unique [[Morphism]] whose range under $F$ is 
