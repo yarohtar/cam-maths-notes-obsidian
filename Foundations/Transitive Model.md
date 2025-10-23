@@ -36,6 +36,9 @@ M\models \neg(\forall w)(w\in x \iff w\in y)
 $$
 ##### Foundation
 $$
-\forall x\,(x\neq \varnothing \implies \exists m\,)
+\forall x\,(x\neq \varnothing \implies \exists m\,(m\in x\land \forall w\,(\neg(w\in m\land w\in x))))
 $$
-
+Suppose $x\in M$.
+Find using [[Axiom of Foundation]] an $\in$-minimal $m\in x$ (in $N$)
+By [[Foundations/Set Theory/Transitive|Transitivity]] we get $m\in M$
+We can check that $m$ is still $\in$-minimal in $M$.
