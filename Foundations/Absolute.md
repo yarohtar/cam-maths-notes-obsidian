@@ -11,6 +11,13 @@ where we use $M\models \phi$ to mean $\phi$ is [[Satisfied]] in $M$
 ## Theorem
 If $M$ is a [[Substructure]] of $N$, 
 then all quantifier free formulas are absolute between $M$ and $N$
+## Theorem
+If $\phi$ and $\psi$ are [[Absolute]] and 
+$$
+T\vdash \exists x\,\phi \iff \forall x\, \psi
+$$
+then both $\exists x\,\phi$ and $\forall x\,\psi$ are [[Absolute]] for [[Transitive Model]]s of $T$.
+We call this the $\Delta_{1}$ trick.
 
 ### (Non)example
 Language of set theory has symbols $\{ \in \}$

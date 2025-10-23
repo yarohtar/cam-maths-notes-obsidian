@@ -6,3 +6,9 @@ $$
 M\models\phi(x_{1},\dots,x_{n}) \impliedby N\models\phi(x_{1},\dots,x_{n})
 $$
 where we use $M\models \phi$ to mean $\phi$ is [[Satisfied]] in $M$
+
+### Lemma
+Suppose formula $\phi$ is downwards absolute between $M$ and $N$.
+Then $\psi=\forall y_{1}\dots \forall y_{k}\,\phi$ is downwards absolute.
+#### Proof
+Similar as in [[Upwards Absolute#Lemma]].

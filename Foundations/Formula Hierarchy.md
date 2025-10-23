@@ -35,10 +35,3 @@ $\Sigma_{1}^{T}$ formulas are [[Upwards Absolute]] for [[Transitive Model]]s of 
 while $\Pi_{1}^{T}$ are [[Downwards Absolute]].
 ## Corollary
 $\Delta_{1}^{T}$ formulas are [[Absolute]] for [[Transitive Model]]s of $T$.
-## Theorem
-If $\phi$ and $\psi$ are [[Absolute]] and 
-$$
-T\vdash \exists x\,\phi \iff \forall x\, \psi
-$$
-then both $\exists x\,\phi$ and $\forall x\,\psi$ are [[Absolute]] for [[Transitive Model]]s of $T$.
-We call this the $\Delta_{1}$ trick.
