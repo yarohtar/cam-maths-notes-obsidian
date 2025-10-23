@@ -4,7 +4,7 @@ If $S\models p$ then $S\vdash p$
 WLOG $S$ is a [[Theory]] and $p$ is a [[Sentence]]
 
 Since $S\models p$ we have $S\cup \{ \neg p \}\models \bot$
-By [[Model Existence Lemma (First-order Logic)]] $S\cup \{ \neg p \}\vdash \bot$
+By [[Model Existence Lemma]] $S\cup \{ \neg p \}\vdash \bot$
 By the [[Deduction Theorem (First-order Logic)]] $S\vdash \neg \neg p$
 Add the lines
 $$

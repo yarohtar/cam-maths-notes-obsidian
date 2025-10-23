@@ -1,7 +1,7 @@
-Let $L$ be a [[First-order predicate Logic]] language.
+Let $L$ be a [[First-Order Predicate Logic]] language.
 Let $S$ be a set of [[Sentence]]s in $L$ and let $t$ be a [[Sentence]] in $L$ 
 We say $S$ semantically entails $t$ or $S\models t$ 
-if $t$ is [[Satisfied]] in every [[Model (First-order Logic)]] of $S$.
+if $t$ is [[Satisfied]] in every [[Model]] of $S$.
 
 Furthermore, let $S$ be a set of formulae in $L$ and $t\in L$
 Introduce new constants in $L$ 
