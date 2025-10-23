@@ -6,7 +6,7 @@ is the smallest class of formulae which
 - [[Closed Under Bounded Quantification]]
 - Closed under $\land$, $\lor$, $\neg$, $\implies$
 ### $\Sigma_{1}$
-A formula is $\Sigma_{1}$ if it is of the form 
+A formula is $\Sigma_{1}$ if it is of the form
 $$
 \exists v_{1}\dots \exists v_{n} \, \phi
 $$

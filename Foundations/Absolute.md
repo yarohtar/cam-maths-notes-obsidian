@@ -12,13 +12,14 @@ where we use $M\models \phi$ to mean $\phi$ is [[Satisfied]] in $M$
 If $M$ is a [[Substructure]] of $N$, 
 then all quantifier free formulas are absolute between $M$ and $N$
 
-### Example
+### (Non)example
 Language of set theory has symbols $\{ \in \}$
 Take
 $$
 \varepsilon_{0}(x) := (\forall z)(\neg z \in x)
 $$
-meaning $x=\varnothing$
+meaning $x=\varnothing$ 
+(note in particular that $x=\varnothing$ cannot be quantifier free)
 Also take
 $$
 \varepsilon_{1}(x):=(\forall z)(z\in x \implies \varepsilon_{0}(z))
