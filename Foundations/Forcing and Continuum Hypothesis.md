@@ -8,3 +8,6 @@
 [[Absolute]]
 [[Transitive Model]]
 [[Formula Hierarchy]]
+[[Definable Operation]]
+[[Absolute Operation]]
+
