@@ -1,12 +1,12 @@
 Let $\mathcal{L}$ be the [[Language]] of set theory,
-and $M$ be an $\mathcal{L}$-[[Structure]]
-We say that a [[Definable Operation]] $F:M^{n}\to M$ 
-is absolute for $M$ if it's definable by $\Phi$ 
-and $\Phi$ is [[Absolute]] for $M$ (between $M$ and the set theoretic universe).
+and $M$, $N$ be $\mathcal{L}$-[[Structure]]s
+We say that a [[Definable Operation]] $F:M^{n}\to M$ is absolute for $M$ 
+if it's definable by $\Phi$ and $\Phi$ is [[Absolute]] between $M$ and $N$
 ### Lemma
-If $F$ and $G$ are absolute for $M$ then so is $F\circ G$
+If $F$ and $G$ are absolute for $M$ then so is $F\circ G$. 
 ### Lemma
-If $F$ is absolute and $\phi$ is [[Absolute]] for $M$ then so are
+If $F$ is absolute and $\phi$ is [[Absolute]] for a [[Transitive Model]] $M$ of $ZFC$
+then so are
 $$
 \exists x\in F(y)\,\phi(x)
 $$
@@ -30,5 +30,4 @@ $$
 \forall y\,(\Phi(x,y)\implies \phi(y))
 $$
 and thus both of them are [[Absolute]] by the $\Delta_{1}$-trick. 
-See [[Formula Hierarchy]].
 

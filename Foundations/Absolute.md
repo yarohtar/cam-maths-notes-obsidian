@@ -16,9 +16,17 @@ If $\phi$ and $\psi$ are [[Absolute]] and
 $$
 T\vdash \exists x\,\phi \iff \forall x\, \psi
 $$
-then both $\exists x\,\phi$ and $\forall x\,\psi$ are [[Absolute]] for [[Transitive Model]]s of $T$.
+then both $\exists x\,\phi$ and $\forall x\,\psi$ are [[Absolute]] for [[Model]]s of $T$.
 We call this the $\Delta_{1}$ trick.
-
+### Proof
+Let $N$ be a [[Model]] of $T$ and $M\subseteq N$ a [[Substructure]] of $N$
+such that $M\models T$
+Firstly, $\phi$ is [[Upwards Absolute]] so $\exists x\,\phi$ is [[Upwards Absolute]].
+Suppose $M\models \forall x\,\psi$. 
+Then $M\models \exists x\,\phi$ and thus $N\models \exists x\,\phi$
+But then $N\models \forall x\,\psi$ and thus $\forall x\,\psi$ is [[Upwards Absolute]].
+But $\forall x\,\psi$ is [[Downwards Absolute]] because $\psi$ is [[Downwards Absolute]].
+So $\forall x\,\psi$ is absolute and so is $\exists x\,\phi$ (by similar arguments).
 ### (Non)example
 Language of set theory has symbols $\{ \in \}$
 Take

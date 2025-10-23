@@ -16,7 +16,7 @@ Suppose some [[Theory]] $T\subseteq ZFC$ is such that
 - for any $(\alpha,\vec{x})$, there is an attempt such that $(\alpha,\vec{x})\in \operatorname{dom}r$
 Then $R$ is an [[Absolute Operation]] for [[Transitive Model]]s of $T$.
 ### Proof
-Note that $R$ is defined by a $\Delta_{1}^{T}$ formula,
-which has to be [[Absolute]]
+Note that $R$ is defined by a $\Delta_{1}^{T}$ formula [[Formula Hierarchy]]
+which has to be [[Absolute]] (in a [[Transitive Model]])
 so $R$ is an [[Absolute Operation]].
 
