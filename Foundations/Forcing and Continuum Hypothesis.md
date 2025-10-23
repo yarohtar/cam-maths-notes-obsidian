@@ -6,3 +6,4 @@
 [[Independent Sentence]]
 [[Substructure]]
 [[Absolute]]
+[[Transitive Model]]

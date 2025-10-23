@@ -26,4 +26,4 @@ $$
 (\forall n\in \omega)(\exists f)(f\text{ is an attempt}\land(n\in dom\ f))
 $$
 
-DIDN'T FINISH PROOF
+TODO finish proof
