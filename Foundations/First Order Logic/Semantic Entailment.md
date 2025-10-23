@@ -1,4 +1,4 @@
-Let $L$ be a [[First-Order Predicate Logic]] language.
+Let $L$ be a [[First-Order Predicate Logic]] [[Language]].
 Let $S$ be a set of [[Sentence]]s in $L$ and let $t$ be a [[Sentence]] in $L$ 
 We say $S$ semantically entails $t$ or $S\models t$ 
 if $t$ is [[Satisfied]] in every [[Model]] of $S$.

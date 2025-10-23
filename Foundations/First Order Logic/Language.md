@@ -17,7 +17,7 @@ Two kinds:
 1. If $s$, $t$ are terms then $(s=t)$ is an atomic formulae
 2. if $\phi \in\Pi$ with $n=\alpha(\phi)$ and $t_{1},t_{2},\dots,t_{n}$ are terms then $\phi t_{1}t_{2}\dots t_{n}$ is an atomic formulae.
 ### Formulae
-1. Atomic formulae
-2. $\bot$ is a formulae
+1. Atomic formulae are formulae
+2. $\bot$ is a formula
 3. If $p$, $q$ are formulae then so is $(p \implies q)$
 4. If $p$ is a formula and $x$ is a [[Free Variable]] in $p$ then $(\forall x)p$ is a formula

@@ -2,7 +2,6 @@
 aliases:
   - First-Order Logic
 ---
-
 [[Language]]
 [[Sentence]]
 [[Structure]]
