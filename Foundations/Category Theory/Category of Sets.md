@@ -28,8 +28,13 @@ Let $f:A\to B$ be an [[Epimorphism]]:
 $$
 gf=hf \implies g=h
 $$
-for $g,h:B\to C$
+for any $g,h:B\to C$.
 Let $C=\{ 0,1 \}$, let $g=1_{f(A)}$ and let $h=1_{B}$
+Note
+$$
+fg(x)=fh(x) =1
+$$
+for any $x\in A$, thus $g=h$.
 Then for any $x\in B$ we have $g(x)=h(x)=1$ 
 and thus $x\in f(A)$ so $f$ is surjective.
 
