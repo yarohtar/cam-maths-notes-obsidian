@@ -1,4 +1,4 @@
-Let $S\subseteq L$ be [[Consistent]].
+Let $S\subseteq L$ be [[Foundations/Propositional Logic/Consistent]].
 Then $S$ has a [[Model (Propositional Logic)]]
 ## Proof
 We want to find a deductively closed set $\bar{S}$ with $S\subseteq \bar{S}$
