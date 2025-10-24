@@ -17,9 +17,14 @@ and then $\operatorname{dom}fg=\operatorname{dom}g$ and $\operatorname{cod}fg =\
 subject to:
 6. $f 1_{A}=f$ and $1_{A}g=g$ whenever the composites are defined
 7. [[Associativity]]: $f(gh)=(fg)h$ whenever $fg$ and $gh$ are defined
-### Definition
-A morphism $A\xrightarrow{f}B$ is an isomorphism if there is a morphism $B\xrightarrow{g}A$
-such that $fg=1_{B}$ and $gf=1_{A}$.
+
+[[Isomorphism]]
+[[Small Category]]
+[[Quotient Category]]
+[[Opposite Category]]
+[[Functor]]
+[[Skeletal]]
+[[Balanced]]
 ### Examples
 [[Category of Sets]]
 [[Category of Relations]]
