@@ -1,1 +1,1 @@
-A matrix $A$ is positive definite when $x^TAx\geq 0$ for all vectors $x$.
+A matrix $A$ is positive definite when $x^TAx> 0$ for all vectors $x$.

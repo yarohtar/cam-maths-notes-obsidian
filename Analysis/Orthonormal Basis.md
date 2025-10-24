@@ -7,8 +7,10 @@ We use the same terminology for a finite sequence
 [[Gram-Schmidt process]] applies
 
 ### Corollary
-Let $X$ be a [[Separable Space]] [[Inner Product Space]]. Then $X$ has an orthonormal basis.
+Let $X$ be a [[Separable Space]] [[Inner Product Space]]. 
+Then $X$ has an orthonormal basis.
 
 ### Corollary
-Let $X$ be an $n$-dimensional inner product space. Then $X$ is [[Isometric Isomorphism]] to $l_{2}^{n}$.
+Let $X$ be an $n$-dimensional inner product space. 
+Then $X$ has a [[Isometric Isomorphism]] to $l_{2}^{n}$.
 
