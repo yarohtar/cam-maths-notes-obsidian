@@ -1,6 +1,6 @@
 Let $\mathcal H$ be a vector space over $\mathbb C$ (or $\mathbb{R}$) 
 equipped with an [[Inner Product]] $(\cdot, \cdot):\mathcal H \times \mathcal H\to \mathbb C$ (or $\mathbb{R}$)
-$\mathcal{H}$ is called a Hilbert space if it is [[Complete Metric Space]]
+$\mathcal{H}$ is called a Hilbert space if it is [[Complete]]
 
 [[Closest Point Theorem]]
 [[Orthogonal Subspaces]]

@@ -3,4 +3,5 @@ Alternatively
 $$
 ||A||=\sup_{z\in \mathbb{R}^n} \frac{||Az||}{||z||}
 $$
-If $A$ is not negative [[Positive semi-definite]] then $||A||$ is its largest eigenvalue.
+If $A$ is not negative semi-[[Definite]] then $||A||$ is its largest [[Eigenvalue]].
+

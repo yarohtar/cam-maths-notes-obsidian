@@ -1,4 +1,4 @@
-Given a real or complex vector space $X$, 
+Given a real or complex [[Vector Space]] $X$, 
 and an [[Inner Product]] $(,)$ on $X$ we say that $(X,(,))$ 
 is an inner product space.
 [[Orthonormal Sequence]]
@@ -14,4 +14,7 @@ For all $x,y\in X$ we have:
 [[Pythagoras]]
 
 ### Theorem
-Let $(X,(,))$ be an inner product space. Then the completion $\tilde{X}$ of $X$ is also an inner product space
+Let $(X,(,))$ be an inner product space. 
+Then the [[Completion]] $\tilde{X}$ of $X$ is also an inner product space
+
+
