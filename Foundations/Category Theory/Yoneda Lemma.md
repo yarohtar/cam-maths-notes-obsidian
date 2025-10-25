@@ -16,28 +16,38 @@ $$
 (A\xrightarrow{f}B)  & \to(Ff)(x)
 \end{align}
 $$
-Naturality of $\Psi(x)$ follows from [[Functor|functoriality]] of $F$.
+To get naturality of $\Psi$ we need to show for any $f:B\to C$
+$$
+\Psi_{B}(x)\mathcal{C}(A,f) = (Ff) \Psi_{A}(x)
+$$
+i.e. for any $g\in \mathcal{C}(A,B)$:
+$$
+(F(gf))(x) = (Ff)(Fg)(x)
+$$
+which is follows from [[Functor|functoriality]] of $F$.
 We know 
 $$
 \Phi\Psi(x) = \Psi(x)_{A}(1_{A}) = F(1_{A})(x)=x
 $$
-And for all $B$ and $f$
-
+And for all $B$ and $f$ we have a [[Commutative Diagram]]:
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
-C(A,A) \arrow[r,"C(A,f)"] \arrow[d,"\alpha_{A}"]
- & C(A,B) \arrow[d,"\alpha_{B}"] \\
-FA \arrow[r,"f"]
+\mathcal{C}(A,A) \arrow[r,"\mathcal{C}(A{,}f)"] \arrow[d,"\alpha_{A}"]
+ & \mathcal{C}(A,B) \arrow[d,"\alpha_{B}"] \\
+FA \arrow[r,"Ff"]
  & FB
 \end{tikzcd}
 \end{document}
 ```
-
-**
+so we can calculate:
 $$
 \Psi(\Phi(\alpha))_{B}(A\xrightarrow{f}B)=(Ff)(\Phi(\alpha))=(Ff)\alpha_{A}(1_{A})=\alpha_{B}\mathcal{C}(A,f)(1_{A})=\alpha_{B}(f)
+$$
+i.e. 
+$$
+\Psi(\Phi(\alpha))=\alpha
 $$
 So $\Phi$ and $\Psi$ are inverse bijections.
 
