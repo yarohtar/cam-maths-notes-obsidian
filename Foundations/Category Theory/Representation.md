@@ -7,6 +7,18 @@ We call $x$ a [[Universal Element]] of $F$
 If $(A,x)$ and $(B,y)$ are both representations of $F:\mathcal{C}\to \mathrm{Set}$ 
 then there is a unique [[Isomorphism]] $A\xrightarrow{f}B$ in $\mathcal{C}$ such that $Ff(x)=y$.
 #### Proof
+Let $f:A\to B$.
+Let $\mathcal{C}(f,\cdot):\mathcal{C}(B,\cdot)\to \mathcal{C}(A,\cdot)$ be its image under the [[Yoneda Embedding]]
+Also let $\Psi^{A}$ be the bijection between elements of $FA$
+and [[Natural Transformation]]s $\mathcal{C}(A,\cdot)\to F$ given by [[Yoneda Lemma]]
+and similarly $\Psi^{B}$.
+Now $\Psi^{A}(x):\mathcal{C}(A,\cdot)\to F$ 
+is sending [[Object]] $C\in \mathcal{C}$ 
+to a mapping $\mathcal{C}(A,C)\to FC$ given by $(A\xrightarrow{g}C)\to(Fg)(x)$
+
+Similarly, $\Psi^{B}(y):\mathcal{C}(B,\cdot)\to F$
+is sending $C\in \mathcal{C}$
+to a mapping $\mathcal{C}(B,C)\to FC$ given by $(B\xrightarrow{g}C)\to(Fg)(y)$
 
 The [[Epimorphism]] $Ff(x)=y$ is equivalent to saying that
 ```tikz
