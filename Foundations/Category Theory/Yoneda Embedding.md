@@ -10,16 +10,6 @@ $$
 \end{align}
 $$
 where $\mathcal{C}(A,\cdot)$ is the [[Hom-Functor]].
-### In words
-The Yoneda embedding is a [[Functor]] from $\mathcal{C}^{op}$ to $[\mathcal{C},\mathrm{Set}]$
-Sending each object $A\in \operatorname{ob}\mathcal{C}$ to a [[Hom-Functor]] $\mathcal{C}(A,\cdot)$
-And sending each [[Morphism]] $B\xrightarrow{f}A$
-to a [[Natural Transformation]] $\mathcal{C}(A,\cdot)\to \mathcal{C}(B,\cdot)$
-In particular, this [[Natural Transformation]] assigns to each [[Object]] $C\in \operatorname{ob}\mathcal{C}$
-a [[Morphism]] in $\mathrm{Set}$ from $\mathcal{C}(A,C)\to \mathcal{C}(B,C)$.
-[[Morphism]]s in [[Category of Sets]] are functions between them,
-so in particular, for any $g\in \mathcal{C}(A,C)$ we assign it $gf\in \mathcal{C}()$
-
 
 Alternatively, it is the assignment $B\to \mathcal{C}(\cdot,B)$ and
 $$
@@ -29,7 +19,16 @@ $$
 (C\xrightarrow{g}B)  & \to (C\xrightarrow{fg}A)
 \end{align}
 $$
-
+### In words
+The Yoneda embedding is a [[Functor]] from $\mathcal{C}^{op}$ to $[\mathcal{C},\mathrm{Set}]$ (see [[#Lemma]])
+sending each object $A\in \operatorname{ob}\mathcal{C}$ to a [[Hom-Functor]] $\mathcal{C}(A,\cdot)$
+and sending each [[Morphism]] $B\xrightarrow{f}A$
+to a [[Natural Transformation]] $\mathcal{C}(A,\cdot)\to \mathcal{C}(B,\cdot)$.
+In particular, this [[Natural Transformation]] corresponding to $B\xrightarrow{f}A$
+assigns to each [[Object]] $C\in \operatorname{ob}\mathcal{C}$
+a [[Morphism]] between [[Hom-Set]]s $\mathcal{C}(A,C)\to \mathcal{C}(B,C)$ 
+[[Morphism]]s in the [[Category of Sets]] are just functions between them,
+so in particular, for any $g\in \mathcal{C}(A,C)$ we assign it a $gf\in \mathcal{C}(B,C)$
 ### Lemma
 The Yoneda embedding defines a [[Full]] and [[Faithfull]] [[Functor]] $\mathcal{C}^{op}\to[\mathcal{C},\mathrm{Set}]$
 ### Proof
