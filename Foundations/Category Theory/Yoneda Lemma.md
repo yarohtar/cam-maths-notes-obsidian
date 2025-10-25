@@ -5,24 +5,40 @@ Then there is a bijection between
 and elements of $FA$.
 Moreover, the bijection is a [[Natural Transformation]] in $A$ and $F$.
 ### Proof
-Given $\alpha:\mathcal{C}(A,\cdot)\to F$ 
+Given $\alpha:\mathcal{C}(A,\cdot)\to F$ a [[Natural Transformation]]
 Note that $\mathcal{C}(A,A)\xrightarrow{\alpha_{A}}FA$
-we define $\Phi(\alpha)=\alpha_{A}(1_{A})\in FA$
-Given $x\in FA$ we define $\Psi(x):\mathcal{C}(A,\cdot)\to F$ 
-by
+so define $\Phi(\alpha)=\alpha_{A}(1_{A})\in FA$
+Given $x\in FA$ 
+we define a [[Natural Transformation]] $\Psi(x):\mathcal{C}(A,\cdot)\to F$ by
 $$
-\Psi(x)_{B}(A\xrightarrow{f}B) = (Ff)(x)\in FB
+\begin{align}
+\Psi(x)_{B} : \mathcal{C}(A,B) & \to FB \\
+(A\xrightarrow{f}B)  & \to(Ff)(x)
+\end{align}
 $$
 Naturality of $\Psi(x)$ follows from [[Functor|functoriality]] of $F$.
 We know 
 $$
 \Phi\Psi(x) = \Psi(x)_{A}(1_{A}) = F(1_{A})(x)=x
 $$
-And 
+And for all $B$ and $f$
+
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
+C(A,A) \arrow[r,"C(A,f)"] \arrow[d,"\alpha_{A}"]
+ & C(A,B) \arrow[d,"\alpha_{B}"] \\
+FA \arrow[r,"f"]
+ & FB
+\end{tikzcd}
+\end{document}
+```
+
+**
 $$
-\Psi\Phi(\alpha)_{B}(A\xrightarrow{f}B)=(Ff)(\Phi(\alpha))=(Ff)\alpha_{A}(1_{A})=\alpha_{B}(\mathcal{C}(Af)(1_{A}))=\alpha_{B}(f)
+\Psi(\Phi(\alpha))_{B}(A\xrightarrow{f}B)=(Ff)(\Phi(\alpha))=(Ff)\alpha_{A}(1_{A})=\alpha_{B}\mathcal{C}(A,f)(1_{A})=\alpha_{B}(f)
 $$
-for all $B$ and $f$
 So $\Phi$ and $\Psi$ are inverse bijections.
 
 
