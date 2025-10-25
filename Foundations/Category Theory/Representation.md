@@ -17,7 +17,8 @@ $$
 (B\xrightarrow{g}C)\to(A\xrightarrow{gf}C)
 $$
 Also let $\Psi^{A}$ be the bijection between elements of $FA$
-and [[Natural Transformation]]s $\mathcal{C}(A,\cdot)\to F$ given by [[Yoneda Lemma]]
+and [[Natural Transformation]]s $\mathcal{C}(A,\cdot)\to F$ given by [[Yoneda Lemma]].
+In particular $\Psi^{A}(x)$ is a [[Natural Isomorphism]].
 Now $\Psi^{A}(x)_{C}:\mathcal{C}(A,C)\to FC$ 
 is a function given by:
 $$
@@ -33,35 +34,50 @@ Consider the diagram
 \usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
-\mathcal{C}(B,C) \arrow[]
+\mathcal{C}(B,C) \arrow[rr, "\mathcal{C}(f{,}C)"] \arrow[dr, swap, "\Psi^{B}(y)_{C}"]
+&& \mathcal{C}(A,C) \arrow[dl, "\Psi^{A}(x)_{C}"] \\
+& FC
 \end{tikzcd}
 \end{document}
 ```
 
-
-Thus let $C=B$ and $g=f$ to find 
+This is a [[Commutative Diagram]]
+if and only if
+for any $B\xrightarrow{g}C$ we have:
 $$
-\Psi^{A}(x)_{B}(f) = (Ff)(x) = y
+(Fgf)(x) = (Fg)(y)
 $$
-
-
-Similarly, $\Psi^{B}(y):\mathcal{C}(B,\cdot)\to F$
-is sending $C\in \mathcal{C}$
-to a mapping $\mathcal{C}(B,C)\to FC$ given by $(B\xrightarrow{g}C)\to(Fg)(y)$
-
-The [[Epimorphism]] $Ff(x)=y$ is equivalent to saying that
+Thus if $f$ is such that $f(x)=y$ then this diagram commutes for any $C$.
+But then the following is also a [[Commutative Diagram]]
+(of [[Natural Transformation]]s in $[\mathcal{C},\mathrm{Set}]$) 
 ```tikz
 \usepackage{tikz-cd}
 
 \begin{document}
 \begin{tikzcd}
-\mathcal{C}(B,\cdot) \arrow[rr,"\mathcal{C}(f{,}\cdot)"] \arrow[dr,swap,"\Psi(y)"] 
+\mathcal{C}(B,\cdot) \arrow[rr,"\mathcal{C}(f{,}\cdot)"] \arrow[dr,swap,"\Psi^{B}(y)"] 
 &&
-\mathcal{C}(A,\cdot) \arrow[dl,"\Psi(x)"] \\
+\mathcal{C}(A,\cdot) \arrow[dl,"\Psi^{A}(x)"] \\
 & F
 \end{tikzcd}
 \end{document}
 ```
-commutes.
-So $f$ must be the unique [[Isomorphism]] in $\mathcal{C}$ 
-whose image under the [[Yoneda Embedding]] is $\Psi(x)^{-1}\Psi(y)$
+So if $f(x)=y$ then it has to be that $\mathcal{C}(f,\cdot)=\Psi^{A}(x)^{-1}\Psi^{B}(y)$.
+But [[Yoneda Embedding]] is [[Faithfull]] so $f$ is unique.
+
+Also [[Yoneda Embedding]] is [[Full]] so there is some $f$ such that 
+$$
+\mathcal{C}(f,\cdot) = \Psi^{A}(x)^{-1}\Psi^{B}(y)
+$$
+which then implies that for any $C$ and $B\xrightarrow{g}C$:
+$$
+(Fgf)(x)=(Fg)(y)
+$$
+i.e. we have to have $(Ff)(x)=y$
+It is also [[Isomorphic]], as $\Psi^{A}(x)$ and $\Psi^{B}(y)$ are [[Natural Isomorphism]]s,
+so
+$$
+\mathcal{C}(f,\cdot)^{-1}=\mathcal{C}(f^{-1},\cdot)=\Psi^{B}(y)^{-1}\Psi^{A}(x)
+$$
+
+
