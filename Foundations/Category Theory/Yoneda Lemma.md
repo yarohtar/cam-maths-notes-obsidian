@@ -1,11 +1,13 @@
 Let $A$ be an [[Object]] of a [[Locally Small]] [[Category]] $\mathcal{C}$ 
 and let $F:\mathcal{C}\to \mathrm{Set}$ be a [[Functor]] to [[Category of Sets]]
-Then:
-1. there is a bijection between [[Natural Transformation]] $\mathcal{C}(A,\cdot)\to F$ 
-   and elements of $FA$
-2. Moreover, the bijection is [[Natural Transformation]] in $A$ and $F$.
+Then there is a bijection between
+[[Natural Transformation]]s $\mathcal{C}(A,\cdot)\to F$ (where $\mathcal{C}(A,\cdot)$ is [[Hom-Functor]])
+and elements of $FA$.
+Moreover, the bijection is a [[Natural Transformation]] in $A$ and $F$.
 ### Proof
-Given $\alpha:\mathcal{C}(A,\cdot)\to F$ we define $\Phi(\alpha)=\alpha_{A}(1_{A})\in FA$
+Given $\alpha:\mathcal{C}(A,\cdot)\to F$ 
+Note that $\mathcal{C}(A,A)\xrightarrow{\alpha_{A}}FA$
+we define $\Phi(\alpha)=\alpha_{A}(1_{A})\in FA$
 Given $x\in FA$ we define $\Psi(x):\mathcal{C}(A,\cdot)\to F$ 
 by
 $$
