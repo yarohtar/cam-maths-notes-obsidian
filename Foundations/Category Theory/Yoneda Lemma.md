@@ -17,6 +17,25 @@ $$
 \end{align}
 $$
 there is a [[Natural Isomorphism]] between them.
+This [[Natural Isomorphism]] is given by:
+$$
+\begin{align}
+\Phi_{(A,F)}: [\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-), F)  & \to FA  \\
+\alpha & \to \alpha_{A}(1_{A})
+\end{align}
+$$
+and its inverse is given by:
+$$
+\begin{align}
+\Psi_{(A,F)}: FA &  \to [\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F) \\
+x & \to \left(\mathcal{C}(A,-)\xrightarrow{\Psi_{(A,F)}(x)}F\right) \\
+\alpha_{B}(A\xrightarrow{f}B)=(Ff)(x)
+\end{align}
+$$
+where
+$$
+\Psi_{(A,F)}(x)_{B}(A\xrightarrow{f}B) = 
+$$
 ### what is actually written here?
 In a way, given $A$ from $\mathcal{C}$ and $F$ from $[\mathcal{C},\mathrm{Set}]$,
 there is only two ways to make a set out of them.
@@ -33,8 +52,6 @@ which is also $F':\mathcal{C}\to \mathrm{Set}$
 Then we could define $F'',F''',\dots$
 Yoneda lemma says that there are [[Natural Isomorphism]]s between these,
 so we don't need to worry about the infinite tower.
-
-
 ### Proof
 Given $\alpha:\mathcal{C}(A,-)\to F$ a [[Natural Transformation]]
 Note that $\mathcal{C}(A,A)\xrightarrow{\alpha_{A}}FA$
