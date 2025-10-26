@@ -1,7 +1,15 @@
 Suppose a [[Functor]] $F:\mathcal{C}\to \mathrm{Set}$ is [[Representable]].
-Then $F$ is [[Isomorphic]] to some $\mathcal{C}(A,\cdot)$.
+Then $F$ is [[Isomorphic]] to some $\mathcal{C}(A,-)$.
+We say that $(A,\alpha)$ is a representation of $F$
+where $\alpha$ is a [[Natural Isomorphism]]
+$$
+\alpha:\mathcal{C}(A,-) \to F
+$$
+
+
+
 By the [[Yoneda Lemma]], there is some $x\in FA$ 
-such that $\Psi(x)$ is a [[Natural Isomorphism]] $\mathcal{C}(A,\cdot)\to F$
+such that $\Psi(x)$ is a [[Natural Isomorphism]] $\mathcal{C}(A,-)\to F$
 We call $(A,x)$ the representation of $F$.
 We call $x$ a [[Universal Element]] of $F$
 ### Corollary
