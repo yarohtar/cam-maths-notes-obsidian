@@ -9,5 +9,10 @@
 [[Product]]
 [[Coproduct]]
 [[Equalizer]]
+[[Coequalizer]]
+
+[[Separating Family]]
+[[Detecting Family]]
+
 
 
