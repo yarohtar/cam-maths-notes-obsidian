@@ -27,7 +27,7 @@ where
 $$
 \alpha_{B}(A\xrightarrow{f}B)=(Ff)(x)
 $$
-If $[\mathcal{C},\mathrm{Set}]$ is locally small, we could say:
+If $[\mathcal{C},\mathrm{Set}]$ is [[Locally Small]], we could say:
 given the functors
 $$
 \begin{align}
@@ -36,10 +36,8 @@ $$
 \end{align}
 $$
 there is a [[Natural Isomorphism]] between them in the category $[\mathcal{C}\times[\mathcal{C},\mathrm{Set}],\mathrm{Set}]$.
-But we would be perfectly fine in just stating
-$$
-\Phi
-$$
+But we would be perfectly fine in just stating the naturality in elementary terms 
+when $[\mathcal{C},\mathrm{Set}]$ is not [[Locally Small]].
 ### what is actually written here?
 In a way, given $A$ from $\mathcal{C}$ and $F$ from $[\mathcal{C},\mathrm{Set}]$,
 there is only two ways to make a set out of them.
