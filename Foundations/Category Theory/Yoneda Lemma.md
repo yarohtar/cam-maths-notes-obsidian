@@ -8,16 +8,8 @@ is [[Isomorphic]] to $FA$:
 $$
 [\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F) \cong FA
 $$
-Moreover, this [[Isomorphism]] is natural in both $A$ and $F$ i.e.
-given the functors
-$$
-\begin{align}
-[\mathcal{C},\mathrm{Set}](\mathcal{C}(\bullet_{1},-), \bullet_{2})  & : \mathcal{C}\times[\mathcal{C},\mathrm{Set}] \to \mathrm{Set} \\
-\bullet_{2}\bullet_{1}  & : \mathcal{C}\times[\mathcal{C},\mathrm{Set}] \to \mathrm{Set}
-\end{align}
-$$
-there is a [[Natural Isomorphism]] between them in the category $[\mathcal{C}\times[\mathcal{C},\mathrm{Set}],\mathrm{Set}]$ 
-This [[Natural Isomorphism]] is given by:
+Moreover, this [[Isomorphism]] is natural in both $A$ and $F$.
+This natural mapping is given by:
 $$
 \begin{align}
 \Phi_{(A,F)}: [\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-), F)  & \to FA  \\
@@ -34,6 +26,19 @@ $$
 where
 $$
 \alpha_{B}(A\xrightarrow{f}B)=(Ff)(x)
+$$
+If $[\mathcal{C},\mathrm{Set}]$ is locally small, we could say:
+given the functors
+$$
+\begin{align}
+[\mathcal{C},\mathrm{Set}](\mathcal{C}(\bullet_{1},-), \bullet_{2})  & : \mathcal{C}\times[\mathcal{C},\mathrm{Set}] \to \mathrm{Set} \\
+\bullet_{2}\bullet_{1}  & : \mathcal{C}\times[\mathcal{C},\mathrm{Set}] \to \mathrm{Set}
+\end{align}
+$$
+there is a [[Natural Isomorphism]] between them in the category $[\mathcal{C}\times[\mathcal{C},\mathrm{Set}],\mathrm{Set}]$.
+But we would be perfectly fine in just stating
+$$
+\Phi
 $$
 ### what is actually written here?
 In a way, given $A$ from $\mathcal{C}$ and $F$ from $[\mathcal{C},\mathrm{Set}]$,

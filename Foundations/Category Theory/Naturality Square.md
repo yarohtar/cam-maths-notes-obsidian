@@ -1,3 +1,5 @@
+Given two mappings $F$ and $G$
+
 Given two [[Category|Categories]] $\mathcal{C}$ and $\mathcal{D}$,
 and two [[Functor|functors]] $\mathcal{C}\xrightarrow{F,G}\mathcal{D}$,
 and a [[Natural Transformation]] $F\xrightarrow{\alpha}G$ between them,
