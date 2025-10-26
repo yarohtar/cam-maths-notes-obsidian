@@ -18,6 +18,12 @@ $$
 $$
 there is a [[Natural Isomorphism]] between them.
 ### what is actually written here?
+In a way, given $A$ from $\mathcal{C}$ and $F$ from $[\mathcal{C},\mathrm{Set}]$,
+there is only two ways to make a set out of them.
+The obvious one is $FA$.
+The other way is the set of [[Natural Transformation]]s from $\mathcal{C}(A,-)$ to $F$.
+Yoneda says that these two ways are the same "in a natural way".
+
 Suppose that for a [[Functor]] $F:\mathcal{C}\to \mathrm{Set}$ we could define a functor
 $$
 F'=[\mathcal{C},\mathrm{Set}](\mathcal{C}(\bullet,-),F)
