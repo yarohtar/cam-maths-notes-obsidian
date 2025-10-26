@@ -3,7 +3,7 @@ A product of $A$ and $B$ is an [[Object]] $A\times B$
 together with [[Morphism]]s $\pi_{1}:A\times B\to A$ and $\pi_{2}:A\times B\to B$
 with the universal property that 
 for any $X$ with maps $p_{1}:X\to A$ and $p_{2}:X\to B$
-there exists a unique [[Isomorphism]] $f:X\to A\times B$
+there exists a unique $f:X\to A\times B$
 such that we have a [[Commutative Diagram]]
 ```tikz
 \usepackage{tikz-cd}

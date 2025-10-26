@@ -1,0 +1,1 @@
+Given $A\xrightarrow{f,g}B$ 

@@ -7,5 +7,7 @@
 [[Yoneda Lemma]]
 
 [[Product]]
+[[Coproduct]]
+[[Equalizer]]
 
 
