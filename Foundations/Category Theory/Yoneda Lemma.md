@@ -16,7 +16,7 @@ $$
 \bullet_{2}\bullet_{1}  & : \mathcal{C}\times[\mathcal{C},\mathrm{Set}] \to \mathrm{Set}
 \end{align}
 $$
-there is a [[Natural Isomorphism]] between them.
+there is a [[Natural Isomorphism]] between them in the category $[\mathcal{C}\times[\mathcal{C},\mathrm{Set}],\mathrm{Set}]$ 
 This [[Natural Isomorphism]] is given by:
 $$
 \begin{align}
@@ -103,15 +103,21 @@ $$
 as desired.
 
 Now let us verify that $\Phi$ is a [[Natural Transformation]].
-Consider $A\xrightarrow{f}A'$ and $F\xrightarrow{\alpha}F'$ and the diagram:
+Note that $\Phi$ will automatically be a [[Natural Isomorphism]]
+because we have verified that $\Phi_{(A,F)}$ is always an [[Isomorphism]],
+and by uniqueness of inverses, $\Psi$ will also be a [[Natural Isomorphism]].
+
+Consider first $A\xrightarrow{f}A'$ and the diagram:
 ```tikz
 \usepackage{tikz-cd}
-\usepackage{amssym}
 \begin{document}
-\begin{tikzcd}
-[\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F) \arrow[r,"(f{,}1)"] \arrow[d,"\alpha_{(A{,}F)}"]
- & [\mathcal{C},\mathrm{Set}](\mathcal{C}(A',-),F) \arrow[d,"\alpha_{(A'{,}F)}"] \\
-FA \arrow[r,"(Ff{,}1)"]
+\begin{tikzcd}[column sep=huge]
+{[\mathcal{C},\mathrm{Set}]}(\mathcal{C}(A,-),F) 
+\arrow[r,"\mathcal{C}(f{,}-)\cdot \bullet"] 
+\arrow[d,"\Phi_{(A{,}F)}"]
+ & {[\mathcal{C},\mathrm{Set}]}(\mathcal{C}(A',-),F) 
+ \arrow[d,"\Phi_{(A'{,}F)}"] \\
+FA \arrow[r,"Ff"]
  & FA'
 \end{tikzcd}
 \end{document}
