@@ -61,14 +61,16 @@ $$
 ### Example
 The [[Covariant]] [[Power Set Functor]] $P:\mathrm{Set}\to \mathrm{Set}$
 is not representable.
-Suppose it was, so that there is a [[Natural Isomorphism]] $\alpha$
-from $\mathrm{Set}(A,-)$ to $P$ for some set $A$.
-By [[Yoneda Lemma]], we ought to have 
+Let $A$ be any set and $\alpha$ any [[Natural Transformation]] $\mathrm{Set}(A,-)\to P$ 
+Then for a set $B$, we have that $\alpha_{B}$ is a function:
 $$
-\alpha_{B}(A\xrightarrow{f}B) = (Pf)(x)
+\mathrm{Set}(A,B) \longrightarrow PB
 $$
-for some $x\subseteq A$.
 Try $B=1$, noting that $PB=2$.
-
+But clearly $\mathrm{Set}(A,B)$ has only one element,
+so $\alpha_{B}$ is not bijective and thus $\alpha$ is not a [[Natural Isomorphism]]
+(remember that $\alpha$ is a [[Natural Isomorphism]] 
+if and only if 
+each of $\alpha_{B}$ is [[Isomorphic]])
 
 
