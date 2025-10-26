@@ -4,7 +4,6 @@
 [[Representable]]
 [[Representation]]
 [[Yoneda Embedding]]
-
 [[Yoneda Lemma]]
 
 

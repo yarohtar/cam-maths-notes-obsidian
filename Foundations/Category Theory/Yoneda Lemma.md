@@ -1,7 +1,7 @@
 Let $A$ be an [[Object]] of a [[Locally Small]] [[Category]] $\mathcal{C}$.
 Let $\mathcal{C}(A,-)$ be a [[Hom-Functor]] $\mathcal{C}\to \mathrm{Set}$.
 and let $F:\mathcal{C}\to \mathrm{Set}$ be a [[Functor]] to [[Category of Sets]].
-These are objects in the [[Category of Functors]] $[\mathcal{C},\mathrm{Set}]$.
+These are both objects in the [[Category of Functors]] $[\mathcal{C},\mathrm{Set}]$.
 
 Yoneda lemma says that the set of [[Natural Transformation]]s $\mathcal{C}(A,-)\to F$
 is [[Isomorphic]] to $FA$:
@@ -173,4 +173,5 @@ and thus $\Phi$ is natural in $F$.
 So $\Phi$ is natural in $A$ for any $F$
 and it is natural in $F$ for any $A$
 so we conclude that $\Phi$ is natural in $(A,F)$
-
+(we can also see this by substituting $A\to A'$ in the second square
+and then gluing the two squares together).

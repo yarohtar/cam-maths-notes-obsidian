@@ -30,7 +30,7 @@ Follows from [[Associativity]] of composition in $\mathcal{C}$.
 The Yoneda embedding defines a [[Full]] and [[Faithfull]] [[Functor]] $\mathcal{C}^{op}\to[\mathcal{C},\mathrm{Set}]$
 ### Proof
 Putting $F=\mathcal{C}(B,-)$ in [[Yoneda Lemma]], 
-we find that the Yoneda embedding is a bijection from $\mathcal{C}(B,A)$ 
+we find that the Yoneda embedding is a bijection from the set $\mathcal{C}(B,A)$ 
 to the collection of [[Natural Transformation]]s $\mathcal{C}(A,-)\to \mathcal{C}(B,-)$
 Thus this will automatically be [[Full]] and [[Faithfull]].
 
