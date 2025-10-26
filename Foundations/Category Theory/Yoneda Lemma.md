@@ -28,13 +28,12 @@ and its inverse is given by:
 $$
 \begin{align}
 \Psi_{(A,F)}: FA &  \to [\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F) \\
-x & \to \left(\mathcal{C}(A,-)\xrightarrow{\Psi_{(A,F)}(x)}F\right) \\
-\alpha_{B}(A\xrightarrow{f}B)=(Ff)(x)
+x & \to \left(\mathcal{C}(A,-)\xrightarrow{\alpha}F\right) \\
 \end{align}
 $$
 where
 $$
-\Psi_{(A,F)}(x)_{B}(A\xrightarrow{f}B) = 
+\alpha_{B}(A\xrightarrow{f}B)=(Ff)(x)
 $$
 ### what is actually written here?
 In a way, given $A$ from $\mathcal{C}$ and $F$ from $[\mathcal{C},\mathrm{Set}]$,
@@ -53,50 +52,68 @@ Then we could define $F'',F''',\dots$
 Yoneda lemma says that there are [[Natural Isomorphism]]s between these,
 so we don't need to worry about the infinite tower.
 ### Proof
-Given $\alpha:\mathcal{C}(A,-)\to F$ a [[Natural Transformation]]
-Note that $\mathcal{C}(A,A)\xrightarrow{\alpha_{A}}FA$
-so define $\Phi(\alpha)=\alpha_{A}(1_{A})\in FA$
-Given $x\in FA$ 
-we define a [[Natural Transformation]] $\Psi(x):\mathcal{C}(A,-)\to F$ by
+Firstly, fix $(A,F)$ and call $\Phi=\Phi_{(A,F)}$ and $\Psi=\Psi_{(A,F)}$.
+We need to prove:
 $$
-\begin{align}
-\Psi(x)_{B} : \mathcal{C}(A,B) & \to FB \\
-(A\xrightarrow{f}B)  & \to(Ff)(x)
-\end{align}
+\Phi \Psi=1_{FA}
 $$
-To get naturality of $\Psi$ we need to show for any $f:B\to C$
+and
 $$
-\Psi_{B}(x)\mathcal{C}(A,f) = (Ff) \Psi_{A}(x)
+\Psi \Phi = 1_{[\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F)}
 $$
-i.e. for any $g\in \mathcal{C}(A,B)$:
+Firstly, let $x\in FA$:
 $$
-(F(gf))(x) = (Ff)(Fg)(x)
+\begin{gather}
+\Phi(\Psi(x)) = \Psi(x)_{A}(1_{A}) = (F 1_{A})(x) = 1_{FA}(x)
+\end{gather}
 $$
-which is follows from [[Functor|functoriality]] of $F$.
-We know 
+Now let $\alpha:\mathcal{C}(A,-)\to F$ be a [[Natural Transformation]].
 $$
-\Phi\Psi(x) = \Psi(x)_{A}(1_{A}) = F(1_{A})(x)=x
+\Psi(\Phi(\alpha))=\Psi(\alpha_{A}(1_{A}))
 $$
-And for all $B$ and $f$ we have a [[Commutative Diagram]]:
+For any [[Morphism]] $A\xrightarrow{f}B$ in $\mathcal{C}$ we have:
+$$
+\Psi(\Phi(\alpha))_{B}(f) = (Ff)(\alpha_{A}(1_{A}))
+$$
+The [[Naturality Square]] of $\alpha$ at $f$ is:
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
 \mathcal{C}(A,A) \arrow[r,"\mathcal{C}(A{,}f)"] \arrow[d,"\alpha_{A}"]
- & \mathcal{C}(A,B) \arrow[d,"\alpha_{B}"] \\
+ & \mathcal{C}(A{,}B) \arrow[d,"\alpha_{B}"] \\
 FA \arrow[r,"Ff"]
  & FB
 \end{tikzcd}
 \end{document}
 ```
-so we can calculate:
+Thus
 $$
-\Psi(\Phi(\alpha))_{B}(A\xrightarrow{f}B)=(Ff)(\Phi(\alpha))=(Ff)\alpha_{A}(1_{A})=\alpha_{B}\mathcal{C}(A,f)(1_{A})=\alpha_{B}(f)
+(Ff)\alpha_{A} = \alpha_{B}( \mathcal{C}(A,f))
 $$
-i.e. 
+where $\mathcal{C}(A,f)$ is actually just $f\cdot$
+Thus
 $$
-\Psi(\Phi(\alpha))=\alpha
+\begin{align}
+\Psi(\Phi(\alpha))_{B}(f) & = \alpha_{B} (f 1_{A}) = \alpha_{B}(f)  \\
+\Psi \Phi(\alpha)  & = \alpha \\
+\Psi \Phi  & = 1_{[\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F)}
+\end{align}
 $$
-So $\Phi$ and $\Psi$ are inverse bijections.
+as desired.
 
+Now let us verify that $\Phi$ is a [[Natural Transformation]].
+Consider $A\xrightarrow{f}A'$ and $F\xrightarrow{\alpha}F'$ and the diagram:
+```tikz
+\usepackage{tikz-cd}
+\usepackage{amssym}
+\begin{document}
+\begin{tikzcd}
+[\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F) \arrow[r,"(f{,}1)"] \arrow[d,"\alpha_{(A{,}F)}"]
+ & [\mathcal{C},\mathrm{Set}](\mathcal{C}(A',-),F) \arrow[d,"\alpha_{(A'{,}F)}"] \\
+FA \arrow[r,"(Ff{,}1)"]
+ & FA'
+\end{tikzcd}
+\end{document}
+```
 
