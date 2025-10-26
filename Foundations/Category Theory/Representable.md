@@ -5,6 +5,14 @@ i.e. there is some [[Natural Isomorphism]] $\mathcal{C}(A,-)\to F$
 We also say a [[Contravariant]] [[Functor]] $F:\mathcal{C}\to \mathrm{Set}$ is representable 
 if it's [[Isomorphic]] to the the [[Contravariant]] [[Hom-Functor]] $\mathcal{C}(-,A)$ for some $A$.
 
+In each of the following examples, 
+we will find that the [[Natural Isomorphism]] $\alpha$ at some object $B$
+looks like 
+$$
+\alpha_{B}(A\xrightarrow{f}B)=(Ff)(x)
+$$
+where $x$ is some element of $FA$.
+This is the key to [[Yoneda Lemma]].
 ### Example
 The identity functor $1_{\mathrm{Set}}:\mathrm{Set}\to \mathrm{Set}$ is representable.
 In particular, take the functor $\mathrm{Set}(1,-)$.
@@ -27,28 +35,40 @@ $$
 $$
 Note that we needed to "forget" that $f$ is a [[Homomorphism]],
 in order to be able to use it as a normal function between sets $U(\mathbb{Z})$ and $U(G)$.
-We can then check that $\alpha$ is a [[Natural Isomorphism]]
+We can then check that $\alpha$ is a [[Natural Isomorphism]].
 
-
-with [[Representation]] $(\mathbb{Z},1)$.
-That is, for any [[Group]]s $G,H\in \operatorname{ob}\mathrm{Gp}$
-with a [[Homomorphism]] $f:G\to H$ 
-we can have a [[Natural Isomorphism]] $\alpha$
-and a [[Commutative Diagram]]
-```tikz
-\usepackage{tikz-cd}
-\usepackage{amssymb}
-\begin{document}
-\begin{tikzcd}
-\mathcal{C}(\mathbb{Z},G) \arrow[r,"\mathcal{C}(\mathbb{Z}{,}f)"] \arrow[d,"\alpha_{G}"]
- & \mathcal{C}(\mathbb{Z},H) \arrow[d,"\alpha_{H}"] \\
-FG \arrow[r,"Ff"]
- & FH
-\end{tikzcd}
-\end{document}
-```
-where $\alpha_{G}$ sends a [[Homomorphism]] $g:\mathbb{Z}\to G$
-to the element $g(1)$
+We might also try $\alpha_{G}(\mathbb{Z}\xrightarrow{f}G)=(Uf)(2)$.
+Afterall, this will be a [[Natural Transformation]].
+Can we invert it? No. 
+Consider $G=C_{2}$.
+There is two elements of $\mathrm{Gp}(\mathbb{Z},C_{2})$,
+but both of them give $0$ when evaluated at $2$.
+Thus we cannot differentiate them by their value at $2$.
+The special property of $1$ that allows us to define a [[Natural Isomorphism]]
+is that $1$ is a [[Universal Element]]. 
+### Example
+The [[Contravariant]] [[Power Set Functor]] $P^{*}:\mathrm{Set}\to \mathrm{Set}$
+is representable.
+In particular, try $\mathrm{Set}(-,2)$.
+For any set $A$, we can define $\alpha_{A}:\mathrm{Set}(A,2)\to P^{*}A$ by:
+$$
+\alpha_{A}(A\xrightarrow{f}2) = \{ x\in A: f(x)=1 \}
+$$
+i.e. 
+$$
+\alpha_{A}(A\xrightarrow{f}2) = (P^{*}f)(1)
+$$
+### Example
+The [[Covariant]] [[Power Set Functor]] $P:\mathrm{Set}\to \mathrm{Set}$
+is not representable.
+Suppose it was, so that there is a [[Natural Isomorphism]] $\alpha$
+from $\mathrm{Set}(A,-)$ to $P$ for some set $A$.
+By [[Yoneda Lemma]], we ought to have 
+$$
+\alpha_{B}(A\xrightarrow{f}B) = (Pf)(x)
+$$
+for some $x\subseteq A$.
+Try $B=1$, noting that $PB=2$.
 
 
 
