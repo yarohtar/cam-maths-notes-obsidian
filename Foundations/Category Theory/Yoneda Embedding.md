@@ -1,7 +1,25 @@
 Let $\mathcal{C}$ be a [[Small Category]].
-The Yoneda embedding of $\mathcal{C}$ is the [[Functor]]
+The collection of [[Hom-Functor]]s $\mathcal{C}(A,-)$ when $A\in \operatorname{ob}\mathcal{C}$
+gives us a way to see $\mathcal{C}$ from the perspective of each object $A$.
+It is always the same [[Category]] that's being seen, 
+so there must be something nice that these [[Hom-Functor]]s satisfy.
+
+In particular, each [[Morphism]] $A\xrightarrow{f}B$ in $\mathcal{C}$ induces a [[Natural Transformation]]
 $$
-\mathcal{C}(\bullet,-): \mathcal{C} \to [\mathcal{C}^{op},\mathrm{Set}]
+\mathcal{C}(f,-): \mathcal{C}(B,-)\to \mathcal{C}(A,-)
+$$
+given by $\mathcal{C}(f,-)_{C}=\mathcal{C}(f,C)$ 
+i.e. the [[Contravariant]] [[Hom-Functor]] $\mathcal{C}(-,C)$ evaluated at $f$.
+
+Moreover, for any $A\xrightarrow{f}B\xrightarrow{g}C$ we have
+$$
+\mathcal{C}(fg,-) = \mathcal{C}(f,-) \mathcal{C}(g,-)
+$$
+because 
+
+The Yoneda embedding of $\mathcal{C}$ is the [[Contravariant]] [[Functor]]
+$$
+\mathcal{C}(\bullet,-): \mathcal{C} \to [\mathcal{C},\mathrm{Set}]
 $$
 sending objects $A\in \operatorname{ob}\mathcal{C}$ to [[Hom-Functor]]s $\mathcal{C}(A,-)$, 
 and sending [[Morphism]]s $A\xrightarrow{f}B$ to [[Natural Transformation]]s 
@@ -12,45 +30,37 @@ defined by:
 $$
 \mathcal{C}(f,-)_{C} = \mathcal{C}(f,C) : \mathcal{C}(B,C) \to \mathcal{C}(A,C) 
 $$
-given by $g$
-[[Hom-Functor]]
+given by
+$$
+\mathcal{C}(f,C)(g) = gf
+$$
 
-The Yoneda embedding is the assignment $A\to \mathcal{C}(A,\cdot)$ and 
+Alternatively, the Yoneda embedding is the [[Covariant]] [[Functor]]
 $$
-\begin{align}
-(B\xrightarrow{f}A)
- \longrightarrow 
- \mathcal{C}(f,\cdot): \quad %quad
-\mathcal{C}(A,\cdot)  & \to \mathcal{C}(B,\cdot) \\
- (A\xrightarrow{g}C)  & \to (B\xrightarrow{gf}C)
-\end{align}
+\mathcal{C}(-,\bullet): \mathcal{C} \to [\mathcal{C},\mathrm{Set}]
 $$
-where $\mathcal{C}(A,\cdot)$ is the [[Hom-Functor]].
-
-Alternatively, it is the assignment $B\to \mathcal{C}(\cdot,B)$ and
+sending objects $A\in \operatorname{ob}\mathcal{C}$ to [[Hom-Functor]]s $\mathcal{C}(-,A)$
+and sending [[Morphism]]s $A\xrightarrow{f}B$ to [[Natural Transformation]]s
 $$
-\begin{align}
-(A\xrightarrow{f}B) \longrightarrow \mathcal{C}(\cdot,f): \quad %quad
- \mathcal{C}(\cdot,B)  & \to \mathcal{C}(\cdot,A) \\
-(C\xrightarrow{g}B)  & \to (C\xrightarrow{fg}A)
-\end{align}
+\mathcal{C}(-,f): \mathcal{C}(-,A) \to \mathcal{C}(-,B)
 $$
-### In words
-The Yoneda embedding is a [[Functor]] from $\mathcal{C}^{op}$ to $[\mathcal{C},\mathrm{Set}]$ (see [[#Lemma]])
-sending each object $A\in \operatorname{ob}\mathcal{C}$ to a [[Hom-Functor]] $\mathcal{C}(A,\cdot)$
-and sending each [[Morphism]] $B\xrightarrow{f}A$
-to a [[Natural Transformation]] $\mathcal{C}(A,\cdot)\to \mathcal{C}(B,\cdot)$.
-In particular, this [[Natural Transformation]] corresponding to $B\xrightarrow{f}A$
-assigns to each [[Object]] $C\in \operatorname{ob}\mathcal{C}$
-a [[Morphism]] between [[Hom-Set]]s $\mathcal{C}(A,C)\to \mathcal{C}(B,C)$ 
-[[Morphism]]s in the [[Category of Sets]] are just functions between them,
-so in particular, for any $g\in \mathcal{C}(A,C)$ we assign it a $gf\in \mathcal{C}(B,C)$
+defined by:
+$$
+\mathcal{C}(-,f)_{C} = \mathcal{C}(C,f) : \mathcal{C}(C,A) \to \mathcal{C}(C,B)
+$$
+given by:
+$$
+\mathcal{C}(C,f)(g) = fg
+$$
+### Lemma
+Yoneda embedding is a [[Functor]].
+#### Proof
+Follows from [[Associativity]] of composition in $\mathcal{C}$.
 ### Lemma
 The Yoneda embedding defines a [[Full]] and [[Faithfull]] [[Functor]] $\mathcal{C}^{op}\to[\mathcal{C},\mathrm{Set}]$
 ### Proof
-Putting $F=\mathcal{C}(B,\cdot)$ in [[Yoneda Lemma]], 
-we find that the Yoneda Embedding is a bijection from $\mathcal{C}(B,A)$ 
-to the collection of [[Natural Transformation]]s $\mathcal{C}(A,\cdot)\to \mathcal{C}(B,\cdot)$
+Putting $F=\mathcal{C}(B,-)$ in [[Yoneda Lemma]], 
+we find that the Yoneda embedding is a bijection from $\mathcal{C}(B,A)$ 
+to the collection of [[Natural Transformation]]s $\mathcal{C}(A,-)\to \mathcal{C}(B,-)$
 Thus this will automatically be [[Full]] and [[Faithfull]].
-The [[Functor|functoriality]] of this follows from [[Associativity]] of composition in $\mathcal{C}$
 
