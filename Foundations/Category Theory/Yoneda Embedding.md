@@ -1,4 +1,20 @@
 Let $\mathcal{C}$ be a [[Small Category]].
+The Yoneda embedding of $\mathcal{C}$ is the [[Functor]]
+$$
+\mathcal{C}(\bullet,-): \mathcal{C} \to [\mathcal{C}^{op},\mathrm{Set}]
+$$
+sending objects $A\in \operatorname{ob}\mathcal{C}$ to [[Hom-Functor]]s $\mathcal{C}(A,-)$, 
+and sending [[Morphism]]s $A\xrightarrow{f}B$ to [[Natural Transformation]]s 
+$$
+\mathcal{C}(f,-):\mathcal{C}(B,-)\to \mathcal{C}(A,-)
+$$
+defined by:
+$$
+\mathcal{C}(f,-)_{C} = \mathcal{C}(f,C) : \mathcal{C}(B,C) \to \mathcal{C}(A,C) 
+$$
+given by $g$
+[[Hom-Functor]]
+
 The Yoneda embedding is the assignment $A\to \mathcal{C}(A,\cdot)$ and 
 $$
 \begin{align}

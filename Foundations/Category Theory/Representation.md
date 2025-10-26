@@ -5,14 +5,14 @@ where $\alpha$ is a [[Natural Isomorphism]]
 $$
 \alpha:\mathcal{C}(A,-) \to F
 $$
-
-
-
-By the [[Yoneda Lemma]], there is some $x\in FA$ 
-such that $\Psi(x)$ is a [[Natural Isomorphism]] $\mathcal{C}(A,-)\to F$
-We call $(A,x)$ the representation of $F$.
-We call $x$ a [[Universal Element]] of $F$
-### Corollary
+By [[Yoneda Lemma]], there is some element $x\in FA$ such that
+$$
+\alpha_{B}(A\xrightarrow{f}B) = (Ff)(x)
+$$
+for any $B\in \operatorname{ob}\mathcal{C}$. 
+In this case, we also say that $(A,x)$ is a representation of $F$.
+We also call $x$ a [[Universal Element]].
+### Lemma
 If $(A,x)$ and $(B,y)$ are both representations of $F:\mathcal{C}\to \mathrm{Set}$ 
 then there is a unique [[Isomorphism]] $A\xrightarrow{f}B$ in $\mathcal{C}$ such that $(Ff)(x)=y$.
 #### Proof
