@@ -1,4 +1,10 @@
 Let $\mathcal{C}$ be [[Locally Small]].
+We define the [[Covariant]] hom-functor to be:
+$$
+\mathcal{C}(A,\cdot):\mathcal{C}\to \mathrm{Set}
+$$
+We send each object $B\in\operatorname{ob}\mathcal{C}$ to the [[Hom-Set]] $\mathcal{C}(A,B)$
+
 Then $\mathcal{C}(A,\cdot):\mathcal{C}\to \mathrm{Set}$ called the [[Covariant]] hom-functor 
 is defined by sending $B\in \operatorname{ob}\mathcal{C}$ to the [[Hom-Set]] $\mathcal{C}(A,B)$
 and sending [[Morphism]]s $g:B\to C$ (i.e. $g\in \mathcal{C}(B,C)$)

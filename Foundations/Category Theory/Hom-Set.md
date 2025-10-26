@@ -1,6 +1,7 @@
-In a [[Locally Small]] [[Category]] $\mathcal{C}$, the set
+In a [[Category]] $\mathcal{C}$, we write
 $$
 \mathcal{C}(A,B)
 $$
-is the set of morphisms from $A$ to $B$,
-and we call this the hom-set.
+to represent all [[Morphism]]s between [[Object]]s $A$ and $B$.
+When $\mathcal{C}$ is a [[Small Category]], then $\mathcal{C}(A,B)$ is always a set,
+and we call it the hom-set.
