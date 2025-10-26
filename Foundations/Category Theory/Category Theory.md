@@ -14,5 +14,7 @@
 [[Separating Family]]
 [[Detecting Family]]
 
+[[Projective]]
+[[Injective]]
 
 
