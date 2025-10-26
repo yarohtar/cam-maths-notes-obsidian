@@ -113,7 +113,7 @@ Consider first $A\xrightarrow{f}A'$ and the diagram:
 \begin{document}
 \begin{tikzcd}[column sep=huge]
 {[\mathcal{C},\mathrm{Set}]}(\mathcal{C}(A,-),F) 
-\arrow[r,"\mathcal{C}(f{,}-)\cdot \bullet"] 
+\arrow[r,"\bullet \cdot \mathcal{C}(f{,}-)"] 
 \arrow[d,"\Phi_{(A{,}F)}"]
  & {[\mathcal{C},\mathrm{Set}]}(\mathcal{C}(A',-),F) 
  \arrow[d,"\Phi_{(A'{,}F)}"] \\
@@ -122,4 +122,55 @@ FA \arrow[r,"Ff"]
 \end{tikzcd}
 \end{document}
 ```
+
+where
+$$
+\mathcal{C}(f,-): \mathcal{C}(A',-) \to \mathcal{C}(A,-)
+$$
+is a [[Natural Transformation]]
+Let $\alpha:\mathcal{C}(A,-)\to F$ be a [[Natural Transformation]].
+$$
+\Phi_{(A,F)}(\alpha) = \alpha_{A}(1_{A})
+$$
+and
+$$
+(Ff)(\alpha_{A}(1_{A})) = \alpha_{A'}f
+$$
+On the other hand
+$$
+\Phi_{(A',F)}(\alpha \cdot \mathcal{C}(f,-)) = \alpha_{A'} \mathcal{C}(f,A') (1_{A'}) = \alpha_{A'} (1_{A'}f) = \alpha_{A'}f
+$$
+So $\Phi$ is a [[Natural Transformation]] in $A$.
+
+Now we verify that it is a [[Natural Transformation]] in $F$.
+Consider $\alpha:F\to F'$, a [[Natural Transformation]].
+We have a diagram
+```tikz
+\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
+{[\mathcal{C},\mathrm{Set}]}(\mathcal{C}(A,-),F) 
+\arrow[r, "\alpha \cdot\bullet"] 
+\arrow[d, "\Phi_{(A{,}F)}"]
+& {[\mathcal{C},\mathrm{Set}]}(\mathcal{C}(A,-),F')
+\arrow[d,"\Phi_{(A{,}F')}"] \\
+FA \arrow[r,"\alpha_{A}"] 
+& F'A
+\end{tikzcd}
+\end{document}
+```
+Let $\beta:\mathcal{C}(A,-)\to F$ be another [[Natural Transformation]].
+One branch gives
+$$
+\alpha_{A}(\Phi_{(A,F)}(\beta)) = \alpha_{A} \beta_{A}(1_{A})
+$$
+The other gives
+$$
+\Phi_{(A,F')}(\alpha \beta) = \alpha_{A}\beta_{A}(1_{A})
+$$
+and thus $\Phi$ is natural in $F$.
+
+So $\Phi$ is natural in $A$ for any $F$
+and it is natural in $F$ for any $A$
+so we conclude that $\Phi$ is natural in $(A,F)$
 
