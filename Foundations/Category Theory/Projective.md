@@ -1,5 +1,7 @@
-An [[Object]] $P$ of a [[Locally Small]] [[Category]] $\mathcal{C}$ is $\mathcal{E}$-projective
+Let $\mathcal{E}$ be a class of [[Epimorphism]]s in a [[Locally Small]] [[Category]] $\mathcal{C}$
+An [[Object]] $P$ in $\mathcal{C}$ is projective
 if [[Hom-Functor]] $\mathcal{C}(P,-)$ preserves [[Epimorphism]]s in $\mathcal{E}$
+i.e. $\mathcal{C}(P,g):\mathcal{C}(P,Q)\to \mathcal{C}(P,R)$ is surjective for all $g:Q\to R$ in $\mathcal{E}$.
 i.e. if given
 ```tikz
 \usepackage{tikz-cd}
