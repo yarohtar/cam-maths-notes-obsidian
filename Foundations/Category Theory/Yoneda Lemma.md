@@ -1,26 +1,40 @@
-Let $A$ be an [[Object]] of a [[Locally Small]] [[Category]] $\mathcal{C}$ 
-and let $F:\mathcal{C}\to \mathrm{Set}$ be a [[Functor]] to [[Category of Sets]]
-Then the set of [[Natural Transformation]]s $\mathcal{C}(A,-)\to F$
+Let $A$ be an [[Object]] of a [[Locally Small]] [[Category]] $\mathcal{C}$.
+Let $\mathcal{C}(A,-)$ be a [[Hom-Functor]] $\mathcal{C}\to \mathrm{Set}$.
+and let $F:\mathcal{C}\to \mathrm{Set}$ be a [[Functor]] to [[Category of Sets]].
+These are objects in the [[Category of Functors]] $[\mathcal{C},\mathrm{Set}]$.
+
+Yoneda lemma says that the set of [[Natural Transformation]]s $\mathcal{C}(A,-)\to F$
 is [[Isomorphic]] to $FA$:
 $$
 [\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F) \cong FA
 $$
-Moreover, there is a [[Natural Isomorphism]] verifying
+Moreover, this [[Isomorphism]] is natural in both $A$ and $F$ i.e.
+given the functors
 $$
-[\mathcal{C},\mathrm{Set}](\mathcal{C}(\bullet,-),F) \cong F\bullet
+\begin{align}
+[\mathcal{C},\mathrm{Set}](\mathcal{C}(\bullet_{1},-), \bullet_{2})  & : \mathcal{C}\times[\mathcal{C},\mathrm{Set}] \to \mathrm{Set} \\
+\bullet_{2}\bullet_{1}  & : \mathcal{C}\times[\mathcal{C},\mathrm{Set}] \to \mathrm{Set}
+\end{align}
 $$
-as [[Functor]]s $\mathcal{C}\to \mathrm{Set}$
-and a [[Natural Isomorphism]] verifying
+there is a [[Natural Isomorphism]] between them.
+### what is actually written here?
+Suppose that for a [[Functor]] $F:\mathcal{C}\to \mathrm{Set}$ we could define a functor
 $$
-[\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),\bullet) \cong \bullet A
+F'=[\mathcal{C},\mathrm{Set}](\mathcal{C}(\bullet,-),F)
 $$
-as [[Functor]]s $[\mathcal{C},\mathrm{Set}]\to \mathrm{Set}$
+which is also $F':\mathcal{C}\to \mathrm{Set}$ 
+(i.e. it takes $A\in \operatorname{ob}\mathcal{C}$ and gives us the set $[\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F)$)
+Then we could define $F'',F''',\dots$
+Yoneda lemma says that there are [[Natural Isomorphism]]s between these,
+so we don't need to worry about the infinite tower.
+
+
 ### Proof
 Given $\alpha:\mathcal{C}(A,-)\to F$ a [[Natural Transformation]]
 Note that $\mathcal{C}(A,A)\xrightarrow{\alpha_{A}}FA$
 so define $\Phi(\alpha)=\alpha_{A}(1_{A})\in FA$
 Given $x\in FA$ 
-we define a [[Natural Transformation]] $\Psi(x):\mathcal{C}(A,\cdot)\to F$ by
+we define a [[Natural Transformation]] $\Psi(x):\mathcal{C}(A,-)\to F$ by
 $$
 \begin{align}
 \Psi(x)_{B} : \mathcal{C}(A,B) & \to FB \\
