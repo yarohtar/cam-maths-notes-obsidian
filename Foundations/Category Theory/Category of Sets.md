@@ -17,8 +17,9 @@ and then have functions between them be other "things".
 We need to list a slightly different set of axioms, 
 but we can still capture the intuitive notion of a set.
 The difference now is that there is no notion of $a\in b$ by default.
-Instead, any set $a$ represents all functions $f:1\to a$ 
+The elements of a set $a$ are functions $f:1\to a$
 (where $1=\{ \varnothing \}$, the set of one element).
+This notion is formalized as a [[Generalized Element]]
 This way, the elements of a set like $\mathbb{R}$ are just some functions $f_{r}:1\to \mathbb{R}$,
 while a function $\log$ is $\mathbb{R}\to \mathbb{R}$. 
 It no longer makes sense to ask if $f_{2}\in \log$ 

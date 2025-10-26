@@ -1,11 +1,11 @@
 [[Category]]
 [[Natural Transformation]]
-
-[[Yoneda Lemma]]
-[[Yoneda Embedding]]
-
+[[Hom-Functor]]
 [[Representable]]
 [[Representation]]
+[[Yoneda Embedding]]
+
+[[Yoneda Lemma]]
 
 
 

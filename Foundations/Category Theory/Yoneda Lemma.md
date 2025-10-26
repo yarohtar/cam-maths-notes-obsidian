@@ -1,11 +1,22 @@
 Let $A$ be an [[Object]] of a [[Locally Small]] [[Category]] $\mathcal{C}$ 
 and let $F:\mathcal{C}\to \mathrm{Set}$ be a [[Functor]] to [[Category of Sets]]
-Then there is a bijection between
-[[Natural Transformation]]s $\mathcal{C}(A,\cdot)\to F$ (where $\mathcal{C}(A,\cdot)$ is [[Hom-Functor]])
-and elements of $FA$.
-Moreover, the bijection is a [[Natural Transformation]] in $A$ and $F$.
+Then the set of [[Natural Transformation]]s $\mathcal{C}(A,-)\to F$
+is [[Isomorphic]] to $FA$:
+$$
+[\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),F) \cong FA
+$$
+Moreover, there is a [[Natural Isomorphism]] verifying
+$$
+[\mathcal{C},\mathrm{Set}](\mathcal{C}(\bullet,-),F) \cong F\bullet
+$$
+as [[Functor]]s $\mathcal{C}\to \mathrm{Set}$
+and a [[Natural Isomorphism]] verifying
+$$
+[\mathcal{C},\mathrm{Set}](\mathcal{C}(A,-),\bullet) \cong \bullet A
+$$
+as [[Functor]]s $[\mathcal{C},\mathrm{Set}]\to \mathrm{Set}$
 ### Proof
-Given $\alpha:\mathcal{C}(A,\cdot)\to F$ a [[Natural Transformation]]
+Given $\alpha:\mathcal{C}(A,-)\to F$ a [[Natural Transformation]]
 Note that $\mathcal{C}(A,A)\xrightarrow{\alpha_{A}}FA$
 so define $\Phi(\alpha)=\alpha_{A}(1_{A})\in FA$
 Given $x\in FA$ 
