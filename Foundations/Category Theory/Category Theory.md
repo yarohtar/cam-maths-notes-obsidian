@@ -58,66 +58,12 @@ The two ways round it ar both left [[Adjunction|Adjoint]] to $KG=HF$.
 So they must be [[Isomorphic]].
 
 ### 
-Given an [[Adjunction]] $(F\dashv G)$, the [[Natural Transformation]] $\eta:1_{\mathcal{C}}\to GF$ 
-in the proof of (smth) is called the [[Unit]] of the [[Adjunction]].
-Dually, we have the [[Counit]] $\varepsilon:FG\to 1_{\mathcal{D}}$ where $\varepsilon_{B}:FGB\to B$ corresponds to $1_{GB}$
-### Theorem
-Given [[Functor]]s $\mathcal{C}\xrightarrow{F}\mathcal{D}$ and $\mathcal{D}\xrightarrow{G}\mathcal{C}$ specifying an adjunction $(F\dashv G)$
-is equivalent to specifying [[Natural Transformation]]s 
-$\eta:1_{\mathcal{C}}\to GF$ and $\varepsilon FG\to 1_{\mathcal{D}}$ satisfying
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
-F \arrow[r,"F_{\eta}"] 
-\arrow[dr, "1_{F}"] 
-& FGF \arrow[d,"\varepsilon_{F}"] \\
-& F
-\end{tikzcd}
-\end{document}
-```
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
-G \arrow[r,"1_{G}"] 
-\arrow[dr, "1_{\mathcal{C}}"] 
-& GFG \arrow[d,"G\varepsilon"] \\
-& G
-\end{tikzcd}
-\end{document}
-```
-the triangular identities.
-#### Proof
-Given $(F\dashv G)$, we've seen how to define $\eta$ and $\varepsilon$.
-And $\varepsilon_{FA}(F_{\eta_{A}})$ corresponds under the [[Adjunction]] to $1_{GFA}\eta_{A}=\eta_{A}$,
-so it's $1_{FA}$. The second identity is dual.
-Conversely, suppose given $\eta$ and $\varepsilon$.
-Given $A\xrightarrow{f}GB$ we define $\Phi(f)$ to be $FA\xrightarrow{Ff}FGB\xrightarrow{\varepsilon_{B}}B$
-and given $FA\xrightarrow{g}B$ we define $\Psi(g)$ to be $A\xrightarrow{\eta_{A}}GFA\xrightarrow{Gg}GB$
-Then $\Psi \Phi(f)$ is 
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
-A\arrow[r,"\eta_{A}"] 
-\arrow[dr, "f"] 
-& GFA \arrow[r,"GFf"]
-& GFGB \arrow[r,"G\varepsilon_{B}"]
-& GB \\
-& GB \arrow[ru, "\eta_{GB}"]
-\arrow[rru,swap, "1_{GB}"]
-\end{tikzcd}
-\end{document}
-```
-so $\Psi \Phi(f)=f$ and dually $\Phi \Psi(g)=g$ 
-And $\Phi$ and $\Psi$ are natural since $\eta$ and $\varepsilon$ are.
 ### Proposition
 Suppose given an equivalence $\mathcal{C}\xrightarrow{F}\mathcal{D}$ and $\mathcal{D}\xrightarrow{G}\mathcal{C}$
 and $\alpha$ and $\beta$ [[Natural Isomorphism]]s
 $\alpha:1_{\mathcal{C}}\to GF$ and $\beta:FG\to 1_{\mathcal{D}}$
-Then there are [[Natural Isomorphism]]s 
-$\alpha':1_{\mathcal{C}}\to GF$ and $\beta':FG\to 1_{\mathcal{D}}$ satisfying the triangle identities.
+Then there are [[Natural Isomorphism]]s $\alpha':1_{\mathcal{C}}\to GF$ and $\beta':FG\to 1_{\mathcal{D}}$ 
+satisfying the [[Triangular Identities]].
 In particular $(F\dashv G)$ and $(G\dashv F)$.
 #### Proof
 We define $\alpha'=\alpha$ and take $\beta'$ to be 
@@ -144,7 +90,7 @@ The triangular identities for $\alpha'$ and $\beta'$ are
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[column sep=huge]
 F \arrow[r,"\alpha_{F}"]
 \arrow[dr, swap, "1"]
 & GF \arrow[r, "(\beta_{FGF})^{-1}"] 
@@ -164,14 +110,14 @@ and
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
-\begin{tikzcd}
+\begin{tikzcd}[column sep=huge]
 G \arrow[r,"\alpha_{G}"] 
-\arrow[dr,"1_{\mathcal{C}}"]
+\arrow[dr,swap,"1_{\mathcal{C}}"]
 & GFG \arrow[r,"(GFG\beta)^{-1}"]
 \arrow[d,"(\alpha_{G})^{-1}"]
 & GFGFG \arrow[d,"(GF\alpha_{G})^{-1}=(\alpha_{GFG})^{-1}"]\\
 & G \arrow[r,"(GB)^{-1}"]
-\arrow[dr,"1_{G}"]
+\arrow[dr,swap,"1_{G}"]
 & GFG \arrow[d,"G\beta"] \\
 & & G
 \end{tikzcd}
