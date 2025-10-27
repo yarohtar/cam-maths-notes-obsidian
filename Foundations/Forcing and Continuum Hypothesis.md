@@ -12,5 +12,8 @@
 [[Absolute Operation]]
 [[Absoluteness Of Recursive Operations]]
 [[Gödel's Incompleteness Theorems]]
+[[Absoluteness Of Consistency]]
+[[Lévy Reflection Theorem]]
+
 
 

@@ -38,28 +38,18 @@ says that $n$ is not a proof of $F(z)$ i.e. $n$ is not a proof of
 $$
 (\forall n\in \omega)\, q(n,z)
 $$
-Let $G=(\forall n\in \omega)\,q(n,z)$
-
-
+Let $G=F(z)=(\forall n\in \omega)\,q(n,z)$
+Then $G$ says that there is no proof of:
 $$
 (\forall n\in \omega)\, q(n,z)
 $$
-says that $T\not\vdash(\forall n\in \omega)\,q(n,z)$, in particular
-$$
-T\vdash(\forall n\in \omega)\,q(n,z) \implies (\forall n\in \omega) \neg R(n, z)
-$$
-We claim that $F=(\forall n\in \omega)\,q(n,z)$ is what we are looking for.
-Suppose $T\vdash F$.
-Then 
-$$
-T\vdash(\forall n\in \omega)\neg R(n,z)
-$$
-But we can find $n$ such that $n$ encodes the proof of $F$ i.e. $R(n,z)$ which is a contradiction.
-Now suppose $T\vdash \neg F$.
-But then there is some $n$ such that $\neg q(n,z)$ 
-i.e. there is some $n$ such that $n$ is a proof of $(\forall n\in \omega)q(n,z)$ 
-But then $T\vdash F$ which is again a contradiction.
-We conclude that if $\mathrm{Cons}(T)$ then
+i.e. $G$ says that there is no proof of $G$.
+If $T\vdash G$ then this is a contradiction, as we found a proof of $G$.
+If $T\vdash \neg G$, then there is some $n$ such that $\neg q(n,z)$,
+i.e. there is some $n$ such that $R(n,F(z))$ 
+i.e. there is some proof of $G=F(z)$.
+But then $T\vdash\bot$.
+We conclude that if $\mathrm{Cons}(T)$ then 
 $$
 T\not\vdash F\text{ and }T\not\vdash \neg F
 $$
@@ -74,13 +64,18 @@ T\vdash \mathrm{Cons}(T)
 $$
 Then $T$ proves that 
 $$
-T\not\vdash F \text{ and } T\not\vdash \neg F
+T\not\vdash G \text{ and } T\not\vdash \neg G
 $$
 from the first theorem.
-In particular
+In particular $T$ proves that any $n\in \omega$ is not a proof of $G$
+i.e. for any fixed $n\in \omega$, $T$ proves that 
+$$
+q(n,z)
+$$
+and thus:
 $$
 T\vdash(\forall n\in \omega)\,q(n,z)
 $$
-but then $T\vdash F$ which is a contradiction.
+but then $T\vdash G$ which is a contradiction.
 
 

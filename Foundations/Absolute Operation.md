@@ -31,3 +31,7 @@ $$
 $$
 and thus both of them are [[Absolute]] by the $\Delta_{1}$-trick. 
 
+## Theorem
+Any arithmetic function is absolute.
+### Proof
+Using the previous lemmas and [[Absoluteness Of Recursive Operations]].
