@@ -11,5 +11,5 @@
 [[Definable Operation]]
 [[Absolute Operation]]
 [[Absoluteness Of Recursive Operations]]
-[[Gödel's Incompleteness Theorem]]
+[[Gödel's Incompleteness Theorems]]
 

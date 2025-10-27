@@ -4,10 +4,16 @@ Define
 $$
 \mathrm{Cons}(T) = (\forall n\in \omega)\, n \text{ is not the proof of } T\vdash \bot
 $$
+## Theorem 1
+There is some formula $F$ such that if $\mathrm{Cons}(T)$
+then $T\not\vdash F$ and $T\not\vdash \neg F$.
+### Proof
+
 Then 
 $$
 T\not\vdash \mathrm{Cons}(T)
 $$
+
 ### Proof
 Suppose
 $$
@@ -26,12 +32,15 @@ $$
 i.e. $q(n,y)$ if and only if $n$ is not the proof of $F(y)$ 
 Thus let 
 $$
-F = x\text{ is not the proof of }T\vdash\bot
+F = x\text{ is the proof of }T\vdash\bot
 $$
 a formula with one free variable $x$.
 Let $y$ be the encoding of $F$.
 Examine $q(y,y)$.
-If $q(y,y)=1$ then $\neg R(y,F(y))$ i.e. $y$ is not a proof of $F(y)$ 
+If $q(y,y)=1$ then $\neg R(y,F(y))$ i.e. $y$ is not a proof of
+$$
+y\text{ is the proof of }T\vdash \bot
+$$
 If $q(y,y)=0$ then $R(y,F(y))$ i.e. $y$ is a proof of
 $$
 y \text{ is not the proof of }T\vdash \bot

@@ -25,4 +25,4 @@ Since the language of PA is countable, the induction axiom-scheme only captures 
 A subset $A\subseteq \mathbb{N}_{0}$ is definable in PA if there's a formula $p$ in PA
 with one free variable such that $A=p_{\mathbb{N}_{0}}$
 
-[[Gödel's Incompleteness Theorem]] implies that PA is not a complete theory. So there is a formula $p$ that holds in $\mathbb{N}_{0}$ but $PA\not\vdash p$
+[[Gödel's Incompleteness Theorems]] implies that PA is not a complete theory. So there is a formula $p$ that holds in $\mathbb{N}_{0}$ but $PA\not\vdash p$
