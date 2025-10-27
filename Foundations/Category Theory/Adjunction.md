@@ -10,7 +10,9 @@ $$
 $$
 naturally in $A\in \mathcal{C}$ and $B\in \mathcal{D}$. We write $F\dashv G$
 An adjunction between $F$ and $G$ is this [[Isomorphism]].
-
+There are two other characterisations of adjunction:
+[[Comma Category]]
+[[Triangular Identities]]
 ### what does naturally mean?
 If $\mathcal{C}$ and $\mathcal{D}$ were [[Locally Small]], we could express it as a [[Natural Isomorphism]] 
 $$
@@ -31,47 +33,39 @@ $$
 $$
 Note that I actually couldn't write anything else sensible with these symbols.
 This is because its the only "natural" thing to write down.
-
-## Theorem
-Let $G:\mathcal{D}\to \mathcal{C}$ be a [[Functor]].
-Then specifying a left [[Adjunction|Adjoint]] for $G$
-is equivalent to
-specifying an [[Initial]] object of the [[Comma Category]] $(A\downarrow G)$ 
-for each $A\in \operatorname{ob}\mathcal{C}$.
-### Proof
-#### $\implies$
-Suppose $G$ has a left [[Adjunction|Adjoint]] $F:\mathcal{C}\to \mathcal{D}$.
-Let $\eta_{A}:A\to GFA$ be the morphism corresponding to $1_{FA}$ 
-Then $(FA, \eta_{A})$ is [[Initial]] in $(A\downarrow G)$. 
-Let $(B,f)$ be an object in $(A\downarrow G)$ where $f:A\to GB$
-A map $q:(FA,\eta_{A})\to(B,f)$ in $(A\downarrow G)$ is $q:FA\to B$ in $\mathcal{D}$
-such that we have a [[Commutative Diagram]]
+### Corollary
+If $F$ and $F'$ are both left [[Adjunction|Adjoint]] to $G:\mathcal{D}\to \mathcal{C}$
+then $F$ and $F'$ are [[Isomorphic]] in $[\mathcal{C},\mathcal{D}]$
+#### Proof
+For any $A$, $(FA,\eta_{A})$ and $(F'A,\eta_{A}')$ are both [[Initial]] objects 
+of the [[Comma Category]] $(A\downarrow G)$
+So there's a unique [[Isomorphism]] $\alpha_{A}:(FA,\eta_{A})\to(F'A,\eta_{A}')$.
+Given $f:A\to A'$, the composites $\alpha_{A'}(Ff)$ and $(F'f)\alpha_{A}$ 
+are both morphisms $(FA,\eta_{A})\to(F'A',\eta'_{A'}f)$ in $(A\downarrow G)$ 
+so they're equal.
+### Lemma
+Suppose given $\mathcal{C}\xrightarrow{F}\mathcal{D}\xrightarrow{H}\mathcal{E}$ and $\mathcal{E}\xrightarrow{K}\mathcal{D}\xrightarrow{G}\mathcal{C}$
+with $(F\dashv G)$ and $(H\dashv K)$.
+Then $(HF\dashv GK)$
+#### Proof
+We have bijections $\mathcal{C}(A,GKC)\to \mathcal{D}(FA,KC)\to \mathcal{E}(HFA,C)$
+which are natural in both $A$ and $C$.
+### Corollary
+Suppose we are given a [[Commutative Diagram]]
 ```tikz
 \usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
-A \arrow[r, "\eta_{A}"] \arrow[dr,swap, "f"] 
-& GFA \arrow[d, "Gq"] \\
-& GB
+\mathcal{C} \arrow[r,"F"] \arrow[d,"G"]
+ & \mathcal{D} \arrow[d,"H"] \\
+ \mathcal{E}\arrow[r,"K"]
+ & \mathcal{F}
 \end{tikzcd}
 \end{document}
 ```
-i.e.
-$$
-f=(Gq)\eta_{A}
-$$
-But these correspond uniquely to
-$$
-\overline{f}=q \overline{\eta_{A}} = q 1_{FA} = q
-$$
-Thus $q=\overline{f}$ exists and is unique.
-#### $\impliedby$
-Suppose for any $A$ we are given an initial object $(FA,\eta_{A})$ of $(A\downarrow G)$
-This defines a [[Functor]] $F$ on objects $A\in \mathcal{C}$.
-For any $f:A\to B$ define $Ff$ to be the unique $(FA,\eta_{A})\to(FB,\eta_{B})$ in $(A\downarrow G)$
-Then $Ff$ is a morphism $FA\to FB$ 
-and [[Functor|functoriality]] of $F$ follows from uniqueness.
-The [[Adjunction]] sends each $f:A\to GB$
-to the unique $(FA,\eta_{A})\to(B,f)$ in $(A\downarrow G)$.
-On the other hand, each $g:FA\to B$ 
-is sent to $(Gg)\eta_{A}$ and we can verify naturality.
+in which all four [[Functor]]s have left [[Adjunction|Adjoint]]s.
+Then the square of left adjoints commutes up to [[Natural Isomorphism]].
+#### Proof
+The two ways round it are both left [[Adjunction|Adjoint]] to $KG=HF$.
+So they must be [[Isomorphic]].
+

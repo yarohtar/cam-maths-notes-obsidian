@@ -1,4 +1,4 @@
-$X$ and $Y$ are random variables taking values in $\Sigma$, $\lvert \Sigma \rvert=m$
+Let $X$ and $Y$ be [[Random Variable]]s taking values in $\Sigma$, $\lvert \Sigma \rvert=m$
 Let $p=P(X\neq Y)$
 Then
 $$
@@ -20,8 +20,13 @@ $$
 H(X|Y)\leq H(X|Y,Z)+H(Z)=H(X|Y,Z)+H(p)
 $$
 Now:
-$H(X|Y=y,Z=0)=0$
-$H(X|Y=y,Z=1)\leq \log(m-1)$ since $m-1$ choices for $X$ remain.
+$$
+\begin{gather}
+H(X|Y=y,Z=0)=0\\
+H(X|Y=y,Z=1)\leq \log(m-1)
+\end{gather}
+$$
+since $m-1$ choices for $X$ remain.
 So:
 $$
 \begin{align}

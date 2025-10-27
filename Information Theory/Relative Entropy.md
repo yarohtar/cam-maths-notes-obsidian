@@ -9,6 +9,8 @@ For any $P$ and $Q$ we have
 $$
 D(P||Q)\geq 0
 $$
-with $D(P||Q)=0$
-if and only if
-$P=Q$
+with 
+$$
+D(P||Q)=0\iff P=Q
+$$
+#### Proof
