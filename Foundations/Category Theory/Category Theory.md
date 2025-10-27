@@ -19,4 +19,6 @@
 
 [[Adjunction]]
 [[Initial]]
+[[Terminal]]
 
+[[Comma Category]]
