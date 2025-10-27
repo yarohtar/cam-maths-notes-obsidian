@@ -44,7 +44,7 @@ so $M$ is not [[Foundations/Set Theory/Transitive|Transitive]].
 "Being countable" and "being cardinal"
 are not [[Absolute]] statements between $N$ and $V_{\nu}$.
 In particular, countable is $\Sigma_{1}$ 
-and cardinal is $\Pi_{1}$
+and cardinal is $\Pi_{1}$.
 #### Proof
 Suppose $\exists x\,\phi(x)$ from above is in $T$
 where $\phi(x)$ means "$x$ is the smallest uncountable ordinal"
@@ -52,7 +52,7 @@ Then:
 $$
 V_{\nu}\models \exists x\,\phi(x)
 $$
-therefore
+therefore by [[Absolute]]ness
 $$
 N\models \exists x\, \phi(x)
 $$
@@ -61,5 +61,11 @@ $$
 N\models \phi(\alpha)
 $$
 necessarily has to be $\alpha \subseteq N$ as $N$ is [[Foundations/Set Theory/Transitive|Transitive]]
-Then $\alpha$ is countable and 
+Then $\alpha$ is a countable [[Ordinal]].
+Note that $\aleph_{1}$ is *defined* as the witness for $\phi$.
+So whatever $N$ thinks that $\aleph_{1}$ is, 
+it is definitely not the same as what $V_{\eta}$ thinks.
+So [[Cardinal]]s are not preserved.
+
+And moreover "$\aleph_{1}$" is countable in $N$, but not countable in $V_{\eta}$.
 

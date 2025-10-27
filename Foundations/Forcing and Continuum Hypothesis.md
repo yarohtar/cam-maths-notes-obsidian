@@ -17,6 +17,6 @@
 [[The Downward Löwenheim-Skolem Theorem]]
 [[Mostowski's Collapsing Theorem]]
 [[Countable Transitive Model]]
-
+[[Technique of Inner Models]]
 
 
