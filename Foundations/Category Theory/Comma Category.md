@@ -36,37 +36,3 @@ A \arrow[r, "h"] \arrow[dr,swap, "h'"]
 \end{document}
 ```
 
-## Theorem
-Let $G:\mathcal{D}\to \mathcal{C}$ be a [[Functor]].
-Then specifying a left [[Adjunction|Adjoint]] for $G$
-is equivalent to
-specifying an [[Initial]] object of $(A\downarrow G)$ for each $A\in \operatorname{ob}\mathcal{C}$.
-### Proof
-#### $\implies$
-Suppose $G$ has a left [[Adjunction|Adjoint]] $F:\mathcal{C}\to \mathcal{D}$.
-Let $\eta_{A}:A\to GFA$ be the morphism corresponding to $1_{FA}$ 
-Then $(FA, \eta_{A})$ is [[Initial]] in $(A\downarrow G)$. 
-Let $(B,f)$ be an object in $(A\downarrow G)$ where $f:A\to GB$
-A map $q:(FA,\eta_{A})\to(B,f)$ in $(A\downarrow G)$ is $q:FA\to B$ in $\mathcal{D}$
-such that we have a [[Commutative Diagram]]
-```tikz
-\usepackage{tikz-cd}
-\begin{document}
-\begin{tikzcd}
-A \arrow[r, "\eta_{A}"] \arrow[dr,swap, "f"] 
-& GFA \arrow[d, "Gq"] \\
-& GB
-\end{tikzcd}
-\end{document}
-```
-i.e.
-$$
-f=(Gq)\eta_{A}
-$$
-But these correspond uniquely to
-$$
-\overline{f}=q \overline{\eta_{A}} = q 1_{FA} = q
-$$
-Thus $q=\overline{f}$ exists and is unique.
-#### $\impliedby$
-
