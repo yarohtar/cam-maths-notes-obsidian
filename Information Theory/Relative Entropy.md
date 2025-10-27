@@ -14,3 +14,9 @@ $$
 D(P||Q)=0\iff P=Q
 $$
 #### Proof
+Using [[Log-Sum Inequality]]:
+$$
+\sum_{x\in A} P(x) \log \frac{P(x)}{Q(x)} \geq 0
+$$
+with equality if and only if $\frac{P(x)}{Q(x)}=\text{const}$.
+But then this constant has to be $1$.

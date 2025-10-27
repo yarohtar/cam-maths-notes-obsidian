@@ -1,5 +1,5 @@
 [[Probability Space]]
-[[Independence]]
+[[Independent]]
 [[Random Variable]]
 [[Second Borel-Cantelli Lemma]]
 [[Random Probability of Random Variable]]

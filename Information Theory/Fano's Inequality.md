@@ -1,5 +1,5 @@
 Let $X$ and $Y$ be [[Random Variable]]s taking values in $\Sigma$, $\lvert \Sigma \rvert=m$
-Let $p=P(X\neq Y)$
+Let $p=\mathbb{P}(X\neq Y)$
 Then
 $$
 H(X|Y)\leq H(p)+p\log(m-1)
