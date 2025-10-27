@@ -23,10 +23,12 @@ Similarly, for any $g:FA\to B$ denote by $\overline{g}:A\to GB$...
 
 Naturality means that for any $q:B\to B'$ and $p:A'\to A$ we have
 $$
-\overline{qg}=(Gq)\overline{g}
+\overline{qg(Fp)}=(Gq)\overline{g}p
 $$
-and
+or equivalently 
 $$
-\overline{fp} = \overline{f} (Fp)
+\overline{(Gq)fp} = q \overline{f} (Fp)
 $$
+Note that I actually couldn't write anything else sensible with these symbols.
+This is because its the only "natural" thing to write down.
 

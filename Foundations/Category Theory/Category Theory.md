@@ -18,4 +18,5 @@
 [[Injective]]
 
 [[Adjunction]]
+[[Initial]]
 
