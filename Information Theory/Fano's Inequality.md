@@ -11,7 +11,7 @@ Let
 $$
 Z=\begin{cases}
 1 & \text{if }X\neq Y \\
-0 & if X=Y 
+0 & \text{if } X=Y 
 \end{cases}
 $$
 $P(Z=1)=p$ and $P(Z=0)=1-p$

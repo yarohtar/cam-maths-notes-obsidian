@@ -1,5 +1,5 @@
 Let $f$ be convex and $X$ be a [[Random Variable]].
 Then
 $$
-\mathbb{E}(f(X)) 
+f(\mathbb{E}(X)) \leq \mathbb{E}(f(X))
 $$
