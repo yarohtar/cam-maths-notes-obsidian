@@ -17,4 +17,5 @@
 [[Projective]]
 [[Injective]]
 
+[[Foundations/Category Theory/Adjoint]]
 
