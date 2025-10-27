@@ -7,4 +7,4 @@ $$
 gg^{-1}=g^{-1}g=e
 $$
 ### Category Theory Definition
-A group is a [[Monoid]] in which all morphisms are isomorphisms.
+A group is a [[Monoid]] in which all morphisms are [[Isomorphism]]s.
