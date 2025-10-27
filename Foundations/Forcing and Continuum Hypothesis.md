@@ -15,6 +15,7 @@
 [[Absoluteness Of Consistency]]
 [[Lévy Reflection Theorem]]
 [[The Downward Löwenheim-Skolem Theorem]]
+[[Mostowski's Collapsing Theorem]]
 
 
 

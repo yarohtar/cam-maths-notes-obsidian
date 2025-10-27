@@ -41,4 +41,15 @@ Thus find $\nu$ such that $V_{\nu}$ where $\phi$ is [[Absolute]].
 In particular $V_{\nu}\models \phi$
 But then $V_{\nu}$ is a [[Transitive Model]] of $T$ as each $V_{\alpha}$ is a [[Foundations/Set Theory/Transitive|Transitive]] set.
 
-
+### Proposition
+Suppose above we take $\nu>\aleph_{1}$, so $\aleph_{1}\in V_{\nu}$.
+Let $\phi(x)$ be the statement "$x$ is the smallest uncountable [[Ordinal]]"
+Then $V_{\nu}\models \phi(\aleph_{1})$
+#### Proof
+Being an [[Ordinal]] is [[Absolute]], so $\aleph_{1}$ is an ordinal in $V_{\nu}$
+Countability is $\Sigma_{1}$ so [[Upwards Absolute]] so 
+$$
+V_{\nu} \models \aleph_{1} \text{ is uncountable}
+$$
+If $\alpha<\aleph_{1}$, its countability is witnessed by $f:\omega \to \alpha$ surjective.
+But then $f\in V_{\alpha+2}\subseteq V_{\nu}$ so $V_{\nu}\models \alpha\text{ is countable}$

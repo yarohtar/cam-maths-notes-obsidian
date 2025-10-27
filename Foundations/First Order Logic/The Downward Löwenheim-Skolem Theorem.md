@@ -4,10 +4,10 @@ If $S$ has a [[Model]], then $S$ has a countable model.
 By the [[Soundness Theorem]], $S$ is consistent.
 Then the model constructed in the proof of [[Model Existence Lemma]] is countable. 
 ### Refinement
-Let $N$ be a [[Model]] of a [[Theory]] $S$, and $\Phi$ any set of formulas.
+Let $N$ be a [[Model]], and $\Phi$ any set of formulas.
 Then there is a countable $M\subseteq N$ 
 such that $M$ is a [[Substructure]] of $N$
-and all formulas in $\Phi$ are [[Absolute]] between $M$ and $N$
+and all formulas in $\Phi$ are [[Absolute]] between $M$ and $N$.
 #### Proof
 WLOG $\Phi$ is closed under subformulas.
 Let $\exists x\,\psi \in \Phi$
@@ -33,5 +33,16 @@ $$
 \lvert M_{n+1} \rvert \leq \lvert M_{n} \rvert + \aleph_{0} \lvert M_{n}^{<\omega} \rvert 
 $$
 Then $M$ is countable.
+### Proposition
+The set $M$ from above is not necessarily [[Transitive Model|Transitive]].
+#### Proof
+Let $\phi(x)$ be the statement "$x$ is the smallest uncountable [[Ordinal]]"
+and $\Phi$ the set of all subformulas of $\exists x\,\phi(x)$.
+Consider the [[Transitive Model]] $V_{\nu}$ from [[Lévy Reflection Theorem]] with $\nu>\aleph_{1}$
+Note that $V_{\nu}\models \exists x\,\phi(x)$.
+Now $w(\phi,\varnothing)\in M$ by construction, but $\aleph_{1}$ is the only witness to $\exists x\,\phi(x)$
+so $\aleph_{1}\in M$.
+But $\aleph_{1}\not\subseteq M$ as $M$ is countable.
 
-
+### Theorem
+For every finite $T\subseteq ZFC$ 
