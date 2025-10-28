@@ -1,1 +1,0 @@
-Let $R$ be a [[ring]]
