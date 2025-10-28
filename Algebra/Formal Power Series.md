@@ -3,32 +3,14 @@ We define $R[[X]]$ to be the ring of power series, i.e.
 $$
 f(x) = a_{0} + a_{1}x + a_{2} x^{2} + \dots
 $$
-[[Composition of Power Series]]
-[[Derivative of Power Series]]
+[[Series of Formal Power Series]]
+[[Formal Composition]]
+[[Formal Derivative]]
+[[Formal Maclaurin]]
+[[Formal Exponential]]
+[[Formal Logarithm]]
+[[Formal Binomial Power]]
 [[Formal Binomial Theorem]]
-### Infinite sum
-Let 
-$$
-\begin{align}
-A_{1}(x)  = &  a_{10} + a_{11} x + a_{12} x^{2} + \dots \\
-A_{2}(x)   = &  a_{20} + a_{21}x + a_{22} x^{2} + \dots \\
-A_{3}(x)   =  & a_{30} + a_{31}x + a_{32}x^{2} + \dots  \\
- & \vdots
-\end{align}
-$$
-be an infinite family of powerseries in $R[[X]]$
-Then the sum
-$$
-\sum_{n=0}^{\infty} A_{n}
-$$
-is well defined iff for any $j\geq 0$
-the column sum 
-$$
-\sum_{i=1}^{\infty} a_{ij}
-$$
-is a finite sum so the difference with $S_{N}(x) = \sum_{n=1}^{N}A_{n}(x)$
-has degree $r$ i.e. smallest integer such that $[x^{m}]$ is non-zero tending to $\infty$
-
 ### Theorem
 Let $a_{n}$ be the number of ways to build a certain structure $\mathcal{A}$
 on an $n$-element set, 

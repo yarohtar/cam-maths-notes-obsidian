@@ -1,4 +1,4 @@
-In any [[Algebra/Ring Theory/Ring|Ring]] $R$, we can write
+In any [[Algebra/Ring Theory/Ring|Ring]] $R$, the [[Formal Binomial Power]] satisfies:
 $$
 (1+x)^{r} = \sum_{n\geq 0} \binom{ r }{ n } x^{n}
 $$
@@ -6,6 +6,7 @@ as a [[Formal Power Series]], where
 $$
 \binom{ r }{ n } = \frac{ r ^{\underline{ n }} }{ n! }
 $$
+using the [[Falling Factorial]] $r^{\underline{ n }}$.
 ### Proof
 Let $f(x)=(1+x)^{r}=\exp(r\log(1+x))$
 Then
@@ -24,4 +25,4 @@ so
 $$
 f^{(n)}(0) = r^{\underline{ n }}
 $$
-
+Now apply [[Formal Maclaurin]] to finish.
