@@ -11,13 +11,18 @@ $$
 [[Absoluteness of Truth in a Model]]
 
 ### Proof
-Fix set $X$, formula $\phi$, $p \in X^{<\omega}$.
-Define
+Let $L$ be the [[Constructible Hierarchy]].
+We want to prove that
 $$
-\mathcal{D}(\phi,p,X) = \{ z\in X : X\models \phi(p,z) \}
+L\models ZF(C)
 $$
-This is the subset of $X$, defined by $\phi$, with parameters $p$.
-Define further
+Any [[Transitive Model]] satisfies [[Axiom of Extensionality]] and [[Axiom of Foundation]].
+Also $X=\omega$ is [[Absolute]], and $\omega$ satisfies [[Axiom of Infinity]],
+we also get $L_{\alpha}\models$[[Axiom of Infinity]] for all $\alpha>\omega$.
+The operations $x,y\to \{ x,y \}$ and $x\to \bigcup x$ are [[Absolute Operation]]
+for a [[Sufficiently Strong]] $T$.
+So we only need to find 
 $$
-\mathcal{D}(X) = \{ \mathcal{D}(\phi,p,X) :  \}
+(\forall x,y\in L) \left( \{ x,y \}\in L \land \bigcup x\in L \right)
 $$
+
