@@ -7,7 +7,7 @@ A_{3}(x)   =  & a_{30} + a_{31}x + a_{32}x^{2} + \dots  \\
  & \vdots
 \end{align}
 $$
-be an infinite family of [[Formal Power Series]] in $R[[X]]$
+be an infinite family of [[Formal Power Series]] in $R[[x]]$
 Then the sum
 $$
 \sum_{n=0}^{\infty} A_{n}
