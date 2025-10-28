@@ -5,6 +5,7 @@ f(x) = a_{0} + a_{1}x + a_{2} x^{2} + \dots
 $$
 [[Composition of Power Series]]
 [[Derivative of Power Series]]
+[[Formal Binomial Theorem]]
 ### Infinite sum
 Let 
 $$
