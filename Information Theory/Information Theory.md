@@ -7,3 +7,6 @@
 [[Entropy Chain Rule]]
 [[Data Processing Property of the Entropy]]
 [[Data Processing Property of the Relative Entropy]]
+[[Total Variation Distance]]
+[[Pinsker's Inequality]]
+[[Poisson Approximation]]
