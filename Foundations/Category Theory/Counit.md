@@ -7,3 +7,17 @@ corresponds to $1_{GB}$ in $\mathcal{C}(GB,GB)$
 This is a dual notion to a [[Unit]].
 
 [[Triangular Identities]]
+
+### Lemma
+Let $(F\dashv G)$ be an [[Adjunction]] with counit $\varepsilon$.
+Then $\varepsilon$ is pointwise [[Epimorphism]]
+if and only if 
+$G$ is [[Faithfull]].
+#### Proof
+### Lemma
+Let $(F\dashv G)$ be an [[Adjunction]] with counit $\varepsilon$.
+Then $\varepsilon$ is [[Isomorphic]] 
+if and only if
+$G$ is [[Full]] and [[Faithfull]].
+#### Proof
+

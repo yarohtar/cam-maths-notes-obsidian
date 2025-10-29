@@ -18,4 +18,11 @@
 [[Injective]]
 
 [[Adjunction]]
+[[Counit]]
+[[Reflection]]
+[[Reflective Subcategory]]
+
+[[Diagram]]
+[[Limit]]
+[[Colimit]]
 
