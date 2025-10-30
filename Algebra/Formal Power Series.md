@@ -6,10 +6,16 @@ $$
 for any sequence $a_{0},a_{1},\dots \in R$
 and with operations defined as:
 $$
-f(x)+g(x) = 
+f(x)+g(x) = (f_{0}+g_{0}) + (f_{1}+g_{1})x + \dots
 $$
+$$
+f(x)\cdot g(x) = \sum_{n\geq 0} \left(\sum_{i=0}^{n} f_{i}g_{n-i} \right) x^{n}
+$$
+where $\sum_{n\geq 0}$ should be viewed as just a shorthand, and not an actual sum.
 
+We will write $[x^{n}]a$ to mean $a_{n}$ when $a(x)=a_{0}+a_{1}x+\dots$
 
+[[Series in a Ring]]
 [[Series of Formal Power Series]]
 [[Formal Composition]]
 [[Formal Derivative]]

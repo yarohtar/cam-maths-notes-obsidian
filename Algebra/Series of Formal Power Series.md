@@ -7,15 +7,27 @@ A_{3}(x)   =  & a_{30} + a_{31}x + a_{32}x^{2} + \dots  \\
  & \vdots
 \end{align}
 $$
-be an infinite family of [[Formal Power Series]] in $R[[x]]$
-Then the sum
-$$
-\sum_{n=0}^{\infty} A_{n}
-$$
-is well defined iff for any $j\geq 0$
-the column sum 
+be an infinite family of [[Formal Power Series]] in $R[[x]]$.
+Suppose for any $j$, we have a [[Series in a Ring]]:
 $$
 \sum_{i=1}^{\infty} a_{ij}
 $$
-is a finite sum so the difference with $S_{N}(x) = \sum_{n=1}^{N}A_{n}(x)$
-has degree $r$ i.e. smallest integer such that $[x^{m}]$ is non-zero tending to $\infty$
+i.e. column elements above are all eventually $0$.
+Then we define
+$$
+\left( \sum_{n=0}^{\infty} A_{n} \right)(x) = \sum_{j\geq 0} \left(\sum_{i=1}^{\infty}a_{ij} \right)x^{j}
+$$
+where $\sum_{j\geq 0}$ is just a shorthand notation.
+### Remark
+In particular, setting
+$$
+A_{i}(x) = a_{i}x^{i}
+$$
+we find:
+$$
+A(x)=\left( \sum_{n=0}^{\infty} A_{i}  \right)(x) = a_{0}+a_{1}x+a_{2}x^{2}+\dots
+$$
+so we are now justified in saying 
+$$
+A(x) = \sum_{i=0}^{\infty} a_{i} x^{i}
+$$
