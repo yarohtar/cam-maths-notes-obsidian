@@ -2,7 +2,7 @@
 aliases:
   - Transitive
 ---
-Suppose $(M,E)$ and $(N,E)$ are $\mathcal{L}$-[[Structure]]s,
+Suppose $(M,E)$ and $(N,E)$ are $\mathcal{L}$-[[Foundations/First Order Logic/Structure]]s,
 where $\mathcal{L}$ is the [[Language]] of set theory i.e. $\mathcal{L}=\{ \in \}$
 and $M\subseteq N$
 We say that $M$ is transitive in $N$ if 

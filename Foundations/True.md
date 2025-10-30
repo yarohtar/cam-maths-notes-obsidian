@@ -1,4 +1,4 @@
-Given a [[Language]] $L$ and a $L$-[[Structure]] $M$,
+Given a [[Language]] $L$ and a $L$-[[Foundations/First Order Logic/Structure]] $M$,
 we define "$\phi$ is true in $M$" or:
 $$
 M\models \phi

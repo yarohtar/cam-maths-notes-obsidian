@@ -4,7 +4,7 @@ aliases:
 ---
 [[Language]]
 [[Sentence]]
-[[Structure]]
+[[Foundations/First Order Logic/Structure]]
 [[Interpretation]]
 [[Satisfied]]
 [[Theory]]

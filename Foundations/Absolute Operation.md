@@ -1,5 +1,5 @@
 Let $\mathcal{L}$ be the [[Language]] of set theory,
-and $M$, $N$ be $\mathcal{L}$-[[Structure]]s
+and $M$, $N$ be $\mathcal{L}$-[[Foundations/First Order Logic/Structure]]s
 We say that a [[Definable Operation]] $F:M^{n}\to M$ is absolute for $M$ 
 if it's definable by $\Phi$ and $\Phi$ is [[Absolute]] between $M$ and $N$
 ### Lemma
