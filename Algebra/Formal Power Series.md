@@ -1,8 +1,15 @@
 Let $R$ be a [[Algebra/Ring Theory/Ring|Ring]].
-We define $R[[X]]$ to be the ring of power series, i.e. 
+We define $R[[x]]$ to be the ring of power series, with elements
 $$
-f(x) = a_{0} + a_{1}x + a_{2} x^{2} + \dots
+a(x) = a_{0} + a_{1}x + a_{2} x^{2} + \dots
 $$
+for any sequence $a_{0},a_{1},\dots \in R$
+and with operations defined as:
+$$
+f(x)+g(x) = 
+$$
+
+
 [[Series of Formal Power Series]]
 [[Formal Composition]]
 [[Formal Derivative]]
