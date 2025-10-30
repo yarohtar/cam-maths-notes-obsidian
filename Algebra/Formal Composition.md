@@ -9,10 +9,10 @@ with $a_{0}=0$, define the composition
 $$
 B(A(x)) = \sum_{k\geq 0} b_{k} A(x)^{k}
 $$
-as a [[Series of Formal Power Series]].
+as a [[Formal Infinite Sum]].
 Note that $a_{0}=0$ was necessary but also sufficient for convergence.
-### Definition
-For $B(x)=1+x+x^{2}+\dots$ define:
+### Lemma
+For $B(x)=1+x+x^{2}+\dots$ the [[Formal Inverse]]
 $$
 \frac{1}{1-A(x)}=B(A(x))
 $$

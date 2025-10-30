@@ -17,7 +17,7 @@ We will write $[x^{n}]a$ to mean $a_{n}$ when $a(x)=a_{0}+a_{1}x+\dots$
 We also define $\deg a=n$ for the smallest $n\geq 0$ such that $a_{n}\neq0$.
 
 [[Series in a Ring]]
-[[Series of Formal Power Series]]
+[[Formal Infinite Sum]]
 [[Formal Infinite Product]]
 [[Formal Composition]]
 [[Formal Derivative]]

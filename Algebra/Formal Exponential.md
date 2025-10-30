@@ -1,7 +1,10 @@
+Let $R$ be a [[Algebra/Ring Theory/Ring|Ring]] containing $\mathbb{Q}$.
+Then we define:
 $$
 \exp(x) = \sum_{n\geq 0} \frac{ x^{n} }{ n! }
 $$
 ### Theorem
+Exp of [[Formal Infinite Sum]] is [[Formal Infinite Product]] of exps:
 $$
 \exp\left( \sum_{n=1}^{\infty} A_{n}(x) \right) = \prod_{n=1}^{\infty} \exp(A_{n}(x))
 $$

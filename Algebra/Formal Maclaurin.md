@@ -1,4 +1,4 @@
-Let $A(x)$ be a [[Formal Power Series]] in a [[Algebra/Ring Theory/Ring|Ring]] $R$
+Let $A(x)$ be a [[Formal Power Series]] in a [[Algebra/Ring Theory/Ring|Ring]] $R$ containing $\mathbb{Q}$.
 Then
 $$
 A(x) = \sum_{n\geq 0} a_{n} x^{n} = \sum_{n\geq 0} \frac{ A^{(n)}(0) }{ n! } x^{n}
