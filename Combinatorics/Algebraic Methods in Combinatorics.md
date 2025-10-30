@@ -4,4 +4,5 @@ Reading:
 - Alon (1999) Combinatorial Nullstellensatz
 [[Enumerative Methods in Combinatorics]]
 [[Counting in Two Ways]]
-[[Formal Power Seriesw]]
+[[Formal Power Series]]
+[[Catalan Number]]

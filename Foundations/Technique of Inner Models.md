@@ -102,5 +102,26 @@ $$
 $$
 and then write for $x\in L_{\alpha+1}$ 
 $$
-w(x) = \mathrm{min}_{<_{\alpha}} \{ (\phi,) \}
+w(x) = \mathrm{min}_{<_{\alpha}} \{ (\phi,p) : x=D(\phi,p,L_{\alpha}) \}
 $$
+Make this into an end-extension of $<_{\alpha}$ by
+$$
+\begin{align}
+x<_{\alpha+1} y  & \iff x,y\in L_{\alpha} \land x<_{\alpha}y  \\
+ & \text{OR } x\in L_{\alpha} \land y\in L_{\alpha+1} \setminus L_{\alpha} \\
+ & \text{OR } x,y\not\in L_{\alpha} \land w(x)<w(y)
+\end{align}
+$$
+Thus 
+$$
+< = \bigcup_{\alpha \in \mathrm{Or d}} <_{\alpha}
+$$
+is a [[Well-ordered|well-order]] of $L$.
+However, this was a recursive definition so its [[Absolute]] so:
+$$
+\mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC)
+$$
+and in particular [[Axiom of Choice]] holds in $L$.
+[[Axiom of Constructibility]]
+[[Gödel's Incompleteness Theorems]]
+[[Gödel's Condensation Lemma]]
