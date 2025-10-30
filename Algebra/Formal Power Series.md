@@ -27,26 +27,4 @@ We also define $\deg a=n$ for the smallest $n\geq 0$ such that $a_{n}\neq0$.
 [[Formal Logarithm]]
 [[Formal Binomial Power]]
 [[Formal Binomial Theorem]]
-### Theorem
-Let $a_{n}$ be the number of ways to build a certain [[Combinatorial Structure|Structure]] $\mathcal{A}$
-on an $n$-element set, 
-and let $b_{n}$ be the number of ways to build another [[Combinatorial Structure|Structure]] $\mathcal{B}$ 
-on an $n$-element set.
-Then let $c_{n}$ be the number of ways to separate $[n]$ into disjoint intervals $S\cup T$
-where $S=\{ 1,2,\dots,i \}$ and $T=\{ i+1,\dots,n \}$ and build $\mathcal{A}$ on $S$ and $\mathcal{B}$ on $T$.
-Then 
-$$
-C(x) = \sum_{n\geq 0} c_{n}x^{n} = A(x) B(x)
-$$
-We call this structure $\mathcal{A}\cdot \mathcal{B}$.
-### Theorem
-For disjoint union $\mathcal{A}\sqcup \mathcal{B}$ we have $A(x)+B(x)$. 
-### Theorem
-Suppose $a_{0}=0$.
-Let $h_{n}$ be the number of ways to split $[n]$ into disjoint nonempty intervals 
-and build structure $\mathcal{A}$ on each. Also let $h_{0}=1$.
-Then 
-$$
-H(x)=\sum h_{n} x^{n} = \frac{1}{1-A(x)}
-$$
-We call this $A^{*}$.
+[[Rogers-Ramanujan Identiti]]

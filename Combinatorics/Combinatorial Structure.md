@@ -14,18 +14,13 @@ and moreover
 $$
 A_{n} = \{ \alpha \in A \text{ of size }n \}
 $$
-is finite for all $n$, so the [[Generating Function]]
-$$
-f_{\mathcal{A}}(x) = \sum_{\alpha \in A} v(\alpha) \in R[[x]]
-$$
-is well defined, as is the exponential generating function:
-$$
-\tilde{f}_{\mathcal{A}} (x) = \sum_{n\geq 0} \sum_{\alpha \in A_{n}} \frac{ v(\alpha) }{ n! }
-$$
+is finite for all $n$.
+We define its [[Ordinary Generating Function]]
+and [[Exponential Generating Function]]
 ### Definition
 Given structures $\mathcal{A}=(A,v_{A})$ and $\mathcal{B}(B,v_{B})$ define the following
 
-| Operation         | Symbol                          | Object                               | Valuation                                      | Conditions                               | OGF                                                  |
+| Operation         | Symbol                          | Object                               | Valuation                                      | Conditions                               | [[Ordinary Generating Function\|OGF]]                |
 | ----------------- | ------------------------------- | ------------------------------------ | ---------------------------------------------- | ---------------------------------------- | ---------------------------------------------------- |
 | Disjoint union    | $\mathcal{A}+\mathcal{B}$       | $A\cup B$                            | $v_{A}\cup v_{B}$                              | $A,B$ disjoint                           | $f_{\mathcal{A}}+f_{\mathcal{B}}$                    |
 | Cartesian product | $\mathcal{A}\times \mathcal{B}$ | $A\times B$                          | $v_{A}\cdot v_{B}$                             | none                                     | $f_{\mathcal{A}}\cdot f_{\mathcal{B}}$               |

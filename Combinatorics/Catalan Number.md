@@ -16,7 +16,7 @@ there must  be $i$ internal nodes in the left branch and $(n-i)$ in the right br
 giving $C_{i}C_{n-i}$ possible trees.
 Now sum over $i$.
 ### Theorem
-The [[Formal Power Series]]:
+They have a [[Ordinary Generating Function|Generating Function]]:
 $$
 C(x)=\sum_{n\geq 0} C_{n} x^{n} = \frac{ 1-\sqrt{ 1-4x } }{ 2x }
 $$
@@ -42,7 +42,7 @@ $$
 C(x) = \frac{ 1-\sqrt{ 1-4x } }{ 2x }
 $$
 #### Proof 2
-Let $\mathcal{C}$ be a structure of building a plane binary tree on $n$ internal nodes.
+Let $\mathcal{C}$ be a [[Combinatorial Structure|Structure]] of building a plane binary tree on $n$ internal nodes.
 Then it satisfies:
 $$
 \mathcal{C} = \varepsilon + \{ \cdot \} \times \mathcal{C} \times \mathcal{C}
