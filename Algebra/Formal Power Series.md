@@ -14,9 +14,11 @@ $$
 where $\sum_{n\geq 0}$ should be viewed as just a shorthand, and not an actual sum.
 
 We will write $[x^{n}]a$ to mean $a_{n}$ when $a(x)=a_{0}+a_{1}x+\dots$
+We also define $\deg a=n$ for the smallest $n\geq 0$ such that $a_{n}\neq0$.
 
 [[Series in a Ring]]
 [[Series of Formal Power Series]]
+[[Formal Infinite Product]]
 [[Formal Composition]]
 [[Formal Derivative]]
 [[Formal Maclaurin]]
