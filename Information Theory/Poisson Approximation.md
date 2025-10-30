@@ -1,4 +1,4 @@
-Suppose $X_{1},X_{2},\dots,X_{n}$ are binary [[Random Variable]]
+Suppose $X_{1},X_{2},\dots,X_{n}$ are binary [[Random Variable]]s
 with each $X_{i}\sim \mathrm{Bern}(p_{i})$ and let $\lambda=\sum_{i}p_{i}$.
 Let
 $$
@@ -8,7 +8,7 @@ and let $P_{S_{n}}$ be its distribution. Then:
 $$
 D_{e}(P_{S_{n}}||\Pi_{\lambda}) \leq \sum_{i=1}^{n} p_{i}^{2} + \left( \sum_{i=1}^{n} H_{e}(X_{i}) - H_{e}(X_{1},\dots,X_{n}) \right)
 $$
-where $D_{e}$ is [[Relative Entropy]] and $H$ is [[Mathematical Entropy]].
+where $D_{e}$ is the [[Relative Entropy]] and $H_{e}$ is the [[Mathematical Entropy]].
 #### Proof
 Let $Z_{1},Z_{2},\dots,Z_{n}$ be [[Independent]] with each other
 following the [[Poisson Distribution]]:

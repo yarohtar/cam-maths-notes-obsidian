@@ -4,3 +4,7 @@
 [[Second Borel-Cantelli Lemma]]
 [[Random Probability of Random Variable]]
 [[Inclusion-Exclusion Principle]]
+
+[[Bernoulli Distribution]]
+[[Binomial Distribution]]
+[[Poisson Distribution]]
