@@ -1,5 +1,5 @@
-Skipping definitions
-
+[[Simple Graph]]
+[[Directed Graph]]
 [[Euler's Theorem for Planar Graphs]]
 
 [[Hall's Theorem]]
@@ -10,3 +10,5 @@ Skipping definitions
 [[Menger]]
 [[Colouring]]
 [[Extremal Graph Theory]]
+
+[[Adjacency Matrix]]

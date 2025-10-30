@@ -27,4 +27,4 @@ We also define $\deg a=n$ for the smallest $n\geq 0$ such that $a_{n}\neq0$.
 [[Formal Logarithm]]
 [[Formal Binomial Power]]
 [[Formal Binomial Theorem]]
-[[Rogers-Ramanujan Identiti]]
+[[Rogers-Ramanujan Identities]]
