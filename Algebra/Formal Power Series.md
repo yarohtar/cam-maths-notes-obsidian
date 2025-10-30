@@ -20,6 +20,7 @@ We also define $\deg a=n$ for the smallest $n\geq 0$ such that $a_{n}\neq0$.
 [[Formal Infinite Sum]]
 [[Formal Infinite Product]]
 [[Formal Composition]]
+[[Formal Inverse]]
 [[Formal Derivative]]
 [[Formal Maclaurin]]
 [[Formal Exponential]]
@@ -27,9 +28,9 @@ We also define $\deg a=n$ for the smallest $n\geq 0$ such that $a_{n}\neq0$.
 [[Formal Binomial Power]]
 [[Formal Binomial Theorem]]
 ### Theorem
-Let $a_{n}$ be the number of ways to build a certain structure $\mathcal{A}$
+Let $a_{n}$ be the number of ways to build a certain [[Combinatorial Structure|Structure]] $\mathcal{A}$
 on an $n$-element set, 
-and let $b_{n}$ be the number of ways to build another structure $\mathcal{B}$ 
+and let $b_{n}$ be the number of ways to build another [[Combinatorial Structure|Structure]] $\mathcal{B}$ 
 on an $n$-element set.
 Then let $c_{n}$ be the number of ways to separate $[n]$ into disjoint intervals $S\cup T$
 where $S=\{ 1,2,\dots,i \}$ and $T=\{ i+1,\dots,n \}$ and build $\mathcal{A}$ on $S$ and $\mathcal{B}$ on $T$.
@@ -49,12 +50,3 @@ $$
 H(x)=\sum h_{n} x^{n} = \frac{1}{1-A(x)}
 $$
 We call this $A^{*}$.
-### Theorem
-Suppose $a_{0}=0$ and $b_{0}=1$.
-Let $g_{n}$ be the number of ways to split $[n]$ into disjoint nonempty intervals
-and build $\mathcal{A}$ in each interval and $\mathcal{B}$ on the set of intervals and set $g_{0}=1$.
-Then
-$$
-G(x)=\sum_{n\geq 0} g_{n}x^{n} = B(A(x))
-$$
-

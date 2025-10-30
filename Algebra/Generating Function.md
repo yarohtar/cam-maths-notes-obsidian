@@ -1,5 +1,6 @@
-A sequence $x_{0},x_{1},\dots$ in a [[Algebra/Ring Theory/Ring|Ring]] $R$
-has associated generating function 
+A generating function is a function $G:U\to \mathbb{C}$ where $U\subseteq \mathbb{C}$ 
+that has an associated [[Formal Power Series]] such that:
 $$
-G(X)=\sum_{j=0}^{\infty}x_{j}X^{j}\in R[[X]]
+G(z) = g_{0} + g_{1}z + g_{2}z^{2} + \dots
 $$
+converges for all $z\in U$. 
