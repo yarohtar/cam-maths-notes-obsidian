@@ -30,5 +30,5 @@ If $J$ is
 \end{tikzcd}
 \end{document}
 ```
-a diagram of shape $J$ is not-necessarily-commutative square.
+a diagram of shape $J$ is a not-necessarily-commutative square.
 
