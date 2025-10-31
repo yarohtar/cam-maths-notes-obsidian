@@ -1,11 +1,13 @@
-[[Linear Operator]]
-[[Operator Norm]]
-### Definition
-Write $L(X,Y)$ (or $B(X,Y)$) for the set of continuous linear maps $X\to Y$.
-Note that $S,T \in L(X,Y)$ then $S+T\in L(X,Y)$.
-Indeed $\lVert (S+T)x \rVert\leq \lVert Sx \rVert+\lVert Tx \rVert\leq (\lVert S \rVert+\lVert T \rVert)\lVert x \rVert$ so $S+T$ is bounded. 
-Moreover, $\lVert S+T \rVert\leq \lVert S \rVert+\lVert T \rVert$ so $\lVert  \rVert$ is indeed a [[Norm]] on $L(X,Y)$.
-
+Let $X$ and $Y$ be [[Normed Space]]s.
+Write $L(X,Y)$ (or $B(X,Y)$) for the set of continuous [[Linear Operator]]s $X\to Y$
+equipped with the [[Operator Norm]] $\lVert \cdot \rVert$.
+### Lemma
+The space $L(X,Y)$ is a [[Normed Space]].
+#### Proof
+Note that if $S,T \in L(X,Y)$ then $S+T\in L(X,Y)$.
+Indeed $\lVert (S+T)x \rVert\leq \lVert Sx \rVert+\lVert Tx \rVert\leq (\lVert S \rVert+\lVert T \rVert)\lVert x \rVert$ 
+so $S+T$ is bounded,
+so it is a [[Linear Operator]]
 ### Proposition
 Suppose $X,Y,Z$ are [[Normed Space]]s.
 Let $S\in L(X,Y)$ and $T\in L(Y,Z)$. 

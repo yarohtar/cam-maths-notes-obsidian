@@ -1,4 +1,4 @@
-Let $f$ be Riemann integrable and $\hat{f}_{n}=O(n^{-1})$
+Let $f$ be [[Riemann Integrable]] and $\hat{f}_{n}=O(n^{-1})$
 where $\hat{f}_{n}$ are [[Fourier Series]] coefficients
 Define 
 $$
