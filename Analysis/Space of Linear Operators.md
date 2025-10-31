@@ -4,11 +4,15 @@
 Write $L(X,Y)$ (or $B(X,Y)$) for the set of continuous linear maps $X\to Y$.
 Note that $S,T \in L(X,Y)$ then $S+T\in L(X,Y)$.
 Indeed $\lVert (S+T)x \rVert\leq \lVert Sx \rVert+\lVert Tx \rVert\leq (\lVert S \rVert+\lVert T \rVert)\lVert x \rVert$ so $S+T$ is bounded. 
-Moreover, $\lVert S+T \rVert\leq \lVert S \rVert+\lVert T \rVert$ so $\lVert  \rVert$ is indeed a norm on $L(X,Y)$.
+Moreover, $\lVert S+T \rVert\leq \lVert S \rVert+\lVert T \rVert$ so $\lVert  \rVert$ is indeed a [[Norm]] on $L(X,Y)$.
 
 ### Proposition
-$X,Y,Z$ normed, $S\in L(X,Y)$ and $T\in L(Y,Z)$. Then $T\circ S\in L(X,Z)$ and $\lVert T\circ S \rVert\leq \lVert T \rVert\lVert S \rVert\lVert x \rVert$.
-
+Suppose $X,Y,Z$ are [[Normed Space]]s.
+Let $S\in L(X,Y)$ and $T\in L(Y,Z)$. 
+Then $T\circ S\in L(X,Z)$ and 
+$$
+\lVert T\circ S \rVert\leq \lVert T \rVert\lVert S \rVert\lVert x \rVert
+$$
 ### Properties
 [[Closed subspace of L(X,Y)]]
 [[Completeness of L(X,Y)]]
