@@ -3,7 +3,7 @@
 [[Ideal]]
 [[Algebra/Ring Theory/The isomorphism theorems]]
 [[Characteristic of a ring]]
-[[Integral domain]]
+[[Integral Domain]]
 [[Maximal Ideal]]
 [[Prime Ideal]]
 [[Factorisation in integral domains]]

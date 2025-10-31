@@ -1,6 +1,5 @@
-[[Ring]] $R$ is Noetherian
-if and only if 
-any ascending chain of [[Ideal|ideals]] $I_1\subset I_2\subset \dots$ eventually terminates.
+We say that a [[Ring]] $R$ is Noetherian
+if any ascending chain of [[Ideal]]s $I_1\subset I_2\subset \dots$ eventually terminates.
 ### Lemma
 A [[Ring]] $R$ is Noetherian
 if and only if
