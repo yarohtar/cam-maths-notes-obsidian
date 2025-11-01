@@ -6,8 +6,6 @@ Then $(M,d)$ is called a metric space.
 
 We have the usual definitions of convergence of sequences and their usual properties .........
 
-A [[Lipschitz]] function is [[Uniform continuity|uniformly continuous]].
-
 On $(M,d)$ for $x\in M$ and $r<0$ we define the open ball $D_r(x)=\{y\in M: d(x,y)<r\}$ 
 and closed ball $B_r(x)=\{y\in M: d(x,y)\leq r\}$
 
