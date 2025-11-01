@@ -1,22 +1,26 @@
-Let $X=\mathbb{F}_{2}^{d}=\{ p_{1},\dots,p_{n} \}$ where $n=2^{d}$
-For each $A\subseteq X$  we get a vector $\mathbb{1}_{A}\in \mathbb{F}_{2}^{n}$ by the rule:
-$(\mathbb{1}_{A})_{i}=1$ iff $p_{i}\in A$ (i.e. its an indicator of $A$)
-
-For $A,B\subseteq X$ we have:
+Let $n=2^{d}$; $X=\mathbb{F}_{2}^{d}$; and $f:X\to [n]$ bijective.
+For $S\subseteq[n]$ let $1_{S}\in \mathbb{F}_{2}^{n}$ be its indicator function,
+and define $v_{A}=1_{f(A)}$ for any $A\subseteq X$.
+Furthermore, define the sum:
 $$
-\begin{gather}
-\mathbb{1}_{A}+\mathbb{1}_{B}=\mathbb{1}_{A}\triangle\mathbb{1}_{B}\\
-\mathbb{1}_{A}\land \mathbb{1}_{B}=\mathbb{1}_{A}\cap \mathbb{1}_{B}\\
-w(\mathbb{1}_{A})=\lvert A \rvert 
-\end{gather}
+v_{A}+v_{B} = 1_{f(A)\triangle f(B)}
 $$
-Let $v_{0}=\mathbb{1}_{A}(1,1,\dots 1)$
-For $1\leq i\leq d$ let $v_{i}=\mathbb{1}_{H_{i}}$ where $H_{i}=\{ p \in X: p_{i}=0 \}$
+the wedge product:
+$$
+v_{A}\wedge v_{B} = 1_{f(A)\cap f(B)}
+$$
+and the weight:
+$$
+w(v_{A}) = \lvert A \rvert 
+$$
+Additionally, set $v_{i}=v_{H_{i}}$ where 
+$$
+H_{i} = \{ p \in X: p_{i} = 0 \}
+$$
+as well as $v_{0}=(1,1,\dots,1)$
 
-### Definition
-Reed-Muller code $RM(d,r)$ of order $r$ and length $n=2^{d}$ 
+Reed-Muller [[Linear Code]] $RM(d,r)$ of order $r$ and length $n=2^{d}$ 
 is the vector subspace of $\mathbb{F}_{2}^{n}$ spanned by $v_{0}$ and wedge products of at most $r$ of the $v_{i}$.
-
 ### Example
 $d=3$, $n=8$
 
@@ -32,10 +36,13 @@ $d=3$, $n=8$
 | $v_{1}\wedge v_{2}\wedge v_{3}$ |  1  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |
 
 $RM(3,0)$ is spanned by $v_{0}$. It is the repetition code of length 8
-$RM(3,1)$ is spanned by $v_{0},v_{1},v_{2},v_{3}$. Deleting the first component of each codeword gives [[Hamming's Original Code]]
+
+$RM(3,1)$ is spanned by $v_{0},v_{1},v_{2},v_{3}$. 
+Deleting the first component of each codeword gives [[Hamming's Original Code]]
+
 $RM(3,2)$ is spanned by all the previous plus $v_{1}\land v_{2}$, etc.
+
 $RM(3,3)=\mathbb{F}_{2}^{8}$
- 
 ### Lemma
 The vector $v_{i_{1}}\wedge\dots \wedge v_{i_{s}}$ for $1\leq i_{1}<\dots<i_{s}\leq d$ and $0\leq s\leq d$ are a basis for $\mathbb{F}_{2}^{n}$
 #### Proof
