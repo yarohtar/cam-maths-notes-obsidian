@@ -2,7 +2,7 @@ $$
 0,1,2,\dots
 $$
 $$
-\omega=sup \{ 0,1,2,\dots \}
+\omega=\sup \{ 0,1,2,\dots \}
 $$
 Next one is $\omega^{+}$ which we will write as $\omega+1$ (for now, just notation)
 Continue: $\omega+2,\omega+3,\dots$ and then 
@@ -28,7 +28,7 @@ $$
 $$
 Now continue to get
 $$
-\varepsilon_{0},\dots\varepsilon_{1},\dots ,\varepsilon_{2},\dots,\varepsilon_{\omega},\dots,\varepsilon_{\varepsilon_{0}},\dots\varepsilon_{\varepsilon_{\varepsilon_{0}}}\dots\varepsilon_{\varepsilon_{\varepsilon_{\ddots}}}\dots
+\varepsilon_{0},\dots\varepsilon_{1},\dots ,\varepsilon_{2},\dots,\varepsilon_{\omega},\dots,\varepsilon_{\varepsilon_{0}},\dots,\varepsilon_{\varepsilon_{\varepsilon_{0}}},\dots,\varepsilon_{\varepsilon_{\varepsilon_{\ddots}}},\dots
 $$
 Note, all of these ordinals are countable.
 Let $\omega_{1}$ be the smallest [[Uncountable ordinal]] and thus find:

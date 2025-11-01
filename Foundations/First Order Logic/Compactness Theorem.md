@@ -1,11 +1,9 @@
 Let $S$ be a first-order [[Theory]].
-If every finite subset of $S$ has a [[Model]], then  has a [[Model]].
-
+If every finite subset of $S$ has a [[Model]], then $S$ has a [[Model]].
 #### Proof
 If $S\models \bot$ then $S\vdash \bot$ by [[Adequacy Theorem]]
 As proofs are finite, there's a finite $S'\subseteq S$ s.t. $S'\vdash \bot$. 
 Then by the [[Soundness Theorem]] $S'\models \bot$ i.e. $S'$ has no model.
-
 ### Corollary 
 Finite [[Group]]s cannot be axiomatized as a first-order [[Theory]].
 #### Proof

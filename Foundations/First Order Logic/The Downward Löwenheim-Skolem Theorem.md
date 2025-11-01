@@ -1,7 +1,7 @@
 Let $S$ be a [[Theory]] in a countable language (i.e. $\Omega \cup \Pi$ is countable)
 If $S$ has a [[Model]], then $S$ has a countable model.
 #### Proof
-By the [[Soundness Theorem]], $S$ is consistent.
+By the [[Soundness Theorem]], $S$ is consistent. 
 Then the model constructed in the proof of [[Model Existence Lemma]] is countable. 
 ### Refinement
 Let $N$ be a [[Model]], and $\Phi$ any set of formulas.
@@ -10,7 +10,7 @@ such that $M$ is a [[Substructure]] of $N$
 and all formulas in $\Phi$ are [[Absolute]] between $M$ and $N$.
 #### Proof
 WLOG $\Phi$ is closed under subformulas.
-Let $\exists x\,\psi \in \Phi$
+Suppose $\exists x\,\psi \in \Phi$
 Define, using [[Axiom of Choice]]:
 $$
 w(\psi,\vec{p}) = \begin{cases}

@@ -19,7 +19,7 @@ to obtain a proof of $q$ from $S\cup \{ p \}$
 
 Now assume $S\cup \{ p \}\vdash q$. Let $t_{1},\dots,t_{n}$ be a proof of $q$ from $S\cup \{ p \}$
 We prove by induction on $i$ that $S\vdash(p\implies t_{i})$
-Induction hypothesis at $i$th step:
+Induction hypothesis at $i$-th step:
 For all $j<i$ we have $S\vdash(p\implies t_{j})$ s.t. if a variable $x$ does not occur free in any premiss in the proof $t_{1},\dots,t_{j}$ of $t_{j}$ from $S\cup \{ p \}$ 
 then $x$ must not occur free in any premiss used in the proof of $(p\implies t_{j})$ from $S$.
 We now prove that $S\vdash(p\implies t_{i})$ in four cases
