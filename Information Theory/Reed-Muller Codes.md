@@ -1,24 +1,10 @@
 Let $n=2^{d}$; $X=\mathbb{F}_{2}^{d}$; and $f:X\to [n]$ bijective.
-For $S\subseteq[n]$ let $1_{S}\in \mathbb{F}_{2}^{n}$ be its indicator function,
-and define $v_{A}=1_{f(A)}$ for any $A\subseteq X$.
-Furthermore, define the sum:
+View $\mathbb{F}_{2}^{n}$ as the [[Indicator Ring]] over $[n]$ (with operations $+$ and $\wedge$)
+and furthermore define $v_{i}=1_{f(H_{i})}$ for:
 $$
-v_{A}+v_{B} = 1_{f(A)\triangle f(B)}
+H_{i} = \{ p \in X : p_{i} = 0 \}
 $$
-the wedge product:
-$$
-v_{A}\wedge v_{B} = 1_{f(A)\cap f(B)}
-$$
-and the weight:
-$$
-w(v_{A}) = \lvert A \rvert 
-$$
-Additionally, set $v_{i}=v_{H_{i}}$ where 
-$$
-H_{i} = \{ p \in X: p_{i} = 0 \}
-$$
-as well as $v_{0}=(1,1,\dots,1)$
-
+with $v_{0}=1_{[n]}$.
 Reed-Muller [[Linear Code]] $RM(d,r)$ of order $r$ and length $n=2^{d}$ 
 is the vector subspace of $\mathbb{F}_{2}^{n}$ spanned by $v_{0}$ and wedge products of at most $r$ of the $v_{i}$.
 ### Example
@@ -40,7 +26,7 @@ $RM(3,0)$ is spanned by $v_{0}$. It is the repetition code of length 8
 $RM(3,1)$ is spanned by $v_{0},v_{1},v_{2},v_{3}$. 
 Deleting the first component of each codeword gives [[Hamming's Original Code]]
 
-$RM(3,2)$ is spanned by all the previous plus $v_{1}\land v_{2}$, etc.
+$RM(3,2)$ is spanned by all the previous plus $v_{1}\land v_{2}$, $v_{1}\wedge v_{3}$ and $v_{2}\wedge v_{3}$.
 
 $RM(3,3)=\mathbb{F}_{2}^{8}$
 ### Lemma
@@ -56,16 +42,22 @@ v_{i} & \text{if } p_{i}=0\\
 v_{i}+v_{0} & \text{otherwise}
 \end{cases}
 $$
-Expanding using distributive law, gives that $\mathbb{1}_{\{ p \}}\in RM(d,d)$
-But these clearly span $\mathbb{F}_{2}^{n}$
+and 
+$$
+y=y_{1}\wedge y_{2}\wedge\dots \wedge y_{d}
+$$
+Expanding using distributive law, gives that $1_{\{ f(p) \}}\in RM(d,d)$
+But these clearly span $\mathbb{F}_{2}^{n}$.
 ### Corollary
 $RM(d,r)$ has rank $\sum_{s=0}^{r}{d \choose s}$
 ### Lemma
 $RM(d,r)=RM(d-1,r)\mid RM(d-1,r-1)$ [[The Bar Product]]
 #### Proof
-We order $X=\mathbb{F}_{2}^{d}$ s.t. $v_{d}=(0\dots 0,1\dots 1)$ (where we take $2^{d-1}$ ones and $2^{d-1}$ zeros)
-and $v_{i}=(v_{i}'\mid v_{i}')$ for $1\leq i\leq d-1$
-Let $z\in R(d,r)$. It is a sum of wedge products of $v_{0},\dots,v_{d}$
+We order $X=\mathbb{F}_{2}^{d}$ such that $v_{d}=(0\dots 0,1\dots 1)$ 
+(where we take $2^{d-1}$ ones and $2^{d-1}$ zeros)
+and $v_{i}=(v_{i}'\mid v_{i}')$ for $1\leq i\leq d-1$.
+Let $z\in R(d,r)$. 
+It is a sum of wedge products of $v_{0},\dots,v_{d}$
 so $z=x+(y\wedge v_{d})$
 Where $x$ and $y$ are sums of wedge products of ...
 We have $x=(x'\mid x')$ and $y=(y'\mid y')$
