@@ -1,5 +1,4 @@
-Given a [[Vector Space]] $V$ 
-with inner product $(\cdot,\cdot)$ 
+Given a [[Vector Space]] $V$ with inner product $(\cdot,\cdot)$ 
 and [[Linearly Independent]] vectors $v_1,\dots,v_n$
 we find
 $$

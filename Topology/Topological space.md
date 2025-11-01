@@ -37,4 +37,4 @@ A subset of $X$ is closed if its complement is open.
 ## More stuff
 [[Connectedness]]
 [[Compact]]
-[[Sequentially compact]]
+[[Sequentially Compact]]

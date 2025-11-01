@@ -508,7 +508,7 @@ $4\lvert F \rvert\geq 2\lvert E(G) \rvert$
 ## Hall
 ![[Hall's Theorem]]
 ## Menger
-![[Menger]]
+![[Menger's Theorem]]
 
 ## Colouring
 In proofs of $5-6$ colour theorems use

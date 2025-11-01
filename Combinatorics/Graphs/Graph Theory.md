@@ -7,7 +7,7 @@
 
 [[Connectivity Parameter]]
 [[Separator]]
-[[Menger]]
+[[Menger's Theorem]]
 [[Colouring]]
 [[Extremal Graph Theory]]
 

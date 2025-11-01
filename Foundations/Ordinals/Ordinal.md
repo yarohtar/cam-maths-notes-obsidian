@@ -2,9 +2,9 @@ An ordinal is a well ordered set.
 We identify ordinals that are [[Order-isomorphic]] to each-other. 
 
 [[Order Type]]
-
 ### Proposition
-Let $\alpha$ be an ordinal. Then the ordinals strictly less than $\alpha$ form a [[Well-ordered]] set of [[Order Type]] $\alpha$.
+Let $\alpha$ be an ordinal. 
+Then the ordinals strictly less than $\alpha$ form a [[Well-ordered]] set of [[Order Type]] $\alpha$.
 #### Proof
 Let $X$ be a [[Well-ordered]] set whose [[Order Type]] is $\alpha$ 
 Let $X'=\{ Y\subseteq X:Y \text{ is a proper initial segment of }X \}$

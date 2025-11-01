@@ -8,6 +8,7 @@ $$
 \mathbb{P}(\limsup A_{n}) = 1
 $$
 [[lim sup]]
+
 The infinite monkey theorem follows from this.
 
 #### Proof

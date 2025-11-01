@@ -1,6 +1,6 @@
 For a metric space $M$, the following are equivalent:
 1. $M$ is [[Compact]]
-2. $M$ is [[Sequentially compact]]
+2. $M$ is [[Sequentially Compact]]
 3. $M$ is [[Totally bounded]] and [[Complete|complete]]
 
 ## Proof(s)

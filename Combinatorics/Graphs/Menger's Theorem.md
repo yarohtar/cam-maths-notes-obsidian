@@ -1,4 +1,4 @@
-Let $G$ be a connected graph and $a\ne b$ are not connected
+Let $G$ be a connected [[Simple Graph|Graph]] and $a\ne b$ are not connected
 The minimum size of $a-b$ [[Separator]] is the maximum number 
 of disjoint paths from $a$ to $b$.
 Equivalently if all $a-b$ separators have size at least $k$ 

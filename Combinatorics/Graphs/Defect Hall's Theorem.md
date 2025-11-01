@@ -1,4 +1,4 @@
-Let $G=(X\sqcup Y,E)$ be bipartite. 
+Let [[Simple Graph|Graph]] $G=(X\sqcup Y,E)$ be bipartite. 
 Then $G$ contains a [[Matching with Deficiency]] $d$ 
 if and only if $\lvert A \rvert \leq \lvert N(A) \rvert+d$ for all $A\subseteq X$
 ### Proof
