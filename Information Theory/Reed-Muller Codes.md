@@ -63,9 +63,9 @@ Where $x$ and $y$ are sums of wedge products of ...
 We have $x=(x'\mid x')$ and $y=(y'\mid y')$
 So $z=\dots=(x'\mid x'+y')\in RM(d-1,r)\mid RM(d-1,r-1)$
 ### Corollary
-$RM(d,r)$ has weight $2^{d-r}$
+$RM(d,r)$ has weight $2^{d-r}$.
 #### Proof
 $RM(d,0)$ is the repetition code of length $2^{d}$, has weight $2^{d-0}$
-$RM(d,d)=\mathbb{F}_{2}^{n}$ by has weight $1=2^{d-d}$
+$RM(d,d)=\mathbb{F}_{2}^{n}$ has weight $1=2^{d-d}$
 If $0<r<d$ we use induction on $d$ with [[The Bar Product]]
 
