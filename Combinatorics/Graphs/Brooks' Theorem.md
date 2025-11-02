@@ -1,4 +1,4 @@
-Let $G$ be a connected graph.
+Let $G$ be a connected [[Simple Graph|Graph]].
 If $G$ is not an odd cycle or a complete graph then $\chi(G)\leq \Delta(G)$
 ### Proof
 First $G$ is $\Delta$ regular by ordering vertices and greedy colouring

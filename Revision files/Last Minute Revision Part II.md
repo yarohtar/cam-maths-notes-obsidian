@@ -520,7 +520,7 @@ Since $e\leq 3n-6$ the average degree is at most $6-\frac{12}{n}<6$
 So minimal degree is at most $5$
 
 ### Brooks
-![[Brooks]]
+![[Brooks' Theorem]]
 
 ### Polynomial 
 ![[Chromatic Polynomial]]

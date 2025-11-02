@@ -3,6 +3,6 @@ We write $\chi'(G)$ for the number of proper colourings of edges of $G$
 
 [[Greedy Colouring]]
 [[Colouring Planar Graphs]]
-[[Brooks]]
+[[Brooks' Theorem]]
 [[Chromatic Polynomial]]
 [[Vizing Theorem]]
