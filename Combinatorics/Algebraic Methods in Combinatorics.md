@@ -37,5 +37,6 @@ $$
 Any $f:[n]\to[n]$ must have $k$ periods and $(2k)$ wandering points for some $k\geq 1$.
 There is a bijection between $\{ f:[n]\to[n] \}$ 
 with $k$ periodic points and unordered partitions of $[n]$
-into $k$ parts on each of which I build a rooted trees cartesian product the permutations $f$ define on these $k$ paths 
+into $k$ parts on each of which I build a rooted trees cartesian product the permutations $f$ define on these $k$ paths .......... uh something....
+
 
