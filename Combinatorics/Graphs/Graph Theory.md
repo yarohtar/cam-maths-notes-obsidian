@@ -1,5 +1,6 @@
 [[Simple Graph]]
 [[Directed Graph]]
+[[Tree]]
 [[Euler's Theorem for Planar Graphs]]
 
 [[Hall's Theorem]]

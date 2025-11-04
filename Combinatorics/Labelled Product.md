@@ -1,4 +1,4 @@
-For [[Combinatorial Structure|Combinatorial Structure]]s $\mathcal{A}$ and $\mathcal{B}$, define the labeled product 
+For [[Combinatorial Structure|Combinatorial Structure]]s $\mathcal{A}$ and $\mathcal{B}$, define the labelled product 
 $$
 \mathcal{A}*\mathcal{B}
 $$
