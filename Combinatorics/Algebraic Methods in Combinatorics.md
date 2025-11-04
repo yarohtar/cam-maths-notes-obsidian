@@ -9,5 +9,6 @@ Reading:
 [[Formal Power Series]]
 [[Catalan Number]]
 [[Combinatorial Structure|Structure]]
+[[Labelled Structure]]
 
 

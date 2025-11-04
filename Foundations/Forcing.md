@@ -4,7 +4,7 @@ then there is a $N\supseteq M$ countable [[Countable Transitive Model]] where
 $$
 N\models T^{*}+\neg CH
 $$
-#### Proof
+#### Fake proof
 Find in $M$ some $\alpha$, $\beta$ such that 
 $$
 M\models \alpha=\aleph_{1} \land \beta=\aleph_{2}
@@ -20,7 +20,9 @@ Find, outside of $M$, some $g:\beta \to \mathcal{P}(\mathbb{N})$ injective.
 Clearly, $g\not\in M$.
 Take $X$ to be the transitive closure of $M\cup \{ g \}$ (which is countable)
 and form a countable transitive model of $ZFC$ containing $X$.
-
+Then in $N$, we have $\lvert \mathcal{P}(\mathbb{N}) \rvert\geq \lvert \beta \rvert$
+But we have no control over $\alpha$ and $\beta$ and whether $N\models \alpha=\aleph_{1}\land \beta=\aleph_{2}$
+So we can't do it like this.
 ## Theorem (Forcing)
 IF $ZFC$ has a [[Countable Transitive Model]] then ...
 ### Proof
