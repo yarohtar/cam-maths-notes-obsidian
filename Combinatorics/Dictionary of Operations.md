@@ -1,4 +1,4 @@
-### Theorerm
+### Theorem
 Let $\mathcal{A}$ and $\mathcal{B}$ be [[Combinatorial Structure]]s
 with [[Ordinary Generating Function]]s $f_{\mathcal{A}}$ and $f_{\mathcal{B}}$
 Then the following holds
