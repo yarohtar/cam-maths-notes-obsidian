@@ -125,3 +125,7 @@ and in particular [[Axiom of Choice]] holds in $L$.
 [[Axiom of Constructibility]]
 [[Gödel's Incompleteness Theorems]]
 [[Gödel's Condensation Lemma]]
+### Claim
+For every $x\subseteq \mathbb{N}$, $x\in L$, there is some $\alpha<\omega_{1}$ such that $x\in L_{\alpha}$.
+
+THIS PROVES CH
