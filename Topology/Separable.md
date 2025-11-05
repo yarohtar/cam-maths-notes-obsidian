@@ -1,4 +1,4 @@
-We say topological space $X$ is separable if it has a countable dense subset.
+We say [[Topological Space]] $X$ is separable if it has a countable dense subset.
 #### Example
 Given [[L norms]]:
 Each $l_{p}$ is separable for $1\leq p< \infty$ (take finite rational sequences). 

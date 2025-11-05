@@ -2,7 +2,7 @@ Let $X$ be a real or complex vector space with [[Norm]] $\lVert \cdot \rVert$
 A normed space is a pair $(X,||\cdot||)$
 
 NOTE: a normed space gives rise to a [[Metric Space|metric space]] with $d(x,y)=||x-y||$. 
-This then induces a [[Topological space]].
+This then induces a [[Topological Space]].
 So we can talk about open sets, closed sets, convergent sequences etc.
 
 [[L norms]]
@@ -10,7 +10,7 @@ So we can talk about open sets, closed sets, convergent sequences etc.
 [[Metric Space#Some properties]]
 [[Unit Ball]]
 
-[[Separable Space]]
+[[Separable]]
 
 [[Equivalent Norms]]
 

@@ -1,4 +1,4 @@
-$X$, $Y$ normed with $Y$ complete. 
+Let $X$, $Y$ be [[Normed Space]]s with $Y$ [[Complete]].
 Then the [[Compact Linear Map|compact]] [[Linear Operator]]s form a closed subspace of $L(X,Y)$.
 #### Proof
 Subspace: Must show that $S$, $T$, compact implies $S+T$ compact
@@ -15,4 +15,4 @@ So $T(B_{X})\subseteq \cup B(T(x_{i}),3\epsilon)$
 Thus $T(B_{X})$ is totally bounded.
 
 ### Note
-So any limit of finite rank operators is compact.
+Any limit of finite rank operators is compact.

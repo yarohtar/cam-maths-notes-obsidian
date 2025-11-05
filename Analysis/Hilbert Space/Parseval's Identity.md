@@ -4,5 +4,5 @@ Then:
 2. $\forall x,y\in \mathcal{H}:\ (x,y)=\sum_{n}(x,e_{n})(y,e_{n})^{*}$
 
 ### Corollary
-Let $\mathcal{H}$ be [[Separable Space]] infinite dimensional [[Hilbert Space]]
+Let $\mathcal{H}$ be [[Separable]] infinite dimensional [[Hilbert Space]]
 Then $\mathcal{H}$ is [[Isometric Isomorphism]] to $l_{2}$

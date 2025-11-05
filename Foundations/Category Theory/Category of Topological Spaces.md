@@ -1,4 +1,4 @@
-The [[Category]] of [[Topological space]]s and [[Continuous]] maps between them
+The [[Category]] of [[Topological Space]]s and [[Continuous]] maps between them
 denoted by $\mathrm{Top}$
 
 Note that [[Isomorphism]]s in $\mathrm{Top}$ are [[Homeomorphism]]s,

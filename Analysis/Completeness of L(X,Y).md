@@ -1,4 +1,4 @@
-$X$, $Y$ [[Normed Space]] with $Y$ [[Complete]]. 
+Let $X$, $Y$ be [[Normed Space]]s with $Y$ [[Complete]]. 
 Then $L(X,Y)$ is [[Complete]].
 #### Proof
 Given $(T_{n})$, a [[Cauchy Sequence]] in $L(X,Y)$:

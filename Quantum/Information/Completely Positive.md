@@ -31,7 +31,7 @@ $$
 which is positive in $\mathbb{C}^{2\times 2}\otimes \mathbb{C}^{2 \times 2}$
 However 
 $$
-T\otimes \operatorname{id}_{n}(S) = \begin{pmatrix}
+T\otimes \operatorname{id}_{2}(S) = \begin{pmatrix}
 \begin{pmatrix}
 1 & 0 \\
 0 & 0

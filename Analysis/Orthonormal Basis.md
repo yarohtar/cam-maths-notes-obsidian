@@ -7,7 +7,7 @@ We use the same terminology for a finite sequence
 [[Gram-Schmidt process]] applies
 
 ### Corollary
-Let $X$ be a [[Separable Space]] [[Inner Product Space]]. 
+Let $X$ be a [[Separable]] [[Inner Product Space]]. 
 Then $X$ has an orthonormal basis.
 
 ### Corollary

@@ -11,6 +11,6 @@ For $T\in B(\mathcal{H})$ define the dual (ie [[Adjoint]]) to be $T^{*}$
 [[Unitary]]
 [[Logic Gates]]
 [[Trace]]
-[[Density Operators]]
+[[Density Operator]]
 [[Schumacher's Theorem]]
 [[Characterisation of Quantum Channels]]
