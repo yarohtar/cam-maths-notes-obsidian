@@ -7,7 +7,7 @@ Notes on moodle
 [[Tensor Product of Hilbert Spaces]]
 [[Outer Product in Hilbert Spaces]]
 [[Orthogonal Projectors in Hilbert Spaces]]
-[[Trace of an Operator]]
+[[Trace]]
 [[Hilbert-Schmidt Inner Product]]
 [[Pauli Matrices]]
 [[Orthogonal Subspaces]]

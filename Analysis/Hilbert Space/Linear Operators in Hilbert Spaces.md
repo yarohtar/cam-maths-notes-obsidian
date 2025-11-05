@@ -1,4 +1,4 @@
 [[Linear Operator]]
-[[Matrix of a Linear Operator]]
+[[Matrix]]
 [[Adjoint]]
 [[Hermetian]]

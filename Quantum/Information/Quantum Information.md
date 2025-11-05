@@ -10,7 +10,7 @@ For $T\in B(\mathcal{H})$ define the dual (ie [[Adjoint]]) to be $T^{*}$
 [[Quantum Measurements]]
 [[Unitary]]
 [[Logic Gates]]
-[[Trace of an Operator]]
+[[Trace]]
 [[Density Operators]]
 [[Schumacher's Theorem]]
 [[Characterisation of Quantum Channels]]
