@@ -16,9 +16,14 @@ Then we have ${|z-a|\over |w-a|}<{r\over |w-a|}<1$, so
 $$
 |a_n||z-a|^n<|a_n||w-a|^n{r^n\over|w-a|^n}<M{r^n\over |w-a|^n}
 $$
-So take $M_n=M{r^n\over |w-a|^n}$ and note that $\sum_{n=1}^\infty M_n$ converges. 
+So take $M_n=M{r^n\over |w-a|^n}$ and note that $\sum_{n=1}^\infty M_n$ converges (as a geometric series).
+Thus for any $\epsilon>0$ find $N$ such that $M_{n}<\epsilon$ for all $n>N$.
+Then 
+$$
+\lvert a_{n}(z-a)^{n} - a_{m}(z-a)^{m} \rvert \leq 2\epsilon
+$$
+for any $n,m>N$.
 We are done by [[General Principle of Uniform Convergence]].
-
 ### Differentiation of power series
 Suppose we have a powerseries $\sum a_n(z-a)^n$ with radius of convergence $R>0$. 
 Then the "derived series" $\sum na_n(z-a)^{n-1}$ also has radius of convergence $R$ 
@@ -27,8 +32,8 @@ Now the original powerseires has a point where it converges
 and it's derivative converges uniformly for every $r<R$. 
 Let $|x-a|<R$. 
 Pick $|x-a|<r<R$. 
-Then using [[Converges Uniformly#Theorem Diff|convergence of derivatives]] we find the derivative of the powerseries at $x$ 
-is exactly 
+Then using [[Converges Uniformly#Theorem Diff|convergence of derivatives]] 
+we find the derivative of the powerseries at $x$ is exactly 
 $$
 \sum_{n=1}^\infty na_n(x-a)^{n-1}
 $$
