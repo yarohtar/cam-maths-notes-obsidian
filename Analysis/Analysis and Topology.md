@@ -1,5 +1,5 @@
 [[Pointwise convergence of functions]]
-[[Uniform convergence of functions]]
+[[Converges Uniformly]]
 [[Uniform Cauchy]]
 [[Power series]]
 [[Uniformly Continuous]]
