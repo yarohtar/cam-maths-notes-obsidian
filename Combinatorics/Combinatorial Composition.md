@@ -9,5 +9,15 @@ $$
 w_{G\circ F} = w_{G} \cdot \prod_{i=1}^{k} w_{F}(\alpha_{i})
 $$
 Note that for this to be well defined, we need $F(\varnothing)=\varnothing$,
-otherwise there is infinitely many partitions of $A$.
+otherwise there is infinitely many partitions of $A$ which contribute.
 
+The above construction is [[Natural Isomorphism|naturally isomorphic]] to 
+$$
+(G\circ F)(A) = \sum_{\pi \in P(A)} G(\pi) \times \prod_{B\in \pi} F(B)
+$$
+where $P(A)$ is the set of [[Partition]]s of $A$.
+
+We can further rewrite this as:
+$$
+(G\circ F)(A) = \sum_{k=0}^{\infty} G([k]) \times F^{k}(A)
+$$
