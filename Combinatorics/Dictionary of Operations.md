@@ -25,7 +25,7 @@ $$
 \tilde{f}_{\mathcal{A}*\mathcal{B}}(x) = \tilde{f}_{\mathcal{A}}(x)\cdot \tilde{f}_{\mathcal{B}}(x)
 $$
 $$
-\tilde{f}_{\mathrm{Seq}(\mathcal{A})}(x) = 1 + \tilde{f}_{\mathcal{A}} + \frac{\tilde{f}_{\mathcal{A}}^{2}}{2!} + \dots = \exp(\tilde{f}_{\mathcal{A}}(x))
+\tilde{f}_{\mathrm{Set}(\mathcal{A})}(x) = 1 + \tilde{f}_{\mathcal{A}} + \frac{\tilde{f}_{\mathcal{A}}^{2}}{2!} + \dots = \exp(\tilde{f}_{\mathcal{A}}(x))
 $$
 $$
 \tilde{f}_{\mathcal{B}\circ \mathcal{A}}(x) = \tilde{f}_{\mathcal{B}} (\tilde{f}_{\mathcal{A}}(x))

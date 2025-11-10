@@ -11,7 +11,6 @@ Given labelled structures $\mathcal{A}=(A,v_{A})$ and $\mathcal{B}=(B,v_{B})$ de
 | Shifted           | $\mathcal{A}_{+}$              | $\{ \alpha \in A_{n+1} \text{ built on }[n]\cup[t] \}$                                                                                                | $v_{A}(\alpha)$                       |
 | Root              | $\mathcal{A}_{\bullet}$        | $\{ (\alpha,r) : \alpha \in A_{n} \text{ built on }[n]; r\in[n] \}$                                                                                   | $v_{A}(\alpha)$                       |
 
-[[Labelled Product]]
 [[Dictionary of Operations]]
 [[Combinatorial Union]]
 [[Combinatorial Product]]
