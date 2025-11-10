@@ -22,6 +22,7 @@ When weight is not specified, we assume that this is the case.
 [[Combinatorial Union]]
 [[Combinatorial Product]]
 [[Combinatorial Composition]]
+[[Unlabelled Composition]]
 
 ### Definition
 Given structures $\mathcal{A}=(A,v_{A})$ and $\mathcal{B}(B,v_{B})$ define the following

@@ -4,15 +4,19 @@ $$
 a\sim b \iff F(\sigma)(a) = b
 $$
 for some bijective $\sigma:S\to S$.
-The unlabelled structure from $F$ is the set of equivalence classes of $\sim$.
-We write $F_{n}=F[n]/\sim$ for equivalence classes of $F$-structures of order $n$.
-
-Note that the weight $w:F(S)\to R$ satisfies
+This defines a new structure:
 $$
-a\sim b \implies w(a) = w(b)
+\mathcal{F}(S) = \{ [a]_{\sim} : a\in F(S) \}
 $$
-so we can define $w([a])=w(a)$
-as the weight on the equivalence classes of $\sim$.
+with weight 
+$$
+w_{\mathcal{F}}([a]) = w_{F}(a)
+$$
+Note that the weight $w_{F}:F(S)\to R$ satisfies
+$$
+a\sim b \implies w_{F}(a) = w_{F}(b)
+$$
+so this is well defined.
 
+We shall write $F_{n}=\mathcal{F}[n]$.
 Each unlabelled structure has an associated [[Ordinary Generating Function]]
-
