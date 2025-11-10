@@ -17,3 +17,13 @@ $$
 $$
 where $P(A)$ is the set of [[Partition]]s of $A$.
 
+### Remark
+This is **not** the same as:
+$$
+\sum_{k} G[k] \times F^{k}
+$$
+See [[Unlabelled Composition]].
+Ironically, the allegedly unlabelled composition builds $G$-structures 
+on ordered $k$-tuples of $F$-structures;
+while the labelled composition builds $G$-structures on sets of $F$-structures.
+

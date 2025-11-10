@@ -9,6 +9,9 @@ $$
 $$
 as the [[Combinatorial Product]].
 
+This is only well defined if $\mathcal{A}(\varnothing)=\varnothing$,
+otherwise there is an infinite contribution from partitions containing empty sets.
+
 ### Lemma
 Let $\mathcal{A}$ and $\mathcal{B}$ have [[Ordinary Generating Function]]s $f_{\mathcal{A}}$ and $f_{\mathcal{B}}$.
 Then 
@@ -27,5 +30,15 @@ f_{\mathcal{A}^{k}} = \sum_{n} a_{n}^{(k)} x^{n}
 $$
 The combined weight of objects of size $n$ in $\mathcal{B}(\mathcal{A})$ is 
 $$
-\sum_{k} \sum_{b\in B_{k}} w(b) \cdot 
+\sum_{k} \sum_{b\in B_{k}} w(b) \cdot a_{n}^{(k)} = \sum_{k} b_{k} a_{n} ^{(k)}
 $$
+We conclude: 
+$$
+\begin{align}
+f_{\mathcal{B}(\mathcal{A})}(x)  & = \sum_{n} x^{n} \sum_{k} b_{k} a_{n} ^{(k)} \\
+ & =\sum_{k} b_{k} \sum_{n} a_{n}^{(k)} x^{n}  \\
+ & = \sum_{k} b_{k} f_{\mathcal{A}^{k}}(x) \\
+ & =f_{\mathcal{B}}\circ f_{\mathcal{A}}(x)
+\end{align}
+$$
+^ cheeky infinite sum swap but its *formal* infinite sum. 
