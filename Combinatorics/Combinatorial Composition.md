@@ -6,5 +6,8 @@ $$
 $$
 with weight 
 $$
-w_{G\circ F} = 
+w_{G\circ F} = w_{G} \cdot \prod_{i=1}^{k} w_{F}(\alpha_{i})
 $$
+Note that for this to be well defined, we need $F(\varnothing)=\varnothing$,
+otherwise there is infinitely many partitions of $A$.
+
