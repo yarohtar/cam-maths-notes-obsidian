@@ -15,7 +15,7 @@ $$
 $$
 so 
 $$
-\tilde{f}_{\mathcal{A}\times \mathcal{B}} = \sum_{n\geq 0} \left(  \sum_{i=0}^{n} \frac{ \binom{ n }{ i }a_{i}b_{i} }{ n! } x^{n} \right) = \tilde{f}_{\mathcal{A}}(x) \tilde{f}_{\mathcal{B}} (x)
+\tilde{f}_{\mathcal{A}\times \mathcal{B}} = \sum_{n\geq 0} \left(  \sum_{i=0}^{n} \frac{ \binom{ n }{ i }a_{i}b_{n-i} }{ n! } x^{n} \right) = \tilde{f}_{\mathcal{A}}(x) \tilde{f}_{\mathcal{B}} (x)
 $$
 If $a_{0}=0$, $\mathcal{H}=\mathrm{Set}(A)$ by partitioning $[n]$ into an unordered unspecified number of elements subsets and building $\mathcal{A}$ on each, with $h_{0}=1$ from empty subset $\varepsilon$,
 and 

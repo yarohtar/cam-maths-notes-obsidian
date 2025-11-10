@@ -17,7 +17,3 @@ $$
 $$
 where $P(A)$ is the set of [[Partition]]s of $A$.
 
-We can further rewrite this as:
-$$
-(G\circ F)(A) = \sum_{k=0}^{\infty} G([k]) \times F^{k}(A)
-$$
