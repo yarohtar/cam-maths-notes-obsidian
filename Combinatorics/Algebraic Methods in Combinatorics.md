@@ -9,7 +9,6 @@ Reading:
 [[Formal Power Series]]
 [[Catalan Number]]
 [[Combinatorial Structure]]
-[[Labelled Structure]]
 [[Counting Trees]]
 
 

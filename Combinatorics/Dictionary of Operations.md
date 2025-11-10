@@ -34,5 +34,5 @@ $$
 \tilde{f}_{\mathcal{A}^{+}}(x) = \tilde{f}_{\mathcal{A}}'(x)
 $$
 $$
-\tilde{f}_{\mathcal{A}_{\bullet}}(x) = x f_{\mathcal{A}}'(x)
+\tilde{f}_{\mathcal{A}_{\bullet}}(x) = x \tilde{f}_{\mathcal{A}}'(x)
 $$

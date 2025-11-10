@@ -25,4 +25,5 @@ When weight is not specified, we assume that this is the case.
 [[Unlabelled Composition]]
 [[Finite Sequence]]
 [[Set Structure]]
+[[Combinatorial Derivative]]
 [[Rooted Structure]]

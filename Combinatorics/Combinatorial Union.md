@@ -8,3 +8,12 @@ $$
 w_{F+G} = w_{F} \cup w_{G}
 $$
 
+### Lemma
+[[Exponential Generating Function]]s satisfy 
+$$
+\tilde{f}_{F+G} = \tilde{f}_{F} + \tilde{f}_{G}
+$$
+Similarly, [[Ordinary Generating Function]]s statisfy:
+$$
+f_{\mathcal{F}+\mathcal{G}} = f_{\mathcal{F}} + f_{\mathcal{G}}
+$$
