@@ -4,10 +4,15 @@ aliases:
 ---
 Let $R$ be a [[Algebra/Ring Theory/Ring|Ring]] containing $\mathbb{Q}$.
 Let $\mathcal{B}$ be the [[Category]] of finite sets and bijections between them.
-Let $\mathcal{B}_{R}$ be the [[Category]] whose objects are pairs $(A,f_{A})$
-where $A$ is a finite set and $f_{A}$ is a function $f_{A}:A\to R$
-and morphisms in $\mathcal{B}_{R}$ are bijections $b:(A,f_{A})\to(B,f_{B})$
-such that $f_{A}=f_{B}\circ b$.
+Let $\mathcal{B}_{R}$ be the [[Category]] whose objects are pairs $(A,w_{A})$
+where $A$ is a finite set and $w_{A}$ is a function $w_{A}:A\to R$
+and morphisms in $\mathcal{B}_{R}$ are bijections $b:(A,w_{A})\to(B,w_{B})$
+such that $w_{A}=w_{B}\circ b$.
+A combinatorial structure is a [[Functor]] $\mathcal{A}:\mathcal{B}\to \mathcal{B}_{R}$
+The map $w_{A}$ is called the weight function.
+
+[[Unlabelled Structure]]
+
 A structure $\mathcal{A}=(A,v)$ consists of a countable set $A$ of combinatorial objects
 equipped with a valuation $v:A\to R[x]$ such that 
 $$
