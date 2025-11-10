@@ -1,6 +1,10 @@
 Let $T$ be the [[Combinatorial Structure]] of [[Tree]]s.
 Let $f(x)=\tilde{f}_{T_{\bullet}}(x)$ be the [[Exponential Generating Function]] for rooted trees.
 Let $g(x)=\tilde{f}_{(T_{\bullet})_{\bullet}}(x)$ be the [[Exponential Generating Function]] for doubly rooted trees.
+Let $A$ be the [[Combinatorial Structure]] of maps:
+$$
+A(S) = \{ s:S\to S \}
+$$
 ### Lemma
 $$
 f(x) = xe^{f(x)}
@@ -19,10 +23,8 @@ f(x) = x \exp(f(x))
 $$
 ### Lemma
 $$
-g(x) = f(x) + f(x)^{2} + \dots
+\tilde{f}_{A}(x) = g(x) = f(x) + f(x)^{2} + \dots
 $$
-In addition 
-Let $\mathcal{A}=(\{ f:[n]\to[n] \},1)$. Then $\tilde{f}_{\mathcal{A}}(x) =g(x)$
 #### Proof
 For any $k\geq 1$, build the [[Combinatorial Product]]
 $$
@@ -37,11 +39,37 @@ $$
 g(x) = f(x) + f(x) ^{2} + \dots
 $$
 
-Any $f:[n]\to[n]$ must have $k$ periods and $(2k)$ wandering points for some $k\geq 1$.
-There is a bijection between $\{ f:[n]\to[n] \}$ 
-with $k$ periodic points and unordered partitions of $[n]$
-into $k$ parts on each of which I build a rooted trees cartesian product the permutations $f$ define on these $k$ paths .......... uh something....
-
-
+Let $s:[n]\to[n]$ be a map.
+It will have $k$ periodic points (such that $s(s(\dots s(x)\dots))=x$)
+and $n-k$ wandering points (not periodic).
+We can thus build $k$ rooted trees from $s$
+with edges defined by:
+$$
+a \sim b \iff \begin{split}
+&s(a)=b \text{ and }a \text{ is wandering}\\
+&\text{or}\\
+&s(b)=a \text{ and } b \text{ is wandering}
+\end{split}
+$$
+where each tree is rooted at the periodic point.
+We order these trees by how $s$ permutes the $k$ periodic points.
+We conclude that maps $[n]\to[n]$ with $k$ periodic points are in bijection with
+$$
+\underbrace{T_{\bullet}\times\dots \times T_{\bullet}}_{k\text{ times}}
+$$
+Also it is easy to see that every map has at least one periodic point.
+We conclude 
+$$
+\tilde{f}_{A}(x) = f(x) + f(x)^{2} + \dots
+$$
 ### Theorem
-There are $n^{n-2}$ spanning trees on $[n]$.
+There are $n^{n-2}$ trees on $[n]$.
+#### Proof
+Note that 
+$$
+\tilde{f}_{A}(x) = \sum_{n} \frac{n^{n}}{n!} x^{n}
+$$
+Thus the number of doubly rooted trees on $[n]$ is $n^{n}$ (by the lemma)
+However, double rooting is just $n^{2}$ times the number of trees,
+so the number of trees on $[n]$ has to be $n^{n-2}$
+
