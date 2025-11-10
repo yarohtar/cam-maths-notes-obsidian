@@ -4,12 +4,14 @@ $$
 a\sim b \iff \mathcal{A}(\sigma)(a) = b
 $$
 for some bijective $\sigma:S\to S$.
-The unlabelled structure of $\mathcal{A}$ is the set of equivalence classes of $\sim$.
-Note that the map $w_{\mathcal{A}(S)}:\mathcal{A}(S)\to R$ satisfies
+The unlabelled structure from $\mathcal{A}$ is the set of equivalence classes of $\sim$.
+We write $\mathcal{A}_{n}=\mathcal{A}[n]/\sim$ for equivalence classes of $\mathcal{A}$-structures of order $n$.
+
+Note that the weight $w:\mathcal{A}(S)\to R$ satisfies
 $$
-a\sim b \implies w_{\mathcal{A}(S)}(a) = w_{\mathcal{A}(S)}(b)
+a\sim b \implies w(a) = w(b)
 $$
-so we can define $w_{\mathcal{A}(S)}([a])=w_{\mathcal{A}(S)}(a)$
+so we can define $w([a])=w(a)$
 as the weight on the equivalence classes of $\sim$.
 
 Each unlabelled structure has an associated [[Ordinary Generating Function]]

@@ -1,11 +1,3 @@
-Let $\mathcal{A}=(A,v_{A})$ be a [[Combinatorial Structure]].
-Suppose 
-$$
-A=\bigcup_{n\geq 1} A_{n}
-$$
-where $A_{n}$ consists of structures built on labelled groundset $[n]=\{ 1,\dots,n \}$
-which can be transported and relabelled on any other groundset of size $n$.
-Then $\mathcal{A}$ is called a labelled structure.
 ### Definition
 Given labelled structures $\mathcal{A}=(A,v_{A})$ and $\mathcal{B}=(B,v_{B})$ define the following:
 
@@ -21,3 +13,4 @@ Given labelled structures $\mathcal{A}=(A,v_{A})$ and $\mathcal{B}=(B,v_{B})$ de
 
 [[Labelled Product]]
 [[Dictionary of Operations]]
+[[Combinatorial Union]]

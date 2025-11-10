@@ -6,27 +6,17 @@ Let $R$ be a [[Algebra/Ring Theory/Ring|Ring]] containing $\mathbb{Q}$.
 Let $\mathcal{B}$ be the [[Category]] of finite sets and bijections between them.
 Let $\mathcal{B}_{R}$ be the [[Category]] whose objects are pairs $(A,w_{A})$
 where $A$ is a finite set and $w_{A}$ is a function $w_{A}:A\to R$
-and morphisms in $\mathcal{B}_{R}$ are bijections $b:(A,w_{A})\to(B,w_{B})$
+and [[Morphism]]s in $\mathcal{B}_{R}$ are bijections $b:(A,w_{A})\to(B,w_{B})$
 such that $w_{A}=w_{B}\circ b$.
-A combinatorial structure is a [[Functor]] $\mathcal{A}:\mathcal{B}\to \mathcal{B}_{R}$
+
+A combinatorial structure is a [[Functor]] $F:\mathcal{B}\to \mathcal{B}_{R}$
 The map $w_{A}$ is called the weight function.
+We may write just $w$ when the context is clear.
 
 [[Unlabelled Structure]]
+[[Ordinary Generating Function]]
+[[Exponential Generating Function]]
 
-A structure $\mathcal{A}=(A,v)$ consists of a countable set $A$ of combinatorial objects
-equipped with a valuation $v:A\to R[x]$ such that 
-$$
-v(\alpha) = w(\alpha)x^{n}
-$$
-where $n$ is called the size of $\alpha$ and $w(\alpha)\in R$ is called the weight 
-(often $w(\alpha)=1$ for all $\alpha$)
-and moreover 
-$$
-A_{n} = \{ \alpha \in A \text{ of size }n \}
-$$
-is finite for all $n$.
-We define its [[Ordinary Generating Function]]
-and [[Exponential Generating Function]]
 ### Definition
 Given structures $\mathcal{A}=(A,v_{A})$ and $\mathcal{B}(B,v_{B})$ define the following
 

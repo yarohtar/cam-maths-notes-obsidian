@@ -1,8 +1,5 @@
-Given a [[Combinatorial Structure|Structure]] $\mathcal{A}=(A,v)$, with $v:A\to R[x]$ 
-such that the [[Algebra/Ring Theory/Ring|Ring]] $R$ contains $\mathbb{Q}$,
-its exponential generating function is a [[Formal Power Series]] in $R[[x]]$
+Given a [[Combinatorial Structure]] $\mathcal{A}:\mathcal{B}\to \mathcal{B}_{R}$
+its exponential generating function as a [[Formal Power Series]] in $R[[x]]$ is:
 $$
-\tilde{f}_{\mathcal{A}}(x) = \sum_{\alpha \in A} v(\alpha)
+\tilde{f}_{\mathcal{A}}(x) = \sum_{n=0}^{\infty} \sum_{\alpha \in \mathcal{A}[n]} w(\alpha) \frac{x^{n}}{n!}
 $$
-Note that this is well defined 
-as there is only finitely many $\alpha \in A$ such that $\deg v(\alpha)= n$ for each $n$.
