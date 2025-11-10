@@ -21,6 +21,7 @@ When weight is not specified, we assume that this is the case.
 [[Exponential Generating Function]]
 [[Combinatorial Union]]
 [[Combinatorial Product]]
+[[Partition]]
 [[Combinatorial Composition]]
 
 ### Definition
