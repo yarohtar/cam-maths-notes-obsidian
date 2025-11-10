@@ -1,13 +1,13 @@
-Let $\mathcal{A}:\mathcal{B}\to \mathcal{B}_{R}$ be a [[Combinatorial Structure]].
-For each $S\in \mathcal{B}$ define an equivalence relation $\sim$ on $\mathcal{A}(S)$ by:
+Let $F:\mathcal{B}\to \mathcal{B}_{R}$ be a [[Combinatorial Structure]].
+For each $S\in \mathcal{B}$ define an equivalence relation $\sim$ on $F(S)$ by:
 $$
-a\sim b \iff \mathcal{A}(\sigma)(a) = b
+a\sim b \iff F(\sigma)(a) = b
 $$
 for some bijective $\sigma:S\to S$.
-The unlabelled structure from $\mathcal{A}$ is the set of equivalence classes of $\sim$.
-We write $\mathcal{A}_{n}=\mathcal{A}[n]/\sim$ for equivalence classes of $\mathcal{A}$-structures of order $n$.
+The unlabelled structure from $F$ is the set of equivalence classes of $\sim$.
+We write $F_{n}=F[n]/\sim$ for equivalence classes of $F$-structures of order $n$.
 
-Note that the weight $w:\mathcal{A}(S)\to R$ satisfies
+Note that the weight $w:F(S)\to R$ satisfies
 $$
 a\sim b \implies w(a) = w(b)
 $$

@@ -14,3 +14,6 @@ Given labelled structures $\mathcal{A}=(A,v_{A})$ and $\mathcal{B}=(B,v_{B})$ de
 [[Labelled Product]]
 [[Dictionary of Operations]]
 [[Combinatorial Union]]
+[[Combinatorial Product]]
+[[Combinatorial Sequence]]
+[[Combinatorial ]]

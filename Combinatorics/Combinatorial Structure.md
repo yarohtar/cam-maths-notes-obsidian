@@ -13,9 +13,15 @@ A combinatorial structure is a [[Functor]] $F:\mathcal{B}\to \mathcal{B}_{R}$
 The map $w_{A}$ is called the weight function.
 We may write just $w$ when the context is clear.
 
+Often $w_{A}(a)=1$ for all $a\in A$. 
+When weight is not specified, we assume that this is the case.
+
 [[Unlabelled Structure]]
 [[Ordinary Generating Function]]
 [[Exponential Generating Function]]
+[[Combinatorial Union]]
+[[Combinatorial Product]]
+[[Combinatorial Composition]]
 
 ### Definition
 Given structures $\mathcal{A}=(A,v_{A})$ and $\mathcal{B}(B,v_{B})$ define the following
