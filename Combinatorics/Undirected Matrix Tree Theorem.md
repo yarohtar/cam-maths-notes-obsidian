@@ -4,7 +4,7 @@ Then $T(G)$, the number of spanning trees of $G$, is
 $$
 T(G) = \frac{1}{n} \lambda_{2}\dots \lambda_{n}
 $$
-### Proof
+### Proof 1
 The number of spanning trees of $G$ rooted towards each vertex is the same.
 Let $L_{G,k}$ be the matrix $L_{G}$ with $k$-th row and column removed.
 Now by [[Matrix Tree Theorem]]:
@@ -16,3 +16,6 @@ $$
 -\det(L_{G}-tI) = t(\lambda_{2}-t)(\lambda_{3}-t)\dots(\lambda_{n}-t)
 $$
 and the result follows.
+### Proof 2
+Let $L_{G}^{*}$ be as in [[Matrix Tree Theorem]].
+Then $T(G)=\det L_{G}^{*}$.

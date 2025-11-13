@@ -60,4 +60,17 @@ $$
 $$
 where we sum over all $\beta:[n-1]\to[n]$ with no cycles.
 But these are exactly the spanning trees of $G$ rooted towards $n$.
-
+### Proof 3
+Using [[Exterior Algebra]], we find: 
+$$
+\det L_{G}^{*} = \prod_{i=1}^{n-1} \left( \sum_{j=1}^{n} A_{ij}(e_{i}-e_{j}) \right) 
+$$
+where $e_{n}=0$.
+Now we expand to find 
+$$
+\det L^{*}_{G} = \sum_{f:[n-1]\to[n]} \left( \prod_{i=1}^{n} A_{if(i)} \right) \prod_{i=1}^{n} (e_{i}-e_{f(i)}) 
+$$
+summing over all $f:[n-1]\to[n]$.
+If $f$ contains a cycle, then $e_{i}-e_{f(i)}$ are not all linearly independent 
+(e.g. $e_{1}-e_{2}$, $e_{2}-e_{3}$, $e_{3}-e_{1}$).
+So the prod
