@@ -30,23 +30,27 @@ Fix a permutation $\sigma$ of $[n-1]$.
 Set $B=\{ i\in[n-1]: \sigma(i)=i \}$ and $B^{C}=[n-1]\setminus B$.
 Consider a term in the expansion of $\det L_{G}^{*}$:
 $$
-P= (-1)^{\operatorname{sgn}(\sigma)} \prod_{i=1}^{n-1} (L_{G}^{*})_{i\sigma(i)} 
+P(\sigma)= (-1)^{\operatorname{sgn}(\sigma)} \prod_{i=1}^{n-1} (L_{G}^{*})_{i\sigma(i)} 
 $$
 Then we note that:
 $$
-P=\sum_{\beta}  (-1)^{\operatorname{sgn}(\sigma)+ \lvert B^{C} \rvert } \left( \prod_{i\in B^{C}} A_{i\sigma(i)} \right) \left(\prod_{i\in B} A_{i\beta(i)} \right)
+P(\sigma)=\sum_{\beta}  (-1)^{\operatorname{sgn}(\sigma)+ \lvert B^{C} \rvert } \left( \prod_{i\in B^{C}} A_{i\sigma(i)} \right) \left(\prod_{i\in B} A_{i\beta(i)} \right)
 $$
-where we sum over all $\beta:B\to[n]$
+where we sum over all $\beta:B\to[n]$, so define:
+$$
+P(\sigma,\beta) =  (-1)^{\operatorname{sgn}(\sigma)+ \lvert B^{C} \rvert } \left( \prod_{i\in B^{C}} A_{i\sigma(i)} \right) \left(\prod_{i\in B} A_{i\beta(i)} \right)
+$$
 Suppose that either $\sigma$ has a cycle in $B^{C}$ or $\beta$ has a cycle in $B$.
 Take the smallest vertex belonging to one of these cycles.
-Now define $\tilde{\sigma}$ and $\tilde{\beta}$ by switching this cycle between $\sigma$ and $\beta$ 
+Now define $\tilde{\sigma}$ and $\tilde{\beta}$ by swapping this cycle between $\sigma$ and $\beta$ 
 (i.e. if the cycle was in $\sigma$, put it into $\tilde{\beta}$ and vice versa)
-Note that $\tilde{\tilde{\sigma}}=\sigma$ and $\tilde{\tilde{\beta}}=\beta$.
+Note that $\tilde{\tilde{\sigma}}=\sigma$ and $\tilde{\tilde{\beta}}=\beta$, so we made a good pairing.
 Also if this cycle was of odd length, then $\operatorname{sgn}(\sigma)=\operatorname{sgn}(\tilde{\sigma})$, while $2\not\mid\lvert B^{C} \rvert-\lvert \tilde{B}^{C} \rvert$
 and if the cycle was of even length, then the opposite holds. 
-Either way 
+Either way, the sign of $P(\sigma,\beta)$ changes.
+But the actual product doesn't i.e: 
 $$
-(-1)^{\operatorname{sgn}(\tilde{\sigma})+\lvert \tilde{B}^{C} \rvert } = -(-1)^{\operatorname{sgn}(\sigma)+\lvert B^{C} \rvert }
+P(\sigma,\beta)=-P(\tilde{\sigma},\tilde{\beta})
 $$
 Thus in the final sum, all of these pairings will cancel eachother out.
 The only unpaired terms are when $\sigma=\operatorname{id}$ and $\beta$ has no cycles.
