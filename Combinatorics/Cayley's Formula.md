@@ -44,7 +44,7 @@ Then the following holds:
 $$
 \sum_{T \text{ spans }K_{n}} \prod_{i=1}^{n} x_{i}^{d_{T}(i)-1} = (x_{1}+\dots+x_{n})^{n-2} 
 $$
-Equivalently, if we define undirected weights $w(ij)=x_{i}x_{j}$,
+Equivalently, if we define undirected weights $w'(ij)=x_{i}x_{j}$,
 then the sum of weights of all spanning trees of $K_{n}$ is: 
 $$
 \left( \prod_{i=1}^{n} x_{i} \right) ( x_{1}+\dots+x_{n})^{n-2}
@@ -56,6 +56,26 @@ Note that
 $$
 \begin{gather}
 w(T_{i}) = x_{i} \prod_{j=1}^{n} x_{j}^{d_{T}(j)-1}  \\
-\sum_{i}w(T_{i}) = \left( \sum_{i}x_{i} \right) \prod_{j=1}^{n} x_{j}^{d_{T}(j)-1}
+\sum_{i}w(T_{i}) = \left( \sum_{i}x_{i} \right) \prod_{j=1}^{n} x_{j}^{d_{T}(j)-1} \\
+\sum_{T\text{ spans }K_{n}} \sum_{i} w(T_{i}) = \left( \sum_{i}x_{i} \right) \sum_{T\text{ spans }K_{n}} \prod_{j=1}^{n}x_{j}^{d_{T}(j)-1}  
 \end{gather}
 $$
+Now the LHS is all the directed spanning trees so we conclude 
+$$
+\sum_{T\text{ spans }K_{n}} \prod_{i=1}^{n} x_{i}^{d_{T}(i)-1} = (x_{1}+\dots+x_{n})^{n-2}
+$$
+For the second part, note that the weight of an undirected spanning tree is: 
+$$
+w'(T) = \prod_{i=1}^{n} x_{i}^{d_{T}(i)}
+$$
+from where the result follows.
+## Corollary
+Fix some numbers $d_{1},d_{2},\dots,d_{n}\in \mathbb{N}$
+The number of spanning trees $T$ of $K_{n}$ that satisfy $d_{T}(i)=d_{i}$ 
+is the [[Multinomial Coefficient]]:
+$$
+\binom{ n-2 }{ d_{1}-1,\, d_{2}-1,\dots,d_{n}-1 }
+$$
+### Proof
+Follows immediately from [[Multinomial Theorem]], and previous corollary.
+

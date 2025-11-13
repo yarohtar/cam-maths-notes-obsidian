@@ -11,5 +11,7 @@ Reading:
 [[Combinatorial Structure]]
 [[Counting Trees]]
 [[Cayley's Formula]]
+[[Laplacian Matrix]]
+[[Matrix Tree Theorem]]
 
 
