@@ -63,14 +63,27 @@ But these are exactly the spanning trees of $G$ rooted towards $n$.
 ### Proof 3
 Using [[Exterior Algebra]], we find: 
 $$
-\det L_{G}^{*} = \prod_{i=1}^{n-1} \left( \sum_{j=1}^{n} A_{ij}(e_{i}-e_{j}) \right) 
+(\det L_{G}^{*}) e_{1}\dots e_{n} = \prod_{i=1}^{n-1} \left( \sum_{j=1}^{n} A_{ij}(e_{i}-e_{j}) \right) 
 $$
 where $e_{n}=0$.
 Now we expand to find 
 $$
-\det L^{*}_{G} = \sum_{f:[n-1]\to[n]} \left( \prod_{i=1}^{n} A_{if(i)} \right) \prod_{i=1}^{n} (e_{i}-e_{f(i)}) 
+(\det L^{*}_{G}) e_{1}\dots e_{n} = \sum_{f:[n-1]\to[n]} \left( \prod_{i=1}^{n} A_{if(i)} \right) \prod_{i=1}^{n} (e_{i}-e_{f(i)}) 
 $$
 summing over all $f:[n-1]\to[n]$.
 If $f$ contains a cycle, then $e_{i}-e_{f(i)}$ are not all linearly independent 
 (e.g. $e_{1}-e_{2}$, $e_{2}-e_{3}$, $e_{3}-e_{1}$).
-So the prod
+So the product is non zero only if $f$ contains no cycles 
+(i.e. $f$ is a tree rooted towards $n$).
+Also note that for any such $f$:
+$$
+\prod_{i=1}^{n} (e_{i}-e_{f(i)}) = e_{1}\dots e_{n-1}
+$$
+which completes the proof.
+The last remark can be seen as follows:
+In $i$-th bracket $(e_{i}-e_{f(i)})$, we can choose $e_{i}$ or $-e_{f(i)}$.
+Suppose for some $i$ we choose $e_{f(i)}$.
+Then in $(e_{f(i)}-e_{ff(i)})$ we cannot choose $e_{f(i)}$ because $e_{f(i)}^{2}=0$
+Thus we always need to choose $-e_{ff(i)}$.
+But eventually, $ff\dots f(i)=n$ and $e_{n}=0$ so these terms always vanish.
+The only one left is choosing $e_{i}$ in every $(e_{i}-e_{f(i)})$ bracket.
