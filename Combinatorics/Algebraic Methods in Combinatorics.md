@@ -15,6 +15,8 @@ Reading:
 [[Matrix Tree Theorem]]
 [[Undirected Matrix Tree Theorem]]
 [[Exterior Algebra]]
+[[Spanning Subsets Lemma]]
+
 
 
 

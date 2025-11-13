@@ -16,6 +16,3 @@ $$
 -\det(L_{G}-tI) = t(\lambda_{2}-t)(\lambda_{3}-t)\dots(\lambda_{n}-t)
 $$
 and the result follows.
-### Proof 2
-Let $L_{G}^{*}$ be as in [[Matrix Tree Theorem]].
-Then $T(G)=\det L_{G}^{*}$.
