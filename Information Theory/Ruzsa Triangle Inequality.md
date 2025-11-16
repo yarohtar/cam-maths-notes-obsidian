@@ -33,22 +33,22 @@ $$
 #### Proof
 By [[Data Processing Property of the Mutual Information]]: 
 $$
-I(X;X-Y,Y-Z) \geq I(X,X-Z)
+I(X;X-Y,Y-Z) \geq I(X;X-Z)
 $$
 and the inequality will follow.
 ### Corollary
 Let $X$ and $X'$ be iid.
 Then 
 $$
-\frac{1}{2} \leq \frac{ H(X+X')-H(X) }{ H(X-X') - H(X) } \leq 2
+\frac{1}{2} \leq \frac{ H(X+X')-H(X) }{ H(X-X') - H(X) }
 $$
 #### Proof
-Firstly 
+Firstly, for any $Y$:
 $$
 H(X-X') + H(Y) \leq H(X-Y) + H(Y-X')
 $$
-so taking $Y=X$ we find 
+so taking $Y\sim-X$ with $Y$ iid with $X$ and $X'$ we find 
 $$
-
+H(X-X') + H(X) \leq H(X+X') + H(-X-X')
 $$
-
+This gives the bound.
