@@ -19,5 +19,6 @@
 [[Stationary Source]]
 [[Ergodic]]
 [[Birkhoff Ergodic Theorem]]
+[[Probability Simplex]]
 
 
