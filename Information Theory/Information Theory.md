@@ -10,3 +10,5 @@
 [[Total Variation Distance]]
 [[Pinsker's Inequality]]
 [[Poisson Approximation]]
+[[Mutual Information]]
+[[Data Processing Property of the Mutual Information]]
