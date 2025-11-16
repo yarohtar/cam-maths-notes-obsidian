@@ -20,5 +20,8 @@
 [[Ergodic]]
 [[Birkhoff Ergodic Theorem]]
 [[Probability Simplex]]
+[[Distribution Type]]
+[[Distribution Type Class]]
+[[Sanov's Theorem]]
 
 

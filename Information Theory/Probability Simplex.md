@@ -1,7 +1,7 @@
 Let $A$ be a finite alphabet.
 The probability simplex is the set 
 $$
-\mathcal{P}=\left\{  P\in[0,1]^{\lvert A \rvert } : \sum_{a\in A} P(a) = 1  \right\}
+\mathcal{P}=\left\{  P\in[0,1]^{A } : \sum_{a\in A} P(a) = 1  \right\}
 $$
 For example, in $\mathbb{R}^{3}$ with $A=\{ a,b,c \}$ we have:
 ```tikz
@@ -17,12 +17,12 @@ For example, in $\mathbb{R}^{3}$ with $A=\{ a,b,c \}$ we have:
 \coordinate (C) at (-0.6,-0.6);
 
 % Draw simplex edges
-\draw[fill=gray!100, thick] (A) -- (B) -- (C) -- cycle;
+\draw[thick] (A) -- (B) -- (C) -- cycle;
 
 % Draw axes
-\draw[->,gray] (0,0) -- (1.7,0) node[right] {$P(a)$};
-\draw[->,gray] (0,0) -- (0,1.7) node[above] {$P(b)$};
-\draw[->,gray] (0,0) -- (-1.0,-1.0) node[left] {$P(c)$};
+\draw[->] (0,0) -- (1.7,0) node[right] {$P(a)$};
+\draw[->] (0,0) -- (0,1.7) node[above] {$P(b)$};
+\draw[->] (0,0) -- (-1.0,-1.0) node[left] {$P(c)$};
 
 \end{tikzpicture}
 

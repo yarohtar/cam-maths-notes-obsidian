@@ -25,14 +25,15 @@ A subset of $X$ is closed if its complement is open.
    but then $X\setminus A$ is not open contradiction so it has to be $x\in A$.
 7. HOWEVER, a set $A$ which contains all its limit points no longer has to be closed.
 8. [[Accumulation points]]
-9. [[Interior and closure]]
-10. [[Subspace topology]]
-11. [[Continuity in topological spaces]]
-12. $X$ and $Y$ are [[Homeomorphism|homeomorphic]] if there is a bijection $f$ between them 
+9. [[Interior]]
+10. [[Closure]]
+11. [[Subspace topology]]
+12. [[Continuity in topological spaces]]
+13. $X$ and $Y$ are [[Homeomorphism|homeomorphic]] if there is a bijection $f$ between them 
     such that both $f$ and $f^{-1}$ are continuous
-13. [[Product topology]]
-14. [[Open map]]
-15. [[Quotient space]]
+14. [[Product topology]]
+15. [[Open map]]
+16. [[Quotient space]]
 
 ## More stuff
 [[Connectedness]]
