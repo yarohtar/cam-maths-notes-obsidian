@@ -1,9 +1,13 @@
 Let $A$ be a subset of a [[Topological Space]] $X$.
 We define 
 $$
-\overline A=\bigcap_{A\subset F\text{ closed}}F
+\overline A=\bigcap_{A\subseteq F\text{ closed}}F
 $$
 as the closure of $A$.
 
-- $\overline A = \{x\in X: \forall U\subset X\text{ nbd of } x, U\cap A=\emptyset\}=A\cup A'$
-where $A'$ is the set of [[Accumulation points|accumulation points]].
+### Lemma
+$$
+\overline A = \{x\in X: \forall U\subset X\text{ nbd of } x, U\cap A=\emptyset\}=A\cup A'
+$$
+where $A'$ is the set of [[Accumulation Points]].
+Thus $\overline{A}$ is closed.

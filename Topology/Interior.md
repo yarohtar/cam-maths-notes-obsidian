@@ -8,8 +8,4 @@ to be the interior of $A$.
 $$
 A^{o} = \{ x\in X: A\text{ is a nbd of }x \}
 $$
-and $A^{}$
-
-Then we have the following:
-- $A^o=\{x\in X: A\text{ is nbd of }x\}$
-Hence $A^o$ is open and $\overline A=\overline A'$ so closed. 
+and $A^{o}$ is open.

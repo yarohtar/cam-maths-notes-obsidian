@@ -24,7 +24,7 @@ A subset of $X$ is closed if its complement is open.
    Then no open nbd of $x$ is in $X\setminus A$ 
    but then $X\setminus A$ is not open contradiction so it has to be $x\in A$.
 7. HOWEVER, a set $A$ which contains all its limit points no longer has to be closed.
-8. [[Accumulation points]]
+8. [[Accumulation Points]]
 9. [[Interior]]
 10. [[Closure]]
 11. [[Subspace topology]]
