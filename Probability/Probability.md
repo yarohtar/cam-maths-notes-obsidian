@@ -4,6 +4,8 @@
 [[Second Borel-Cantelli Lemma]]
 [[Random Probability of Random Variable]]
 [[Inclusion-Exclusion Principle]]
+[[Weak Law of Large Numbers]]
+[[Strong Law of Large Numbers]]
 
 [[Bernoulli Distribution]]
 [[Binomial Distribution]]

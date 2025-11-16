@@ -16,3 +16,8 @@
 [[Ruzsa Triangle Inequality]]
 [[Submodularity for Sums inequality]]
 [[Entropy Rate]]
+[[Stationary Source]]
+[[Ergodic]]
+[[Birkhoff Ergodic Theorem]]
+
+

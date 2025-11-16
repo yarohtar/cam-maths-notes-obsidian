@@ -1,4 +1,4 @@
-A source is a sequence of [[Random Variable]]s $X_{n}$
+A source is a sequence of [[Random Variable]]s $X_{n}$.
 
 We usually work with [[Discrete Memoryless Source]]
 [[Reliably encodable]]
