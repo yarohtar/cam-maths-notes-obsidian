@@ -19,4 +19,6 @@ Reading:
 [[Graham-Pollak Theorem]]
 [[Even Town Theorem]]
 [[Odd Town Theorem]]
+[[Diagonal Principle]]
+[[Frankl-Wilson Theorem]]
 

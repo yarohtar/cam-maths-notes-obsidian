@@ -13,3 +13,9 @@ $$
 \chi_{S_{i}} \cdot \chi_{S_{j}} = \delta_{ij}
 $$
 We claim that $\chi_{S_{i}}$ are linearly independent.
+Suppose 
+$$
+\sum_{i=1}^{m} \lambda_{i} \chi_{S_{i}} = 0
+$$
+Taking the dot product with $\chi_{S_{i}}$ we deduce $\lambda_{i}=0$.
+Thus we conclude $m\leq n$.
