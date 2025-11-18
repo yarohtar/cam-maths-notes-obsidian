@@ -17,4 +17,6 @@ Reading:
 [[Exterior Algebra]]
 [[Spanning Subsets Lemma]]
 [[Graham-Pollak Theorem]]
+[[Even Town Theorem]]
+[[Odd Town Theorem]]
 
