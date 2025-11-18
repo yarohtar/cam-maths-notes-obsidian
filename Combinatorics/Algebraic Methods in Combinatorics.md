@@ -21,4 +21,5 @@ Reading:
 [[Odd Town Theorem]]
 [[Diagonal Principle]]
 [[Frankl-Wilson Theorem]]
+[[Medium Intersection is Hard to Avoid]]
 
