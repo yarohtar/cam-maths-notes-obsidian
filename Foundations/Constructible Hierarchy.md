@@ -20,21 +20,17 @@ However, $L_{\omega+1}$ is countable and $V_{\omega+1}$ is not.
 ## Lemma
 $L$ is [[Absolute]] for [[Transitive Model]]s of a [[Sufficiently Strong]] $T$
 i.e. there is a formula $\Gamma$ such that $\Gamma(\alpha,x)$ if and only if $x\in L_{\alpha}$.
-This $\Gamma$ is [[Absolute]].
+This $\Gamma$ is [[Absolute]] for $L$.
 ### Proof
 The definition of $L$ is recursive.
 ## Corollary
 Let $T$ be [[Sufficiently Strong]] for [[Absolute]]ness of $\Gamma$ (above).
-
-If $N$ is any [[Foundations/Set Theory/Transitive|Transitive]] set with $\alpha \in N$ and $N\models T$
-where $T\subseteq ZFC$ is [[Sufficiently Strong]] for [[Absolute]]ness of $\Gamma$
-then $L_{\alpha}\in N$ so $L_{\alpha}\subseteq N$.
-In particular:
+Let $N$ be a [[Transitive Model]] of $T$.
+Then 
 $$
 \bigcup_{\alpha \in N\cap \mathrm{Or d}} L_{\alpha} \subseteq N
 $$
-If $N$ contains all [[Ordinal]]s, then $L\subseteq N$.
-### Theorem
-$$
-L\models ZF(C)
-$$
+### Proof
+Let $\alpha \in N\cap \mathrm{Or d}$.
+Note that $\alpha \to L_{\alpha}$ is an [[Absolute Operation]] and thus $L_{\alpha}\in N$.
+As $N$ is [[Foundations/Set Theory/Transitive|Transitive]], we know that $L_{\alpha}\subseteq N$.

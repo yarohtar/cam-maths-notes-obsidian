@@ -1,11 +1,11 @@
 Let $\mathcal{L}$ be the [[Language]] of set theory,
-and $M$, $N$ be $\mathcal{L}$-[[Foundations/First Order Logic/Structure]]s
+and $M$, $N$ be $\mathcal{L}$-[[Foundations/First Order Logic/Structure|Structure]]s
 We say that a [[Definable Operation]] $F:M^{n}\to M$ is absolute for $M$ 
 if it's definable by $\Phi$ and $\Phi$ is [[Absolute]] between $M$ and $N$
 ### Lemma
 If $F$ and $G$ are absolute for $M$ then so is $F\circ G$. 
 ### Lemma
-If $F$ is absolute and $\phi$ is [[Absolute]] for a [[Transitive Model]] $M$ of $ZFC$
+If $F$ is an absolute operation and $\phi$ is [[Absolute]] for a [[Transitive Model]] $M$ of $ZFC$
 then so are
 $$
 \exists x\in F(y)\,\phi(x)

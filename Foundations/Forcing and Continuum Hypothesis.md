@@ -17,6 +17,8 @@
 [[The Downward Löwenheim-Skolem Theorem]]
 [[Mostowski's Collapsing Theorem]]
 [[Countable Transitive Model]]
+[[Countable Model of Set Theory]]
+[[Consistency of Choice]]
 [[Technique of Inner Models]]
 [[Forcing]]
 

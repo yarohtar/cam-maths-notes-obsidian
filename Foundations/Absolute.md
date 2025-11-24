@@ -1,4 +1,4 @@
-Let $M$ and $N$ be [[Foundations/First Order Logic/Structure]]s for a [[Language]] $\mathcal{L}$ such that $M\subseteq N$
+Let $M$ and $N$ be [[Foundations/First Order Logic/Structure|Structure]]s for a [[Language]] $\mathcal{L}$ such that $M\subseteq N$
 Let $\phi$ be a formula in $n$ [[Free Variable]]s.
 We say that $\phi$ is absolute between $M$ and $N$ if 
 it is [[Upwards Absolute]] and [[Downwards Absolute]] i.e.
