@@ -19,8 +19,11 @@ Then $L_{\omega}=\bigcup_{\alpha<\omega}L_{\alpha}=\bigcup_{\alpha<\omega}V_{\al
 However, $L_{\omega+1}$ is countable and $V_{\omega+1}$ is not.
 ## Lemma
 $L$ is [[Absolute]] for [[Transitive Model]]s of a [[Sufficiently Strong]] $T$
-i.e. there is a formula $\Gamma$ such that $\Gamma(\alpha,x)$ if and only if $x\in L_{\alpha}$.
-This $\Gamma$ is [[Absolute]] for $L$.
+i.e. there is a formula $\Gamma$ such that
+$$
+\Gamma(\alpha,x) \iff x=L_{\alpha}
+$$
+This $\Gamma$ is [[Absolute]] for [[Transitive Model]]s of $T$.
 ### Proof
 The definition of $L$ is recursive.
 ## Corollary
@@ -32,5 +35,5 @@ $$
 $$
 ### Proof
 Let $\alpha \in N\cap \mathrm{Or d}$.
-Note that $\alpha \to L_{\alpha}$ is an [[Absolute Operation]] and thus $L_{\alpha}\in N$.
+Then we can show that $L_{\alpha}\in N$.
 As $N$ is [[Foundations/Set Theory/Transitive|Transitive]], we know that $L_{\alpha}\subseteq N$.

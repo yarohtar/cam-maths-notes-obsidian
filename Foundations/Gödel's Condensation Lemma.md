@@ -1,9 +1,9 @@
 Let $L$ be the [[Constructible Hierarchy]].
 There is a sentence $\sigma$ such that
 for all [[Transitive Model]]s $X$ such that $X\models \sigma$
-then there is some $\alpha$ such that $X=L_{\alpha}$.
+then there is some $\alpha \in \mathrm{Or d}$ such that $X=L_{\alpha}$.
 ### Proof
-Take the [[Sufficiently Strong]] $T$ finite and write 
+Take the [[Sufficiently Strong]] $T\subseteq ZFC$ finite and write 
 $$
 \sigma= T \land (V=L) \land \text{there is no largest ordinal}
 $$
