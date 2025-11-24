@@ -2,7 +2,7 @@ There exist uncountable ordinals.
 ##### Idea
 If there's an uncountable ordinal then there's a least $\alpha$
 Then $I_{\alpha}$ is the set of all countable ordinals, 
-i.e. [[Order Type]] of [[Well-ordered]] of subsets of $\mathbb{N}$
+i.e. [[Order Type]] of [[Well-Ordered]] of subsets of $\mathbb{N}$
 
 #### Proof
 $$

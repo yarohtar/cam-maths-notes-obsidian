@@ -10,8 +10,9 @@ $$
 [[Sufficiently Strong]]
 [[Absoluteness of Truth in a Model]]
 
-### Proof
+## Proof
 Let $L$ be the [[Constructible Hierarchy]].
+Note that $L$ is a countable [[Transitive Model]]
 We want to prove that
 $$
 L\models ZF(C)
@@ -93,10 +94,11 @@ and so separation holds.
 [[Axiom of Replacement]] is on Example Sheet 2.
 
 The only one left is the [[Axiom of Choice]]
-We can provide a [[Well-ordered|well-order]] of $L$:
+We can provide a [[Well-Ordered|Well-Order]] of $L$:
 Fix some some $<_{\omega}$ on $L_{\omega}$ of [[Order Type]] $\omega$.
-Assume that $<_{\alpha}$ is a wellorder of $L_{\alpha}$,
-define lexifcographically a wellorder of 
+Assume that $<_{\alpha}$ is a [[Well-Ordered]] of $L_{\alpha}$, 
+and let $\mathrm{Fml}$ be the set of formulas encoded in $\omega$.
+Define lexicographically a [[Well-Ordered|Well-Order]] of 
 $$
 \mathrm{Fml}\times L_{\alpha}
 $$
@@ -114,15 +116,15 @@ x<_{\alpha+1} y  & \iff x,y\in L_{\alpha} \land x<_{\alpha}y  \\
 $$
 Thus 
 $$
-< = \bigcup_{\alpha \in \mathrm{Or d}} <_{\alpha}
+<\; = \bigcup_{\alpha \in \mathrm{Or d}} <_{\alpha}
 $$
-is a [[Well-ordered|well-order]] of $L$.
+is a [[Well-Ordered|well-order]] of $L$.
 However, this was a recursive definition so its [[Absolute]] so:
 $$
 \mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC)
 $$
 and in particular [[Axiom of Choice]] holds in $L$.
-[[Axiom of Constructibility]]
+[[Axiom of Constructability]]
 [[Gödel's Incompleteness Theorems]]
 [[Gödel's Condensation Lemma]]
 ### Claim

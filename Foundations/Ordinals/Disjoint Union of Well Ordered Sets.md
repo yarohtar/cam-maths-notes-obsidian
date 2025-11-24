@@ -1,4 +1,4 @@
-Let $X$, $Y$ be [[Well-ordered]] sets. 
+Let $X$, $Y$ be [[Well-Ordered]] sets. 
 Then $X\sqcup Y$ is the set $X\times \{ 0 \}\cup Y\times \{ 1 \}$ 
 with well-order as follows:
 $$

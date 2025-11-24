@@ -7,7 +7,7 @@ This is NOT commutative in general, e.g. $\omega+1=\omega^{+}$, but $1+\omega=\o
 [[Synthetic Definition of Ordinal Addition]]
 
 #### Remark
-Technically, we should fix an ordinal $\gamma$ and define $\alpha+\beta$ by recursion on $\beta$ in the [[Well-ordered]] set $I_{\gamma}$. 
+Technically, we should fix an ordinal $\gamma$ and define $\alpha+\beta$ by recursion on $\beta$ in the [[Well-Ordered]] set $I_{\gamma}$. 
 By uniqueness in recursion, this gives a well-defined $\alpha+\beta$ for all $\alpha,\beta$. 
 In general, this justifies recursive definition on all ordinals like the one above.
 

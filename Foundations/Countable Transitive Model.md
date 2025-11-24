@@ -43,8 +43,7 @@ so $M$ is not [[Foundations/Set Theory/Transitive|Transitive]].
 ### Corollary
 "Being countable" and "being cardinal"
 are not [[Absolute]] statements between $N$ and $V_{\nu}$.
-In particular, countable is $\Sigma_{1}$ 
-and cardinal is $\Pi_{1}$.
+In particular, countable is $\Sigma_{1}$ and cardinal is $\Pi_{1}$.
 #### Proof
 Suppose $\exists x\,\phi(x)$ from above is in $T$
 where $\phi(x)$ means "$x$ is the smallest uncountable ordinal"

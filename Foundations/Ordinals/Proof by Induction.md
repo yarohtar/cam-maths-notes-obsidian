@@ -1,4 +1,4 @@
-Let $X$ be a [[Well-ordered]] set and $S\subseteq X$ 
+Let $X$ be a [[Well-Ordered]] set and $S\subseteq X$ 
 s.t. for every $x\in X$, if $y\in S$ for all $y<x$, then $x\in S$. 
 Then $S=X$
 #### Proof

@@ -4,6 +4,5 @@ if $T$ proves the [[Absolute]]ness of all relevant formulas.
 For finitely many relevant formulas,
 we can always find a finite sufficiently strong $T$.
 #### Proof
-It $T'$ proves the [[Absolute]]ness of $\phi$,
+If $T'$ proves the [[Absolute]]ness of $\phi$,
 then by [[Compactness Theorem]] there is a finite $T\subseteq T'$ that does.
-

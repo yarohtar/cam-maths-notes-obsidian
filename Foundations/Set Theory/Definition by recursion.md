@@ -1,4 +1,4 @@
-Let $X$ be a [[Well-ordered]] set and $Y$ be an arbitrary set.
+Let $X$ be a [[Well-Ordered]] set and $Y$ be an arbitrary set.
 Then for any [[Function]] $G:\mathcal{P}(X\times Y)\to Y$ 
 there is unique $f:X\to Y$ such that
 $$

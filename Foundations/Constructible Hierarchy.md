@@ -1,4 +1,4 @@
-Let $\mathcal{D}(X)$ be [[Constructible Sets]] from $X$.
+Let $\mathcal{D}(X)$ be [[Constructible Sets]] from a set $X$.
 Define now 
 $$
 \begin{gather}
@@ -10,27 +10,30 @@ L=\bigcup_{\alpha \in \mathrm{Or d}} L_{\alpha}
 $$
 Note that $L$ is a [[Hierarchy]].
 [[Constructible Rank]]
-### Lemma
+## Lemma
 For $\alpha\leq \omega$ we have $L_{\alpha}=V_{\alpha}$ where $V$ is the [[Von Neumann Hierarchy]].
 For $\alpha>\omega$ then $L_{\alpha}\neq V_{\alpha}$.
-#### Proof
+### Proof
 First bit by $\omega$-induction.
 Then $L_{\omega}=\bigcup_{\alpha<\omega}L_{\alpha}=\bigcup_{\alpha<\omega}V_{\alpha}=V_{\omega}$.
 However, $L_{\omega+1}$ is countable and $V_{\omega+1}$ is not.
-### Lemma
+## Lemma
 $L$ is [[Absolute]] for [[Transitive Model]]s of a [[Sufficiently Strong]] $T$
 i.e. there is a formula $\Gamma$ such that $\Gamma(\alpha,x)$ if and only if $x\in L_{\alpha}$.
 This $\Gamma$ is [[Absolute]].
-### Corollary
+### Proof
+The definition of $L$ is recursive.
+## Corollary
+Let $T$ be [[Sufficiently Strong]] for [[Absolute]]ness of $\Gamma$ (above).
+
 If $N$ is any [[Foundations/Set Theory/Transitive|Transitive]] set with $\alpha \in N$ and $N\models T$
-where $T$ is [[Sufficiently Strong]] for [[Absolute]]ness of $\Gamma$
+where $T\subseteq ZFC$ is [[Sufficiently Strong]] for [[Absolute]]ness of $\Gamma$
 then $L_{\alpha}\in N$ so $L_{\alpha}\subseteq N$.
 In particular:
 $$
-\bigcup_{\alpha \in N} L_{\alpha} \subseteq N
+\bigcup_{\alpha \in N\cap \mathrm{Or d}} L_{\alpha} \subseteq N
 $$
 If $N$ contains all [[Ordinal]]s, then $L\subseteq N$.
-
 ### Theorem
 $$
 L\models ZF(C)

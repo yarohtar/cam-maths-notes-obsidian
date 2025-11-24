@@ -1,4 +1,4 @@
-Let $X$ and $Y$ be [[Well-ordered]]
+Let $X$ and $Y$ be [[Well-Ordered]]
 We can well-order the [[Cartesian Product]] $X\times Y$ as follows:
 $$
 (x,y)<(u,v)\iff \begin{cases}

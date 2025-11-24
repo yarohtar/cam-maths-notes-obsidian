@@ -1,5 +1,5 @@
 [[Linear order]]
-[[Well-ordered]]
+[[Well-Ordered]]
 [[Disjoint Union of Well Ordered Sets]]
 [[Cartesian Product of Well Ordered Sets]]
 [[Order-isomorphic]]

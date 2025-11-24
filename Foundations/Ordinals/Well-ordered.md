@@ -1,3 +1,8 @@
+---
+aliases:
+  - Well-Order
+---
+
 A well-ordering of a set $X$ is a [[Linear order]] $<$ on $X$ 
 s.t. every nonempty subset of $X$ has a least element:
 $$

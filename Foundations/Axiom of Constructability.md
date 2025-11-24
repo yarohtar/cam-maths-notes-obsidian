@@ -4,8 +4,9 @@ $$
 $$
 We abbreviate this as $V=L$ (though this is misleading)
 ### Proposition
-If $T$ is [[Sufficiently Strong]], $X$ is [[Transitive Model|Transitive]] such that $X\models T\land V=L$,
-then 
+Let $T$ be [[Sufficiently Strong]]
+Let $X$ be a [[Transitive Model]] such that $X\models T\land (V=L)$.
+Then:
 $$
 \bigcup_{\alpha \in X} L_{\alpha} = X
 $$

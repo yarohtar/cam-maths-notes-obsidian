@@ -1,7 +1,7 @@
-For [[Well-ordered]] sets $X,Y$, 
+For [[Well-Ordered]] sets $X,Y$, 
 write $X\leq Y$ if $X$ is [[Order-isomorphic]] to an [[Initial Segment]] of $Y$ 
 ### Theorem
-Let $X,Y$ be [[Well-ordered]] sets. 
+Let $X,Y$ be [[Well-Ordered]] sets. 
 Then either $X\leq Y$ or $Y\leq X$.
 
 #### Proof
@@ -26,7 +26,7 @@ As in (previous prop) we show $f$ is order-preserving and $\operatorname{Im}(f)$
 Hence $X\leq Y$.
 
 ### Proposition
-Let $X$, $Y$ be [[Well-ordered]] sets. 
+Let $X$, $Y$ be [[Well-Ordered]] sets. 
 If $X\leq Y$ and $Y\leq X$ then $X$ is [[Order-isomorphic]] to $Y$ 
 #### Proof
 Let $f:X\to Y$ and $g:Y\to X$ be [[Order-isomorphic]] to initial segments of $Y$ and $X$ respectively
@@ -41,7 +41,7 @@ $X^{+}=X\cup \{ z \}$ for some $z\not\in X$ and extend the ordering...
 [[Extends]]
 [[Nested]]
 ### Proposition
-Let $\{ X_{i}:i\in I \}$ be a [[Nested]] set of [[Well-ordered]] sets. Then there is a well ordered set $X$ such that $X_{i}\leq X$ for all $i\in I$.
+Let $\{ X_{i}:i\in I \}$ be a [[Nested]] set of [[Well-Ordered]] sets. Then there is a well ordered set $X$ such that $X_{i}\leq X$ for all $i\in I$.
 #### Proof
 Let $X=\bigcup_{i\in I}X_{i}$
 For $x,y\in X$ we let $x<y$ iff there is some $i\in I$ such that $x,y\in X_{i}$ and $x<_{i}y$.
@@ -50,7 +50,7 @@ it follows that $<$ on $X$ is a well defined [[Linear order]]
 such that each $X_{i}$ is an [[Initial Segment]] of $X$ 
 Let $S\subseteq X$, $S\neq \emptyset$. 
 Then there is some $i\in I$ such that $X_{i}\cap S\neq \emptyset$
-Since $X_{i}$ is [[Well-ordered]], 
+Since $X_{i}$ is [[Well-Ordered]], 
 then $X_{i}\cap S$ has a least element $x$. 
 Since $X_{i}$ is initial segment of $X$,
 $x$ has to be the least element of $S$. 
