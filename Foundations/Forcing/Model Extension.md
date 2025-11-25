@@ -61,4 +61,38 @@ Want to find
 $$
 A_{\phi} = \{  z\in x : M[F] \models \phi(x) \}
 $$
+(we omit the parameters for readability)
+Set 
+$$
+\tau_{\phi} = \{ (\tau',p) : (\exists q)\, (\tau',q)\in \sigma \land p\leq q \land p\Vdash \phi(\tau') \}
+$$
+where $\Vdash$ is the [[Forcing Relation]] given by [[The Forcing Theorem]].
+Then we claim that 
+$$
+\mathrm{val}(\tau_{\phi}, F) = A_{\phi}
+$$
+##### $\supseteq$
+Suppose $z=\mathrm{val}(\tau,G)$.
+$$
+\begin{align}
+z\in A_{\phi}  & \implies z\in x\land M[F] \models \phi(z) \\
+ & \implies \mathrm{val}(\tau,F) \in \mathrm{val}(\sigma,F) \land M[G] \models \phi(z) \\
+ & \implies (\exists q\in F)\, (\tau,q) \in \sigma \land M[F] \models \phi(z) \\
+ & \implies (\exists q\in F)\, (\tau,q)\in \sigma \land (\exists p\in G) p \Vdash \phi(\tau) \\
+ & \implies (\exists r\in F)\, r\leq q \land r \Vdash \phi(\tau)  \\
+ & \implies (\tau,r) \in \tau_{\phi} \land r \in F \\
+ & \implies \mathrm{val}(\tau,F) \in \mathrm{val}(\tau_{\phi},F)
+\end{align}
+$$
+##### $\subseteq$
+Suppose $z=\mathrm{val}(\tau,G)$
+$$
+\begin{align}
+z\in \mathrm{val}(\tau_{\phi},F) &  \implies (\exists p\in F)\, (\tau,p) \in \tau_{\phi}  \\
+ & \implies (\exists p\in F)\,(\exists q)\, \underbrace{p\leq q}_{\text{so }q\in F} \land (\tau,q)\in \sigma \land p\Vdash \phi(\tau) \\
+ & \implies \mathrm{val}(\tau,F) \in \mathrm{val}(\sigma,F) \land M[F] \models \phi(z) \\
+ & \implies z\in A_{\phi}
+\end{align}
+$$
+#### Powerset
 
