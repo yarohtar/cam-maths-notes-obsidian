@@ -5,3 +5,5 @@ Define recursively
 $$
 \mathrm{val}(\tau,F) = \{ \mathrm{val}(\sigma,F) : (\exists p\in F)\, (\sigma,p)\in \tau \} 
 $$
+### Lemma
+The above is [[Absolute]].

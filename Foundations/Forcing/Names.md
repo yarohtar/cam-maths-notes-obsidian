@@ -13,3 +13,6 @@ When $\mathbb{P}=\{ \mathbb{1} \}$ then this is [[Von Neumann Hierarchy]].
 ### Interpretation
 If $(\tau',p)\in \tau$ then $p$ guarantees that the set named by $\tau'$ is in the set named by $\tau$.
 
+### Lemma
+$\mathrm{Name}^{\mathbb{P}}$ is [[Absolute]].
+
