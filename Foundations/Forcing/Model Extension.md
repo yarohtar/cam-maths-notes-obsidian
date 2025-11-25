@@ -159,5 +159,18 @@ p\Vdash \phi(\pi,\mu ^{*})
 $$
 But $\phi$ is a [[Function Class]] so certainly 
 $$
-
+\mathrm{val}(\mu,F) = \mathrm{val}(\mu ^{*},F)
 $$
+Thus we conclude $(\mu ^{*},\mathbb{1})\in \rho$ so $\mathrm{val}(\mu,F)\in R$.
+#### Choice
+[[Axiom of Choice]]
+Suppose 
+$$
+\mathrm{val}(\sigma,F) \subseteq \{ \mathrm{val}(\tau,G) : \tau \in \mathrm{dom}(\sigma) \}
+$$
+By [[Axiom of Choice]] in $M$, find an injection 
+$$
+\mathrm{dom}(\sigma) \to \alpha \in \mathrm{Or d}
+$$
+so $\mathrm{val}(\sigma,F)$ is [[Well-Ordered]].
+
