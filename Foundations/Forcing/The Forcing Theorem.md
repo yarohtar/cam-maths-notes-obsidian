@@ -76,7 +76,29 @@ $$
 D=\{ p: p \Vdash \tau_{0}\subseteq \tau_{1} \text{ or } \phi_{p} \}
 $$
 Now suppose $\phi_{r}$ is true for some $r\in G$.
-
+Then find $(\pi_{0},s_{0})\in \tau_{0}$ such that $\phi_{r,\pi_{0},s_{0}}$ is true.
+As $r\leq s_{0}$ we find that $s_{0}\in G$ so 
+$$
+\mathrm{val}(\pi_{0},G) \in \mathrm{val}(\tau_{0},G)
+$$
+Thus by assumption: 
+$$
+\mathrm{val}(\pi_{0},G) \in \mathrm{val}(\tau_{1},G)
+$$
+By definition, find $(\pi_{1},s_{1})\in \tau_{1}$ such that $s_{1}\in G$ and $\mathrm{val}(\pi_{0},G)=\mathrm{val}(\pi_{1},G)$
+By induction hypothesis, find $q_{0}\in G$ such that 
+$$
+q_{0}\Vdash \pi_{0}=\pi_{1}
+$$
+Finally, find $q\leq q_{0},s_{1}$ with $q\in G$.
+Then $\phi_{r,\pi_{0},s_{0}}$ says that $q \operatorname{\bot}r$ which is a contradiction. 
+Therefore, $\phi_{r}$ is false for all $r\in G$.
+Now by density of $D$ we can find $r\in D\cap G$.
+As we know that $\phi_{r}$ is false, it has to be that 
+$$
+r\Vdash \tau_{0}\subseteq \tau_{1}
+$$
+which completes the proof.
 ### Claim 2
 Assuming [[#Claim 1]]:
 $$
