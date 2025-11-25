@@ -19,15 +19,14 @@ Then $M[F]$ is a countable [[Transitive Model]] of $ZFC$
 and furthermore, $M\subseteq M[F]$ and $F\in M[F]$,
 under certain conditions on $F$.
 ### Proof
-Firstly, $M[F]$ is countable [[Transitive Model]] of $ZFC$ by above.
+Firstly, $M[F]$ is countable [[Transitive Model]] by above.
 Secondly, we know that $M\subseteq M[F]$ and $F\in M[F]$ from [[Canonical Name]]s.
 
 Any [[Transitive Model]] satisfies [[Axiom of Extensionality]] and [[Axiom of Foundation]].
 Furthermore, as $\omega \in M\subseteq M[F]$, then $M[F]$ satisfies [[Axiom of Infinity]].
-
 #### Pair
 [[Pair-set axiom]]
-Given $\sigma,\tau \in \mathrm{Name}^{\mathbb{P}}$, we need a name for 
+Given $\sigma,\tau \in \mathrm{Name}^{\mathbb{P}}\cap M$, we need a name for 
 $$
 \{ \mathrm{val}(\sigma,F), \mathrm{val}(\tau,F) \} = \pi
 $$
@@ -55,3 +54,11 @@ We can check that if $F$ is a [[Filter]] then
 $$
 \mathrm{val}(u_{\sigma},F) = \bigcup \mathrm{val} (\sigma,F)
 $$
+#### Separation
+[[Axiom of Separation]]
+Let $x=\mathrm{val}(\sigma,F)$ for some $\sigma \in \mathrm{Name}^{\mathbb{P}}\cap M$.
+Want to find 
+$$
+A_{\phi} = \{  z\in x : M[F] \models \phi(x) \}
+$$
+

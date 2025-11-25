@@ -9,6 +9,9 @@
 [[Value of a Name]]
 [[Model Extension]]
 [[Canonical Name]]
+[[Forcing Language]]
+[[Forcing Sentence]]
+[[The Forcing Theorem]]
 
 
 
