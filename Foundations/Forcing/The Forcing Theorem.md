@@ -42,6 +42,40 @@ $$
 \mathrm{val}(\tau_{0},G) \subseteq \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p \Vdash \tau_{0}\subseteq \tau_{1}
 $$
 #### Proof
+##### $\impliedby$
+Assume $p\in G$ such that $p\Vdash\tau_{0}\subseteq \tau_{1}$.
+Fix $x=\mathrm{val}(\pi_{0},G)\in \mathrm{val}(\tau_{0},G)$ with $(\pi_{0},s_{0})\in \tau_{0}$ and $s_{0}\in G$.
+By assumption, $D_{\pi_{0},s_{0}}$ is [[Dense Below]] $p$.
+Thus find $q\leq s_{0},p$ such that $q\in G$ and conclude $D_{\pi_{0},s_{0}}$ is [[Dense Below]] $q$.
+Furthermore, find $r\leq q$ such that $r\in G\cap D_{\pi_{0},s_{0}}$. 
+Thus (because $r\leq s_{0}$), by definition of $D_{\pi_{0},s_{0}}$
+we find $(\pi_{1},s_{1})\in \tau_{1}$ such that $r\leq s_{1}$ and $r\Vdash\pi_{0}=\pi_{1}$.
+Then also $s_{1}\in G$.
+Now $r\in G$ and $r\Vdash\pi_{0}=\pi_{1}$ so by induction hypothesis: 
+$$
+\mathrm{val}(\pi_{0},G) = \mathrm{val}(\pi_{1},G)
+$$
+and we conclude: 
+$$
+\mathrm{val}(\pi_{0},G) \in \mathrm{val}(\tau_{1},G)
+$$
+##### $\implies$
+Fix $r\in \mathbb{P}$ and $(\pi_{0},s_{0})\in \tau_{0}$.
+Define $\phi_{r,\pi_{0},s_{0}}$ to be 
+$$
+r\leq s_{0} \land (\forall (\pi_{1},s_{1})\in \tau_{1})\, (\forall q)\, q\leq s_{1} \land q\Vdash \pi_{0}=\pi_{1} \implies q \operatorname{\bot}r
+$$
+Furthermore, define $\phi_{r}$ to be
+$$
+(\exists(\pi_{0},s_{0})\in \tau_{0})\, \phi_{r,\pi_{0},s_{0}}
+$$
+We can check that if $D_{\pi_{0},s_{0}}$ is not dense below $p$
+then there is some $r\leq p$ such that $\phi_{r,\pi_{0},s_{0}}$.
+We conclude that the following set is [[Dense]]: 
+$$
+D=\{ p: p \Vdash \tau_{0}\subseteq \tau_{1} \text{ or } \phi_{p} \}
+$$
+Now suppose $\phi_{r}$ is true for some $r\in G$.
 
 ### Claim 2
 Assuming [[#Claim 1]]:
@@ -49,10 +83,6 @@ $$
 \mathrm{val}(\tau_{0},G) \in \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p\Vdash \tau_{0}\in \tau_{1}
 $$
 #### Proof
-We want to show 
-$$
-\mathrm{val}(\tau_{0},G) \in \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p\Vdash \tau_{0}\in \tau_{1}
-$$
 ##### $\implies$
 Assume $\mathrm{val}(\tau_{0},G)\in \mathrm{val}(\tau_{1},G)$.
 By definition, find some $(\pi,s)\in \tau_{1}$ such that $s \in G$ and $\mathrm{val}(\pi,G)=\mathrm{val}(\tau_{0},G)$.
@@ -60,11 +90,25 @@ By [[#Claim 1]] find $r\in G$ such that $r\Vdash \pi=\tau_{0}$.
 Now find $p\leq s,r$ such that $p\in G$.
 Now we need that 
 $$
-\{ q\leq p : (\exists(\pi,s)\in \tau_{1})\, q\leq s\land q\Vdash \pi=\tau_{0} \}
+D=\{ q\leq p : (\exists(\pi,s)\in \tau_{1})\, q\leq s\land q\Vdash \pi=\tau_{0} \}
 $$
 is [[Dense Below]] $p$.
-We can do this by 
-
+We can do this by picking $(\pi,s)$ as the witness.
+Thus $p\Vdash\tau_{0}\in \tau_{1}$.
+#### $\impliedby$
+Suppose $p\Vdash\tau_{0}\in \tau_{1}$. 
+Then $D$ is [[Dense Below]] $p$ and $p\in G$.
+Thus we can find $q\in G\cap D$.
+But then there is $(\pi,s)\in \tau_{1}$ with $q\leq s$ (so $s \in G$) such that $q\Vdash\pi=\tau_{0}$
+We conclude that 
+$$
+\mathrm{val}(\pi,G) \in \mathrm{val}(\tau_{1},G)
+$$
+By [[#Claim 1]], from $q\Vdash\pi=\tau_{0}$ we conclude
+$$
+\mathrm{val}(\pi,G) = \mathrm{val}(\tau_{0},G)
+$$
+so we are done.
 ### Claim 3
 If $\Vdash$ satisfies the [[Forcing Relation]] property for $\phi$ and $\psi$ 
 then so it does for $\phi \land \psi$.
