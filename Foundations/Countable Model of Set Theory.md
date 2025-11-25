@@ -31,7 +31,7 @@ D(\phi,(x,y),L_{\alpha})  & = \{ z\in L_{\alpha} : L_{\alpha}\models \phi(z,x,y)
 \end{align}
 $$
 The union is exactly the same.
-Now we consider the [[Power-set axiom]]
+Now we consider the [[Powerset Axiom]]
 This is more complicated, because it is not [[Absolute]]. 
 (But if it was absolute, it would be hopeless to find a powerset in a countable model)
 Note that $z\subseteq x$ is [[Absolute]].

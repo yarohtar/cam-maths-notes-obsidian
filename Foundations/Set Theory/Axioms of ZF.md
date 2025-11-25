@@ -3,7 +3,7 @@
 [[Empty-set axiom]]
 [[Pair-set axiom]]
 [[Union axiom]]
-[[Power-set axiom]]
+[[Powerset Axiom]]
 [[Axiom of Infinity]]
 [[Axiom of Replacement]]
 [[Axiom of Foundation]]

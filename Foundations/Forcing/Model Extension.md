@@ -95,4 +95,69 @@ z\in \mathrm{val}(\tau_{\phi},F) &  \implies (\exists p\in F)\, (\tau,p) \in \ta
 \end{align}
 $$
 #### Powerset
+[[Powerset Axiom]]
+Fix $x=\mathrm{val}(\sigma,F)$.
+Using $\mathrm{dom}(\sigma)=\{ \tau: (\exists p)\, (\tau,p)\in \sigma \}$ define:
+$$
+\pi = \{ (\tau,\mathbb{1}) : \mathrm{dom}(\tau) \subseteq \mathrm{dom}(\sigma) \}
+$$
+We claim the following: 
+$$
+y\in M[F] \land y\subseteq x \implies y\in \mathrm{val}(\pi,F)
+$$
+As we already have [[Axiom of Separation]], 
+we can then separate the powerset from $\mathrm{val}(\pi,F)$
+##### Proof of claim
+Let $y\subseteq x$ and $y=\mathrm{val}(\mu,F)$.
+Set 
+$$
+\mu ^{*} = \{ (\tau,p) : \tau \in \mathrm{dom}(\sigma) \land p \Vdash \tau \in \mu \}
+$$
+Then one can show (Example sheet 3) that 
+$$
+\mathrm{val}(\mu,F) = \mathrm{val}(\mu ^{*},F)
+$$
+Also clearly $(\mu ^{*},\mathbb{1})\in \pi$ so we are done.
+#### Replacement
+[[Axiom of Replacement]]
+Let $x=\mathrm{val}(\sigma,F)$ and $\phi$ be a [[Function Class]].
+By [[Axiom of Separation]] it is enough to show that there is some $R\in M[F]$ such that 
+$$
+M[F] \models (\forall y\in x)\, (\exists z\in R)\, \phi(y,z)
+$$
+(where we omit the parameters for clarity)
+In $M$, find $\alpha$ such that $\mathrm{dom}(\sigma)\subseteq V_{\alpha}$ and write 
+$$
+\psi(p,\pi) = (\exists \mu)\, p \Vdash \phi(\pi,\mu)
+$$
+(by [[The Forcing Theorem]], this is well defined)
+Again in $M$, use [[Lévy Reflection Theorem]] to find $\nu>\alpha$ 
+such that $\psi$ is [[Absolute]] between $V_{\nu}$ and $M$.
+Define 
+$$
+\rho=\{ (\mu,\mathbb{1}) : \mu \in V_{\nu} \}
+$$
+and set $R=\mathrm{val}(\rho,F)$.
+We now check the above.
+Let $y=\mathrm{val}(\pi,G)\in x$
+Let $z=\mathrm{val}(\mu,F)$ such that $M[F]\models \phi(y,z)$.
+By [[Forcing Relation]] find $p\in F$ such that 
+$$
+M\models p \Vdash \phi(\pi,\mu)
+$$
+i.e. 
+$$
+M\models \psi(p,\pi)
+$$
+By [[Absolute]]ness we have 
+$$
+V_{\nu} \models \psi(p,\pi)
+$$
+so there is some $\mu ^{*}\in V_{\nu}$ such that 
+$$
+p\Vdash \phi(\pi,\mu ^{*})
+$$
+But $\phi$ is a [[Function Class]] so certainly 
+$$
 
+$$
