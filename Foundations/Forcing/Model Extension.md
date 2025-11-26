@@ -7,10 +7,10 @@ M[F] = \{ \mathrm{val}(\tau,F) : \tau \in \mathrm{Name}^{\mathbb{P}}\cap M \}
 $$
 where $\mathrm{Name}^{\mathbb{P}}$ are the $\mathbb{P}$-[[Name]]s.
 ## Theorem
-Let $M$ be a countable [[Transitive Model]] of $ZFC$
+Let $M$ be a (countable) [[Transitive Model]] of $ZF(C)$
 Let $(\mathbb{P},\leq,\mathbb{1})$ be a [[Forcing Partial Order]].
 Let $F$ be a $\mathbb{P}$-[[Generic Filter]] over $M$ with $\mathbb{1}\in F$.
-Then $M[F]$ is a countable [[Transitive Model]] of $ZFC$ 
+Then $M[F]$ is a (countable) [[Transitive Model]] of $ZF(C)$ 
 and furthermore, $M\subseteq M[F]$ and $F\in M[F]$.
 #### Note
 The above statement can be modified to conclude the following:
@@ -19,7 +19,9 @@ such that if $M$ is a countable [[Transitive Model]] of $T^{*}$
 Then $M[F]$ is a countable [[Transitive Model]] of $T$
 and furthermore, $M\subseteq M[F]$ and $F\in M[F]$.
 ### Proof
-Firstly $\mathrm{Name}^{\mathbb{P}}\cap M$ is countable, so $M[F]$ is countable.
+Firstly, if $M$ is countable, then so is $\mathrm{Name}^{\mathbb{P}}\cap M$.
+But $M[F]\subseteq \mathrm{Name}^{\mathbb{P}}\cap M$ so it is also countable.
+
 By definition, it is also a [[Foundations/Set Theory/Transitive|Transitive]] set.
 Secondly, we know that $M\subseteq M[F]$ and $F\in M[F]$ from [[Canonical Name]]s.
 
@@ -177,7 +179,7 @@ $$
 $$
 Thus we conclude $(\mu ^{*},\mathbb{1})\in \rho$ so $\mathrm{val}(\mu,F)\in R$.
 #### Choice
-[[Axiom of Choice]]
+Suppose [[Axiom of Choice]] holds in $M$.
 Suppose 
 $$
 \mathrm{val}(\sigma,F) \subseteq \{ \mathrm{val}(\tau,G) : \tau \in \mathrm{dom}(\sigma) \}

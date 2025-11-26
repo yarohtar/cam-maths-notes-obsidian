@@ -1,4 +1,4 @@
-Let $M$ be a [[Transitive Model]] of $ZFC$ and $X,Y\in M$.
+Let $M$ be a [[Transitive Model]] of $ZFC$ and $X,Y\in M$ with $X$ infinite.
 Let $(\mathbb{P},\leq,\mathbb{1})$ with $\mathbb{P}=\mathrm{Fn}(X,Y)$ be a [[Finite Function Forcing]].
 Suppose $G$ is a $\mathbb{P}$-[[Generic Filter]] over $M$.
 Then 
@@ -6,6 +6,28 @@ $$
 f=\bigcup G
 $$
 is a surjection from $X$ to $Y$ and $f\not\in M$.
+Moreover $f\in M[G]$ and:
+$$
+M[G] \models f:X\twoheadrightarrow Y
+$$
+where $M[G]$ is the [[Model Extension]] of $M$ by $G$.
 ### Proof
+First note that $(\mathbb{P},\leq,\mathbb{1})\in M$.
+As $G$ is a [[Filter]], it follows that $f$ is a function.
 Let $\mathcal{D}_{0}$ and $\mathcal{D}_{1}$ be as defined in [[Finite Function Forcing]].
-Then $\mathcal{D}_{0}\subseteq M$ and $\mathcal{D}_{1}\subseteq M$.
+Then $\mathcal{D}_{0}\subseteq M$ and $\mathcal{D}_{1}\subseteq M$, 
+so $G$ is both a $\mathcal{D}_{0}$-[[Generic Filter]] and a $\mathcal{D}_{1}$-[[Generic Filter]].
+We conclude that $\mathrm{dom}(f)=X$ and, as $X$ is infinite, $\mathrm{ran}(f)=Y$.
+Thus $f$ is a surjective function.
+Let $g:X\to Y$ with $g\in M$.
+Then $G$ is a $\{ N_{g} \}$-[[Generic Filter]] (as in [[Finite Function Forcing]])
+because $N_{g}\in M$.
+Thus $f\neq g$.
+So clearly $f\not\in M$, as we can run the same argument for any $g\in M$.
+
+We also know that [[Model Extension]]
+$$
+M[G] \models ZFC
+$$
+and also $G\in M[G]$.
+Thus $f\in M[G]$ by the [[Union axiom]] and it has to be surjective.

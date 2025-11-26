@@ -1,4 +1,4 @@
-Let $\mathcal{D}$ be a family of [[Dense]] sets in a [[Forcing Partial Order]] $(\mathbb{P},\leq,\mathbb{1})$
+Let $\mathcal{D}$ be a family of [[Dense Below|Dense]] sets in a [[Forcing Partial Order]] $(\mathbb{P},\leq,\mathbb{1})$
 Let $F$ be a [[Filter]].
 Then we say that $F$ is $\mathcal{D}$-generic if 
 $$
