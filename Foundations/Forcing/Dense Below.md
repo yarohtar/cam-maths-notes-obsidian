@@ -1,10 +1,14 @@
+---
+aliases:
+  - Dense
+---
 Let $(\mathbb{P},\leq,\mathbb{1})$ be a [[Forcing Partial Order]] 
 Let $D\subseteq \mathbb{P}$
 We say that $D$ is dense below $p$ if 
 $$
 (\forall q\leq p)\, (\exists r\leq q)\, r\in D
 $$
-Note that $D$ is [[Dense]] if it is dense below any $p$ (i.e. dense below $\mathbb{1}$).
+Also $D$ is [[Dense]] if it is dense below any $p$ (i.e. dense below $\mathbb{1}$).
 ### Lemma
 If $E\subseteq \mathbb{P}$ is dense below $p$ and $q\leq p$
 then $E$ is dense below $q$.
