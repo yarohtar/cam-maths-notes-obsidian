@@ -45,7 +45,7 @@ IF $ZFC$ has a [[Countable Transitive Model]] then ...
 ### Proof
 Assume $ZFC$ is consistent and to contradiction that $ZFC+\neg CH$ is not.
 So find $T\subseteq ZFC$ finite such that $T+\neg CH$ is inconsistent.
-Take $T^{*}$ as above.
+Using [[The Forcing Theorem]], take 
 Find a countable [[Transitive Model]] $M\models T^{*}$.
 Now there is a countable [[Transitive Model]] $N\supseteq M$ such that 
 $$

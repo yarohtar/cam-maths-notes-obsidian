@@ -1,6 +1,9 @@
 Let $M$ be a countable [[Transitive Model]] and $\mathbb{P}\in M$ a [[Forcing Partial Order]].
 Then there is an [[Absolute]] [[Forcing Relation]] $\Vdash$ on $\mathbb{P}\times \mathrm{Se nt}_{\mathbb{P},M}$.
 ## Proof (chunky one)
+### Definition of $\Vdash$
+The idea is that "$p\Vdash\text{something}$" whenever a certain set is [[Dense Below]] $p$.
+
 We first define the [[Forcing Relation]] $\Vdash$ on atomic formulas.
 Fix some $p\in \mathbb{P}$ and $\tau_{0},\tau_{1}\in \mathrm{Name}^{\mathbb{P}}$.
 Let $\{ i,j \}=\{ 0,1 \}$ and for $(\pi_{i},s_{i})\in \tau_{i}$ denote:
@@ -37,15 +40,34 @@ p\Vdash (\exists x)\phi(x) & \iff \{ r: (\exists \sigma)\, r\Vdash \phi(\sigma) 
 \end{align}
 $$
 By the lemmas about [[Dense Below]], we can show that $\Vdash$ is downwards closed.
-
-Now let $G$ be a $\mathbb{P}$-[[Generic Filter]] over $M$.
-We will prove the following claims by a (double) induction.
+Furthermore, one can check that this definition is [[Absolute]] for $M$.
+### Properties
+Let $G$ be a $\mathbb{P}$-[[Generic Filter]] over $M$.
+To find that $\Vdash$ is a [[Forcing Relation]], we need to show that:
+$$
+\begin{gather}
+M[G] \models \varphi(\mathrm{val}(\tau_{1},G),\dots,\mathrm{val}(\tau_{k},G)) \\
+\iff \\
+(\exists p\in G)\, M\models (p \Vdash \varphi(\tau_{1},\dots,\tau_{k}))
+\end{gather}
+$$
+We shall first prove this for atomic $\varphi$, 
+which boils down to the following two equivalences 
+$$
+\begin{gather}
+\mathrm{val}(\tau_{0},G) \subseteq \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p \Vdash \tau_{0}\subseteq \tau_{1} \\
+\mathrm{val}(\tau_{0},G) \in \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p\Vdash \tau_{0}\in \tau_{1}
+\end{gather}
+$$
+We prove these by induction on terms.
+Then we prove it for non-atomic $\varphi$ by induction on formula complexity.
 These will together imply that $\Vdash$ is a [[Forcing Relation]].
 ### Claim 1
 $$
 \mathrm{val}(\tau_{0},G) \subseteq \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p \Vdash \tau_{0}\subseteq \tau_{1}
 $$
 #### Proof
+By $\in$-induction.
 ##### $\impliedby$
 Assume $p\in G$ such that $p\Vdash\tau_{0}\subseteq \tau_{1}$.
 Fix $x=\mathrm{val}(\pi_{0},G)\in \mathrm{val}(\tau_{0},G)$ with $(\pi_{0},s_{0})\in \tau_{0}$ and $s_{0}\in G$.
@@ -109,6 +131,7 @@ $$
 \mathrm{val}(\tau_{0},G) \in \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p\Vdash \tau_{0}\in \tau_{1}
 $$
 #### Proof
+By $\in$-induction.
 ##### $\implies$
 Assume $\mathrm{val}(\tau_{0},G)\in \mathrm{val}(\tau_{1},G)$.
 By definition, find some $(\pi,s)\in \tau_{1}$ such that $s \in G$ and $\mathrm{val}(\pi,G)=\mathrm{val}(\tau_{0},G)$.
