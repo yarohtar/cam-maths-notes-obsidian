@@ -1,4 +1,4 @@
-Let $M$ be a [[Model]] of $ZFC$.
+Let $M$ be a [[Transitive Model]] of $ZFC$.
 Let $(\mathbb{P},\leq,\mathbb{1})$ be a [[Forcing Partial Order]].
 Let $F\subseteq \mathbb{P}$.
 Then the model extension of $M$ by $F$ is 
@@ -6,19 +6,21 @@ $$
 M[F] = \{ \mathrm{val}(\tau,F) : \tau \in \mathrm{Name}^{\mathbb{P}}\cap M \}
 $$
 where $\mathrm{Name}^{\mathbb{P}}$ are the $\mathbb{P}$-[[Name]]s.
-### Lemma
-If $M$ is countable [[Transitive Model|Transitive]], then so is $M[F]$.
-#### Proof
-Firstly $\mathrm{Name}^{\mathbb{P}}\cap M$ is countable, so $M[F]$ is countable.
-By definition, it is also a [[Foundations/Set Theory/Transitive|Transitive]] set.
 ## Theorem
 Let $M$ be a countable [[Transitive Model]] of $ZFC$
 Let $(\mathbb{P},\leq,\mathbb{1})$ be a [[Forcing Partial Order]].
 Let $F$ be a $\mathbb{P}$-[[Generic Filter]] over $M$ with $\mathbb{1}\in F$.
 Then $M[F]$ is a countable [[Transitive Model]] of $ZFC$ 
 and furthermore, $M\subseteq M[F]$ and $F\in M[F]$.
+#### Note
+The above statement can be modified to conclude the following:
+If $T\subseteq ZFC$ is finite, then there is some finite $T^{*}\subseteq ZFC$
+such that if $M$ is a countable [[Transitive Model]] of $T^{*}$
+Then $M[F]$ is a countable [[Transitive Model]] of $T$
+and furthermore, $M\subseteq M[F]$ and $F\in M[F]$.
 ### Proof
-Firstly, $M[F]$ is countable [[Transitive Model]] by above.
+Firstly $\mathrm{Name}^{\mathbb{P}}\cap M$ is countable, so $M[F]$ is countable.
+By definition, it is also a [[Foundations/Set Theory/Transitive|Transitive]] set.
 Secondly, we know that $M\subseteq M[F]$ and $F\in M[F]$ from [[Canonical Name]]s.
 
 Any [[Transitive Model]] satisfies [[Axiom of Extensionality]] and [[Axiom of Foundation]].
@@ -153,7 +155,7 @@ By [[Forcing Relation]] find $p\in F$ such that
 $$
 M\models p \Vdash \phi(\pi,\mu)
 $$
-i.e. 
+It follows that
 $$
 M\models \psi(p,\pi)
 $$
@@ -164,6 +166,10 @@ $$
 so there is some $\mu ^{*}\in V_{\nu}$ such that 
 $$
 p\Vdash \phi(\pi,\mu ^{*})
+$$
+from where it follows that 
+$$
+M\models \phi(y, \mathrm{val}(\mu ^{*},F))
 $$
 But $\phi$ is a [[Function Class]] so certainly 
 $$

@@ -3,7 +3,7 @@ Then there is an [[Absolute]] [[Forcing Relation]] $\Vdash$ on $\mathbb{P}\times
 ## Proof (chunky one)
 We first define the [[Forcing Relation]] $\Vdash$ on atomic formulas.
 Fix some $p\in \mathbb{P}$ and $\tau_{0},\tau_{1}\in \mathrm{Name}^{\mathbb{P}}$.
-Let $\{ i,j \}=\{ 0,1 \}$ and denote
+Let $\{ i,j \}=\{ 0,1 \}$ and for $(\pi_{i},s_{i})\in \tau_{i}$ denote:
 $$
 D_{\pi_{i},s_{i}} = \{ q\leq p : q\leq s_{i} \implies (\exists (\pi_{j},s_{j})\in \tau_{j})\, q\leq s_{j} \land q \Vdash \pi_{i}=\pi_{j} \}
 $$
@@ -18,6 +18,10 @@ $$
 As a helper, we define $p\Vdash\tau_{0}\subseteq \tau_{1}$ to be 
 $$
 (\forall(\pi_{0},s_{0})\in \tau_{0})\, D_{\pi_{0},s_{0}}\text{ is dense below }p
+$$
+so that 
+$$
+p\Vdash\tau_{0}=\tau_{1} \iff p\Vdash\tau_{0}\subseteq \tau_{1} \land p\Vdash\tau_{1}\subseteq \tau_{0}
 $$
 Now define $p\Vdash\tau_{0}\in \tau_{1}$ to be 
 $$
