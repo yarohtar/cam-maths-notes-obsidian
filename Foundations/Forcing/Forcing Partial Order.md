@@ -3,9 +3,10 @@ Then $(\mathbb{P},\leq,\mathbb{1})$ is called a forcing.
 
 A subset $P\subseteq \mathbb{P}$ is said to be open if 
 $$
-
+(\forall p\in P)\,(\forall q\in \mathbb{P})\, q\leq p \implies q\in P
 $$
-We equip $\mathbb{P}$ with open sets given by $\{ q:q\leq p \}$ for each $p \in \mathbb{P}$.
-This allows us to talk about [[Dense]] subsets of $\mathbb{P}$.
-
+We can check that this makes $\mathbb{P}$ a [[Topological Space]].
+This allows us to talk about [[Dense]] subsets of $\mathbb{P}$,
+in particular defined in [[Dense Below]].
+### Main Example
 [[Finite Function Forcing]]

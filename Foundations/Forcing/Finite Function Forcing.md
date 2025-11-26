@@ -37,15 +37,15 @@ R_{y} = \{ p\in \mathbb{P} : y\in \mathrm{ran}(p) \} \\
 \mathcal{D}_{1} = \{ R_{y} : y\in Y \}
 \end{gather}
 $$
-Then $D_{x}$ is dense, 
-and $R_{y}$ is dense when $X$ is infinite.
+Then $D_{x}$ is [[Dense Below|Dense]], 
+and $R_{y}$ is [[Dense Below|Dense]] when $X$ is infinite.
 Furthermore, if $F$ is a $\mathcal{D}_{0}$-[[Generic Filter]] then 
 $$
 \mathrm{dom}\left( \bigcup F \right) = X
 $$
-and if $F$ is a $\mathcal{D}_{1}$-[[Generic Filter]] and $X$ is infinite then 
+and if $G$ is a $\mathcal{D}_{1}$-[[Generic Filter]] and $X$ is infinite then 
 $$
-\mathrm{ran}\left( \bigcup F \right) = Y
+\mathrm{ran}\left( \bigcup G \right) = Y
 $$
 ### Lemma
 Let $X$ be infinite.
@@ -53,7 +53,7 @@ Fix $f:X\to Y$ and define
 $$
 N_{f} = \big\{ p\in \mathbb{P} : (\exists x\in \mathrm{dom}(p))\, f(x)\neq p(x) \big\}
 $$
-Then $N_{f}$ is dense.
+Then $N_{f}$ is [[Dense Below|Dense]].
 Furthermore, if $F$ is a $\{ N_{f} \}$-[[Generic Filter]] then 
 $$
 \bigcup F \neq f
