@@ -30,4 +30,5 @@ $$
 M[G] \models ZFC
 $$
 and also $G\in M[G]$.
-Thus $f\in M[G]$ by the [[Union axiom]] and it has to be surjective.
+Thus $f\in M[G]$ by the [[Union axiom]],
+and proof of surjectivity can be done in $M[G]$ as in [[Finite Function Forcing]].
