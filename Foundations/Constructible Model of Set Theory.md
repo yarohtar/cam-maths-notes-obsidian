@@ -1,6 +1,6 @@
 The [[Constructible Hierarchy]] $L$ satisfies:
 $$
-L\models ZF
+L\models ZF(C)
 $$
 ### Proof
 #### Structural axioms
@@ -8,7 +8,7 @@ Any [[Transitive Model]] satisfies [[Axiom of Extensionality]] and [[Axiom of Fo
 Also $x=\omega$ is [[Absolute]], and $\omega$ satisfies [[Axiom of Infinity]],
 we also get $L_{\alpha}\models$[[Axiom of Infinity]] for all $\alpha>\omega$.
 #### Functional Axioms
-The operations $x,y\to \{ x,y \}$ and $x\to \bigcup x$ are [[Absolute Operation]]
+The operations $x,y\to \{ x,y \}$ and $x\to \bigcup x$ are [[Absolute Operation]]s
 for a [[Sufficiently Strong]] $T$.
 So we only need to prove
 $$

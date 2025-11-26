@@ -2,12 +2,9 @@ If [[Zermelo-Fraenkel Set Theory]] is consistent, then [[Axiom of Choice]] is co
 $$
 \mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC)
 $$
-In particular, the [[Constructible Hierarchy]] $L$ satisfies: 
-$$
-L\models ZFC
-$$
 ### Proof
-Let $L$ be the [[Constructible Hierarchy]].
+Let $L$ be the [[Constructible Hierarchy]] 
+which is a [[Constructible Model of Set Theory]].
 We know that 
 $$
 L\models ZF

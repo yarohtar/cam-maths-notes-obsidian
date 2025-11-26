@@ -1,10 +1,13 @@
-We examine the minimal model of $ZFC$.
-This will be given by the [[Constructible Hierarchy]] $L$.
-Note that 
+The [[Constructible Hierarchy]] $L$ is the [[Constructible Model of Set Theory]]:
+$$
+L\models ZF
+$$
+Also, by [[Consistency of Choice]]:
 $$
 L\models ZFC
 $$
-and furthermore $L$ is countable [[Transitive Model|Transitive]].
+Furthermore $L$ is countable [[Transitive Model|Transitive]].
+We now prove stuff inside $L$.
 ### Lemma
 If $\alpha\geq \omega$ then $\lvert L_{\alpha} \rvert=\lvert \alpha \rvert$.
 #### Proof
@@ -33,7 +36,7 @@ Now using [[The Downward Löwenheim-Skolem Theorem]]
 find $M$ such that $B_{x}\subseteq M\subseteq L_{\nu}$ with $\sigma$ [[Absolute]] between $M$ and $L_{\nu}$.
 So $M\models \sigma$ and $M$ is countable.
 Form the [[Transitive Model|Transitive]] $N\cong M$ by [[Mostowski's Collapsing Theorem]].
-Then by [[Gödel's Condensation Lemma]] there is some $\alpha$ such that $N=L_{\alpha}$
+Then by [[Gödel's Condensation Lemma]], there is some $\alpha$ such that $N=L_{\alpha}$
 Since $N$ is countable, it has to be $\alpha<\omega_{1}$.
 ### Theorem
 [[The Continuum Hypothesis]] holds in $L$: 

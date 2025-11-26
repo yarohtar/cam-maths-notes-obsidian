@@ -37,4 +37,5 @@ $$
 \mathrm{Cons}(ZFC^{*})
 $$
 (because it has a model, namely $M$)
+Now $M$ is a [[Transitive Model]] of $ZFC^{*}$.
 We continue by induction.
