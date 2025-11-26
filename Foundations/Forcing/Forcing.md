@@ -5,7 +5,7 @@
 [[Filter Base]]
 [[Filter]]
 [[Generic Filter]]
-[[Names]]
+[[Name]]
 [[Value of a Name]]
 [[Model Extension]]
 [[Canonical Name]]

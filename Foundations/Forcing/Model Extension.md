@@ -5,7 +5,7 @@ Then the model extension of $M$ by $F$ is
 $$
 M[F] = \{ \mathrm{val}(\tau,F) : \tau \in \mathrm{Name}^{\mathbb{P}}\cap M \}
 $$
-where $\mathrm{Name}^{\mathbb{P}}$ are the $\mathbb{P}$-[[Names]], and $\mathrm{val}$ is the [[Value of a Name]].
+where $\mathrm{Name}^{\mathbb{P}}$ are the $\mathbb{P}$-[[Name]], and $\mathrm{val}$ is the [[Value of a Name]].
 ### Lemma
 If $M$ is countable [[Transitive Model|Transitive]], then so is $M[F]$.
 #### Proof

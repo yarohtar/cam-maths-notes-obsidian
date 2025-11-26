@@ -3,7 +3,7 @@ A relation $\Vdash$ on $\mathbb{P}\times \mathrm{Se nt}_{\mathbb{P},M}$ is a for
 for any $G$ that is a $\mathbb{P}$-[[Generic Filter]] over $M$,
 the [[Model Extension]] $M[G]$,
 any formula $\varphi \in \mathcal{L}_{\mathbb{P},M}$ with $k$ [[Free Variable]]s
-and any [[Names]] $\tau_{1},\dots,\tau_{k}\in \mathrm{Name}^{\mathbb{P}}\cap M$ with [[Value of a Name|values]] $\mathrm{val}(\tau_{i},G)$ 
+and any [[Name]] $\tau_{1},\dots,\tau_{k}\in \mathrm{Name}^{\mathbb{P}}\cap M$ with [[Value of a Name|values]] $\mathrm{val}(\tau_{i},G)$ 
 the following are equivalent: 
 $$
 \begin{gather}
