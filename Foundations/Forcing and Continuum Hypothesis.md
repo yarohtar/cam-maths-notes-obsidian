@@ -20,7 +20,7 @@
 [[Countable Model of Set Theory]]
 [[Consistency of Choice]]
 [[Technique of Inner Models]]
-[[Forcing]]
+[[Technique of Outer Models]]
 [[Forcing Partial Order]]
 
 
