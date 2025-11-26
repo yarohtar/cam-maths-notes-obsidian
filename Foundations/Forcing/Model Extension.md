@@ -14,10 +14,9 @@ By definition, it is also a [[Foundations/Set Theory/Transitive|Transitive]] set
 ## Theorem
 Let $M$ be a countable [[Transitive Model]] of $ZFC$
 Let $(\mathbb{P},\leq,\mathbb{1})$ be a [[Forcing Partial Order]].
-Let $F\subseteq \mathbb{P}$ be a [[Filter]] with $\mathbb{1}\in F$.
+Let $F$ be a $\mathbb{P}$-[[Generic Filter]] over $M$ with $\mathbb{1}\in F$.
 Then $M[F]$ is a countable [[Transitive Model]] of $ZFC$ 
-and furthermore, $M\subseteq M[F]$ and $F\in M[F]$,
-under certain conditions on $F$.
+and furthermore, $M\subseteq M[F]$ and $F\in M[F]$.
 ### Proof
 Firstly, $M[F]$ is countable [[Transitive Model]] by above.
 Secondly, we know that $M\subseteq M[F]$ and $F\in M[F]$ from [[Canonical Name]]s.
@@ -76,9 +75,9 @@ Suppose $z=\mathrm{val}(\tau,G)$.
 $$
 \begin{align}
 z\in A_{\phi}  & \implies z\in x\land M[F] \models \phi(z) \\
- & \implies \mathrm{val}(\tau,F) \in \mathrm{val}(\sigma,F) \land M[G] \models \phi(z) \\
+ & \implies \mathrm{val}(\tau,F) \in \mathrm{val}(\sigma,F) \land M[F] \models \phi(z) \\
  & \implies (\exists q\in F)\, (\tau,q) \in \sigma \land M[F] \models \phi(z) \\
- & \implies (\exists q\in F)\, (\tau,q)\in \sigma \land (\exists p\in G) p \Vdash \phi(\tau) \\
+ & \implies (\exists q\in F)\, (\tau,q)\in \sigma \land (\exists p\in F) p \Vdash \phi(\tau) \\
  & \implies (\exists r\in F)\, r\leq q \land r \Vdash \phi(\tau)  \\
  & \implies (\tau,r) \in \tau_{\phi} \land r \in F \\
  & \implies \mathrm{val}(\tau,F) \in \mathrm{val}(\tau_{\phi},F)
