@@ -71,20 +71,29 @@ $$
 \mathrm{val}(\tau_{\phi}, F) = A_{\phi}
 $$
 ##### $\supseteq$
-Suppose $z=\mathrm{val}(\tau,G)$.
+Suppose $z=\mathrm{val}(\tau,F)$.
 $$
 \begin{align}
 z\in A_{\phi}  & \implies z\in x\land M[F] \models \phi(z) \\
  & \implies \mathrm{val}(\tau,F) \in \mathrm{val}(\sigma,F) \land M[F] \models \phi(z) \\
- & \implies (\exists q\in F)\, (\tau,q) \in \sigma \land M[F] \models \phi(z) \\
- & \implies (\exists q\in F)\, (\tau,q)\in \sigma \land (\exists p\in F) p \Vdash \phi(\tau) \\
- & \implies (\exists r\in F)\, r\leq q \land r \Vdash \phi(\tau)  \\
- & \implies (\tau,r) \in \tau_{\phi} \land r \in F \\
- & \implies \mathrm{val}(\tau,F) \in \mathrm{val}(\tau_{\phi},F)
+ & \implies (\exists q\in F)\, (\tau,q) \in \sigma \land (\exists p\in F)\, p \Vdash \phi(\tau)
 \end{align}
 $$
+Take such $q,p\in F$.
+As $F$ is a [[Filter Base]] there is some $r\in F$ such that $r\leq p,q$.
+From $r\leq p\land p\Vdash\phi(\tau)$ we conclude $r\Vdash\phi(\tau)$.
+Now we can write 
+$$
+r\leq q \land (\tau,q)\in \sigma \land r\Vdash\phi(\tau)
+$$
+Thus $(\tau,r)\in \tau_{\phi}$ by definition.
+Also $r\in F$, so by definition of value of a [[Name]], we have 
+$$
+\mathrm{val}(\tau,F) \in \mathrm{val}(\tau_{\phi},F)
+$$
+which completes this direction.
 ##### $\subseteq$
-Suppose $z=\mathrm{val}(\tau,G)$
+Suppose $z=\mathrm{val}(\tau,F)$
 $$
 \begin{align}
 z\in \mathrm{val}(\tau_{\phi},F) &  \implies (\exists p\in F)\, (\tau,p) \in \tau_{\phi}  \\
@@ -104,7 +113,7 @@ We claim the following:
 $$
 y\in M[F] \land y\subseteq x \implies y\in \mathrm{val}(\pi,F)
 $$
-As we already have [[Axiom of Separation]], 
+As we already have [[Axiom of Separation]] in $M[F]$, 
 we can then separate the powerset from $\mathrm{val}(\pi,F)$
 ##### Proof of claim
 Let $y\subseteq x$ and $y=\mathrm{val}(\mu,F)$.
@@ -125,9 +134,9 @@ $$
 M[F] \models (\forall y\in x)\, (\exists z\in R)\, \phi(y,z)
 $$
 (where we omit the parameters for clarity)
-In $M$, find $\alpha$ such that $\mathrm{dom}(\sigma)\subseteq V_{\alpha}$ and write 
+In $M$, find $\alpha \in \mathrm{Or d}$ such that $\mathrm{dom}(\sigma)\subseteq V_{\alpha}$ and write $\psi(p,\pi)$ for
 $$
-\psi(p,\pi) = (\exists \mu)\, p \Vdash \phi(\pi,\mu)
+(\exists \mu)\, p \Vdash \phi(\pi,\mu)
 $$
 (by [[The Forcing Theorem]], this is well defined)
 Again in $M$, use [[Lévy Reflection Theorem]] to find $\nu>\alpha$ 
