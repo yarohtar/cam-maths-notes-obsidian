@@ -1,4 +1,4 @@
-Let $M$ be a [[Model]] of $ZFC$.
+Let $M$ be a [[Transitive Model]] of $ZFC$.
 Let $(\mathbb{P},\leq,\mathbb{1})$ be a [[Forcing Partial Order]].
 If $x\in M$ define 
 $$
@@ -12,8 +12,7 @@ $$
 $$
 the canonical name for the generic object.
 ### Lemma
-Suppose $\mathbb{1}\in F$, and let $\mathrm{val}$ be [[Value of a Name]].
-Then 
+Suppose $\mathbb{1}\in F$. Then 
 $$
 \mathrm{val}(\check{x},F) = x
 $$

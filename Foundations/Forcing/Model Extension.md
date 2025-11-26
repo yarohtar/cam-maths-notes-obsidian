@@ -5,7 +5,7 @@ Then the model extension of $M$ by $F$ is
 $$
 M[F] = \{ \mathrm{val}(\tau,F) : \tau \in \mathrm{Name}^{\mathbb{P}}\cap M \}
 $$
-where $\mathrm{Name}^{\mathbb{P}}$ are the $\mathbb{P}$-[[Name]], and $\mathrm{val}$ is the [[Value of a Name]].
+where $\mathrm{Name}^{\mathbb{P}}$ are the $\mathbb{P}$-[[Name]]s.
 ### Lemma
 If $M$ is countable [[Transitive Model|Transitive]], then so is $M[F]$.
 #### Proof
@@ -26,7 +26,7 @@ Any [[Transitive Model]] satisfies [[Axiom of Extensionality]] and [[Axiom of Fo
 Furthermore, as $\omega \in M\subseteq M[F]$, then $M[F]$ satisfies [[Axiom of Infinity]].
 #### Pair
 [[Pair-set axiom]]
-Given $\sigma,\tau \in \mathrm{Name}^{\mathbb{P}}\cap M$, we need a name for 
+Given $\sigma,\tau \in \mathrm{Name}^{\mathbb{P}}\cap M$, we need a [[Name]] for 
 $$
 \{ \mathrm{val}(\sigma,F), \mathrm{val}(\tau,F) \} = \pi
 $$
@@ -39,10 +39,10 @@ Then clearly:
 $$
 \mathrm{val}(\mathrm{up}(\sigma,\tau), F) = \pi
 $$
-if $\mathbb{1}\in F$.
+because $\mathbb{1}\in F$.
 #### Union
 [[Union axiom]]
-Given $\sigma \in \mathrm{Name}^{\mathbb{P}}$ need a name for 
+Given $\sigma \in \mathrm{Name}^{\mathbb{P}}$ need a [[Name]] for 
 $$
 \bigcup \mathrm{val}(\sigma,F)
 $$
@@ -50,18 +50,18 @@ Define
 $$
 u_{\sigma} = \Big\{ (\sigma',r) : (\exists \tau,p,q)\, (\tau,p)\in \sigma \land(\sigma',q)\in \tau \land r\leq p,q \Big\}
 $$
-We can check that if $F$ is a [[Filter]] then 
+As $F$ is a [[Filter]], we can check that:
 $$
 \mathrm{val}(u_{\sigma},F) = \bigcup \mathrm{val} (\sigma,F)
 $$
 #### Separation
 [[Axiom of Separation]]
 Let $x=\mathrm{val}(\sigma,F)$ for some $\sigma \in \mathrm{Name}^{\mathbb{P}}\cap M$.
-Want to find 
+Let $\phi$ be a formula with one free variable (we omit the parameters for readability)
+Want to find a [[Name]] for
 $$
 A_{\phi} = \{  z\in x : M[F] \models \phi(x) \}
 $$
-(we omit the parameters for readability)
 Set 
 $$
 \tau_{\phi} = \{ (\tau',p) : (\exists q)\, (\tau',q)\in \sigma \land p\leq q \land p\Vdash \phi(\tau') \}

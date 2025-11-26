@@ -1,4 +1,4 @@
-Let $\mathbb{P}$ be a [[Forcing Partial Order]].
+Let $(\mathbb{P},\leq,\mathbb{1})$ be a [[Forcing Partial Order]].
 Let $F\subseteq \mathbb{P}$ be a [[Filter Base]].
 Suppose that for any $p,q\in \mathbb{P}$: 
 $$

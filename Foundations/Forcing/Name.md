@@ -14,12 +14,8 @@ $$
 $$
 ### Interpretation
 If $(\sigma,p)\in \tau$ then $p$ guarantees that the set named by $\sigma$ is in the set named by $\tau$.
-### Lemma
-The above is [[Absolute]] for [[Transitive Model]]s of a [[Sufficiently Strong]] $T\subseteq ZFC$.
-
-
 ### Remark
-When $\mathbb{P}=\{ \mathbb{1} \}$ then this is [[Von Neumann Hierarchy]].
+When $\mathbb{P}=\{ \mathbb{1} \}$ then this is the [[Von Neumann Hierarchy]].
 ### Lemma
 $\mathrm{Name}^{\mathbb{P}}$ is [[Absolute]] for [[Transitive Model]]s of a [[Sufficiently Strong]] $T\subseteq ZFC$.
 In other words, there is an [[Absolute]] [[Function Class]] $\phi$ 

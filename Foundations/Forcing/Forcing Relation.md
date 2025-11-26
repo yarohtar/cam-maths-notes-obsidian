@@ -1,9 +1,10 @@
+Let $M$ be a [[Transitive Model]] 
 Let $\mathcal{L}_{\mathbb{P},M}$ be a [[Forcing Language]] with the [[Forcing Sentence]]s $\mathrm{Se nt}_{\mathbb{P},M}$.
 A relation $\Vdash$ on $\mathbb{P}\times \mathrm{Se nt}_{\mathbb{P},M}$ is a forcing relation if 
 for any $G$ that is a $\mathbb{P}$-[[Generic Filter]] over $M$,
 the [[Model Extension]] $M[G]$,
 any formula $\varphi \in \mathcal{L}_{\mathbb{P},M}$ with $k$ [[Free Variable]]s
-and any [[Name]] $\tau_{1},\dots,\tau_{k}\in \mathrm{Name}^{\mathbb{P}}\cap M$ with [[Value of a Name|values]] $\mathrm{val}(\tau_{i},G)$ 
+and any [[Name]]s $\tau_{1},\dots,\tau_{k}\in \mathrm{Name}^{\mathbb{P}}\cap M$,
 the following are equivalent: 
 $$
 \begin{gather}

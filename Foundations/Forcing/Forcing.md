@@ -6,7 +6,6 @@
 [[Filter]]
 [[Generic Filter]]
 [[Name]]
-[[Value of a Name]]
 [[Model Extension]]
 [[Canonical Name]]
 [[Forcing Language]]
