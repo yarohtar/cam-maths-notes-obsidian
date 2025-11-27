@@ -1,6 +1,6 @@
 If $\alpha \to Z_{\alpha}$ is a [[Hierarchy]] and $\phi$ any formula then
 for any $\gamma$ there is some $\nu>\gamma$ 
-such that $\phi$ is absolute between $Z_{\nu}$ and $Z$.
+such that $\phi$ is [[Absolute]] between $Z_{\nu}$ and $Z$.
 #### Proof
 Fix $\phi$, $\alpha \to Z_{\alpha}$ and $\gamma$.
 Let $\Phi$ be the set of subformulas of $\phi$ (it is finite).
