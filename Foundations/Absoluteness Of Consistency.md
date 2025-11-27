@@ -47,16 +47,11 @@ We can construct an inner model (e.g. [[Constructible Model of Set Theory]])
 $$
 L^{M}\models ZFC
 $$
-where $L^{M}$ is a [[Foundations/Set Theory/Transitive|Transitive]] [[Class]] in $M$.
+where $L^{M}$ is [[Foundations/Set Theory/Transitive|Transitive]] in $M$.
+This might seem like an issue, as we might think that $M\models ZFC^{\oplus}$.
 However, $M$ doesn't see $L^{M}$ as a set.
 Thus $M$ doesn't entail $\mathrm{Cons}(ZFC)$ (at least not as witnessed by $L^{M}$)
 and certainly $M$ doesn't entail $ZFC^{\oplus}$.
 
-In fact, $V$ 
-
-
-
-The problem arises if $M$ is not a [[Transitive Model]] (which is allowed)
-Then formula encodings in $M$ may not match those in $V$.
-This makes it difficult for $M$ to encode statements like $L^{M}\models \varphi$ 
-and be correct about them from the point of $V$.
+Furthermore, $V$ will see $L^{M}$ as a set, but it might not see it as [[Foundations/Set Theory/Transitive|Transitive]].
+So $L^{M}$ is a [[Model]] of $ZFC$, but it is not a [[Transitive Model]] in $V$.
