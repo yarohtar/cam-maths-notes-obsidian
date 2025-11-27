@@ -26,6 +26,30 @@ $$
 V \models ZF
 $$
 Assume $\mathrm{Cons}(ZF)$.
+Let $T\subseteq ZF$ be finite and [[Sufficiently Strong]] to prove
+1. [[Absolute]]ness of $L$
+2. [[Absolute]]ness of formula and proof encodings and such
+
+Furthermore, find a finite $T^{*}\supseteq T$, $T^{*}\subseteq ZF$
+such that if $M\models T^{*}$, then $L^{M}\models T$.
+Find a [[Countable Transitive Model]] $M$ of $T^{*}$.
+Let $L^{M}$ be the [[Constructible Hierarchy]] in $M$.
+Now inside of $M$, we can run the proof of 
+$$
+L^{M}\models T + \varphi
+$$
+But $L^{M}$ is just a fragment of the real $L$ and in particular $L^{M}$ is a set.
+As all the proofs and formulas are [[Absolute]], 
+so the real universe $V$ also proves that 
+$$
+L^{M} \models T + \varphi
+$$
+Thus $V$ can find a set model of any finite fragment of $ZF+\varphi$.
+We conclude that 
+$$
+V\models \mathrm{Cons}(ZF+\varphi)
+$$
+
 Then $V$ thinks there is a [[Model]] $M$ of $ZF$, where $M$ is a set $M\in V$.
 This is because we can run the argument from [[Model Existence Lemma]] in $V$.
 (note that this uses [[Axiom of Choice]], 
