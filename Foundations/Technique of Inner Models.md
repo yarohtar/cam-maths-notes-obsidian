@@ -30,19 +30,18 @@ Then $V$ thinks there is a [[Model]] $M$ of $ZF$, where $M$ is a set $M\in V$.
 This is because we can run the argument from [[Model Existence Lemma]] in $V$.
 (note that this uses [[Axiom of Choice]], 
 but we are fine because $V$ can [[Well-Ordered|Well-Order]] formulas)
-Assume also $\neg \mathrm{Cons}(ZF+\varphi)$, and exhibit a finite $T\subseteq ZF$ such that 
+Assume also $\neg \mathrm{Cons}(ZF+\varphi)$, so that
 $$
-T\vdash \neg \mathrm{Cons}(ZF+\varphi)
+ZF\vdash \neg \mathrm{Cons}(ZF+\varphi)
 $$ 
-Now $M$ is clearly a [[Model]] of $T$, so 
+Now as $M$ is a [[Model]] of $ZF$ it has to be:
 $$
 M\models \neg \mathrm{Cons}(ZF+\varphi)
 $$
-Now let $L$ be the [[Constructible Hierarchy]] in $M$.
-Note that $L$ is again a set in $V$.
-Also note that we can prove (from $M$) that 
+Let $L$ be the [[Constructible Hierarchy]] in $M$.
+Note that we can prove (from $M$) that 
 $$
-L\models ZFC + (V=L) + \varphi
+L\models ZF + \varphi
 $$
 
 ### Lemma (main idea)
