@@ -6,27 +6,33 @@ Also, by [[Consistency of Choice]]:
 $$
 L\models ZFC
 $$
-Furthermore $L$ is countable [[Transitive Model|Transitive]].
-We now prove stuff inside $L$.
-### Lemma
-If $\alpha\geq \omega$ then $\lvert L_{\alpha} \rvert=\lvert \alpha \rvert$.
+Furthermore $L$ is [[Transitive Model|Transitive]] and [[Axiom of Constructability]] is [[Satisfied]]:
+$$
+L\models V=L
+$$
+We now prove stuff inside of $L$.
+### General Idea
+Suppose we can prove that 
+$$
+L\models \varphi
+$$
+Then we claim that 
+$$
+\mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC+\varphi)
+$$
 #### Proof
-By induction on $\alpha$.
-Clearly $L_{\omega}$ is countable.
-Also $\alpha \subseteq L_{\alpha}$ for all $\alpha \in \mathrm{Or d}$.
-Assume that $\lvert L_{\alpha} \rvert=\lvert \alpha \rvert$ and write 
+Let $V$ be the set theoretic universe, i.e. 
 $$
-\lvert \alpha+1 \rvert \leq \lvert L_{\alpha+1} \rvert \leq \aleph_{0} \cdot \lvert L_{\alpha}^{<\omega} \rvert = \aleph_{0} \cdot \lvert L_{\alpha} \rvert = \aleph_{0}\cdot \lvert \alpha \rvert  =\lvert \alpha \rvert 
+V \models ZF
 $$
-Suppose now $\lambda$ is a limit and for $\alpha<\lambda$, $\lvert L_{\alpha} \rvert=\lvert \alpha \rvert\leq \lvert \lambda \rvert$.
-Then write 
-$$
-\lvert \lambda \rvert  \leq \lvert L_{\lambda} \rvert  =\left\lvert  \bigcup_{\alpha<\lambda} L_{\alpha}  \right\rvert  \leq \lvert \lambda \rvert  \cdot \lvert  \lambda \rvert  =\lvert \lambda \rvert 
-$$
-### Lemma
+Assume $\mathrm{Cons}(ZF)$.
+Then $V$ thinks there is a [[Model]] $M$ of $ZF$, where $M$ is a set $M\in V$.
+This is because we can run the argument from [[Model Existence Lemma]] in $V$.
+
+### Lemma (main idea)
 For every $x\subseteq \mathbb{N}$, $x\in L$, there is some $\alpha<\omega_{1}$ such that $x\in L_{\alpha}$.
 #### Proof
-We work in $L$.
+We work in $L$, which is a [[Model]] of $ZFC$.
 Let $B_{x} = \mathbb{N}\cup \{ x \}$ and note that this is a [[Foundations/Set Theory/Transitive|Transitive]] set.
 Find $\nu$ large enough by [[Lévy Reflection Theorem]] 
 such that $x\in L_{\nu}$ and $\sigma$ is absolute between $L_{\nu}$ and $L$ 
@@ -37,7 +43,8 @@ find countable $M$ such that $B_{x}\subseteq M\subseteq L_{\nu}$ with $\sigma$ [
 So $M\models \sigma$ and $M$ is countable.
 Form the [[Transitive Model|Transitive]] $N\cong M$ by [[Mostowski's Collapsing Theorem]].
 Then by [[Gödel's Condensation Lemma]], there is some $\alpha$ such that $N=L_{\alpha}$
-Since $N$ is countable, it has to be $\alpha<\omega_{1}$.
+Since $N$ is countable, so is $L_{\alpha}$.
+But $\lvert L_{\alpha} \rvert=\lvert \alpha \rvert$, so it has to be $\alpha<\omega_{1}$.
 ### Theorem
 [[The Continuum Hypothesis]] holds in $L$: 
 $$

@@ -51,7 +51,7 @@ $$
 \omega_{A}([t_{1}],\dots,[t_{n}])=[\omega t_{1}\dots t_{n}]
 $$
 $$
-\phi_{A}([t_{1}],\dots,[t_{n}])=1$ iff $S\vdash \phi t_{1}\dots t_{n}
+\phi_{A}([t_{1}],\dots,[t_{n}])=1 \iff S\vdash \phi t_{1}\dots t_{n}
 $$
 (lots of checking to do at this stage to prove this is all well defined)
 
