@@ -33,7 +33,7 @@ such that $x\in L_{\nu}$ and $\sigma$ is absolute between $L_{\nu}$ and $L$
 where $\sigma$ is from [[Gödel's Condensation Lemma]].
 Because $L\models \sigma$, we get $L_{\nu}\models \sigma$.
 Now using [[The Downward Löwenheim-Skolem Theorem]]
-find $M$ such that $B_{x}\subseteq M\subseteq L_{\nu}$ with $\sigma$ [[Absolute]] between $M$ and $L_{\nu}$.
+find countable $M$ such that $B_{x}\subseteq M\subseteq L_{\nu}$ with $\sigma$ [[Absolute]] between $M$ and $L_{\nu}$.
 So $M\models \sigma$ and $M$ is countable.
 Form the [[Transitive Model|Transitive]] $N\cong M$ by [[Mostowski's Collapsing Theorem]].
 Then by [[Gödel's Condensation Lemma]], there is some $\alpha$ such that $N=L_{\alpha}$
