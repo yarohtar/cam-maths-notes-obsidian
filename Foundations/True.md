@@ -13,5 +13,11 @@ $$
 M,I \frac{ a }{ x } \models \phi(a)
 $$
 ### Theorem (Tarski)
-There is no formula saying something is true. 
+There is no formula defining 
+$$
+^"M\models \phi\ ^"
+$$
+for all formulas $\phi$.
+In particular, if all formulas $\phi$ are encoded as elements of $M$, 
+there is no formula determining which elements of $M$ encode true formulas.
  
