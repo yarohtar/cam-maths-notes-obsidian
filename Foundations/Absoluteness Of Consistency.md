@@ -24,7 +24,7 @@ $$
 ZFC^{\oplus } \vdash ZFC^{*}
 $$
 Let $M$ be a [[Transitive Model]] of $ZFC$.
-$\mathrm{Cons}$ is absolute so 
+$\mathrm{Cons}$ is [[Absolute]] so
 $$
 M\models \mathrm{Cons}(ZFC)
 $$
@@ -39,3 +39,11 @@ $$
 (because it has a model, namely $M$)
 Now $M$ is a [[Transitive Model]] of $ZFC^{*}$.
 We continue by induction.
+### Remark
+We have proved that $ZFC^{\oplus}$ is much stronger than $ZFC^{*}$.
+However, given a [[Model]] of $ZFC$,
+we can construct an inner model [[Constructible Model of Set Theory]] 
+$$
+L\models ZFC
+$$
+where $L$ is a [[Transitive Model]] (as seen by the outer model).

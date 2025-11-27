@@ -1,10 +1,10 @@
-Let $S$ be a [[Consistent]] [[Theory]] in a first-order language $L=L\left( \Omega,\prod \right)$
+Let $S$ be a [[Consistent]] [[Theory]] in a first-order [[Language]] $L=L\left( \Omega,\Pi \right)$
 Then $S$ has a model.
 
 #### Idea
 We build a model from the language itself 
 To begin with, we let $A$ be the set of closed terms of $L$, i.e. terms with no variables
-We turn this into a [[Foundations/First Order Logic/Structure]] in the obvious way
+We turn this into a [[Foundations/First Order Logic/Structure|Structure]] in the obvious way
 
 $A$ is still not a model (e.g. $1+0$ and $1$ are not equal in $A$)
 Define equivalence relation $\sim$ on $A$ by 
@@ -16,8 +16,11 @@ Two issues remain
 Firstly, in general, $T$ is not complete (i.e. there are sentences $p$ where neither $T\vdash p$ nor $T\vdash \neg p$)
 Remedy: Given consistent theory $S$ there is a consistent, complete $\bar{S}\supseteq S$
 
-Secondly, we are missing some elements that are guaranteed by $(\exists x)p$ where $p$ is for example $x\cdot x=1+1$
-Remedy: We add a witness, i.e. a new constant $c$ to $L$ (the new language is $L'=L\left( \Omega \cup \{ c \},\prod \right)$) and a new sentence to $T$ to obtain $T'=T\cup \{ p[c /x] \}$
+Secondly, we are missing some elements that are guaranteed by $(\exists x)\,p$ 
+where $p$ is for example $x\cdot x=1+1$
+Remedy: We add a witness, i.e. a new constant $c$ to $L$ 
+(the new language is $L'=L\left( \Omega \cup \{ c \},\Pi \right)$) 
+and a new sentence to $T$ to obtain $T'=T\cup \{ p[c /x] \}$
 
 #### Proof (NONEXAMINABLE)
 We start with two observations
@@ -33,7 +36,7 @@ We start with two observations
    Since $c$ does not appear in $S$ it follows that $S\vdash \neg p$
    Then $S\vdash(\forall x)\neg p$ by (Gen). 
    But $S\vdash \neg(\forall x)\neg p$
-   We do this for every theorem of $S$ of the form $(\exists x)p$ to obtain a new language $\bar{L}=L\left( \Omega \cup C,\prod \right)$ where $C$ is a set of new constants (disjoint from $\Omega$, $\prod$) and a new theory $\bar{S}$ s.t. $\bar{S}\supseteq S$, $\bar{S}$ is consistent and $\bar{S}$ has witnesses for $S$ 
+   We do this for every theorem of $S$ of the form $(\exists x)p$ to obtain a new language $\bar{L}=L\left( \Omega \cup C,\Pi \right)$ where $C$ is a set of new constants (disjoint from $\Omega$, $\Pi$) and a new theory $\bar{S}$ s.t. $\bar{S}\supseteq S$, $\bar{S}$ is consistent and $\bar{S}$ has witnesses for $S$ 
 We now start with a consistent theory $S_{0}=S$ in $L_{0}=L\left( \Omega,\prod \right)$ and by induction construct theories $S_{0}\subseteq S_{1}\subseteq T_{1}\subseteq S_{2}\subseteq T_{2}\subseteq\dots$
 and new languages $L_{n}=L\left( \Omega \cup C_{1}\cup\dots \cup C_{n},\prod \right)$ where $C_{1},C_{2},\dots$ are pairwise disjoint sets of constants (also disjoint from $\Omega$, $\Pi$)
 s.t. for all $n$, $S_{n}$ is complete, consistent theory in $L_{n-1}$ 
@@ -60,4 +63,4 @@ If $s$ is a closed term, then $s_A=[s]$
 Similarly, for any formula $p$ with $FV(p)\subseteq \{ x_{1},\dots,x_{n} \}$
 $p_{A}([t_{1}],\dots,[t_{n}])=1$ iff $S\vdash p[t_{1} /x_{1},\dots,t_{n} /x_{n}]$
 In particular, if $p \in S$ then $S\vdash p$ so $p_{A}=1$
-Thus $A$ is a model of $S$ 
+Thus $A$ is a model of $S$.
