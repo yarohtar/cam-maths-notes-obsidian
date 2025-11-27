@@ -41,9 +41,12 @@ Now $M$ is a [[Transitive Model]] of $ZFC^{*}$.
 We continue by induction.
 ### Remark
 We have proved that $ZFC^{\oplus}$ is much stronger than $ZFC^{*}$.
-However, given a [[Model]] of $ZFC$,
-we can construct an inner model [[Constructible Model of Set Theory]] 
+However, given a [[Model]] $M$ of $ZFC$,
+we can construct an inner model (e.g. [[Constructible Model of Set Theory]])
 $$
-L\models ZFC
+L^{M}\models ZFC
 $$
-where $L$ is a [[Transitive Model]] (as seen by the outer model).
+where $L^{M}$ is a [[Foundations/Set Theory/Transitive|Transitive]] set in $M$.
+However, $M$ doesn't know that $L^{M}\models ZFC$.
+In particular, $M$ can't define "$L^{M}\models \varphi$" for arbitrary formula $\varphi$.
+This is due to [[Absoluteness of Truth in a Model]]

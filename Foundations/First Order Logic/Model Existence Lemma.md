@@ -1,6 +1,5 @@
 Let $S$ be a [[Consistent]] [[Theory]] in a first-order [[Language]] $L=L\left( \Omega,\Pi \right)$
-Then $S$ has a model.
-
+Then $S$ has a [[Model]].
 #### Idea
 We build a model from the language itself 
 To begin with, we let $A$ be the set of closed terms of $L$, i.e. terms with no variables
