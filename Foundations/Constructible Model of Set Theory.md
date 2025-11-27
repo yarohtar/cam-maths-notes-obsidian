@@ -6,18 +6,31 @@ $$
 Firstly, a note on what's actually happening.
 As $L$ is the [[Constructible Hierarchy]] in the universe $V$,
 it will be impossible for $V$ to encode "$L\models ZF$", let alone prove it.
-That is due to [[Tarski's Undefinability Theorem]].
+To see this, suppose there is a formula $\mathrm{True}_{L}$ such that 
+$$
+V\models \mathrm{True}_{L}(\phi) \iff L\models \phi
+$$
+for all formulas $\phi$.
+Given such a formula, we can easily find its encoding in $V$.
+But $L$ is [[Transitive Model|Transitive]] in $V$ so formula encodings are [[Absolute]] between $L$ and $V$.
+In particular, $L$ encodes all the same formulas as $V$ and so 
+$$
+L\models \mathrm{True}_{L}(\phi) \iff L\models \phi
+$$
+That is impossible due to [[Tarski's Undefinability Theorem]] applied to $L$.
 This is why our proof of $L\models ZF$ is executed in the meta-universe.
 
 It is possible to take a different approach.
 Namely suppose $ZF$ is [[Consistent]].
 Then let $M$ be a [[Model]] of $ZF$ with $M\in V$ (i.e. $M$ is a set)
 Now let $L^{M}$ be the [[Constructible Hierarchy]] in $M$.
-Then $V$ proves that 
+Then $V$ (acting as a meta-universe) proves that 
 $$
 L^{M} \models ZF
 $$
 but $M$ cannot prove this.
+
+We now examine the [[Axioms of ZF]] individually.
 #### Structural axioms
 Any [[Transitive Model]] satisfies [[Axiom of Extensionality]] and [[Axiom of Foundation]].
 Also $x=\omega$ is [[Absolute]], and $\omega$ satisfies [[Axiom of Infinity]],
@@ -71,12 +84,12 @@ then $p=D(\phi,x,L_{\vartheta})$ and thus $p \in L_{\vartheta+1}\subseteq L$.
 
 ##### Separation
 [[Axiom of Separation]]
-We need the set
+For any formula $\phi$, we need the set
 $$
 \{ z\in x: L\models \phi(z,p) \}
 $$
 where $p$ are parameters.
-Take formula 
+Take the formula 
 $$
 \psi(z,x,p) = z\in x\land \phi(z,p)
 $$
@@ -94,5 +107,5 @@ $$
 D(\psi,(x,p),L_{\alpha}) = \{ z\in x:L\models \phi(z,p) \}
 $$
 and so separation holds.
-
+##### Replacement
 [[Axiom of Replacement]] is on Example Sheet 2.

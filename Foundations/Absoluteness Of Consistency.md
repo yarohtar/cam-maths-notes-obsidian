@@ -47,9 +47,14 @@ We can construct an inner model (e.g. [[Constructible Model of Set Theory]])
 $$
 L^{M}\models ZFC
 $$
-where $L^{M}$ is a [[Foundations/Set Theory/Transitive|Transitive]] set in $M$.
-However, $M$ cannot replicate this proof.
-In particular $M$ cannot define what is [[True]] in $L^{M}$.
+where $L^{M}$ is a [[Foundations/Set Theory/Transitive|Transitive]] [[Class]] in $M$.
+However, $M$ doesn't see $L^{M}$ as a set.
+Thus $M$ doesn't entail $\mathrm{Cons}(ZFC)$ (at least not as witnessed by $L^{M}$)
+and certainly $M$ doesn't entail $ZFC^{\oplus}$.
+
+In fact, $V$ 
+
+
 
 The problem arises if $M$ is not a [[Transitive Model]] (which is allowed)
 Then formula encodings in $M$ may not match those in $V$.
