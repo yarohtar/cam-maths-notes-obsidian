@@ -1,4 +1,4 @@
-Let $M$ be a [[Transitive Model]] of some $T\subseteq ZFC$.
+Let $M$ be a [[Transitive Model]].
 Let $(\mathbb{P},\leq,\mathbb{1})$ be a [[Forcing Partial Order]]
 and denote by $M[G]$ the [[Model Extension]] of $M$ by some $G\subseteq \mathbb{P}$.
 Furthermore, let $\mathcal{L}_{\mathbb{P},M}$ be the [[Forcing Language]] with the [[Forcing Sentence]]s $\mathrm{Se nt}_{\mathbb{P},M}$.

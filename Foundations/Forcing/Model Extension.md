@@ -1,4 +1,4 @@
-Let $M$ be a [[Transitive Model]] of $ZFC$.
+Let $M$ be a [[Transitive Model]].
 Let $(\mathbb{P},\leq,\mathbb{1})$ be a [[Forcing Partial Order]].
 Let $F\subseteq \mathbb{P}$.
 Then the model extension of $M$ by $F$ is 
