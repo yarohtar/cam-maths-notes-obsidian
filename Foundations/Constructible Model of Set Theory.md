@@ -1,8 +1,11 @@
 The [[Constructible Hierarchy]] $L$ satisfies:
 $$
-L\models ZF(C)
+L\models ZF
 $$
 ### Proof
+Firstly, a note on what's actually happening.
+As $L$ is the [[Constructible Hierarchy]] in the universe $V$,
+it will be impossible for $V$ to prove that $L\models ZF$.
 #### Structural axioms
 Any [[Transitive Model]] satisfies [[Axiom of Extensionality]] and [[Axiom of Foundation]].
 Also $x=\omega$ is [[Absolute]], and $\omega$ satisfies [[Axiom of Infinity]],
@@ -71,8 +74,7 @@ D(\psi,(x,p),L_{\alpha})  & = \{ z\in L_{\alpha} : L_{\alpha}\models z\in x \lan
 \end{align}
 $$
 This only works if $\phi$ is [[Absolute]] between $L_{\alpha}$ and $L$.
-Apply [[Lévy Reflection Theorem]] to find $\alpha$ 
-such that $\phi$ is [[Absolute]] between $L_{\alpha}$ and $L$.
+Apply [[Lévy Reflection Theorem]] to find such $\alpha$.
 Thus
 $$
 D(\psi,(x,p),L_{\alpha}) = \{ z\in x:L\models \phi(z,p) \}

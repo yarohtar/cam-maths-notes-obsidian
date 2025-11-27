@@ -3,16 +3,22 @@ $$
 \mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC)
 $$
 ### Proof
-Suppose $ZF$ is consistent, i.e. there's a [[Model]] $M$.
+Suppose $ZF$ is consistent, i.e. there's a [[Model]] $M$
+(where $M$ is a set in our universe $V$ of $ZF$)
 Let $L$ be the [[Constructible Hierarchy]] in $M$.
 which is a [[Constructible Model of Set Theory]].
-We know that 
+Now $V$ can prove that
 $$
 L\models ZF
 $$
+(thought $M$ cannot prove this alone).
+
 We can provide a [[Well-Ordered|Well-Order]] of $L$:
-Fix some some $<_{\omega}$ on $L_{\omega}$ of [[Order Type]] $\omega$.
-Assume that $<_{\alpha}$ is a [[Well-Ordered]] of $L_{\alpha}$, 
+Let $\omega$ be what $M$ thinks that $\omega$ is.
+Note that $\omega$ is [[Absolute]] between $L$ and $M$,
+but might not be the same as in $V$.
+Fix some some $<_{\omega}$ on $L_{\omega}$ of [[Order Type]] $\omega$ 
+Assume that $<_{\alpha}$ is a [[Well-Ordered|Well-Order]] of $L_{\alpha}$, 
 and let $\mathrm{Fml}$ be the set of formulas encoded in $\omega$.
 Define lexicographically a [[Well-Ordered|Well-Order]] of 
 $$
@@ -35,11 +41,12 @@ $$
 <\; = \bigcup_{\alpha \in \mathrm{Or d}} <_{\alpha}
 $$
 is a [[Well-Ordered|well-order]] of $L$.
-This was a recursive definition so it is [[Absolute]] and
+This was a recursive definition so it is [[Absolute]]
+and again $V$ can witness that
 $$
 L\models\ < \text{ is a wellorder of } L
 $$
-Thus $L$ is a [[Model]] of $ZFC$ so 
+Thus $L$ is a [[Model]] of $ZFC$, as witnessed by $V$, and $L\in V$, so:
 $$
 \mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC)
 $$
