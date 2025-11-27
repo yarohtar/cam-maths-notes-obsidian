@@ -4,6 +4,10 @@ $$
 $$
 We abbreviate this as $V=L$, where $V$ is the [[Von Neumann Hierarchy]]
 (though this is misleading).
+Note that 
+$$
+L\models V=L
+$$
 ### Proposition
 Let $T$ be [[Sufficiently Strong]]
 Let $X$ be a [[Transitive Model]] such that $X\models T\land (V=L)$.

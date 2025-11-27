@@ -4,18 +4,17 @@ aliases:
 ---
 Suppose $(M,E)$ and $(N,E)$ are $\mathcal{L}$-[[Foundations/First Order Logic/Structure|Structure]]s,
 where $\mathcal{L}$ is the [[Language]] of set theory i.e. $\mathcal{L}=\{ \in \}$
-and $M\subseteq N$
+and $M\subseteq N$ (i.e. $M$ is a [[Substructure]] of $N$)
 We say that $M$ is transitive in $N$ if 
 for any $x,y\in N$ such that
 - $y\in M$
-- $xEy$ (in $N$)
+- $N\models xEy$ 
 implies that $x\in M$
-
 ### Lemma
 If $N$ is a set theoretic universe i.e. $N\models ZFC$
 then $M$ is transitive in $N$ 
 if and only if
-$M$ is a [[Foundations/Set Theory/Transitive|Transitive]] set.
+$M$ is a [[Foundations/Set Theory/Transitive|Transitive]] set (as seen by $N$)
 ### Lemma
 Let $N$ be the set theoretic universe.
 If $M$ is transitive in $N$ then $(M,\in)\models$ [[Axiom of Extensionality]] + [[Axiom of Foundation]]

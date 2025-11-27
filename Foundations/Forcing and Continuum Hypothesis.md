@@ -21,7 +21,6 @@
 [[Consistency of Choice]]
 [[Technique of Inner Models]]
 [[Technique of Outer Models]]
-[[Forcing Partial Order]]
 
 
 

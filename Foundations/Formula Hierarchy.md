@@ -1,7 +1,7 @@
-Let $\mathcal{L}$ be a [[Language]].
+Let $\mathcal{L}_{\in}=\{ \in \}$ be the [[Language]] of set theory.
 We define the following
 ### $\Delta_{0}$
-is the smallest class of formulae which
+The smallest class of formulae which
 - contains all atomic formulae
 - [[Closed Under Bounded Quantification]]
 - Closed under $\land$, $\lor$, $\neg$, $\implies$
@@ -19,7 +19,6 @@ $$
 for $\phi \in \Delta_{0}$
 ### $\Delta_{1}$
 A formula is $\Delta_{1}$ if it is both $\Sigma_{1}$ and $\Pi_{1}$.
-
 ### Definition
 If $T$ is any [[Theory]], and $S$ a class of formulae,
 define $S^{T}$ to be the class of formulas that are equivalent in $T$
