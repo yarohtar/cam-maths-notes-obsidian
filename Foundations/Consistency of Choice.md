@@ -3,6 +3,7 @@ $$
 \mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC)
 $$
 ### Proof
+Suppose $ZF$ is consistent, i.e. there's a [[Model]] $M$.
 Let $L$ be the [[Constructible Hierarchy]] 
 which is a [[Constructible Model of Set Theory]].
 We know that 
@@ -34,8 +35,24 @@ $$
 <\; = \bigcup_{\alpha \in \mathrm{Or d}} <_{\alpha}
 $$
 is a [[Well-Ordered|well-order]] of $L$.
-However, this was a recursive definition so its [[Absolute]] so:
+This was a recursive definition 
+so its [[Absolute]] for [[Transitive Model]]s of a [[Sufficiently Strong]] $T\subseteq ZF$.
+
+Now suppose that [[Axiom of Choice]] is not consistent with $ZF$ i.e. 
+$$
+ZF\vdash \neg AC
+$$
+Take $T\subseteq ZF$ finite such that 
+$$
+T\vdash \neg AC
+$$
+and $T$ is [[Sufficiently Strong]] to prove [[Absolute]]ness of $<$ (above).
+Working in $L$, take a [[Countable Transitive Model]] of $T$.
+But by [[Absolute]]ness of $<$, this model is [[Well-Ordered]].
+Thus $AC$ holds in it.
+But $T\vdash \neg AC$ which is a contradiction.
+
+Thus we have proved 
 $$
 \mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC)
 $$
-and in particular [[Axiom of Choice]] holds in $L$.

@@ -51,3 +51,7 @@ where $L^{M}$ is a [[Foundations/Set Theory/Transitive|Transitive]] set in $M$.
 However, $M$ cannot replicate this proof.
 In particular $M$ cannot define what is [[True]] in $L^{M}$.
 
+The problem arises if $M$ is not a [[Transitive Model]] (which is allowed)
+Then formula encodings in $M$ may not match those in $V$.
+This makes it difficult for $M$ to encode statements like $L^{M}\models \varphi$ 
+and be correct about them from the point of $V$.
