@@ -5,12 +5,25 @@ $$
 ### Proof
 Firstly, a note on what's actually happening.
 As $L$ is the [[Constructible Hierarchy]] in the universe $V$,
-it will be impossible for $V$ to prove that $L\models ZF$.
+it will be impossible for $V$ to encode "$L\models ZF$", let alone prove it.
+That is due to [[Tarski's Undefinability Theorem]].
+This is why our proof of $L\models ZF$ is executed in the meta-universe.
+
+It is possible to take a different approach.
+Namely suppose $ZF$ is [[Consistent]].
+Then let $M$ be a [[Model]] of $ZF$ with $M\in V$ (i.e. $M$ is a set)
+Now let $L^{M}$ be the [[Constructible Hierarchy]] in $M$.
+Then $V$ proves that 
+$$
+L^{M} \models ZF
+$$
+but $M$ cannot prove this.
 #### Structural axioms
 Any [[Transitive Model]] satisfies [[Axiom of Extensionality]] and [[Axiom of Foundation]].
 Also $x=\omega$ is [[Absolute]], and $\omega$ satisfies [[Axiom of Infinity]],
 we also get $L_{\alpha}\models$[[Axiom of Infinity]] for all $\alpha>\omega$.
 #### Functional Axioms
+##### Pair and Union
 The operations $x,y\to \{ x,y \}$ and $x\to \bigcup x$ are [[Absolute Operation]]s
 for a [[Sufficiently Strong]] $T$.
 So we only need to prove
@@ -34,9 +47,9 @@ D(\phi,(x,y),L_{\alpha})  & = \{ z\in L_{\alpha} : L_{\alpha}\models \phi(z,x,y)
 \end{align}
 $$
 The union is exactly the same.
-Now we consider the [[Powerset Axiom]]
-This is more complicated, because it is not [[Absolute]]. 
-(But if it was absolute, it would be hopeless to find a powerset in a countable model)
+##### Powerset
+This is more complicated, because [[Powerset Axiom]] is not [[Absolute]]. 
+(But if it was [[Absolute]], it would be hopeless to find a powerset in a countable model)
 Note that $z\subseteq x$ is [[Absolute]].
 Thus if $p$ is a powerset of $x$ then $p\subseteq \mathcal{P}x$.
 Also clearly $p\subseteq L$ as $L$ is [[Foundations/Set Theory/Transitive|Transitive]].
@@ -56,7 +69,8 @@ $$
 $$
 then $p=D(\phi,x,L_{\vartheta})$ and thus $p \in L_{\vartheta+1}\subseteq L$.
 
-Now consider [[Axiom of Separation]].
+##### Separation
+[[Axiom of Separation]]
 We need the set
 $$
 \{ z\in x: L\models \phi(z,p) \}
