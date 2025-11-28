@@ -16,9 +16,7 @@ So we only need to prove
 $$
 (\forall x,y\in L) \left( \{ x,y \}\in L \land \bigcup x\in L \right)
 $$
-Find $\{ x,y \}$ in $L$.
-Assume $x,y\in L$.
-Take some $\alpha$ such that $x,y\in L_{\alpha}$.
+Assuming $x,y\in L$, take some $\alpha$ such that $x,y\in L_{\alpha}$.
 Consider:
 $$
 \phi(z,x,y) = (z=x)\lor(z=y)
@@ -32,7 +30,7 @@ D(\phi,(x,y),L_{\alpha})  & = \{ z\in L_{\alpha} : L_{\alpha}\models \phi(z,x,y)
  & = \{ x,y \}
 \end{align}
 $$
-The union is exactly the same.
+The union is essentially the same.
 ##### Powerset
 This is more complicated, because [[Powerset Axiom]] is not [[Absolute]]. 
 (But if it was [[Absolute]], it would be hopeless to find a powerset in a countable model)
