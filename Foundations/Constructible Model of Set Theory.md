@@ -71,7 +71,7 @@ D(\psi,(x,p),L_{\alpha})  & = \{ z\in L_{\alpha} : L_{\alpha}\models z\in x \lan
  & =\{ z\in x: L_{\alpha}\models \phi(z,p) \}
 \end{align}
 $$
-This only works if $\phi$ is [[Absolute]] between $L_{\alpha}$ and $L$.
+This only works if $x\in L_{\alpha}$ and $\phi$ is [[Absolute]] between $L_{\alpha}$ and $L$.
 Apply [[Lévy Reflection Theorem]] to find such $\alpha$.
 Thus
 $$
