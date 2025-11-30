@@ -19,11 +19,11 @@ $$
 $$
 An easy $\omega$-induction shows that two attempts agree on their common domain
 $$
-(\forall f)(\forall g)(\forall n)((f \text{ is an attempt}\land g\text{ is an attempt}\land (n\in dom\ f)\land(n\in dom\ g))\implies f(n)=g(n))
+(\forall f)(\forall g)(\forall n)((f \text{ is an attempt}\land g\text{ is an attempt}\land (n\in \operatorname{dom}f)\land(n\in \operatorname{dom}g))\implies f(n)=g(n))
 $$
 Another $\omega$-induction shows that every $n\in \omega$ is in the domain of same attempt
 $$
-(\forall n\in \omega)(\exists f)(f\text{ is an attempt}\land(n\in dom\ f))
+(\forall n\in \omega)(\exists f)(f\text{ is an attempt}\land(n\in \operatorname{dom}f))
 $$
 
 TODO finish proof

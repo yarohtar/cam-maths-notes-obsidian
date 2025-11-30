@@ -18,15 +18,17 @@ $$
 (M,E) \models T
 $$
 ### Lemma
-If $N$ is a set theoretic universe i.e. $N\models ZFC$
-then $M$ is transitive in $N$ 
-if and only if
-$M$ is a [[Foundations/Set Theory/Transitive|Transitive]] set in $N$ i.e. 
+Let $(N,E)$ be a [[Model]] of $ZFC$.
+Let $(M,E)$ be a [[Substructure]] of $(N,E)$.
+Then $(M,E)$ is a transitive substructure of $(N,E)$
+if and only if 
 $$
-M\in N \land N\models (\forall x\in M)\,(\forall y\in x)\,y\in M
+N \models (\forall x\in M)\, (\forall y\in x)\, y\in M
 $$
 #### Proof
 ##### $\implies$
+Let $x\in M$.
+
 
 ### Lemma
 Let $N$ be the set theoretic universe.
