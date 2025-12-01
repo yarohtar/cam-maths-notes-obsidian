@@ -21,42 +21,33 @@ M[G] \models 2^{\aleph_{0}} \geq \lvert \omega_{2}^{M} \rvert
 $$
 We are not done yet!
 We need $\omega_{2}^{M}=\omega_{2}^{M[G]}$ (which needs $\omega_{1}^{M}=\omega_{1}^{M[G]}$).
+By the lemma below, $\mathbb{P}$ has [[Chain Condition|c.c.c.]]
+Also, [[Chain Condition]] forcing preserves [[Regular Cardinal]]s.
+Thus we are done (as both $\omega_{1}$ and $\omega_{2}$ are successors, thus [[Regular Cardinal|Regular]])
+### Remark
+Same proof works for any $\mathbb{P}=\mathrm{Fn}(\omega_{n}^{M}\times \omega,2)$
+i.e. we can make the continuum as large as we like.
+Note that we have not yet proven that 
+$$
+2^{\aleph_{0}}=\lvert \omega_{2} \rvert 
+$$
+is consistent, but merely that $2^{\aleph_{0}}>\lvert \omega_{1} \rvert$ is consistent.
 ### Lemma
 For any $X$, $\mathbb{P}=\mathrm{Fn}(X,2)$ has the [[Chain Condition|c.c.c.]]
 #### Proof
 Suppose $A\subseteq \mathbb{P}$ is uncountable.
-
-### Lemma
-Given $M[G]$, there is no surjection:
+Fix $a\in A$ and consider 
 $$
-f:\mathbb{N}\to \omega_{1}^{M}
+\begin{gather}
+d_{a}=\mathrm{dom}(a) \subseteq X \\
+S=\{ d_{a}:a\in A \}
+\end{gather}
 $$
-#### Proof
-Suppose there was. 
-Clearly, $f\in M[G]\setminus M$.
-Let $\tau$ be a [[Name]] for $f$: 
+This is an uncountable set of finite sets, 
+so by [[Delta System Lemma]] find $D\subseteq S$ an uncountable [[Delta System]] with root $r$.
+By pigeonhole, find $a\neq b$ in $A$ such that 
 $$
-M[G]\models \underbrace{\mathrm{val}(\tau,G) \text{ is a surjection } \mathbb{N}\to \omega_{1}^{M}}_{\varphi}
+a|_{r} = b|_{r}
 $$
-By [[The Forcing Theorem]] find $p\in G$ such that $p\Vdash\varphi$.
-For each $\alpha<\omega_{1}^{M}$ there is $n$ such that 
-$$
-M[G] \models f(n) =\alpha
-$$
-so there is some $q_{\alpha}\leq p$ such that 
-$$
-q_{\alpha} \Vdash \tau(\check{n}) = \check{\alpha}
-$$
-Fix $n\in \mathbb{N}$ and consider 
-$$
-F_{n} = \{ \alpha<\omega_{1}^{M} : (\exists q\leq p)\, q\Vdash \tau(\check{n})=\check{\alpha} \}
-$$
-Note that if $q\Vdash\tau(\check{n})=\check{\alpha}$ and $q\Vdash\tau(\check{n})=\check{\beta}$ then $\alpha=\beta$
-Also $F_{n}\in M$ so 
-$$
-M\models \lvert F_{n} \rvert \leq \lvert \mathbb{P} \rvert 
-$$
-We conclude 
-$$
-\mathrm{ran}(f) \subseteq \bigcup_{n\in \mathbb{N}} F_{n}
-$$
+But now $d_{a}\cap d_{b}=r$ so $a$ and $b$ are compatible.
+Thus $A$ is not an [[Antichain]], so $\mathbb{P}$ has [[Chain Condition|c.c.c.]]

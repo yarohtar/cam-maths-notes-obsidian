@@ -16,7 +16,8 @@
 [[Model Extension by Finite Function Forcing]]
 [[Collapsing Cardinals]]
 [[Independence of the Axiom of Constructability]]
-[[Independence of the Continuum Hypothesis]]
 [[Chain Condition]]
 [[Delta System]]
 [[Delta System Lemma]]
+[[Independence of the Continuum Hypothesis]]
+
