@@ -19,16 +19,21 @@ $$
 $$
 ### Lemma
 Let $(N,E)$ be a [[Model]] of $ZFC$.
-Let $(M,E)$ be a [[Substructure]] of $(N,E)$.
-Then $(M,E)$ is a transitive substructure of $(N,E)$
-if and only if 
+Suppose that $M\in N$ is $E$-[[Foundations/Set Theory/Transitive|Transitive]] i.e. 
 $$
-N \models (\forall x\in M)\, (\forall y\in x)\, y\in M
+(\forall x,y\in N)\, E(y,M) \land E(x,y) \implies E(x,M)
 $$
+Then $(M,E)$ is a transitive substructure of $N$.
 #### Proof
-##### $\implies$
-Let $x\in M$.
-
+Suppose $y\in M$ and $E(x,y)$.
+From $E(x,y)$ we conclude $y\in N$.
+By [[Axiom of Separation]] in $N$, we can form the set 
+$$
+M'=\{ z : E(z,M) \}
+$$
+By [[Axiom of Extensionality]] in $N$, $M'=M$.
+As $y\in M$, it has to be $E(y,M)$.
+As $M$ is $E$-[[Foundations/Set Theory/Transitive|Transitive]], we conclude $E(x,M)$
 
 ### Lemma
 Let $N$ be the set theoretic universe.
