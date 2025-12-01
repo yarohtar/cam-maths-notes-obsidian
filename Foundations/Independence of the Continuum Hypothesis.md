@@ -22,6 +22,11 @@ $$
 We are not done yet!
 We need $\omega_{2}^{M}=\omega_{2}^{M[G]}$ (which needs $\omega_{1}^{M}=\omega_{1}^{M[G]}$).
 ### Lemma
+For any $X$, $\mathbb{P}=\mathrm{Fn}(X,2)$ has the [[Chain Condition|c.c.c.]]
+#### Proof
+Suppose $A\subseteq \mathbb{P}$ is uncountable.
+
+### Lemma
 Given $M[G]$, there is no surjection:
 $$
 f:\mathbb{N}\to \omega_{1}^{M}

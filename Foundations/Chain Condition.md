@@ -35,5 +35,41 @@ F(a) =\{ b\in B:(\exists q\leq p)\, q\Vdash\tau(\check{a})=\check{b} \}
 $$
 Clearly $f(a)\in F(a)$ by the [[Forcing Relation]].
 Clearly $F\in M$.
-
-
+For each $b\in F(a)$, consider 
+$$
+\{ q\leq p : q\Vdash\tau(\check{a})=\check{b} \} \neq \varnothing
+$$
+Using [[Axiom of Choice]] in $M$, pick $q_{b}\leq p$ with $q_{b}\Vdash\tau(\check{a})=\check{b}$
+Finally, write 
+$$
+Q_{b}=\{ q_{b}: b\in F(a) \} \in M
+$$
+We can check that $Q_{a}$ is an [[Antichain]].
+But because $M\models \mathbb{P}\text{ has }\kappa\text{-c.c.}$ we conclude 
+$$
+M\models \lvert Q_{a} \rvert <\kappa
+$$
+But the function $b\to q_{b}$ is an injection from $F(a)$ to $Q_{a}$ thus 
+$$
+M\models \lvert F(a) \rvert <\kappa
+$$
+## Corollary
+If $\kappa$ is a [[Regular Cardinal]] in $M$ and 
+$$
+M\models \mathbb{P}\text{ has }\kappa\text{-c.c.}
+$$
+then the [[Model Extension]] $M[G]$ has:
+$$
+M[G] \models \kappa\text{ is a cardinal}
+$$
+### Proof
+Suppose not, so find $\lambda<\kappa$ with $f:\lambda \to \kappa$ surjective.
+By above theorem, find $F:\lambda \to \mathcal{P}(\kappa)$ with $F\in M$ and 
+$$
+M\models(\forall \alpha<\lambda)\, \lvert F(\alpha) \rvert <\kappa \land f(\alpha)\in F(\alpha)
+$$
+We conclude 
+$$
+\mathrm{ran}(f) \subseteq \bigcup_{\alpha<\lambda} F(\alpha)
+$$
+This contradicts that $\kappa$ is [[Regular Cardinal]]
