@@ -12,39 +12,25 @@ y\in M\land xEy \implies x\in M
 $$
 
 We will often say $M$ is a transitive model of $T\subseteq ZFC$.
-This means that $(N,E)$ is some fixed [[Model]] of $ZFC$,
-and $(M,E)$ is a transitive substructure of $(N,E)$ and:
+This means that $M$ is a transitive substructure of $V$ such that 
 $$
-(M,E) \models T
+M\models T
 $$
+where $V$ is the set theoretic universe.
+### Special case
+$M$ is a transitive substructure of $V$
+if and only if
+$M$ is [[Foundations/Set Theory/Transitive|Transitive]].
 ### Lemma
-Let $(N,E)$ be a [[Model]] of $ZFC$.
-Suppose that $M\in N$ is $E$-[[Foundations/Set Theory/Transitive|Transitive]] i.e. 
-$$
-(\forall x,y\in N)\, E(y,M) \land E(x,y) \implies E(x,M)
-$$
-Then $(M,E)$ is a transitive substructure of $N$.
-#### Proof
-Suppose $y\in M$ and $E(x,y)$.
-From $E(x,y)$ we conclude $y\in N$.
-By [[Axiom of Separation]] in $N$, we can form the set 
-$$
-M'=\{ z : E(z,M) \}
-$$
-By [[Axiom of Extensionality]] in $N$, $M'=M$.
-As $y\in M$, it has to be $E(y,M)$.
-As $M$ is $E$-[[Foundations/Set Theory/Transitive|Transitive]], we conclude $E(x,M)$
-
-### Lemma
-Let $N$ be the set theoretic universe.
-If $M$ is transitive in $N$ then $(M,\in)\models$ [[Axiom of Extensionality]] + [[Axiom of Foundation]]
+If $M$ is a transitive model, then $(M,\in)\models$ [[Axiom of Extensionality]] + [[Axiom of Foundation]]
 #### Proof
 ##### Extensionality
+[[Axiom of Extensionality]]
 $$
 \forall x\,\forall y\,(\forall w\,(w\in x \iff w\in y)\implies x=y)
 $$
 Let $x,y\in M$ such that $x\neq y$
-By [[Axiom of Extensionality]] (in $N$) there is (WLOG) some $z\in x\setminus y$ 
+By [[Axiom of Extensionality]] there is (WLOG) some $z\in x\setminus y$ 
 Now by [[Foundations/Set Theory/Transitive|Transitivity]] of $M$ we know $z\in x$ and $x\in M$ so $z\in M$
 Thus
 $$
