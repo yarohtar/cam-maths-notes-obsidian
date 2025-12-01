@@ -42,7 +42,6 @@ We continue by induction.
 ### Remark
 We have proved that $ZFC^{\oplus}$ is much stronger than $ZFC^{*}$.
 However, assuming $\mathrm{Cons}(ZFC)$, take a [[Model]] $M$ of $ZFC$
-(that is a set in our universe $V$)
 We can construct an inner model (e.g. [[Constructible Model of Set Theory]])
 $$
 L^{M}\models ZFC
@@ -52,6 +51,3 @@ This might seem like an issue, as we might think that $M\models ZFC^{\oplus}$.
 However, $M$ doesn't see $L^{M}$ as a set.
 Thus $M$ doesn't entail $\mathrm{Cons}(ZFC)$ (at least not as witnessed by $L^{M}$)
 and certainly $M$ doesn't entail $ZFC^{\oplus}$.
-
-Furthermore, $V$ will see $L^{M}$ as a set, but it might not see it as [[Foundations/Set Theory/Transitive|Transitive]].
-So $L^{M}$ is a [[Model]] of $ZFC$, but it is not a [[Transitive Model]] in $V$.

@@ -3,16 +3,17 @@ $$
 \mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC)
 $$
 ### Proof
-Suppose $ZF$ is consistent, i.e. there's a [[Model]] $M$
-(where $M$ is a set in our universe $V$ of $ZF$)
+Suppose $ZF$ is consistent.
+By [[Gödel's Completeness Theorem for First-Order Logic]] take 
+$$
+M\models ZF
+$$
+(in the meta-theory).
 Let $L$ be the [[Constructible Hierarchy]] in $M$.
-which is a [[Constructible Model of Set Theory]].
-Now $V$ can prove that
+As $L$ is the [[Constructible Model of Set Theory]] we have 
 $$
 L\models ZF
 $$
-(thought $M$ cannot prove this alone).
-
 We can provide a [[Well-Ordered|Well-Order]] of $L$:
 Let $\omega$ be what $M$ thinks that $\omega$ is.
 Note that $\omega$ is [[Absolute]] between $L$ and $M$,
@@ -40,13 +41,17 @@ Thus
 $$
 <\; = \bigcup_{\alpha \in \mathrm{Or d}} <_{\alpha}
 $$
-is a [[Well-Ordered|well-order]] of $L$.
-This was a recursive definition so it is [[Absolute]]
-and again $V$ can witness that
+is a [[Well-Ordered|well-order]] of $L$ (as seen by $M$)
+This was a recursive definition so it is [[Absolute]].
+As $L$ is a [[Transitive Model]] in $M$:
 $$
-L\models\ < \text{ is a wellorder of } L
+L\models\ <\text{ is a wellorder of }L
 $$
-Thus $L$ is a [[Model]] of $ZFC$, as witnessed by $V$, and $L\in V$, so:
+and thus 
+$$
+L\models AOC
+$$
+As $L$ is a set in the meta-theory, we proved:
 $$
 \mathrm{Cons}(ZF) \implies \mathrm{Cons}(ZFC)
 $$

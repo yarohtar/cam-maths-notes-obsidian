@@ -2,6 +2,17 @@ The [[Constructible Hierarchy]] $L$ satisfies:
 $$
 L\models ZF
 $$
+More precisely, we prove for arbitrary $\varphi \in ZF$: 
+$$
+V\models \text{``}L\models \varphi\,\text{"}
+$$
+where $V$ is the set theoretic universe $V\models ZF$.
+The relation $\text{``}L\models \varphi\,\text{''}$ can be encoded in $V$ for any $\varphi \in ZF$ such that:
+$$
+V\models \text{``}L\models \varphi\,\text{"} \iff L\models \varphi
+$$
+in the meta-theory (even when $V$ is a non-standard model).
+Thus we usually don't concern ourselves with these issues.
 ### Proof
 We examine the [[Axioms of ZF]] individually.
 #### Structural axioms
