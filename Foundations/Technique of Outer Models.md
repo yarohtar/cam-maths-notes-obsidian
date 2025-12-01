@@ -16,4 +16,3 @@
 [[Model Extension by Finite Function Forcing]]
 [[Collapsing Cardinals]]
 [[Independence of the Axiom of Constructability]]
-[[Transitive Model]]
