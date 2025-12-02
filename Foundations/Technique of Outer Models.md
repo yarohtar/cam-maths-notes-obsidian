@@ -22,3 +22,4 @@
 [[Independence of the Continuum Hypothesis]]
 [[Maximal Antichain]]
 [[Nice Name]]
+[[Number of Nice Names]]

@@ -21,20 +21,27 @@ Thus we find
 $$
 \mathcal{R}=\{ A_{\alpha} : \alpha<\lambda \}\in M
 $$
-#### Claim
+We now prove that
 $$
 \mathrm{val}(\tau_{\mathcal{R}},G) = \mathrm{val}(\mu,G)
 $$
-##### $\subseteq$
+which will finish the proof as $\tau_{\mathcal{R}}$ is a nice name.
+#### $\subseteq$
 If $\alpha \in \mathrm{val}(\tau_{\mathcal{R}},G)$ then by definition there is $p\in G$ such that 
 $$
 (\check{\alpha},p)\in \tau_{\mathcal{R}}
 $$
 We conclude that $(\check{\alpha},p)\in A_{\alpha}$ so $p\Vdash \check{\alpha}\in \mu$.
 Thus $\alpha \in \mathrm{val}(\mu,G)$.
-##### $\supseteq$
+#### $\supseteq$
 If $\alpha \in \mathrm{val}(\mu,G)$, by [[Forcing Relation]] find $q\in G$ 
 $$
 q\Vdash \check{\alpha} \in \mu
 $$
-[[Generic Filter]]
+By the lemma in [[Dense Below]], if $G\cap A_{\alpha}=\varnothing$ 
+then $A_{\alpha}\cup \{ q \}$ is a larger antichain with $(\forall s)\,s\Vdash \check{\alpha}\in \mu$.
+Therefore, we could have WLOG taken $q\in G\cap A_{\alpha}$.
+But then $(\check{\alpha},q)\in \tau_{\mathcal{R}}$ so 
+$$
+\alpha \in \mathrm{val}(\tau_{\mathcal{R}},G)
+$$

@@ -24,14 +24,6 @@ We need $\omega_{2}^{M}=\omega_{2}^{M[G]}$ (which needs $\omega_{1}^{M}=\omega_{
 By the lemma below, $\mathbb{P}$ has [[Chain Condition|c.c.c.]]
 Also, [[Chain Condition]] forcing preserves [[Regular Cardinal]]s.
 Thus we are done (as both $\omega_{1}$ and $\omega_{2}$ are successors, thus [[Regular Cardinal|Regular]])
-### Remark
-Same proof works for any $\mathbb{P}=\mathrm{Fn}(\omega_{n}^{M}\times \omega,2)$
-i.e. we can make the continuum as large as we like.
-Note that we have not yet proven that 
-$$
-2^{\aleph_{0}}=\lvert \omega_{2} \rvert 
-$$
-is consistent, but merely that $2^{\aleph_{0}}>\lvert \omega_{1} \rvert$ is consistent.
 ### Lemma
 For any $X$, $\mathbb{P}=\mathrm{Fn}(X,2)$ has the [[Chain Condition|c.c.c.]]
 #### Proof
@@ -51,3 +43,38 @@ a|_{r} = b|_{r}
 $$
 But now $d_{a}\cap d_{b}=r$ so $a$ and $b$ are compatible.
 Thus $A$ is not an [[Antichain]], so $\mathbb{P}$ has [[Chain Condition|c.c.c.]]
+### Remark
+Same proof works for any $\mathbb{P}=\mathrm{Fn}(\omega_{n}^{M}\times \omega,2)$
+i.e. we can make the continuum as large as we like.
+Note that we have not yet proven that 
+$$
+2^{\aleph_{0}}=\lvert \omega_{2} \rvert 
+$$
+is consistent, but merely that $2^{\aleph_{0}}>\lvert \omega_{1} \rvert$ is consistent.
+### Theorem
+In the setup as above, if $M\models 2^{\aleph_{0}}\leq \aleph_{2}$ then 
+$$
+M[G] \models 2^{\aleph_{0}} = \aleph_{2}
+$$
+#### Proof
+By the [[Number of Nice Names]] we can find
+$$
+M[G] \models 2^{\aleph_{0}} \leq \aleph_{2}^{\aleph_{0}}
+$$
+By [[Hausdorff's Formula]] calculate 
+$$
+\begin{gather}
+\aleph_{0}^{\aleph_{0}}=2^{\aleph_{0}} \\
+\aleph_{1}^{\aleph_{0}}=\aleph_{1}\cdot \aleph_{0}^{\aleph_{0}}=2^{\aleph_{0}} \\
+\aleph_{2}^{\aleph_{0}}=\aleph_{2}\cdot \aleph_{1}^{\aleph_{0}}=\max(\aleph_{2},2^{\aleph_{0}})
+\end{gather}
+$$
+So there is at most $\aleph_{2}$ [[Nice Name]]s of subsets of $\aleph_{0}$.
+Thus we conclude 
+$$
+M[G]\models 2^{\aleph_{0}}\leq \aleph_{2}
+$$
+but we have already shown 
+$$
+M[G] \models 2^{\aleph_{0}} \geq \aleph_{2}
+$$
