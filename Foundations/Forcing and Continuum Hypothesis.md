@@ -1,5 +1,6 @@
 [[The Continuum Problem]]
 [[The Continuum Hypothesis]]
+[[General Continuum Hypothesis]]
 [[Cantor's Theorem]]
 [[Hartogs' Lemma]]
 [[Cardinal]]
