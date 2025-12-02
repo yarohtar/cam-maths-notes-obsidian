@@ -37,4 +37,8 @@ and force with $\mathbb{P}=\mathrm{Fn}(X,2,\aleph_{1})$
 which has the $(2^{\aleph_{0}})^{+}$-[[Chain Condition]],
 so that's $\aleph_{1}^{+}=\aleph_{2}$-[[Chain Condition]].
 Then all cardinals $\geq \aleph_{2}$ are preserved.
-[[Closed Forcing]]
+Because $\mathbb{P}$ is a $\aleph_{1}$-[[Closed Forcing]], we can see that $\mathbb{P}$ preserves $\aleph_{1}$.
+Thus 
+$$
+M[G]\models 2^{\aleph_{0}}=\aleph_{1}\land 2^{\aleph_{1}}\geq \aleph_{3}
+$$
