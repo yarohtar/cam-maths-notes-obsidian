@@ -1,12 +1,12 @@
 # Part IB
-[[Polynomial interpolation]]
-[[Orthogonal polynomials]]
-[[Approximating linear functionals]]
-[[Approximating linear functionals#Gaussian quadrature]]
+[[Polynomial Interpolation]]
+[[Orthogonal Polynomials]]
+[[Approximating Linear Functionals]]
+[[Gaussian Quadrature]]
 [[The Peano Kernel Theorem]]
-[[ODEs]]
-[[Linear stability]]
-[[Linear Algebra]]
+[[Numerical Methods for Ordinary Differential Equations]]
+[[Linear Stability]]
+[[Numerical Linear Algebra]]
 
 # Part II
 Lecture slides on link:
@@ -34,4 +34,4 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 [[Spectral Numerical Methods]]
 [[Fourier Approximation of Functions]]
 [[Chebyshev Polynomials]]
-[[Linear Algebra]]
+[[Numerical Linear Algebra]]

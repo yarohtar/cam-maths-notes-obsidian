@@ -1,4 +1,5 @@
-Suppose $L$ is a linear functional that annihilates all polynomials in $P_n[x]$ (see [[Approximating linear functionals]]).
+Suppose $L$ is a linear functional that annihilates all polynomials in $P_n[x]$ 
+(see [[Approximating Linear Functionals]]).
 Then using [[Taylor's theorem]]:
 $$f(x)=\sum_{k=0}^n f^{(k)}{(x-a)^k\over k!}+\frac 1 {n!}\int_a^x(x-\theta)^nf^{(n+1)}(\theta)d\theta$$
 Rewrite this as 
