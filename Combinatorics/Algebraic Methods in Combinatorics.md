@@ -22,4 +22,4 @@ Reading:
 [[Diagonal Principle]]
 [[Frankl-Wilson Theorem]]
 [[Medium Intersection is Hard to Avoid]]
-
+[[Combinatorial Nullstellensatz]]
