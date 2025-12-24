@@ -1,4 +1,4 @@
-This is an Obsidian Vault that I use to organize my notes on various courses during my time in Cambridge. 
+This is an Obsidian Vault that I use to organize my notes on various courses during my time in Cambridge.
 
 No content presented in here is official nor endorsed by the University (or people associated with the University) 
 and it is not an accurate representation of what was lectured or what is examined.
