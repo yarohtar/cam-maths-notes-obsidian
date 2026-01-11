@@ -4,4 +4,4 @@ Let $Y$ be a set of finite sequences such that
 Then $Y$ is called a game tree.
 ### Interpretation
 Each element of $Y$ represents a valid game state after finitely many moves. 
-The only vli
+The only valid moves are the ones that don't leave $Y$.
