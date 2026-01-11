@@ -33,7 +33,7 @@ Also useful: [[Last minute revision Part IB]]
 Some of [[Algebraic Topology]]
 [[Linear Analysis]]
 [[Numerical Analysis]]
-[[Asymptotic methods]]
+[[Asymptotic Methods]]
 [[Automata and formal languages]]
 Some of [[Principles of Quantum Mechanics]]
 [[Probability and Measure]] (mostly just measure)
