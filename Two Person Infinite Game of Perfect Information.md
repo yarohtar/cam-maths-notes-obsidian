@@ -5,4 +5,8 @@ aliases:
 Given a [[Game Tree]] $Y$, its [[Game Space]] $\mathcal{F}(Y)$ and a set $A\subseteq \mathcal{F}(Y)$,
 we define $\mathcal{G}(A,Y)$ to be the two person infinite game of perfect information.
 ### Interpretation
-Player 
+Player `I` and Player `II` play $\omega$ moves alternating 
+(`I` plays even indices, while `II` plays odd ones).
+At each stage, they can only play moves such that the finite sequence of moves played so far is in $Y$.
+After $\omega$ moves, we have a sequence $p\in \mathcal{F}(Y)$. 
+Then we say that `I` wins if $p\in A$, while `II` wins if $p\in \mathcal{F}(Y)\setminus A$.
