@@ -7,4 +7,4 @@ Y^{\text{I}} = \{ y\in Y: y\text{ has even length} \} \\
 Y^{\text{II}}=\{ y\in Y:y \text{ has odd length} \}
 \end{gather}
 $$
-A `I` game strategy is a function $s:Y^{\text{I}}\to Y^{\text{II}}$ such that $p\in Y$ 
+A `I` game strategy is a [[Function]] $s$ with domain $Y$
