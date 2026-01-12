@@ -1,7 +1,7 @@
 Let $\mathcal{G}(A,Y)$ be a [[Two Person Infinite Game of Perfect Information|Game]].
 Suppose that $A$ is closed in the [[Game Space]] $\mathcal{F}(Y)$.
 Then $\mathcal{G}(A,Y)$ is [[Determined]].
-### Proof
+### Proof 1
 Suppose `II` has no [[Winning Game Strategy]] for $\mathcal{G}=\mathcal{G}(A,Y)$.
 There is a first move $y_{0}$ such that `II` has no [[Winning Game Strategy]] for $\mathcal{G}$ starting at $(y_{0})$.
 Moreover, if `II` has no [[Winning Game Strategy]] for $\mathcal{G}$ starting at $(y_{0},\dots,y_{2n})$
@@ -25,3 +25,5 @@ But if this happened, then `II` would have a [[Winning Game Strategy]] post stag
 contradicting our construction.
 We conclude that the above strategy is a `I`-[[Winning Game Strategy]].
 Thus $\mathcal{G}$ is [[Determined]].
+### Proof 2
+Let $Z\subseteq[Y]$ 
