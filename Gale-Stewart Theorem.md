@@ -26,4 +26,3 @@ contradicting our construction.
 We conclude that the above strategy is a `I`-[[Winning Game Strategy]].
 Thus $\mathcal{G}$ is [[Determined]].
 ### Proof 2
-Let $Z\subseteq[Y]$ 
