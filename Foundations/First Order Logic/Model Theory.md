@@ -7,3 +7,5 @@
 [[Elementary Embedding]]
 [[Substructure]]
 [[Elementary Substructure]]
+[[Categorical]]
+

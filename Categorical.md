@@ -1,0 +1,1 @@
+An $\mathcal{L}$-[[Theory]] $T$ is $$
