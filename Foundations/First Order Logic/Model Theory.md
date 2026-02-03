@@ -14,3 +14,6 @@
 [[Unbounded Dense Linear Order]]
 [[Generated Substructure]]
 [[Algebraically Closed Field]]
+[[Polynomial Map]]
+[[Ax-Grothendieck Theorem]]
+
