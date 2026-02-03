@@ -16,4 +16,5 @@
 [[Algebraically Closed Field]]
 [[Polynomial Map]]
 [[Ax-Grothendieck Theorem]]
+[[Lefshetz Principle]]
 

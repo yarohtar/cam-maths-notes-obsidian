@@ -28,6 +28,19 @@ $$
 \mathrm{ACF}_{0}\not\models \psi_{n,d}
 $$
 for some $n,d\geq 1$.
-Then by [[Completens]]
+As $\mathrm{ACF}_{0}$ is a [[Complete Theory]] we have 
+$$
+\mathrm{ACF}_{0} \models \neg \psi_{n,d}
+$$
+By [[Compactness Theorem]], there is some finite $\Sigma \subseteq \mathrm{ACF}_{0}$ such that 
+$$
+\Sigma \models \neg \psi_{n,d}
+$$
+In particular, $\Sigma$ cannot encode infinite characteristic of its models,
+and thus there is a prime $p$ such that 
+$$
+\mathrm{ACF}_{p} \models \neg \psi_{n,d}
+$$
+which is a contradiction.
 
 
