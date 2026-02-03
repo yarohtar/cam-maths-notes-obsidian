@@ -1,6 +1,4 @@
-Let $\mathcal{L}$ be any [[Language]] and $M$ and $N$ are $\mathcal{L}$-[[Foundations/First Order Logic/Structure|Structure]]s.
-Then $M$ is a substructure of $N$ if:
-- $M\subseteq N$
-- $\phi_{M}=\phi_{N}\cap M^{n}$ for any $n$-ary relation symbol $\phi$ 
-- $\omega_{M}=\omega_{N}|_{M^{n}}$ for any $n$-ary operation symbol $\omega$
-
+Let $\mathcal{M}$ and $\mathcal{N}$ be $\mathcal{L}$-[[Structure]]s with $M\subseteq N$.
+Let $h:\mathcal{M}\to \mathcal{N}$ be the inclusion map.
+Suppose $h$ is an $\mathcal{L}$-[[Structure Embedding|Embedding]].
+Then $\mathcal{M}$ is a substructure of $\mathcal{N}$ written $\mathcal{M}\subseteq \mathcal{N}$
