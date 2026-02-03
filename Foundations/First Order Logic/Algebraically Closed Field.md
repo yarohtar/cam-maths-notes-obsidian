@@ -19,3 +19,4 @@ $$
 ## Theorem
 Both $\mathrm{ACF}_{0}$ and (for prime $p$) $\mathrm{ACF}_{p}$ are $\kappa$-[[Categorical]] for all $\kappa>\aleph_{0}$.
 ### Proof
+[[Transcedence Degree]]
