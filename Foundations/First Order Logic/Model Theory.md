@@ -7,7 +7,10 @@
 [[Elementary Embedding]]
 [[Substructure]]
 [[Elementary Substructure]]
+[[Structure Chain]]
+[[Elementary Structure Chain]]
 [[Categorical]]
 [[Morley's Theorem]]
 [[Unbounded Dense Linear Order]]
-
+[[Generated Substructure]]
+[[Algebraically Closed Field]]
