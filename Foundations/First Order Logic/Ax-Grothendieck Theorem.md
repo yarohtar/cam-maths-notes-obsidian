@@ -12,5 +12,22 @@ Then for any $k\geq 1$, $\Phi$ induces an injective polynomial map $\mathbb{F}_{
 which has to be surjective since $\mathbb{F}_{p^{km}}$ is finite.
 Hence 
 $$
-\Phi(K) = \Phi\left( \bigcup_{k} \mathbb{F}_{p^{km}}^{n} \right) =\bigcup_{k} \Phi(\mathbb{F}_{p^{km}}^{n}) = \bigcup_{k} \mathbb{F}_{p^{}}
+\Phi(K) = \Phi\left( \bigcup_{k} \mathbb{F}_{p^{km}}^{n} \right) =\bigcup_{k} \Phi(\mathbb{F}_{p^{km}}^{n}) = \bigcup_{k} \mathbb{F}_{p^{km}}^{n} = K
 $$
+so $\Phi$ is surjective.
+
+Now we consider $\mathrm{ACF}_{0}$.
+First, for any $n,d\geq 1$ define $\psi_{n,d}$ to be:
+> [!quot] %%%%
+> Every injective polynomial map with $n$ coordinates, 
+> each of which is a polynomial in $n$ variables and degree at most $d$,
+> is surjective
+
+Suppose that 
+$$
+\mathrm{ACF}_{0}\not\models \psi_{n,d}
+$$
+for some $n,d\geq 1$.
+Then by [[Completens]]
+
+
