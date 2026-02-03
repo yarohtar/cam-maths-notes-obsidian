@@ -7,3 +7,5 @@ Assume for contradiction that $T$ is not complete.
 Then there is a sentence $\varphi$ such that $T\cup \{ \varphi \}$ and $T\cup \{ \neg \varphi \}$ are consistent.
 Because $T$ has no finite models, 
 there are infinite models $\mathcal{M}_{1}$ and $\mathcal{M}_{2}$ of $T\cup \{ \varphi \}$ and $T\cup \{ \neg \varphi \}$ respectively.
+By [[The Löwenheim-Skolem Theorems]], these theories have models of size $\kappa$. 
+But then they are [[Elementary Equivalent Structures|Elementary Equivalent]] which is a contradiction.

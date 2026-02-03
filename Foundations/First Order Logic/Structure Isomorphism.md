@@ -1,0 +1,1 @@
+A bijective [[Structure Homomorphism]] is an isomorphism.
