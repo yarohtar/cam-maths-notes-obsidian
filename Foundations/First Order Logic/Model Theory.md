@@ -6,3 +6,4 @@
 [[Structure Isomorphism]]
 [[Elementary Embedding]]
 [[Substructure]]
+[[Elementary Substructure]]
