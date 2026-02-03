@@ -11,7 +11,7 @@ DLO is $\aleph_{0}$-[[Categorical]].
 Back and forth argument.
 Fix countable [[Model]]s $\mathcal{M},\mathcal{N}\models \mathrm{DLO}$.
 Let $M=\{ a_{n}:n\geq 0 \}$ and $N=\{ b_{n}:n\geq 0 \}$.
-We inductively construct a sequence of functions $(h_{n})_{n=0}^{\infty}$.
+We inductively construct a sequence of order-preserving bijections $(h_{n})_{n=0}^{\infty}$.
 Set $h_{0}=\{ (a_{0},b_{0}) \}$.
 #### Forth
 First construct an order preserving bijection $h_{*}:X_{*}\to Y_{*}$.
@@ -30,7 +30,19 @@ b=\begin{cases}
 y_{i} & \text{if }a_{n+1}=x_{i} \text{ for some }i\leq k  \\
 u(y_{k})  & \text{if } x_{k}<^{\mathcal{M}}a_{n+1} \text{ where }y_{k}<^{\mathcal{N}}u(y_{k}) \\
 l(y_{1}) & \text{if }a_{n+1}<^{\mathcal{M}}x_{1} \text{ where } l(y_{1})<^{\mathcal{N}} y_{1} \\
-
+b(y_{i},y_{i+1})  &  \text{if } x_{i}<^{\mathcal{M}}a_{n+1}<^{\mathcal{M}}x_{i+1} \text{ for some }i\leq k\text{ where } y_{i}<^{\mathcal{N}}b(y_{i},y_{i+1})<^{\mathcal{N}}y_{i+1}
 \end{cases}
 $$
+#### Back
+We construct $h_{n+1}:X_{n+1}\to Y_{n+1}$ extending $h_{*}$ such that $b_{n+1}\in Y_{n+1}$. 
+#### 
+---
+We can thus define $h=\bigcup_{n}h_{n}$ and check that it is an [[Structure Isomorphism|Isomorphism]].
+## Corollary
+DLO is a [[Complete Theory]].
+### Proof
+Clearly, there are no countable models.
+By previous theorem, any two countable models have: $\mathcal{M}\cong \mathcal{N}$ 
+and thus they are [[Elementary Equivalent Structures|Elementary Equivalent]].
+We are done by [[Vaught's Test]].
 
