@@ -2,4 +2,6 @@
 [[Theory of a Structure]]
 [[Elementary Equivalent Structures]]
 [[Vaught's Test]]
-[[Structure Homomorphism]]
+[[Structure Embedding]]
+[[Structure Isomorphism]]
+[[Elementary Embedding]]
