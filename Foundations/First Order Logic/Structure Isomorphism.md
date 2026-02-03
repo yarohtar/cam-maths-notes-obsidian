@@ -1,3 +1,7 @@
+---
+aliases:
+  - Isomorphism
+---
 A bijective [[Structure Homomorphism]] is an isomorphism.
 We write $\mathcal{M}\cong\mathcal{N}$ if there is an isomorphism $h:\mathcal{M}\to \mathcal{N}$.
 ### Theorem
