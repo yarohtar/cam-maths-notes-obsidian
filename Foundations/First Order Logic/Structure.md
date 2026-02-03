@@ -1,5 +1,5 @@
-A structure in a [[Language]] $L=L(\Omega,\Pi)$
-(or $L$-structure) is a non-empty set $A$ together with:
+A structure in a [[Language]] $\mathcal{L}=\mathcal{L}(\Omega,\Pi)$
+(or $\mathcal{L}$-structure) is a non-empty set $A$ together with:
 - functions $\omega_{A}:A^{n}\to A$ for each operation symbol $\omega \in \Omega$
   where $n=\alpha(\omega)$ is the arity
 - subsets $\phi_{A}\subseteq A^{n}$ for each predicate symbol $\phi \in \Pi$

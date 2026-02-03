@@ -7,7 +7,7 @@ $$
 \alpha:\Omega \cup \Pi \to \mathbb{N}_{0}=\{ 0 \}\cup \mathbb{N}
 $$
 
-The language $L=L(\Omega,\Pi)$ consists of the following:
+The language $\mathcal{L}=\mathcal{L}(\Omega,\Pi)$ consists of the following:
 ### Variables
 This is a countably infinite set disjoint from $\Omega$ and $\Pi$
 We denote variables by $x_{1},x_{2},\dots$ or $x,y,z\dots$

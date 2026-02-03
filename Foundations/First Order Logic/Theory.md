@@ -1,2 +1,1 @@
-A theory in a [[Language]] $L$ 
-is a set of [[Sentence]]s in $L$.
+A theory in a [[Language]] $\mathcal{L}$ is a set of [[Sentence]]s in $\mathcal{L}$.
