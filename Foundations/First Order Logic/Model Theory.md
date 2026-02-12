@@ -17,4 +17,5 @@
 [[Polynomial Map]]
 [[Ax-Grothendieck Theorem]]
 [[Lefshetz Principle]]
+[[Quantifier Elimination]]
 
