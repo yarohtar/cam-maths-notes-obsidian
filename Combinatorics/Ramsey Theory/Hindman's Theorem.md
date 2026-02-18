@@ -1,3 +1,33 @@
+```markdown
+**Hindman's Theorem.** If \(\mathbb{N}\) is finitely coloured then there exist
+\(x_1<x_2<\cdots\) in \(\mathbb{N}\) such that the finite-sums set
+\(\mathrm{FS}(x_1,x_2,\dots)=\{\sum_{i\in F}x_i:F\subseteq\mathbb{N},\,0<|F|<\infty\}\)
+is monochromatic.
+
+**Proof (sketch via ultrafilters).** See [[Ultrafilter]], [[Stone-Čech Compactification]] and [[Idempotent Ultrafilter]] for background.
+
+Write \(\mathbb{N}=A_1\cup\dots\cup A_k\). Choose an idempotent ultrafilter
+\(U\in\beta\mathbb{N}\) (existence: [[Idempotent Ultrafilter]]). Since \(U\)
+is an ultrafilter some colour-class \(A\) satisfies \(A\in U\).
+
+Idempotence \(U+U=U\) yields
+\(\forall_U x\;\forall_U y\; x+y\in A\). By induction on the number of
+summands one obtains
+\(\forall_U x_1\cdots\forall_U x_m\;\mathrm{FS}(x_1,\dots,x_m)\subseteq A\)
+for every finite \(m\).
+
+Inductive construction: for each finite initial segment \(x_1<\dots<x_n\) let
+S_n = { t \in \mathbb{N} : \forall_U y\;\mathrm{FS}(x_1,\dots,x_n,t,y)\subseteq A }.
+Each \(S_n\) belongs to \(U\) and hence is nonempty (indeed large). Choose
+\(x_1\in S_0\), and having chosen \(x_1<\dots<x_n\) pick \(x_{n+1}\in S_n\)
+with \(x_{n+1}>x_n\). This is possible because every set in \(U\) meets the
+cofinite (and thus infinite) sets one needs to push the sequence strictly
+increasing.
+
+By construction every finite sum from \(x_1,x_2,\dots\) lies in \(A\), so
+\(\mathrm{FS}(x_1,x_2,\dots)\) is monochromatic. This proves Hindman's
+Theorem.
+```
 If $\mathbb{N}$ is finitely colored, there exist $x_1 < x_2 < \dots$ such that all finite sums $\sum_{i \in F} x_i$ for finite $F \subseteq \{x_1, x_2, \dots\}$ are the same color.
 
 ## Proof
