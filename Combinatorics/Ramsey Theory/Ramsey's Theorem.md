@@ -4,7 +4,7 @@ For any positive integers $r, k$, there exists a smallest integer $R(r, k)$ such
 
 The case $r=1$ is trivial. Assume for $r-1$.
 
-Let $n = R(r-1, k) + R(r, k-1) - 1$.
+Let $$n = R(r-1, k) + R(r, k-1) - 1$$.
 
 Consider a $k$-coloring of $K_n$.
 

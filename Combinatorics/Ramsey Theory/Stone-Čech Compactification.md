@@ -8,7 +8,7 @@ $\beta \mathbb{N}$ is [[Compact]] [[Hausdorff]].
 
 ## Proof
 
-Hausdorff: Given distinct ultrafilters $u, v$, there is $A \in u \setminus v$, so $A^c \in v$, and $C_A \cap C_{A^c} = \emptyset$.
+Hausdorff: Given distinct ultrafilters $u, v$, there is $A \in u \setminus v$, so $A^c \in v$, and $C_A \cap C_{A^c} = \varnothing$.
 
 Compact: Use the fact that ultrafilters are closed under finite intersections, and apply Alexander's subbase theorem or similar.
 

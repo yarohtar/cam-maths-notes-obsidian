@@ -1,6 +1,6 @@
-For any finite S ⊂ \mathbb{N}^d and any k-coloring of \mathbb{N}^d, there exists a monochromatic homothetic copy of S.
+For any finite S \subset \mathbb{N}^d and any k-coloring of \mathbb{N}^d, there exists a monochromatic homothetic copy of S.
 
-A homothetic copy of S is a set of the form a + λS where a ∈ \mathbb{N}^d and λ ∈ \mathbb{N}.
+A homothetic copy of S is a set of the form $a + \lambda S$ where $a \in \mathbb{N}^d$ and $\lambda \in \mathbb{N}$.
 
 ## Proof
 

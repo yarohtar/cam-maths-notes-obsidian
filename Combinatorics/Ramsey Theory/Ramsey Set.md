@@ -1,4 +1,4 @@
-A collection Y ⊂ N(ω) is Ramsey if there exists M ∈ N(ω) with M(ω) ⊂ Y or M(ω) ⊂ Y^c.
+A collection Y \subset N(ω) is Ramsey if there exists M \in N(ω) with M(ω) \subset Y or M(ω) \subset Y^c.
 
 Open sets in τ-topology are Ramsey.
 

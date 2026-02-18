@@ -10,7 +10,7 @@ Equivalently, for every subset $A \subseteq X$, either $A$ or $X \setminus A$ is
 
 ## Proposition
 
-A [[Filter]] F is an ultrafilter if and only if for all A ⊂ X, either A ∈ F or A^c ∈ F.
+A [[Filter]] F is an ultrafilter if and only if for all A \subset X, either A \in F or A^c \in F.
 
 ## Proof
 
@@ -20,6 +20,6 @@ A [[Filter]] F is an ultrafilter if and only if for all A ⊂ X, either A ∈ F 
 
 ## Note
 
-If A ∈ U, an ultrafilter, and A = B ∪ C, then B ∈ U or C ∈ U.
+If $A \in U$, an ultrafilter, and $A = B \cup C$, then $B \in U$ or $C \in U$.
 
 #ai-generated

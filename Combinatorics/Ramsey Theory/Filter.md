@@ -1,10 +1,10 @@
-A filter on a set X is a non-empty collection F ⊂ P(X) such that:
+A filter on a set $X$ is a non-empty collection $F \subset P(X)$ such that:
 
-(i) ∅ ∉ F;
+(i) $\varnothing \notin F$;
 
-(ii) if A ∈ F and B ⊃ A then B ∈ F;
+(ii) if $A \in F$ and $B \supset A$ then $B \in F$;
 
-(iii) if A, B ∈ F then A ∩ B ∈ F.
+(iii) if $A, B \in F$ then $A \cap B \in F$.
 
 Examples: principal ultrafilters, cofinite filter.
 
