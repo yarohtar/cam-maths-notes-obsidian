@@ -1,10 +1,10 @@
-The Stone-Čech compactification $\beta X$ of a [[Topological Space]] $X$ is the largest [[Compact Hausdorff is Normal|compact Hausdorff]] space in which $X$ is densely embedded.
+The Stone-Čech compactification $\beta X$ of a [[Topological Space]] $X$ is the largest [[Compact]] [[Hausdorff]] space in which $X$ is densely embedded.
 
-For $X = \mathbb{N}$, $\beta \mathbb{N}$ can be identified with the set of ultrafilters on $\mathbb{N}$, with the topology where basic open sets are $\{ u : A \in u \}$ for $A \subseteq \mathbb{N}$.
+For $X = \mathbb{N}$, $\beta \mathbb{N}$ can be identified with the set of [[Ultrafilter]]s on $\mathbb{N}$, with the topology where basic open sets are $\{ u : A \in u \}$ for $A \subseteq \mathbb{N}$.
 
 ## Theorem
 
-$\beta \mathbb{N}$ is [[Compact Hausdorff is Normal|compact Hausdorff]].
+$\beta \mathbb{N}$ is [[Compact]] [[Hausdorff]].
 
 ## Proof
 

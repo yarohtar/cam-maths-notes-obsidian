@@ -2,7 +2,7 @@ If $\mathbb{N}$ is finitely colored, there exist $x_1 < x_2 < \dots$ such that a
 
 ## Proof
 
-Take an idempotent ultrafilter $u$.
+Take an idempotent [[Ultrafilter]] $u$.
 
 Then $u$ contains a color class $A$.
 

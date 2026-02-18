@@ -5,10 +5,16 @@ Ramsey theory is the study of the conditions under which order must appear in la
 ## Core Concepts
 
 - [[Ramsey's Theorem]]
-- [[Pigeonhole Principle]]
 - [[Van der Waerden's Theorem]]
 - [[Schur's Theorem]]
 - [[Rado's Theorem]]
+- [[Hales-Jewett Theorem]]
+- [[Extended Hales-Jewett Theorem]]
+- [[Gallai’s Theorem]]
+- [[Partition Regularity]]
+- [[Columns Property]]
+- [[Rado’s Theorem]]
+- [[Filter]]
 - [[Ultrafilter]]
 - [[Stone-Čech Compactification]]
 - [[Idempotent Ultrafilter]]
@@ -22,6 +28,6 @@ Ramsey theory is the study of the conditions under which order must appear in la
 - [[Nowhere Dense]]
 - [[Meagre Set]]
 - [[Baire Set]]
-- [[Borel Set]]
+- [[Combinatorial Line]]
 
 #ai-generated
