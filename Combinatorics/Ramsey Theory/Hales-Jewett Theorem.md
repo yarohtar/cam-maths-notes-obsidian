@@ -24,7 +24,8 @@ and a [[Combinatorial Line]] could be entirely within the fiber
 (varying one of the last $n_{1}$ coordinates), 
 each fiber has no monochromatic combinatorial line.
 
-To define a coloring $d$ of $$[m]^{n0}$ with $r-1$ colors, note that each fiber is colored with $r$ colors and has no monochromatic line. Since $n1 = $HJ(r-1, n0)$, and the alphabet size for the fiber is $m$, by the induction hypothesis on $r$ (since $$HJ(r-1, m)$ \leq $n1$, as $$n0$ \geq 1$ and the bound is recursive), we can associate to each fiber a "type" based on the colors of certain "test positions" in the fiber.
+To define a coloring $d$ of $[m]^{n0}$ with $r-1$ colors, note that each fiber is colored with $r$ colors and has no monochromatic line. 
+Since $n1 = HJ(r-1, n0)$, and the alphabet size for the fiber is $m$, by the induction hypothesis on $r$ (since $$HJ(r-1, m)$ \leq $n1$, as $$n0$ \geq 1$ and the bound is recursive), we can associate to each fiber a "type" based on the colors of certain "test positions" in the fiber.
 
 Specifically, consider the $m$ test positions in the fiber where the first coordinate of the last $n1$ varies, and the remaining coordinates of the last $n1$ are fixed to $1$: i.e., the points $(1, 1^{n1-1})$, $(2, 1^{n1-1})$, ..., $(m, 1^{n1-1})$ in the fiber.
 
