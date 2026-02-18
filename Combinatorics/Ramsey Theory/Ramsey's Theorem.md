@@ -10,7 +10,7 @@ Consider a $k$-coloring of $K_n$.
 
 Fix a vertex $v$. The edges from $v$ to other vertices are colored with $k$ colors, so by pigeonhole, some color $c$ is used at least $\lceil (n-1)/k \rceil$ times.
 
-Let $S$ be the set of vertices connected to $v$ by color $c$, with $|S| \geq R(r-1, k)$.
+Let $S$ be the set of vertices connected to $v$ by color $c$, with $|S| \geq $R(r-1, k)$.
 
 If $S$ has a monochromatic clique of size $r-1$ in color $c$, then adding $v$ gives a monochromatic $K_r$ in color $c$.
 
