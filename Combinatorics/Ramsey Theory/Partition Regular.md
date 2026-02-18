@@ -1,0 +1,3 @@
+# Partition Regular
+
+#ai-generated

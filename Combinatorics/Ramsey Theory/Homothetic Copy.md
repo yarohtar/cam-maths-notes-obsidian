@@ -1,0 +1,3 @@
+# Homothetic Copy
+
+#ai-generated
