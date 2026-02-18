@@ -1,9 +1,3 @@
-# Ramsey Theory
-
-Ramsey theory is the study of the conditions under which order must appear in large enough structures, even if we try to avoid it by partitioning the structure.
-
-## Core Concepts
-
 - [[Ramsey's Theorem]]
 - [[Van der Waerden's Theorem]]
 - [[Schur's Theorem]]
@@ -29,5 +23,3 @@ Ramsey theory is the study of the conditions under which order must appear in la
 - [[Meagre Set]]
 - [[Baire Set]]
 - [[Combinatorial Line]]
-
-#ai-generated

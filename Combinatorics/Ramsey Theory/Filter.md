@@ -1,11 +1,7 @@
-A filter on a set $X$ is a non-empty collection $F \subset P(X)$ such that:
+Let $X$ be a set. Let $F \subset \mathcal{P}(X)$ such that $F$ is non-empty, $\varnothing \notin F$, $F$ is closed under finite intersections, and if $A \in F$ and $B \supset A$ then $B \in F$. Then $F$ is called a filter.
 
-(i) $\varnothing \notin F$;
-
-(ii) if $A \in F$ and $B \supset A$ then $B \in F$;
-
-(iii) if $A, B \in F$ then $A \cap B \in F$.
-
-Examples: principal ultrafilters, cofinite filter.
+Examples:
+- Principal ultrafilters
+- Cofinite filter
 
 #ai-generated

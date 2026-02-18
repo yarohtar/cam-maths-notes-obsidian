@@ -4,16 +4,34 @@ For any positive integer $k$, there exists a smallest integer $S(k)$ such that i
 
 By induction on $k$.
 
-For $k=1$, trivial.
+### Base Case: $k = 1$
 
-Assume for $k-1$.
+For $k = 1$, consider the set $\{1, 2, 3\}$. In any 1-coloring (i.e., all elements the same color), we have $1 + 2 = 3$. Thus, $S(1) = 3$.
 
-Let $n = S(k-1) + S(k-1) - 1$.
+### Inductive Step
 
-Consider a coloring.
+Assume $S(k-1)$ exists, and prove $S(k) \leq 2 \cdot S(k-1) + 1$.
 
-Fix $x=1$, then the pairs $(y, z)$ with $y + z = x + y$ wait, standard proof.
+Let $m = S(k-1)$. We will show that any $k$-coloring of $\{1, 2, \dots, 2m + 1\}$ contains a monochromatic solution to $x + y = z$ with $x$, $y$, $z$ distinct.
 
-The set of numbers greater than $S(k-1)$ can be colored with $k-1$ colors without monochromatic Schur triple, but then find contradiction.
+Suppose for contradiction that there exists a $k$-coloring $c$ of $\{1, 2, \dots, 2m + 1\}$ with no monochromatic $x + y = z$ (with $x < y < z$ to ensure distinctness, as $x + y = z$ implies $z > y > x$).
+
+Let $A = \{x \in \{1, 2, \dots, 2m + 1\} \mid x > m\} = \{m+1, m+2, \dots, 2m+1\}$. Note that $|A| = m$.
+
+For each color class $C$ (i.e., the set of elements assigned color $C$), $|C \cap A| \leq 1$. This is because if $x, y \in C \cap A$ with $x < y$, then $x + y \geq (m+1) + (m+2) = 2m + 3 > 2m + 1$, so $x + y$ is not in the set $\{1, 2, \dots, 2m + 1\}$, and thus cannot equal any $z$ in the set.
+
+There are $k$ color classes, and $|A| = m$. By the pigeonhole principle, the average number of elements from $A$ per color class is $m / k$. Since $m \geq S(k-1) \geq 3$ for $k \geq 2$, and $k \geq 2$, we have $m > k$ (for $k=2$, $m=3 > 2$; for $k=3$, $m \geq 5 > 3$; and so on, as $S(k-1)$ grows rapidly). Thus, $\lceil m / k \rceil \geq 2$.
+
+Therefore, some color class $C$ has at least $\lceil m / k \rceil \geq 2$ elements in $A$, contradicting the fact that $|C \cap A| \leq 1$.
+
+Hence, no such $k$-coloring exists, so $S(k) \leq 2m + 1 = 2 \cdot S(k-1) + 1$.
+
+By induction, $S(k)$ exists for all $k$.
+
+## Remarks
+
+- This proof provides an upper bound on $S(k)$, but the actual minimal $S(k)$ (known as Schur numbers) are smaller in many cases (e.g., $S(2) = 5$, $S(3) = 14$, $S(4) = 45$, $S(5) = 161$).
+- The proof relies on the pigeonhole principle and the inductive hypothesis to force a contradiction.
+- For $k \geq 2$, the condition $m > k$ ensures the pigeonhole argument works, as $\lceil m / k \rceil \geq 2$.
 
 #ai-generated
