@@ -1,3 +1,0 @@
-# Accepts
-
-#ai-generated

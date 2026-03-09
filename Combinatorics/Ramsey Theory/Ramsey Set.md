@@ -1,3 +1,0 @@
-# Ramsey Set
-
-#ai-generated

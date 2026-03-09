@@ -1,3 +1,0 @@
-# Ultrafilter Quantification
-
-#ai-generated

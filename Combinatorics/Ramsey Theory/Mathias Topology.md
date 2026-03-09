@@ -1,3 +1,0 @@
-# Mathias Topology
-
-#ai-generated

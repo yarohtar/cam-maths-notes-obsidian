@@ -1,3 +1,0 @@
-# Idempotent Ultrafilter
-
-#ai-generated

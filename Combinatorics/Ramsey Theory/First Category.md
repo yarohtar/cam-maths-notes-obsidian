@@ -1,3 +1,0 @@
-# First Category
-
-#ai-generated

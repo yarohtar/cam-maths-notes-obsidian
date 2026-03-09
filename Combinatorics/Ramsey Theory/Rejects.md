@@ -1,3 +1,0 @@
-# Rejects
-
-#ai-generated

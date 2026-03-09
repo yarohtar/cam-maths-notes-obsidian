@@ -1,3 +1,0 @@
-# Ultrafilter Sum
-
-#ai-generated

@@ -1,3 +1,0 @@
-# Nowhere Dense
-
-#ai-generated

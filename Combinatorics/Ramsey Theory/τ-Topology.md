@@ -1,3 +1,0 @@
-# τ-Topology
-
-#ai-generated
