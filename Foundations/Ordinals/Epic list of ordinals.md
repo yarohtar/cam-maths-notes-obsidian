@@ -28,7 +28,7 @@ $$
 $$
 Now continue to get
 $$
-\varepsilon_{0},\dots\varepsilon_{1},\dots ,\varepsilon_{2},\dots,\varepsilon_{\omega},\dots,\varepsilon_{\varepsilon_{0}},\dots,\varepsilon_{\varepsilon_{\varepsilon_{0}}},\dots,\varepsilon_{\varepsilon_{\varepsilon_{\ddots}}},\dots
+\varepsilon_{0},\dots\varepsilon_{1},\dots ,\varepsilon_{2},\dots,\varepsilon_{\omega},\dots,\varepsilon_{\varepsilon_{0}},\dots,\varepsilon_{\varepsilon_{\varepsilon_{0}}},\dots,\varepsilon_{\varepsilon_{\varepsilon_{\ddots}}},\dots, \omega_{CK},\dots
 $$
 Note, all of these ordinals are countable.
 Let $\omega_{1}$ be the smallest [[Uncountable ordinal]] and thus find:
