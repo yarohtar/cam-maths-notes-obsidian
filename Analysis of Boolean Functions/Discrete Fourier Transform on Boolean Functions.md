@@ -24,28 +24,3 @@ The [[Discrete Fourier Transform]] is then
 $$
 \hat{f}(A)=\hat{f}(\bullet_{A}) = \mathop{\Large\mathbb{E}}\limits_{x}f(x)x_{A}
 $$
-By inversion formula:
-$$
-f(x) = \sum_{A\subseteq[n]} \hat{f}(A)x_{A}
-$$
-Note that this lets us expand the domain of $f$ from $\{ -1,1 \}^{n}$ to $\mathbb{R}^{n}$, 
-as a multilinear (actually multiaffine) function.
-#### Lemma
-For every $f:\{ -1,1 \}^{n}\to \mathbb{R}$ there is a unique multilinear $\mu:\mathbb{R}^{n}\to \mathbb{R}$ such that $\mu|_{\{ -1,1 \}^{n}}=f$.
-##### Proof
-Existence is clear by the inversion formula.
-Now suppose $\mu$ is multilinear and vanishes on $\{ -1,1 \}^{n}$.
-Show this by induction on $n$.
-If $\mu(-1)=\mu(1)=0$ the result is clear.
-Now assume the result for $n-1$ and let $\mu:\mathbb{R}^{n}\to \mathbb{R}$ vanish on $\{ -1,1 \}^{n}$.
-Then for all $x\in \mathbb{R}^{n-1}$ we can write 
-$$
-\mu(x,t) =\alpha(x)t+\beta(x)
-$$
-Thus write 
-$$
-\beta(x) = \frac{/}{}
-$$
-Let $x\in \{ -1,1 \}^{n}$.
-
-
