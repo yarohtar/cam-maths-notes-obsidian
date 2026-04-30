@@ -10,5 +10,21 @@ We will write $\hat{f}(r)$ instead of $\hat{f}(\chi_{r})$.
 ### Subsets
 Identify each $r\in \mathbb{F}_{2}^{n}$ with $A_{r}=\{ i:r_{i}=1 \}$.
 Then $r.x=\lvert A_{r}\cap A_{x} \rvert \pmod{2}$. 
-Thus take the group $(\mathcal{P}([n]),\triangle)$ and the [[discr]]
+Thus take the group $(\mathcal{P}([n]),\triangle)$ 
+and the [[Discrete Fourier Transform]] of $f:\mathcal{P}([n])\to \mathbb{C}$ is:
+$$
+\hat{f}(B)=\mathop{\Large\mathbb{E}}\limits_{A\subseteq[n]}f(A)(-1)^{\lvert A\cap B \rvert }
+$$
 ### Multiplicative
+Take the group $\{ -1 ,1\}^{n}$ and [[Character]]s of the form $x\to \prod_{i\in A}x_{i}$ where $A\subseteq[n]$.
+We will write this as $x_{A}$. 
+Note that the character is actually the function $\bullet_{A}$, 
+but we may write $x_{A}$ both for the function and the value at $x$.
+The [[Discrete Fourier Transform]] is then
+$$
+\hat{f}(A)=\hat{f}(\bullet_{A}) = \mathop{\Large\mathbb{E}}\limits_{x}f(x)x_{A}
+$$
+By inversion formula:
+$$
+f(x) = \sum
+$$
