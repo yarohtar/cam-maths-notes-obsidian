@@ -22,10 +22,7 @@ G=\mathbb{Z} / m_{1}\mathbb{Z} \times \mathbb{Z} / m_{2} \mathbb{Z} \times \dots
 $$
 Given $r,x\in G$ where $r=(r_{1},\dots,r_{n})$ and $x=(x_{1},\dots x_{n})$ let
 $$
-\chi_{r}(x) = \prod_{j=1}^{n} e^{2\pi i \\frac{  }{  }}
+\chi_{r}(x) = \prod_{j=1}^{n} e^{2\pi i \frac{ r_{j}x_{j} }{ m_{j} }}
 $$
+Easy to show that these are characters and for $r\neq s$ we have $\chi_{r}\neq \chi_{s}$.
 
-
-## Corollary
-The size of the [[Pontryagin Dual]] is smaller than the size of $G$.
-For the reverse result use [[Finite Abelian Group]].
