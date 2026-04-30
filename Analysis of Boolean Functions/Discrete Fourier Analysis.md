@@ -44,15 +44,33 @@ $$
 ### Lemma
 Define 
 $$
-f*g(x) = \mathop{\Large\mathbb{E}}\limits_{u+v=x}f(u)g(v)
+f*g(x) = \mathop{\Large\mathbb{E}}\limits_{uv=x}f(u)g(v)
 $$
 Then
 $$
 \widehat{f*g}(\chi)=\hat{f}(\chi)\hat{g}(\chi)
 $$
+#### Proof
+$$
+\begin{align}
+\widehat{f*g}(\chi)&= \mathop{\Large\mathbb{E}}\limits_{x} f*g(x) \overline{\chi(x)}  \\
+&=\mathop{\Large\mathbb{E}}\limits_{x}\mathop{\Large\mathbb{E}}\limits_{uv=x}f(u)g(v)\overline{\chi(x)} \\
+&=\mathop{\Large\mathbb{E}}\limits_{u,v} f(u)g(v)\overline{\chi(u)} \overline{\chi(v)} \\
+&=\hat{f}(\chi)\hat{g}(\chi)
+\end{align}
+$$
 ### Lemma
 $$
 f(x) = \sum_{\chi \in \hat{G}}\hat{f}(\chi)\chi(x)
+$$
+#### Proof
+$$
+\begin{align}
+\sum_{\chi \in \hat{G}} \hat{f}(\chi)\chi(x) &= \sum_{\chi} \mathop{\Large\mathbb{E}}\limits_{y}f(y)\overline{\chi(y)} \chi(x) \\
+&=\mathop{\Large\mathbb{E}}\limits_{y}f(y) \sum_{\chi} \chi(xy^{-1}) \\
+&=\mathop{\Large\mathbb{E}}\limits_{y} f(y) \Delta_{xy} \\
+&=f(x)
+\end{align}
 $$
 
 
