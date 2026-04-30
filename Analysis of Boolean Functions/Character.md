@@ -29,6 +29,14 @@ Easy to show that these are characters and for $r\neq s$ we have $\chi_{r}\neq \
 Now note that $\mathbb{C}^{G}$ is a vector space of dimension $\lvert G \rvert$ (e.g. by using $\{ 1_{x} : x \in G \}$) 
 and the characters form an orthonormal set of size $\lvert G \rvert$ so we are done.
 
+### Lemma
+Let $x,y\in G$. Then 
+$$
+\sum_{\chi} \chi(xy^{-1}) = \Delta_{xy}=\begin{cases}
+\lvert G \rvert  & \text{if $x=y$}\\
+0 & \text{otherwise}
+\end{cases}
+$$
 
 
 
