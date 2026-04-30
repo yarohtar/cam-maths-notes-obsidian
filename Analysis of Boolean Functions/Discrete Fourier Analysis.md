@@ -31,6 +31,16 @@ $$
 $$
 \braket{ \hat{f} | \hat{g} } =\braket{ f | g } 
 $$
+#### Proof
+$$
+\begin{align}
+\braket{ \hat{f} | \hat{g} } &=\sum_{\chi}\hat{f}(\chi)\overline{\hat{g}(\chi)} \\
+&= \sum_{\chi} \left( \mathop{\Large\mathbb{E}}\limits_{x} f(x)\overline{\chi(x)} \right)\overline{\left( \mathop{\Large\mathbb{E}}\limits_{y}g(y)\overline{\chi(y)} \right)} \\
+&=\mathop{\Large\mathbb{E}}\limits_{x,y} f(x)\overline{g(y)} \sum_{\chi} \chi(x ^{-1}y)  \\
+&= \mathop{\Large\mathbb{E}}\limits_{x,y} f(x)\overline{g(y)} \Delta_{xy} \\
+&=\braket{ f | g } 
+\end{align}
+$$
 ### Lemma
 Define 
 $$
@@ -43,10 +53,6 @@ $$
 ### Lemma
 $$
 f(x) = \sum_{\chi \in \hat{G}}\hat{f}(\chi)\chi(x)
-$$
-#### Proof
-$$
-\braket{ \hat{f} | \hat{g} } =\sum_{\chi}\hat{f}(\chi)\overline{\hat{g}(\chi)} = \sum_{\chi} \left( \mathop{\Large\mathbb{E}}\limits_{x} \right)
 $$
 
 
