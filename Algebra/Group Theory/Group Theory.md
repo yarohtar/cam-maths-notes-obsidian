@@ -6,7 +6,7 @@
 [[Alternating group]]
 [[Groups of prime order]]
 [[Sylow Subgroup]]
-[[Finite Abelian Groups]]
+[[Finite Abelian Group]]
 
 [[Torsion]]
 [[Torsion Free]]
