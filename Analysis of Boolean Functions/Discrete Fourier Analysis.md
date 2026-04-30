@@ -22,4 +22,39 @@ and
 $$
 \lVert f \rVert _{p} = \left( \sum_{\chi \in \hat{G}} \hat{f}(\chi)^{p} \right)^{1/p}
 $$
+Let $f:G\to \mathbb{C}$. The Fourier Transform of $f$ is a function $\hat{f}:\hat{G}\to \mathbb{C}$ given by:
+$$
+\hat{f}(\chi)=\mathop{\Large\mathbb{E}}\limits_{x\in G} f(x)\overline{\chi(x)} = \braket{ f | \chi } 
+$$
+### Lemma
+[[Parseval's Identity]]:
+$$
+\braket{ \hat{f} | \hat{g} } =\braket{ f | g } 
+$$
+### Lemma
+Define 
+$$
+f*g(x) = \mathop{\Large\mathbb{E}}\limits_{u+v=x}f(u)g(v)
+$$
+Then
+$$
+\widehat{f*g}(\chi)=\hat{f}(\chi)\hat{g}(\chi)
+$$
+### Lemma
+$$
+f(x) = \sum_{\chi \in \hat{G}}\hat{f}(\chi)\chi(x)
+$$
+#### Proof
+$$
+\braket{ \hat{f} | \hat{g} } =\sum_{\chi}\hat{f}(\chi)\overline{\hat{g}(\chi)} = \sum_{\chi} \left( \mathop{\Large\mathbb{E}}\limits_{x} \right)
+$$
+
+
+
+
+
+
+
+
+
 
