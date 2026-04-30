@@ -14,7 +14,7 @@ https://www.damtp.cam.ac.uk/research/afha/lectures/Part_II_NumAn/
 
 
 [[Poisson Equation]]
-[[Analysis/Discrete Fourier Transform]]
+[[Discrete Fourier Transform (Sequences)]]
 
 [[Stability of Numerical Methods]]
 [[Consistency of Numerical Methods]]

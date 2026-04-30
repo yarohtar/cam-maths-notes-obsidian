@@ -1,2 +1,2 @@
-[[Analysis of Boolean Functions/Discrete Fourier Transform]]
+[[Discrete Fourier Transform]]
 [[Discrete Fourier Transform on Boolean Functions]]
