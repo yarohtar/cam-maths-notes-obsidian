@@ -5,7 +5,7 @@ $$
 $$
 
 ## Theorem
-The characters on $G$ form an [[Orthonormal Basis]] of $\mathbb{C}^{G}$
+The characters on $G$ form an [[Orthonormal Basis]] of $\mathbb{C}^{G}$.
 ### Proof
 Let $\chi_{1}$ and $\chi_{2}$ be characters and $\chi=\chi_{1}\overline{\chi_{2}}$.
 If $\chi_{1}=\chi_{2}$ then clearly $\mathbb{E}_{x}\chi = 1$.
@@ -25,4 +25,12 @@ $$
 \chi_{r}(x) = \prod_{j=1}^{n} e^{2\pi i \frac{ r_{j}x_{j} }{ m_{j} }}
 $$
 Easy to show that these are characters and for $r\neq s$ we have $\chi_{r}\neq \chi_{s}$.
+
+Now note that $\mathbb{C}^{G}$ is a vector space of dimension $\lvert G \rvert$ (e.g. by using $\{ 1_{x} : x \in G \}$) 
+and the characters form an orthonormal set of size $\lvert G \rvert$ so we are done.
+
+
+
+
+
 
