@@ -68,10 +68,12 @@ $$
  & = \sum_{k=0}^{n} \rho^{k} \lVert f^{(=k)} \rVert _{4}  \\
  & \leq \sum_{k=0}^{n} \rho^{k} C^{k/2} \lVert f^{(=k)} \rVert _{2} \\
  & = \sum_{k=0}^{n} \lVert f^{(=k)} \rVert _{2}  \\
-  & \leq \sqrt{ n } \left( \sum_{k=0}^{n} \right)\\
- & \leq \sqrt{ n }\lVert f \rVert _{2}
+  & \leq \sqrt{ n } \left( \sum_{k=0}^{n} \lVert f^{(=k)} \rVert_{2}^{2}  \right)^{1/2}\\
+ & = \sqrt{ n }\lVert f \rVert _{2}
 \end{align}
 $$
+where the last inequality is [[Jensen's Inequality]] and the last line is [[Pythagoras]].
+[[Tensor Power Trick]]
 
 ### Corollary
 Let $\rho=\frac{\sigma}{2}$ and $f:\{ -1,1 \}^{n}\to \mathbb{R}$.
