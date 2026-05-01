@@ -33,4 +33,20 @@ p(f(x_{i\to 1})- f(x_{i\to-1})) & \text{if }x_{i}=1 \\
 -q(f(x_{i\to 1})-f(x_{i\to-1})) & \text{if }x_{i}=-1
 \end{cases}
 $$
-
+Also
+$$
+\phi_{i}(x) = \begin{cases}
+\frac{2p}{\sigma}  & \text{if }x_{i}=1 \\
+-\frac{2q}{\sigma}  & \text{if }x_{i}=-1
+\end{cases}
+$$
+Therefore
+$$
+f(x)-E_{i}f(x) = \phi_{i}D_{i}f(x)
+$$
+Now we just need to calculate
+$$
+\begin{align}
+\braket{ E_{i}f | \phi_{i}D_{i}f } 
+\end{align}
+$$
