@@ -30,8 +30,11 @@ $$
 \mathop{\mathbb{E}}\phi_{n}^{4} = \frac{ p^{3}+q^{3} }{ pq } \leq \frac{4}{\sigma^{2}}
 \end{gather}
 $$
-Now use [[Cauchy-Schwarz Inequality]] to find
+Now use [[Cauchy-Schwarz Inequality]] and [[Hölder inequality]] to find
 $$
 \lVert f \rVert _{4}^{4} \leq \lVert g \rVert _{4}^{4} + 6 \lVert \phi_{n} \rVert _{2}^{2} \lVert g \rVert _{2}^{2} \lVert h \rVert _{2}^{2} + \frac{8}{\sigma} 
+$$
+$$
+\mathop{\mathbb{E}}gh^{3}\leq (\mathop{\mathbb{E}}g^{4})^{1/4} (\mathop{\mathbb{E}}h^{4})^{3/4}
 $$
 
