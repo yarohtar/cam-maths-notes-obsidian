@@ -1,6 +1,9 @@
 The $p$-biased cube is the set $\{ -1,1 \}^{n}$ with measure $\mu_{p}$
 where for each $x\in \{ -1,1 \}^{n}$ we have $\mathbb{P}(x_{i}=-1)=p$, $\mathbb{P}(x_{i}=1)=q=1-p$ 
-and 
+and $x_{i}$ are all independent.
+We can also have the biased cube on $\{ 0,1 \}^{n}$ where now $\mathbb{P}(x_{i}=1)=p$ instead.
+
+In the case of $\{ -1,1 \}^{n}$ we define:
 $$
 \mu=q-p = 1-2p
 $$
