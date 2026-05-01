@@ -59,5 +59,7 @@ At $i$-th stage, if $J_{i}$ doesn't work, replace it with $J_{i+1}=J_{i}\cup K_{
 $$
 \lVert E_{J_{i}\cup K_{i}}f\rVert _{2}^{2} \geq \lVert E_{J_{i}}f\rVert _{2}^{2} + \delta \zeta^{r}\epsilon^{2} \geq \dots \geq (\mathop{\mathbb{E}}f)^{2} + i\delta \zeta^{r}\epsilon^{2}
 $$
-Thus the process must eventually terminate (as we cannot exceed )
+Thus the process must eventually terminate (as we cannot exceed $\lVert E_{[n]}f \rVert_{2}^{2}=\lVert f \rVert_{2}^{2}$)
+##### Remark
+The bound on $T$ is horrible. We can only get $\lvert K_{i} \rvert\leq r\cdot 2^{\lvert J_{i} \rvert}$.
 
