@@ -8,5 +8,25 @@ Suppose that $J$ doesn't satisfy the conclusion of the lemma.
 Let $u\in \{ 0,1 \}^{J}$ and $K\subseteq[n]\setminus J$. 
 Note [[Mean Square Density]] satisfies
 $$
-
+\lVert E_{K}f_{u} \rVert_{2}^{2} \geq \lVert E_{\varnothing}f_{u} \rVert _{2}^{2} = (\mathop{\mathbb{E}}f_{u})^{2}
+$$
+If $f_{u}$ is not a $(\epsilon,p,r)$-[[Quasirandom Boolean Function]], 
+then there is some $K_{u}\subseteq[n]\setminus J$ with $\lvert K_{u} \rvert\leq r$ and some $v\in \{ 0,1 \}^{K_{u}}$ such that 
+$$
+\lvert \mathop{\mathbb{E}}f_{u,v}^{(p)} - \mathop{\mathbb{E}}f_{u}^{(p)} \rvert \geq \epsilon
+$$
+Let $\zeta=\min\{ p,1-p \}$.
+If we choose a random element of $\{ 0,1 \}^{K_{u}}$ then it equals $v$ with probability $\geq \zeta^{r}$
+Therefore:
+$$
+\mathop{\Large\mathbb{E}}\limits_{w} \lvert \mathop{\mathbb{E}}f_{u,w}^{(p)} - \mathop{\mathbb{E}}f_{u}^{(p)} \rvert ^{2} \geq \epsilon^{2}\zeta^{r}
+$$
+Also note that 
+$$
+\mathop{\Large\mathbb{E}}\limits_{w} (\mathop{\mathbb{E}}f_{u,w}^{(p)} - \mathop{\mathbb{E}}f_{u}^{(p)}) = 0
+$$
+so LHS is the variance of $\mathop{\mathbb{E}}f_{u,v}-\mathop{\mathbb{E}}f_{u}$ over random $v$.
+As $\mathop{\mathbb{E}}f_{u}$ is constant here, this variance has to be equal to
+$$
+\mathop{\Large\mathbb{E}}\limits_{w}
 $$
