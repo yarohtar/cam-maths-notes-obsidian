@@ -47,6 +47,7 @@ $$
 Now we just need to calculate
 $$
 \begin{align}
-\braket{ E_{i}f | \phi_{i}D_{i}f } 
+\braket{ E_{i}f | \phi_{i}D_{i}f } & =\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} (qf(x_{i\to 1}) + p f(x_{i\to-1}))\frac{ x_{i}-\mu }{ 2 }(f(x_{i\to 1})-f(x_{i\to-1})) \\
+ & =
 \end{align}
 $$
