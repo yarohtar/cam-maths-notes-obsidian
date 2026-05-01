@@ -51,5 +51,24 @@ and
 $$
 \lVert f \rVert _{4}^{4} \leq C^{2k} \left( \lVert g \rVert _{2}^{4} + 8C^{-1}\lVert g \rVert _{2}^{2}\lVert h \rVert _{2}^{2} + \frac{12}{\sigma^{2}}C^{-2} \lVert h \rVert _{2}^{4} \right)
 $$
-Finally, choose $C$ such that $8C^{-1}\leq 2$ and $\frac{12}{\sigma^{2}}C^{-2}\leq 1$ i.e. $C=\frac{4}{\sigma^{2}}$ will do.
+Finally, choose $C$ such that $8C^{-1}\leq 2$ and $\frac{12}{\sigma^{2}}C^{-2}\leq 1$ i.e. $C=\frac{4}{\sigma^{2}}$ will do and
+$$
+\lVert f \rVert _{4}^{4} \leq C^{2k} (\lVert g \rVert _{2}^{2} + \lVert h \rVert _{2}^{2})^{2} = C^{2k}\lVert f \rVert _{2}^{4}
+$$
+### Corollary
+Let $\rho=\frac{\sigma}{2}$ (i.e. $\rho^{2}=C^{-1}$)
+Then for every $f:\{ -1,1 \}^{n}\to \mathbb{R}$ and [[Noise]] operator $T_{\rho}$ we have
+$$
+\lVert T_{\rho}f \rVert _{4} \leq \lVert f \rVert _{2}
+$$
+#### Proof
+$$
+\begin{align}
+\lVert T_{\rho}f \rVert _{4} & \leq \sum_{k=0}^{n} \lVert T_{\rho}f^{(=k)} \rVert _{4}  \\
+ & = \sum_{k=0}^{n} \rho^{k} \lVert f^{(=k)} \rVert _{4}  \\
+ & \leq \sum_{k=0}^{n} \rho^{k} C^{k/2} \lVert f^{(=k)} \rVert _{2} \\
+ & = \sum_{k=0}^{n} \lVert f^{(=k)} \rVert _{2}  \\
+ & \leq \sqrt{ n }\lVert f \rVert _{2}
+\end{align}
+$$
 
