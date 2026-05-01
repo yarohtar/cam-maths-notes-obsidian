@@ -11,7 +11,7 @@ To normalize $x$ we introduce $\phi(x)$ where
 $$
 \phi_{i}(x)=\frac{ x_{i}-\mu }{ \sigma }
 $$
-We will also write $\phi(t)=\frac{ t-\mu }{ \sigma }$ and 
+We will also write $\phi(t)=\frac{ t-\mu }{ \sigma }$ and for $A\subseteq[n]$
 $$
 \phi_{A}(x) = \prod_{i\in A}\phi_{i}(x)
 $$
@@ -24,5 +24,19 @@ Also define for $r \in[1,\infty]$:
 $$
 \lVert f \rVert _{r} = \left( \mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \lvert f(x) \rvert ^{r} \right)^{1/r}
 $$
+### Lemma
+For any $A,B\subseteq[n]$ we have 
+$$
+\braket{ \phi_{A} | \phi_{B} } = \delta_{AB}
+$$
+#### Proof
+$$
+\begin{align}
+\braket{ \phi_{A} | \phi_{B} } &= \mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \prod_{i\in A}\phi_{i}(x) \prod_{i\in B}\phi_{i}(x) \\
+ & = \prod_{i\in A\triangle B} \mathop{\Large\mathbb{E}}\limits_{x \sim \mu_{p}} \phi_{i}(x) \cdot \prod_{i\in A\cap B} \mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \phi_{i}(x)^{2} \\
+ & = \delta_{AB}
+\end{align}
+$$
+
 
 
