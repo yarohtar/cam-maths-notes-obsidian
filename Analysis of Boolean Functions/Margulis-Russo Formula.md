@@ -29,10 +29,26 @@ $$
 \mathop{\mathbb{E}}D_{i}f^{(p)} = \hat{f}^{(p)}(\{ i \})
 $$
 ### Corollary
-Let $f:\{ -1,1 \}^{n}\to \{ -1,1 \}$ be monotone.
+Let $f:\{ -1,1 \}^{n}\to \{ -1,1 \}$ be monotone and $I$ be the [[Influence]].
 Then
 $$
 \frac{d}{dp}\mathbb{P}(f^{(p)}(x)=-1) = \frac{1}{\sigma^{2}} I(f^{(p)})
 $$
 #### Proof
-
+$$
+\begin{align}
+\frac{d}{dp}\mathbb{P}(f^{(p)}(x) =-1) & =\frac{d}{dp} \frac{ 1-\mathop{\mathbb{E}}f^{(p)} }{ 2 } \\
+ & =-\frac{1}{2} \frac{d}{d\mu} \mathop{\mathbb{E}}f^{(p)} \frac{ d\mu }{ dp } \\
+ & = \frac{d}{d\mu}\mathop{\mathbb{E}}f^{(p)} \\
+ & =\frac{1}{\sigma}\sum_{i=1}^{n} \mathop{\mathbb{E}}D_{i}f^{(p)}
+\end{align}
+$$
+Since $f$ is monotone, we have $D_{i}f^{(p)}(x)\in \{ 0,\sigma \}$ so we can write:
+$$
+\begin{align} 
+\frac{d}{dp}\mathbb{P}(f^{(p)}(x)=-1) & = \frac{1}{\sigma^{2}} \sum_{i=1}^{n} \mathop{\mathbb{E}} \lvert D_{i}f^{(p)} \rvert ^{2} \\
+ & =\frac{1}{\sigma^{2}} \sum_{i=1}^{n} \lVert D_{i}f^{(p)} \rVert _{2}^{2} \\
+ & = \frac{1}{\sigma^{2}} \sum_{i=1}^{n} \mathrm{Inf}_{i}f^{(p)} \\
+ & = \frac{1}{\sigma^{2}}I(f^{(p)})
+\end{align}
+$$
