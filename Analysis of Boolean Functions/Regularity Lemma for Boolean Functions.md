@@ -40,8 +40,24 @@ We conclude
 $$
 \lVert E_{K}f_{u} \rVert _{2}^{2} \geq (\mathop{\mathbb{E}}f_{u})^{2} + \zeta^{r}\epsilon^{2}
 $$
+Now note that a random $u\in \{ 0,1 \}^{J}$ has probability at least $\delta$ to satisfy the above.
 Also [[Mean Square Density]] satisfies for any $u\in \{ 0,1 \}^{J}$:
 $$
 \lVert E_{K}f_{u} \rVert_{2}^{2} \geq \lVert E_{\varnothing}f_{u} \rVert _{2}^{2} = (\mathop{\mathbb{E}}f_{u})^{2}
 $$
-Now note that a random $u\in \{ 0,1 \}^{J}$ has probability at least $\delta$ to satisfy the above
+Thus averaging over all $u\in \{ 0,1 \}^{J}$ we get:
+$$
+\mathop{\Large\mathbb{E}}\limits_{u} \lVert E_{K}f_{u} \rVert _{2}^{2} \geq \mathop{\Large\mathbb{E}}\limits_{u}(\mathop{\mathbb{E}}f_{u})^{2} + \delta \zeta^{r}\epsilon^{2}
+$$
+i.e. 
+$$
+\lVert E_{J\cup K} f\rVert _{2}^{2} \geq \lVert E_{J}f \rVert _{2}^{2} + \delta \zeta^{r}\epsilon^{2}
+$$
+Now do an iteration.
+Start with $J_{0}=\varnothing$.
+At $i$-th stage, if $J_{i}$ doesn't work, replace it with $J_{i+1}=J_{i}\cup K_{i}$ using $K_{i}$ such that 
+$$
+\lVert E_{J_{i}\cup K_{i}}f\rVert _{2}^{2} \geq \lVert E_{J_{i}}f\rVert _{2}^{2} + \delta \zeta^{r}\epsilon^{2} \geq \dots \geq (\mathop{\mathbb{E}}f)^{2} + i\delta \zeta^{r}\epsilon^{2}
+$$
+Thus the process must eventually terminate (as we cannot exceed )
+
