@@ -14,3 +14,31 @@ $$
 \mathop{\mathbb{E}}f^{(1/2)}>\frac{1}{2}
 $$
 (actually $>1-\delta$ for $\delta>0$)
+#### Proof
+Suppose that 
+$$
+\mathop{\mathbb{E}}f^{1/2} \leq \frac{1}{2}
+$$
+By the mean value theorem there is some $s \in\left( p,\frac{1}{2} \right)$ such that 
+$$
+\frac{d}{ds} \mathop{\mathbb{E}}f^{(s)} \leq \frac{ \frac{1}{2} -\alpha }{ \frac{1}{2}-p } \leq \frac{1}{\zeta}
+$$
+By [[Margulis-Russo Formula]] it follows
+$$
+I(f^{(s)}) \leq \frac{1}{\zeta}
+$$
+By the $s$-biased [[Friedgut Junta Theorem]] 
+we can find a boolean $J$-[[Junta]] $h$ 
+such that 
+$$
+\mathbb{P}(f^{(s)}\neq h^{(s)}) \leq \epsilon
+$$
+and $\lvert J \rvert\leq r(\zeta,\epsilon)$.
+But
+$$
+\mathop{\mathbb{E}}f^{(s)} \leq \mathop{\mathbb{E}}f^{1/2} \leq \frac{1}{2}
+$$
+by monotonicity of $f$ so 
+$$
+\mathbb{P}(f^{(s)}=1) \leq \frac{1}{2} 
+$$
