@@ -20,6 +20,7 @@ $$
 \lVert f \rVert _{4}^{4} = \mathop{\Large\mathbb{E}}\limits_{x} (g(x)^{4} + 4\phi_{n}(x)g(x)^{3}h(x)+ 6\phi_{n}(x)^{2}g(x)^{2}h(x)^{2} + 4\phi_{n}(x)^{3}g(x)h(x)^{3} + \phi_{n}^{4} h(x)^{4})
 $$
 We can drop the second term as $\mathop{\mathbb{E}}\phi_{n}=0$.
+Also $\mathop{\mathbb{E}}\phi_{n}^{2}=1$.
 In the case $p=q=\frac{1}{2}$ we can also drop the third term and have $\mathop{\mathbb{E}}\phi_{n}^{4}=1$.
 In general note:
 $$
@@ -30,11 +31,13 @@ $$
 \mathop{\mathbb{E}}\phi_{n}^{4} = \frac{ p^{3}+q^{3} }{ pq } \leq \frac{4}{\sigma^{2}}
 \end{gather}
 $$
-Now use [[Cauchy-Schwarz Inequality]] and [[Hölder inequality]] to find
+Now use [[Hölder inequality]] to find
 $$
-\lVert f \rVert _{4}^{4} \leq \lVert g \rVert _{4}^{4} + 6 \lVert \phi_{n} \rVert _{2}^{2} \lVert g \rVert _{2}^{2} \lVert h \rVert _{2}^{2} + \frac{8}{\sigma} 
+\lVert f \rVert _{4}^{4} \leq \lVert g \rVert _{4}^{4} + 6  \lVert g \rVert _{4}^{2} \lVert h \rVert _{4}^{2} + \frac{8}{\sigma} \lVert g \rVert _{4}\lVert h \rVert _{4}^{3} + \frac{4}{\sigma^{2}} \lVert h \rVert _{4}^{4}
 $$
+and apply inductive step:
 $$
-\mathop{\mathbb{E}}gh^{3}\leq (\mathop{\mathbb{E}}g^{4})^{1/4} (\mathop{\mathbb{E}}h^{4})^{3/4}
+\lVert f \rVert _{4}^{4} \leq C^{2k}\left( \lVert g \rVert _{2}^{4} + 6 C^{-1}\lVert g \rVert _{2}^{2}\lVert h \rVert _{2}^{2} + \frac{8}{\sigma}C^{-3/2}\lVert g \rVert _{2}\lVert h \rVert _{2}^{3}+ C^{-2}\frac{4}{\sigma^{2}}\lVert h \rVert _{2}^{4} \right)
 $$
+
 
