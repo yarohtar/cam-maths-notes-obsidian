@@ -37,6 +37,32 @@ $$
  & = \delta_{AB}
 \end{align}
 $$
+### Lemma
+Let $f:\mathbb{R}^{n}\to \mathbb{R}$ be a multilinear function.
+Then
+$$
+\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}}f(x) = f(\mu,\mu,\dots,\mu)
+$$
+#### Proof 1
+Write
+$$
+f=\sum_{A}\theta_{A}x_{A}
+$$
+where $\theta_{A}$ is the [[Discrete Fourier Transform on Boolean Functions]] of $f$.
+Then
+$$
+\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} x_{A} = \prod_{i\in A}\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}}x_{i} = \mu^{\lvert A \rvert } = x_{A}(\mu, \dots,\mu)
+$$
+#### Proof 2
+Write 
+$$
+f=\sum_{A}\hat{f}(A)\phi_{A}
+$$
+where $\hat{f}$ is the [[Discrete Fourier Transform on the Biased Cube]] of $f$.
+Then
+$$
+\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \phi_{A}(x) = \prod_{i\in A} \mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \phi_{i}(x) = \delta_{\varnothing A}
+$$
 
 
 
