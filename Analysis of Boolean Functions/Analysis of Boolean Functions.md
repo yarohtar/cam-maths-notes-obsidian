@@ -7,3 +7,4 @@
 [[Influence]]
 [[Noise]]
 [[Stability]]
+[[Margulis-Russo Formula]]

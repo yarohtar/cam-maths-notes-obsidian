@@ -24,6 +24,8 @@ Also define for $r \in[1,\infty]$:
 $$
 \lVert f \rVert _{r} = \left( \mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \lvert f(x) \rvert ^{r} \right)^{1/r}
 $$
+### Convention
+Sometimes we will write $f^{(p)}(x)$ to signify that all expectations should be considered in the $p$-biased case.
 ### Lemma
 For any $A,B\subseteq[n]$ we have 
 $$
@@ -61,8 +63,15 @@ $$
 where $\hat{f}$ is the [[Discrete Fourier Transform on the Biased Cube]] of $f$.
 Then
 $$
-\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \phi_{A}(x) = \prod_{i\in A} \mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \phi_{i}(x) = \delta_{\varnothing A}
+\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \phi_{A}(x) = \prod_{i\in A} \mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} \phi_{i}(x) = \delta_{\varnothing A}=\phi_{A}(\mu, \dots,\mu)
 $$
+because $\phi(\mu)=0$.
+#### Proof 3
+By induction on $n$.
+$$
+\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} f(x)=\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} (qf(x_{n\to 1} + p f(x_{n\to-1}))) = \mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} f(x_{n\to \mu}) = f(\mu, \dots, \mu)
+$$
+where we used multilinearity in the last coordinate and the induction hypothesis.
 
 
 
