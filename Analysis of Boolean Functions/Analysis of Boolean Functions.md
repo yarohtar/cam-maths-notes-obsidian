@@ -5,3 +5,5 @@
 [[Discrete Fourier Transform on the Biased Cube]]
 [[Discrete Derivative]]
 [[Influence]]
+[[Noise]]
+[[Stability]]
