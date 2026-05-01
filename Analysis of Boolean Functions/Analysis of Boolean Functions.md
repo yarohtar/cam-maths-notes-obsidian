@@ -3,3 +3,5 @@
 [[Degree of a Boolean Function]]
 [[Biased Cube]]
 [[Discrete Fourier Transform on the Biased Cube]]
+[[Discrete Derivative]]
+[[Influence]]
