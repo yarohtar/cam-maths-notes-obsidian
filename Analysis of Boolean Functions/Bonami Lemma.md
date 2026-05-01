@@ -90,8 +90,11 @@ and note that the [[Noise]] operator is self-[[Adjoint]] so
 $$
 \lVert T_{\rho}f \rVert _{2} = \max_{\lVert g \rVert _{2}=1} \braket{ f | T_{\rho}g } 
 $$
-
-
+If $\lVert g \rVert_{2}=1$ then $\lVert T_{\rho}g \rVert_{4}\leq 1$ so $\braket{ f | T_{\rho}g }\leq \braket{ f | h }$ for some $\lVert h \rVert_{4}=1$ i.e.
+$$
+\lVert T_{\rho}f \rVert _{2} \leq \max_{\lVert h \rVert _{4}=1} \braket{ f | h } =\lVert f \rVert _{\frac{4}{3}}
+$$
+as $L_{\frac{4}{3}}$ is the dual of $L_{4}$.
 ### Corollary
 $$
 \mathrm{Stab}_{\frac{\sigma^{2}}{4}} f\leq\lVert f \rVert _{\frac{4}{3}}^{2}
