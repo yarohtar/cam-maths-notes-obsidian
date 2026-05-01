@@ -9,3 +9,4 @@
 [[Stability]]
 [[Margulis-Russo Formula]]
 [[Bonami Lemma]]
+[[Friedgut Junta Theorem]]

@@ -71,4 +71,25 @@ $$
  & \leq \sqrt{ n }\lVert f \rVert _{2}
 \end{align}
 $$
+TENSOR POWER TRICK ?? 
+### Corollary
+Let $\rho=\frac{\sigma}{2}$ and $f:\{ -1,1 \}^{n}\to \mathbb{R}$.
+Then
+$$
+\lVert T_{\rho}f \rVert _{2} \leq \lVert f \rVert _{\frac{4}{3}}
+$$
+#### Proof
+...
+### Corollary
+$$
+\mathrm{Stab}_{\frac{\sigma^{2}}{4}} f=\lVert f \rVert _{\frac{4}{3}}^{2}
+$$
+#### Proof
+$$
+\begin{align}
+\lVert f \rVert _{\frac{4}{3}}^{2}  & \geq \braket{ T_{\rho}f | T_{\rho} f }  \\
+ & = \braket{ f | T_{\rho^{2}}f }  \\
+ & = \mathrm{Stab}_{\rho^{2}}f
+\end{align}
+$$
 
