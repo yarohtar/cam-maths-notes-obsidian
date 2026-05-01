@@ -7,7 +7,10 @@ Then there exists an $m$-[[Junta]] $g:\{ -1,1 \}^{n}\to \mathbb{R}$ with
 $$
 \lVert g-f \rVert _{2}^{2}\leq 2\epsilon
 $$
-and $m\leq\dots$
+and
+$$
+m\leq \frac{ \rho^{-2k}I(f)^{3} }{ \epsilon^{2}\sigma^{2} }
+$$
 #### Proof
 Let $\tau>0$ (to be chosen later)
 and let 
@@ -48,9 +51,17 @@ By the hypothesis, the second term is $\leq \epsilon$.
 Also
 $$
 \begin{align}
-\sum_{i\not\in J} \mathrm{Stab}_{\rho}(D_{i}f) \geq \rho ^{-1}\sum_{B}\lvert B\setminus J \rvert \rho^{\lvert B \rvert }\hat{f}(B)^{2} 
-
+\sum_{i\not\in J} \mathrm{Stab}_{\rho}(D_{i}f)  & \geq \rho ^{-1}\sum_{B}\lvert B\setminus J \rvert \rho^{\lvert B \rvert }\hat{f}(B)^{2}  \\
+ & \geq \rho ^{-1}\sum_{B\not\subseteq J, \lvert B \rvert \leq k} \rho^{k} \hat{f}(B)^{2} \\
 \end{align}
+$$
+Therefore
+$$
+\sum_{B\not\subseteq J, \lvert B \rvert \leq k} \hat{f}(B)^{2} \leq \rho^{-k+1} \sigma ^{-1} \tau^{1/2} I(f)
+$$
+so set
+$$
+\tau=\frac{ \epsilon^{2}\sigma^{2}\rho^{2k-2} }{ I(f)^{2} }
 $$
 
 
