@@ -28,6 +28,7 @@ $$
 $$
 \widehat{T_{\rho}f}(A) =\rho^{\lvert A \rvert }\hat{f}(A)
 $$
+so $T_{\rho}$ is diagonal on the Fourier side and thus self-[[Adjoint]].
 
 
 

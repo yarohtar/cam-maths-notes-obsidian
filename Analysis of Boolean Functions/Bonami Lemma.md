@@ -82,7 +82,16 @@ $$
 \lVert T_{\rho}f \rVert _{2} \leq \lVert f \rVert _{\frac{4}{3}}
 $$
 #### Proof
-...
+Use 
+$$
+\lVert T_{\rho}f \rVert_{2} =\max_{\lVert g \rVert _{2}=1} \braket{ T_{\rho}f | g } 
+$$
+and note that the [[Noise]] operator is self-[[Adjoint]] so
+$$
+\lVert T_{\rho}f \rVert _{2} = \max_{\lVert g \rVert _{2}=1} \braket{ f | T_{\rho}g } 
+$$
+
+
 ### Corollary
 $$
 \mathrm{Stab}_{\frac{\sigma^{2}}{4}} f\leq\lVert f \rVert _{\frac{4}{3}}^{2}
