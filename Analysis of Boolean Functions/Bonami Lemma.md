@@ -94,7 +94,8 @@ If $\lVert g \rVert_{2}=1$ then $\lVert T_{\rho}g \rVert_{4}\leq 1$ so $\braket{
 $$
 \lVert T_{\rho}f \rVert _{2} \leq \max_{\lVert h \rVert _{4}=1} \braket{ f | h } =\lVert f \rVert _{\frac{4}{3}}
 $$
-as $L_{\frac{4}{3}}$ is the dual of $L_{4}$.
+as $L_{\frac{4}{3}}$ is the dual of $L_{4}$
+(or we can just say $\leq$ by [[Hölder inequality]] which suffices).
 ### Corollary
 $$
 \mathrm{Stab}_{\frac{\sigma^{2}}{4}} f\leq\lVert f \rVert _{\frac{4}{3}}^{2}
