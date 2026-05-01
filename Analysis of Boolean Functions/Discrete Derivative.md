@@ -44,10 +44,10 @@ Therefore
 $$
 f(x)-E_{i}f(x) = \phi_{i}D_{i}f(x)
 $$
-Now we just need to calculate
+For orthogonality, note that $\mathop{\mathbb{E}}\phi_{i}=0$ 
+and $E_{i}f$ and $D_{i}f$ don't depend on $x_{i}$. 
+So by conditioning on everything except $x_{i}$ we find 
 $$
-\begin{align}
-\braket{ E_{i}f | \phi_{i}D_{i}f } & =\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} (qf(x_{i\to 1}) + p f(x_{i\to-1}))\frac{ x_{i}-\mu }{ 2 }(f(x_{i\to 1})-f(x_{i\to-1})) \\
- & =
-\end{align}
+\braket{ E_{i}f | \phi_{i}D_{i}f } =\mathop{\Large\mathbb{E}}\limits_{x\sim \mu_{p}} E_{i}f(x) \phi_{i}(x) D_{i}f(x) = 0
 $$
+
