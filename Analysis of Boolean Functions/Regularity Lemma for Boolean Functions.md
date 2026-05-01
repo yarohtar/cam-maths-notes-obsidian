@@ -6,10 +6,6 @@ then the probability that $f_{u}$ is a $(\epsilon,p,r)$-[[Quasirandom Boolean Fu
 #### Proof
 Suppose that $J$ doesn't satisfy the conclusion of the lemma.
 Let $u\in \{ 0,1 \}^{J}$ and $K\subseteq[n]\setminus J$. 
-Note [[Mean Square Density]] satisfies
-$$
-\lVert E_{K}f_{u} \rVert_{2}^{2} \geq \lVert E_{\varnothing}f_{u} \rVert _{2}^{2} = (\mathop{\mathbb{E}}f_{u})^{2}
-$$
 If $f_{u}$ is not a $(\epsilon,p,r)$-[[Quasirandom Boolean Function]], 
 then there is some $K_{u}\subseteq[n]\setminus J$ with $\lvert K_{u} \rvert\leq r$ and some $v\in \{ 0,1 \}^{K_{u}}$ such that 
 $$
@@ -28,5 +24,24 @@ $$
 so LHS is the variance of $\mathop{\mathbb{E}}f_{u,v}-\mathop{\mathbb{E}}f_{u}$ over random $v$.
 As $\mathop{\mathbb{E}}f_{u}$ is constant here, this variance has to be equal to
 $$
-\mathop{\Large\mathbb{E}}\limits_{w}
+\mathop{\Large\mathbb{E}}\limits_{w} (\mathop{\mathbb{E}}f_{u,w})^{2} - \left( \mathop{\Large\mathbb{E}}\limits_{w}f_{u,w} \right)^{2} = \lVert E_{K_{u}} f \rVert _{2}^{2} - (\mathop{\mathbb{E}}f_{u})^{2}
 $$
+so 
+$$
+\lVert E_{K_{u}}f_{u} \rVert _{2}^{2} \geq (\mathop{\mathbb{E}}f_{u})^{2} + \zeta^{r}\epsilon^{2}
+$$
+in this case.
+Let 
+$$
+K=\bigcup_{u} K_{u}
+$$
+where the union is over all $u$ such that $f_{u}$ is not a $(\epsilon,p,r)$-[[Quasirandom Boolean Function]].
+We conclude 
+$$
+\lVert E_{K}f_{u} \rVert _{2}^{2} \geq (\mathop{\mathbb{E}}f_{u})^{2} + \zeta^{r}\epsilon^{2}
+$$
+Also [[Mean Square Density]] satisfies for any $u\in \{ 0,1 \}^{J}$:
+$$
+\lVert E_{K}f_{u} \rVert_{2}^{2} \geq \lVert E_{\varnothing}f_{u} \rVert _{2}^{2} = (\mathop{\mathbb{E}}f_{u})^{2}
+$$
+Now note that a random $u\in \{ 0,1 \}^{J}$ has probability at least $\delta$ to satisfy the above
