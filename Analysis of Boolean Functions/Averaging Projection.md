@@ -28,4 +28,7 @@ $$
 $$
 But this is clear as $E_{J}$ is self-[[Adjoint]].
 Now let $J\subseteq K$ and let $L=K\setminus J$.
-We will take $u\in \{ 0,1 \}^{J}$, $v\in \{ 0, \}$
+We will take $u\in \{ 0,1 \}^{J}$, $v\in \{ 0,1 \}^{L}$ and $z\in \{ 0,1 \}^{[n]\setminus K}$ and $x=(u,v,z)$.
+$$
+E_{J}E_{K}f(x) = E_{J} \left( \mathop{\Large\mathbb{E}}\limits_{z} f(u,v,z) \right) =\mathop{\Large\mathbb{E}}\limits_{v,z} f(u,v,z) = E_{J} f(x)
+$$
