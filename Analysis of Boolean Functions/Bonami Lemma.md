@@ -39,5 +39,17 @@ and apply inductive step:
 $$
 \lVert f \rVert _{4}^{4} \leq C^{2k}\left( \lVert g \rVert _{2}^{4} + 6 C^{-1}\lVert g \rVert _{2}^{2}\lVert h \rVert _{2}^{2} + \frac{8}{\sigma}C^{-3/2}\lVert g \rVert _{2}\lVert h \rVert _{2}^{3}+ C^{-2}\frac{4}{\sigma^{2}}\lVert h \rVert _{2}^{4} \right)
 $$
-
+Apply 
+$$
+ab\leq \frac{ a^{2}+b^{2} }{ 2 }
+$$
+with $a=2\lVert g \rVert_{2}\lVert h \rVert_{2}C^{-1/2}$ and $b=C^{-1} \frac{4}{\sigma}\lVert h \rVert_{2}^{2}$ to find
+$$
+\frac{8}{\sigma}C^{-3/2} \lVert g \rVert _{2} \lVert h \rVert _{2}^{3} \leq 2\lVert g \rVert _{2}^{2}\lVert h \rVert _{2}^{2}C^{-1} + \frac{8}{\sigma^{2}}C^{-2} \lVert h \rVert _{2}^{4}
+$$
+and
+$$
+\lVert f \rVert _{4}^{4} \leq C^{2k} \left( \lVert g \rVert _{2}^{4} + 8C^{-1}\lVert g \rVert _{2}^{2}\lVert h \rVert _{2}^{2} + \frac{12}{\sigma^{2}}C^{-2} \lVert h \rVert _{2}^{4} \right)
+$$
+Finally, choose $C$ such that $8C^{-1}\leq 2$ and $\frac{12}{\sigma^{2}}C^{-2}\leq 1$ i.e. $C=\frac{4}{\sigma^{2}}$ will do.
 
