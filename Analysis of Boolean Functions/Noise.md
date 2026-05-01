@@ -19,6 +19,15 @@ $$
 $$
 \begin{align}
 T_{\rho}\phi_{A}(x)  & = \mathop{\Large\mathbb{E}}\limits_{y\sim N_{\rho}(x)} \prod_{i\in A}\phi(y_{i}) \\
- & =\prod_{i\in A}(\rho \phi(x_{i})+(1-\rho))
+ & = \prod_{i\in A}\mathop{\Large\mathbb{E}}\limits_{y\sim N_{\rho}(x)} \phi(y_{i}) \\
+ & =\prod_{i\in A}(\rho \phi(x_{i})+(1-\rho)\mathop{\mathbb{E}}\phi) \\
+ & = \rho^{\lvert A \rvert } \phi_{A}(x)
 \end{align}
 $$
+### Corollary
+$$
+\widehat{T_{\rho}f}(A) =\rho^{\lvert A \rvert }\hat{f}(A)
+$$
+
+
+
