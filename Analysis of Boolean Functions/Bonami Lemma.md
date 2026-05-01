@@ -82,7 +82,7 @@ $$
 ...
 ### Corollary
 $$
-\mathrm{Stab}_{\frac{\sigma^{2}}{4}} f=\lVert f \rVert _{\frac{4}{3}}^{2}
+\mathrm{Stab}_{\frac{\sigma^{2}}{4}} f\leq\lVert f \rVert _{\frac{4}{3}}^{2}
 $$
 #### Proof
 $$

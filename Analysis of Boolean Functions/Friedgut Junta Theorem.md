@@ -14,3 +14,10 @@ and let
 $$
 J=\{ i:\mathrm{Inf}_{i}f\geq \tau \}
 $$
+Let $\rho=\frac{\sigma^{2}}{4}$
+Now note
+$$
+\sum_{i\not\in J}\mathrm{Stab}_{\rho}(D_{i}f)\leq \sum_{i\not\in J}\lVert D_{i}f \rVert _{\frac{4}{3}}^{2} = \sum_{i\not\in J}\lVert D_{i}f \rVert _{2}^{3} \sigma^{-1}
+$$
+by the [[Bonami Lemma]] and the fact that $D_{i}f\in \{ -\sigma,0,\sigma \}$ 
+
