@@ -1,7 +1,7 @@
-Let $f:\{ -1,1 \}^{n}\to \mathbb{C}$ with [[Discrete Fourier Transform on Boolean Functions]] $\hat{f}:\mathcal{P}([n])\to \mathbb{C}$
+Let $f:\{ -1,1 \}^{n}\to \mathbb{C}$ with [[Discrete Fourier Transform on the Biased Cube]] $\hat{f}:\mathcal{P}([n])\to \mathbb{C}$
 By [[Discrete Fourier Transform]] inversion formula:
 $$
-f(x) = \sum_{A\subseteq[n]} \hat{f}(A)x_{A}
+f(x) = \sum_{A\subseteq[n]} \hat{f}(A)\phi_{A}
 $$
 The degree of $f$ is 
 $$
