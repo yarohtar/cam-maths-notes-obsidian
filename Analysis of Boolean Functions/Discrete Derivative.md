@@ -16,3 +16,21 @@ If $\hat{f}$ is the [[Discrete Fourier Transform on the Biased Cube]], then:
 $$
 D_{i}f=\sum_{A\ni i} \hat{f}(A)\phi_{A\setminus \{ i \}}
 $$
+### Lemma
+Let $E_{i}f$ be defined as
+$$
+E_{i}f(x) = qf(x_{i\to 1}) + pf(x_{i\to-1})
+$$
+Then
+$$
+f=E_{i}f + \phi_{i}D_{i}f
+$$
+and $E_{i}f$ and $\phi_{i}D_{i}f$ are orthogonal.
+#### Proof
+$$
+f(x)-E_{i}f = \begin{cases}
+p(f(x_{i\to 1})- f(x_{i\to-1})) & \text{if }x_{i}=1 \\
+-q(f(x_{i\to 1})-f(x_{i\to-1})) & \text{if }x_{i}=-1
+\end{cases}
+$$
+
