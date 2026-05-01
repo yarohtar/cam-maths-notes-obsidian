@@ -73,7 +73,7 @@ $$
 \end{align}
 $$
 where the last inequality is [[Jensen's Inequality]] and the last line is [[Pythagoras]].
-[[Tensor Power Trick]]
+We are done by [[Tensor Power Trick]].
 
 ### Corollary
 Let $\rho=\frac{\sigma}{2}$ and $f:\{ -1,1 \}^{n}\to \mathbb{R}$.
