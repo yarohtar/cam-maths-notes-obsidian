@@ -38,5 +38,8 @@ Then $f_{u}$ and $f_{v}$ are $\left( \frac{\epsilon}{10},p,r\right)$-[[Quasirand
 and $\mathop{\mathbb{E}}f^{(p)}_{u},\mathop{\mathbb{E}}f_{v}^{(p)}\geq \frac{\epsilon}{2}$.
 It follows that for appropriate $r$ we have 
 $$
-\mathop{\mathbb{E}}f_{u}^{(1/2)}, 
+\mathop{\mathbb{E}}f_{u}^{(1/2)}, \mathop{\mathbb{E}}f_{v}^{(1/2)} > \frac{1}{2}
 $$
+By averaging we can find $y,z\in \{ 0,1 \}^{[n]\setminus J}$ such that $y_{i}=1\iff z_{i}=0$ 
+and $f_{u}(y)=f_{v}(z)=1$.
+Since $f$ is intersecting there must exist $i\in J$ such that $u_{i}=v_{i}=1$ so $g$ is [[Intersecting Family]].
