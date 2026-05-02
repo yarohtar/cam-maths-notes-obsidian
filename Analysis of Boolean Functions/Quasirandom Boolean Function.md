@@ -3,6 +3,10 @@ if for every $J\subseteq[n]$ of size $r$, and every $u\in \{ 0,1 \}^{J}$
 $$
 \left\lvert  \mathop{\mathbb{E}} (f^{(p)}(x) \mid x|_{J}=u) - \mathop{\mathbb{E}} f^{(p)}(x) \right\rvert \leq \epsilon
 $$
+In the notation of [[Averaging Projection]]
+$$
+\lvert \mathop{\mathbb{E}}f_{u}^{(p)} - \mathop{\mathbb{E}}f^{(p)} \rvert  \leq \epsilon
+$$
 ### Intuition
 Knowing what any $r$ coordinates of $x$ are gives almost no information to what $f(x)$ is going to be.
 
@@ -46,4 +50,18 @@ and
 $$
 \mathbb{P}(h^{(s)}=1) \leq \frac{1}{2} + \epsilon
 $$
-Choosing $\epsilon$
+Choosing $\epsilon\leq\frac{1}{4}$ find
+$$
+\mathbb{P}(f^{(s)}=1 \mid h^{(s)}=0) = \frac{ \mathbb{P}(f^{(s)}=1\land h^{(s)}=0) }{ \mathbb{P}(h^{(s)}=0) } \leq 4\epsilon
+$$
+Take some $u$ such that $h_{u}\equiv 0$.
+Then 
+$$
+\mathbb{P}(f_{u}^{(s)}=1) \leq 4\epsilon
+$$
+so by monotonicity of $f$ we get 
+$$
+\mathop{\mathbb{E}}f^{(p)}_{u} \leq \mathop{\mathbb{E}}f^{(s)}_{u} \leq 4\epsilon
+$$
+so taking $\epsilon<\alpha$
+
