@@ -15,3 +15,20 @@ The probability that it joins $\mathcal{A}$ to $\partial_{s}\mathcal{A}$ is $\al
 It is also at most $\beta$.
 So $\alpha\leq \beta$.
 lol
+### Modified version
+Let also $J\subseteq[n]$ and define
+$$
+\partial_{J}^{s} \mathcal{A} = \{ B\in[n]^{(s)} : (\exists A\in \mathcal{A})\ A\subseteq B\land (B\setminus A)\cap J=\varnothing \}
+$$
+Let 
+$$
+\alpha=\frac{ \lvert \mathcal{A} \rvert  }{ \binom{ n }{ r } }\quad %quad
+\text{ and }\quad %quad
+\beta=\frac{ \lvert \partial_{J}^{s}\mathcal{A} \rvert  }{ \binom{ n }{ s } }
+$$
+Assume that $r\leq \frac{n}{2}$.
+Then
+$$
+\beta\geq \alpha\left( 1- \frac{ 2\lvert J \rvert  }{ n } \right)
+$$
+

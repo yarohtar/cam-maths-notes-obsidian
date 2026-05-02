@@ -54,7 +54,12 @@ Choosing $\epsilon\leq\frac{1}{4}$ find
 $$
 \mathbb{P}(f^{(s)}=1 \mid h^{(s)}=0) = \frac{ \mathbb{P}(f^{(s)}=1\land h^{(s)}=0) }{ \mathbb{P}(h^{(s)}=0) } \leq 4\epsilon
 $$
-Take some $u\in J$ such that $h_{u}\equiv 0$.
+Consider the set $U=\{ u\in \{ 0,1 \}^{J}: h_{u}\equiv 0 \}$.
+Then 
+$$
+\mathop{\Large\mathbb{E}}\limits_{u\in U} \mathop{\mathbb{E}}f_{u} = \mathop{\Large\mathbb{E}}\limits_{x|_{J}\in U} f^{(s)} = \mathbb{P}(f^{(s)}=1: h^{(s)}=0) \leq 4\epsilon 
+$$
+so there is some $u\in U$ such that $\mathop{\mathbb{E}}f_{u}\leq 4\epsilon$
 Then 
 $$
 \mathbb{P}(f_{u}^{(s)}=1) \leq 4\epsilon
