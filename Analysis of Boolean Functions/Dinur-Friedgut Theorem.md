@@ -30,3 +30,13 @@ This corresponds to the statement that
 $$
 \lvert \mathcal{A} \setminus \bar{\mathcal{B}} \rvert \leq \epsilon
 $$
+Note that $\bar{\mathcal{A}}$ is an [[Intersecting Family]] and $\lvert \bar{\mathcal{A}}\setminus  \bar{\mathcal{B}} \rvert \geq \lvert \mathcal{A}\setminus  \bar{\mathcal{B}} \rvert$  
+so we may assume that $f$ is monotone and hence each $f_{u}$ is monotone.
+It remains to prove that $g$ is [[Intersecting Family]].
+Let $u,v\in \{ 0,1 \}^{J}$ such that $g(u)=g(v)=1$.
+Then $f_{u}$ and $f_{v}$ are $\left( \frac{\epsilon}{10},p,r\right)$-[[Quasirandom Boolean Function]]s
+and $\mathop{\mathbb{E}}f^{(p)}_{u},\mathop{\mathbb{E}}f_{v}^{(p)}\geq \frac{\epsilon}{2}$.
+It follows that for appropriate $r$ we have 
+$$
+\mathop{\mathbb{E}}f_{u}^{(1/2)}, 
+$$
