@@ -63,6 +63,13 @@ so set
 $$
 \tau=\frac{ \epsilon^{2}\sigma^{2}\rho^{2k-2} }{ I(f)^{2} }
 $$
+### Corollary
+We can approximate $f$ by a boolean $m$-[[Junta]] $h:\{ -1,1 \}^{n}\to \mathbb{R}$.
+#### Proof
+Take
+$$
+h(x) = \operatorname{sgn} g(x)
+$$
 
 
 

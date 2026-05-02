@@ -42,3 +42,8 @@ by monotonicity of $f$ so
 $$
 \mathbb{P}(f^{(s)}=1) \leq \frac{1}{2} 
 $$
+and 
+$$
+\mathbb{P}(h^{(s)}=1) \leq \frac{1}{2} + \epsilon
+$$
+Choosing $\epsilon$
