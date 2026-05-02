@@ -26,9 +26,16 @@ $$
 \text{ and }\quad %quad
 \beta=\frac{ \lvert \partial_{J}^{s}\mathcal{A} \rvert  }{ \binom{ n }{ s } }
 $$
-Assume that $r\leq \frac{n}{2}$.
+Assume that $r\leq \frac{n}{2}-\lvert J \rvert$.
 Then
 $$
-\beta\geq \alpha\left( 1- \frac{ 2\lvert J \rvert  }{ n } \right)
+\beta\geq \alpha\left( 1- \frac{ 2\lvert J \rvert  }{ n } \right)^{s-r}
+$$
+#### Proof
+Pick a random pair $A\in[n]^{(r)}$, $B\in[n]^{(s)}$ with $A\subseteq B$.
+Then $\mathbb{P}(A\in \mathcal{A})=\alpha$ and $B$ adds $s-r$ random elements from $[n]\setminus A$.
+Each of them has probability 
+$$
+\mathbb{P}((A,B)\in \mathcal{A}\times \partial_{J}^{s}\mathcal{A}) \geq \alpha\left( 1-\frac{ 2\lvert J \rvert  }{ n } \right)^{s-r}
 $$
 
