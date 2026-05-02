@@ -4,6 +4,7 @@ A poset (partially ordered set) is a set with a [[Partial Order]]
 [[Upper Bound]]
 [[Least Upper Bound]]
 [[Complete Poset]]
+[[Upward Closure]]
 
 [[Knaster-Tarski fixed point theorem]]
 [[Schröder-Bernstein Theorem]]

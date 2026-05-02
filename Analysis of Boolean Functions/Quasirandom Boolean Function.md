@@ -54,7 +54,7 @@ Choosing $\epsilon\leq\frac{1}{4}$ find
 $$
 \mathbb{P}(f^{(s)}=1 \mid h^{(s)}=0) = \frac{ \mathbb{P}(f^{(s)}=1\land h^{(s)}=0) }{ \mathbb{P}(h^{(s)}=0) } \leq 4\epsilon
 $$
-Take some $u$ such that $h_{u}\equiv 0$.
+Take some $u\in J$ such that $h_{u}\equiv 0$.
 Then 
 $$
 \mathbb{P}(f_{u}^{(s)}=1) \leq 4\epsilon
@@ -63,5 +63,9 @@ so by monotonicity of $f$ we get
 $$
 \mathop{\mathbb{E}}f^{(p)}_{u} \leq \mathop{\mathbb{E}}f^{(s)}_{u} \leq 4\epsilon
 $$
-so taking $\epsilon<\alpha$
+so taking $\epsilon<\frac{\alpha}{5}$ we find 
+$$
+\lvert \mathop{\mathbb{E}}f_{u}^{(p)} - \mathop{\mathbb{E}}f^{(p)} \rvert > \epsilon
+$$
+contradicting quasirandomness.
 
