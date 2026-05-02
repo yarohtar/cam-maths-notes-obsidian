@@ -64,3 +64,16 @@ we find
 $$
 \partial_{J}^{s} \mathcal{C} \cap  \bar{\mathcal{B}} =\varnothing
 $$
+for every $s>r$
+Also if $s\leq r+n^{2/3}$ then using [[LYM Inequality]]:
+$$
+\frac{ \lvert \partial_{J}^{s} \rvert  }{ \binom{ n }{ s } } \geq \epsilon\left( 1-\frac{ 2\lvert J \rvert  }{ n } \right)^{n^{2/3}} \geq \frac{ 3\epsilon }{ 4 }
+$$
+for $n$ sufficiently large.
+But 
+$$
+\mu_{p}(\bar{\mathcal{C}}) = \sum_{s\geq r} \mu_{p} ([n]^{(s)}) \cdot \left( \frac{ \lvert \partial_{J}^{s}\mathcal{C}  \rvert  }{ \binom{ n }{ s } } \right)
+\geq \frac{ 3\epsilon }{ r } \sum_{r\leq s\leq n^{2/3}} \mu_{p}([n]^{(s)}) 
+\geq \frac{ 5\epsilon }{ 16 }
+$$
+But $\bar{\mathcal{C}}\subseteq  \bar{\mathcal{A}} \setminus  \bar{\mathcal{B}}$ so this is a contradiction (as $\lvert \bar{\mathcal{A}}\setminus  \bar{\mathcal{B}}\rvert \leq \frac{\epsilon}{4}$)
