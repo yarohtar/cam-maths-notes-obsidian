@@ -43,3 +43,24 @@ $$
 By averaging we can find $y,z\in \{ 0,1 \}^{[n]\setminus J}$ such that $y_{i}=1\iff z_{i}=0$ 
 and $f_{u}(y)=f_{v}(z)=1$.
 Since $f$ is intersecting there must exist $i\in J$ such that $u_{i}=v_{i}=1$ so $g$ is [[Intersecting Family]].
+
+### Corollary
+For every $p\in\left( 0,\frac{1}{2} \right)$ and $\epsilon>0$ 
+there is some $m$ such that for every $n\in \mathbb{N}$ and every [[Intersecting Family]] $\mathcal{A}\subseteq[n]^{(r)}$ where $r=pn$ 
+there is some $J\subseteq[n]$ with $\lvert J \rvert\leq m$
+and an [[Intersecting Family]] $\mathcal{B}$ of subsets of $J$ 
+such that
+$$
+\lvert \mathcal{A}\setminus  \bar{\mathcal{B}} \rvert \leq \epsilon \binom{ n }{ r }
+$$
+#### Proof
+Suppose not.
+Let $\mathcal{C}=\mathcal{A}\setminus  \bar{\mathcal{B}}$.
+Then $\mathcal{C}$ has density at least $\epsilon$.
+Apply Dinur-Friedgut to $\bar{\mathcal{A}}$ to obtain $J$ 
+and intersecting family $\mathcal{B}$ of subsets of $J$ with $\mu_{p}(\bar{\mathcal{A}}\setminus  \bar{\mathcal{B}})\leq \frac{\epsilon}{4}$.
+Note that since $\mathcal{C}\cap  \bar{\mathcal{B}}=\varnothing$
+we find 
+$$
+\partial_{J}^{s} \mathcal{C} \cap  \bar{\mathcal{B}} =\varnothing
+$$
