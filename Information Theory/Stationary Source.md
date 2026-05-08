@@ -16,4 +16,8 @@ It is bounded below by $0$, and it is non increasing:
 $$
 H(X_{n}|X_{1}^{n-1}) \leq H(X_{n}|X_{2}^{n-1}) = H(X_{n-1}|X_{1}^{n-2})
 $$
-By the chan
+By the [[Entropy Chain Rule]]:
+$$
+H(X_{1}^{n}) = \sum_{i=1}^{n} H(X_{i}|X_{1}^{i-1})
+$$
+so the averages converge. 
