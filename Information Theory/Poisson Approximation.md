@@ -48,6 +48,8 @@ for all $n$, where $\lVert \cdot \rVert_{TV}$ is [[Total Variation Distance]].
 Apply [[Pinsker's Inequality]].
 ### Corollary
 $$
-H(\mathrm{Po}(\lambda)) = \sup \{ H(P) :  \}
+H(\mathrm{Po}(\lambda)) = \sup \left\{  H(S_{n}) : S_{n}=\sum X_{i}   \right\}
 $$
+where the supremum is taken over all $X_{i}$ that are independent Bernoulli
+with $\sum p_{i}=\lambda$
 
