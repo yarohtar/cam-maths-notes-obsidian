@@ -10,3 +10,10 @@ Moreover, we can express this as
 $$
 H(X) = \lim_{n\to \infty}H(X_{0}\mid X_{-n}^{-1}) = H(X_{0}\mid X_{-\infty}^{-1})
 $$
+#### Proof
+Consider the sequence $H(X_{n}|X_{1}^{n-1})$. 
+It is bounded below by $0$, and it is non increasing:
+$$
+H(X_{n}|X_{1}^{n-1}) \leq H(X_{n}|X_{2}^{n-1}) = H(X_{n-1}|X_{1}^{n-2})
+$$
+By the chan
