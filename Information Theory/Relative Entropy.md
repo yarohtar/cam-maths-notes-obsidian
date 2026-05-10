@@ -7,7 +7,7 @@ $$
 Additionally, we define
 $$
 \begin{align}
-D_{e}(P||Q)  & = \sum_{x\in A} \log_{e} \frac{ P(x) }{ Q(x) }  \\
+D_{e}(P||Q)  & = \sum_{x\in A} P(x) \log_{e} \frac{ P(x) }{ Q(x) }  \\
  & = (\log_{e}2) D(P||Q)
 \end{align}
 $$
