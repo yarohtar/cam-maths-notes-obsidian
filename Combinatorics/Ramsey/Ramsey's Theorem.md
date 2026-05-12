@@ -19,5 +19,6 @@ $$
 c(\{a_{i_{0}},a_{i_{1}},\dots,a_{i_{r}}\}) = c_{i_{0}}
 $$
 whenever $i_{0}<i_{1},\dots,i_{r}$.
-But infinitely many of $c_{0},$
+But infinitely many of $c_{0},c_{1},\dots$ will be the same,
+so choose this subsequence for the infinite monochromatic set.
 
