@@ -3,3 +3,14 @@ Then there exists an infinite monochromatic set.
 ### Proof
 We prove this by induction on $r$.
 The case $r=1$ is trivial. 
+Assume the statement for $r$ and let $c:\mathbb{N}^{(r+1)}\to 2$ be a colouring.
+Construct the sequences $a_{n}\in B_{n}\subseteq \mathbb{N}$ for all $n\in \mathbb{N}$.
+Let $B_{0}=\mathbb{N}$ and $a_{0}\in B_{0}$. 
+Consider the colouring $c':(B_{n}\setminus \{ a_{n} \})^{(r)}\to 2$ 
+given by 
+$$
+c'(F)=c(F\cup \{ a_{n} \})
+$$
+Let $B_{n+1}$ be an infinite monochromatic subset of $B_{n}$ under $c'$
+(given by the induction hypothesis)
+
