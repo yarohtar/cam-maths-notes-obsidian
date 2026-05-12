@@ -5,10 +5,16 @@ In particular, the [[Waerden's Number]] $W(m,k)$ exists.
 ### Proof
 We proceed by induction on $m$.
 The case $m=1$ is trivial. 
-Suppose we have proved the claim for $m-1$.
+Suppose we have proved the claim for $m-1$,
+and assume there is no monochromatic progression of length $m$.
 We show the following claim:
 For all $r\leq k$, there exists some $n$ such that whenever $[n]$ is $k$-coloured,
-then either there is a monochromatic arithmetic progression of length $m$,
-or $r$ [[Colour-Focused]] arithmetic progressions of length $m-1$
+there exist $r$ [[Colour-Focused]] arithmetic progressions of length $m-1$.
 We do an induction on $r$.
-For $r=1$, we can set $n=W(m-1,k)$ to find one colour-focused progression.
+For $r=1$, we can set $n=W(m-1,k)$.
+Now assume that $n$ is suitable for $r-1$. 
+We claim that $2n \cdot W(m-1,k^{2n})$ is suitable for $r$.
+Split $[2n\cdot W(m-1,k^{2n})]$ into $W(m-1,k^{2n})$ blocks of size $2n$. 
+There is $k^{2n}$ ways to colour a block, 
+so we can find $B_{s},B_{s+t},\dots,B_{s+(m-2)t}$ identically coloured. 
+
