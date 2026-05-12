@@ -11,6 +11,11 @@ given by
 $$
 c'(F)=c(F\cup \{ a_{n} \})
 $$
-Let $B_{n+1}$ be an infinite monochromatic subset of $B_{n}$ under $c'$
+Let $B_{n+1}$ be an infinite monochromatic subset of $B_{n}\setminus \{ a_{n} \}$ under $c'$
 (given by the induction hypothesis)
+Thus we have a sequence of distinct $a_{0},a_{1},\dots$
+and some colours $c_{0},c_{1},\dots \in 2$ such that 
+$$
+c(a_{i_{0}},a_{i_{1}},\dots,a_{i_{r}})
+$$
 
