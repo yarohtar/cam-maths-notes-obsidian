@@ -17,4 +17,6 @@ We claim that $2n \cdot W(m-1,k^{2n})$ is suitable for $r$.
 Split $[2n\cdot W(m-1,k^{2n})]$ into $W(m-1,k^{2n})$ blocks of size $2n$. 
 There is $k^{2n}$ ways to colour a block, 
 so we can find $B_{s},B_{s+t},\dots,B_{s+(m-2)t}$ identically coloured. 
-
+Now the first half of $B_{s}$ has $r-1$ [[Colour-Focused]] progressions $A_{1},\dots,A_{r-1}$
+of length $m-1$
+As the length of $B_{s}$ is $2n$ and $m>1$, 
