@@ -19,4 +19,11 @@ There is $k^{2n}$ ways to colour a block,
 so we can find $B_{s},B_{s+t},\dots,B_{s+(m-2)t}$ identically coloured. 
 Now the first half of $B_{s}$ has $r-1$ [[Colour-Focused]] progressions $A_{1},\dots,A_{r-1}$
 of length $m-1$
-As the length of $B_{s}$ is $2n$ and $m>1$, 
+As the length of $B_{s}$ is $2n$, the focus $f$ of these progressions is also in $B_{s}$.
+Now consider the progressions $A_{i}'=\{ a_{i}+j(d_{i}+2nt) \}$. 
+They are [[Colour-Focused]] at $f+2nt(m-1)$.
+But so is $f,f+2nt, \dots,f+2nt(m-2)$, which is also monochromatic,
+but $f$ is a different colour from all the other ones.
+Thus we found the $r$ [[Colour-Focused]] progressions.
+
+This completes the proof, as applying the claim for $r=k$ gives a contradiction.
