@@ -6,3 +6,6 @@ $$
 L=\{ x\in X^{n} : x_{i}=a_{i}\text{ for $i\not\in I$ and }x_{i_{1}}=x_{i_{2}}=\dots=x_{i_{r}} \}
 $$
 with the set $I=\{ i_{j}:j\in [r] \}$.
+
+Also write $L^{-}$ and $L^{+}$ for the first and last points in $L$ 
+(i.e. the ones with minimal and maximal $x_{i_{1}}$ respectively)
