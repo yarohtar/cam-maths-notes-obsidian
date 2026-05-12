@@ -16,6 +16,8 @@ Let $B_{n+1}$ be an infinite monochromatic subset of $B_{n}\setminus \{ a_{n} \}
 Thus we have a sequence of distinct $a_{0},a_{1},\dots$
 and some colours $c_{0},c_{1},\dots \in 2$ such that 
 $$
-c(a_{i_{0}},a_{i_{1}},\dots,a_{i_{r}})
+c(\{a_{i_{0}},a_{i_{1}},\dots,a_{i_{r}}\}) = c_{i_{0}}
 $$
+whenever $i_{0}<i_{1},\dots,i_{r}$.
+But infinitely many of $c_{0},$
 
