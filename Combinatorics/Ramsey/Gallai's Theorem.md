@@ -6,8 +6,10 @@ Let $S=\{ S_{1},\dots,S_{m} \}$.
 Let $c$ be a $k$-colouring of $\mathbb{N}^{d}$.
 Define a colouring of $[m]^{n}$ by 
 $$
-c'(x) = c\left( \sum_{i}S(x_{i}) \right)
+c'(x) = c\left( \sum_{i=1}^{n}S_{x_{i}} \right)
 $$
-By [[The Hales-Jewett Theorem]], find a monochromatic line in $[m]^{n}$,
+By [[The Hales-Jewett Theorem]], find a monochromatic line $L$ in $[m]^{n}$,
 with active coordinates $I$.
+Let $\lambda=\lvert I \rvert$ and $a=\sum_{i=1}^{n}S_{L^{-}_{i}}$. 
+
 
