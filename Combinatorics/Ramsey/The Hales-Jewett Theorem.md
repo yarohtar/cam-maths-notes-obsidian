@@ -17,7 +17,10 @@ so extend it to a line $L$ in $[m]^{n'}$.
 Now any $a\in[m]^{n}$ has a colour given by this line 
 (i.e. for any $b,b'\in L\setminus \{ L^{+} \}$, the colour of $(a,b)$ is the same as of $(a,b')$).
 Thus we colour $[m]^{n}$ in $k$ colours induced by the line $L$.
-By the choice of $n$, there are $r$ 
+By the choice of $n$, there are $r$ [[Colour-Focused]] lines in $[m]^{n}$,
+under this new colouring, say $L_{1},\dots,L_{r}$.
+This gives $r$ [[Colour-Focused]] lines $(L_{1},L),\dots,(L_{r},L)$ in $[m]^{n+n'}$.
+
 
 
 
