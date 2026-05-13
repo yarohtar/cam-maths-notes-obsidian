@@ -14,7 +14,10 @@ Identify $[m]^{n+n'}$ with $[m]^{n}\times[m]^{n'}$.
 There are $k^{m^{n}}$ ways to colour a copy of $[m]^{n}$.
 By choice of $n'$, there is a monochromatic line in $[m-1]^{n'}$,
 so extend it to a line $L$ in $[m]^{n'}$.
-
+Now any $a\in[m]^{n}$ has a colour given by this line 
+(i.e. for any $b,b'\in L\setminus \{ L^{+} \}$, the colour of $(a,b)$ is the same as of $(a,b')$).
+Thus we colour $[m]^{n}$ in $k$ colours induced by the line $L$.
+By the choice of $n$, there are $r$ 
 
 
 
