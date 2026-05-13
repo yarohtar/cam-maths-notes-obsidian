@@ -12,7 +12,9 @@ For $r=1$ set $n=HJ(m-1,k)$.
 Given $n$ suitable for $r$, let $n'=HJ(m-1,k^{m^{n}})$.
 Identify $[m]^{n+n'}$ with $[m]^{n}\times[m]^{n'}$.
 There are $k^{m^{n}}$ ways to colour a copy of $[m]^{n}$.
-By choice of $n'$, there is a monochromatic line in $[m]^{n'}$.
+By choice of $n'$, there is a monochromatic line in $[m-1]^{n'}$,
+so extend it to a line $L$ in $[m]^{n'}$.
+
 
 
 
