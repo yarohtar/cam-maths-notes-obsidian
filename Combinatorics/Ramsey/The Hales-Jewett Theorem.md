@@ -20,7 +20,10 @@ Thus we colour $[m]^{n}$ in $k$ colours induced by the line $L$.
 By the choice of $n$, there are $r$ [[Colour-Focused]] lines in $[m]^{n}$,
 under this new colouring, say $L_{1},\dots,L_{r}$ focused at $f$.
 This gives $r$ [[Colour-Focused]] lines $(L_{1},L),\dots,(L_{r},L)$ in $[m]^{n+n'}$.
-Moreover, the line $(f,L)$ i
+Moreover, the line $(f,L)$ is also focused at $L^{+}$.
+But $f$ is of a different colour from $L_{1},\dots,L_{r}$, 
+otherwise we would've had a monochromatic line in $[m]^{n}$. 
+This completes the $r$-induction, and the claim follows.
 
 
 
