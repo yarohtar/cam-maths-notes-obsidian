@@ -10,6 +10,6 @@ c'(x) = c\left( \sum_{i=1}^{n}S_{x_{i}} \right)
 $$
 By [[The Hales-Jewett Theorem]], find a monochromatic line $L$ in $[m]^{n}$,
 with active coordinates $I$.
-Let $\lambda=\lvert I \rvert$ and $a=\sum_{i=1}^{n}S_{L^{-}_{i}}$. 
-
+Let $\lambda=\lvert I \rvert$ and $a=\sum_{i\not\in I}S_{L^{-}_{i}}$. 
+The result follows.
 
