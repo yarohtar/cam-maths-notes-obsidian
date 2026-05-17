@@ -32,9 +32,9 @@ Consider a term in the expansion of $\det L_{G}^{*}$:
 $$
 P(\sigma)= (-1)^{\operatorname{sgn}(\sigma)} \prod_{i=1}^{n-1} (L_{G}^{*})_{i\sigma(i)} 
 $$
-Then we note that:
+Then split the product into $i\in B^{C}$ and $i\in B$ and note:
 $$
-P(\sigma)=\sum_{\beta}  (-1)^{\operatorname{sgn}(\sigma)+ \lvert B^{C} \rvert } \left( \prod_{i\in B^{C}} A_{i\sigma(i)} \right) \left(\prod_{i\in B} A_{i\beta(i)} \right)
+P(\sigma)=(-1)^{\operatorname{sgn}(\sigma)+ \lvert B^{C} \rvert } \left( \prod_{i\in B^{C}} A_{i\sigma(i)} \right) \left(\sum_{\beta \in [n]^{B}}  \prod_{i\in B} A_{i\beta(i)} \right)
 $$
 where we sum over all $\beta:B\to[n]$, so define:
 $$
