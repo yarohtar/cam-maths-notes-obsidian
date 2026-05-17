@@ -45,11 +45,11 @@ and $n-k$ wandering points (not periodic).
 We can thus build $k$ rooted trees from $s$
 with edges defined by:
 $$
-a \sim b \iff \begin{split}
-&s(a)=b \text{ and }a \text{ is wandering}\\
-&\text{or}\\
-&s(b)=a \text{ and } b \text{ is wandering}
-\end{split}
+a \sim b \iff \begin{array}{c}
+s(a)=b \text{ and }a \text{ is wandering}\\
+\text{or}\\
+s(b)=a \text{ and } b \text{ is wandering}
+\end{array}
 $$
 where each tree is rooted at the periodic point.
 We order these trees by how $s$ permutes the $k$ periodic points.
