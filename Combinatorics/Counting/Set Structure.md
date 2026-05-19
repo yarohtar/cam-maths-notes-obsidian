@@ -16,5 +16,9 @@ Let $F$ be a [[Combinatorial Structure]].
 The [[Combinatorial Composition]] $\mathrm{Set}\circ F(A)$ 
 is building the structure $F$ on each class of every partition $\pi$ of $A$.
 #### Proof
-By definition of [[Combinatorial Composition]],
-we get a unique element 
+As in the definition of [[Combinatorial Composition]], 
+let $S_{1}\sqcup S_{2}\sqcup\dots \sqcup S_{k}=A$ and $\alpha_{i}\in F(S_{i})$.
+Each of these contributes $\mathrm{Set}(\{ \alpha_{1},\dots,\alpha_{k} \})=\{ \{ \alpha_{1},\dots,\alpha_{k} \} \}$
+to the disjoint union, i.e. one unique element.
+Thus every partition $\pi$ of $A$ contributes exactly $\prod_{B\in \pi}\lvert F(B) \rvert$ elements. 
+This is exactly what we needed. 
