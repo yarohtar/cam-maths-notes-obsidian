@@ -6,6 +6,7 @@
 [[Inclusion-Exclusion Principle]]
 [[Weak Law of Large Numbers]]
 [[Strong Law of Large Numbers]]
+[[Central Limit Theorem]]
 
 [[Bernoulli Distribution]]
 [[Binomial Distribution]]
