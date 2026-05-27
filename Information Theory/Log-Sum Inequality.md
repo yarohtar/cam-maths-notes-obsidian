@@ -14,7 +14,7 @@ X=\frac{a_{i}}{b_{i}} \quad %quad
  \frac{ b_{i} }{ B }
 $$
 Let $f(x)=x\log x$.
-Then $f'(x)>0$ everywhere and
+Then $f''(x)>0$ everywhere and
 $$
 \mathbb{E}(X)=\sum_{i} \frac{b_{i}}{B} \frac{a_{i}}{b_{i}} = \frac{A}{B}
 $$
