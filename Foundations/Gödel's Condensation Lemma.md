@@ -1,7 +1,7 @@
 Let $L$ be the [[Constructible Hierarchy]].
 There is a sentence $\sigma$ such that $L\models \sigma$
 and for all [[Transitive Model]]s $X$ of $\sigma$ (i.e. $X\models \sigma$)
-then there is some $\alpha \in \mathrm{Or d}$ such that $X=L_{\alpha}$.
+there is some $\alpha \in \mathrm{Or d}$ such that $X=L_{\alpha}$.
 ### Proof
 Take the [[Sufficiently Strong]] $T\subseteq ZFC$ finite and write 
 $$
