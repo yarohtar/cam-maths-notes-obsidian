@@ -46,7 +46,7 @@ The union is essentially the same.
 This is more complicated, because [[Powerset Axiom]] is not [[Absolute]]. 
 (But if it was [[Absolute]], it would be hopeless to find a powerset in a countable model)
 Note that $z\subseteq x$ is [[Absolute]].
-Thus if $p$ is a powerset of $x$ then $p\subseteq \mathcal{P}x$.
+Thus if $L\models p=\mathcal{P}x$ then $p\subseteq \mathcal{P}x$.
 Also clearly $p\subseteq L$ as $L$ is [[Foundations/Set Theory/Transitive|Transitive]].
 Thus our candidate is $p=\mathcal{P}x\cap L$.
 If $p \in L$ then $p$ satisfies the conditions of the powerset axiom.
