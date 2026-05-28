@@ -44,13 +44,13 @@ Suppose
 $$
 V\models(\exists x\in y)\, \phi(x,x_{2},\dots,x_{n})
 $$
-Then pick an $x\in V$ such that $x\in y$ and $\phi(x,x_{2},\dots,x_{n})$.
+Then pick an $x\in V$ such that $x\in y$ and $V\models\phi(x,x_{2},\dots,x_{n})$.
 As $y\in M$ by assumption, and $M$ is [[Foundations/Set Theory/Transitive|Transitive]], 
-it has to be that $x\in M$ and thus $M\models \phi(x,x_{2},\dots,x_{n})$.
+it has to be that $x\in M$ and thus $M\models \phi(x,x_{2},\dots,x_{n})$
+(because $\phi$ is [[Absolute]] for $M$)
 Hence we are done as
 $$
-M\models(\exists x\in y)\, \phi(x,x_{2},\dots,x_{n})
+M\models(\exists x\in y)\, \phi(x,x_{2},\dots,x_{n}).
 $$
-which works for any $y,x_{2},\dots,x_{n}$ in $M$
 ##### $\forall \implies$
 Similar to $\exists \impliedby$.
