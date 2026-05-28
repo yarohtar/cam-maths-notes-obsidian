@@ -37,6 +37,8 @@ $M$ is a [[Substructure]] of $V$ so $x\in y$ (in $V$) and thus
 $$
 V\models (\exists x\in y)\, \phi(x,x_{2},\dots,x_{n})
 $$
+##### $\forall \impliedby$
+Similar to $\exists \implies$.
 ##### $\exists \impliedby$
 Suppose 
 $$
@@ -52,5 +54,3 @@ $$
 which works for any $y,x_{2},\dots,x_{n}$ in $M$
 ##### $\forall \implies$
 Similar to $\exists \impliedby$.
-##### $\forall \impliedby$
-Similar to $\exists \implies$.
