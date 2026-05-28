@@ -99,3 +99,5 @@ Then we need
 $$
 L\models (\forall a)(\exists b)(\forall y)(y\in b\iff (\exists x \in a)\ \phi(x,y))
 $$
+Fix some $a\in L$.
+Consider all $y\in L$ such that $L\models(\exists x\in a)\ \phi(x,y)$ an
