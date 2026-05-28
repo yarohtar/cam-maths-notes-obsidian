@@ -90,4 +90,12 @@ D(\psi,(x,p),L_{\alpha}) = \{ z\in x:L\models \phi(z,p) \}
 $$
 and so separation holds.
 ##### Replacement
-[[Axiom of Replacement]] is on Example Sheet 2.
+[[Axiom of Replacement]]
+Let $\phi(x,y)$ be a formula such that 
+$$
+L\models(\forall x)(\forall y)(\forall z)(\phi(x,y)\land \phi(x,z) \implies x=z)
+$$
+Then we need 
+$$
+L\models (\forall a)(\exists b)(\forall y)(y\in b\iff (\exists x \in a)\ \phi(x,y))
+$$
