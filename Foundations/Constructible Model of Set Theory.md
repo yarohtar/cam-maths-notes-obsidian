@@ -100,4 +100,7 @@ $$
 L\models (\forall a)(\exists b)(\forall y)(y\in b\iff (\exists x \in a)\ \phi(x,y))
 $$
 Fix some $a\in L$.
-Consider all $y\in L$ such that $L\models(\exists x\in a)\ \phi(x,y)$ an
+Consider all $y\in L$ such that $L\models(\exists x\in a)\ \phi(x,y)$.
+For each such $y$, find $\gamma$ such that $y\in L_{\gamma}$ 
+and $(\exists x\in a)\ \phi(x,y)$ is [[Absolute]] between $L_{\gamma}$ and $L$.
+
