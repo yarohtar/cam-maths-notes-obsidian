@@ -106,7 +106,6 @@ Using replacement, find $b$ such that
 $$
 (\forall y)(y\in b\iff (\exists x\in a)\ \psi(x,y))
 $$
-Note that $b\subseteq L$.
 Form the set of ordinals
 $$
 \Omega=\{ \rho_{L}(y): y\in b \land y\in L \} \cup \{ \alpha \}
@@ -117,11 +116,12 @@ such that $\phi$ is absolute between $L_{\nu}$ and $L$.
 Then 
 $$
 \begin{align}
-D((\exists x\in a)\ \phi(x,y), (a), L_{\nu}) & =\{ y\in L_{\nu} : L_{\nu}\models (\exists x\in a)\ \phi(x,a)\} \\
- & =\{ y\in L_{\nu} : L\models(\exists x\in a)\ \phi(x,a) \} \\
- & =\{ y\in L_{\nu} : (\exists x\in a)\ \psi(x,y) \}
+D((\exists x\in a)\ \phi(x,y), (a), L_{\nu}) & =\{ y\in L_{\nu} : L_{\nu}\models (\exists x\in a)\ \phi(x,y)\} \\
+ & =\{ y\in L_{\nu} : L\models(\exists x\in a)\ \phi(x,y) \} \\
+ & =\{ y\in L_{\nu} : (\exists x\in a)\ \psi(x,y) \} \\
+  & =b\cap L
 \end{align}
 $$
-
-
+so $b\cap L\in L$.
+But then $b\cap L$ is the witness of replacement in $L$!
 
