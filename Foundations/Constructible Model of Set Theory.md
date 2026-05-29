@@ -101,9 +101,16 @@ L\models (\forall a)(\exists b)(\forall y)(y\in b\iff (\exists x \in a)\ \phi(x,
 $$
 Fix some $a\in L$.
 Let $\psi$ be a formula obtained from $\phi$ by relativizing all quantification to $L$.
-Then (for fixed $x,y$) $L\models \phi(x,y)$ if and only if $\psi(x,y)$ 
+Then (for fixed $x,y\in L$) $L\models \phi(x,y)$ if and only if $\psi(x,y)$ 
 Using replacement, find $b$ such that 
 $$
-(\forall y)(y\in b)if
+(\forall y)(y\in b\iff (\exists x\in a)\ y\in L\land\psi(x,y))
 $$
+Note that $b\subseteq L$.
+Form the set of ordinals
+$$
+\Omega=\{ \rho_{L}(y): y\in b \}
+$$
+and take its supremum. 
+
 
