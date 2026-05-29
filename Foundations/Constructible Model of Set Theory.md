@@ -99,18 +99,29 @@ Then we need
 $$
 L\models (\forall a)(\exists b)(\forall y)(y\in b\iff (\exists x \in a)\ \phi(x,y))
 $$
-Fix some $a\in L$.
+Fix some $a\in L$ and $\alpha$ such that $a\in L_{\alpha}$.
 Let $\psi$ be a formula obtained from $\phi$ by relativizing all quantification to $L$.
 Then (for fixed $x,y\in L$) $L\models \phi(x,y)$ if and only if $\psi(x,y)$ 
 Using replacement, find $b$ such that 
 $$
-(\forall y)(y\in b\iff (\exists x\in a)\ y\in L\land\psi(x,y))
+(\forall y)(y\in b\iff (\exists x\in a)\ \psi(x,y))
 $$
 Note that $b\subseteq L$.
 Form the set of ordinals
 $$
-\Omega=\{ \rho_{L}(y): y\in b \}
+\Omega=\{ \rho_{L}(y): y\in b \land y\in L \} \cup \{ \alpha \}
 $$
-and take its supremum. 
+and take its supremum $\beta$.
+Then take $\nu > \beta$ by [[Lévy Reflection Theorem]] 
+such that $\phi$ is absolute between $L_{\nu}$ and $L$.
+Then 
+$$
+\begin{align}
+D((\exists x\in a)\ \phi(x,y), (a), L_{\nu}) & =\{ y\in L_{\nu} : L_{\nu}\models (\exists x\in a)\ \phi(x,a)\} \\
+ & =\{ y\in L_{\nu} : L\models(\exists x\in a)\ \phi(x,a) \} \\
+ & =\{ y\in L_{\nu} : (\exists x\in a)\ \psi(x,y) \}
+\end{align}
+$$
+
 
 
