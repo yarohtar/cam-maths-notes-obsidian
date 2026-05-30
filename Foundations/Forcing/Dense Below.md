@@ -21,12 +21,15 @@ is dense below $p$, then $E$ is dense below $p$.
 ### Lemma
 Let $G$ be a $\mathbb{P}$-[[Generic Filter]] over a countable [[Transitive Model]] $M$.
 Let $E\subseteq \mathbb{P}$ and $E\in M$.
-Then either $G\cap E\neq \varnothing$ or 
+Then either $G\cap E\neq \varnothing$ or some $q\in G$ has:
 $$
-(\exists q\in G)\, (\forall r\in E)\, r\operatorname{\bot}q
+(\forall r\in E)\ r\operatorname{\bot}q
 $$
 Furthermore, if $p\in G$ and $E$ is dense below $p$ then 
 $$
 G\cap E\neq \varnothing
 $$
+#### Proof
+Suppose that $G\cap E=\varnothing$ and any $q\in G$ has some $r\in E$ and $p\in \mathbb{P}$ with $p\leq q,r$.
+
 

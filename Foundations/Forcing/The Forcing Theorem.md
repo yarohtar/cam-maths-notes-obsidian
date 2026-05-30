@@ -14,7 +14,10 @@ It is then convenient to look at
 $$
 D=\{ q\leq p: (\exists(\pi,s)\in \tau)\ q\leq s\land q\Vdash \sigma=\pi \}
 $$
-
+If this set is [[Dense Below]] $p$, then any filter $G$ containing $p$ will intersect it.
+This gives us a $q\in D\cap G$ and thus also some $(\pi,s)\in \tau$.
+From $q\leq s$ we find that $s \in G$ 
+and from $q\Vdash \sigma=\pi$ we find $\sigma^{G}=\pi^{G}$ and thus $\sigma^{G}\in \tau^{G}$.
 
 
 We have $\sigma^{G}\in \tau^{G}$ when $(\pi,p)\in \tau$ for some $p\in G$.
