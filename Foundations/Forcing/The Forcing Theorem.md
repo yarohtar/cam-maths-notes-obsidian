@@ -104,7 +104,14 @@ Call this sentence $\phi_{r,\pi,s}$ and let $\phi_{r}$ be
 $$
 (\exists(\pi,s)\in \sigma)\ \phi_{r,\pi,s}
 $$
-Thus if $D_{\pi,s}(\tau)$ is not dense, then $\phi_{r}$.
+Assume that $\phi_{r}$ for some $r\in G$ and thus find $(\pi,s)\in \sigma$ with $r\leq s$ 
+and for any $(\pi',s')\in \tau$ and any $q\in \mathbb{P}$ with $q\leq s'\land q\Vdash \pi=\pi'$ 
+we have $q \operatorname{\bot}r$.
+Then $s \in G$ so $\pi^{G}\in \sigma^{G}$ so $\pi^{G}\in \tau^{G}$, 
+so there is some $(\pi',s')\in \tau$ with $\pi'^{G}=\pi^{G}$ and $s'\in G$.
+By induction hypothesis, there is some $q\in G$ with $q\Vdash \pi=\pi'$.
+
+Thus if $D_{\pi,s}(\tau)$ is not dense below $r$, then $\phi_{r}$.
 Let 
 $$
 D=\{ r: r\Vdash \sigma \subseteq \tau \lor \phi_{r} \}
