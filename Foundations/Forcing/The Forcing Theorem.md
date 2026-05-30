@@ -5,11 +5,16 @@ Then there is an [[Absolute]] [[Forcing Relation]] $\Vdash$ on $\mathbb{P}\times
 We first define the [[Forcing Relation]] $\Vdash$ on atomic formulas.
 From the definition of the [[Forcing Relation]], 
 we want $\sigma^{G}\in \tau^{G}$ precisely when some $p\in G$ has $p\Vdash \sigma \in \tau$.
-Note that $\sigma^{G}\in \tau^{G}$ iff $(\pi,p)\in \tau$ and $\sigma^{G}=\pi^{G}$ for some $p\in G$.
+Note that $\sigma^{G}\in \tau^{G}$ iff $(\pi,s)\in \tau$ and $\sigma^{G}=\pi^{G}$ for some $s\in G$.
 But then also $\sigma^{G}=\pi^{G}$ iff some $q\in G$ has $q\Vdash \sigma=\pi$.
 
 We conclude that $p\Vdash \sigma \in \tau$ iff any filter $G$ containing $p$
-has some $(\pi,p)\in \tau$ and $q\in G$ with $q\Vdash \sigma=\pi$.
+has some $(\pi,s)\in \tau$ with $s \in G$ and $q\in G$ with $q\Vdash \sigma=\pi$.
+It is then convenient to look at 
+$$
+D=\{ q\leq p: (\exists(\pi,s)\in \tau)\ q\leq s\land q\Vdash \sigma=\pi \}
+$$
+
 
 
 We have $\sigma^{G}\in \tau^{G}$ when $(\pi,p)\in \tau$ for some $p\in G$.
