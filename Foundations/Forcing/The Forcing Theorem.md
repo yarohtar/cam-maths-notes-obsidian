@@ -83,6 +83,25 @@ we find $(\pi',s')\in \tau$ with $r\leq s'\land r\Vdash \pi=\pi'$.
 As $r\in G$, by induction hypothesis find $\pi^{G}=\pi'^{G}$.
 Also $s'\in G$ so $\pi'^{G}\in \tau^{G}$ and thus $\pi^{G}\in \tau^{G}$ so $\sigma^{G}\subseteq \tau^{G}$.
 ##### $\implies$
+Fix $p\in \mathbb{P}$ and suppose that $D_{\pi,s}(\tau)$ is not dense below $p$.
+Then for some $r\leq p$ and all $q\leq r$ we have
+$$
+q\leq s \land (\forall(\pi',s')\in \tau)\ \neg(q\leq s'\land q\Vdash \pi=\pi')
+$$
+In particular, $r\leq s$ and for any $(\pi',s')\in \tau$ and any $q\in \mathbb{P}$
+$$
+q\leq s' \land q \Vdash \pi=\pi' \implies \neg(q\leq r)
+$$
+Suppose that some $t\leq q,r$. 
+From $t\leq q$ and $q\Vdash \pi=\pi'$ we find that $t\Vdash \pi=\pi'$.
+Also $t\leq q\leq s'$ and thus $\neg(t\leq r)$ as above.
+We conclude that $q$ and $r$ are [[Forcing Incompatible|Incompatible]] here and thus
+$$
+r\leq s \land (\forall(\pi',s')\in \tau)(\forall q\in \mathbb{P})\ q\leq s'\land q\Vdash \pi=\pi' \implies  q \operatorname{\bot}r
+$$
+
+
+
 For any $r\in \mathbb{P}$ and $(\pi,s)\in \sigma$ define $\phi_{r,\pi,s}$ to be
 $$
 r\leq s \land (\forall(\pi',s')\in \tau)(\forall q)\ q\leq s' \land q \Vdash \pi =\pi' \implies q \operatorname{\bot} r
