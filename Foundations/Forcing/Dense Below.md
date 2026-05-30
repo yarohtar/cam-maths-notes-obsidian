@@ -42,6 +42,9 @@ If $q\leq e$ for some $e\in E$ then $e\in G\cap E$.
 Otherwise, $q$ is incompatible with all elements of $E$ as desired.
 
 To see the last part, note that if $p\in G$ and $E$ is dense below $p$, 
-then 
+then any $q\in G$ has some $r\in G$ with $r\leq q,p$
+and thus there is some $e\in E$ with $e\leq r\leq q$, so $e$ and $q$ are compatible. 
+By the previous result, we find $G\cap E\neq \varnothing$.
+
 
 

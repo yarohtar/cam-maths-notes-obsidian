@@ -19,6 +19,20 @@ This gives us a $q\in D\cap G$ and thus also some $(\pi,s)\in \tau$.
 From $q\leq s$ we find that $s \in G$ 
 and from $q\Vdash \sigma=\pi$ we find $\sigma^{G}=\pi^{G}$ and thus $\sigma^{G}\in \tau^{G}$.
 
+To define $p\Vdash \sigma=\tau$ we use this idea along with [[Axiom of Extensionality]].
+Say that $p\Vdash \sigma \subseteq \tau$ if and only if 
+$$
+D_{\pi,s}(\tau) = \{ q \leq p : q \leq s \implies (\exists (\pi',s')\in \tau)\ q\leq s' \land q \Vdash \pi=\pi' \}
+$$
+is dense below $p$ for all $(\pi,s)\in \sigma$.
+Then $p\Vdash \sigma=\tau$
+if and only if
+$$
+p\Vdash \sigma \subseteq \tau\quad %quad
+\land\quad %quad
+p\Vdash \tau \subseteq \sigma.
+$$
+This is now enough to give a recursive definition on the rank of [[Name]]s.
 
 We have $\sigma^{G}\in \tau^{G}$ when $(\pi,p)\in \tau$ for some $p\in G$.
 So we need $p\Vdash \sigma \in \tau$ if and only if every $G$ has some $p$ with $(\sigma,p)\in \tau$.
