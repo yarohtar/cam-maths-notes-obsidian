@@ -83,7 +83,8 @@ we find $(\pi',s')\in \tau$ with $r\leq s'\land r\Vdash \pi=\pi'$.
 As $r\in G$, by induction hypothesis find $\pi^{G}=\pi'^{G}$.
 Also $s'\in G$ so $\pi'^{G}\in \tau^{G}$ and thus $\pi^{G}\in \tau^{G}$ so $\sigma^{G}\subseteq \tau^{G}$.
 ##### $\implies$
-Fix $p\in \mathbb{P}$ and suppose that $D_{\pi,s}(\tau)$ is not dense below $p$.
+Fix $p\in \mathbb{P}$ and suppose that some $D_{\pi,s}(\tau)$ is not dense below $p$ 
+i.e. that $p$ doesn't force $\sigma \subseteq \tau$.
 Then for some $r\leq p$ and all $q\leq r$ we have
 $$
 q\leq s \land (\forall(\pi',s')\in \tau)\ \neg(q\leq s'\land q\Vdash \pi=\pi')
@@ -99,6 +100,18 @@ We conclude that $q$ and $r$ are [[Forcing Incompatible|Incompatible]] here and 
 $$
 r\leq s \land (\forall(\pi',s')\in \tau)(\forall q\in \mathbb{P})\ q\leq s'\land q\Vdash \pi=\pi' \implies  q \operatorname{\bot}r
 $$
+Call this sentence $\phi_{r,\pi,s}$ and let $\phi_{r}$ be 
+$$
+(\exists(\pi,s)\in \sigma)\ \phi_{r,\pi,s}
+$$
+Thus if $D_{\pi,s}(\tau)$ is not dense, then $\phi_{r}$.
+Let 
+$$
+D=\{ r: r\Vdash \sigma \subseteq \tau \lor \phi_{r} \}
+$$
+For any $p\in \mathbb{P}$, if every $D_{\pi,s}(\tau)$ is dense below $p$ then $p\Vdash \sigma \subseteq \tau$,
+so any $r\leq p$ also forces it and thus $r\in D$. 
+Otherwise, some $D_{\pi,s}(\tau)$ 
 
 
 
