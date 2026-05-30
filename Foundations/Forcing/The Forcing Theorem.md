@@ -2,7 +2,7 @@ Let $M$ be a countable [[Transitive Model]] and $\mathbb{P}\in M$ a [[Forcing Pa
 Then there is an [[Absolute]] [[Forcing Relation]] $\Vdash$ on $\mathbb{P}\times \mathrm{Se nt}_{\mathbb{P},M}$.
 ## Proof (chunky one)
 ### Definition of $\Vdash$
-The idea is that "$p\Vdash\text{something}$" whenever a certain set is [[Dense Below]] $p$.
+The idea is that "$p\Vdash\text{something}$" whenever a corresponding set is [[Dense Below]] $p$.
 
 We first define the [[Forcing Relation]] $\Vdash$ on atomic formulas.
 We use induction on complexity of [[Name]]s.
@@ -13,6 +13,13 @@ For $\pi \in \mathrm{Name}^{\mathbb{P}}_{\alpha}$, $s \in \mathbb{P}$ define for
 $$
 D_{\pi,s}(\tau) = \{ q \leq p : q \leq s \implies (\exists (\pi',s')\in \tau)\ q\leq s' \land q \Vdash \pi=\pi' \}
 $$
+Then for $\tau_{0},\tau_{1}\in \mathrm{Name}^{\mathbb{P}}_{\alpha+1}$ define $p\Vdash \tau_{0}\subseteq \tau_{1}$
+if and only if 
+$D_{\pi,s}(\tau_{1})$ is dense below $p$ for all $(\pi,s)\in \tau_{0}$.
+Also define $p\Vdash \tau_{0} = \tau_{1}$ 
+if and only if 
+$p\Vdash \tau_{0}\subseteq \tau_{1}$ and $p\Vdash \tau_{1}\subseteq \tau_{0}$.
+
 
 Fix some $p\in \mathbb{P}$ and $\tau_{0},\tau_{1}\in \mathrm{Name}^{\mathbb{P}}$. 
 Let $\{ i,j \}=\{ 0,1 \}$ and for $(\pi_{i},s_{i})\in \tau_{i}$ denote:
