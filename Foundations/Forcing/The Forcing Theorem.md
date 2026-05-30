@@ -49,7 +49,7 @@ Let $G$ be a $\mathbb{P}$-[[Generic Filter]] over $M$.
 To find that $\Vdash$ is a [[Forcing Relation]], we need to show that:
 $$
 \begin{gather}
-M[G] \models \varphi(\mathrm{val}(\tau_{1},G),\dots,\mathrm{val}(\tau_{k},G)) \\
+M[G] \models \varphi(\tau_{1}^{G},\dots,\tau_{k}^{G}) \\
 \iff \\
 (\exists p\in G)\, M\models (p \Vdash \varphi(\tau_{1},\dots,\tau_{k}))
 \end{gather}
@@ -58,8 +58,8 @@ We shall first prove this for atomic $\varphi$,
 which boils down to the following two equivalences 
 $$
 \begin{gather}
-\mathrm{val}(\tau_{0},G) \subseteq \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p \Vdash \tau_{0}\subseteq \tau_{1} \\
-\mathrm{val}(\tau_{0},G) \in \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p\Vdash \tau_{0}\in \tau_{1}
+\sigma^{G} \subseteq \tau^{G} \iff (\exists p\in G)\ p \Vdash \sigma\subseteq \tau \\
+\sigma^{G} \in \tau^{G} \iff (\exists p\in G)\ p\Vdash \sigma \in \tau
 \end{gather}
 $$
 We prove these by induction on terms.
@@ -67,11 +67,16 @@ Then we prove it for non-atomic $\varphi$ by induction on formula complexity.
 These will together imply that $\Vdash$ is a [[Forcing Relation]].
 ### Claim 1
 $$
-\mathrm{val}(\tau_{0},G) \subseteq \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p \Vdash \tau_{0}\subseteq \tau_{1}
+\sigma^{G}\subseteq \tau^{G} \iff (\exists p\in G)\ p\Vdash \sigma \subseteq \tau
 $$
 #### Proof
 By $\in$-induction.
 ##### $\impliedby$
+Suppose $p\in G$ forces $\sigma \subseteq \tau$.
+Fix $x=\pi^{G}\in \sigma^{G}$.
+Then there is some $s \in G$ with $(\pi,s)\in \sigma$.
+As $G$ is a [[Filter]], there is some $q\leq p,s$. 
+By assumption, $D_{\pi,s}(\tau)$ is [[Dense Below]] $p$
 Assume $p\in G$ such that $p\Vdash\tau_{0}\subseteq \tau_{1}$.
 Fix $x=\mathrm{val}(\pi_{0},G)\in \mathrm{val}(\tau_{0},G)$ with $(\pi_{0},s_{0})\in \tau_{0}$ and $s_{0}\in G$.
 By assumption, $D_{\pi_{0},s_{0}}(\tau_{1})$ is [[Dense Below]] $p$.
