@@ -12,7 +12,7 @@ We conclude that $p\Vdash \sigma \in \tau$ iff any filter $G$ containing $p$
 has some $(\pi,s)\in \tau$ with $s \in G$ and $q\in G$ with $q\Vdash \sigma=\pi$.
 It is then convenient to look at 
 $$
-D=\{ q\leq p: (\exists(\pi,s)\in \tau)\ q\leq s\land q\Vdash \sigma=\pi \}
+D(\tau)=\{ q\leq p: (\exists(\pi,s)\in \tau)\ q\leq s\land q\Vdash \sigma=\pi \}
 $$
 If this set is [[Dense Below]] $p$, then any filter $G$ containing $p$ will intersect it.
 This gives us a $q\in D\cap G$ and thus also some $(\pi,s)\in \tau$.
@@ -33,52 +33,6 @@ p\Vdash \sigma \subseteq \tau\quad %quad
 p\Vdash \tau \subseteq \sigma.
 $$
 This is now enough to give a recursive definition on the rank of [[Name]]s.
-
-We have $\sigma^{G}\in \tau^{G}$ when $(\pi,p)\in \tau$ for some $p\in G$.
-So we need $p\Vdash \sigma \in \tau$ if and only if every $G$ has some $p$ with $(\sigma,p)\in \tau$.
-
-
-We use induction on complexity of [[Name]]s.
-Note that the limit stages are trivial.
-Assume $\Vdash$ is defined for $\mathrm{Name}_{\alpha}^{\mathbb{P}}$. 
-Let $p\in \mathbb{P}$.
-For $\pi \in \mathrm{Name}^{\mathbb{P}}_{\alpha}$, $s \in \mathbb{P}$ define for each $\tau \in \mathrm{Name}^{\mathbb{P}}_{\alpha+1}$:
-$$
-D_{\pi,s}(\tau) = \{ q \leq p : q \leq s \implies (\exists (\pi',s')\in \tau)\ q\leq s' \land q \Vdash \pi=\pi' \}
-$$
-Then for $\tau_{0},\tau_{1}\in \mathrm{Name}^{\mathbb{P}}_{\alpha+1}$ define $p\Vdash \tau_{0}\subseteq \tau_{1}$
-if and only if 
-$D_{\pi,s}(\tau_{1})$ is dense below $p$ for all $(\pi,s)\in \tau_{0}$.
-Also define $p\Vdash \tau_{0} = \tau_{1}$ 
-if and only if 
-$p\Vdash \tau_{0}\subseteq \tau_{1}$ and $p\Vdash \tau_{1}\subseteq \tau_{0}$.
-
-
-Fix some $p\in \mathbb{P}$ and $\tau_{0},\tau_{1}\in \mathrm{Name}^{\mathbb{P}}$. 
-Let $\{ i,j \}=\{ 0,1 \}$ and for $(\pi_{i},s_{i})\in \tau_{i}$ denote:
-$$
-D_{\pi_{i},s_{i}} = \{ q\leq p : q\leq s_{i} \implies (\exists (\pi_{j},s_{j})\in \tau_{j})\, q\leq s_{j} \land q \Vdash \pi_{i}=\pi_{j} \}
-$$
-Then we define $p\Vdash\tau_{0}=\tau_{1}$ to mean 
-$$
-\begin{gather}
-(\forall(\pi_{0},s_{0})\in \tau_{0})\, D_{\pi_{0},s_{0}} \text{ is dense below }p \\
-\text{and} \\
-(\forall(\pi_{1},s_{1})\in \tau_{1})\, D_{\pi_{1},s_{1}} \text{ is dense below }p
-\end{gather}
-$$
-As a helper, we define $p\Vdash\tau_{0}\subseteq \tau_{1}$ to be 
-$$
-(\forall(\pi_{0},s_{0})\in \tau_{0})\, D_{\pi_{0},s_{0}}\text{ is dense below }p
-$$
-so that 
-$$
-p\Vdash\tau_{0}=\tau_{1} \iff p\Vdash\tau_{0}\subseteq \tau_{1} \land p\Vdash\tau_{1}\subseteq \tau_{0}
-$$
-Now define $p\Vdash\tau_{0}\in \tau_{1}$ to be 
-$$
-\{ q\leq p : (\exists(\pi,s)\in \tau_{1})\, q\leq s\land q\Vdash \pi=\tau_{0} \} \text{ is dense below }p
-$$
 This wraps up the atomic formulas.
 For composites, we have the following definition:
 $$
@@ -120,7 +74,7 @@ By $\in$-induction.
 ##### $\impliedby$
 Assume $p\in G$ such that $p\Vdash\tau_{0}\subseteq \tau_{1}$.
 Fix $x=\mathrm{val}(\pi_{0},G)\in \mathrm{val}(\tau_{0},G)$ with $(\pi_{0},s_{0})\in \tau_{0}$ and $s_{0}\in G$.
-By assumption, $D_{\pi_{0},s_{0}}$ is [[Dense Below]] $p$.
+By assumption, $D_{\pi_{0},s_{0}}(\tau_{1})$ is [[Dense Below]] $p$.
 Thus find $q\leq s_{0},p$ such that $q\in G$ and conclude $D_{\pi_{0},s_{0}}$ is [[Dense Below]] $q$.
 Furthermore, find $r\leq q$ such that $r\in G\cap D_{\pi_{0},s_{0}}$. 
 Thus (because $r\leq s_{0}$), by definition of $D_{\pi_{0},s_{0}}$
