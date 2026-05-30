@@ -5,6 +5,11 @@ Then there is an [[Absolute]] [[Forcing Relation]] $\Vdash$ on $\mathbb{P}\times
 The idea is that "$p\Vdash\text{something}$" whenever a certain set is [[Dense Below]] $p$.
 
 We first define the [[Forcing Relation]] $\Vdash$ on atomic formulas.
+Fix some $p\in \mathbb{P}$. 
+For $\pi \in \mathrm{Name}^{\mathbb{P}}$, $s \in \mathbb{P}$ define 
+$$
+D_{\pi,s}(\tau) = \{ q \leq p : q \leq s \implies (\exists (\pi',s')\in \tau)\ q\leq s \}
+$$
 Fix some $p\in \mathbb{P}$ and $\tau_{0},\tau_{1}\in \mathrm{Name}^{\mathbb{P}}$.
 Let $\{ i,j \}=\{ 0,1 \}$ and for $(\pi_{i},s_{i})\in \tau_{i}$ denote:
 $$
