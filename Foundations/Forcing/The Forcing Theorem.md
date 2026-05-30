@@ -83,7 +83,11 @@ we find $(\pi',s')\in \tau$ with $r\leq s'\land r\Vdash \pi=\pi'$.
 As $r\in G$, by induction hypothesis find $\pi^{G}=\pi'^{G}$.
 Also $s'\in G$ so $\pi'^{G}\in \tau^{G}$ and thus $\pi^{G}\in \tau^{G}$ so $\sigma^{G}\subseteq \tau^{G}$.
 ##### $\implies$
-Fix $r\in \mathbb{P}$ and $(\pi,s)\in \sigma$.
+For any $r\in \mathbb{P}$ and $(\pi,s)\in \sigma$ define $\phi_{r,\pi,s}$ to be
+$$
+r\leq s \land (\forall(\pi',s')\in \tau)(\forall q)\ q\leq s' \land q \Vdash \pi =\pi' \implies q \operatorname{\bot} r
+$$
+Suppose $D_{}$
 
 Fix $r\in \mathbb{P}$ and $(\pi_{0},s_{0})\in \tau_{0}$.
 Define $\phi_{r,\pi_{0},s_{0}}$ to be 
