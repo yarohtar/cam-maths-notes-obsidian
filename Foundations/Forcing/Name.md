@@ -12,6 +12,7 @@ Furthermore, fix some $F\subseteq \mathbb{P}$ and define by $\in$-recursion:
 $$
 \mathrm{val}(\tau,F) = \{ \mathrm{val}(\sigma,F) : (\exists p\in F)\, (\sigma,p)\in \tau \} 
 $$
+We may write $\tau^{F}$ for $\mathrm{val}(\tau,F)$.
 ### Interpretation
 If $(\sigma,p)\in \tau$ then $p$ guarantees that the set named by $\sigma$ is in the set named by $\tau$.
 ### Remark

@@ -2,9 +2,11 @@ Let $M$ be a countable [[Transitive Model]] and $\mathbb{P}\in M$ a [[Forcing Pa
 Then there is an [[Absolute]] [[Forcing Relation]] $\Vdash$ on $\mathbb{P}\times \mathrm{Se nt}_{\mathbb{P},M}$.
 ## Proof (chunky one)
 ### Definition of $\Vdash$
-The idea is that "$p\Vdash\text{something}$" whenever a corresponding set is [[Dense Below]] $p$.
-
 We first define the [[Forcing Relation]] $\Vdash$ on atomic formulas.
+From the definition of the [[Forcing Relation]], 
+we want $M[G]\models \sigma^{G}\in \tau^{G}$ precisely when some $p\in G$ has $p\Vdash \sigma \in \tau$.
+So $p\Vdash \sigma \in \tau$ if and only if any $\mathbb{P}$-[[Generic Filter]] 
+
 We use induction on complexity of [[Name]]s.
 Note that the limit stages are trivial.
 Assume $\Vdash$ is defined for $\mathrm{Name}_{\alpha}^{\mathbb{P}}$. 
