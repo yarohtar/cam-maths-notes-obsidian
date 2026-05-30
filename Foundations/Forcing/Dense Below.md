@@ -30,6 +30,18 @@ $$
 G\cap E\neq \varnothing
 $$
 #### Proof
-Suppose that $G\cap E=\varnothing$ and any $q\in G$ has some $r\in E$ and $p\in \mathbb{P}$ with $p\leq q,r$.
+Let 
+$$
+D=\{ p\in \mathbb{P}: (\exists e\in E)\ p\leq e \} \cup \{ p\in \mathbb{P} : (\forall e\in E)\ p\operatorname{\bot}e \}
+$$
+Then $D$ is dense: let $p\in \mathbb{P}$ and assume $p\not\in D$ 
+so that $p$ is compatible with some $e\in E$. 
+Then some $r\in \mathbb{P}$ has $r\leq p,e$ so $r\in D$ and $D$ is dense.
+Thus $G$ intersects $D$ and let $q\in G\cap D$. 
+If $q\leq e$ for some $e\in E$ then $e\in G\cap E$. 
+Otherwise, $q$ is incompatible with all elements of $E$ as desired.
+
+To see the last part, note that if $p\in G$ and $E$ is dense below $p$, 
+then 
 
 
