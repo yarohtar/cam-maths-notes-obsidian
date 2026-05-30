@@ -4,8 +4,12 @@ Then there is an [[Absolute]] [[Forcing Relation]] $\Vdash$ on $\mathbb{P}\times
 ### Definition of $\Vdash$
 We first define the [[Forcing Relation]] $\Vdash$ on atomic formulas.
 From the definition of the [[Forcing Relation]], 
-we want $M[G]\models \sigma^{G}\in \tau^{G}$ precisely when some $p\in G$ has $p\Vdash \sigma \in \tau$.
-So $p\Vdash \sigma \in \tau$ if and only if any $\mathbb{P}$-[[Generic Filter]] 
+we want $\sigma^{G}\in \tau^{G}$ precisely when some $p\in G$ has $p\Vdash \sigma \in \tau$.
+Note that $\sigma^{G}\in \tau^{G}$ iff $(\pi,p)\in \tau$ and $\sigma^{G}=\pi^{G}$ for some $p\in G$.
+
+We have $\sigma^{G}\in \tau^{G}$ when $(\pi,p)\in \tau$ for some $p\in G$.
+So we need $p\Vdash \sigma \in \tau$ if and only if every $G$ has some $p$ with $(\sigma,p)\in \tau$.
+
 
 We use induction on complexity of [[Name]]s.
 Note that the limit stages are trivial.
