@@ -87,7 +87,9 @@ For any $r\in \mathbb{P}$ and $(\pi,s)\in \sigma$ define $\phi_{r,\pi,s}$ to be
 $$
 r\leq s \land (\forall(\pi',s')\in \tau)(\forall q)\ q\leq s' \land q \Vdash \pi =\pi' \implies q \operatorname{\bot} r
 $$
-Suppose $D_{}$
+Let $p\in \mathbb{P}$ and suppose $D_{\pi,s}(\tau)$ is not dense below $p$.
+Then there is some $q\leq p$ such that any $r\leq q$ has $r\leq s$
+
 
 Fix $r\in \mathbb{P}$ and $(\pi_{0},s_{0})\in \tau_{0}$.
 Define $\phi_{r,\pi_{0},s_{0}}$ to be 
