@@ -73,27 +73,18 @@ $$
 By $\in$-induction.
 ##### $\impliedby$
 Suppose $p\in G$ forces $\sigma \subseteq \tau$.
-Fix $x=\pi^{G}\in \sigma^{G}$.
+Fix $\pi^{G}\in \sigma^{G}$.
 Then there is some $s \in G$ with $(\pi,s)\in \sigma$.
 As $G$ is a [[Filter]], there is some $q\leq p,s$. 
-By assumption, $D_{\pi,s}(\tau)$ is [[Dense Below]] $p$
-Assume $p\in G$ such that $p\Vdash\tau_{0}\subseteq \tau_{1}$.
-Fix $x=\mathrm{val}(\pi_{0},G)\in \mathrm{val}(\tau_{0},G)$ with $(\pi_{0},s_{0})\in \tau_{0}$ and $s_{0}\in G$.
-By assumption, $D_{\pi_{0},s_{0}}(\tau_{1})$ is [[Dense Below]] $p$.
-Thus find $q\leq s_{0},p$ such that $q\in G$ and conclude $D_{\pi_{0},s_{0}}$ is [[Dense Below]] $q$.
-Furthermore, find $r\leq q$ such that $r\in G\cap D_{\pi_{0},s_{0}}$. 
-Thus (because $r\leq s_{0}$), by definition of $D_{\pi_{0},s_{0}}$
-we find $(\pi_{1},s_{1})\in \tau_{1}$ such that $r\leq s_{1}$ and $r\Vdash\pi_{0}=\pi_{1}$.
-Then also $s_{1}\in G$.
-Now $r\in G$ and $r\Vdash\pi_{0}=\pi_{1}$ so by induction hypothesis: 
-$$
-\mathrm{val}(\pi_{0},G) = \mathrm{val}(\pi_{1},G)
-$$
-and we conclude: 
-$$
-\mathrm{val}(\pi_{0},G) \in \mathrm{val}(\tau_{1},G)
-$$
+By assumption, $D_{\pi,s}(\tau)$ is [[Dense Below]] $p$, and so also below $q\in G$.
+But then one finds some $r\in D_{\pi,s}(\tau)\cap G$ with $r\leq q$.
+By definition of $D_{\pi,s}(\tau)$ and from $r\leq s$, 
+we find $(\pi',s')\in \tau$ with $r\leq s'\land r\Vdash \pi=\pi'$.
+As $r\in G$, by induction hypothesis find $\pi^{G}=\pi'^{G}$.
+Also $s'\in G$ so $\pi'^{G}\in \tau^{G}$ and thus $\pi^{G}\in \tau^{G}$ so $\sigma^{G}\subseteq \tau^{G}$.
 ##### $\implies$
+Fix $r\in \mathbb{P}$ and $(\pi,s)\in \sigma$.
+
 Fix $r\in \mathbb{P}$ and $(\pi_{0},s_{0})\in \tau_{0}$.
 Define $\phi_{r,\pi_{0},s_{0}}$ to be 
 $$
