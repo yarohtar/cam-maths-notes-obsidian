@@ -25,14 +25,21 @@ M\models(\forall a\in A)\, \lvert F(a) \rvert <\kappa
 \end{gather}
 $$ 
 ### Proof
-Let $f=\tau^{G}$ and some $p\in \mathbb{P}\cap G$ with 
+Let $f=\tau^{G}$.
+Then 
 $$
-p\Vdash\tau:\check{A}\to \check{B}
+M[G]\models \tau^{G} : \check{A}^{G}\to \check{B}^{G}
+$$
+for the [[Canonical Name]]s $\check{A}$ and $\check{B}$.
+By definition then some $p\in \mathbb{P}\cap G$ has 
+$$
+p\Vdash \tau:\check{A}\to \check{B}
 $$
 Now define 
 $$
-F(a) =\{ b\in B:(\exists q\leq p)\, q\Vdash\tau(\check{a})=\check{b} \}
+F(a) =\{ b\in B:(\exists q\leq p)\ q\Vdash\tau(\check{a})=\check{b} \}
 $$
+Now $M[G]\models \tau^{G}$
 Clearly $f(a)\in F(a)$ by the [[Forcing Relation]].
 Clearly $F\in M$.
 For each $b\in F(a)$, consider 
