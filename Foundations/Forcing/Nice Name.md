@@ -3,18 +3,25 @@ Let $\lambda$ be an [[Ordinal]]
 and let $\mathcal{R}=\{ A_{\alpha} : \alpha<\lambda \}$ be a collection of [[Strong Antichain]]s.
 Define 
 $$
-\tau_{\mathcal{R}}=\{ (\check{\alpha},p) : al \}
+\tau_{\mathcal{R}}=\{ (\check{\alpha},p) : \alpha < \lambda \land p\in A_{\alpha} \}
 $$
-A [[Name]] $\tau$ is a nice name for subsets of $\lambda$
-if there is a family $\mathcal{R}=\{ A_{\alpha}:\alpha<\lambda \}$ 
-such that $A_{\alpha}$ is a [[Strong Antichain]] and 
+We say that a [[Name]] $\tau$ is a nice name if $\tau=\tau_{\mathcal{R}}$ for some $\mathcal{R}$.
+### Lemma
+Let $\lvert \mathbb{P} \rvert=\mu$ and assume that $\mathbb{P}$ has $\kappa$-[[Chain Condition]]. 
+Then there are at most 
 $$
-\tau=\tau_{\mathcal{R}}=\{ (\check{\alpha},p) : \alpha<\lambda \land p\in A_{\alpha} \}
+\left\lvert (\mu^{<\kappa})^{\lambda} \right\rvert 
 $$
-## Theorem
+nice names for subsets of $\lambda$.
+#### Proof
+Each [[Strong Antichain]] in $\mathbb{P}$ has at most $<\kappa$ elements, 
+so there are at most $\lvert \mu^{<\kappa} \rvert$ antichains.
+But then there are at most $\lvert (\mu^{<\kappa})^{\lambda} \rvert$ families of antichains,
+so at most that many nice names.
+### Theorem
 Let $G$ be a $\mathbb{P}$-[[Generic Filter]] over a [[Transitive Model]] $M\models ZFC$.
 Then every subset of $\lambda$ in $M[G]$ has a nice name in $M$.
-### Proof
+#### Proof
 Fix $\mu^{G}\subseteq \lambda$ for some [[Name]] $\mu \in M$.
 Suppose that $\mu$ is not a nice name.
 Fix $\alpha<\lambda$.
@@ -30,14 +37,14 @@ $$
 \tau_{\mathcal{R}}^{G}= \mu^{G}
 $$
 which will finish the proof as $\tau_{\mathcal{R}}$ is a nice name.
-#### $\subseteq$
+##### $\subseteq$
 If $\alpha \in \tau_{\mathcal{R}}^{G}$ then by definition there is $p\in G$ such that 
 $$
 (\check{\alpha},p)\in \tau_{\mathcal{R}}
 $$
 We conclude that $p\in A_{\alpha}$ so $p\Vdash \check{\alpha}\in \mu$.
 Thus $\alpha \in \mu^{G}$.
-#### $\supseteq$
+##### $\supseteq$
 If $\alpha \in \mu^{G}$, by [[Forcing Relation]] find $q\in G$ 
 $$
 q\Vdash \check{\alpha} \in \mu
@@ -51,3 +58,19 @@ But then $(\check{\alpha},q)\in \tau_{\mathcal{R}}$ so
 $$
 \alpha \in \tau_{\mathcal{R}}^{G}
 $$
+### Corollary
+If $\mathbb{P}\in M$ and 
+$$
+M\models \mathbb{P}\text{ has }\kappa\text{-c.c.} \land \lvert \mathbb{P} \rvert =\mu
+$$
+then define $\nu$ to be such that 
+$$
+M\models (\mu^{<\kappa})^{\lambda} =\nu
+$$
+Then the [[Model Extension]] has:
+$$
+M[G] \models 2^{\lambda} \leq \nu
+$$
+#### Proof
+Every subset of $\lambda$ in $M[G]$ has a [[Nice Name]] in $M$.
+Also there are at most $\lvert \nu \rvert$ [[Nice Name]]s in $M$. 
