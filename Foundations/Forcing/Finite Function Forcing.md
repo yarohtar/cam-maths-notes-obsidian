@@ -13,7 +13,7 @@ Then $(\mathbb{P},\leq,\mathbb{1})$ is a [[Forcing Partial Order]].
 For $p,q\in \mathbb{P}$, they are [[Incompatible]]
 if and only if 
 $$
-(\exists x\in \mathrm{dom}(p)\cap \mathrm{dom}(q))\, p(x)\neq q(x)
+(\exists x\in \mathrm{dom}(p)\cap \mathrm{dom}(q))\ p(x)\neq q(x)
 $$
 ### Lemma
 If $F$ is a [[Filter Base]] then 
