@@ -96,7 +96,7 @@ $$
 Suppose that some $t\leq q,r$. 
 From $t\leq q$ and $q\Vdash \pi=\pi'$ we find that $t\Vdash \pi=\pi'$.
 Also $t\leq q\leq s'$ and thus $\neg(t\leq r)$ as above.
-We conclude that $q$ and $r$ are [[Forcing Incompatible|Incompatible]] here and thus
+We conclude that $q$ and $r$ are [[Incompatible]] here and thus
 $$
 r\leq s \land (\forall(\pi',s')\in \tau)(\forall q\in \mathbb{P})\ q\leq s'\land q\Vdash \pi=\pi' \implies  q \operatorname{\bot}r
 $$

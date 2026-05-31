@@ -17,7 +17,7 @@ Index $\mathcal{D}$ as
 $$
 \mathcal{D}=\{ D_{i} : i\in \mathbb{N} \}
 $$
-Let $p_{0}\in \mathbb{P}$ be an arbitrary [[Forcing Condition]].
+Fix some $p_{0}\in \mathbb{P}$.
 Now construct recursively $p_{i+1}$ such that 
 $$
 p_{i+1}\leq p_{i} \land p_{i+1} \in D_{i}

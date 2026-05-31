@@ -3,7 +3,8 @@ The [[Topological space|Topology]] on $P$ is given by base open sets of the form
 $$
 \{ q \in P: q\leq p \}
 $$
-for some $p\in P$.
+for some $p\in P$. 
+In particular a set in $P$ is open if and only if it is downwards closed.
 
 [[Chain]]
 [[Antichain]]
@@ -17,5 +18,6 @@ for some $p\in P$.
 
 [[Compatible]]
 [[Incompatible]]
+[[Strong Antichain]]
 [[Filter Base]]
 [[Filter]]

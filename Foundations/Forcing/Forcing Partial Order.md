@@ -1,4 +1,4 @@
-Let $(\mathbb{P},\leq)$ be a [[Partial Order]] and $\mathbb{1}\in \mathbb{P}$ be the maximal element.
+Let $(\mathbb{P},\leq)$ be a [[Poset]] and $\mathbb{1}\in \mathbb{P}$ be the maximal element.
 Then $(\mathbb{P},\leq,\mathbb{1})$ is called a forcing.
 
 A subset $P\subseteq \mathbb{P}$ is said to be open if 

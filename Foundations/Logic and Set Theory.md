@@ -15,6 +15,7 @@ Icke Moerdijk, Jeep van Ooslen: Sets, Models and Proofs
 [[Order on Well-ordered sets]]
 [[Ordinal]]
 [[Poset]]
+[[Schröder-Bernstein Theorem]]
 [[Zorn's Lemma]]
 [[Every vector space has a basis]]
 [[Well-ordering Principle]]
