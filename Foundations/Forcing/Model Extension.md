@@ -132,7 +132,7 @@ $$
 Also clearly $(\mu ^{*},\mathbb{1})\in \pi$ so we are done.
 #### Replacement
 [[Axiom of Replacement]]
-Let $x=\mathrm{val}(\sigma,F)$ and $\phi$ be a [[Function Class]].
+Let $x=\mathrm{val}(\sigma,F)$ and $\phi$ be a [[Function Class]] (in $M[F]$).
 By [[Axiom of Separation]] it is enough to show that there is some $R\in M[F]$ such that 
 $$
 M[F] \models (\forall y\in x)\, (\exists z\in R)\, \phi(y,z)
@@ -171,7 +171,7 @@ p\Vdash \phi(\pi,\mu ^{*})
 $$
 from where it follows that 
 $$
-M\models \phi(y, \mathrm{val}(\mu ^{*},F))
+M[F]\models \phi(y, \mathrm{val}(\mu ^{*},F))
 $$
 But $\phi$ is a [[Function Class]] so certainly 
 $$
