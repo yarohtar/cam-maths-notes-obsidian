@@ -1,4 +1,10 @@
-A poset (partially ordered set) is a set with a [[Partial Order]]
+We say $(P,\leq)$ is a poset if $\leq$ is a [[Partial Order]] on $P$.
+The [[Topological space|Topology]] on $P$ is given by base open sets of the form
+$$
+\{ q \in P: q\leq p \}
+$$
+for some $p\in P$.
+
 [[Chain]]
 [[Antichain]]
 [[Upper Bound]]
