@@ -1,6 +1,6 @@
 Let $X$ and $Y$ be sets and define 
 $$
-\mathbb{P} = \mathrm{Fn}(X,Y) = \{ p\in X\times Y: (p:X\dashrightarrow Y) \land \lvert p \rvert <\aleph_{0} \}
+\mathbb{P} = \mathrm{Fn}(X,Y) = \{ p\subseteq X\times Y: (p:X\dashrightarrow Y) \land \lvert p \rvert <\aleph_{0} \}
 $$
 i.e. $p$ is a finite [[Partial Function]] from $X$ to $Y$.
 Furthermore, define 

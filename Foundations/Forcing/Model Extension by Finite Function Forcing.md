@@ -18,7 +18,10 @@ Let $\mathcal{D}_{0}$ and $\mathcal{D}_{1}$ be as defined in [[Finite Function F
 Then $\mathcal{D}_{0}\subseteq M$ and $\mathcal{D}_{1}\subseteq M$, 
 so $G$ is both a $\mathcal{D}_{0}$-[[Generic Filter]] and a $\mathcal{D}_{1}$-[[Generic Filter]].
 We conclude that $\mathrm{dom}(f)=X$ and, as $X$ is infinite, $\mathrm{ran}(f)=Y$.
-Thus $f$ is a surjective function.
+Thus $f$ is a surjective function $X\to Y$.
+Suppose that $f\in M$.
+Then $G$ is $\{ N_{f} \}$-[[Generic Filter]] (by [[Finite Function Forcing]])
+
 Let $g:X\to Y$ with $g\in M$.
 Then $G$ is a $\{ N_{g} \}$-[[Generic Filter]] (as in [[Finite Function Forcing]])
 because $N_{g}\in M$.
