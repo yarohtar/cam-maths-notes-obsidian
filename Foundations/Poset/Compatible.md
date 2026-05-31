@@ -1,2 +1,2 @@
-Let $P$ be a [[Poset]] and $a,b\in P$.
-We say that $a$ and $b$ are compatible if some $r\in P$ has $r\leq a,b$.
+Let $P$ be a [[Poset]] and $p,q\in P$.
+We say that $p$ and $q$ are compatible if some $r\in P$ has $r\leq p,q$.
