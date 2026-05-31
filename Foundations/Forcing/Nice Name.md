@@ -4,7 +4,7 @@ A [[Name]] $\tau$ is a nice name for subsets of $\lambda$
 if there is a family $\mathcal{R}=\{ A_{\alpha}:\alpha<\lambda \}$ 
 such that $A_{\alpha}$ is a [[Maximal Strong Antichain]] and 
 $$
-\tau=\tau_{\mathcal{R}}=\{ (\check{\alpha},p) : (\exists \alpha<\lambda)\,A_{\alpha}\in \mathcal{R} \land p\in A_{\alpha} \}
+\tau=\tau_{\mathcal{R}}=\{ (\check{\alpha},p) : p\in A_{\alpha}\in \mathcal{R} \}
 $$
 ## Theorem
 Let $G$ be a $\mathbb{P}$-[[Generic Filter]] over a [[Model]] $M\models ZFC$.
@@ -13,10 +13,11 @@ Then every subset of $\lambda$ in $M[G]$ has a nice name in $M$.
 Fix $x=\mu^{G}$ for some $\mu$.
 Suppose that $\mu$ is not a nice name.
 Fix $\alpha<\lambda$.
-Using [[Zorn's Lemma]] in $M$, build a [[Maximal Strong Antichain]] $A_{\alpha}\subseteq \mathbb{P}$ such that 
+Using [[Zorn's Lemma]] in $M$, 
+build a [[Maximal Strong Antichain]] $A_{\alpha}\subseteq \mathbb{P}$ such that 
 $$
-(\forall p\in A_{\alpha})\, p\Vdash \check{\alpha} \in \mu
-$$ 
+(\forall p\in A_{\alpha})\ p\Vdash \check{\alpha} \in \mu
+$$
 Thus we find 
 $$
 \mathcal{R}=\{ A_{\alpha} : \alpha<\lambda \}\in M
