@@ -72,4 +72,4 @@ We conclude
 $$
 \mathrm{ran}(f) \subseteq \bigcup_{\alpha<\lambda} F(\alpha)
 $$
-This contradicts that $\kappa$ is [[Regular Cardinal]]
+This contradicts that $\kappa$ is [[Regular Cardinal]].

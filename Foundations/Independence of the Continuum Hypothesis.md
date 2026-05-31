@@ -5,9 +5,9 @@ $$
 f=\bigcup G
 $$
 Then $f$ is a binary $\omega_{2}^{M}\times \omega$ matrix, and each row is a subset of $\omega$.
-For $\alpha \neq \beta$ with $\alpha,\beta<\omega_{2}$ define 
+For $\alpha \neq \beta$ with $\alpha,\beta<\omega_{2}^{M}$ define 
 $$
-D_{\alpha,\beta} = \{ p\in \mathbb{P} : (\exists u)\, p(\alpha,u) \neq p(\beta,u) \}
+D_{\alpha,\beta} = \{ p\in \mathbb{P} : (\exists u\in \omega)\, p(\alpha,u) \neq p(\beta,u) \}
 $$
 This is a set $D_{\alpha,\beta}\in M$ and it is [[Dense Below|Dense]] in $\mathbb{P}$.
 Therefore 
