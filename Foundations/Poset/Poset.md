@@ -19,7 +19,7 @@ In particular a set in $P$ is open if and only if it is downwards closed.
 [[Incompatible]]
 [[Strong Antichain]]
 [[Maximal Strong Antichain]]
-[[Chain Condition]]
 [[Filter Base]]
 [[Filter]]
 [[Ultrafilter]]
+[[Chain Condition]]

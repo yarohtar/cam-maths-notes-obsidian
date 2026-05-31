@@ -81,6 +81,7 @@ M\models(\forall \alpha<\lambda)\, \lvert F(\alpha) \rvert <\kappa \land f(\alph
 $$
 We conclude 
 $$
-\mathrm{ran}(f) \subseteq \bigcup_{\alpha<\lambda} F(\alpha)
+\kappa=\mathrm{ran}(f) \subseteq \bigcup_{\alpha<\lambda} F(\alpha)
 $$
-This contradicts that $\kappa$ is [[Regular Cardinal]].
+But then $\kappa$ is a union of $\lambda<\kappa$ many sets of size $<\kappa$,
+so $\kappa$ cannot be [[Regular Cardinal]].
