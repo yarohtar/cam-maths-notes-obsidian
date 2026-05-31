@@ -3,14 +3,15 @@ aliases:
   - c.c.
   - c.c.c.
 ---
-A [[Forcing Partial Order]] $\mathbb{P}$ has the $\kappa$-chain condition 
-if any [[Strong Antichain]] $A$ in $\mathbb{P}$ has size $\lvert A \rvert<\kappa$.
+A [[Poset]] $P$ has the $\kappa$-chain condition ($\kappa$-c.c.)
+if any [[Strong Antichain]] $A$ in $P$ has size $\lvert A \rvert<\kappa$
 
 If $\kappa=\aleph_{1}$ we call this the countable chain condition (c.c.c.).
 ## Theorem
-Let $M$ be a [[Model]] of $ZFC$ and 
+Let $M$ be a [[Transitive Model]] of $ZFC$,
+with $\kappa$ a cardinal in $M$ and a [[Forcing Partial Order]] $\mathbb{P}\in M$ such that
 $$
-M\models \kappa\text{ is cardinal} \land \mathbb{P} \text{ has the }\kappa \text{-c.c.}
+M\models \mathbb{P} \text{ has the }\kappa \text{-c.c.}
 $$
 Suppose we have a [[Model Extension]] $M[G]$ and $f\in M[G]$ such that 
 $$
@@ -40,6 +41,7 @@ $$
 F(a) =\{ b\in B:(\exists q\leq p)\ q\Vdash\tau(\check{a})=\check{b} \}
 $$
 Clearly $F\in M$.
+Let $a\in A$.
 Now $M[G]\models \tau^{G}(\check{a}^{G})=\check{b}^{G}$ for some $b=f(a)\in B$ so some $q\in G$ has $q\Vdash \tau(\check{a})=\check{b}$.
 As $G$ is a [[Filter]], we find $r\leq p,q$ and so $r\Vdash \tau(\check{a})=\check{b}$ so $b\in F(a)$. 
 For each $b\in F(a)$, consider 
@@ -51,7 +53,7 @@ Finally, write
 $$
 Q_{a}=\{ q_{b}: b\in F(a) \} \in M
 $$
-We can check that $Q_{a}$ is an [[Antichain]]: 
+We can check that $Q_{a}$ is an [[Strong Antichain]]: 
 let $q_{b},q_{c}\in Q_{a}$ for some $b,c\in F(a)$ and assume $r\leq q_{b},q_{c}$.
 Then $r\Vdash \tau(\check{a})=\check{b}$ and $r\Vdash \tau(\check{a})=\check{c}$ so $b=c$.
 But because $\mathbb{P}$ has $\kappa$-chain condition in $M$ we conclude
