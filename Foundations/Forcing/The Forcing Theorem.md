@@ -135,35 +135,17 @@ Assume $\sigma^{G}\in \tau^{G}$.
 Thus find some $(\pi,s)\in \tau$ with $\pi^{G}=\sigma^{G}$ and $s \in G$.
 By [[#Claim 1]], find $r\in G$ such that $r\Vdash \pi=\sigma$.
 Then find $p\leq r,s$ in $G$.
-Define the set 
+Note that any $q\leq p$ has $q\leq s$ and $q\Vdash \pi=\sigma$ so
 $$
 D=\{ q\leq p : (\exists(\pi,s)\in \tau)\ q\leq s\land q\Vdash \pi=\sigma \}
 $$
-No
-By definition, find some $(\pi,s)\in \tau_{1}$ such that $s \in G$ and $\mathrm{val}(\pi,G)=\mathrm{val}(\tau_{0},G)$.
-By [[#Claim 1]] find $r\in G$ such that $r\Vdash \pi=\tau_{0}$.
-Now find $p\leq s,r$ such that $p\in G$.
-Now we need that 
-$$
-D=\{ q\leq p : (\exists(\pi,s)\in \tau_{1})\, q\leq s\land q\Vdash \pi=\tau_{0} \}
-$$
-is [[Dense Below]] $p$.
-We can do this by picking $(\pi,s)$ as the witness.
-Thus $p\Vdash\tau_{0}\in \tau_{1}$.
+is [[Dense Below]] $p$ and thus $p\Vdash \sigma \in \tau$ and $p\in G$.
 #### $\impliedby$
-Suppose $p\Vdash\tau_{0}\in \tau_{1}$. 
-Then $D$ is [[Dense Below]] $p$ and $p\in G$.
-Thus we can find $q\in G\cap D$.
-But then there is $(\pi,s)\in \tau_{1}$ with $q\leq s$ (so $s \in G$) such that $q\Vdash\pi=\tau_{0}$
-We conclude that 
-$$
-\mathrm{val}(\pi,G) \in \mathrm{val}(\tau_{1},G)
-$$
-By [[#Claim 1]], from $q\Vdash\pi=\tau_{0}$ we conclude
-$$
-\mathrm{val}(\pi,G) = \mathrm{val}(\tau_{0},G)
-$$
-so we are done.
+Suppose some $p\Vdash \sigma \in \tau$ for some $p\in G$.
+Then $D$ (as above) is [[Dense Below]] $p$. 
+Thus find $q\in G\cap D$ and $(\pi,s)\in \tau$ with $q\leq s$ and $q\Vdash \pi=\sigma$.
+Then $s \in G$ so $\pi^{G}\in \tau^{G}$.
+Also by [[#Claim 1]] and $q\Vdash \pi=\sigma$ we find $\pi^{G}=\sigma^{G}$ so $\sigma^{G}\in \tau^{G}$.
 ### Claim 3
 If $\Vdash$ satisfies the [[Forcing Relation]] property for $\phi$ and $\psi$ 
 then so it does for $\phi \land \psi$.
@@ -203,3 +185,9 @@ This is a contradiction.
 ### Claim 5
 If $\Vdash$ satisfies the [[Forcing Relation]] property for $\phi$
 then so it does for $(\exists x)\,\phi(x)$.
+#### Proof
+##### $\implies$
+Assume that $M[G]\models (\exists x)\ \phi(x)$.
+Thus take some $x\in M[G]$ with $M[G]\models \phi(x)$.
+Then $x=\sigma^{G}$ for some $\sigma \in \mathrm{Name}^{\mathbb{P}}\cap M$.
+
