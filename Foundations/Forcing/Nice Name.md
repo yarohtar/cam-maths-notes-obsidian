@@ -7,10 +7,10 @@ $$
 \tau=\tau_{\mathcal{R}}=\{ (\check{\alpha},p) : p\in A_{\alpha}\in \mathcal{R} \}
 $$
 ## Theorem
-Let $G$ be a $\mathbb{P}$-[[Generic Filter]] over a [[Model]] $M\models ZFC$.
+Let $G$ be a $\mathbb{P}$-[[Generic Filter]] over a [[Transitive Model]] $M\models ZFC$.
 Then every subset of $\lambda$ in $M[G]$ has a nice name in $M$.
 ### Proof
-Fix $x=\mu^{G}$ for some $\mu$.
+Fix $\mu^{G}\subseteq \lambda$ for some [[Name]] $\mu \in M$.
 Suppose that $\mu$ is not a nice name.
 Fix $\alpha<\lambda$.
 Using [[Zorn's Lemma]] in $M$, 
@@ -28,12 +28,12 @@ $$
 $$
 which will finish the proof as $\tau_{\mathcal{R}}$ is a nice name.
 #### $\subseteq$
-If $\alpha \in \mathrm{val}(\tau_{\mathcal{R}},G)$ then by definition there is $p\in G$ such that 
+If $\alpha \in \tau_{\mathcal{R}}^{G}$ then by definition there is $p\in G$ such that 
 $$
 (\check{\alpha},p)\in \tau_{\mathcal{R}}
 $$
 We conclude that $(\check{\alpha},p)\in A_{\alpha}$ so $p\Vdash \check{\alpha}\in \mu$.
-Thus $\alpha \in \mathrm{val}(\mu,G)$.
+Thus $\alpha \in \mu^{G}$.
 #### $\supseteq$
 If $\alpha \in \mathrm{val}(\mu,G)$, by [[Forcing Relation]] find $q\in G$ 
 $$
