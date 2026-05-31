@@ -18,6 +18,7 @@ In particular a set in $P$ is open if and only if it is downwards closed.
 [[Compatible]]
 [[Incompatible]]
 [[Strong Antichain]]
+[[Maximal Strong Antichain]]
 [[Filter Base]]
 [[Filter]]
 [[Ultrafilter]]
