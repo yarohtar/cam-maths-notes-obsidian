@@ -7,7 +7,7 @@ A [[Poset]] $P$ has the $\kappa$-chain condition ($\kappa$-c.c.)
 if any [[Strong Antichain]] $A$ in $P$ has size $\lvert A \rvert<\kappa$
 
 If $\kappa=\aleph_{1}$ we call this the countable chain condition (c.c.c.).
-## Theorem
+### Theorem
 Let $M$ be a [[Transitive Model]] of $ZFC$,
 with $\kappa$ a cardinal in $M$ and a [[Forcing Partial Order]] $\mathbb{P}\in M$ such that
 $$
@@ -24,8 +24,8 @@ $$
 (\forall a\in A)\, f(a) \in F(a) \\
 M\models(\forall a\in A)\, \lvert F(a) \rvert <\kappa
 \end{gather}
-$$ 
-### Proof
+$$
+#### Proof
 Let $f=\tau^{G}$.
 Then 
 $$
@@ -64,7 +64,7 @@ But the function $b\to q_{b}$ is an injection from $F(a)$ to $Q_{a}$ thus
 $$
 M\models \lvert F(a) \rvert <\kappa
 $$
-## Corollary
+### Corollary
 If $\kappa$ is a [[Regular Cardinal]] in $M$ and 
 $$
 M\models \mathbb{P}\text{ has }\kappa\text{-c.c.}
@@ -73,7 +73,7 @@ then the [[Model Extension]] $M[G]$ has:
 $$
 M[G] \models \kappa\text{ is a cardinal}
 $$
-### Proof
+#### Proof
 Suppose not, so find $\lambda<\kappa$ with $f:\lambda \to \kappa$ surjective.
 By above theorem, find $F:\lambda \to \mathcal{P}(\kappa)$ with $F\in M$ and 
 $$

@@ -69,7 +69,7 @@ $$
 \aleph_{2}^{\aleph_{0}}=\aleph_{2}\cdot \aleph_{1}^{\aleph_{0}}=\max(\aleph_{2},2^{\aleph_{0}})
 \end{gather}
 $$
-So there is at most $\aleph_{2}$ [[Nice Name]]s of subsets of $\aleph_{0}$.
+So there is at most $\aleph_{2}$ [[Nice Name]]s of subsets of $\aleph_{0}$ in $M$.
 Thus we conclude 
 $$
 M[G]\models 2^{\aleph_{0}}\leq \aleph_{2}
