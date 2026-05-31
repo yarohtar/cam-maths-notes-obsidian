@@ -4,9 +4,9 @@ aliases:
   - c.c.c.
 ---
 A [[Forcing Partial Order]] $\mathbb{P}$ has the $\kappa$-chain condition 
-if any [[Antichain]] $A$ in $\mathbb{P}$ has size $\lvert A \rvert<\kappa$.
+if any [[Strong Antichain]] $A$ in $\mathbb{P}$ has size $\lvert A \rvert<\kappa$.
 
-If $\kappa=\aleph_{1}$ we call this the countable chain condition.
+If $\kappa=\aleph_{1}$ we call this the countable chain condition (c.c.c.).
 ## Theorem
 Let $M$ be a [[Model]] of $ZFC$ and 
 $$

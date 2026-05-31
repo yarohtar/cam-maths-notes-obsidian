@@ -20,13 +20,8 @@ so $G$ is both a $\mathcal{D}_{0}$-[[Generic Filter]] and a $\mathcal{D}_{1}$-[[
 We conclude that $\mathrm{dom}(f)=X$ and, as $X$ is infinite, $\mathrm{ran}(f)=Y$.
 Thus $f$ is a surjective function $X\to Y$.
 Suppose that $f\in M$.
-Then $G$ is $\{ N_{f} \}$-[[Generic Filter]] (by [[Finite Function Forcing]])
-
-Let $g:X\to Y$ with $g\in M$.
-Then $G$ is a $\{ N_{g} \}$-[[Generic Filter]] (as in [[Finite Function Forcing]])
-because $N_{g}\in M$.
-Thus $f\neq g$.
-So clearly $f\not\in M$, as we can run the same argument for any $g\in M$.
+Then $G$ is $\{ N_{f} \}$-[[Generic Filter]] (by [[Finite Function Forcing]]).
+But then $f=\bigcup G\neq f$ is a contradiction.
 
 We also know that [[Model Extension]]
 $$
