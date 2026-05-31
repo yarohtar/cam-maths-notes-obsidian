@@ -8,6 +8,16 @@ $$
 $$
 Then there is some $\mathcal{D}\subseteq \mathcal{R}$ such that $\lvert \mathcal{D} \rvert=\nu$ 
 and $\mathcal{D}$ is a [[Delta System]].
+### Proof
+WLOG assume that there is some $\rho<\kappa$ such that every $A\in \mathcal{R}$ has $\lvert A \rvert=\rho$.
+Now we go by induction on $\rho$.
+For $\rho=1$, we get that $\mathcal{R}$ is a $\Delta$ System with root $\varnothing$.
+Assume the result for $\rho$, we prove it for $\rho +1$. 
+If some $a\in \bigcup A$ has $\nu$ many $A\in \mathcal{R}$ with $a\in A$,
+then remove it from everywhere and apply induction hypothesis.
+So assume that every $a\in \bigcup A$ has $<\nu$ many $A\in \mathcal{R}$ with $a\in A$.
+Order $\mathcal{R}=\{ A_{\alpha} : \alpha<\nu \}$.
+
 ### Special case
 Let $\kappa=\omega$ and $\nu=\omega_{1}$.
 Every uncountable family of finite sets contains an uncountable [[Delta System]].
