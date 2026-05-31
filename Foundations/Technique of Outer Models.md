@@ -15,6 +15,6 @@
 [[Chain Condition]]
 [[Delta System]]
 [[Delta System Lemma]]
-[[Independence of the Continuum Hypothesis]]
 [[Nice Name]]
 [[Number of Nice Names]]
+[[Independence of the Continuum Hypothesis]]
