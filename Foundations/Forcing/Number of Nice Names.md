@@ -4,7 +4,7 @@ Let $\kappa$ be such that $\mathbb{P}$ has the $\kappa$-[[Chain Condition]].
 Thus there are at most $\mu^{<\kappa}$ many [[Antichain]]s.
 Thus there are at most 
 $$
-(\mu^{<\kappa})^{\lambda}
+\left\lvert (\mu^{<\kappa})^{\lambda} \right\rvert
 $$
 many [[Nice Name]]s.
 ### Corollary
