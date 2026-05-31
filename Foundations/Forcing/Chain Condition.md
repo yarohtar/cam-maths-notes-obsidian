@@ -39,9 +39,9 @@ Now define
 $$
 F(a) =\{ b\in B:(\exists q\leq p)\ q\Vdash\tau(\check{a})=\check{b} \}
 $$
-Now $M[G]\models \tau^{G}$
-Clearly $f(a)\in F(a)$ by the [[Forcing Relation]].
 Clearly $F\in M$.
+Now $M[G]\models \tau^{G}(\check{a}^{G})=\check{b}^{G}$ for some $b=f(a)\in B$ so some $q\in G$ has $q\Vdash \tau(\check{a})=\check{b}$.
+As $G$ is a [[Filter]], we find $r\leq p,q$ and $r\Vdash \tau(\check{a})=\check{b}$ so $b\in F(a)$. 
 For each $b\in F(a)$, consider 
 $$
 \{ q\leq p : q\Vdash\tau(\check{a})=\check{b} \} \neq \varnothing
@@ -51,7 +51,8 @@ Finally, write
 $$
 Q_{b}=\{ q_{b}: b\in F(a) \} \in M
 $$
-We can check that $Q_{a}$ is an [[Antichain]].
+We can check that $Q_{a}$ is an [[Antichain]]: 
+let $q,r\in Q_{a}$ and suppose some $s\leq q,r$. 
 But because $M\models \mathbb{P}\text{ has }\kappa\text{-c.c.}$ we conclude 
 $$
 M\models \lvert Q_{a} \rvert <\kappa
