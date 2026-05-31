@@ -104,80 +104,42 @@ Call this sentence $\phi_{r,\pi,s}$ and let $\phi_{r}$ be
 $$
 (\exists(\pi,s)\in \sigma)\ \phi_{r,\pi,s}
 $$
-Assume that $\phi_{r}$ for some $r\in G$ and thus find $(\pi,s)\in \sigma$ with $r\leq s$ 
+Define the set 
+$$
+D=\{ r : r \Vdash \sigma \subseteq \tau \lor \phi_{r} \}
+$$
+For any $p\in \mathbb{P}$, either $D_{\pi,s}(\tau)$ is always dense below $p$,
+in which case $p\Vdash \sigma \subseteq \tau$ so $p\in D$,
+or there is some $r\leq p$ with $\phi_{r}$, by previous analysis.
+We conclude that $D$ is dense so there is some $r\in D\cap G$.
+Assume that $\phi_{r}$ and thus find $(\pi,s)\in \sigma$ with $r\leq s$ 
 and for any $(\pi',s')\in \tau$ and any $q\in \mathbb{P}$ with $q\leq s'\land q\Vdash \pi=\pi'$ 
 we have $q \operatorname{\bot}r$.
 Then $s \in G$ so $\pi^{G}\in \sigma^{G}$ so $\pi^{G}\in \tau^{G}$, 
 so there is some $(\pi',s')\in \tau$ with $\pi'^{G}=\pi^{G}$ and $s'\in G$.
-By induction hypothesis, there is some $q\in G$ with $q\Vdash \pi=\pi'$.
-
-Thus if $D_{\pi,s}(\tau)$ is not dense below $r$, then $\phi_{r}$.
-Let 
-$$
-D=\{ r: r\Vdash \sigma \subseteq \tau \lor \phi_{r} \}
-$$
-For any $p\in \mathbb{P}$, if every $D_{\pi,s}(\tau)$ is dense below $p$ then $p\Vdash \sigma \subseteq \tau$,
-so any $r\leq p$ also forces it and thus $r\in D$. 
-Otherwise, some $D_{\pi,s}(\tau)$ 
-
-
-
-For any $r\in \mathbb{P}$ and $(\pi,s)\in \sigma$ define $\phi_{r,\pi,s}$ to be
-$$
-r\leq s \land (\forall(\pi',s')\in \tau)(\forall q)\ q\leq s' \land q \Vdash \pi =\pi' \implies q \operatorname{\bot} r
-$$
-Let $p\in \mathbb{P}$ and suppose $D_{\pi,s}(\tau)$ is not dense below $p$.
-Then there is some $q\leq p$ such that any $r\leq q$ has $r\leq s$
-
-
-Fix $r\in \mathbb{P}$ and $(\pi_{0},s_{0})\in \tau_{0}$.
-Define $\phi_{r,\pi_{0},s_{0}}$ to be 
-$$
-r\leq s_{0} \land (\forall (\pi_{1},s_{1})\in \tau_{1})\, (\forall q)\, q\leq s_{1} \land q\Vdash \pi_{0}=\pi_{1} \implies q \operatorname{\bot}r
-$$
-Furthermore, define $\phi_{r}$ to be
-$$
-(\exists(\pi_{0},s_{0})\in \tau_{0})\, \phi_{r,\pi_{0},s_{0}}
-$$
-We can check that if $D_{\pi_{0},s_{0}}$ is not dense below $p$
-then there is some $r\leq p$ such that $\phi_{r,\pi_{0},s_{0}}$.
-We conclude that the following set is [[Dense]]: 
-$$
-D=\{ p: p \Vdash \tau_{0}\subseteq \tau_{1} \text{ or } \phi_{p} \}
-$$
-Now suppose $\phi_{r}$ is true for some $r\in G$.
-Then find $(\pi_{0},s_{0})\in \tau_{0}$ such that $\phi_{r,\pi_{0},s_{0}}$ is true.
-As $r\leq s_{0}$ we find that $s_{0}\in G$ so 
-$$
-\mathrm{val}(\pi_{0},G) \in \mathrm{val}(\tau_{0},G)
-$$
-Thus by assumption: 
-$$
-\mathrm{val}(\pi_{0},G) \in \mathrm{val}(\tau_{1},G)
-$$
-By definition, find $(\pi_{1},s_{1})\in \tau_{1}$ such that $s_{1}\in G$ and $\mathrm{val}(\pi_{0},G)=\mathrm{val}(\pi_{1},G)$
-By induction hypothesis, find $q_{0}\in G$ such that 
-$$
-q_{0}\Vdash \pi_{0}=\pi_{1}
-$$
-Finally, find $q\leq q_{0},s_{1}$ with $q\in G$.
-Then $\phi_{r,\pi_{0},s_{0}}$ says that $q \operatorname{\bot}r$ which is a contradiction. 
-Therefore, $\phi_{r}$ is false for all $r\in G$.
-Now by density of $D$ we can find $r\in D\cap G$.
-As we know that $\phi_{r}$ is false, it has to be that 
-$$
-r\Vdash \tau_{0}\subseteq \tau_{1}
-$$
-which completes the proof.
+By induction hypothesis, there is some $q'\in G$ with $q'\Vdash \pi=\pi'$.
+But then there is some $q\in G$ with $q\leq s',q'$,
+and we get $q\Vdash \pi=\pi'$. 
+Then by above $q \operatorname{\bot}r$ which is a contradiction as they are both in $G$.
+We conclude that $\phi_{r}$ is false so $r\Vdash \sigma \subseteq \tau$. 
+This completes the proof.
 ### Claim 2
 Assuming [[#Claim 1]]:
 $$
-\mathrm{val}(\tau_{0},G) \in \mathrm{val}(\tau_{1},G) \iff (\exists p\in G)\, p\Vdash \tau_{0}\in \tau_{1}
+\sigma^{G}\in \tau^{G} \iff (\exists p\in G)\ p\Vdash \sigma \in \tau
 $$
 #### Proof
 By $\in$-induction.
 ##### $\implies$
-Assume $\mathrm{val}(\tau_{0},G)\in \mathrm{val}(\tau_{1},G)$.
+Assume $\sigma^{G}\in \tau^{G}$.
+Thus find some $(\pi,s)\in \tau$ with $\pi^{G}=\sigma^{G}$ and $s \in G$.
+By [[#Claim 1]], find $r\in G$ such that $r\Vdash \pi=\sigma$.
+Then find $p\leq r,s$ in $G$.
+Define the set 
+$$
+D=\{ q\leq p : (\exists(\pi,s)\in \tau)\ q\leq s\land q\Vdash \pi=\sigma \}
+$$
+No
 By definition, find some $(\pi,s)\in \tau_{1}$ such that $s \in G$ and $\mathrm{val}(\pi,G)=\mathrm{val}(\tau_{0},G)$.
 By [[#Claim 1]] find $r\in G$ such that $r\Vdash \pi=\tau_{0}$.
 Now find $p\leq s,r$ such that $p\in G$.
