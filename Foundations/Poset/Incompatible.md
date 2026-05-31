@@ -1,0 +1,1 @@
+Two elements $p,q\in P$ are [[Incompatible]]
