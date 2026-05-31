@@ -41,7 +41,7 @@ F(a) =\{ b\in B:(\exists q\leq p)\ q\Vdash\tau(\check{a})=\check{b} \}
 $$
 Clearly $F\in M$.
 Now $M[G]\models \tau^{G}(\check{a}^{G})=\check{b}^{G}$ for some $b=f(a)\in B$ so some $q\in G$ has $q\Vdash \tau(\check{a})=\check{b}$.
-As $G$ is a [[Filter]], we find $r\leq p,q$ and $r\Vdash \tau(\check{a})=\check{b}$ so $b\in F(a)$. 
+As $G$ is a [[Filter]], we find $r\leq p,q$ and so $r\Vdash \tau(\check{a})=\check{b}$ so $b\in F(a)$. 
 For each $b\in F(a)$, consider 
 $$
 \{ q\leq p : q\Vdash\tau(\check{a})=\check{b} \} \neq \varnothing
@@ -49,11 +49,12 @@ $$
 Using [[Axiom of Choice]] in $M$, pick $q_{b}\leq p$ with $q_{b}\Vdash\tau(\check{a})=\check{b}$
 Finally, write 
 $$
-Q_{b}=\{ q_{b}: b\in F(a) \} \in M
+Q_{a}=\{ q_{b}: b\in F(a) \} \in M
 $$
 We can check that $Q_{a}$ is an [[Antichain]]: 
-let $q,r\in Q_{a}$ and suppose some $s\leq q,r$. 
-But because $M\models \mathbb{P}\text{ has }\kappa\text{-c.c.}$ we conclude 
+let $q_{b},q_{c}\in Q_{a}$ for some $b,c\in F(a)$ and assume $r\leq q_{b},q_{c}$.
+Then $r\Vdash \tau(\check{a})=\check{b}$ and $r\Vdash \tau(\check{a})=\check{c}$ so $b=c$.
+But because $\mathbb{P}$ has $\kappa$-chain condition in $M$ we conclude
 $$
 M\models \lvert Q_{a} \rvert <\kappa
 $$
