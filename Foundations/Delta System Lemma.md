@@ -17,6 +17,11 @@ If some $a\in \bigcup A$ has $\nu$ many $A\in \mathcal{R}$ with $a\in A$,
 then remove it from everywhere and apply induction hypothesis.
 So assume that every $a\in \bigcup A$ has $<\nu$ many $A\in \mathcal{R}$ with $a\in A$.
 Order $\mathcal{R}=\{ A_{\alpha} : \alpha<\nu \}$.
+Then just build a chain of nonintersecting elements and use [[Cofinal]]ity.
+
+Now the limit case. 
+Assume the result for all $\rho<\lambda$.
+idk man does it even matter atp
 
 ### Special case
 Let $\kappa=\omega$ and $\nu=\omega_{1}$.
