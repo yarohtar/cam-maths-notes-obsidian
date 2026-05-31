@@ -25,7 +25,7 @@ M\models(\forall a\in A)\, \lvert F(a) \rvert <\kappa
 \end{gather}
 $$ 
 ### Proof
-Let $\tau$ be the [[Name]] for $f$ and $p\in \mathbb{P}$ with 
+Let $f=\tau^{G}$ and some $p\in \mathbb{P}\cap G$ with 
 $$
 p\Vdash\tau:\check{A}\to \check{B}
 $$
