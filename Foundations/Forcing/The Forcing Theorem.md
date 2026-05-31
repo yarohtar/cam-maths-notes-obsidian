@@ -190,4 +190,17 @@ then so it does for $(\exists x)\,\phi(x)$.
 Assume that $M[G]\models (\exists x)\ \phi(x)$.
 Thus take some $x\in M[G]$ with $M[G]\models \phi(x)$.
 Then $x=\sigma^{G}$ for some $\sigma \in \mathrm{Name}^{\mathbb{P}}\cap M$.
+Then there is some $p\in G$ with $p\Vdash \phi(\sigma)$.
+Thus any $r\leq p$ has $r\Vdash \phi(\sigma)$.
+We have proved $(\exists \sigma)\ r\Vdash \phi(\sigma)$ for all $r\leq p$ and thus $p\Vdash (\exists \sigma)\ \phi(\sigma)$.
+##### $\impliedby$
+Assume that $p\Vdash(\exists \sigma)\ \phi(\sigma)$ for some $p\in G$.
+Then 
+$$
+D = \{ r : (\exists \sigma)\ r\Vdash \phi(\sigma) \}
+$$
+is dense below $p$. 
+Thus there is some $q\in G\cap D$ and $\sigma$ with $q\Vdash \phi(\sigma)$.
+By assumption, then $M[G]\models \phi(\sigma^{G})$. 
+But then $M[G]\models(\exists x)\ \phi(x)$ so we are done.
 
