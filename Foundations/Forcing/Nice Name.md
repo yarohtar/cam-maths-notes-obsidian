@@ -13,6 +13,7 @@ Then every subset of $\lambda$ in $M[G]$ has a nice name in $M$.
 Fix $\mu^{G}\subseteq \lambda$ for some [[Name]] $\mu \in M$.
 Suppose that $\mu$ is not a nice name.
 Fix $\alpha<\lambda$.
+Then $\alpha^{G}\in \mu^{G}$ if and only if some $p\in G$ forces $\alpha \in \mu$.
 Using [[Zorn's Lemma]] in $M$, 
 build a [[Maximal Strong Antichain]] $A_{\alpha}\subseteq \mathbb{P}$ such that 
 $$
