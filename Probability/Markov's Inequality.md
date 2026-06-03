@@ -1,4 +1,4 @@
-Let $X$ be a random variable with $\mathbb{P}(X\geq 0)=1$ and let $a\geq 0$.
+Let $X$ be a real random variable with $\mathbb{P}(X\geq 0)=1$ and let $a\geq 0$.
 $$
 \mathbb{P}(X\geq a) \leq \frac{\mathbb{E}(X)}{a}
 $$
