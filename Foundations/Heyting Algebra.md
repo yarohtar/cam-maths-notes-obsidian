@@ -1,0 +1,1 @@
+Let $H$ be a bounded [[Lattice]] with a binary operation 
