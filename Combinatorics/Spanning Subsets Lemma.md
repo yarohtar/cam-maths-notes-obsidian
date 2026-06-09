@@ -22,7 +22,7 @@ $$
 $$
 Now suppose $m\geq n+2$ and let $w_{i}=(v_{i},v_{i}^{C})$ 
 (where $v_{i}^{C}$ is the indicator of the complement of $S_{i}$)
-Note that 
+Note that (TODO: FIX INDICES ...)
 $$
 w_{1}+w_{n+1}=\dots=w_{n}+w_{2n} =1
 $$

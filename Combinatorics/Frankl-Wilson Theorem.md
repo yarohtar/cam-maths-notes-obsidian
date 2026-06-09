@@ -30,7 +30,7 @@ Now define $f_{i}:\{ 0,1 \}^{n}\to \mathbb{F}_{p}$ by
 $$
 f_{i}(x) = f(x,\chi_{B_{i}}) = \prod_{l\in L} (x\cdot \chi_{B_{i}}-l)
 $$
-Note $f_{i}(\chi_{A_{i}})\neq 0$ but $f_{i}(\chi_{A_{i}})=0$ for all $j>i$.
+Note $f_{i}(\chi_{A_{i}})\neq 0$ but $f_{i}(\chi_{A_{j}})=0$ for all $j>i$.
 Define linear functionals 
 $$
 u_{j}(f) = f(\chi_{A_{j}})
