@@ -89,7 +89,7 @@ Then for some $r\leq p$ and all $q\leq r$ we have
 $$
 q\leq s \land (\forall(\pi',s')\in \tau)\ \neg(q\leq s'\land q\Vdash \pi=\pi')
 $$
-In particular, $r\leq s$ and for any $(\pi',s')\in \tau$ and any $q\in \mathbb{P}$
+In particular, we fix $r\leq s$ and for any $(\pi',s')\in \tau$ and any $q\in \mathbb{P}$
 $$
 q\leq s' \land q \Vdash \pi=\pi' \implies \neg(q\leq r)
 $$
