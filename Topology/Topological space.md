@@ -39,3 +39,4 @@ A subset of $X$ is closed if its complement is open.
 [[Connectedness]]
 [[Compact]]
 [[Sequentially Compact]]
+[[Idempo]]
