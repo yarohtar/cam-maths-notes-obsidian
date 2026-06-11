@@ -36,7 +36,3 @@ A subset of $X$ is closed if its complement is open.
 16. [[Quotient space]]
 
 ## More stuff
-[[Connectedness]]
-[[Compact]]
-[[Sequentially Compact]]
-[[Idempo]]
