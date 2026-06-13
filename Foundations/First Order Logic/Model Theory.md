@@ -18,4 +18,5 @@
 [[Ax-Grothendieck Theorem]]
 [[Lefshetz Principle]]
 [[Quantifier Elimination]]
+[[Formula Type]]
 
