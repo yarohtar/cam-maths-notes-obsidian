@@ -29,7 +29,7 @@ First bit is trivial.
 
 Let $p\in S_{n}^{\mathcal{M}}(A)$. 
 Then $p\in S_{n}(\mathrm{Th}_{A}(\mathcal{M}))$. 
-Let $x_{1},\dots,x_{n}$ such that $\mathcal{M}\models p(x_{1},\dots,x_{n})$.
+
 
 
 
