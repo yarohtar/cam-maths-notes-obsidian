@@ -6,6 +6,17 @@ $$
 \hat{b}=\{ x\in S(B): b\in x \}
 $$
 where $b\in B$.
+Note $\widehat{\neg b}=S(B)\setminus \widehat{b}$ so write $\widehat{\neg b}=\neg \hat{b}$
 They generate a topology on $S(B)$.
 ### Lemma
-The space $S(B)$ is [[Compact]], [[Hausdorff]] and [[Totally Disconnected]]
+The space $S(B)$ is [[Compact]], [[Hausdorff]] and [[Totally Disconnected]].
+#### Proof
+First let $x,y\in S(B)$. 
+They are distinct, so some $a\in B$ has $a\in x$ and $\neg a\in y$.
+Then $\hat{a}$ is an open [[Neighbourhood]] of $x$ and $\neg \hat{a}$ is an open neighbourhood of $y$.
+They are clearly disjoint so $S(B)$ is [[Hausdorff]].
+Also $\hat{a}\cup \neg \hat{a}=S(B)$.
+Thus $S(B)$ is [[Totally Disconnected]].
+
+To prove it is [[Compact]], consider a family of closed sets $(C_{j})_{j\in J}$ 
+with [[Finite Intersection Property]]
