@@ -19,4 +19,8 @@ Also $\hat{a}\cup \neg \hat{a}=S(B)$.
 Thus $S(B)$ is [[Totally Disconnected]].
 
 To prove it is [[Compact]], consider a family of closed sets $(C_{j})_{j\in J}$ 
-with [[Finite Intersection Property]]
+with [[Finite Intersection Property]].
+We can wlog take $(b_{j})_{j\in J}$ with $C_{j}=\widehat{b_{j}}$.
+For any finite $I\subseteq J$ we have $\bigwedge_{i\in I}b_{i}\neq \varnothing$.
+
+
