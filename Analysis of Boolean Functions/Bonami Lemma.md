@@ -13,7 +13,7 @@ $$
 $$
 Note also that $D_{n}f$ has degree at most $k-1$ as
 $$
-D_{n}f = \sum_{A\ni n} \hat{f}(A)\phi_{A\setminus \{ i \}}
+D_{n}f = \sum_{A\ni n} \hat{f}(A)\phi_{A\setminus \{ n \}}
 $$
 So 
 $$
