@@ -7,11 +7,14 @@ $$
 A\in \mathcal{U}\land B\in \mathcal{U} \implies A\cap B\in \mathcal{U}
 $$
 $$
-\varnothing \not\in \mathcal{U}
-$$
-$$
 A\in \mathcal{U}\iff J\setminus A\not\in \mathcal{U}
 $$
-We define 
+We define a quantifier meaning "for $\mathcal{U}$-most $x$" as follows:
+$$
+\forall_{\mathcal{U}}x\ \phi(x) \iff \{ j\in J: \phi(j) \} \in \mathcal{U}
+$$
+
+
+
 
  
