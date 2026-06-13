@@ -1,1 +1,1 @@
-A boolean algebra is a complemented [[di]]
+A boolean algebra is a complemented distributive [[Lattice]].
