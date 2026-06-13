@@ -9,7 +9,9 @@ a \in \mathcal{U} \iff \neg a\not\in \mathcal{U}
 $$
 (the last property is easy but not trivial)
 ### Lemma
-An [[Ultrafilter]] on $B$ is a homomorphism to $\{ 0,1 \}$.
+A set $\mathcal{U}\subseteq B$ is an [[Ultrafilter]] on $B$ 
+if and only if 
+the characteristic function $u:B\to \{ 0,1 \}$ of $\mathcal{U}$ is a homomorphism.
 #### Proof
 Let $\mathcal{U}$ be an [[Ultrafilter]] on a [[Boolean Algebra]] $B$.
 We prove that the characteristic function $u$ of $\mathcal{U}$ is a homomorphism.
@@ -28,7 +30,7 @@ $$
 u(\neg a)=0 \iff u(a)=1 \iff \neg u(a)=0
 $$
 so $u(\neg a)=\neg u(a)$.
-Finally, using previous parts:
+Finally, using the previous parts:
 $$
 \begin{align}
 u(a\lor b)=0  & \iff a\lor b\not\in \mathcal{U} \\
