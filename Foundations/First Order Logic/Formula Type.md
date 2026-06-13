@@ -29,6 +29,12 @@ First bit is trivial.
 
 Let $p\in S_{n}^{\mathcal{M}}(A)$. 
 Then $p\in S_{n}(\mathrm{Th}_{A}(\mathcal{M}))$. 
+Let $\Sigma$ be a finite subset of $\mathrm{Th}_{M}(\mathcal{M})$ and $\varphi ^{*}=\bigwedge_{\varphi \in \Sigma}\varphi$.
+Then $\mathcal{M}\models \varphi ^{*}$ and we can write $\varphi ^{*}=\varphi ^{*}(\bar{b})$
+as an $\mathcal{L}_{A}$ formula for some $\bar{b}\in (M\setminus A)^{m}$.
+Thus $(\exists \bar{v})\ \varphi ^{*}(\bar{v})$ is in $\mathrm{Th}_{A}(\mathcal{M})$.
+Let $\mathcal{N}$ be a model of $p$
+
 
 
 
