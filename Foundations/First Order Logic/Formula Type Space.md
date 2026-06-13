@@ -16,6 +16,18 @@ The elements of this space are $n$-[[Formula Type]]s.
 
 Moreover, if $\mathcal{M}$ is an $\mathcal{L}$-[[Structure]] and $A\subseteq M$ we define 
 $$
-S_{n}^{\mathcal{M}}(A)=S_{n}(\mathrm{Th}_{\mathcal{L}_{A}}(\mathcal{M}))
+S_{n}^{\mathcal{M}}(A)=S_{n}(\mathrm{Th}_{A}(\mathcal{M}))
 $$
+where $\mathrm{Th}_{A}(\mathcal{M})$ are all theorems of $\mathcal{M}$ when seen as an $\mathcal{L}_{A}$-[[Structure]] 
+for $\mathcal{L}_{A}$ the language $\mathcal{L}$ extended by constant symbols $\{ t_{a} : a\in A \}$
+and $t_{a}^{\mathcal{M}}=a$.
+
+Note that this is always defined as $\mathrm{Th}_{A}(\mathcal{M})$ is [[Consistent]]
+as it has a model $\mathcal{M}$.
+### Lemma
+Formula type space is [[Compact]] [[Hausdorff]] [[Totally Disconnected]].
+#### Proof
+Follows from [[Stone Space]].
+### Proposition
+
 

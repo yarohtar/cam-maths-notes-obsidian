@@ -9,4 +9,8 @@ Clearly $F_{n}$ is a [[Boolean Algebra]].
 An $n$-type over $T$ is a [[Boolean Algebra Ultrafilter]] on $F_{n}$,
 i.e. some $p\subseteq F_{n}$ such that $p$ is [[Consistent]] 
 and any $\varphi \in F_{n}$ has $[\varphi ] \in p$ or $[\neg \varphi ]\in p$.
-These are the elements of the [[Formula Type Space]]
+These are the elements of the [[Formula Type Space]].
+### Proposition
+Let $\mathcal{M}$ be a [[Model]] and $A\subseteq M$. 
+Let also $\bar{x}\in M^{n}$.
+Then 
