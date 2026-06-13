@@ -14,18 +14,22 @@ These are the elements of the [[Formula Type Space]].
 Let $\mathcal{M}$ be a [[Model]], $A\subseteq M$, and fix the language $\mathcal{L}_{A}$.
 Let also $\bar{x}\in M^{n}$ and define 
 $$
-\mathrm{tp}(\bar{x} / A) = \{ [\varphi]: \mathcal{M}\models \varphi(\bar{x}) \}
+\mathrm{tp}^{\mathcal{M}}(\bar{x} / A) = \{ [\varphi]: \mathcal{M}\models \varphi(\bar{x}) \}
 $$
 Then 
 $$
-\mathrm{tp}(\bar{x} / A) \in S_{n}^{\mathcal{M}}(A)
+\mathrm{tp}^{\mathcal{M}}(\bar{x} / A) \in S_{n}^{\mathcal{M}}(A)
 $$
 Moreover, for any $p\in S_{n}^{\mathcal{M}}(A)$, 
 there is an [[Elementary Extension]] $\mathcal{N}$ of $\mathcal{M}$
+with $\lvert N \rvert\leq \lvert M \rvert+\lvert \mathcal{L} \rvert+\aleph_{0}$
 and some $\bar{x}\in N^{n}$ such that $p=\mathrm{tp}^{\mathcal{N}}(\bar{x} / A)$.
 #### Proof
 First bit is trivial.
+
 Let $p\in S_{n}^{\mathcal{M}}(A)$. 
 Then $p\in S_{n}(\mathrm{Th}_{A}(\mathcal{M}))$. 
+Let $x_{1},\dots,x_{n}$ such that $\mathcal{M}\models p(x_{1},\dots,x_{n})$.
+
 
 
