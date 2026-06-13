@@ -12,12 +12,30 @@ $$
 An [[Ultrafilter]] on $B$ is a homomorphism to $\{ 0,1 \}$.
 #### Proof
 Let $\mathcal{U}$ be an [[Ultrafilter]] on a [[Boolean Algebra]] $B$.
-We prove that the characteristic function $u$ of $\mathcal{U}$ is a homomorphism:
+We prove that the characteristic function $u$ of $\mathcal{U}$ is a homomorphism.
+Let $a,b\in B$.
 $$
-u(a\land b)=1 \iff a\land b\in \mathcal{U} \iff a\in \mathcal{U}\land b\in \mathcal{U} \iff u(a)=1 \land u(b)=1
+\begin{align}
+u(a\land b)=1  & \iff a\land b\in \mathcal{U}  \\
+ & \iff a\in \mathcal{U}\land b\in \mathcal{U}  \\
+ & \iff u(a)=1 \land u(b)=1  \\
+ & \iff u(a)\land u(b)=1
+\end{align}
 $$
-[[Stone Space]]
-
-
-
- 
+thus $u(a\land b)=u(a)\land u(b)$.
+Also 
+$$
+u(\neg a)=0 \iff u(a)=1 \iff \neg u(a)=0
+$$
+so $u(\neg a)=\neg u(a)$.
+Finally, using previous parts:
+$$
+\begin{align}
+u(a\lor b)=0  & \iff a\lor b\not\in \mathcal{U} \\
+ & \iff \neg(a\lor b)\in \mathcal{U} \\
+ & \iff \neg a\land \neg b \in \mathcal{U} \\
+ & \iff \neg u(a)\land \neg u(b)=1 \\
+ & \iff \neg(u(a)\lor u(b))=1 \\
+ & \iff u(a)\lor u(b)=0
+\end{align}
+$$
