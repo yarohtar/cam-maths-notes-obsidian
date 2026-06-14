@@ -9,7 +9,10 @@ $$
 \mathrm{Stab}_{\rho}f=\sum_{A\subseteq[n]}\rho^{\lvert A \rvert }\hat{f}(A)^{2}
 $$
 ### Lemma
+Let $\rho=\frac{\sigma^{2}}{3}$
 $$
-\mathrm{Stab}_{\rho}f 
+\mathrm{Stab}_{\rho}f \leq \lVert f \rVert ^{2}_{4 / 3}
 $$
+#### Proof
+By [[Bonami Lemma]].
 
