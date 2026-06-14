@@ -22,12 +22,17 @@ S\leq (\mathrm{Inf}_{i}f)^{1/2} I(f)
 $$
 For the lower bound, use:
 $$
-\mathrm{Stab}_{\sigma^{2} /3}(D_{i}f) = \sum_{A\subseteq[n]} \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert } \widehat{D_{i}f}(A)
+\mathrm{Stab}_{\sigma^{2} /3}(D_{i}f) = \sum_{A\subseteq[n]} \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert } \widehat{D_{i}f}(A)^{2}
 $$
 and note 
 $$
 \widehat{D_{i}f}(A) = \begin{cases}
-0 & i\not\in A \\
-
+0 & i\in A \\
+\hat{f}(A\cup \{ i \}) & i\not\in A
 \end{cases}
 $$
+By swapping sums, find
+$$
+S=\sum_{A\subseteq[n]} \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert } \sum_{i\not\in A} \hat{f}(A\cup \{ i \})
+$$
+
