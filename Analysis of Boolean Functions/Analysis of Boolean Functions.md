@@ -13,6 +13,7 @@
 [[The Kahn-Kalai-Linial Theorem]]
 [[Friedgut Junta Theorem]]
 [[Intersecting Family]]
+[[Averaging Projection]]
 [[Quasirandom Boolean Function]]
 [[Averaging Projection]]
 [[Mean Square Density]]
