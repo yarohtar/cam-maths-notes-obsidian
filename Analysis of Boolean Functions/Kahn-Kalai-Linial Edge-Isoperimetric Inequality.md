@@ -31,8 +31,11 @@ $$
 \hat{f}(A\cup \{ i \}) & i\not\in A
 \end{cases}
 $$
-By swapping sums, find
+Now map $A\to A\cup \{ i \}$ and sum over $i$ to find
 $$
-S=\sum_{A\subseteq[n]} \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert } \sum_{i\not\in A} \hat{f}(A\cup \{ i \})
+\begin{align}
+S & =\sum_{i} \sum_{A\ni i} \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert -1} \hat{f}(A) \\
+ & =\sum_{A} \lvert A \rvert \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert -1} \hat{f}(A)
+\end{align}
 $$
 
