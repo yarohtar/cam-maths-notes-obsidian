@@ -1,7 +1,7 @@
 Let $f:\{ -1,1 \}^{n}\to \{ -1,1 \}$ be a boolean function on the $p$-[[Biased Cube]].
 Then there is some $i$ such that 
 $$
-\mathrm{Inf}_{i}f \geq \frac{9}{\tilde{I}(f)^{2}} \cdot 9^{-\tilde{I}(f)}
+\mathrm{Inf}_{i}f \geq \frac{1}{\tilde{I}(f)^{2}} \cdot \left( \frac{\sigma^{4}}{9} \right)^{\tilde{I}(f)-1}
 $$
 where $\tilde{I}=\frac{I(f)}{\mathrm{Var}(f)}$ is the scaled total [[Influence]].
 #### Proof
@@ -47,7 +47,18 @@ $$
 $$
 and $x\to\left( \frac{\sigma^{2}}{3} \right)^{x}$ is convex so using [[Jensen's Inequality]]:
 $$
-\frac{3\mathrm{Var}f}{\sigma^{2}} 
+\begin{align}
+S & \geq\frac{3\mathrm{Var}f}{\sigma^{2}} \left( \frac{\sigma^{2}}{3} \right)^{\sum_{A}\lvert A \rvert \hat{f}(A)^{2} / \mathrm{Var}f} \\
+ & = \frac{3\mathrm{Var}f}{\sigma^{2}}\left( \frac{\sigma^{2}}{3} \right)^{\tilde{I}(f)}
+\end{align}
+$$
+and from before
+$$
+S\leq(\mathrm{Inf}_{i}f)^{1/2}I(f)
+$$
+so rearranging gives
+$$
+\mathrm{Inf}_{i}f \geq \frac{1}{\tilde{I}(f)^{2}} \left( \frac{\sigma^{4}}{9} \right)^{\tilde{I}(f)-1}
 $$
 
 
