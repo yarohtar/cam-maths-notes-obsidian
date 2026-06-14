@@ -8,4 +8,8 @@ $$
 $$
 \mathrm{Stab}_{\rho}f=\sum_{A\subseteq[n]}\rho^{\lvert A \rvert }\hat{f}(A)^{2}
 $$
+### Lemma
+$$
+\mathrm{Stab}_{\rho}f 
+$$
 
