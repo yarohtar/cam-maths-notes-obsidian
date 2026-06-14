@@ -34,8 +34,16 @@ $$
 Now map $A\to A\cup \{ i \}$ and sum over $i$ to find
 $$
 \begin{align}
-S & =\sum_{i} \sum_{A\ni i} \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert -1} \hat{f}(A) \\
- & =\sum_{A} \lvert A \rvert \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert -1} \hat{f}(A)
+S & =\sum_{i} \sum_{A\ni i} \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert -1} \hat{f}(A)^{2} \\
+ & =\sum_{A} \lvert A \rvert \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert -1} \hat{f}(A)^{2} \\
+ & \geq \frac{3}{\sigma^{2}} \sum_{A\neq \varnothing} \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert } \hat{f}(A)^{2}
 \end{align}
 $$
+Now note that 
+$$
+\begin{align}
+\mathrm{Var}f = \sum_{A\neq \varnothing} \hat{f}(A)^{2}
+\end{align}
+$$
+and $x\to\left( \frac{\sigma^{2}}{3} \right)^{}$
 
