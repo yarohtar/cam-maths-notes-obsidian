@@ -31,7 +31,7 @@ By [[Margulis-Russo Formula]] it follows
 $$
 I(f^{(s)}) \leq \frac{1}{\zeta}
 $$
-By the $s$-biased [[Friedgut Junta Theorem]] 
+By the $s$-biased [[Friedgut Junta Inequality]] 
 we can find a boolean $J$-[[Junta]] $h$ 
 such that 
 $$

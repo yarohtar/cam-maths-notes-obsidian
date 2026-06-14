@@ -9,8 +9,8 @@ If $\tilde{I}(f)\geq c\log n$ we are done as some influence is bigger than the a
 Otherwise have
 $$
 \begin{align}
-\mathrm{Inf}_{i}f & \geq \frac{1}{\tilde{I}(f)^{2}} \left( \frac{\sigma^{4}}{9} \right)^{\tilde{I}(f)-1}  \\
- & \geq \frac{1}{c^{2}\log ^{2}n}\left( \frac{\sigma^{4}}{9} \right)^{c\log n-1} \\
+\mathrm{Inf}_{i}f & \geq \frac{\sigma^{2}}{\tilde{I}(f)^{2}} \left( \frac{\sigma^{4}}{9} \right)^{\tilde{I}(f)-1}  \\
+ & \geq \frac{\sigma^{2}}{c^{2}\log ^{2}n}\left( \frac{\sigma^{4}}{9} \right)^{c\log n-1} \\
  & \gg \frac{ \log n }{ n }
 \end{align}
 $$

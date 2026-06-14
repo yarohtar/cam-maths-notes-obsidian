@@ -1,7 +1,7 @@
 Let $f:\{ -1,1 \}^{n}\to \{ -1,1 \}$ be a boolean function on the $p$-[[Biased Cube]].
 Then there is some $i$ such that 
 $$
-\mathrm{Inf}_{i}f \geq \frac{1}{\tilde{I}(f)^{2}} \cdot \left( \frac{\sigma^{4}}{9} \right)^{\tilde{I}(f)-1}
+\mathrm{Inf}_{i}f \geq \frac{\sigma^{2}}{\tilde{I}(f)^{2}} \cdot \left( \frac{\sigma^{4}}{9} \right)^{\tilde{I}(f)-1}
 $$
 where $\tilde{I}=\frac{I(f)}{\mathrm{Var}(f)}$ is the scaled total [[Influence]].
 #### Proof
@@ -11,14 +11,18 @@ S=\sum_{i=1}^{n} \mathrm{Stab}_{\frac{\sigma^{2}}{3}}(D_{i}f)
 $$
 Where $\mathrm{Stab}$ is [[Stability]].
 It follows from [[Bonami Lemma]] that $\mathrm{Stab}_{\sigma^{2} / 3}(D_{i}f)\leq \lVert D_{i}f \rVert_{4 /3}^{2}$.
-Then $D_{i}f(x)\in \{ -1,0,1 \}$ so $D_{i}f(x)^{4/3}=D_{i}f^{2}$ so
+Then $D_{i}f(x)\in \{ -\sigma,0,\sigma \}$ so 
 $$
-\mathrm{Stab}_{\sigma^{2} / 3}(D_{i}f) \leq \lVert D_{i}f^{2} \rVert^{3 / 2} = (\mathrm{Inf}_{i}f)^{3/2}
+\left( \frac{D_{i}f(x)}{\sigma} \right)^{4/3}=\left( \frac{D_{i}f}{\sigma} \right)^{2}
+$$
+and we conclude $(D_{i}f)^{4/3}=(D_{i}f)^{2}\sigma^{-2/3}$ so:
+$$
+\mathrm{Stab}_{\sigma^{2} / 3}(D_{i}f) \leq \lVert D_{i}f^{2} \rVert^{3 / 2}\sigma^{-1} = (\mathrm{Inf}_{i}f)^{3/2}\sigma^{-1}
 $$
 by definition of [[Influence]].
 Let $i=\mathrm{argmax}_{j}\ \mathrm{Inf}_{j}f$ and conclude 
 $$
-S\leq (\mathrm{Inf}_{i}f)^{1/2} I(f)
+S\leq \sigma^{-1}(\mathrm{Inf}_{i}f)^{1/2} I(f)
 $$
 For the lower bound, use:
 $$
@@ -54,11 +58,11 @@ S & \geq\frac{3\mathrm{Var}f}{\sigma^{2}} \left( \frac{\sigma^{2}}{3} \right)^{\
 $$
 and from before
 $$
-S\leq(\mathrm{Inf}_{i}f)^{1/2}I(f)
+S\leq \sigma^{-1}(\mathrm{Inf}_{i}f)^{1/2}I(f)
 $$
 so rearranging gives
 $$
-\mathrm{Inf}_{i}f \geq \frac{1}{\tilde{I}(f)^{2}} \left( \frac{\sigma^{4}}{9} \right)^{\tilde{I}(f)-1}
+\mathrm{Inf}_{i}f \geq \frac{\sigma^{2}}{\tilde{I}(f)^{2}} \left( \frac{\sigma^{4}}{9} \right)^{\tilde{I}(f)-1}
 $$
 
 
