@@ -13,11 +13,21 @@ Where $\mathrm{Stab}$ is [[Stability]].
 It follows from [[Bonami Lemma]] that $\mathrm{Stab}_{\sigma^{2} / 3}(D_{i}f)\leq \lVert D_{i}f \rVert_{4 /3}^{2}$.
 Then $D_{i}f(x)\in \{ -1,0,1 \}$ so $D_{i}f(x)^{4/3}=D_{i}f^{2}$ so
 $$
-\mathrm{Stab}_{\sigma^{2} / 3}(D_{i}f) \leq \lVert D_{i}f^{2} \rVert = \mathrm{Inf}_{i}f
+\mathrm{Stab}_{\sigma^{2} / 3}(D_{i}f) \leq \lVert D_{i}f^{2} \rVert^{3 / 2} = (\mathrm{Inf}_{i}f)^{3/2}
 $$
 by definition of [[Influence]].
-We conclude 
+Let $i=\mathrm{argmax}_{j}\ \mathrm{Inf}_{j}f$ and conclude 
 $$
-S\leq I(f)
+S\leq (\mathrm{Inf}_{i}f)^{1/2} I(f)
 $$
+For the lower bound, use:
+$$
+\mathrm{Stab}_{\sigma^{2} /3}(D_{i}f) = \sum_{A\subseteq[n]} \left( \frac{\sigma^{2}}{3} \right)^{\lvert A \rvert } \widehat{D_{i}f}(A)
+$$
+and note 
+$$
+\widehat{D_{i}f}(A) = \begin{cases}
+0 & i\not\in A \\
 
+\end{cases}
+$$
