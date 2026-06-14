@@ -45,5 +45,6 @@ $$
 \mathrm{Var}f = \sum_{A\neq \varnothing} \hat{f}(A)^{2}
 \end{align}
 $$
-and $x\to\left( \frac{\sigma^{2}}{3} \right)^{}$
+and $x\to\left( \frac{\sigma^{2}}{3} \right)^{x}$ is convex? so using [[Jensen's Inequality]]:
+
 
