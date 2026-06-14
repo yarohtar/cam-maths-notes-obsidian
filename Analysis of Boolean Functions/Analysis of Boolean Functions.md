@@ -12,7 +12,7 @@
 [[The Kahn-Kalai-Linial Edge-Isoperimetric Inequality]]
 [[The Kahn-Kalai-Linial Theorem]]
 [[Friedgut Junta Inequality]]
-[[]]
+[[Friedgut Junta Theorem]]
 [[Intersecting Family]]
 [[Averaging Projection]]
 [[Quasirandom Boolean Function]]
