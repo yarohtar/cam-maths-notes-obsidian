@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Homepage","created":"2025-10-11T02:26:36.961+01:00","cssclasses":""}
+{"publish":true,"title":"Cambridge Maths Notes","created":"2025-10-11T02:26:36.961+01:00","cssclasses":""}
 ---
 On this website you will find my notes as I write them throughout my time in Cambridge.
 
